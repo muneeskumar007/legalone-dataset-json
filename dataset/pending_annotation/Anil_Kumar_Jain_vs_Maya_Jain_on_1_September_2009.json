@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Anil_Kumar_Jain_vs_Maya_Jain_on_1_September_2009.PDF",
   "total_pages": 7,
-  "extracted_at": "2026-06-13T19:51:26.467576",
+  "extracted_at": "2026-06-16T11:34:00.228272",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Court at Chhindwara, Civil Suit No.167-A of 2004",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anil Kumar Jain vs Maya Jain on 1 September, 2009",
+  "case_name": "Anil Kumar Jain vs Maya Jain",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anil Kumar Jain, husband",
+    "respondent_defendant": "Maya Jain, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1985 and decided to obtain a decree of mutual divorce due to differences between them. They filed a joint petition for divorce under Section 13-B of the Hindu Marriage Act, 1955. The trial court dismissed the petition after the respondent wife withdrew her consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The consent given by the parties to the filing of a petition for mutual divorce must subsist till a decree is passed on the petition.",
+      "held": "This Court held that the consent given by the parties to the filing of a petition for mutual divorce had to subsist till a decree was passed on the petition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smt. Sureshta Devi vs. Om Prakash, (1991) 2 SCC 25"
+      ],
       "keywords": [
-        "TODO"
+        "consent",
+        "mutual divorce",
+        "petition",
+        "decree"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "If either of the parties withdraws consent before passing of the final decree, the petition under Section 13-B of the Hindu Marriage Act would not survive and would have to be dismissed.",
+      "held": "This Court held that in the event, either of the parties withdrew the consent before passing of the final decree, the petition under Section 13-B of the Hindu Marriage Act would not survive and would have to be dismissed.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13-B"
+      ],
+      "cited_cases": [
+        "Smt. Sureshta Devi vs. Om Prakash, (1991) 2 SCC 25"
+      ],
+      "keywords": [
+        "consent",
+        "withdrawal",
+        "petition",
+        "final decree"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Supreme Court set aside the order of the trial court and granted the decree of mutual divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "mutual divorce",
+    "consent withdrawal",
+    "decree passing",
+    "petitioner consent",
+    "divorce petition",
+    "marriage rites",
+    "Indian Kanoon",
+    "Supreme Court",
+    "SC judgment",
+    "family law",
+    "civil appeal",
+    "special leave petition",
+    "CIVIL APPEAL NO.5952 OF 2009",
+    "SLP (CIVIL)NO.14361 OF 2007"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on consent withdrawal",
+    "appealing SC judgments"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:03:37.935354"
 }

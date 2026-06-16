@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Jayakumari_vs_Balachander_on_21_April_2010.PDF",
   "total_pages": 13,
-  "extracted_at": "2026-06-13T19:53:47.446488",
+  "extracted_at": "2026-06-16T11:35:45.667759",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -28,13 +28,13 @@
     "O.P.No.1596 of 1997",
     "C.C.No.630 of 1998"
   ],
-  "trial_court": "",
+  "trial_court": "I Additional Family Judge, Chennai - HMOP.No.1596 of 1997",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jayakumari vs Balachander on 21 April, 2010",
+  "case_name": "Jayakumari vs Balachander",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant-wife (Jayakumari)",
+    "respondent_defendant": "Respondent-husband (Balachander)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the Petitioner-husband and Respondent-wife was solemnized on 04.12.1994. The Petitioner-husband filed a petition for dissolution of marriage under Sec.13(1) (i-a) of Hindu Marriage Act, alleging cruelty by the Respondent-wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,98 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the respondent to prove that she was treated cruelly.",
+      "held": "Finding that Respondent-wife treated the Petitioner-husband cruelly, trial Court arrived at the conclusion of 'cruelty' mainly on the following grounds:-",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A respondent's conduct can be considered cruel if she leaves the matrimonial house without informing her husband.",
+      "held": "Respondent has left the matrimonial house without informing him.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "matrimonial house"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Filing a private complaint with false allegations of demand of dowry can be considered cruel.",
+      "held": "Respondent has filed private complaint making false allegation of demand of dowry which was taken on file in C.C.No.630/1998",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "dowry",
+        "private complaints"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "this Appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Family Court has allowed the Petition filed under Sec.13 (1) (i-a) of Hindu Marriage Act dissolving the marriage of the Appellant-wife and Respondent-husband on the ground of cruelty.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Sec.13(1)(i-a)",
+    "family courts",
+    "marriage dissolution",
+    "Indian Kanoon",
+    "Family Courts Act",
+    "Chennai",
+    "Maduvankarai",
+    "Pillayar Koil street",
+    "No.49-A",
+    "1st Cross Road",
+    "cohabitation",
+    "husband and wife",
+    "petition for dissolution",
+    "Latin maxim: 'actus curiae neminem ordering'",
+    "judgment",
+    "appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on grounds for divorce in Chennai courts",
+    "assisting with appeal against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:13:18.871614"
 }

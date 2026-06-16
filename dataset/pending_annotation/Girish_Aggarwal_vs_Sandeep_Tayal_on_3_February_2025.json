@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Girish_Aggarwal_vs_Sandeep_Tayal_on_3_February_2025.PDF",
   "total_pages": 8,
-  "extracted_at": "2026-06-13T19:53:13.263297",
+  "extracted_at": "2026-06-16T11:35:19.758795",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 8,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Judicial Magistrate First Class, North-West, Rohini, Delhi CNR No. DLNW020141912016 CC No. 23554/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Girish Aggarwal vs Sandeep Tayal on 3 February, 2025",
+  "case_name": "Girish Aggarwal vs Sandeep Tayal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Girish Aggarwal (Director) M/s Nikunj Woods Pvt Ltd.",
+    "respondent_defendant": "Sandeep Tayal (Proprietor) M/s Vinayak Sales Corporation",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant supplied goods to accused and issued cheques for payment. Cheques were dishonoured and complainant sent legal notice which was refused. Present complaint filed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The statutory presumption of existence of legal liability lies in favour of the complainant.",
+      "held": "It is argued that the statutory presumption of existence of legal liability lies in favour of the complainant and accused has failed to rebut the same.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881 — Section 138"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "statutory",
+        "presumption",
+        "liability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The accused has the burden to raise a probable defence during trial.",
+      "held": "It is argued that accused has failed to raise any probable defence during the trial.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881 — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "probable",
+        "defence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Convicted",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "dishonour of cheques",
+    "UCO Bank",
+    "NI Act",
+    "criminal procedure code",
+    "complaint under section 138",
+    "plea not guilty",
+    "conviction",
+    "judicial magistrate first class",
+    "rohini court",
+    "delhi",
+    "cheque dishonour",
+    "negotiable instruments",
+    "bounced cheques",
+    "criminal case",
+    "civil case"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under section 138 of the NI Act",
+    "defending against a cheque bounce complaint",
+    "appealing a conviction for cheque dishonour"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:50:40.687127"
 }

@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "G_Anuradha_vs_G_Narayana_Rao_on_26_September_1996.PDF",
   "total_pages": 10,
-  "extracted_at": "2026-06-13T19:53:19.779597",
+  "extracted_at": "2026-06-16T11:35:24.565455",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "G. Anuradha vs G. Narayana Rao on 26 September, 1996",
+  "case_name": "G. Anuradha vs G. Narayana Rao",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "G. Anuradha (wife)",
+    "respondent_defendant": "G. Narayana Rao (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife, G. Anuradha, married the husband, G. Narayana Rao, in 1989. The husband filed an application for annulment of marriage on the ground that the wife was suffering from a disease known as 'Hyper Prolactinemia with Galloctorrhea' and incapable of bearing children. The trial court granted the decree of annulment under Section 12(1) (c) and (b) of the Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,103 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage can be annulled if the consent of one party was obtained by wilful suppression of material facts.",
+      "held": "The consent of the respondent for the marriage has been obtained by wilful suppression of the above material facts relating to the appellant and as such the marriage is liable to be annulled.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "suppression",
+        "material facts",
+        "marriage annulment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A disease that renders a person unfit for normal conjugal life can be a ground for annulment of marriage.",
+      "held": "It is impossible and abhorrent for the husband to have any sexual happiness with her and that she is also incapable of begetting children.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 12"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "disease",
+        "conjugal life",
+        "marriage annulment"
+      ],
+      "favourites": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A petition for annulment of marriage must be filed within the time specified in the relevant Act.",
+      "held": "The O.P. was immediately filed on 24-1-1992 well within the period of limitation.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 12(2)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition",
+        "annulment",
+        "time limit"
+      ],
+      "favourites": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "annulment of marriage",
+    "Section 12(1)(c)",
+    "Section 12(1)(b)",
+    "Hyper Prolactinemia with Galloctorrhea",
+    "fraud",
+    "wilful suppression",
+    "consent for marriage",
+    "consummation",
+    "anaemia",
+    "harmonal problems",
+    "lactation",
+    "menstruation",
+    "incapable of bearing children",
+    " Thermal Power Station",
+    "Paloncha",
+    "Khammam District",
+    "Guntur"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting annulment petitions",
+    "advising on consent for marriage",
+    "representing clients with medical issues"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:44:40.103590"
 }

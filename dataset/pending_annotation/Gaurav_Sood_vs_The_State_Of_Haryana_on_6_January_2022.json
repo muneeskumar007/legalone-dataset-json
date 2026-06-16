@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Gaurav_Sood_vs_The_State_Of_Haryana_on_6_January_2022.PDF",
   "total_pages": 2,
-  "extracted_at": "2026-06-13T19:53:09.867751",
+  "extracted_at": "2026-06-16T11:35:16.975025",
   "domain": "murder_criminal",
-  "sub_domain": "",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "murder_criminal": 2
   },
@@ -20,17 +20,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gaurav Sood vs The State Of Haryana on 6 January, 2022",
+  "case_name": "Gaurav Sood vs The State Of Haryana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gaurav Sood, accused in a check bouncing case",
+    "respondent_defendant": "State of Haryana",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Accused in a check bouncing case has come up before this Court for quashing of the same. The matter has been compromised out of Court between the parties, but because of the stay order given by this Court further proceedings cannot proceed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -40,39 +40,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition to quash proceedings is premature if the compromise is not accepted by the Trial Court.",
+      "held": "Thus, this petition is prematured as on now.",
       "applicable_acts_sections": [
-        "TODO"
+        "IPC — Section 174-A"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "Trial Court",
+        "quashing"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type: quashing proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party seeking to quash proceedings must bring the compromise to the notice of the Trial Court.",
+      "held": "Consequently, let the parties get the complaint quashed by bringing this compromise to the notice of the Trial Court",
+      "applicable_acts_sections": [
+        "IPC — Section 174-A"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "quashing",
+        "compromise",
+        "Trial Court"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "case type: quashing proceedings"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Petition disposed of",
+    "final_order": "No coercive steps shall be taken against the petitioner in the present FIR and the petitioner shall be at liberty to file a fresh petition in this Court after the compromise.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "Section 174-A",
+    "compromise",
+    "quashing",
+    "check bouncing",
+    "stay order",
+    "High Court of Punjab & Haryana",
+    "Chandigarh",
+    "CRM-M-51372-2021",
+    "January 06, 2022",
+    "Gaurav Sood",
+    "State of Haryana",
+    "Anoop Chitkara J",
+    "Oral"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a compromise agreement",
+    "quashing criminal proceedings",
+    "appealing a stay order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:49:04.106652"
 }

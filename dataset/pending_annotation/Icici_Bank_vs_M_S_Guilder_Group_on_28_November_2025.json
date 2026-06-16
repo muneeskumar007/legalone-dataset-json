@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Icici_Bank_vs_M_S_Guilder_Group_on_28_November_2025.PDF",
   "total_pages": 62,
-  "extracted_at": "2026-06-13T19:53:36.066819",
+  "extracted_at": "2026-06-16T11:35:36.720171",
   "domain": "land_acquisition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "land_acquisition",
   "domain_scores": {
     "cheque_bounce": 2,
     "partition": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Surinder S. Rathi, District Judge (Comm.)-11 Central, THC, Delhi - CS (Comm.) No. 371/2022",
   "reserved_on": "",
   "delivered_on": "13.12.2023",
-  "case_name": "Icici Bank vs M/S Guilder Group on 28 November, 2025",
+  "case_name": "Icici Bank vs M/S Guilder Group",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "ICICI Bank Ltd., a private bank, for recovery of Rs.17,22,630/- along with interest @ 24% per annum as unpaid dues of loan amount.",
+    "respondent_defendant": "M/s Guilder Group, Bharat Sharma, and Kanhiya Sharma, partners of M/s Guilder Group",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -81,7 +81,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "ICICI Bank granted a personal loan of Rs.15 Lakhs to M/s Guilder Group after execution of loan documents. The loan was repayable in 36 Equated Monthly Installments (EMIs) of Rs.52,874/-.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -91,39 +91,92 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An agreement enforceable by law is a contract.",
+      "held": "Section 2 (h) Indian Contract Act, 1872 defines the term Contract as an agreement enforceable by law is a contract.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Contract Act, 1872 — Section 2(h)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "contract",
+        "agreement",
+        "enforceability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land acquisition",
+        "dispute resolution"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "For an agreement to be a valid contract, certain elements must be present, including: Offer and Acceptance, Consideration, Intention to Create Legal Relations, Legal Capacity, Meeting of Minds, Free Consent, and Lawful Object.",
+      "held": "Plain reading of the above shows essentials of a valid contract as under:",
+      "applicable_acts_sections": [
+        "Indian Contract Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "valid contract",
+        "elements",
+        "offer",
+        "acceptance",
+        "consideration",
+        "intention",
+        "capacity",
+        "meeting of minds",
+        "free consent",
+        "lawful object"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "land acquisition",
+        "dispute resolution"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Dismissed",
+    "final_order": "The suit is dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Code of Civil Procedure",
+    "Code of Criminal Procedure",
+    "Indian Evidence Act",
+    "Specific Relief Act",
+    "loan",
+    "personal loan",
+    "Equated Monthly Installments",
+    "EMIs",
+    "interest",
+    "unpaid dues",
+    "banking",
+    "judgment",
+    "dismissed",
+    "recovery",
+    "plaintiff",
+    "defendant",
+    "loan documents",
+    "court judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint for recovery of loan",
+    "responding to a complaint for loan recovery",
+    "advising on loan repayment options"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:02:28.083428"
 }

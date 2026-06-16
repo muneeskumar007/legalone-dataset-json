@@ -5,7 +5,7 @@
   "source_url": "",
   "pdf_filename": "Icici_Bank_Ltd_vs_Narsingh_on_9_January_2024.PDF",
   "total_pages": 4,
-  "extracted_at": "2026-06-13T19:53:30.392004",
+  "extracted_at": "2026-06-16T11:35:32.601860",
   "domain": "land_acquisition",
   "sub_domain": "cheque_bounce",
   "domain_scores": {
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Civil Judge-06, (Central), Tis Hazari Courts, Delhi - CS SCJ No. : 2271/18",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Icici Bank Ltd vs Narsingh on 9 January, 2024",
+  "case_name": "Icici Bank Ltd vs Narsingh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "ICICI Bank Limited, Through its Authorized Representative Sh. Mohit Grover",
+    "respondent_defendant": "Nar Singh, S/o Sh. Lal Bachan",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "ICICI Bank Ltd filed a suit for recovery of Rs. 59,533/- along with interest @ 23.28% P.A. against Nar Singh, who had defaulted in repayment of loan amount and failed to pay EMI's.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the defendant to prove that the notice was not received.",
+      "held": "When after several requests and reminders to the defendant for payment of loan amount, the plaintiff bank was compelled to serve notice dated 15.03.2018 to the defendant recalling/foreclosing the entire loan agreement but despite receipt of the notice, the defendant neither cared to reply to the said notice nor made any effort to repay the outstanding amount.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "notice",
+        "receipt",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "land acquisition",
+        "loan recovery"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The authenticity and correctness of the account statement can be established through a certificate under Section 65B of the Indian Evidence Act.",
+      "held": "The Account Statement Ex.PW1/7, which is duly accompanied with certificate under Section 65B of the Indian Evidence Act, establishes the factum of grant of loan to the defendant.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "account statement",
+        "authenticity",
+        "correctness"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "loan recovery",
+        "financial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The final court order directed the defendant to repay the loan amount with interest.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Indian Evidence Act",
+    "1872",
+    "CS SCJ",
+    "recovery of debt",
+    "interest rate",
+    "23.28%",
+    "ex-parte order",
+    "suit for recovery",
+    "banking law",
+    "judgment",
+    "court proceedings",
+    "civil procedure code",
+    "order dated 25.02.2023",
+    "Rs. 59,533/-"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a suit for debt recovery",
+    "understanding court procedures in Delhi",
+    "using ex-parte orders effectively"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:01:31.891314"
 }

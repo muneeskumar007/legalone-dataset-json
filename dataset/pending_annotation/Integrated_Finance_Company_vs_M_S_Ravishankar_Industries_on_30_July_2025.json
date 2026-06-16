@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Integrated_Finance_Company_vs_M_S_Ravishankar_Industries_on_30_July_2025.PDF",
   "total_pages": 11,
-  "extracted_at": "2026-06-13T19:53:39.043288",
+  "extracted_at": "2026-06-16T11:35:39.345274",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 5,
     "murder_criminal": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Integrated Finance Company vs M/S. Ravishankar Industries on 30 July, 2025",
+  "case_name": "Integrated Finance Company vs M/S. Ravishankar Industries",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Integrated Finance Company, Appellant(s)",
+    "respondent_defendant": "M/s. Ravishankar Industries Private Ltd., Respondent(s)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "This Criminal Appeal is filed against the judgment passed in CCNo.6199 of 1998, dated 20.07.2005 by the learned XVII Metropolitan Magistrate, Saidapet, Chennai.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,103 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When a subsequent agreement has been entered into, the majority of the cheques which are supposed to be issued in respect of the original agreements cannot still be filled up and presented by the complainant organization.",
+      "held": "The trial court held that when a subsequent agreement has been entered into, the majority of the cheques which are supposed to be issued in respect of the original agreements cannot still be filled up and presented by the complainant organization.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque",
+        "agreement",
+        "complainant"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The complainant has failed to prove that there existed a legally enforceable liability when the entire case is in doubt.",
+      "held": "The trial court found that when the entire case is in doubt as to for which agreement the cheque has been issued and whether there exists a liability, etc., it was unsafe for the court to convict the accused and gave the benefit of the doubt and acquitted the accused.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "liability",
+        "complainant",
+        "accused"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The power agent is not entitled to bring forth the case on behalf of the company if the resolution empowering them is faulty.",
+      "held": "The trial court held that when the power agent is empowered only by such a faulty resolution, the concerned individual is also not entitled to bring forth the case on behalf of the company.",
+      "applicable_acts_sections": [
+        "Companies Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "power agent",
+        "resolution",
+        "company"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "company law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "Negotiable Instruments Act",
+    "Code of Criminal Procedure",
+    "CRL A No.",
+    "M/S. Ravishankar Industries",
+    "Integrated Finance Company",
+    "High Court of Judicature at Madras",
+    "Mr.Justice D.Bharatha Chakravarthy",
+    "cheque dishonour",
+    "dishonoured cheque",
+    "criminal proceedings",
+    "complaint under Section 138",
+    "Section 141",
+    "Section 142",
+    "Section 148",
+    "Section 154",
+    "Section 155",
+    "Section 156",
+    "Section 157",
+    "Section 158",
+    "Section 159",
+    "Section 160"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting complaints under Section 138",
+    "defending against cheque bounce cases",
+    "advising on criminal proceedings for cheque dishonour"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:05:54.146567"
 }

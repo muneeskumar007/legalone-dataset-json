@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Kuldip_Kaur_And_Ors_vs_State_Of_Punjab_And_Anr_on_8_November_2017.PDF",
   "total_pages": 3,
-  "extracted_at": "2026-06-13T19:54:03.805481",
+  "extracted_at": "2026-06-16T11:35:59.678141",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "land_acquisition": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kuldip Kaur And Ors vs State Of Punjab And Anr on 8 November, 2017",
+  "case_name": "Kuldip Kaur And Ors vs State Of Punjab And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kuldip Kaur and others (husband, wife, etc.)",
+    "respondent_defendant": "State of Punjab and another (wife's father?)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners filed a petition under Section 13B of Hindu Marriage Act, 1955. The parties had an FIR registered against them in 2014. They reached a settlement/agreement dated 05.08.2014 and the matter was amicably resolved.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A compromise between parties is the sine qua non in a modern society.",
+      "held": "The compromise, in a modern society, is the sine qua non.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Kulwinder Singh and others versus State of Punjab and another, (2007) 3 R.C.R. (Criminal) 1052"
+      ],
+      "keywords": [
+        "compromise",
+        "matrimonial dispute"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A genuine compromise between parties is one arrived at out of their own free will, without any inducement, threat, promise, coercion or undue influence.",
+      "held": "The compromise between the parties is genuine, arrived at out of their own free will, without any inducement, threat, promise, coercion or undue influence from any quarter.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "genuine",
+        "compromise"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition for quashing of FIR No. 4 dated 11.01.2014 under Sections 406, 498A, 307 IPC registered at Police Station Singh Bhagwantpur, District Rupnagar and all other consequential proceedings arising therefrom was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13B",
+    "quashing",
+    "FIR",
+    "IPC",
+    "406",
+    "498A",
+    "307",
+    "mediation",
+    "conciliation",
+    "proclaimed offender",
+    "amicable settlement",
+    "Indian Penal Code",
+    "Punjab",
+    "Rupnagar",
+    "Australia"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs",
+    "mediation and conciliation in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:29:31.090918"
 }

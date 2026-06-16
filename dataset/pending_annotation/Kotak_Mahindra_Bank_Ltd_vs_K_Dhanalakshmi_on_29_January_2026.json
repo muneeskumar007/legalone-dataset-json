@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Kotak_Mahindra_Bank_Ltd_vs_K_Dhanalakshmi_on_29_January_2026.PDF",
   "total_pages": 13,
-  "extracted_at": "2026-06-13T19:54:02.827543",
+  "extracted_at": "2026-06-16T11:35:58.442609",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 9,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Snehil Sharma, Judicial Magistrate First Class NI Act, Patiala House Court, New Delhi (CC No: 17880/2019)",
   "reserved_on": "06.01.2026",
   "delivered_on": "",
-  "case_name": "Kotak Mahindra Bank Ltd vs K. Dhanalakshmi on 29 January, 2026",
+  "case_name": "Kotak Mahindra Bank Ltd vs K. Dhanalakshmi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M/s Kotak Mahindra Bank Ltd.",
+    "respondent_defendant": "Ms. K. Dhanalakshmi",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant advanced working capital limits to M/s Ultra Tile Pvt. Ltd. and the borrower committed default in repayment of credit facilities. Despite repeated requests, the borrower failed to repay the dues.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The liability of the guarantor starts from day 1.",
+      "held": "The liability of the guarantor start from day 1 and the bank initiates the action again the borrower and thereafter again the guarantor.",
       "applicable_acts_sections": [
-        "TODO"
+        "SARFAESI Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "guarantor",
+        "liability",
+        "start date"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "guarantee cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "No action under SARFAESI Act can be taken within the 60-day time frame.",
+      "held": "It is mandatory to give 60 days notice under sarfaesi act by the complainant to the borrower and guarantor. It is correctly admitted that no action under sarfaesi act can be taken within the aforesaid time frame.",
+      "applicable_acts_sections": [
+        "SARFAESI Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "SARFAESI",
+        "60-day notice",
+        "time frame"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "SARFAESI cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Accused Ms. K. Dhanalakshmi is convicted for offences punishable under sections 138 NI Act.",
+    "final_order": "The accused is convicted and held guilty of the offence punishable under sections 138 NI Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "Negotiable Instruments Act",
+    "Section 138 NI Act",
+    "Kotak Mahindra Bank Ltd",
+    "Dhanalakshmi",
+    "complaint case",
+    "offence punishable",
+    "working capital limits",
+    "advanced",
+    "capital",
+    "limits",
+    "punishable U/S 138",
+    "NI Act",
+    "1881",
+    "cheque number",
+    "dated",
+    "amount",
+    "Rs. 2,00,00,000/-",
+    "complainant",
+    "accused"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint case under Section 138 NI Act",
+    "responding to a cheque bounce notice",
+    "defending against a cheque bounce complaint"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:27:59.036781"
 }

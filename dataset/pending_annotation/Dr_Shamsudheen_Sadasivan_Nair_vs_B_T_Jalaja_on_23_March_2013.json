@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Dr_Shamsudheen_Sadasivan_Nair_vs_B_T_Jalaja_on_23_March_2013.PDF",
   "total_pages": 9,
-  "extracted_at": "2026-06-13T19:53:05.451073",
+  "extracted_at": "2026-06-16T11:35:13.833158",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "partition": 1,
@@ -24,13 +24,13 @@
     "al.No. 367 of 2009",
     "Mat.Appeal.No. 367 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Nedumangad, OP.1348/2005",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr.Shamsudheen @ Sadasivan Nair vs B.T.Jalaja on 23 March, 2013",
+  "case_name": "Dr.Shamsudheen @ Sadasivan Nair vs B.T.Jalaja",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "DR.SHAMSUDHEEN @ SADASIVAN NAIR, aged 63 years, husband",
+    "respondent_defendant": "B.T.JALAJA, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Dr.Shamsudheen @ Sadasivan Nair and B.T.Jalaja. The respondent filed a complaint against the petitioner on 15/10/2003. The trial court decided something.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Desertion means rejection of one party of all the obligations of the marriage towards other.",
+      "held": "Desertion means, rejection of one party of all the obligations of the marriage towards other.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "marriage",
+        "obligations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A temporary withdrawal or abandonment is not with the intention to desert permanently.",
+      "held": "A temporary withdrawal or abandonment is not with the intention to desert permanently.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "desertion",
+        "abandonment",
+        "intention"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The burden lies on the party alleging desertion to prove it.",
+      "held": "None mentioned in this judgment, but impliedly applicable.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "desertion",
+        "burden of proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order said that the appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "matrimonial appeal",
+    "family court",
+    "Nedumangad",
+    " Kerala High Court",
+    "Ernakulam",
+    "marriage dissolution",
+    "spousal rights",
+    "property division",
+    "maintenance",
+    "custody",
+    "joint family",
+    "separation",
+    "irretrievable breakdown",
+    "no fault divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act, 1955",
+    "advising on property division in a divorce case",
+    "assisting with maintenance and custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:42:43.261969"
 }

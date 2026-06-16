@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "In_Re_vs_Amrit_Pal_Singh_Bedi_on_16_December_2020.PDF",
   "total_pages": 12,
-  "extracted_at": "2026-06-13T19:53:40.144252",
+  "extracted_at": "2026-06-16T11:35:40.181481",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 7,
@@ -25,8 +25,8 @@
   "delivered_on": "12.10.2007",
   "case_name": "In Re vs Amrit Pal Singh Bedi on 16 December, 2020",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Summy Bhasin and Sumit Bhasin (w/o Guneet Bhasin and s/o Ajit Singh Bhasin)",
+    "respondent_defendant": "Amrit Pal Singh Bedi",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The complainant, respondent in the present revision petition, filed a complaint under Section 138 of the Negotiable Instruments Act. The case is about investment and non-return of principal amount with interest.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In quasi-criminal cases under Section 138 of the NI Act, no hyper-technical aspects should be taken into consideration.",
+      "held": "It was urged that in quasi-criminal cases under Section 138 of the NI Act, no hyper-technical aspects be taken into consideration by this Court and only qu",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act — Section 138"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quasi-criminal",
+        "Section 138",
+        "NI Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The complainant's locus standi should not be challenged in quasi-criminal cases.",
+      "held": "It was urged that the authority letter by Smt. Rupinder Kaur Bedi authorizing Amrit Pal Singh Bedi to file complaint case under Section 138 of the NI Act on her behalf, which is admittedly 'Annexure C-11' with the complaint",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "locus standi",
+        "quasi-criminal cases"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The petitioners' revisionist have been summoned to face trial on cognizance taken by the Court under Section 138 of the Negotiable Instruments Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of criminal procedure",
+    "criminal revision petition",
+    "section 397",
+    "section 339",
+    "dishonour of cheque",
+    "complaint under section 138",
+    "summary trial",
+    "magistrate's court",
+    "judgment debtor",
+    "creditor",
+    "cheque return memo",
+    "dishonoured cheque",
+    "payment of amount",
+    "dismissal of complaint"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a criminal revision petition against a magistrate's court order",
+    "responding to a complaint under section 138 of the Negotiable Instruments Act",
+    "defending a judgment debtor in a cheque bounce case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:04:08.842078"
 }

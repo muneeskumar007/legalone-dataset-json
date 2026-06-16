@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Manoj_Vanaja_vs_Gopu_on_16_November_1990.PDF",
   "total_pages": 6,
-  "extracted_at": "2026-06-13T19:54:36.516629",
+  "extracted_at": "2026-06-16T11:36:19.608805",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "M.C.No.9 of 1985"
   ],
-  "trial_court": "",
+  "trial_court": "Chief Judicial Magistrate, Salem, H.M.O.P. No. 171 of 1986",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manoj Vanaja vs Gopu on 16 November, 1990",
+  "case_name": "Manoj Vanaja vs Gopu",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, praying for maintenance",
+    "respondent_defendant": "husband, respondent to wife's application",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife married husband in 1977, gave birth to daughter, lived together till 1984, misunderstandings arose, wife left house, husband refused maintenance, wife filed M.C. No. 9 of 1985 for maintenance, trial court awarded Rs. 250 per mensem from 31.3.1986 onwards",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The right to claim maintenance is a statutory one.",
+      "held": "Thus, the right of the wife to claim maintenance from the husband, even in those cases falling tinder Section 18(2) of the Hindu Adoptions and Maintenance Act, when she is obliged to live separately from her husband, is a statutory one.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Adoptions and Maintenance Act — Section 18"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "statutory right"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The method and manner of enforcing the right to claim maintenance depend on the circumstances.",
+      "held": "The method and manner of enforcing this right, would necessarily depend upon the circumstances obtaining in any particular case.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "circumstances"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The right to claim maintenance under Section 24 of the Hindu Marriage Act is a special statutory right.",
+      "held": "It is thus clear that the right to claim maintenance or litigation expenses under Section 24 of the Hindu Marriage Act, is not made available generally to the parties to a marriage, but only when a proceeding between the spouses is pending under that Act, and in that respect, the right conferred under Section 24 of that Act, is in the nature of a special statutory right not in any manner outside the provisions of Section 24 of the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "special statutory right"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "the order of the court below is set aside",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order of the trial court below is set aside",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "maintenance",
+    "Section 24",
+    "divorce",
+    "marriage",
+    "wife's rights",
+    "husband's obligations",
+    "family law",
+    "Indian divorce laws",
+    "civil revision petition",
+    "Code of Criminal Procedure",
+    "Magistrate Court",
+    "Chief Judicial Magistrate",
+    "Salem",
+    "India"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a maintenance application",
+    "advising on Hindu Marriage Act provisions",
+    "representing a wife in a divorce case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:50:26.350192"
 }

@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Jagdish_Kumar_vs_Jaan_Mohd_on_11_December_2024.PDF",
   "total_pages": 16,
-  "extracted_at": "2026-06-13T19:53:42.526368",
+  "extracted_at": "2026-06-16T11:35:41.935062",
   "domain": "cheque_bounce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 9,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Ld. Trial Court, CT Case No. 7607/2017",
   "reserved_on": "",
   "delivered_on": "18.10.2001",
-  "case_name": "Jagdish Kumar vs Jaan Mohd on 11 December, 2024",
+  "case_name": "Jagdish Kumar vs Jaan Mohd",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jagdish Kumar, Appellant",
+    "respondent_defendant": "Jaan Mohd, Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant (Jaan Mohd) accused Appellant (Jagdish Kumar) of cheque bounce. Complainant gave friendly loan to Accused and received a cheque which was dishonoured.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,116 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden of proof is different for the complainant and the accused.",
+      "held": "the complainant has to prove his case beyond reasonable doubt, the accused has to only prove his defense by leading probable evidence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 313"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "complainant",
+        "accused"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The accused has to only prove his defense by leading probable evidence.",
+      "held": "the accused has to only prove his defense by leading probable evidence.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 313"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden of proof",
+        "accused",
+        "defense"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The complainant has to prove his case beyond reasonable doubt.",
+      "held": "the complainant has to prove his case beyond reasonable doubt.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 313"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden of proof",
+        "complainant"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The accused can rebut the presumption raised against him under section 139 N.I. Act.",
+      "held": "the appellant clearly proved his defense and rebutted presumption raised against him under section 139 N.I. Act.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881 — Section 139"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "rebuttal",
+        "presumption",
+        "section 139 N.I. Act"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Appellant convicted to undergo one month simple imprisonment with fine equivalent to cheque amount, alongwith simple interest @ 6% p.a. from the date of filing of complaint till the date of judgment.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "NI Act",
+    "Sec. 138",
+    "criminal appeal",
+    "negotiable instruments",
+    "dishonoured cheque",
+    "simple imprisonment",
+    "fine",
+    "interest",
+    "complaint",
+    "trial court",
+    "sentence",
+    "imprisonment",
+    "judgment",
+    "order on sentence",
+    "Ld. Trial Court",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a criminal appeal against cheque bounce",
+    "responding to a complaint under Sec. 138 NI Act",
+    "appealing a trial court judgment on sentence"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:09:23.699035"
 }

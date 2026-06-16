@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Joginder_Singh_vs_The_Bar_Council_Of_India_on_17_October_1974.PDF",
   "total_pages": 9,
-  "extracted_at": "2026-06-13T19:53:49.947269",
+  "extracted_at": "2026-06-16T11:35:47.624148",
   "domain": "land_acquisition",
-  "sub_domain": "divorce",
+  "sub_domain": "professional_dispute",
   "domain_scores": {
     "divorce": 2,
     "custody": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Joginder Singh vs The Bar Council Of India on 17 October, 1974",
+  "case_name": "Joginder Singh vs The Bar Council Of India",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Joginder Singh, advocate",
+    "respondent_defendant": "The Bar Council Of India",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant was once an advocate. His name was struck off the rolls. He applied for transfer of his name from U.P. Bar Council to Delhi Bar Council.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The jurisdiction of a civil court is not excluded where the statutory tribunal has not acted in conformity with the fundamental principles of judicial procedure.",
+      "held": "It was contended, on the authority of Dhulabhai etc. v. State of Madhya Pradesh and another, that the jurisdiction of a civil court was not excluded- 'WHERE the provisions of the particular Act have not been complied with or the statutory tribunal has not acted in conformity with the fundamental principles of judicial procedure.'",
       "applicable_acts_sections": [
-        "TODO"
+        "Advocates Act"
+      ],
+      "cited_cases": [
+        "Dhulabhai etc. v. State of Madhya Pradesh and another"
+      ],
+      "keywords": [
+        "jurisdiction",
+        "statutory tribunal",
+        "fundamental principles of judicial procedure"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "land acquisition",
+        "property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party has the right to be heard in a proceeding, and this right cannot be denied without just cause.",
+      "held": "He said that this right had been infringed in two ways : (i) in that he had not been shown the fourth page of his application for enrolment and had thus been prejudiced in his defense; and, (ii) at the hearing on 11th April, 1965 the Bar Council had allowed very little time to him and his counsel to argue the case.",
+      "applicable_acts_sections": [
+        "Advocates Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "right to be heard",
+        "just cause"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "land acquisition",
+        "property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Advocates Act",
+    "enrolment",
+    "misrepresentation",
+    "fraud",
+    "moral turpitude",
+    "concealment",
+    "Bar Council of India",
+    "Uttar Pradesh",
+    "Delhi",
+    "Punjab High Court",
+    "Advocate",
+    "roll",
+    "transfer",
+    "section 18",
+    "Latin maxim: Falsus in uno, falsus in omnibus"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for enrolment as an advocate",
+    "advising on the consequences of concealing previous convictions",
+    "assisting with a disciplinary inquiry against an advocate"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:14:56.346615"
 }

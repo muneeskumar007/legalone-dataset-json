@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Manisha_Jha_Smt_vs_Kunal_Kanti_Jha_on_21_January_1998.PDF",
   "total_pages": 12,
-  "extracted_at": "2026-06-13T19:54:32.702115",
+  "extracted_at": "2026-06-16T11:36:18.017924",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "2nd Additional District Judge at Barasat, Matrimonial Suit No. 33 of 1992",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manisha Jha (Smt.) vs Kunal Kanti Jha on 21 January, 1998",
+  "case_name": "Manisha Jha (Smt.) vs Kunal Kanti Jha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Wife",
+    "respondent_defendant": "Husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife and husband got married in 1991. The husband filed an application for divorce under Section 13(1)(ia) of the Hindu Marriage Act, 1955. The trial court granted the decree dissolving the marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The term 'cruelty' consists of unwarranted and unjustifiable conduct causing suffering and distress, thereby destroying peace of mind.",
+      "held": "As ground for divorce the term 'cruelty' consists of unwarranted and unjustifiable conduct on part of defendant causing other spouse to endure suffering and distress, thereby destroying peace of mind and making living with such spouse unbearable.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13(1)(ia)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Dastane v. Dastane"
+      ],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "suffering",
+        "distress",
+        "peace of mind"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Mental cruelty must be of such a nature that the parties cannot reasonably be expected to live together.",
+      "held": "Mental cruelty in Section 13(1)(ia) can broadly be defined as that conduct which inflicts upon the other party such mental pain and suffering as would make it not possible for that party to live with the other.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13(1)(ia)"
+      ],
+      "cited_cases": [
+        "V. Bhagat v. D. Bhagat (Mrs.)"
+      ],
+      "keywords": [
+        "mental cruelty",
+        "living together"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Matrimonial Suit",
+    "Divorce",
+    "Marriage Dissolution",
+    "Section 13(1)(ia)",
+    "Cruelty",
+    "Desertion",
+    "Adultery",
+    "Separation",
+    "Reconciliation",
+    "Mutual Consent",
+    "Irretrievable Breakdown",
+    "Hindu Rites",
+    "Matrimonial Home",
+    "Joint Family Property",
+    "Maintenance",
+    "Alimony",
+    "Section 125 CrPC"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on grounds for divorce",
+    "negotiating settlement agreement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:48:14.861159"
 }

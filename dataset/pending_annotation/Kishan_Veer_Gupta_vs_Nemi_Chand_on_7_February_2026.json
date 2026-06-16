@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Kishan_Veer_Gupta_vs_Nemi_Chand_on_7_February_2026.PDF",
   "total_pages": 17,
-  "extracted_at": "2026-06-13T19:54:01.305239",
+  "extracted_at": "2026-06-16T11:35:56.422989",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 8,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Metropolitan Magistrate (NI Act) - 04, South District, Saket Courts, Delhi (Trial Court) in a complaint case titled as Kishan Veer Gupta v. Nemi Chand - CT. Case No. 9441/2017",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Kishan Veer Gupta vs Nemi Chand on 7 February, 2026",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kishan Veer Gupta (Appellant)",
+    "respondent_defendant": "Nemi Chand (Respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Kishan preferred a complaint case against Nemi under Section 138 of the Negotiable Instruments Act, 1881 alleging that Nemi approached him for a friendly loan of ₹2,50,000. Nemi assured Kishan that he would return the same within a period of six months. Kishan arranged the sum from his relative and advanced it to Nemi as a friendly loan.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,21 +61,50 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person who advances a loan to another, knowing that the borrower may not be able to repay it, cannot claim that the loan was for discharge of a legally enforceable debt.",
+      "held": "The Trial Court failed to appreciate that no complaint was filed by Nemi about the cheques, particularly when Kishan refused to return the same to him on account of Kishan's failure to advance any loan to Nemi.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [
+        "Kalamani Tex & Anr. Vs. P. Balasubramanian, (2021) INSC 679",
+        "Bir Singh vs. Mukesh Kumar, (2019) INSC 149"
+      ],
+      "keywords": [
+        "loan",
+        "borrower",
+        "repayment",
+        "cheques",
+        "complaint"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A person who approaches another for a loan and is informed that some people can advance loans, but they will take security cheques as collateral, cannot claim that the loan was not for discharge of a legally enforceable debt.",
+      "held": "Nemi handed over two blank signed cheques of (cid:130)2,50,000/- each as security cheques along with a copy of Aadhaar card to Kishan.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "loan",
+        "collateral",
+        "security cheques",
+        "Aadhaar card"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
@@ -85,15 +114,34 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of criminal procedure",
+    "appeal",
+    "acquittal",
+    "complaint case",
+    "trial court",
+    "metropolitan magistrate",
+    "section 38 NIA",
+    "section 378 CrPC",
+    "section 372 CrPC",
+    "judgment",
+    "reserving judgment",
+    "pronouncement of judgment",
+    "date of filing of appeal",
+    "date of transfer order",
+    "date of marking of appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting an appeal against acquittal in a cheque bounce case",
+    "preparing a complaint case under the Negotiable Instruments Act",
+    "understanding the Code of Criminal Procedure and its application"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:26:22.146366"
 }

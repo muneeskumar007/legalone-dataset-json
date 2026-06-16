@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Icici_Bank_Limited_vs_Dhirendra_Kumar_Singh_on_5_September_2024.PDF",
   "total_pages": 7,
-  "extracted_at": "2026-06-13T19:53:29.477132",
+  "extracted_at": "2026-06-16T11:35:31.900605",
   "domain": "cheque_bounce",
-  "sub_domain": "maintenance",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Shri Mukesh Kumar Gupta, District Judge (Commercial)-07, District Central Tis Hazari Courts, Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Icici Bank Limited vs Dhirendra Kumar Singh on 5 September, 2024",
+  "case_name": "Icici Bank Limited vs Dhirendra Kumar Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "ICICI Bank Ltd, Through Its Authorized Representative Pankaj Jain",
+    "respondent_defendant": "Dhirendra Kumar Singh, S/o Mr. Shyam Sunder Singh, Manager, Emp ID-4961, C/o. Bhageera Construction Pvt. Ltd.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff bank sought recovery of Rs.5,32,195/- alongwith interest thereon @ 24% per annum from the date of filing of the suit till its realization.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to enforce a contract to prove that the contract was validly entered into.",
+      "held": "It is settled law that the burden lies on the party seeking to enforce a contract to prove that the contract was validly entered into.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "contract",
+        "burden of proof",
+        "validity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "breach of contract cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's failure to comply with the terms and conditions of a loan agreement can result in legal consequences.",
+      "held": "The defendant failed to comply with the terms and conditions of the loan agreement and failed to pay the outstanding amount.",
+      "applicable_acts_sections": [
+        "Limitation Act, 1963"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "loan agreement",
+        "compliance",
+        "consequences"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "loan recovery cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed (exparte)",
+    "final_order": "The plaintiff bank was granted recovery of Rs.5,32,195/- alongwith interest thereon @ 24% per annum from the date of filing of the suit till its realization.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "ICICI Bank",
+    "Dhirendra Kumar Singh",
+    "Limitation Act",
+    "Indian Evidence Act",
+    "suit for recovery",
+    "exparte hearing",
+    "judgment",
+    "recovery of debt",
+    "dishonoured cheque",
+    "banking law",
+    "commercial dispute",
+    "civil procedure code",
+    "section 138 NI Act",
+    "negotiable instruments act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a suit for recovery of debt",
+    "responding to an exparte hearing",
+    "defending against a cheque bounce case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:58:55.064353"
 }

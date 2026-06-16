@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "M_S_Redbird_Flight_Training_Academy_vs_M_S_National_Insurance_Co_Ltd_on_8_April_2026.PDF",
   "total_pages": 26,
-  "extracted_at": "2026-06-13T19:55:40.106998",
+  "extracted_at": "2026-06-16T11:37:00.666324",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Shri Raj Kumar, District Judge, Commercial Court-01, Dwarka Courts (S/W), Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "M/S Redbird Flight Training Academy ... vs M/S National Insurance Co. Ltd on 8 April, 2026",
+  "case_name": "M/S Redbird Flight Training Academy vs M/S National Insurance Co. Ltd",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M/S Redbird Flight Training Academy Pvt. Ltd. (plaintiff)",
+    "respondent_defendant": "M/s National Insurance Co. Ltd. (defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff M/S Redbird Flight Training Academy is a company that has an outstanding amount of Rs.1,13,36,667/- with the defendant M/s National Insurance Co. Ltd., which is an insurance company.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Insured shall at all times use due diligence and do and concur in doing everything reasonably practicable to avoid accidents and to avoid or diminish any loss hereon.",
+      "held": "The Insured shall comply with all air navigation and airworthiness orders and requirements issued by any competent authority affecting the safe operation of the Aircraft.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "due diligence",
+        "airworthiness",
+        "air navigation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "insurance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Insured shall comply with all air navigation and airworthiness orders and requirements issued by any competent authority affecting the safe operation of the Aircraft.",
+      "held": "The Insured shall ensure that: (a) Aircraft is airworthy at the commencement of each Flight, (b) Log Books and other records in connection with the Aircraft which are required by any official regulations in force from time to time shall be kept up to date and shall be produced to the Insurers or their Agents on request.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "airworthiness",
+        "air navigation",
+        "log books"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "insurance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The plaintiff's suit for recovery of the outstanding amount was allowed and the court ordered the defendant to pay the principal amount plus interest.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Commercial Courts Act",
+    "CS (COMM) 505/2024",
+    "M/S Redbird Flight Training Academy",
+    "M/S National Insurance Co. Ltd",
+    "Recovery of Amount",
+    "Interest @ 18%",
+    "Pendente Lite Interest",
+    "Future Interest",
+    "Principal Amount",
+    "Judgment",
+    "Commercial Courts Act, 2020",
+    "Indian Evidence Act, 1872",
+    "Divorce",
+    "Family Court",
+    "District Court",
+    "Supreme Court",
+    "High Court",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a suit for recovery of amount",
+    "preparing a judgment on interest calculation",
+    "composing an order on pendente lite interest"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:40:36.157589"
 }

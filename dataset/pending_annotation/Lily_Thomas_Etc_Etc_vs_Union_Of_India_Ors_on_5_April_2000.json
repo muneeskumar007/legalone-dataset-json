@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Lily_Thomas_Etc_Etc_vs_Union_Of_India_Ors_on_5_April_2000.PDF",
   "total_pages": 24,
-  "extracted_at": "2026-06-13T19:54:14.860593",
+  "extracted_at": "2026-06-16T11:36:09.288496",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Lily Thomas, Etc. Etc. vs Union Of India & Ors. on 5 April, 2000",
+  "case_name": "Lily Thomas, Etc. Etc. vs Union Of India & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sushmita Ghosh (wife)",
+    "respondent_defendant": "Union Of India & Ors., Shri G.C. Ghosh (Mohd. Karim Ghazi) (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's husband converted to Islam for the purpose of remarrying, and she was asked to agree to her divorce by mutual consent or face a second wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Before an offence under Section 494 can be said to have been constituted, the second marriage should be shown to be void.",
+      "held": "The words 'Husband or Wife' are also important in the sense that they indicate the personal law applicable to them which would continue to be applicable to them so long as the marriage subsists and they remain 'Husband and Wife'.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "bigamy",
+        "void marriage",
+        "personal law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A complaint for the offence under Section 494 or 495 can be made by the wife or on her behalf by her father, mother, brother, sister, son or daughter or by her father's or mother's brother or sister.",
+      "held": "According to Clause (c) of the Proviso to Sub-section (1), a complaint for the offence under Section 494 or 495 can be made by the wife or on her behalf by her father, mother, brother, sister, son or daughter or by her father's or mother's brother or sister.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "complaint",
+        "offence under Section 494",
+        "wife's rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The writ petition is being disposed of finally.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "mutual consent",
+    "Islamic conversion",
+    "bigamy",
+    "marriage by mutual consent",
+    "remarriage",
+    "Certificate of Maulana Q",
+    "Code of Civil Procedure",
+    "Code of Criminal Procedure",
+    "Writ Petition",
+    "Review Petition",
+    "SC 224",
+    "Hindu rites",
+    "Delhi",
+    "Preet Vihar",
+    "Vanita Gupta"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce by mutual consent",
+    "advising on Islamic conversion and its implications on marriage",
+    "assisting in a case involving bigamy"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:33:28.704417"
 }

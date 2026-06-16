@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Gurbux_Singh_vs_Harminder_Kaur_on_8_October_2010.PDF",
   "total_pages": 8,
-  "extracted_at": "2026-06-13T19:53:18.364540",
+  "extracted_at": "2026-06-16T11:35:23.561284",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge (Ad hoc), Amritsar, FAO No. 252-M of 2006",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gurbux Singh vs Harminder Kaur on 8 October, 2010",
+  "case_name": "Gurbux Singh vs Harminder Kaur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gurbux Singh, Principal in ITI College, Sirhali, Amritsar (husband)",
+    "respondent_defendant": "Harminder Kaur, Librarian in Government Institute DIET at Verka, Amritsar (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant filed petition under Section 13 of Hindu Marriage Act, 1955 for a decree of divorce against respondent-wife on ground of `cruelty'. Both courts rejected claim on ground that appellant failed to prove `cruelty' sufficient for grant of a decree of divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The concept of 'mental cruelty' cannot be defined comprehensively, and no court should attempt to do so.",
+      "held": "On proper analysis and scrutiny of the judgments of this Court and other courts, we have come to the definite conclusion that there cannot be any comprehensive definition of the concept of 'mental cruelty' within which all kinds of cases of mental cruelty can be covered.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Samar Ghosh vs. Jaya Ghosh, (2007) 4 SCC 511"
+      ],
       "keywords": [
-        "TODO"
+        "mental cruelty",
+        "comprehensive definition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Courts should not attempt to define 'mental cruelty' comprehensively.",
+      "held": "No court in our considered view should even attempt to do so.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [
+        "Samar Ghosh vs. Jaya Ghosh, (2007) 4 SCC 511"
+      ],
+      "keywords": [
+        "mental cruelty",
+        "definition"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Both courts have rejected the claim of the Appellant herein on the ground that he has failed to prove `cruelty' sufficient for grant of a decree of divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "Section 25",
+    "matrimonial dispute",
+    "irretrievable breakdown",
+    "cruelty",
+    "desertion",
+    "separation",
+    "maintenance",
+    "alimony",
+    "property settlement",
+    "joint family",
+    "partition",
+    "family court",
+    "Punjab and Haryana High Court",
+    "Supreme Court of India"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:52:34.764066"
 }

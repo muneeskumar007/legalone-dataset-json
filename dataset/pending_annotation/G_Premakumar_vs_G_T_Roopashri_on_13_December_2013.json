@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "G_Premakumar_vs_G_T_Roopashri_on_13_December_2013.PDF",
   "total_pages": 5,
-  "extracted_at": "2026-06-13T19:53:20.278174",
+  "extracted_at": "2026-06-16T11:35:24.801645",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 3,
@@ -26,13 +26,13 @@
     "M.C.No.39/2010",
     "sc.No.135/2009"
   ],
-  "trial_court": "",
+  "trial_court": "II Additional Senior Civil Judge, MACT, Chitradurga, MC.No.39/2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "G Premakumar vs G T Roopashri on 13 December, 2013",
+  "case_name": "G Premakumar vs G T Roopashri",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "G. Premakumar, husband and businessman",
+    "respondent_defendant": "G.T Roopashri, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner sought divorce against his wife-respondent under Section 13(1)(ia) and (ib) of the Hindu Marriage Act. The trial court dismissed the petition. This appeal challenges that order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,101 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden is upon the person who takes the plea of desertion to effectively prove the same.",
+      "held": "The burden is upon the person who takes the plea of desertion to effectively prove the same.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The fact that the respondent has given birth to two children is not in dispute.",
+      "held": "The fact that marriage was solemnized between the parties according to Hindu rites is not in dispute. The fact that the respondent has given birth to two children is also not in dispute.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "children"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The fact of respondent going to her maternal house for the purpose of delivery cannot be found fault with.",
+      "held": "Prior to the delivery she had been sent to the house of her parents and it was quite but natural. Therefore, the fact of respondent going to her maternal house for the purpose of delivery cannot be found fault with.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "delivery",
+        "maternal house"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is not specified in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Section 28",
+    "Section 13(1a)(1b)",
+    "Section 19",
+    "MC.No.39/2010",
+    "M.C.",
+    "Chitradurga",
+    "Indian Kanoon",
+    "judgment",
+    "decree",
+    "petition",
+    "appeal",
+    "marriage",
+    "family",
+    "law",
+    "court",
+    "judge",
+    "justice"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "responding to an appeal against a divorce decree",
+    "advising on the applicability of Protection of Women from DV Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:45:33.073347"
 }

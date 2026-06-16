@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "M_S_Subhiksha_Trading_Services_vs_Mafatlal_Industries_Ltd_[Vol_87_1996_on_25_October_2010.PDF",
   "total_pages": 59,
-  "extracted_at": "2026-06-13T19:55:52.738392",
+  "extracted_at": "2026-06-16T11:37:10.135054",
   "domain": "cheque_bounce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 3,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "M/S. Subhiksha Trading Services ... vs Mafatlal Industries Ltd [Vol.87 (1996) ... on 25 October, 2010",
+  "case_name": "M/S. Subhiksha Trading Services vs Mafatlal Industries Ltd",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M/S. Subhiksha Trading Services Limited (transferor company)",
+    "respondent_defendant": "M/S. Blue Green Constructions & Investments Limited (transferee company)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are transferor and transferee companies seeking sanction for Scheme of Amalgamation.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,21 +60,48 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to set aside a scheme of arrangement to demonstrate that it is unfair and prejudicial to the interests of secured creditors.",
+      "held": "It is not the responsibility of the secured creditors to investigate the affairs of the transferor, but rather the objector has to demonstrate that the Scheme is unfair and prejudicial to their interests.",
       "applicable_acts_sections": [
-        "TODO"
+        "Companies Act, 1956 — Section 433(e)",
+        "Companies Act, 1956 — Section 434(1)(a)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "scheme of arrangement",
+        "secured creditors",
+        "unfair and prejudicial"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "insolvency proceedings",
+        "company law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party seeking to set aside a scheme of arrangement must demonstrate that it is detrimental to the interests of secured creditors.",
+      "held": "The Scheme, if sanctioned, will be detrimental to the interest of the secured creditors such as this objector.",
+      "applicable_acts_sections": [
+        "Companies Act, 1956 — Section 433(e)",
+        "Companies Act, 1956 — Section 434(1)(a)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "scheme of arrangement",
+        "secured creditors",
+        "detrimental to interests"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "insolvency proceedings",
+        "company law disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
@@ -84,15 +111,34 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "dishonoured cheque",
+    "company law",
+    "companies act",
+    "scheme of amalgamation",
+    "transferor company",
+    "transferee company",
+    "petition under section 391",
+    "petition under section 394",
+    "director's role",
+    "registered office",
+    "chennai",
+    "ra puram",
+    "durgabai deshmukh road",
+    "habib complex"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for scheme of amalgamation",
+    "advising on company law matters",
+    "representing a transferor company in a merger"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:43:09.441727"
 }

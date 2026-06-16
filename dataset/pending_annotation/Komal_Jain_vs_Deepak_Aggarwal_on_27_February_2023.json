@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Komal_Jain_vs_Deepak_Aggarwal_on_27_February_2023.PDF",
   "total_pages": 5,
-  "extracted_at": "2026-06-13T19:54:01.716130",
+  "extracted_at": "2026-06-16T11:35:57.098397",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -25,13 +25,13 @@
   "case_numbers": [
     "T.A.No. 251 of 2023"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Faridabad (T.A.No. 251 of 2023)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Komal Jain vs Deepak Aggarwal on 27 February, 2023",
+  "case_name": "Komal Jain vs Deepak Aggarwal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Komal Jain, wife",
+    "respondent_defendant": "Deepak Aggarwal, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties were married in 2018 and have a minor child. Petitioner-wife is living separately from respondent-husband and seeking transfer of his petition under Section 13 of the Hindu Marriage Act to a court at Palwal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The cardinal principle for exercise of power under section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.",
+      "held": "In matrimonial matters, wherever Courts are called upon to consider the plea of transfer, the Courts have to take into consideration the economic soundness of both the parties, the social strata of the spouses and their behavioural pattern, their standard of life prior to the marriage and subsequent thereto and the circumstances of both the parties in eking out their livelihood.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "N.C.V. Aishwarya vs A.S. Saravana Karthik, (2022) Live Law (SC) 627"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial matters",
+        "transfer",
+        "ends of justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "In considering the transfer of a matrimonial dispute/case, at the instance of the wife, the Court is to consider the family condition of the wife, the custody of the minor child, economic condition of the wife, her physical health and earning capacity of the husband.",
+      "held": "The Courts should desist from putting female litigants under undue hardships.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Sumita Singh vs Kumar Sanjay, (2002) SC 396",
+        "Rajani Kishor Pardeshi vs Kishor Babulal Pardeshi, (2005) (12) SCC 237"
+      ],
+      "keywords": [
+        "family condition",
+        "custody of minor child",
+        "economic condition",
+        "physical health",
+        "earning capacity"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "matrimonial disputes",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition transferred to a court at Palwal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "transfer petition",
+    "family court",
+    "Palwal",
+    "unemployment",
+    "dependent on parents",
+    "DV Act",
+    "Protection of Women from DV Act",
+    "2005",
+    "Code of Criminal Procedure",
+    "1973",
+    "custody",
+    "minor child",
+    "separation",
+    "residence",
+    "parents' mercy"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition in family court",
+    "advising on divorce proceedings under Hindu Marriage Act",
+    "assisting with custody disputes involving minor children"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:27:11.992358"
 }

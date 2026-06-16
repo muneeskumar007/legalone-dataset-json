@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Manjit_Singh_vs_State_Of_Haryana_on_6_September_2024.PDF",
   "total_pages": 6,
-  "extracted_at": "2026-06-13T19:54:33.917032",
+  "extracted_at": "2026-06-16T11:36:18.570836",
   "domain": "murder_criminal",
-  "sub_domain": "partition",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "partition": 1,
     "custody": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manjit Singh vs State Of Haryana on 6 September, 2024",
+  "case_name": "Manjit Singh vs State Of Haryana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manjit Singh, seeking regular bail",
+    "respondent_defendant": "State Of Haryana",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complaint received at police station about cheating and fraud of Rs. 35,00,000 committed by accused in name of sending abroad. Petitioner seeks concession for grant of regular bail.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,21 +56,45 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that they have returned all the money.",
+      "held": "It is not disputed that the accused have returned a part of the amount, but the question remains whether they have returned the entire amount.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "accused",
+        "money",
+        "return"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A promise to return the money is not enough; actual return of the money is necessary.",
+      "held": "The accused have promised to return the entire amount, but they have only returned a part of it.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "promise",
+        "return",
+        "money"
+      ],
+      "favourites": "plaintiff",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
@@ -80,15 +104,38 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder_criminal",
+    "Code of Criminal Procedure",
+    "1973",
+    "Section 406",
+    "Section 419",
+    "Section 420",
+    "Section 467",
+    "Section 468",
+    "Section 471",
+    "Section 120-B",
+    "IPC",
+    "1860",
+    "regular bail",
+    "FIR",
+    "Kurukshetra University",
+    "Superintendent of Police",
+    "Indian Kanoon",
+    "Basant Kumar",
+    "Radaur",
+    "District Y",
+    "Criminal Procedure"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail application",
+    "criminal procedure in India",
+    "murder case investigation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:48:53.682275"
 }

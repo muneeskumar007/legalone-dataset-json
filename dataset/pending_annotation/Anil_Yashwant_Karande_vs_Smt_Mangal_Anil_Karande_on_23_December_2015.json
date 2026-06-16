@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Anil_Yashwant_Karande_vs_Smt_Mangal_Anil_Karande_on_23_December_2015.PDF",
   "total_pages": 13,
-  "extracted_at": "2026-06-13T19:51:27.796661",
+  "extracted_at": "2026-06-16T11:34:01.205967",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anil Yashwant Karande vs Smt. Mangal Anil Karande on 23 December, 2015",
+  "case_name": "Anil Yashwant Karande vs Smt. Mangal Anil Karande",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anil Yashwant Karande, husband",
+    "respondent_defendant": "Smt. Mangal Anil Karande, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was performed on June 16, 2002. The respondent alleged she was forced to leave the matrimonial house and was abused by the appellant. She filed a petition under section 9 of the Hindu Marriage Act for restitution of conjugal rights.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A respondent is entitled to maintain a petition for restitution of conjugal rights independently, even if they have committed any cruelty upon the other party.",
+      "held": "He submits that even if this Court comes to the conclusion that any cruelty was committed by the respondent upon the appellant, this Court cannot set aside the orders passed by the two Courts below insofar as the reliefs of restitution of conjugal rights under section 9 of the Hindu Marriage Act has been granted in favor of the respondent is concerned.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conjugal rights",
+        "cruelty",
+        "independent proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court cannot set aside the orders passed by lower courts in a case, unless there is a substantial question of law.",
+      "held": "He submits that the judgments delivered under family court appeal cannot be relied upon since in family court appeal, the Court has to consider all the questions of facts and law whereas in the second appeal, the Court can interfere only if substantial question of law arises.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Section 100"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "substantial question of law",
+        "second appeal",
+        "family court appeal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the order passed by the Lower Appellate Bench granting reliefs in favour of the respondent is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Indian Penal Code",
+    "second appeal",
+    "civil appeal",
+    "family law",
+    "marriage",
+    "separation",
+    "alimony",
+    "maintenance",
+    "property division",
+    "custody",
+    "matrimonial dispute",
+    "judicial separation",
+    "irretrievable breakdown",
+    "Section 13(1)(ia) Hindu Marriage Act",
+    "Section 23 Code of Civil Procedure"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on property division in divorce",
+    "assisting with matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:04:25.901537"
 }

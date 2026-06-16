@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "K_Radha_Raju_vs_K_Seetharama_Raju_on_7_September_2001.PDF",
   "total_pages": 15,
-  "extracted_at": "2026-06-13T19:54:07.366427",
+  "extracted_at": "2026-06-16T11:36:03.430626",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "partition": 1,
@@ -23,13 +23,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court at Hyderabad, OP Nos. 775 of 1996 and 567 of 1995",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "K. Radha Raju vs K. Seetharama Raju on 7 September, 2001",
+  "case_name": "K. Radha Raju vs K. Seetharama Raju",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Wife",
+    "respondent_defendant": "Husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1993. The wife filed a petition for restitution of conjugal rights under Section 9 of the Hindu Marriage Act, 1955. The husband filed a petition seeking dissolution of marriage under Section 13(1)(ia) of the Hindu Marriage Act, 1955. The trial court granted the husband's petition and dismissed the wife's petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A person's safety and well-being are important considerations in a divorce petition.",
+      "held": "In the circumstances, it is most unsafe for him to live in the society of the wife.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "safety",
+        "well-being",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where harassment is involved"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's freedom to file a petition for dissolution of marriage should not be curtailed by threats or coercion.",
+      "held": "He was constrained to file Writ Petition No. 12746 of 1996 seeking a direction from this Court restraining police authorities from forcing him to withdraw OP No. 567 of 1995.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "freedom",
+        "petition",
+        "dissolution",
+        "coercion"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases where threats or coercion are involved"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is not specified in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "conjugal rights",
+    "restitution",
+    "Family Court",
+    "Hyderabad",
+    "Tirumala",
+    "consummation",
+    "marriage",
+    "dissolution",
+    "Latin maxim: Nemo dat quod non habet",
+    "Indian Penal Code",
+    "1860",
+    "Section 9",
+    "Section 13",
+    "Hindu Marriage Act, 1955"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on restitution of conjugal rights",
+    "representing clients in Family Court cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:19:44.338258"
 }

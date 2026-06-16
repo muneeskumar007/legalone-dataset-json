@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Kapil_Jain_vs_Sh_D_K_Jain_on_17_December_2024.PDF",
   "total_pages": 5,
-  "extracted_at": "2026-06-13T19:53:58.510928",
+  "extracted_at": "2026-06-16T11:35:54.321411",
   "domain": "cheque_bounce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 3,
     "land_acquisition": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Civil Judge-07 (Central), Tis Hazari Courts, Delhi - CS SCJ No. : 1519/21",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kapil Jain vs Sh. D K Jain on 17 December, 2024",
+  "case_name": "Kapil Jain vs Sh. D K Jain",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kapil Jain, Proprietor Arihant Automobiles",
+    "respondent_defendant": "Sh. D.K Jain, Proprietor, D.K Jain & Sons",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff is a proprietary firm trading under the name and style of M/S Arihant Automobiles. The defendant approached the plaintiff for the purchase of goods. A sum of Rs. 1,81,609/- was due and payable against the defendant. The defendant issued a cheque which was dishonoured.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the plaintiff to prove that the defendant has not cleared his account and made complete payment of goods purchased.",
+      "held": "It is the case of the plaintiff that the plaintiff supplied the goods to the defendant from the year 2017 to 2019 as per the orders received from the defendant but the defendant failed to pay for the goods purchased.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque bounce",
+        "account settlement",
+        "goods purchase"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "commercial disputes",
+        "contractual claims"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A plaintiff cannot file a case under Section 138 of the Negotiable Instruments Act, 1881, if they have already settled the matter with the defendant.",
+      "held": "Despite taking Rs. 25,000/, the plaintiff filed the case u/s 138 NIA with respect to the said cheque.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque bounce",
+        "settlement agreement",
+        "Section 138"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "commercial disputes",
+        "contractual claims"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The plaintiff is entitled to recover Rs. 2,83,310/- along with interest @24% from 10.09.2018 till 10.01.2021.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "dishonoured cheque",
+    "cheque recovery",
+    "interest rate",
+    "24% interest",
+    "pendente-lite interest",
+    "future interest",
+    "civil suit",
+    "recovery of debt",
+    "proprietary firm",
+    "registered office",
+    "authorised person",
+    "prosecute the suit",
+    "Indian Evidence Act",
+    "1872",
+    "judgment",
+    "decree",
+    "order",
+    "court proceedings"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a cheque bounce case",
+    "guidelines for recovering debt",
+    "practical tips for advocates"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:23:57.521076"
 }

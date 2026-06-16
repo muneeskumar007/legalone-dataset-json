@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Juhi_Chugh_vs_M_S_Govind_Textile_Pvt_Ltd_And_Others_on_1_May_2023.PDF",
   "total_pages": 3,
-  "extracted_at": "2026-06-13T19:53:51.359023",
+  "extracted_at": "2026-06-16T11:35:48.641686",
   "domain": "cheque_bounce",
-  "sub_domain": "maintenance",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 2,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Anoop Chitkara J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Trial Court: Not mentioned",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Juhi Chugh vs M/S Govind Textile Pvt. Ltd. And Others on 1 May, 2023",
+  "case_name": "Juhi Chugh vs M/S Govind Textile Pvt. Ltd. And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Juhi Chugh, wife and sole proprietor of business",
+    "respondent_defendant": "M/s Govind Textile Pvt. Ltd. and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's husband was signatory of cheque; petitioner claims she had no role in business, which is a sole proprietorship.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Before any person can be summoned to face a criminal trial, it is the duty of the magistrate who searches for the prime evidence which attributes some role that makes out a penal offence.",
+      "held": "The order of something can only be mechanical and with considering the role.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "summoning",
+        "criminal trial",
+        "magistrate",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The director's liability must be determined when the offence was committed and merely being a party to the resolution would not be sufficient.",
+      "held": "Similarly, in S and S Pharmaceuticals versus Mothanwala 2007 RCR criminal 126, Supreme Court held that the director's liability must be determined when the offence was committed and merely being a party to the resolution would not be sufficient.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "S and S Pharmaceuticals versus Mothanwala, (2007) RCR criminal 126"
+      ],
+      "keywords": [
+        "director's liability",
+        "offence",
+        "resolution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "corporate law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition under section 482 Cr.P.C. is allowed and the complaint is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "complaint quashing",
+    "section 482 CrPC",
+    "summons issuance",
+    "sole proprietorship",
+    "banker's certificate",
+    "prosecution",
+    "offence committed",
+    "M/s Govind Textile Pvt. Ltd.",
+    "M/s Vintage Home Fashions",
+    "Puneet Chug",
+    "Juhi Chugh",
+    "cheque_bounce",
+    "Code of Criminal Procedure 1973",
+    "CrPC",
+    "CNRHRPP03-005889-2019"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint for cheque bounce",
+    "quashing summons in a cheque bounce case",
+    "defending against prosecution for cheque bounce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:16:35.131736"
 }

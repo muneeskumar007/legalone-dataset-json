@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Harish_vs_Kartik_Chaudhary_on_12_March_2024.PDF",
   "total_pages": 8,
-  "extracted_at": "2026-06-13T19:53:28.495376",
+  "extracted_at": "2026-06-16T11:35:31.141461",
   "domain": "cheque_bounce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 6,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Ms. Payal Singal, Civil Judge - 08 (Central), Room No.283, Tis Hazari Courts, Delhi, Suit No : 99738/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Harish vs Kartik Chaudhary on 12 March, 2024",
+  "case_name": "Harish v. Kartik Chaudhary & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Harish, s/o Sh. Sita Ram",
+    "respondent_defendant": "Kartik Chaudhary, s/o Late Sh. Chander Prakash Chaudhry, and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff filed a suit for recovery of Rs.50,000/- based on a cheque dated 17.05.2014. The defendants are beneficiaries/legal heirs of the deceased Sh. Chander Prakash Choudhary and are liable to discharge the debt.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A suit is not maintainable in its present form if there is no cause of action.",
+      "held": "It has been submitted that the tiff having no cause of action against the defendants to file the present suit in the absence of any document having been filed to prove that the alleged cheque was issued by late Sh. Chander Prakash Choudhary or that the defendants were the beneficiaries of the said firm.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cause of action",
+        "maintainability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A defendant can deny the case set up by the plaintiff and pray for dismissal of the suit.",
+      "held": "It has been submitted that the defendants are not aware whether the said cheque was issued by Late Sh. Chander Prakash Chaudhary, being the proprietor of M/s. La Sigma to the plaintiff.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "denial",
+        "dismissal"
+      ],
+      "favourites": "defendant",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The suit was converted into an ordinary suit for recovery of money and the defendants were ordered to pay Rs.50,000/- to the plaintiff.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of civil procedure",
+    "order xxxvii rule 3(5)",
+    "suit for recovery",
+    "pendente lite",
+    "future interest",
+    "civil judge",
+    "tis hazari courts",
+    "delhi",
+    "bankner",
+    "ambedkar basti",
+    "peepal wali gali",
+    "azad market",
+    "nawab ganj",
+    "la sigma",
+    "the printing people"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a suit for cheque bounce recovery",
+    "preparing an application under Order XXXVII Rule 3(5) of CPC",
+    "composing a judgment on a civil dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:56:12.869021"
 }

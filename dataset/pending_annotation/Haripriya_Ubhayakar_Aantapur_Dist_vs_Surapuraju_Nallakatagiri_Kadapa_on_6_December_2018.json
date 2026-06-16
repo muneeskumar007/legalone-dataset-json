@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Haripriya_Ubhayakar_Aantapur_Dist_vs_Surapuraju_Nallakatagiri_Kadapa_on_6_December_2018.PDF",
   "total_pages": 40,
-  "extracted_at": "2026-06-13T19:53:26.423091",
+  "extracted_at": "2026-06-16T11:35:29.440005",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "partition": 2,
@@ -32,10 +32,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Haripriya Ubhayakar, Aantapur Dist vs Surapuraju Nallakatagiri, Kadapa on 6 December, 2018",
+  "case_name": "Haripriya Ubhayakar, Aantapur Dist vs Surapuraju Nallakatagiri, Kadapa",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Haripriya Ubhayakar (wife)",
+    "respondent_defendant": "Surapuraju Nallakatagiri (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -105,7 +105,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife seeks transfer of divorce cases from different courts to Srikakulam court, citing distance and threat to life.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -115,39 +115,108 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Access to justice is a fundamental right under Article 21 of the Constitution.",
+      "held": "A person's access to justice is a guaranteed fundamental right under the Constitution and particularly Article 21.",
       "applicable_acts_sections": [
-        "TODO"
+        "Constitution of India — Article 21"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Brij Mohan Lal v. Union of India and Ors, (2012) 6 SCC 502"
+      ],
       "keywords": [
-        "TODO"
+        "access to justice",
+        "fundamental right",
+        "Article 21"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "criminal matters"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Unduly long delay in disposal of cases can lead to blatant violation of the Rule of law and adverse impact on access to justice.",
+      "held": "Unduly long delay has the effect of bringing about blatant violation of the Rule of law and adverse impact on the common man's access to justice.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section X",
+        "Code of Criminal Procedure, 1973 — Section Y"
+      ],
+      "cited_cases": [
+        "MSM,J Tr.CMP_809 of 2016 & batch"
+      ],
+      "keywords": [
+        "unduly long delay",
+        "Rule of law",
+        "access to justice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving delays in disposal",
+        "cases where access to justice is denied"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Access to justice includes qualitative access, ensuring just and inequitable judicial outcomes.",
+      "held": "Access to justice is, therefore, much more than improving an individual's access to courts, or guaranteeing representation. It must be defined in terms of ensuring that legal and judicial outcomes are just and inequitable.",
+      "applicable_acts_sections": [
+        "Constitution of India — Article X",
+        "Code of Civil Procedure, 1908 — Section Y"
+      ],
+      "cited_cases": [
+        "United Nations Development Programme, Access to Justice-Practice Note (2004)"
+      ],
+      "keywords": [
+        "qualitative access",
+        "just and inequitable judicial outcomes"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving disputes over justice delivery",
+        "cases where fairness is an issue"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "the petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "All Transfer Civil Miscellaneous Petitions are dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Protection of Women from DV Act",
+    "dowry harassment",
+    "conjugal rights",
+    "Family Court",
+    "Srikakulam",
+    "Visakhapatnam",
+    "Section 24 CPC",
+    "Section 13(1)(ib) Hindu Marriage Act",
+    "transfer relief",
+    "original petition",
+    "petition by petition",
+    "male assistance",
+    "threat to life",
+    "restitution of conjugal rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "seeking transfer of original petition",
+    "providing grounds for seeking transfer relief"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:54:27.560759"
 }

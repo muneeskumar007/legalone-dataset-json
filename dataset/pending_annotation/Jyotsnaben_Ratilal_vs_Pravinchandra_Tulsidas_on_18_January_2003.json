@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Jyotsnaben_Ratilal_vs_Pravinchandra_Tulsidas_on_18_January_2003.PDF",
   "total_pages": 13,
-  "extracted_at": "2026-06-13T19:53:52.530738",
+  "extracted_at": "2026-06-16T11:35:49.632937",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jyotsnaben Ratilal vs Pravinchandra Tulsidas on 18 January, 2003",
+  "case_name": "Jyotsnaben Ratilal vs Pravinchandra Tulsidas",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Pravinchandra Tulsidas, husband",
+    "respondent_defendant": "Jyotsnaben Ratilal, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Pravinchandra and Jyotsnaben took place in 1988. After marriage, Pravinchandra discovered that Jyotsnaben had no vagina and was unable to perform sexual intercourse. He filed an application under Section 12(1)(a) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party is impotent if his or her mental or physical coalition makes consummation of the marriage a practical impossibility.",
+      "held": "The condition must be one, according to the statute, which existed at the time of the marriage and continue to be so until the institution of the proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 12(1)(a)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Yuvraj Digvijay Singh v. Yuvrani Pratap Kumari, (1970) AIR SC 137"
+      ],
       "keywords": [
-        "TODO"
+        "impotence",
+        "consummation",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — grounds for annulment",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party alleging impotency to establish that the condition existed at the time of marriage and continued until institution of proceedings.",
+      "held": "In order to entitle the appellant to obtain a decree of nullity, as prayed for by him, he will have to establish that his wife, the respondent, was impotent at the time of the marriage and continued to be so until the institution of the proceedings.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 12(1)(a)"
+      ],
+      "cited_cases": [
+        "Yuvraj Digvijay Singh v. Yuvrani Pratap Kumari, (1970) AIR SC 137"
+      ],
+      "keywords": [
+        "burden",
+        "impotency",
+        "establishment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH — grounds for annulment",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage between Jyotsnaben and Pravinchandra is declared as null and void under Section 12(1)(a) of the Hindu Marriage Act, 1955.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "null and void",
+    "Section 12(1)(a)",
+    "marriage nullity",
+    "void marriage",
+    "matrimonial dispute",
+    "family law",
+    "Indian divorce laws",
+    "judicial separation",
+    "cancellation of marriage",
+    "Section 100 Code of Civil Procedure",
+    "Second Appeal",
+    "Regular Civil Appeal No. 57 of 2000"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for nullity of marriage",
+    "advising on grounds for divorce under Hindu Marriage Act",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:17:26.284654"
 }

@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Laxmi_Devi_vs_Krishna_Devi_on_24_December_2025.PDF",
   "total_pages": 11,
-  "extracted_at": "2026-06-13T19:54:11.506534",
+  "extracted_at": "2026-06-16T11:36:06.746731",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 9,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Judicial Magistrate First Class-02, North West District, Rohini Courts, Delhi (Ct. Case 6541/2016)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Laxmi Devi vs Krishna Devi on 24 December, 2025",
+  "case_name": "Laxmi Devi vs Krishna Devi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ms. Laxmi Devi, wife of Sh. Ravinder Kumar Saini",
+    "respondent_defendant": "Krishna Devi, wife of Sh. Mahender",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The complainant lent the accused Rs. 2,50,000 in cash against a written receipt. The accused issued three cheques to the complainant, but one cheque was returned unpaid. The complainant presented the cheque and sent legal demand notices, but the accused failed to pay within 15 days.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove her defence.",
+      "held": "She reiterated her innocence and opted to lead defence evidence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "defence",
+        "innocence",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's signature and thumb impression can be used as evidence.",
+      "held": "She correctly identified her signature at point A and B on Ex. CW1/1 however she denied the thumb impression on point A and B",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "signature",
+        "thumb impression",
+        "evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving disputed signatures"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Convicted",
+    "final_order": "The accused is convicted of the offence under Section 138 of the Negotiable Instruments Act, 1881.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "code of criminal procedure",
+    "criminal complaint",
+    "accused",
+    "complainant",
+    "judgment",
+    "conviction",
+    "delhi courts",
+    "rohini courts",
+    "magistrate first class",
+    "criminal proceedings",
+    "cheque amount",
+    "plea not guilty",
+    "reserved for judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under section 138 NI Act",
+    "preparing a defence against cheque bounce charges",
+    "guidelines for advocates on criminal proceedings in Delhi courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:31:48.956749"
 }

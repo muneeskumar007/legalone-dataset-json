@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Mary_Sonia_Zachariah_vs_Union_Of_India_Uoi_And_Ors_on_24_February_1995.PDF",
   "total_pages": 26,
-  "extracted_at": "2026-06-13T19:54:42.110200",
+  "extracted_at": "2026-06-16T11:36:21.667523",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "partition": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mary Sonia Zachariah vs Union Of India (Uoi) And Ors. on 24 February, 1995",
+  "case_name": "Mary Sonia Zachariah vs Union Of India (Uoi) And Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mary Sonia Zachariah, Syrian Christian woman",
+    "respondent_defendant": "Union Of India (Uoi) And Ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is a Syrian Christian woman seeking divorce from her husband who has deserted her and their child. She claims that the provisions of Section 10 of the Indian Divorce Act, 1869 are violative of her fundamental rights under Articles 14, 15 and 21 of the Constitution.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,21 +66,63 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Sexual intercourse with any other person other than his or her spouse since solemnisation of marriage is recognised as a ground for divorce.",
+      "held": "sexual intercourse with any other person other than his or her spouse since solemnisation of marriage is recognised as a ground for divorce.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "marriage",
+        "grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Cruelty and desertion are independent grounds for divorce.",
+      "held": "Such grounds takes in cruelty and desertion as independent grounds among several other grounds.",
+      "applicable_acts_sections": [
+        "Dissolution of Muslim Marriage Act, 1939",
+        "Parsi Marriage and Divorce Act, 1936"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "grounds",
+        "cruelty",
+        "desertion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Voluntary sexual intercourse with any person other than his or her spouse is recognised as a ground for divorce.",
+      "held": "Voluntary sexual intercourse with any person other than his or her spouse is recognised as a ground for divorce.",
+      "applicable_acts_sections": [
+        "Special Marriage Act, 1931"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "grounds",
+        "sexual intercourse"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
@@ -90,15 +132,33 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Indian Divorce Act",
+    "Article 14",
+    "Article 15",
+    "Article 21",
+    "Section 10",
+    "Christian women",
+    "fundamental rights",
+    "divorce",
+    "marriage",
+    "family law",
+    "judicial separation",
+    "irreversible decision",
+    "desertion",
+    "child custody",
+    "matrimonial disputes"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Christian marriage laws",
+    "representing clients in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:51:14.200210"
 }

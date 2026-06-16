@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "M_G_Bhide_vs_Britannia_Industries_Ltd_Mayur_on_23_March_2005.PDF",
   "total_pages": 12,
-  "extracted_at": "2026-06-13T19:55:16.435182",
+  "extracted_at": "2026-06-16T11:36:42.623089",
   "domain": "property_dispute",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "cheque_bounce": 1,
     "land_acquisition": 1,
@@ -23,15 +23,15 @@
   "delivered_on": "",
   "case_name": "M.G. Bhide vs Britannia Industries Ltd., Mayur ... on 23 March, 2005",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M.G. Bhide — workman",
+    "respondent_defendant": "Britannia Industries Ltd., Mayur ... — company",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complaint (ULP) No. 416 of 1996 filed by the petitioner before the Industrial Court at Pune, praying for declaration that the respondent company had engaged in acts of unfair labour practices and that the complainant was permanent employee of respondent no.1 from 1.7.1997.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -41,21 +41,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The power of superintendence conferred by Article 227 of the Constitution is to be exercised more sparingly and only in appropriate cases.",
+      "held": "the Supreme Court held that the power of superintendence conferred by Article 227 of the Constitution is to be exercised more sparingly and only in appropriate cases",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Waryam Singh v. Amarnath, (1954 SCR 565)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Article 227",
+        "Constitution",
+        "superintendence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The exercise of jurisdiction under Article 227 is limited and restrictive in nature.",
+      "held": "Their Lordships stated thus: 'Generally speaking the exercise of jurisdiction under Article 227 of the Constitution is limited and restrictive in nature.'",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Essen Deinki V. Rajiv Kumar"
+      ],
+      "keywords": [
+        "Article 227",
+        "jurisdiction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A finding of fact is not open to correction by the High Court unless it is a perverse recording or not based on any material whatsoever resulting in manifest injustice.",
+      "held": "except where it is a perverse recording thereof, or not based on any material whatsoever resulting in manifest injustice",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Surya Dev Rai v. Ram Chander Rai"
+      ],
+      "keywords": [
+        "finding of fact",
+        "manifest injustice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The jurisdiction to exercise supervisory powers is not available for indulging in reappreciation or evaluation of evidence or correcting the errors in drawing inferences like a Court of appeal.",
+      "held": "the jurisdiction to exercise supervisory powers is not available for indulging in reappreciation or evaluation of evidence or correcting the errors in drawing inferences like a Court of appeal",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Surya Dev Rai v. Ram Chander Rai"
+      ],
+      "keywords": [
+        "supervisory powers",
+        "evidence",
+        "inferences"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
@@ -65,15 +122,33 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "MRTU",
+    "PULP Act",
+    "unfair labour practices",
+    "permanent employee",
+    "appointment order",
+    "Industrial Court",
+    "Article 226",
+    "Article 227",
+    "Constitution of India",
+    "Schedule IV",
+    "Act 1971",
+    "Labour laws",
+    "Employment disputes",
+    "Property dispute",
+    "Judicial review",
+    "Quashing judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting petition for judicial review",
+    "advising on employment disputes",
+    "assisting in property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:34:26.116997"
 }

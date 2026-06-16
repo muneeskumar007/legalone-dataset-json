@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Dnyaneshwar_Sakharam_Sonwane_And_vs_The_State_Of_Maharashtra_And_Others_on_19_October_2018.PDF",
   "total_pages": 6,
-  "extracted_at": "2026-06-13T19:53:01.072410",
+  "extracted_at": "2026-06-16T11:35:10.497112",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 2,
     "land_acquisition": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dnyaneshwar Sakharam Sonwane And ... vs The State Of Maharashtra And Others on 19 October, 2018",
+  "case_name": "Dnyaneshwar Sakharam Sonwane And ... v. The State Of Maharashtra And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dnyaneshwar Sakharam Sonwane And ... (Applicants)",
+    "respondent_defendant": "The State Of Maharashtra And Others (Respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicants claim relief of quashing of F.I.R. No. 212/2017 registered with Kranti Chowk Police Station, Aurangabad for offences punishable under sections 420, 406, 120-B of IPC and sections 3 and 4 of the Maharashtra Protection of Interest of Depositors (in Financial Establishment) Act, 1999.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,21 +64,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove that the amount was not due.",
+      "held": "Though the applicants are saying that this is composite amount agreed to be given as per the settlement, the fact remains that there is contention that there was representation that the amount was kept as deposit and the first informant was to get interest at the rate of 18% p.a.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque bounce",
+        "compromise",
+        "deposit",
+        "interest"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will consider the factual aspects of a case to determine the legal position.",
+      "held": "There are many peculiar circumstances in the present matters. Present applicants are not disputing that the amount was due from them.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "factual aspects",
+        "legal position"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving disputed facts"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -88,15 +109,37 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "Negotiable Instruments Act",
+    "1881",
+    "sections 138",
+    "147",
+    "148",
+    "149",
+    "Indian Penal Code",
+    "IPC",
+    "sections 420",
+    "406",
+    "120-B",
+    "Maharashtra Protection of Interest of Depositors (in Financial Establishment) Act",
+    "1999",
+    "quashing F.I.R.",
+    "stay proceeding",
+    "Special Case MPID",
+    "Criminal Procedure Code",
+    "Cr.P.C.",
+    "sections 482"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting cheque bounce defence",
+    "quashing FIR in cheque bounce cases",
+    "obtaining stay of proceedings in cheque bounce matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:38:20.272572"
 }

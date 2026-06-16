@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "G_Suresh_vs_Jagdish_on_12_December_2024.PDF",
   "total_pages": 12,
-  "extracted_at": "2026-06-13T19:53:22.094212",
+  "extracted_at": "2026-06-16T11:35:26.328637",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 5,
@@ -22,13 +22,13 @@
   "case_numbers": [
     "OS.No.25782/2019"
   ],
-  "trial_court": "",
+  "trial_court": "XIII Addl. City Civil & Sessions Judge, Mayohall Unit, Bengaluru (CCH-22)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "G Suresh vs Jagdish on 12 December, 2024",
+  "case_name": "G Suresh vs Jagdish",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri G. Suresh, Plaintiff",
+    "respondent_defendant": "Mr. Jagadish, Defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff and defendant were friends who borrowed money from the plaintiff in 2016. The defendant promised to return the loan within a short period but remained silent for four months before voluntarily repaying part of the amount.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,113 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A case is not believable if it goes entirely opposite to the natural conduct of an average man.",
+      "held": "It is also denied that a transfer of Rs.5 lakhs was made by the defendant towards Judgment part payment of the alleged debt. It is also denied that a transfer of Rs.5 lakhs was made by the defendant towards Judgment part payment of the alleged debt.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "natural conduct",
+        "average man",
+        "believability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot set up another party for the purpose of extracting money from a third party.",
+      "held": "Anand @ Babu set up the plaintiff for the purpose of extracting the money lost in a legal exercise from the defendant and got a false notice issued.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "party setting",
+        "money extraction"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "fraud cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party cannot cause a false notice to be issued for the purpose of extracting money from another party.",
+      "held": "Anand further blackmailed the defendant stating that he would not proceed against him if he extended his cooperation towards the legal steps he intends to take against Puttaswamy and return the earnest money advanced by him.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "false notice",
+        "money extraction"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A party cannot cause a false prosecution to be initiated for the purpose of extracting money from another party.",
+      "held": "Anand further blackmailed the defendant stating that he would not proceed against him if he extended his cooperation towards the legal steps he intends to take against Puttaswamy and return the earnest money advanced by him.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "false prosecution",
+        "money extraction"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court directed the defendant to pay Rs.37,75,000/- and interest at 18% p.a on Rs.25,00,000/- from the date of suit till realisation.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "Negotiable Instruments Act",
+    "1881",
+    "Section 138",
+    "dishonour",
+    "payment",
+    "demand",
+    "interest",
+    "costs",
+    "suit",
+    "money suit",
+    "judgment",
+    "defendant",
+    "plaintiff",
+    "advocate",
+    "Bengaluru"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting cheque bounce cases",
+    "preparing pleadings for money suits",
+    "advising clients on payment demands"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:47:32.640429"
 }

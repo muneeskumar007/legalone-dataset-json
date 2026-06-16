@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Ali_vs_Ummu_Selma_K_P_on_15_November_2018.PDF",
   "total_pages": 8,
-  "extracted_at": "2026-06-13T19:51:20.876236",
+  "extracted_at": "2026-06-16T11:33:56.473618",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -31,13 +31,13 @@
     "C.C.No. 73/1994",
     "C.C.No.73/1994"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Manjeri - OP 164/1999",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Ali vs Ummu Selma.K.P on 15 November, 2018",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "ALI (husband)",
+    "respondent_defendant": "UMMU SELMA.K.P (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a petition seeking declaration that his marriage with respondent is null and void. Respondent denied allegations saying the previous marriage was not consummated and divorce was performed as per Muslim law.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Fraud vitiates all acts.",
+      "held": "It is well settled that fraud vitiates all acts, be it ecclesiastical or mundane.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12(1)(c)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Sunder Lal Soni v. Namita Jain (2006 KHC 3756)",
+        "Ali vs Ummu Selma.K.P on 15 November, 2018"
+      ],
       "keywords": [
-        "TODO"
+        "fraud",
+        "marriage",
+        "nullity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where fraud is alleged"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Marriage is a sacred institution.",
+      "held": "Marriage is a sacred institution, which cements a bond between two persons. It is a sacrosanct relationship for the purpose of carrying on the light of human race.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Sunder Lal Soni v. Namita Jain (2006 KHC 3756)",
+        "Ali vs Ummu Selma.K.P on 15 November, 2018"
+      ],
+      "keywords": [
+        "marriage",
+        "sacred institution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving marriage annulment or nullity"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the appeal and declared the marriage null and void.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "null and void",
+    "Muslim religious law",
+    "marriage declaration",
+    "civil court",
+    "family court",
+    "op 164/1999",
+    "os no. 491/1998",
+    "mfa no. 1080/2001",
+    "petition dismissal",
+    "marital separation",
+    "15 months",
+    "nullity of marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for nullity of marriage",
+    "responding to a petition for divorce",
+    "advising on marital separation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T11:57:46.182193"
 }

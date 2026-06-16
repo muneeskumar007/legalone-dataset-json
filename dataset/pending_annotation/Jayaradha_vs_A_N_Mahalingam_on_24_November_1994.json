@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Jayaradha_vs_A_N_Mahalingam_on_24_November_1994.PDF",
   "total_pages": 12,
-  "extracted_at": "2026-06-13T19:53:48.780426",
+  "extracted_at": "2026-06-16T11:35:46.737749",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, M.C.O.P. No. 482 of 1992",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jayaradha vs A.N. Mahalingam on 24 November, 1994",
+  "case_name": "Jayaradha vs A.N. Mahalingam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife",
+    "respondent_defendant": "husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a petition under Section 12(1)(c) of the Hindu Marriage Act for declaration that the marriage is a nullity due to the husband's suspicion about her mental capacity.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The standard of proof is as in all civil cases, where the belief regarding the existence of a fact may be founded on a balance of probabilities.",
+      "held": "Their Lordships of the Supreme Court held that the standard of proof is as in all civil cases. The first step in this process is to fix the probabilities, the second to weigh them, though the two may often intermingle.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Dr. N.G. Destenc v. Mrs. S. Destane"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "civil case",
+        "probabilities",
+        "standard of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A prudent man faced with conflicting probabilities concerning a fact-situation will act on the supposition that the fact exists, if on weighing the various probabilities he finds that the preponderance is in favour of the existence of the particular fact.",
+      "held": "Their Lordships of the Supreme Court held as follows: A prudent man faced with conflicting probabilities concerning a fact-situation will act on the supposition that the fact exists, if on weighing the various probabilities he finds that the preponderance is in favour of the existence of the particular fact.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Dr. N.G. Destenc v. Mrs. S. Destane"
+      ],
+      "keywords": [
+        "probabilities",
+        "preponderance",
+        "fact-situation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the order of the Family Court is set aside",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order of the Family Court is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "nullity",
+    "marriage solemnised",
+    "Section 12(1)(c)",
+    "delayed reaction",
+    "mental capacity",
+    "betrothal ceremony",
+    "saree",
+    "innocent",
+    "joking",
+    "family court",
+    "divorce",
+    "nullity of marriage",
+    "Hindu rites",
+    "prompting",
+    "reaction time"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for nullity of marriage",
+    "advising on the implications of delayed reaction in a marriage ceremony",
+    "assisting with a family court case involving a disputed marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:14:08.068531"
 }

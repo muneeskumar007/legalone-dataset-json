@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Deepak_Bose_vs_Shrabonee_Bose_on_14_March_2022.PDF",
   "total_pages": 18,
-  "extracted_at": "2026-06-13T19:52:49.766076",
+  "extracted_at": "2026-06-16T11:35:02.057894",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 11,
     "maintenance": 3,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge (Senior Division), Ghaziabad, Marriage Petition No.1098 of 2010",
   "reserved_on": "",
   "delivered_on": "17.11.2016",
-  "case_name": "Deepak Bose vs Shrabonee Bose on 14 March, 2022",
+  "case_name": "Deepak Bose vs Shrabonee Bose",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband, Deepak Bose",
+    "respondent_defendant": "wife, Shrabonee Bose",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -83,7 +83,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Deepak Bose and Shrabonee Bose were married in 2001. The husband discovered that the wife was a divorcee six years after marriage. He claims he was defrauded into marrying her and seeks divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -93,39 +93,108 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Desertion is not a single act, but a continuous course of conduct.",
+      "held": "Desertion, therefore, means withdrawing from the matrimonial obligations i.e. not permitting or allowing and facilitating the cohabitation between the parties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Bipinchandra Jaisinghbai Shah v. Prabhavati, (1957) SC 176"
+      ],
       "keywords": [
-        "TODO"
+        "desertion",
+        "matrimonial obligations",
+        "cohabitation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Two essential conditions must be present for the offence of desertion: factum of separation and intention to bring cohabitation permanently to an end.",
+      "held": "For the offence of desertion, so far as the deserted spouse is concerned, two essential conditions must be there, namely (1) the factum of separation, and (2) the intention to bring cohabitation permanently to an end (animus deserendi).",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Bipinchandra Jaisinghbai Shah v. Prabhavati, (1957) SC 176"
+      ],
+      "keywords": [
+        "desertion",
+        "separation",
+        "intention"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The offence of desertion commences when the fact of separation and the intention to bring cohabitation permanently to an end coexist.",
+      "held": "The offence of desertion commences when the fact of separation and the animus deserendi coexist.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Bipinchandra Jaisinghbai Shah v. Prabhavati, (1957) SC 176"
+      ],
+      "keywords": [
+        "desertion",
+        "separation",
+        "intention"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is not specified in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "marriage petition",
+    "matrimonial dispute",
+    "spousal abuse",
+    "irretrievable breakdown",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "maintenance",
+    "custody",
+    "property division",
+    "Hindu rites",
+    "marital status",
+    "family law",
+    "Indian Penal Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to divorce petition",
+    "advising on matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:34:15.282757"
 }

@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Mat_App__2_2022_on_1_April_2025PDF_260526_141101.pdf",
   "total_pages": 10,
-  "extracted_at": "2026-06-13T19:54:43.925382",
+  "extracted_at": "2026-06-16T11:36:22.466455",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -24,13 +24,13 @@
     "Mridul Kumar Kalita J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of the learned District Judge, Karimganj, Title Suit (D) No. 81/2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mat App  2 2022 on 1 April 2025PDF 260526 141101",
+  "case_name": "Mat.App./2/2022 v. — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ashok Ganguly, husband",
+    "respondent_defendant": "Sima Ganguly, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Ashok Ganguly and Sima Ganguly. The husband filed a divorce suit against the wife under Section 13 of the Hindu Marriage Act, 1955 for a decree of divorce and alternatively for a decree for judicial separation on the grounds of cruelty and desertion. The trial court dismissed the divorce suit.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Subjecting a person to undergo trial in which they are ultimately acquitted can be regarded as an act of mental cruelty.",
+      "held": "Compelling the appellant to undergo the rigours of the criminal trial, in which ultimately he got a verdict of acquittal, is in itself an act of mental cruelty by the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code",
+        "Code of Criminal Procedure"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rani Narasimha Sastry Vs. Rani Suneela Rani, (2020) 18 SCC 247"
+      ],
       "keywords": [
-        "TODO"
+        "mental cruelty",
+        "acquittal",
+        "criminal trial"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A long period of continuous separation may fairly be concluded that the matrimonial bond is beyond repair.",
+      "held": "Where there has been a long period of continuous separation, it may fairly be concluded that the matrimonial bond is beyond repair.",
+      "cited_cases": [
+        "Samar Ghosh Vs. Jaya Ghosh, (2007) 4 SSC 511"
+      ],
+      "keywords": [
+        "matrimonial discord",
+        "separation",
+        "beyond repair"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": [],
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is not mentioned in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 28",
+    "matrimonial appeal",
+    "marriage dissolution",
+    "spousal rights",
+    "family law",
+    "Indian Penal Code",
+    "Code of Criminal Procedure",
+    "assault",
+    "harassment",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "separation",
+    "maintenance",
+    "custody",
+    "property division"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal rights",
+    "representing clients in family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:51:59.082193"
 }

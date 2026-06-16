@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Krishna_Obroi_vs_Vijay_Kumar_Obroi_on_24_February_1970.PDF",
   "total_pages": 7,
-  "extracted_at": "2026-06-13T19:54:03.576573",
+  "extracted_at": "2026-06-16T11:35:59.192631",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Krishna Obroi vs Vijay Kumar Obroi on 24 February, 1970",
+  "case_name": "Krishna Obroi vs Vijay Kumar Obroi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Miss Krishna Godwani (Mrs. Krishna Obroi)",
+    "respondent_defendant": "Vijay Kumar Obroi",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Obroi knew Miss Godwani, a working girl. They underwent an alleged marriage in Arya Samaj temple on March 17, 1965. Obroi filed a petition for restitution of conjugal rights against Miss Godwani alleging that the marriage was solemnized and witnessed by the Priest and other office-bearers of the Samaj.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In the absence of a custom to the contrary, the rites essential for a Hindu marriage are two: (a) the invocation before the sacred fire, i.e., Homam; and (b) taking of seven steps round the fire by the bride and bridegroom, Saptapadi.",
+      "held": "It is well-established that in the absence of a custom to the contrary, the rites essential for a Hindu marriage are two: namely, the invocation before the sacred lire, i.e., Homam; and (b) taking of seven steps round the fire by the bride and bridegroom, Saptapadi.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Mulla's Hindu Law",
+        "Bhaurao Shankar Lokhande v. The State of Maharashtra",
+        "Kanwal Ram v. The Himachal Pradesh Administration"
+      ],
+      "keywords": [
+        "Hindu marriage",
+        "rites",
+        "Homam",
+        "Saptapadi"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "When a party has denied the factum of the marriage, the burden lies on the other party to prove the same.",
+      "held": "Obroi was bound to prove the same. Against the general evidence adduced for Obroi, the specific evidence of Miss Godwani and RW. 1 Nathu Ram is that Saptapadi was not performed at all.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "factum",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "marriage",
+    "Vedic rites",
+    "Arya Samaj",
+    "conjugal rights",
+    "restitution",
+    "petition",
+    "family law",
+    "Indian law",
+    "section 7",
+    "sacrament",
+    "contract",
+    "illegality",
+    "voidable",
+    "nullity"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu marriage laws",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:28:46.833337"
 }

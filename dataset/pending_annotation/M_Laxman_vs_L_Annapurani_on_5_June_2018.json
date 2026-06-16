@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "M_Laxman_vs_L_Annapurani_on_5_June_2018.PDF",
   "total_pages": 20,
-  "extracted_at": "2026-06-13T19:55:18.393796",
+  "extracted_at": "2026-06-16T11:36:44.148241",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "partition": 1,
@@ -31,13 +31,13 @@
     "O.P.No.2418 of 2003",
     "O.P.No. 958 of 2003"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Chennai in O.P.Nos.2418 and 958 of 2003",
   "reserved_on": "08.12.2017",
   "delivered_on": "05.06.2018",
   "case_name": "M.Laxman vs L.Annapurani on 5 June, 2018",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M.Laxman (husband)",
+    "respondent_defendant": "L.Annapurani (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed for dissolution of marriage under Section 13(1)(ia) and 13(1)(iii) of the Hindu Marriage Act. The wife filed for restitution of her marital life and custody of children under Sections 9 and 26 of the Hindu Marriage Act. The trial court decided in favor of the parties, leading to this appeal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Mere existence of mental disorder is insufficient to justify dissolution of marriage.",
+      "held": "When may not be granted. Need for existence of serious mental disorder.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(iii)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Kollam Chandra Sekhar vs Kollam Padma Latha, (2014) 1 Supreme Court cases 225"
+      ],
       "keywords": [
-        "TODO"
+        "mental disorder",
+        "serious mental disorder",
+        "schizophrenia"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving mental health issues"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "One spouse cannot simply abandon the other spouse because the latter is suffering from sickness.",
+      "held": "Further held, one spouse cannot simply abandon the other spouse because the latter is suffering from sickness.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(iii)"
+      ],
+      "cited_cases": [
+        "M.Laxman vs L.Annapurani, (2018) X SCC Y"
+      ],
+      "keywords": [
+        "abandonment",
+        "sickness",
+        "mental health"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving abandonment or desertion due to mental health issues"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order set aside the decreetal order made by the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 19",
+    "Family Courts Act",
+    "1984",
+    "dissolution of marriage",
+    "relief",
+    "marriage",
+    "wife",
+    "husband",
+    "Indian Penal Code",
+    "1860",
+    "civil miscellaneous appeals",
+    "family court",
+    "Chennai",
+    "Principal Judge",
+    "fair order",
+    "decreeal order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:35:13.800917"
 }

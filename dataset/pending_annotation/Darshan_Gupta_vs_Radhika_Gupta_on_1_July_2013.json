@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Darshan_Gupta_vs_Radhika_Gupta_on_1_July_2013.PDF",
   "total_pages": 20,
-  "extracted_at": "2026-06-13T19:52:47.727708",
+  "extracted_at": "2026-06-16T11:35:00.556431",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Darshan Gupta vs Radhika Gupta on 1 July, 2013",
+  "case_name": "Darshan Gupta vs Radhika Gupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Darshan Gupta — husband",
+    "respondent_defendant": "Radhika Gupta — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Darshan and Radhika was solemnized in 1997. They had two pregnancies, both of which were terminated due to medical complications. The second pregnancy resulted in the birth of a child who survived for only eight days.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,21 +55,36 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party alleging cruelty to prove it.",
+      "held": "The Court was of the view, that there was no evidence before the Court, except the deposition of interested witnesses, namely, the appellant-husband himself, his maternal aunt Nirmala Devi and his elder twin brother Darpan Gupta.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Expert evidence must be credible and reliable.",
+      "held": "Dr. M. Veera Raghawa Reddy-PW4, had admitted that while examining Radhika Gupta, he did not observe any signs of aggressiveness in the respondent-wife.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "expert evidence",
+        "credibility"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "medical malpractice cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -79,15 +94,37 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "consummation",
+    "abortion",
+    "hypertension",
+    "morning sickness",
+    "general weakness",
+    "medical advice",
+    "divorce",
+    "matrimonial alliance",
+    "well-to-do families",
+    "love and affection",
+    "cordiality",
+    "marriage solemnized",
+    "Holiday Inn Hotel",
+    "Hyderabad",
+    "Hindu rights and customs",
+    "first pregnancy",
+    "fourth month",
+    "prenatal care"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "counseling clients on family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:32:20.527849"
 }

@@ -5,7 +5,7 @@
   "source_url": "",
   "pdf_filename": "Lalit_Aggarwal_vs_State_Of_Haryana_on_11_March_2025.PDF",
   "total_pages": 4,
-  "extracted_at": "2026-06-13T19:54:10.685302",
+  "extracted_at": "2026-06-16T11:36:05.954583",
   "domain": "murder_criminal",
   "sub_domain": "cheque_bounce",
   "domain_scores": {
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Lalit Aggarwal vs State Of Haryana on 11 March, 2025",
+  "case_name": "Lalit Aggarwal vs State Of Haryana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Lalit Aggarwal, son of Paryag Das Aggarwal, resident of House No. 100, Adarsh Nagar, Bhiwani Tehsil and District Bhiwani",
+    "respondent_defendant": "State Of Haryana",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Lalit Aggarwal purchased a car against loan sanctioned by ICICI Bank. He received a message that a cheque of Rs. 4,38,000/- has been presented in his account. The applicant visited the bank and told them that neither he has issued any cheque to any person nor he has given cheque to anybody.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person who enters into an agreement must comply with its terms.",
+      "held": "The accused did not fulfilled the condition of the agreement and was failed to pay the installments of the above said car.",
       "applicable_acts_sections": [
-        "TODO"
+        "Bharatiya Nagarik Suraksha Sanhita, 2023"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "agreement",
+        "compliance",
+        "installments"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "breach of contract cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who makes a promise must keep it.",
+      "held": "The accused said that he will deposit all the remaining installments, but did not do so.",
+      "applicable_acts_sections": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "promise",
+        "keeping promises"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "breach of promise cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person who commits fraud must be held accountable.",
+      "held": "The above said accused has committed fraud by getting duly signed stamp paper of Rs. 10/- from the applicant.",
+      "applicable_acts_sections": [
+        "Bharatiya Nagarik Suraksha Sanhita, 2023"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "fraud",
+        "accountability"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "fraud cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "anticipatory bail",
+    "Section 482 BNSS",
+    "FIR No. 110",
+    "Sections 379/420/467/468/471/506 IPC",
+    "IDBI Bank",
+    "cheque no. 595076",
+    "theft",
+    "fake signatures",
+    "fraud",
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "Bharatiya Nyaya Sanhita",
+    "murder_criminal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting anticipatory bail applications",
+    "advising on criminal proceedings",
+    "representing clients in fraud cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:31:06.255524"
 }

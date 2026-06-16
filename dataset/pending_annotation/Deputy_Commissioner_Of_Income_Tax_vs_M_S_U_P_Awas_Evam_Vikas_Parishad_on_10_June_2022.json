@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Deputy_Commissioner_Of_Income_Tax_vs_M_S_U_P_Awas_Evam_Vikas_Parishad_on_10_June_2022.PDF",
   "total_pages": 58,
-  "extracted_at": "2026-06-13T19:52:56.188085",
+  "extracted_at": "2026-06-16T11:35:06.712498",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "tax",
   "domain_scores": {
     "divorce": 3,
     "cheque_bounce": 1,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "08/06/2022",
-  "case_name": "Deputy Commissioner Of Income Tax ... vs M/S U.P Awas Evam Vikas Parishad, ... on 10 June, 2022",
+  "case_name": "Deputy Commissioner Of Income Tax vs M/S U.P Awas Evam Vikas Parishad",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Deputy Commissioner Of Income Tax",
+    "respondent_defendant": "M/S U.P Awas Evam Vikas Parishad",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -43,7 +43,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Assessee filed appeals against separate orders of learned CIT(A) dated 21/02/2019, 21/02/2019 and 26/11/2019 respectively. Revenue also filed Cross Objections.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Entities carrying on commercial activities will not be eligible for exemption under Section 11 or 10 (23C) of Act, 1961.",
+      "held": "Whether an entity is carrying on activities in the nature of trade, commerce or business is a question of fact which will be decided based on the nature, scope, extent and frequency of activities.",
       "applicable_acts_sections": [
-        "TODO"
+        "Act Name — Section 11",
+        "Act Name — Section 10 (23C)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "commercial activities",
+        "exemption",
+        "Section 11",
+        "Section 10 (23C)",
+        "Act, 1961"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "taxation cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM — one reason why",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The object of general public utility will be only a mask or a device to hide the true purpose, which is trade, commerce or business, or rendering of any service in relation to trade, commerce or business.",
+      "held": "In such a case, object of general public utility will be only a mask or a device to hide the true purpose, which is trade, commerce or business, or rendering of any service in relation to trade, commerce or business.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Morice Versus Bishop of Durham (1805) 10 Ves Jr 522"
+      ],
+      "keywords": [
+        "mask",
+        "device",
+        "true purpose",
+        "trade",
+        "commerce",
+        "business",
+        "service"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "taxation cases"
+      ],
+      "significance": "LOW — one reason why",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "income tax",
+    "assessment year",
+    "ITAT",
+    "CIT(A)",
+    "Appeal",
+    "Exemption",
+    "A.C.I.T.",
+    "M/s U.P. Awas Evam Vikas Parishad",
+    "Assessee",
+    "Revenue",
+    "C.O.No.",
+    "PAN",
+    "Mahatma Gandhi Marg",
+    "Lucknow",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting income tax appeals",
+    "compliance with ITAT orders",
+    "appealing CIT(A) decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T12:35:12.374954"
 }

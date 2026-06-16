@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Isha_Manchanda_vs_Aditya_Katyal_on_25_January_2024.PDF",
   "total_pages": 5,
-  "extracted_at": "2026-06-13T19:53:41.113919",
+  "extracted_at": "2026-06-16T11:35:40.937947",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Isha Manchanda vs Aditya Katyal on 25 January, 2024",
+  "case_name": "Isha Manchanda vs Aditya Katyal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Isha Manchanda, wife",
+    "respondent_defendant": "Aditya Katyal, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -64,7 +64,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are the wife and husband. The wife has sought to transfer a divorce petition filed by her husband to another court. The parties have arrived at a settlement and agreed to dissolve their marriage by mutual consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -74,39 +74,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle their disputes and seek dissolution of marriage by mutual consent.",
+      "held": "They have indeed arrived at a settlement and have decided to part ways and hence, have filed an application under Article 142 of the Constitution seeking dissolution of their marriage by a decree of divorce by mutual consent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Constitution — Article 142"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "mutual consent",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can quash pending proceedings in accordance with their settlement agreement.",
+      "held": "The parties have sought for quashing of certain proceedings initiated by them inter se which are mentioned in paragraph ‘2’ of the Settlement Agreement.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "quashing",
+        "settlement agreement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties' joint application for dissolution of their marriage by decree of divorce by mutual consent is allowed. The couple's minor son will be in the custody of the wife, and the husband has paid a settlement amount to the wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Transfer Petition",
+    "Code of Civil Procedure",
+    "Section 25 CPC",
+    "Family Court",
+    "Punjab and Haryana High Court",
+    "Supreme Court Mediation Centre",
+    "Settlement Agreement",
+    "Aditya Katyal",
+    "Isha Manchanda",
+    "H.M. Petition No.443/2022",
+    "Sections 13(1)(i-a) Or Alternative 12(1)(c)",
+    "Latin Maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition under Section 25 CPC",
+    "advising on divorce proceedings under Hindu Marriage Act",
+    "negotiating settlement agreements in family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:06:39.805267"
 }

@@ -5,9 +5,9 @@
   "source_url": "",
   "pdf_filename": "Maharashtra_State_Electricity_vs_Vijay_Electricals_Ltd_on_4_February_2015.PDF",
   "total_pages": 51,
-  "extracted_at": "2026-06-13T19:54:25.486367",
+  "extracted_at": "2026-06-16T11:36:14.987489",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Maharashtra State Electricity ... vs Vijay Electricals Ltd on 4 February, 2015",
+  "case_name": "Maharashtra State Electricity Distribution Company Limited vs Vijay Electricals Limited",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Maharashtra State Electricity Distribution Company Limited, Petitioner",
+    "respondent_defendant": "Vijay Electricals Limited, Respondents",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners seek to impugn the arbitral award dated 26th October, 2012 made by the learned arbitrator allowing the claims made by the respondents. The respondents submitted e-bids in respect of three tenders which were in respect of Amravati Zone, Aurangabad - Nanded Zone and Baramati Zone on 21st September, 2011.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party's failure to take action against another party does not debar the former from taking a subsequent action.",
+      "held": "The respondents however, did not take any such action in the matter. Merely because the petitioners did not forfeit the security deposit immediately upon receipt of the letter dated 15th October, 2011 would not debar the petitioners from encashing such bank guarantees at the later date i.e. after opening of the tender of the technically qualified bidders and after awarding the contract to the successful bidder.",
       "applicable_acts_sections": [
-        "TODO"
+        "Specific Relief Act, 1963"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "security deposit",
+        "bank guarantees",
+        "subsequent action"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "petitioner",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot invoke a bank guarantee without stating the reason for invocation.",
+      "held": "The learned arbitrator has rightly referred to the said condition in the letter of invocation of the bank guarantees by the petitioners has erroneously rendered a finding that the terms and conditions of the bank guarantees were not fulfilled.",
+      "applicable_acts_sections": [
+        "Specific Relief Act, 1963"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "bank guarantee",
+        "reason for invocation"
+      ],
+      "favours": "petitioner",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "specific relief act",
+    "arbitration and conciliation act",
+    "companies act",
+    "property dispute",
+    "contractual obligation",
+    "breach of contract",
+    "specific performance",
+    "injunction",
+    "equitable relief",
+    "rescission",
+    "restitution",
+    "damages",
+    "arbitration petition",
+    "section 34",
+    "section 9",
+    "section 11",
+    "section 17"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a specific performance plea",
+    "seeking injunction in property dispute",
+    "rescinding a contract due to breach"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-16T13:45:53.635391"
 }
