@@ -5,7 +5,7 @@
   "source_url": "",
   "pdf_filename": "Anuj_Dhamija_vs_Hira_Singh_on_30_May_2026.PDF",
   "total_pages": 7,
-  "extracted_at": "2026-06-16T11:34:04.298027",
+  "extracted_at": "2026-06-16T18:57:27.768179",
   "domain": "cheque_bounce",
   "sub_domain": "cheque_bounce",
   "domain_scores": {
@@ -69,19 +69,19 @@
   ],
   "legal_principles": [
     {
-      "principle": "The burden lies on the complainant to prove that the accused had received the amount",
-      "held": "In view of the above, it is clear that the burden lies on the complainant to prove that the accused had received the amount.",
+      "principle": "The burden lies on the accused to prove that he did not receive the amount.",
+      "held": "In response, the accused reiterated the defence taken in the notice framed under section 251, CrPC. The accused stated that he did not receive an amount of Rs. 18 lakhs from the complainant and did not enter into any agreement to sell with the complainant.",
       "applicable_acts_sections": [
-        "Negotiable Instruments Act, 1881"
+        "Code of Criminal Procedure, 1973 — Section 251"
       ],
       "cited_cases": [],
       "keywords": [
         "burden",
-        "complainant",
         "accused",
+        "receipt",
         "amount"
       ],
-      "favours": "plaintiff",
+      "favours": "defendant",
       "use_in": [
         "cheque bounce cases"
       ],
@@ -89,18 +89,20 @@
       "principle_id": "LP_001"
     },
     {
-      "principle": "The accused can deny all suggestions put up to him during cross-examination",
-      "held": "CW-1 denied all the suggestions put up to him.",
-      "applicable_acts_sections": [],
+      "principle": "The accused's statement under section 313, CrPC should be considered while evaluating the evidence.",
+      "held": "STATEMENT UNDER SECTION 313 CRPC ... wherein the entire incriminating evidence was put to him. In response, the accused reiterated the defence taken in the notice framed under section 251, CrPC.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 313"
+      ],
       "cited_cases": [],
       "keywords": [
         "accused",
-        "denial",
-        "suggestions"
+        "statement",
+        "section 313"
       ],
-      "favours": "defendant",
+      "favours": "neutral",
       "use_in": [
-        "cross-examination cases"
+        "criminal cases"
       ],
       "significance": "MEDIUM",
       "principle_id": "LP_002"
@@ -126,8 +128,6 @@
     "property sale",
     "agreement to purchase",
     "execution of agreement",
-    "cheque dated 06.06.2019",
-    "amount Rs. 36,00,000",
     "latin maxim",
     "actus reus",
     "mens rea"
@@ -143,5 +143,5 @@
   "annotation_status": "auto_llm",
   "annotated_by": "ollama_llama3",
   "dataset_version": "1.0",
-  "updated_at": "2026-06-16T12:08:24.862693"
+  "updated_at": "2026-06-16T19:37:00.309000"
 }

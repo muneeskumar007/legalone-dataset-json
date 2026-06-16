@@ -5,7 +5,7 @@
   "source_url": "",
   "pdf_filename": "Akshay_Kumar_vs_Krishan_Kumar_on_29_January_2025.PDF",
   "total_pages": 10,
-  "extracted_at": "2026-06-16T11:33:55.881893",
+  "extracted_at": "2026-06-16T18:57:11.872542",
   "domain": "cheque_bounce",
   "sub_domain": "cheque_bounce",
   "domain_scores": {
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "Complainant provided a loan of Rs 3,00,000/- to the accused on 24.10.2013 via cheque no. 145014 dt. 24.10.2013 drawn on Axis Bank, Salimar Bagh, Delhi. The complainant presented the cheque to his bank however, it was returned unpaid for the reason payment stopped by drawer.",
+  "facts_of_case": "Complainant provided loan to accused and issued cheque which was dishonoured. Accused failed to pay despite legal demand notice.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,45 +66,66 @@
   ],
   "legal_principles": [
     {
-      "principle": "The burden lies on the accused to prove his innocence.",
-      "held": "He reiterated his innocence and opted to lead defence evidence.",
+      "principle": "It is wrong to suggest that a person is deposing falsely due to contradictions in the source of his funds.",
+      "held": "He was financially capable of granting the loan. It was correct to say that he had ₹90,000 in his bank account on 24.10.2013.",
       "applicable_acts_sections": [
-        "Code of Criminal Procedure, 1973 — Section 313"
+        "Code of Criminal Procedure, 1973",
+        "Negotiable Instruments Act, 1881"
       ],
       "cited_cases": [],
       "keywords": [
-        "innocence",
-        "defence",
-        "burden"
+        "credibility",
+        "witness testimony"
       ],
-      "favours": "defendant",
+      "favours": "neutral",
       "use_in": [
-        "criminal cases"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH",
+      "significance": "MEDIUM",
       "principle_id": "LP_001"
     },
     {
-      "principle": "A witness's statement cannot be discredited solely on the basis of contradictions in the source of his funds.",
-      "held": "It was wrong to suggest that he was deposing falsely due to contradictions in the source of his funds.",
-      "applicable_acts_sections": [],
+      "principle": "A person's financial capability is relevant in determining the credibility of his statement.",
+      "held": "He was financially capable of granting the loan.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973",
+        "Negotiable Instruments Act, 1881"
+      ],
       "cited_cases": [],
       "keywords": [
-        "witness",
         "credibility",
-        "funds"
+        "financial capability"
       ],
-      "favours": "plaintiff",
+      "favours": "neutral",
       "use_in": [
-        "civil cases"
+        "cheque bounce cases"
       ],
       "significance": "MEDIUM",
       "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person's statement should not be discredited solely based on the absence of a diary or record.",
+      "held": "He did not maintain any diary regarding the loan amount. Voluntarily, he stated that it was a friendly loan.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973",
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "credibility",
+        "diary"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "Convicted",
-    "final_order": "The accused was convicted.",
+    "result": "Appeal dismissed",
+    "final_order": "Accused convicted.",
     "relief_granted": "",
     "costs": ""
   },
@@ -131,11 +152,11 @@
   "use_for_drafting": [
     "drafting a complaint under section 138 of the Negotiable Instruments Act",
     "defending an accused in a cheque bounce case",
-    "advising on legal remedies for a bounced cheque"
+    "advising on the consequences of conviction for cheque bounce"
   ],
   "annotation_verified": false,
   "annotation_status": "auto_llm",
   "annotated_by": "ollama_llama3",
   "dataset_version": "1.0",
-  "updated_at": "2026-06-16T11:56:59.136087"
+  "updated_at": "2026-06-16T19:21:21.615874"
 }
