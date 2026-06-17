@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-06-16T11:39:29.884003",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -28,8 +28,8 @@
   "delivered_on": "",
   "case_name": "Smt. Savita Kumari vs Ramu Sahu on 14 August, 2025",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ramu Sahu, Officer Surveyor, posted at office of the Director, 7th Floor (Block-'A', 'F' & 'G') Karpuri Thakur Sadan, CGO Complex, Ashiana Digha Road, P.O. +P.S. Ashiana Nagar, Dist.- Patna- 800025 (Bihar) through its Director",
+    "respondent_defendant": "Smt. Savita Kumari, wife of Ramu Sahu, daughter of Late Surya Narayan Sah, permanent resident of House No.11, Near Indu Bhawan, Behind Yamuna Apartment, Gandhi Nagar, Boring Road, P.O. & P.S. Patna Shri Krishnapuri, District Patna, Bihar",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent/husband filed a suit for dissolution of marriage which was allowed by the trial court. The husband has been directed to pay permanent alimony of Rs. 15,00,000/- to the wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party's failure to disclose material information can be considered as cruelty.",
+      "held": "The behaviour of the wife became more cruel, thus, he was compelled to leave his Govt. accommodation in the year 2016.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "disclosure",
+        "material information"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to discharge their obligations as a spouse can be considered as cruelty.",
+      "held": "The wife never discharged her obligation as wife so he filed a case of restitution of conjugal right.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "obligations",
+        "spouse",
+        "cruelty"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is being taken up together and as such, are being allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Evidence Act",
+    "1872",
+    "matrimonial dispute",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "maintenance",
+    "alimony",
+    "property settlement",
+    "joint family",
+    "partition",
+    "family court",
+    "judicial separation",
+    "divorce petition",
+    "grounds for divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on grounds for divorce",
+    "assisting with property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:39:51.295740"
 }

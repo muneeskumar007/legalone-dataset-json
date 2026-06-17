@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-06-16T11:39:24.622714",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "B.R.Sarangi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Cuttack - Civil Proceeding Nos. 251 of 2003 and 204 of 2005",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Nibedita Dash vs Sri Biranchi Narayan Satpathy on 27 August, 2013",
+  "case_name": "Smt. Nibedita Dash vs Sri Biranchi Narayan Satpathy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Nibedita Dash (wife)",
+    "respondent_defendant": "Sri Biranchi Narayan Satpathy (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed for divorce under Section 12(1)(c) of the Hindu Marriage Act, 1955, while the wife sought restitution of conjugal rights. The trial court allowed the husband's application and dissolved the marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In absence of positive pleading and evidence, the court lacks jurisdiction to grant relief.",
+      "held": "Hence, the decree is liable to be set aside. He also cited a decision of the apex Court in the case of Dr.N.G.Dastane v. Mrs. S.Dastane reported in AIR 1975 SC 1534 and the decision of the Punjab & Haryana High Court in the case of Krishan Kumar v. Smt. Nidhi Arora reported in AIR 2010 (NOC) 441 (P&H) wherein it has been held that",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Dr.N.G.Dastane v. Mrs. S.Dastane, (1975) SC 1534",
+        "Krishan Kumar v. Smt. Nidhi Arora, (2010) NOC 441 (P&H)"
+      ],
+      "keywords": [
+        "positive pleading",
+        "evidence",
+        "jurisdiction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court has jurisdiction to draw a decree on the basis of material evidence in the end of justice.",
+      "held": "The court has jurisdiction under Section 23(1)(a) of the Act to draw a decree on the basis of material evidence in the end of justice.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955",
+        "Indian Evidence Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "material evidence",
+        "justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final order was a decree of divorce subject to payment of cost of Rs.3 lakhs as permanent alimony to the wife within three months from the date of the order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Evidence Act",
+    "1872",
+    "marriage",
+    "separation",
+    "maintenance",
+    "alimony",
+    "custody",
+    "property",
+    "partition",
+    "matrimonial",
+    "dispute",
+    "family court",
+    "civil proceeding",
+    "Orissa High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "representing in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:36:37.827449"
 }

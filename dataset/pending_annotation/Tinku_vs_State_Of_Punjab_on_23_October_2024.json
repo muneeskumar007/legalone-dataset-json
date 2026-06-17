@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-06-16T11:40:50.462787",
   "domain": "murder_criminal",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "cheque_bounce": 1,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "23.10.2024",
-  "case_name": "Tinku vs State Of Punjab on 23 October, 2024",
+  "case_name": "Tinku vs State Of Punjab",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tinku, son of Rajvir Kumar, resident of Sunharar Basti, Kahangarh Road, Patrana, District Patiala",
+    "respondent_defendant": "State Of Punjab",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant Parveen kaur wife of Ram Singh reported that Tinku and Mandeep Singh cheated her by taking Rs. 8 Lakh for getting a job, which was not delivered.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,70 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the accused to prove that the transaction was genuine.",
+      "held": "It is submitted on behalf of the petitioner that out of the said amount i.e. Rs.3,20,000, an amount of Rs.1,80,000/- has already been paid to the complainant and petitioner is ready and willing to return the balance amount to the tune of Rs.1,40,000/- to the complainant.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "accused",
+        "genuine"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "complainant",
       "use_in": [
-        "TODO — case types"
+        "cheating cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who has been cheated out of a large amount of money is entitled to seek legal action.",
+      "held": "Thus, they have done a great fraud and cheated me. One is that they cheated my son of Rs. 8 Lakh by pretending to get a job and the secondly, wrong checks have been given in name of return the money which have bounced and signature on the cheque is also not correct.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "cheated",
+        "large amount"
+      ],
+      "favours": "complainant",
+      "use_in": [
+        "fraud cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal sought",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "anticipatory bail",
+    "Section 482 BNSS 2023",
+    "FIR No. 177",
+    "Sections 406 420 IPC",
+    "murder_criminal",
+    "Bharatiya Nagarik Suraksha Sanhita 2023",
+    "High Court of Punjab & Haryana",
+    "Chunagra Road",
+    "Sagar Basti",
+    "Patran District Patiala",
+    "Indian Kanoon",
+    "HP Petrol Pump street",
+    "Haryana"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting anticipatory bail applications",
+    "seeking relief under Section 482 BNSS 2023",
+    "criminal cases in High Court of Punjab & Haryana"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:16:51.925100"
 }

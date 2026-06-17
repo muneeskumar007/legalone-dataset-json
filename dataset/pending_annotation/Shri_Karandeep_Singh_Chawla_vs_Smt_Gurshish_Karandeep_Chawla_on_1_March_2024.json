@@ -7,7 +7,7 @@
   "total_pages": 26,
   "extracted_at": "2026-06-16T11:38:51.581118",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 12,
     "cheque_bounce": 1,
@@ -27,13 +27,13 @@
     "Vinay Saraf J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "VIth Joint Civil Judge, Senior Division, Kalyan, District Thane (Maharashtra), case no. 1127/2019",
   "reserved_on": "17.02.2024",
   "delivered_on": "01.03.2024",
-  "case_name": "Shri Karandeep Singh Chawla vs Smt. Gurshish Karandeep Chawla on 1 March, 2024",
+  "case_name": "Shri Karandeep Singh Chawla vs Smt. Gurshish Karandeep Chawla",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant / husband seeking decree of divorce on the ground of mental cruelty and desertion",
+    "respondent_defendant": "Smt. Gurshish Karandeep Chawla, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -86,7 +86,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties was solemnized on 09.02.2014. They were blessed with a baby girl on 04.12.2014. It is admitted in present matter that they are living separately since 08.07.2014 and lived together for 5 months only.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -96,39 +96,106 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Filing of multiple FIRs and cases amounts to cruelty.",
+      "held": "It is submitted on behalf of husband that FIR was lodged with intention to rope in the entire family members in criminal cases, which amounts to cruelty.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code",
+        null
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        null,
+        null
+      ],
       "keywords": [
-        "TODO"
+        "cruelty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "One party's refusal to comply with court orders can be considered as a ground for divorce.",
+      "held": "Family Court has observed that wife is not interested to comply with order passed by Family Court on 18.05.2017 in Case No. 17/2016 whereby she was ordered to keep the minor daughter present in the Court for purpose of meeting with husband once in a month.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure",
+        null
+      ],
+      "cited_cases": [
+        null,
+        null
+      ],
+      "keywords": [
+        "court orders"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Irretrievable breakdown of marriage can be a ground for divorce only if there is no hope of cohabitation.",
+      "held": "He thus prayed for decree of divorce. Apex Court in the matter of V.E.Maya Vs. K.S. Vetrivel SLP (civil) no. 11761-11762/2022 decided on 11.09.2023 has held that High Court has committed error of law by relying on the principle of irretrievable breakdown of marriage to dissolve the marriage between parties in a contested divorce proceedings without recording the finding of cruelty on the part of wife.",
+      "applicable_acts_sections": [
+        "null",
+        null
+      ],
+      "cited_cases": [
+        "V.E.Maya Vs. K.S. Vetrivel, (2022) X SCC Y"
+      ],
+      "keywords": [
+        "irretrievable breakdown of marriage"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed, and the impugned judgment and decree dated 13.10.2020 were set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Indian Penal Code",
+    "1860",
+    "Protection of Women from DV Act",
+    "2005",
+    "marriage",
+    "separation",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "matrimonial dispute",
+    "family law",
+    "judicial separation",
+    "irretrievable breakdown",
+    "no fault divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for judicial separation",
+    "advising on property division in a divorce case",
+    "assisting with alimony and maintenance disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:13:00.711781"
 }

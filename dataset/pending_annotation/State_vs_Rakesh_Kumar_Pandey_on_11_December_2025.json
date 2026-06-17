@@ -7,7 +7,7 @@
   "total_pages": 32,
   "extracted_at": "2026-06-16T11:40:02.105189",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 3,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS. SHEETAL CHAUDHARY PRADHAN, ADDITIONAL SESSIONS JUDGE-02, SOUTH-EAST DISTRICT, SAKET COURTS, NEW DELHI (SC No. : 41/2018)",
   "reserved_on": "",
   "delivered_on": "17.01.2004",
-  "case_name": "State vs Rakesh Kumar Pandey on 11 December, 2025",
+  "case_name": "State vs Rakesh Kumar Pandey & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "State",
+    "respondent_defendant": "Rakesh Kumar Pandey, Angad Raj Sharma, Dev Raj Sharma",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant Dr. Sita Ram Paswan filed FIR against accused Rakesh Kumar Pandey, Angad Raj Sharma and Dev Raj Sharma for offences under Sections 452, 323, 506, 34 IPC and Section 3(1)(r)(s) SC/ST Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that the complaint was false.",
+      "held": "It is settled law that the complainant's version of the incident is to be accepted unless it is found to be improbable or impossible.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "complaint",
+        "accused",
+        "false"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The law is clear that the police have a duty to protect the complainant from harm.",
+      "held": "It is the duty of the police to ensure that the complainant is protected from further harm and not to harass or intimidate them.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "police",
+        "duty",
+        "protect",
+        "complainant"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases involving police misconduct"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "All three accused persons stand acquitted.",
+    "final_order": "The trial court held that the prosecution failed to prove its case beyond reasonable doubt, hence all three accused were acquitted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of criminal procedure",
+    "sc/st act",
+    "ipc section 452",
+    "ipc section 323",
+    "ipc section 506",
+    "ipc section 34",
+    "section 3(1)(r)(s)",
+    "sc/ST act",
+    "session court",
+    "additional sessions judge",
+    "delhi courts",
+    "jaitpur police station",
+    "falsification of documents",
+    "dishonour of cheque",
+    "criminal breach of trust"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a plea for acquittal in cheque bounce cases",
+    "preparing a defence strategy for SC/ST act cases",
+    "advising clients on the implications of IPC sections 452, 323, 506 and 34"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:55:27.918750"
 }

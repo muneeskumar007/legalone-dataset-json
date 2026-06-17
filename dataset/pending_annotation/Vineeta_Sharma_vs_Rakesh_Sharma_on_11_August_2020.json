@@ -7,7 +7,7 @@
   "total_pages": 65,
   "extracted_at": "2026-06-16T11:41:11.413548",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 10,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "14.12.1976",
-  "case_name": "Vineeta Sharma vs Rakesh Sharma on 11 August, 2020",
+  "case_name": "Vineeta Sharma vs Rakesh Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vineeta Sharma — wife",
+    "respondent_defendant": "Rakesh Sharma & Ors. — husband and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -98,7 +98,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The case concerns the interpretation of section 6 of the Hindu Succession Act, 1956 as amended by Hindu Succession (Amendment) Act, 2005.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -108,39 +108,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A widow's interest in coparcenary property merges into the coparcenary on her death if she does not exercise her right of partition.",
+      "held": "If a widow does not exercise her right of partition, there is no severance of the Hindu coparcenary and on her death, the interest of the widow merges in the coparcenary property or lapses to the other coparceners.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Controller of Estate Duty (supra)",
+        "Satrughan Isser v. Sabujpari, & Ors., AIR 1967 SC 272"
+      ],
       "keywords": [
-        "TODO"
+        "coparcenary",
+        "partition",
+        "widow's interest"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving Hindu succession and coparcenary property"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A widow's interest in coparcenary property does not become a defined interest until she exercises her right of partition.",
+      "held": "If the widow after being introduced into family to which her husband belonged does not seek partition, on the termination of her estate her interest will merge into the coparcenary property.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [
+        "Satrughan Isser v. Sabujpari, & Ors., AIR 1967 SC 272"
+      ],
+      "keywords": [
+        "coparcenary",
+        "partition",
+        "widow's interest"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "cases involving Hindu succession and coparcenary property"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal referred to a larger Bench",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Succession Act",
+    "1956",
+    "section 6",
+    "Amendment Act",
+    "2005",
+    "family property",
+    "coparcenary",
+    "joint family",
+    " Hindu undivided family",
+    "HUF",
+    "property rights",
+    "inheritance",
+    "succession",
+    "partition suit",
+    "family settlement",
+    "agreement to partition",
+    "co-parceners",
+    "share of coparcener",
+    "restitution",
+    "equitable relief"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition agreement",
+    "advising on family property rights",
+    "representing clients in inheritance disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:33:03.177586"
 }

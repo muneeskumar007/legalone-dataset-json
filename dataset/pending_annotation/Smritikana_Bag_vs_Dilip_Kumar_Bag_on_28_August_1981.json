@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-06-16T11:39:10.742795",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, 12th Court, Alipore",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smritikana Bag vs Dilip Kumar Bag on 28 August, 1981",
+  "case_name": "Smritikana Bag vs Dilip Kumar Bag",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smritikana Bag, wife",
+    "respondent_defendant": "Dilip Kumar Bag, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties took place in 1976. The respondent husband presented a petition for annulment of their marriage under Section 12 and in the alternative for dissolution of the said marriage under Section 13(1)(iii) of the Hindu Marriage Act, 1955. Although the petition was presented before one year had elapsed since the date of marriage, the respondent did not make any application under the proviso to Section 14(1) of the Hindu Marriage Act for allowing him to present the said petition for dissolution of marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "To dissolve a marriage under Section 13(1)(iii) of the Hindu Marriage Act, the Court must be satisfied that the respondent's mental disorder is of such a nature and intensity that it would not be reasonable to compel the petitioner to endure or suffer the same.",
+      "held": "The Court ought to be satisfied that the respondent's mental disorder is of such a nature and of such intensity that it would not be reasonable to compel the petitioner to endure or suffer the same.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(iii)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smritikana Bag vs Dilip Kumar Bag, (1981) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "mental disorder",
+        "psychopathic disorder",
+        "conjugal life"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving mental health issues"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "To prove a respondent's mental disorder under Section 13(1)(iii) of the Hindu Marriage Act, the petitioner must show that the respondent has been incurably of unsound mind or suffering continuously or intermittently from mental disorder.",
+      "held": "The petitioner would be required to prove that the respondent had been incurably of unsound mind. Alternatively, he ought to prove that the respondent to the petition under Section 13(1) of the Hindu Marriage Act had been suffering continuously or intermittently from mental disorder",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(iii)"
+      ],
+      "cited_cases": [
+        "Smritikana Bag vs Dilip Kumar Bag, (1981) X SCC Y"
+      ],
+      "keywords": [
+        "mental disorder",
+        "unsound mind",
+        "incurable"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases involving mental health issues"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's decree dissolving the marriage was set aside, and the case was remanded to the trial court with directions to consider the respondent's application under Section 14(1) of the Hindu Marriage Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 12(1)(b)",
+    "Section 13(1)(iii)",
+    "annulment",
+    "dissolution",
+    "divorce",
+    "marriage",
+    "Husband",
+    "Wife",
+    "Alipore",
+    "District Judge",
+    "24 Parganas",
+    "Behala",
+    "Shib Tbakurbari Lane",
+    "P. S.",
+    "Section 1955",
+    "Latin Maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on annulment of marriage",
+    "representing husband/wife in divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:27:08.278479"
 }

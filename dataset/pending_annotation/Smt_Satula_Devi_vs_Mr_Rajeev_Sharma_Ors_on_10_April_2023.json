@@ -7,7 +7,7 @@
   "total_pages": 46,
   "extracted_at": "2026-06-16T11:39:28.246115",
   "domain": "will_succession",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 5,
     "partition": 3,
@@ -29,10 +29,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Satula Devi vs Mr Rajeev Sharma & Ors. on 10 April, 2023",
+  "case_name": "Smt Satula Devi vs Mr Rajeev Sharma & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Satula Devi, plaintiff",
+    "respondent_defendant": "Mr Rajeev Sharma & Ors., defendants",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -95,7 +95,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiff Smt Satula Devi seeks declaration of ownership of suit properties and other reliefs. She claims to be the rightful owner due to her husband's use of her Stridhan.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -105,39 +105,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The probate court does not decide the title of the property stipulated in a will.",
+      "held": "It is held that the probate court does not decide the title of the property stipulated in a will and also that whether or not a testator has a right to bequeath such property",
       "applicable_acts_sections": [
-        "TODO"
+        "Specific Relief Act, 1963"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Ravi Khanna v. Pankaj Khanna, 152 (2008) DLT 484"
+      ],
       "keywords": [
-        "TODO"
+        "probate",
+        "will",
+        "title",
+        "property"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "suit for partition",
+        "probate case"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The proceedings in a probate case and a suit for partition can be clubbed together.",
+      "held": "It is held that the proceedings in a probate case and a suit for partition can be clubbed together",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "Praveer Chandra v. Aprajita & Ors., 2019 SCC OnLine Del 10820",
+        "Shamita Singh & Anr. v. Rashmi Ahluwalia & Anr., 2020 (7) SCC 152"
+      ],
+      "keywords": [
+        "probate case",
+        "suit for partition",
+        "clubbed together"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "civil suit",
+        "partition suit"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted a decree declaring the plaintiff as the owner of the suit properties and set aside the will dated 18.07.2011.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "will",
+    "succession",
+    "Code of Civil Procedure",
+    "1908",
+    "Protection of Women from DV Act",
+    "2005",
+    "Specific Relief Act",
+    "1963",
+    "Limitation Act",
+    "1963",
+    "declaration",
+    "owner",
+    "suit properties",
+    "Schedule",
+    "reliefs",
+    "interest of justice",
+    "DV",
+    "family court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "succession planning",
+    "family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:38:54.907587"
 }

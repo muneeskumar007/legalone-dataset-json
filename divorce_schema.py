@@ -477,7 +477,7 @@ class DivorceDataset:
                         lp.get("principle",""),
                         lp.get("held",""),
                         " ".join(kws) if isinstance(kws,list) else "",
-                        " ".join(secs) if isinstance(secs,list) else "",
+                        " ".join(str(s) for s in secs if s is not None) if isinstance(secs, list) else ""
                     ]))
                 })
         return principles

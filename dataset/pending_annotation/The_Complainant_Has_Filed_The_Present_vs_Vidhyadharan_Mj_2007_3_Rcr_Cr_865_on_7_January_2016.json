@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-06-16T11:40:40.446547",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 9,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "MS. ARCHANA BENIWAL, Metropolitan Magistrate (South−East) - 08, Saket Courts : New Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "The Complainant Has Filed The Present ... vs Vidhyadharan Mj 2007 (3) Rcr (Cr) 865 on 7 January, 2016",
+  "case_name": "The Complainant Has Filed The Present ... vs Vidhyadharan Mj",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Subhash Chandra Sharma, husband",
+    "respondent_defendant": "Anil Kumar Soni, accused",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The complainant gave a friendly loan of Rs.1,00,000/− to the accused Anil Kumar in January 2012 which the accused promised to refund within four months and also gave a post dated cheque bearing no. 219320 dated 12.04.2012 for Rs.1,00,000/− drawn on Punjab National Bank, East of Kailash New Delhi in favour of the complainant.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,101 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The laws relating to the Negotiable Instruments Act are required to be interpreted in the light of the object intended to be achieved by it despite there being deviation from general law.",
+      "held": "The Apex Court has held that the laws relating to the said Act are required to be interpreted in the light of the object intended to be achieved by it despite there being deviation from general law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [
+        "Sanjay Mishra v. Ms. Kanishka Kapoor @ Nikki and Anr., (2009) CRI.L.J. 3777"
+      ],
+      "keywords": [
+        "interpretation",
+        "object of the law",
+        "deviation from general law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "commercial disputes",
+        "mercantile activities"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A debt or other liability referred to in section 138 means a legally enforceable debt or other liability.",
+      "held": "The explanation to Section 138 of the said Act clearly provides that a debt or other liability referred to in section means a legally enforceable debt or other liability.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legally enforceable",
+        "debt or other liability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases",
+        "negotiable instruments disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The object of Section 138 of the Negotiable Instruments Act is to ensure that commercial and mercantile activities are conducted in a smooth and healthy manner.",
+      "held": "The Apex Court expressed that the object of Section 138 of the said Act was to ensure that commercial and mercantile activities are conducted in smooth and healthy manner.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [
+        "Sanjay Mishra v. Ms. Kanishka Kapoor @ Nikki and Anr., (2009) CRI.L.J. 3777"
+      ],
+      "keywords": [
+        "object of the law",
+        "commercial activities",
+        "mercantile activities"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "commercial disputes",
+        "mercantile activities"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Acquitted",
+    "final_order": "The accused was acquitted as the court found that the cheque was returned unpaid with the remarks 'Funds insufficient' vide returning memo dated 01.06.2012.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "friendly loan",
+    "post dated cheque",
+    "Indian Kanoon",
+    "code of criminal procedure",
+    "criminal procedure code",
+    "complaint under section 138",
+    "acquitted",
+    "pleaded not guilty",
+    "date of institution",
+    "date of pronouncement",
+    "final order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under Section 138",
+    "defending an accused in a cheque bounce case",
+    "understanding the implications of acquittal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:13:40.208917"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-06-16T11:40:58.395523",
   "domain": "property_dispute",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 1,
     "domestic_violence": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "III Additional District Munsif's Court, Vijayawada, O.S. No. 776 of 1989",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vajji Venkataramesh vs Vajji Padmalatha Styled As Gutts ... on 14 September, 1989",
+  "case_name": "Vajji Venkataramesh vs Vajji Padmalatha Styled As Gutts",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vajji Venkataramesh (husband)",
+    "respondent_defendant": "Vajji Padmalatha (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent got married on June 21, 1988, but the respondent filed a petition under Section 12 (1) (c) of the Hindu Marriage Act seeking annulment of marriage due to force and fraud. The petitioner filed a suit for permanent injunction restraining the respondent from marrying another person.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,127 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "There can be no legal bar for simultaneous proceedings being taken, yet there may be cases where it would be appropriate to defer disciplinary proceedings awaiting disposal of the criminal case.",
+      "held": "It was held that there can be no legal bar for simultaneous proceedings being taken, yet there may be cases where it would be appropriate to defer disciplinary proceedings awaiting disposal of the criminal case.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Kusheshwar Dubey v. Bharat Coking Coal Ltd., (1988) 4 S C C 319"
+      ],
       "keywords": [
-        "TODO"
+        "simultaneous proceedings",
+        "disciplinary proceedings",
+        "criminal case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute",
+        "employment dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The doctrine of estoppel is based on the principle that consistency in word and action imparts certainty and honesty to human affairs.",
+      "held": "The doctrine of estoppel is based on the principle that consistency in word and action imparts certainty and honesty to human affairs.",
+      "applicable_acts_sections": [
+        "Constitution of India"
+      ],
+      "cited_cases": [
+        "Olga Tellis v. Bombay Municipal Corporation, "
+      ],
+      "keywords": [
+        "estoppel",
+        "consistency",
+        "certainty",
+        "honesty"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "fundamental rights",
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Fundamental rights are undoubtedly conferred by the Constitution upon individuals which have to be asserted and enforced by them if those rights are violated.",
+      "held": "Fundamental rights are undoubtedly conferred by the Constitution upon individuals which have to be asserted and enforced by them if those rights are violated.",
+      "applicable_acts_sections": [
+        "Constitution of India"
+      ],
+      "cited_cases": [
+        "Olga Tellis v. Bombay Municipal Corporation, "
+      ],
+      "keywords": [
+        "fundamental rights",
+        "individuals",
+        "violation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute",
+        "employment dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "There can be no waiver of the fundamental rights founded on Article 14 of the Constitution.",
+      "held": "It is true if it is a case arising out of violation of fundamental rights guaranteed under Article 20(3) of the Constitution that there can be no waiver of the fundamental rights founded on Article 14 of the Constitution.",
+      "applicable_acts_sections": [
+        "Constitution of India"
+      ],
+      "cited_cases": [
+        "Basheshwar Nath v. Commissioner of Income-Tax, Delhi, (1959) "
+      ],
+      "keywords": [
+        "waiver",
+        "fundamental rights",
+        "Article 14"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute",
+        "employment dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The learned Subordinate Judge found that the civil proceedings have reached the stage of trial and the criminal proceedings are still at the committal stage before the Magistrates, and hence dismissed the application.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "permanent injunction",
+    "nullity",
+    "force and fraud",
+    "Section 12 (1) (c)",
+    "Section 363 IPC",
+    "O.P.",
+    "suit",
+    "written statement",
+    "transfer of suit",
+    "Court of the II Addl. Subordinate Judge",
+    "Vijayawada"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for nullity under Hindu Marriage Act",
+    "seeking transfer of a suit to another court",
+    "defending against allegations of force and fraud in marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:26:43.788801"
 }

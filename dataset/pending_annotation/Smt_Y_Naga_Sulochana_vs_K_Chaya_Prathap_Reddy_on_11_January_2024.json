@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-06-16T11:39:35.489382",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "P.Sree Sudha J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court - cum - Additional Chief Judge, City Civil Court at Hyderabad, FCOP No.1559 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Y.Naga Sulochana vs K.Chaya Prathap Reddy on 11 January, 2024",
+  "case_name": "Smt.Y.Naga Sulochana vs K.Chaya Prathap Reddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant/wife, Sri V.Ramesh Kumar (learned counsel)",
+    "respondent_defendant": "Respondent/husband, Sri S.V.Ramana (learned counsel)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -41,7 +41,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent/husband sought annulment of his marriage with the appellant/wife performed in 2017 on grounds including false information about her date and time of birth. The trial court passed an order and decree dated 23.12.2021, which the appellant felt aggrieved by.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Misrepresentation of date of birth and earlier marriage is not an act of fraud to seek divorce.",
+      "held": "He has also made alternative submission that misrepresentation of date of birth and earlier marriage is not act of fraud to seek divorce under Section 12(1) (c) of the Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "The Hindu Marriage Act, 1955 — Section 12(1)(c)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Lohia Properties (P) Ltd., Tinsukia, Dibrugarh, Assam v. Atmaram Kumar, (1993) 4 SCC 6"
+      ],
       "keywords": [
-        "TODO"
+        "date of birth",
+        "earlier marriage",
+        "fraud",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving misrepresentation"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A reasoned order is not open to challenge.",
+      "held": "However, Sri O.Manohar Reddy, learned Senior Counsel appearing for respondent/husband would submit that the Family Court on consideration of the entire evidence both oral and documentary allowed the said petition annulling the marriage of the parties. It is a reasoned order. There is no error in it.",
+      "applicable_acts_sections": [
+        "Family Courts Act, 1984"
+      ],
+      "cited_cases": [
+        "None"
+      ],
+      "keywords": [
+        "reasoned order",
+        "challenge"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court cases involving appeals against orders"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is not specified in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "family court",
+    "Hindu Marriage Act",
+    "Section 11",
+    "Section 12(1)(c)",
+    "annulment of marriage",
+    "marriage annulment",
+    "Bharat Matrimony",
+    "Reddy Matrimony",
+    "matrimonial dispute",
+    "family law",
+    "Indian family court",
+    "judicial separation",
+    "nullity of marriage",
+    "voidable marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on annulment of marriage",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:41:44.358400"
 }

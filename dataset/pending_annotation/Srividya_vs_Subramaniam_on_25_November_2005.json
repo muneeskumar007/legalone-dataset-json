@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-06-16T11:39:47.804689",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -21,13 +21,13 @@
     "M.Govindaraj J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal District Judge, Chengalpattu - CMA No.67/2003",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Srividya vs Subramaniam on 25 November, 2005",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Subramaniam (husband)",
+    "respondent_defendant": "Srividya (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a petition under Section 12(1)(c) of the Hindu Marriage Act, 1955, for a decree of nullity of marriage. The husband had averred that the marriage was solemnized between the parties on 31.05.1996 as per Hindu Rites and Customs. The marriage was an arranged marriage and it was consummated.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party seeking to annul a marriage must follow the procedure laid down under Order 32 Rule 15 CPC.",
+      "held": "petitioner while describing the respondent as a mentally ill person, he should have followed the procedure laid down under Order 32 Rule 15 CPC.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "annulment",
+        "procedure",
+        "Order 32 Rule 15 CPC"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's consent to marriage is not free and voluntary if obtained by suppression of material facts and playing fraud.",
+      "held": "petitioner's consent to marriage was not free and voluntary, but obtained by suppression of material facts and by playing fraud",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 12(1)(c)"
+      ],
+      "cited_cases": [
+        "SUJATHA VS. C.D.HARIHARAN",
+        "RAM NARAIN GUPTA VS. SMT. RAMESHWARI GUPTA"
+      ],
+      "keywords": [
+        "consent",
+        "suppression of material facts",
+        "fraud"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases involving fraud in marriage"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The decree and judgment made in CMA No.67/2003 passed by the Principal District Judge, Chengalpattu dated 25.11.2005 reversing the decree and judgment made in HMOP No.22 of 1997 on the file of the Principal Sub Court, Chengalpattu, dated 28.08.2002 was set aside, reversed and varied.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "CMSA",
+    "CMA",
+    "HMOP",
+    "nullity of marriage",
+    "decree",
+    "judgment",
+    "appellate court",
+    "trial court",
+    "petitioner",
+    "respondent",
+    "wife",
+    "husband",
+    "marriage",
+    "family law",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court decisions",
+    "advising on Hindu Marriage Act implications"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:49:15.740882"
 }

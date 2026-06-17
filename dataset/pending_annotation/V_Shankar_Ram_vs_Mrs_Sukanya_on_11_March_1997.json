@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-06-16T11:41:16.462509",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "partition": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Family Court, Madras (O.P. No. 88 of 1990)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "V. Shankar Ram vs Mrs. Sukanya on 11 March, 1997",
+  "case_name": "V. Shankar Ram vs Mrs. Sukanya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband",
+    "respondent_defendant": "wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized on 27.11.1988 at Guruvayoor. The husband set up a matrimonial home in Madras after marriage. He claimed that his wife did not adjust well and he filed an appeal against the trial court's judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to annul a marriage to prove that the consent was obtained by misrepresentation and fraud.",
+      "held": "The appellant has not made out any case and specifically proved that certain false representations were made to him concerning the material particulars of the respondent at the time of marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "misrepresentation",
+        "fraud",
+        "annulment",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage is not liable to be declared null and void solely because it was not consummated.",
+      "held": "The Family Court held that the appellant has not substantiated his contention that the marriage was not consummated owing to the impotency of the respondent.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consummation",
+        "marriage",
+        "null and void"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is not specified in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 28",
+    "divorce",
+    "matrimonial home",
+    "arranged marriage",
+    "joint family",
+    "engineer",
+    "business",
+    "well known city college",
+    "travelled",
+    "cooking",
+    "household matters",
+    "daughter-in-law",
+    "family court",
+    "Additional Family Court",
+    "Madras"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on family law matters",
+    "appealing a family court decision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:25:33.985646"
 }

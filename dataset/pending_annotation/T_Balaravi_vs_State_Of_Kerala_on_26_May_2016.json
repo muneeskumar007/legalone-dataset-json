@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-06-16T11:40:54.464190",
   "domain": "murder_criminal",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "cheque_bounce": 1,
     "custody": 1,
@@ -25,17 +25,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "T.Balaravi vs State Of Kerala on 26 May, 2016",
+  "case_name": "T.Balaravi vs State Of Kerala",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "T.Balaravi, V.V.Haridasan (aged 57 and 48 years respectively), Sales Tax Officers",
+    "respondent_defendant": "State Of Kerala, represented by Public Prosecutor",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners implicated in Crime No.312 of 2013, alleged violation of Government Order on receiving cash towards sales tax amounts, cheques bounced and Demand Drafts found to be forged.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -45,28 +45,47 @@
   ],
   "legal_principles": [
     {
+      "principle": "Custodial interrogation is not necessary if relevant materials have already been collected.",
+      "held": "The Investigating Officer has already seized the relevant documents including the questioned cheques and Demand Drafts. Interrogation of the petitioners in custody is not necessary, because even otherwise necessary materials have already been collected.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "investigation",
+        "interrogation"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
       "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A person is not liable under Section 420 IPC if they did not benefit from the alleged crime.",
+      "held": "The State must fairly concede that these petitioners are not in fact liable under Section 420 IPC. Admittedly, none of the accused was in any manner benefited by the alleged crime.",
       "applicable_acts_sections": [
-        "TODO"
+        "IPC"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "benefit",
+        "liability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioners granted pre-arrest bail as custodial interrogation not necessary for investigation.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
     "TODO — add 15+ keywords after reading"
@@ -77,7 +96,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:08:41.982223"
 }

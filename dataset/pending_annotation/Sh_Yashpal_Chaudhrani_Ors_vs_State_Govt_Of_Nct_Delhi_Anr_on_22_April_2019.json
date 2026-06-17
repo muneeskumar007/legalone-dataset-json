@@ -7,7 +7,7 @@
   "total_pages": 35,
   "extracted_at": "2026-06-16T11:39:09.642868",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 3,
     "cheque_bounce": 5,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "05.03.2019",
-  "case_name": "Sh. Yashpal Chaudhrani & Ors. vs State (Govt. Of Nct Delhi) & Anr. on 22 April, 2019",
+  "case_name": "Sh. Yashpal Chaudhrani & Ors. vs State (Govt. Of Nct Delhi) & Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Yashpal Chaudhrani & Ors.",
+    "respondent_defendant": "State (Govt. Of NCT Delhi) & Anr.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -89,7 +89,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners seek quashing of criminal proceedings on account of 'settlement' of the dispute with the party perceived to be the victim.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -99,39 +99,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court's inherent power under Section 482 Cr.P.C. can be availed to quash criminal proceedings in serious or heinous crimes.",
+      "held": "Court which would inhibit the inherent power under Section 482 Cr.P.C. to be availed to quash such criminal proceedings in serious or heinous crimes including those reflecting 'mental depravity', as indeed, economic offenses involving 'financial well-being of the State' or financial or banking institutions, affecting the public at large by 'financial or economic fraud(s)'",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure",
+        "Section 482"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Sh. Yashpal Chaudhrani & Ors. vs State (Govt. Of Nct Delhi) & Anr., (2019)"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceedings",
+        "serious crimes",
+        "heinous crimes",
+        "mental depravity",
+        "economic offenses",
+        "financial well-being",
+        "fraud"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type 1: criminal cases",
+        "case type 2: economic fraud cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — significant in serious or heinous crimes",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court should not entertain matters of a sensitive nature, such as sexual assault, unnatural offence and rape, without proper investigation.",
+      "held": "But, it was conceded that the allegations of sexual assault, unnatural offence and rape were directed against persons other than the husband.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure",
+        "Indian Penal Code"
+      ],
+      "cited_cases": [
+        "Sh. Yashpal Chaudhrani & Ors. vs State (Govt. Of Nct Delhi) & Anr., (2019)"
+      ],
+      "keywords": [
+        "sexual assault",
+        "unnatural offence",
+        "rape",
+        "investigation",
+        "sensitive nature"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type 1: criminal cases involving sensitive issues",
+        "case type 2: sexual assault cases"
+      ],
+      "significance": "MEDIUM — relevant in cases involving sensitive issues",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allows the petition and quashes the criminal proceedings.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of criminal procedure",
+    "section 138",
+    "dishonour",
+    "payment",
+    "demand",
+    "notice",
+    "compliance",
+    "wilful default",
+    "civil remedy",
+    "criminal liability",
+    "penal provisions",
+    "prosecution",
+    "defence",
+    "burden of proof"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a defence against cheque bounce charges",
+    "advising on compliance with notice and payment deadlines",
+    "assisting in prosecution for wilful default"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T20:05:10.709302"
 }

@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-06-16T11:41:14.970134",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "V. Prema Kumari vs M. Palani on 19 October, 2011",
+  "case_name": "V. Prema Kumari vs M. Palani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "V. Prema Kumari (wife)",
+    "respondent_defendant": "M. Palani (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant, a minor, was kidnapped by respondent and taken to Thiruvannamalai. She was rescued and respondent claimed they were married. Appellant filed for declaration of marriage as null and void and respondent filed for restitution of conjugal rights. Trial court dismissed appellant's petition and granted respondent's petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,99 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage of a minor is voidable at the instance of the minor.",
+      "held": "It is well settled that under Hindu Law the marriage of the minor is a voidable marriage at the instance of the minor.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "minor",
+        "voidable",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving minors"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The consent of the petitioner or guardian must be obtained without force or fraud for a marriage to be valid.",
+      "held": "This provision is applicable if the consent of the petitioner or the consent of the guardian of the petitioner was obtained by force or fraud.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 5"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent",
+        "force",
+        "fraud",
+        "marriage validity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving marriage validity"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A marriage solemnized before a person attains the age of 15 years can be repudiated after attaining that age but before attaining the age of 18 years.",
+      "held": "To attract this provision the marriage should have been solemnised before she attained the age of 15 years and she has to repudiate the marriage after attaining that age but before attaining the age of 18 years.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "age",
+        "marriage validity",
+        "repudiation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving child marriages"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeals allowed",
+    "final_order": "Appellate court set aside trial court order and declared marriage null and void, and also ordered respondent to pay costs.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Court Act",
+    "null and void",
+    "restitution of conjugal rights",
+    "Sec.11",
+    "Sec.9",
+    "marriage nullity",
+    "conjugal rights",
+    "Indian Kanoon",
+    "FCOP No.1345",
+    "O.P No.650",
+    "O.P No.163",
+    "Sec.19",
+    "Family Court Chennai",
+    "Principal Judge",
+    "Chennai"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to nullity of marriage claim",
+    "seeking restitution of conjugal rights"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:23:55.630238"
 }

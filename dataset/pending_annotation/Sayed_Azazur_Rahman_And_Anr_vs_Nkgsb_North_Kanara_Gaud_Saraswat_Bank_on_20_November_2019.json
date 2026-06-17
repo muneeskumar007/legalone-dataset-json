@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-06-16T11:38:22.519382",
   "domain": "land_acquisition",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "arbitration",
   "domain_scores": {
     "cheque_bounce": 1,
     "land_acquisition": 2,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sayed Azazur Rahman And Anr vs Nkgsb (North Kanara Gaud Saraswat Bank) ... on 20 November, 2019",
+  "case_name": "Sayed Azazur Rahman And Anr vs Nkgsb (North Kanara Gaud Saraswat Bank)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sayed Azazur Rahman And Anr — applicants/petitioners",
+    "respondent_defendant": "NKGSB (North Kanara Gaud Saraswat Bank) — respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant sought an interim relief in a challenge to an arbitral award. The bank had invoked arbitration under the Multi State Cooperative Societies Act 2002 and claimed that the applicants defaulted on a loan.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A party seeking a stay of enforcement of an arbitral award must demonstrate compelling reasons.",
+      "held": "Having regard to these circumstances, it is difficult to see how there can be unconditional stay.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sayed Azazur Rahman And Anr vs Nkgsb (North Kanara Gaud Saraswat Bank), 2019"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "stay",
+        "enforcement",
+        "arbitral award"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "enforcement of arbitral awards"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking a stay of enforcement of an arbitral award must demonstrate compelling reasons.",
+      "held": "Prayer clauses (a), (b) and (c) cannot be unconditionally granted.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sayed Azazur Rahman And Anr vs Nkgsb (North Kanara Gaud Saraswat Bank), 2019"
+      ],
+      "keywords": [
+        "stay",
+        "enforcement",
+        "arbitral award"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "enforcement of arbitral awards"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "specific_relief_act_1963",
+    "arbitration_petition",
+    "interim_relief",
+    "section_34",
+    "acknowledgement_stamp",
+    "tracking_report",
+    "corporate_bank",
+    "cooperative_bank",
+    "banking_law",
+    "judicial_relativity",
+    "due_process_of_law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting interim relief applications in arbitration petitions",
+    "guidelines for serving documents on corporate respondents",
+    "practical tips for advocates handling banking law cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T20:04:07.015191"
 }

@@ -7,7 +7,7 @@
   "total_pages": 74,
   "extracted_at": "2026-06-16T11:40:45.427722",
   "domain": "land_acquisition",
-  "sub_domain": "divorce",
+  "sub_domain": "land_acquisition",
   "domain_scores": {
     "divorce": 3,
     "cheque_bounce": 1,
@@ -37,8 +37,8 @@
   "delivered_on": "11.08.2022",
   "case_name": "The Governor Of Tamil Nadu vs Jm Combines",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "The Governor of Tamil Nadu, Represented by the Secretary, Highways and Minor Ports Department",
+    "respondent_defendant": "M/s.GMR Chennai Outer Ring Road Pvt. Ltd.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Government of Tamil Nadu filed Original Side Appeals against orders passed in O.P.Nos. 124 and 285 of 2021. Respondent was the successful bidder for development of Chennai Outer Ring Road and entered into a Concession Agreement with the Government.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -97,39 +97,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court does not sit in appeal over the arbitral award and may interfere on merits only on limited grounds.",
+      "held": "As far as Section 34 is concerned, the position is well-settled by now that the Court does not sit in appeal over the arbitral award and may interfere on merits on the limited ground provided under Section 34(2)(b)(ii) i.e. if the award is against the public policy of India.",
       "applicable_acts_sections": [
-        "TODO"
+        "Arbitration Act — Section 34"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "MMTC Ltd. v. Vedanta Ltd., (2019) 4 SCC 163"
+      ],
       "keywords": [
-        "TODO"
+        "arbitral award",
+        "public policy of India",
+        "limited grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land acquisition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A violation of Indian public policy includes a violation of the fundamental policy of Indian law, a violation of the interest of India, conflict with justice or morality, and the existence of patent illegality in the arbitral award.",
+      "held": "A violation of Indian public policy, in turn, includes a violation of the fundamental policy of Indian law, a violation of the interest of India, conflict with justice or morality, and the existence of patent illegality in the arbitral award.",
+      "applicable_acts_sections": [
+        "Arbitration Act — Section 34"
+      ],
+      "cited_cases": [
+        "MMTC Ltd. v. Vedanta Ltd., (2019) 4 SCC 163"
+      ],
+      "keywords": [
+        "Indian public policy",
+        "fundamental policy of Indian law",
+        "patent illegality"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "land acquisition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the order dated 17.11.2021 in O.P.Nos. 124 and 285 of 2021 is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "specific_relief_act_1963",
+    "limitation_act_1963",
+    "os_a",
+    "cad",
+    "highways_minor_ports_department",
+    "gmr_chennai_outer_ring_road_pvt_ltd",
+    "commercial_courts_act",
+    "letters_patent",
+    "op_no_285_of_2021",
+    "op_no_124_of_2021",
+    "section_13_1",
+    "clause_15",
+    "original_side_appeal",
+    "appeal_against_order",
+    "set_aside_order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting land acquisition appeals",
+    "drafting specific relief act appeals",
+    "drafting limitation act appeals"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:14:41.982719"
 }

@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-06-16T11:38:42.371859",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shikha Kanwar vs Rajat Kanwar on 29 July, 2024",
+  "case_name": "Shikha Kanwar vs Rajat Kanwar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shikha Kanwar, wife",
+    "respondent_defendant": "Rajat Kanwar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -38,7 +38,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute between the parties with proceedings pending before Mahila Court and Family Court. The present petition is for taking action for criminal contempt against the respondent/husband.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,21 +48,44 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The court may refer a matter to mediation and appoint a counsellor for bringing about a resolution between the parties.",
+      "held": "On 5th July, 2024, this Court, after hearing the parties, referred the matter to mediation and also directed appointment of a Counsellor for bringing about some resolution between the parties including the two children and the father/Respondent.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Shikha Kanwar vs Rajat Kanwar on 29 July, 2024"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mediation",
+        "counselling",
+        "resolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party may be directed to clear arrears of maintenance before the next date of hearing.",
+      "held": "The entire school fees arrears for the CBSE course, if any, shall be cleared by the Respondent/Contemnor before the next date of hearing.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Shikha Kanwar vs Rajat Kanwar on 29 July, 2024"
+      ],
+      "keywords": [
+        "maintenance",
+        "arrears",
+        "clearance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -72,15 +95,31 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "matrimonial dispute",
+    "criminal contempt",
+    "family court",
+    "mahila court",
+    "contempt of court",
+    "allegations against counsel",
+    "unpleasant scene in court",
+    "reducing the dignity of a judge",
+    "Section 12 of Contempt of Courts Act",
+    "Section 2(c) of Contempt of Courts Act",
+    "Section 15 of Contempt of Courts Act",
+    "Latin Maxim: 'Justice must not only be done, but also seem to have been done'",
+    "hybrid mode hearing"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for criminal contempt",
+    "responding to allegations against counsel",
+    "conducting a hybrid mode hearing"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T20:08:40.008459"
 }

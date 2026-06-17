@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-06-16T11:41:14.157096",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 9,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Metropolitan Magistrate, NI Act-06, Central TIS Hazari Court, Delhi (CC No. 6587/20)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vinod Kumar Saini vs Niharika Sharma on 6 February, 2024",
+  "case_name": "Vinod Kumar Saini vs Niharika Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vinod Kumar Saini, husband",
+    "respondent_defendant": "Niharika Sharma, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant advanced a friendly loan of Rs. 3 lacs to the accused in March 2019. The accused did not repay the loan and issued two postdated cheques which were dishonoured.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the drawer of the cheque to prove that the cheque was given as security and not for discharge of any debt or liability.",
+      "held": "Before appreciating the facts of the case in detail, let relevant position of law be discussed first.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act — Section 138"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque",
+        "security",
+        "debt",
+        "liability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The law is clear that a cheque given as security does not attract the provisions of Section 138, Negotiable Instruments Act.",
+      "held": "Such person shall be deemed to have committed an offence and shall, without prejudice to any other provisions of this Act, be punished with imprisonment for a term which may",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque",
+        "security",
+        "Section 138"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Acquitted under Section 138 of N. I. Act",
+    "final_order": "The accused was acquitted as there was no evidence to prove that the cheque was given as security for a chit fund and not as a genuine loan.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque_bounce",
+    "negotiable_instruments",
+    "ni_act_1881",
+    "section_138",
+    "friendly_loan",
+    "complainant",
+    "accused",
+    "mother",
+    "wife",
+    "house_visit",
+    "loan_request",
+    "advance_payment",
+    "judicial_proceedings",
+    "acquittal",
+    "plea_not_guilty",
+    "complaint_filed"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting cheque bounce cases",
+    "preparing acquittal arguments",
+    "filing complaints under NI Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:34:34.849582"
 }

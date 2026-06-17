@@ -7,7 +7,7 @@
   "total_pages": 32,
   "extracted_at": "2026-06-16T11:38:21.158373",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Sumit Dalal, District Judge - 04, South West District, Dwarka Courts : New Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Satya Pal Singh And Anr vs Vishal Grewal And Ors on 18 December, 2024",
+  "case_name": "Satya Pal Singh And Anr vs Vishal Grewal And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Satya Pal Singh and Smt. Santosh Devi (both R/o: C-6B/11, Janakpuri, New Delhi - 110058)",
+    "respondent_defendant": "Mr. Vishal Grewal and Ms. Akansha Rathi (R/o: H.No. C-6B/168, Third Floor, Janakpuri, New Delhi - 110058)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -67,7 +67,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiffs are elderly individuals who own and reside in the property bearing No. C-6B/168 in Janak Puri, New Delhi. The suit property specifically refers to the third floor of this building, which they rented out to the defendants in October 2020.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -77,39 +77,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The requirements of registration and the requirements of stamping operate in distinct legal spheres.",
+      "held": "Whether or not a document requires compulsory registration is determined by the Registration Act, 1908, specifically Sections 17 and Section 107 of the Transfer of Property Act for leases.",
       "applicable_acts_sections": [
-        "TODO"
+        "Registration Act, 1908 — Sections 17",
+        "Transfer of Property Act — Section 107"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "registration",
+        "stamping",
+        "distinct legal spheres"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property disputes",
+        "lease agreements"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A settled principle of law is that the requirements of registration and the requirements of stamping operate in distinct legal spheres.",
+      "held": "",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "registration",
+        "stamping",
+        "distinct legal spheres"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes",
+        "lease agreements"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The plaintiff has been granted a decree for permanent injunction and possession in respect of suit property bearing no. C-6B/168, third floor, Janakpuri, New Delhi - 110058.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "possession",
+    "rent",
+    "injunction",
+    "damages",
+    "unauthorised_use",
+    "mesne_profit",
+    "transfer_of_property",
+    "specific_relfact",
+    "code_of_civil_procedure",
+    "registration_act",
+    "civil_suit",
+    "permanent_injunction",
+    "suit_for_possession",
+    "recovery_of_rent",
+    "eviction",
+    "landlordTenant_dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a suit for possession and recovery of rent",
+    "advising on eviction proceedings",
+    "assisting in a landlord-tenant dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T20:02:23.923896"
 }

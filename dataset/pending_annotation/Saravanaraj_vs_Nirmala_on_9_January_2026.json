@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-06-16T11:38:19.268145",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -25,13 +25,13 @@
     "O.P.No.802 of 2016",
     "O.P.No.425 of 2017"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Madurai, H.M.O.P.No.425 of 2017 and H.M.O.P.No.802 of 2016",
   "reserved_on": "29.10.2025",
   "delivered_on": "09.01.2026",
   "case_name": "Saravanaraj vs Nirmala on 9 January, 2026",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Saravanaraj (husband/appellant)",
+    "respondent_defendant": "Nirmala (wife/respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnised on 09.12.2012. The husband sought divorce under Section 13(1)(i-a) of the Hindu Marriage Act, 1955, while the wife sought restitution of conjugal rights under Section 9 of the Act. The trial court dismissed the husband's petition and allowed the wife's petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party alleging cruelty to prove it.",
+      "held": "Though in the petition he claimed that immediately after marriage they started living at a rented house, Maduvinagar, Guindy, in cross-examination he admitted that they first lived at Door No.1, Jeeva Nagar, 1st Cross Street, Pallikaranai, and that the Ooty trip and certain intermediate stays were not disclosed as pleaded.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "cruelty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's financial grievance is not a proven ground of cruelty unless substantiated with evidence.",
+      "held": "The husband admitted in cross-examination that he had not produced any document to substantiate his claim that he spent Rs.12,00,000/- for the marriage or that he borrowed Rs.7,00,000/- for that purpose.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "financial grievance",
+        "cruelty"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeals are disposed of by this common judgment.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Family Court Act",
+    "1984",
+    "Section 19",
+    "common judgement",
+    "decree",
+    "marriage",
+    "Indian society",
+    "sacred union",
+    "legal rights",
+    "emotional attachment",
+    "civil contract",
+    "judicial separation",
+    "matrimonial dispute",
+    "Madras High Court",
+    "Madurai Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T20:01:28.368187"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-06-16T11:40:15.489190",
   "domain": "property_dispute",
-  "sub_domain": "will_succession",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "property_dispute": 1,
     "will_succession": 1
@@ -19,17 +19,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sulphur Mills Limited (Applicant) vs Shivalik Crop Science Private Limited on 6 April, 2021",
+  "case_name": "Sulphur Mills Limited (Applicant) vs Shivalik Crop Science Private Limited",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sulphur Mills Ltd, Plaintiff",
+    "respondent_defendant": "Shivalik Crop Science Pvt Ltd, Defendant",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff Sulphur Mills Ltd claims trademark infringement and passing off by the defendant Shivalik Crop Science Pvt Ltd. The plaintiff manufactures and sells crop protection agrochemicals including fertilizers, pesticides, insecticides, fungicides, herbicides etc. The mark in question is Metalman which has been used by the plaintiff since 2006.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -39,39 +39,67 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party claiming infringement to prove that the mark is identical.",
+      "held": "It is, therefore, made absolute. The cause of action in passing off is thus permitted to be combined with the cause of action in infringement.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "infringement",
+        "passing off"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "intellectual property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A trade mark is identical if it is substantially similar to the registered mark.",
+      "held": "The mark in question is Metalman. It has been used by the Plaintiffs since 2006.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "trade mark",
+        "registered mark"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "intellectual property disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The cause of action in passing off is thus permitted to be combined with the cause of action in infringement. The mark Metalman is made absolute.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "interim_application",
+    "commercial_division",
+    "high_court_of_judiciary_at_bombay",
+    "ordinarory_original_civil_jurisdiction",
+    "video_conferencing",
+    "online_hearing",
+    "fresh_notice",
+    "defendant's_liberty_to_appear_online",
+    "plaintiff's_email_notification",
+    "communication_failure"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting interim applications in commercial disputes",
+    "guidelines for online hearings in property disputes",
+    "best practices for email notifications in litigation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:04:32.425612"
 }

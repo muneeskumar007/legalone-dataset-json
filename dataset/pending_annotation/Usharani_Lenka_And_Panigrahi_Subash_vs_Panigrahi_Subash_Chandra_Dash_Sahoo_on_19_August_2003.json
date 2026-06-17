@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-06-16T11:40:57.905569",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Cuttack - Civil Proceeding No. 182 of 1997",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Usharani Lenka And Panigrahi Subash ... vs Panigrahi Subash Chandra Dash @ Sahoo ... on 19 August, 2003",
+  "case_name": "Usharani Lenka And Panigrahi Subash ... vs Panigrahi Subash Chandra Dash @ Sahoo ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Panigrahi Subash Ch. Dash @ Sahoo (husband)",
+    "respondent_defendant": "Usharani Lenka (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed for divorce under Sections 12 and 13 of the Hindu Marriage Act read with Section 7 of the Family Courts Act. The wife refused to consummate the marriage and left the matrimonial home after a few days. The trial court granted divorce subject to payment of permanent alimony by the husband.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,28 +52,51 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A bald statement of the husband cannot be accepted to infer sexual impotency of the wife or her pregnancy by some person other than the husband.",
+      "held": "In such situation, the bald statement of the husband cannot be accepted to infer sexual impotency of the wife or her pregnancy by some person other than the husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12"
+      ],
+      "cited_cases": [
+        "Harprasad Santore v. Anita Santore, (1993) 1 DMC 27 M.P."
+      ],
+      "keywords": [
+        "sexual impotency",
+        "pregnancy",
+        "husband's statement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the husband to prove that the wife was pregnant by some other person or had undergone an abortion before their marriage.",
+      "held": "There is absolutely no evidence on record to indicate that the wife was pregnant by some other person before her marriage with the husband or that she had undergone any kind of abortion before the marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 12"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "pregnancy",
+        "abortion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order dissolved the marriage between the parties, subject to payment of permanent alimony of Rs. 40,000/- by the husband to the wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
     "TODO — add 15+ keywords after reading"
@@ -84,7 +107,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:22:57.830703"
 }

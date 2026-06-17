@@ -7,7 +7,7 @@
   "total_pages": 128,
   "extracted_at": "2026-06-16T11:40:29.433818",
   "domain": "property_dispute",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Taher Fakhruddin Saheb Alias Taherbhai ... vs Mufaddal Burhanuddin Saifuddin on 23 April, 2024",
+  "case_name": "Taher Fakhruddin Saheb Alias Taherbhai ... vs Mufaddal Burhanuddin Saifuddin",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Taher Fakhruddin Saheb, aged 47 years, Indian Inhabitant, plaintiff",
+    "respondent_defendant": "Mufaddal Burhanuddin Saifuddin, aged 67 years, Indian Inhabitant, defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -85,7 +85,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Taher Fakhruddin Saheb and Mufaddal Burhanuddin Saifuddin. The plaintiff claims relief. The suit is dismissed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -95,39 +95,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The defendant should disprove the case set up in the pleadings, but which is not proved by the plaintiff.",
+      "held": "he defendant should disprove the case set up in the pleadings, but which is not proved by the plaintiff.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "pleadings",
+        "plaintiff",
+        "defendant"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property_dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Every pleading shall contain, and contain only, a statement in a concise form of the material facts on which the party pleading relies for his claim or defence.",
+      "held": "Order VI Rule 2(1) contains a proscription. It is expressed twice: 'and contain only', and 'but not the evidence by which they are to be proved.'",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "pleadings",
+        "material facts"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "property_dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The suit is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit dismissed",
+    "final_order": "The final court order dismissed the suit.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Code of Civil Procedure",
+    "1908",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Evidence Act",
+    "1872",
+    "Taher Fakhruddin Saheb",
+    "Mufaddal Burhanuddin Saifuddin",
+    "plaintiff",
+    "defendant",
+    "residence",
+    "property",
+    "dispute",
+    "suit",
+    "civil jurisdiction",
+    "ordinariness",
+    "originality",
+    "jurisdiction",
+    "Bombay High Court",
+    "BHC-OS:6579",
+    "Shephali",
+    "Madhuban Bungalow",
+    "Pokharan Road Number 1",
+    "Thane"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a property dispute suit in Bombay High Court",
+    "advising on jurisdictional issues in civil disputes",
+    "preparing for a property dispute hearing"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:09:42.192807"
 }

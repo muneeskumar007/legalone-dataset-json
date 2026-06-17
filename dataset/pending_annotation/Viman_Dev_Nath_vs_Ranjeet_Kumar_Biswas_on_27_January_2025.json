@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-06-16T11:41:06.647965",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 9,
@@ -23,13 +23,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Snehil Sharma, Judicial Magistrate First Class, NI Act, South West, Dwarka Delhi (CC No: 23921/2019)",
   "reserved_on": "09.01.2025",
   "delivered_on": "",
-  "case_name": "Viman Dev Nath vs Ranjeet Kumar Biswas on 27 January, 2025",
+  "case_name": "Viman Dev Nath vs Ranjeet Kumar Biswas",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Viman Dev Nath, s/o Sh. Niranjan Dev Nath",
+    "respondent_defendant": "Ranjeet Kumar Biswas @ Ranjib, Prop. Of 'Sur Sangam Kala Academy'",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant gave friendly loans to accused and his partner Ms. Radha Dass; accused assured payment within certain timeframes but failed to do so.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the complainant to prove that the accused had issued the cheque in question.",
+      "held": "He was not very sure about the date. The material particulars like name of payee and amount were filled by the accused himself.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A complainant's statement that the accused had not returned any amount between the period of initially advancing a sum and thereafter, a sum to the accused is relevant in determining whether the cheque was issued in favour of the complainant.",
+      "held": "Complainant stated that accused had not returned any amount between the period of initially advancing of a sum of Rs.4,90,000/- and thereafter, a sum of Rs.1,10,000/- to the accused.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "complainant's statement",
+        "cheque bounce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Accused acquitted",
+    "final_order": "Accused Ranjeet Kumar Biswas @ Ranjib is acquitted for offences punishable under sections 138 NI Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "ni act",
+    "ranjeet kumar biswas",
+    "viman dev nath",
+    "janak puri",
+    "dwarka delhi",
+    "delhi south west",
+    "judicial magistrate first class",
+    "snehil sharma",
+    "acquittal",
+    "not guilty",
+    "complaint case",
+    "friendly relations",
+    "cheque number",
+    "cheque amount",
+    "date of institution",
+    "date of judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under section 138 NI Act",
+    "defending an accused in a cheque bounce case",
+    "advising on the implications of acquittal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:32:06.596577"
 }

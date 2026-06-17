@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-06-16T11:40:09.937678",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 2,
     "partition": 1,
@@ -18,20 +18,20 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS KIRAN BANSAL, Addl. Chief Metropolitan Magistrate III: South Distt., Patiala House Courts : New Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "State vs Sukhjot Singh Etc. on 7 April, 2010",
+  "case_name": "State vs Sukhjot Singh Etc.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "State",
+    "respondent_defendant": "Sukhjot Singh, Kamaljeet Sodhi",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The accused persons floated a company and issued post-dated cheques to investors, which were likely to bounce. The complainants invested Rs. 7 Lacs or more in the scheme.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -41,39 +41,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the prosecution to prove its case.",
+      "held": "This court holds that the burden of proof lies on the prosecution and it is for them to establish their case beyond reasonable doubt.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr. P.C — Section 161"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "proof",
+        "prosecution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A settlement between parties can be considered as a compromise of the offence.",
+      "held": "This court holds that when a party settles the dispute with the accused, it is considered as a compromise of the offence and the case is compounded.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "compromise",
+        "offence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Acquitted",
+    "final_order": "The accused persons were acquitted of the charges.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque_bounce",
+    "State_versus",
+    "Sukhjot_Singh",
+    "FIR_No_238/2000",
+    "U_s_420/468/471_IPC",
+    "Agro_Gold_Plantations_and_Resourse_Ltd",
+    "Vasant_Kunj",
+    "New_Delhi",
+    "Patiala_House_Courts",
+    "MS_Kiran_Bansal",
+    "Addl_Chief_Metropolitan_Magistrate",
+    "Cheque_bounce_case",
+    "Bounced_cheques",
+    "Investment_schemes",
+    "Company_fraud"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a cheque bounce case",
+    "advising on investment schemes",
+    "representing clients in company fraud cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:57:10.798356"
 }

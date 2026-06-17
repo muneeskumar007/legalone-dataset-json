@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-06-16T11:39:17.029260",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judicial Magistrate 1st Class, Phillaur",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Balbir Kaur vs Smt. Hardarshan Kaur And Ors. on 8 April, 1992",
+  "case_name": "Smt. Balbir Kaur vs Smt. Hardarshan Kaur And Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Balbir Kaur (wife)",
+    "respondent_defendant": "Smt. Hardarshan Kaur and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Balbir Kaur was married to Rajinder Singh in 1975. She was maltreated and eventually turned out of his house. She discovered that her husband had a second wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Mere going through certain ceremonies with intention of marriage will not make the ceremonies prescribed by law or approved by custom.",
+      "held": "It has been held that for proper application of Section 494, Indian Penal Code, marriage must come within 'solemnized marriage' that 'solemnized' means 'to celebrate the marriage with proper ceremonies and in due form'.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 494"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Bhaurao Shanker Lokhande and Anr. v. The State of Maharashtra, A. I. R. 1965 S. C. 1564"
+      ],
       "keywords": [
-        "TODO"
+        "solemnized marriage",
+        "intention of marriage",
+        "proper ceremonies",
+        "due form"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "marriage annulment cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The essential four Lavans are necessary for a valid solemnized marriage.",
+      "held": "It appears that the essential four Lavans (...) are necessary for a valid solemnized marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Darshan Singh v. The State of Punjab, (1980) 82 P. L. R. 243"
+      ],
+      "keywords": [
+        "Lavans",
+        "valid solemnized marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "marriage cases",
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The respondents were acquitted of the charge under Sections 494 and 120B, Indian Penal Code.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "bigamy",
+    "Section 494",
+    "IPC",
+    "dowry",
+    "domestic violence",
+    "marriage",
+    "Anand Karaj",
+    "cruelty",
+    "maltreatment",
+    "family disputes",
+    "matrimonial disputes",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:30:49.015809"
 }

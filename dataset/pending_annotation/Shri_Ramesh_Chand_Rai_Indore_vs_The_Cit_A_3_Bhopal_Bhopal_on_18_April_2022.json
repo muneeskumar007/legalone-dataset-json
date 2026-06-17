@@ -7,7 +7,7 @@
   "total_pages": 142,
   "extracted_at": "2026-06-16T11:39:05.797677",
   "domain": "land_acquisition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "land_acquisition",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Ramesh Chand Rai, Indore vs The Cit(A)-3, Bhopal, Bhopal on 18 April, 2022",
+  "case_name": "Shri Ramesh Chand Rai, Indore vs The Cit(A)-3, Bhopal, Bhopal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Ramesh Chandra Rai, Indore (Appellant)",
+    "respondent_defendant": "The Cit(A)-3, Bhopal, Bhopal (Respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appeals filed by the Revenue and cross appeals filed by the Assessee for Assessment Year 2010-11 to 2016-17 against the Common Order of the Ld. Commissioner of Income Tax (Appeals)-3, Bhopal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "All sales under licenses for the sale of country liquor or for the retail sale of intoxicating drugs shall be for cash only.",
+      "held": "As per Rule XV of General License Conditions under Other Madhya Pradesh Rules under the Madhya Pradesh Excise Act, 1915, all sales under licences for the sale of country liquor or for the retail sale of intoxicating drugs shall be for cash only, and such cash shall be paid over at the time of sale only.",
       "applicable_acts_sections": [
-        "TODO"
+        "Madhya Pradesh Excise Act, 1915 — Rule XV"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cash sales",
+        "liquor licenses",
+        "intoxicating drugs"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "taxation cases",
+        "excise law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A liquor contractor may hold several licenses for retail sale of liquor in various areas through various shops.",
+      "held": "Such sales are effected by the salesmen deputed on each shop by the liquor contractor Shri Ramesh Chandra Rai, Ratlam AY 2010-11 to AY 2016-17 himself.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "liquor licenses",
+        "retail sale of liquor"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "licensing cases",
+        "business law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "The appeals are directed against the Common Order of the Ld. Commissioner of Income Tax (Appeals)-3, Bhopal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Registration Act",
+    "1908",
+    "Indian court judgment",
+    "judicial_member",
+    "accountant_member",
+    "virtual_hearing",
+    "IT(SS)A",
+    "Assessment_Year",
+    "ACIT",
+    "Central-1",
+    "Ratlam_Bhopal",
+    "Shri_Ramesh_Chandra_Rai",
+    "Indore",
+    "Bhopal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting land acquisition cases in Indore and Bhopal",
+    "preparing virtual hearing arguments for IT(SS)A cases",
+    "understanding ACIT procedures in Central-1, Ratlam Bhopal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:17:32.677457"
 }

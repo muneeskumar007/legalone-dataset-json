@@ -7,7 +7,7 @@
   "total_pages": 55,
   "extracted_at": "2026-06-16T11:39:59.300023",
   "domain": "property_dispute",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Vidya Prakash, Special Judge (PC Act) (ACB)-01",
   "reserved_on": "",
   "delivered_on": "28-10-2025",
-  "case_name": "State vs Rajesh Kumar Sharma on 4 February, 2026",
+  "case_name": "State vs Rajesh Kumar Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "State",
+    "respondent_defendant": "Rajesh Kumar Sharma",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The accused was facing trial in respect of offences punishable u/s 7 & 13(1)(d) r/w 13(2) of The Prevention of Corruption Act, 1988.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,21 +70,49 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The prosecution must prove the charge beyond reasonable doubt like any other criminal offence.",
+      "held": "Hon'ble Supreme Court has ruled that the prosecution has to prove the charge thereunder beyond reasonable doubt like any other criminal offence and that the accused should be considered innocent till it is established otherwise by proper proof of demand and acceptance of illegal gratification, which are vital ingredients necessary to be proved to record a conviction.",
       "applicable_acts_sections": [
-        "TODO"
+        "Prevention of Corruption Act, 1988"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "A. Subair v. State of Kerala, (2009) 6 SCC 587"
+      ],
       "keywords": [
-        "TODO"
+        "prosecution",
+        "beyond reasonable doubt",
+        "criminal offence",
+        "demand and acceptance of illegal gratification"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases under Prevention of Corruption Act, 1988"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Proof of demand and acceptance of illegal gratification by a public servant as a fact in issue is a sine qua non to establish the guilt of the accused.",
+      "held": "In order to bring home the guilt of the accused, the proof of demand and acceptance of illegal gratification by a public servant as a fact in issue is a sine qua non.",
+      "applicable_acts_sections": [
+        "Prevention of Corruption Act, 1988"
+      ],
+      "cited_cases": [
+        "Neeraj Dutta v. State (Govt. of NCT of Delhi), (2023) 4 SCC 731"
+      ],
+      "keywords": [
+        "demand and acceptance of illegal gratification",
+        "public servant",
+        "sine qua non"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "cases under Prevention of Corruption Act, 1988"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
@@ -94,15 +122,38 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "State vs Rajesh Kumar Sharma",
+    "property_dispute",
+    "Indian Evidence Act",
+    "Prevention of Corruption Act",
+    "FIR",
+    "Tehrir",
+    "Inspector Satyender Dhull",
+    "PS A",
+    "PC Act",
+    "Section 7",
+    "Section 13",
+    "Section 313 Cr.PC",
+    "Charge",
+    "Prosecution Evidence",
+    "Statement of Accused",
+    "Arguments",
+    "Analysis & Findings",
+    "Conclusion",
+    "Appendix-I",
+    "Appendix-II",
+    "Appendix-III"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a property dispute case",
+    "preparing for a trial under the Prevention of Corruption Act",
+    "composing an argument on Section 313 Cr.PC"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:54:33.434266"
 }

@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-06-16T11:38:53.777937",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 3,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri. Mangesh Balkrushna Bhoir vs Sau. Leena Mangesh Bhoir on 23 December, 2015",
+  "case_name": "Shri. Mangesh Balkrushna Bhoir vs Sau. Leena Mangesh Bhoir",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri. Mangesh Balkrushna Bhoir (husband)",
+    "respondent_defendant": "Sau. Leena Mangesh Bhoir (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -70,7 +70,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant was married to respondent in Ganapati Temple, Manor on June 15, 2002. Respondent filed cases against appellant under Prevention of Dowry Prohibition Act and Indian Penal Code. Appellant claimed pressure from respondent to marry her.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -80,39 +80,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the complainant to prove the allegations.",
+      "held": "It is submitted by the learned counsel that the appellant and the respondent were not staying separately but were staying in a separate room.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "complainant",
+        "allegations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The filing of a frivolous complaint can amount to cruelty.",
+      "held": "Filing of the criminal complaint under section 498A of Indian Penal Code against the appellant and his family members which were found frivolous itself was amounted to cruelty by the respondent upon the appellant.",
+      "applicable_acts_sections": [
+        "Indian Penal Code"
+      ],
+      "cited_cases": [
+        "Vishwanath Sitaram Agrawal vs. Sau. Sarla Vishwanath Agrawal, 2012 AIR (SC) 2586"
+      ],
+      "keywords": [
+        "frivolous complaint",
+        "cruelty"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Appellate Court set aside the order passed by Lower Appellate Bench granting reliefs in favour of respondent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Specific Relief Act",
+    "Indian Penal Code",
+    "marriage petition",
+    "civil appeal",
+    "second appeal",
+    "family court",
+    "domestic violence",
+    "alimony",
+    "maintenance",
+    "custody",
+    "matrimonial dispute",
+    "separation",
+    "annulment",
+    "nullity",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on domestic violence cases",
+    "representing clients in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:14:35.766724"
 }

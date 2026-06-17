@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-06-16T11:40:57.502484",
   "domain": "domestic_violence",
-  "sub_domain": "property_dispute",
+  "sub_domain": "arbitration",
   "domain_scores": {
     "domestic_violence": 1,
     "property_dispute": 1,
@@ -22,17 +22,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Urban Money Pvt Ltd vs Ojascoworking Pvt Ltd on 14 September, 2023",
+  "case_name": "Urban Money Pvt Ltd vs Ojascoworking Pvt Ltd",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Urban Money Pvt Ltd — Petitioner",
+    "respondent_defendant": "Ojascoworking Pvt Ltd — Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties entered into a Lease Agreement dated 27.12.2021 with an arbitration clause. Disputes arose, and the petitioner invoked arbitration vide notice dated 01.02.2023.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -42,39 +42,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A party is deemed to be served if the respondent has been served by way of email as well as speed post and there is no bounce back.",
+      "held": "He submits that as per the tracking report, the respondent has been served and even the e-mail sent to the respondent has not bounced back.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Urban Money Pvt Ltd vs Ojascoworking Pvt Ltd on 14 September, 2023"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "service",
+        "email",
+        "speed post"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "domestic_violence"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's registered address and email can be verified through the MCA website.",
+      "held": "He further submits that in terms of this Court's directions dated 15.05.2023, the MCA website was checked and the registered address as well as the e-mail were found to be the same.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Urban Money Pvt Ltd vs Ojascoworking Pvt Ltd on 14 September, 2023"
+      ],
+      "keywords": [
+        "MCA",
+        "website",
+        "registered address",
+        "email"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "domestic_violence"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Petition disposed of",
+    "final_order": "Disputes between parties referred to arbitral tribunal; Mr. Divyam Nandrajog appointed as sole arbitrator; arbitration held under Delhi International Arbitration Centre.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "arbitration",
+    "conciliation",
+    "A&C Act",
+    "Section 11",
+    "Section 21",
+    "Lease Agreement",
+    "New Delhi",
+    "dispute resolution",
+    "arbitral tribunal",
+    "sole arbitrator",
+    "Delhi High Court",
+    "Order Portal",
+    "QR code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting arbitration clauses",
+    "resolving disputes through arbitration",
+    "using QR codes in court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:22:06.063223"
 }

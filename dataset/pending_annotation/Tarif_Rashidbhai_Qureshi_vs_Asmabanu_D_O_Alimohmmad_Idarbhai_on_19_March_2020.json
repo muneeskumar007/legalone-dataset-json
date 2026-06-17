@@ -7,7 +7,7 @@
   "total_pages": 57,
   "extracted_at": "2026-06-16T11:40:35.996673",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 10,
     "partition": 2,
@@ -25,13 +25,13 @@
     "Vireshkumar B. Mayani J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Ahmedabad, Family Suit No.257 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tarif Rashidbhai Qureshi vs Asmabanu D/O Alimohmmad Idarbhai ... on 19 March, 2020",
+  "case_name": "Tarif Rashidbhai Qureshi vs Asmabanu D/O Alimohmmad Idarbhai",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tarif Rashidbhai Qureshi (husband)",
+    "respondent_defendant": "Asmabanu D/O Alimohmmad Idarbhai Qureshi and W/O Tarif Rashidbhai Qureshi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -95,7 +95,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife instituted a divorce suit under the Dissolution of Muslim Marriages Act, 1939. The husband appealed against the trial court's judgment and decree.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -105,39 +105,98 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A divorced wife is entitled to maintenance for the period of Iddat after divorce.",
+      "held": "The petitioner is to be made claiming maintenance for the period of Iddat after divorce, claiming maintenance for the child born from the former husband and claiming Mahr and dower or a sum equivalent thereto which are admittedly the properties between the parties to the marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "Iddat",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Family Courts Act gives an overriding effect to its provisions over all other enactments.",
+      "held": "Section 20 of the Family Courts Act gives an over-riding effect to the provisions of the Act over all other enactments.",
+      "applicable_acts_sections": [
+        "Family Courts Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "overriding effect",
+        "provisions"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Dissolution of Muslim Marriages Act, 1939 provides grounds for a decree for the dissolution of marriage.",
+      "held": "Section 2 of the Act, 1939 reads thus; 'A woman married under Muslim law shall be entitled to obtain a decree for the dissolution of her marriage on any one or more of the following grounds, namely:'",
+      "applicable_acts_sections": [
+        "Dissolution of Muslim Marriages Act, 1939"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "grounds",
+        "dissolution of marriage"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "Muslim divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed, and the judgment and decree passed by the Principal Judge, Family Court, Ahmedabad were set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Penal Code",
+    "1860",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "matrimonial dispute",
+    "family law",
+    "marriage dissolution",
+    "judicial separation",
+    "separation agreement",
+    "spousal support"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "negotiating separation agreement",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:11:32.868369"
 }

@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-06-16T11:39:50.505972",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -27,13 +27,13 @@
     "M.C.NO.2174/2005",
     "M.C.No.2174/2005"
   ],
-  "trial_court": "",
+  "trial_court": "I Addl. Principal Judge, Family Court, Bengaluru, M.C.No.2174/2005",
   "reserved_on": "21.09.2022",
   "delivered_on": "",
-  "case_name": "Sri Phanish T N vs Smt Radha J on 30 September, 2022",
+  "case_name": "Sri Phanish T N vs Smt Radha J",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Phanish T N, husband",
+    "respondent_defendant": "Smt Radha J, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1999 and had a daughter in 2002. The petitioner filed for divorce under Section 13(1)(ia) & (iii) of Hindu Marriage Act, 1955, alleging that the respondent was suffering from Schizophrenia before their marriage and suppressed this fact. He claimed that her mental illness caused cruelty to him.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The petitioner is required to plead the material facts on which the relief is founded.",
+      "held": "Section 20(1) of the Act requires pleading the material facts on which the relief is founded.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 20"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "pleadings",
+        "material facts",
+        "relief"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The petitioner is only required to plead the full particulars of the grounds of divorce so far as such particulars are within his knowledge.",
+      "held": "Perusal of Rule 4 (1)(v) shows that the petitioner is required to plead the full particulars only so far as such particulars are within his knowledge.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Rules, 1956 — Rule 4"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "grounds of divorce",
+        "knowledge"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The appeal is partly allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal partly allowed",
+    "final_order": "The trial court's judgment dismissing the petition for divorce is set aside, but the appeal is not allowed in its entirety.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Court",
+    "Section 13(1) (ia) and (iii)",
+    "M.C.No.2174/2005",
+    "M.F.A.No.606/2014",
+    "Section 19(1)",
+    "Family Court Act",
+    "Code of Civil Procedure",
+    "Code of Criminal Procedure",
+    "judgment and decree",
+    "petition filed",
+    "dismissal of petition",
+    "set aside judgment",
+    "Latin maxim: ubi jus ibi remedium"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing dismissal of divorce petition",
+    "setting aside a judgment in a divorce case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:47:15.698444"
 }

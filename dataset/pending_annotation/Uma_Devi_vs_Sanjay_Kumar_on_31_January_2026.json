@@ -7,7 +7,7 @@
   "total_pages": 19,
   "extracted_at": "2026-06-16T11:40:56.842706",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 5,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Ankit Mittal, Civil Judge-01 (South) Saket Court, New Delhi (CS SCJ 730/23)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Uma Devi vs Sanjay Kumar on 31 January, 2026",
+  "case_name": "UMA DEVI VS. SANJAY KUMAR",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Uma Devi, wife of Shri Shiv Sagar",
+    "respondent_defendant": "Sanjay Kumar, s/o Shiv Prasad (and previously also his brother-in-law Shiv Prasad)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff sought recovery of Rs. 2,17,000/- along with interest @ 24% per annum from the date of filing of the suit till its realization in favour of the plaintiff.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the defendant to prove that a settlement was reached between the parties.",
+      "held": "He had not placed any document regarding conducting Panchayat and settlement therein, on judicial record. He denied that no such Panchayat was ever held for settlement between him and the plaintiff.",
       "applicable_acts_sections": [
-        "TODO"
+        "Specific Relief Act, 1963"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "panchayat",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A defendant's failure to reply to legal notices can be taken as an admission of the facts stated in those notices.",
+      "held": "He had not made any reply against the received legal notices Ex. DWI/A and Ex. DW1/B and that is why no any document to support of his defence is placed on record.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "legal notice",
+        "admission",
+        "failure to reply"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court decreed the suit and ordered the defendant to pay the amount with interest.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "1881",
+    "specific relief act",
+    "1963",
+    "indian evidence act",
+    "1872",
+    "civil suit",
+    "recovery of amount",
+    "interest",
+    "24% per annum",
+    "summary suit",
+    "ordinary civil suit",
+    "plaintiff",
+    "defendant",
+    "court order",
+    "judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a cheque bounce case",
+    "preparing a summary suit",
+    "writing an ordinary civil suit"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:20:27.156096"
 }

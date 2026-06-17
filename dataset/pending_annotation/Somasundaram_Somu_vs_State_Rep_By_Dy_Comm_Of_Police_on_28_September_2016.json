@@ -7,7 +7,7 @@
   "total_pages": 52,
   "extracted_at": "2026-06-16T11:39:39.389303",
   "domain": "murder_criminal",
-  "sub_domain": "custody",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District and Sessions Judge, (Fast Track Court- I), Chennai (Criminal Appeal Nos. 698, 716 and 781 of 2004 and Criminal Appeal No. 685 of 2005)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Somasundaram @ Somu vs State Rep.By Dy.Comm.Of Police on 28 September, 2016",
+  "case_name": "Somasundaram @ Somu vs State Rep.By Dy.Comm.Of Police",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Somasundaram @ Somu (appellant)",
+    "respondent_defendant": "State Rep. By Dy. Comm. Of Police (respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The accused-appellants were convicted for the abduction and murder of one M.K. Balan.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -97,39 +97,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden on the accused is not to show the guilt of the witness beyond reasonable doubt.",
+      "held": "The burden upon the accused to show that someone is an accomplice is only to the extent that the term accomplice is commonly understood.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Somasundaram @ Somu vs State Rep.By Dy.Comm.Of Police on 28 September, 2016"
+      ],
       "keywords": [
-        "TODO"
+        "accomplice",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "defendant",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The term 'accomplice' will embrace all perpetrators, abettors and inciters.",
+      "held": "If this limitation is adopted, the word 'accomplice' will embrace all perpetrators, abettors and inciters.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [
+        "Somasundaram @ Somu vs State Rep.By Dy.Comm.Of Police on 28 September, 2016"
+      ],
+      "keywords": [
+        "accomplice",
+        "perpetrators",
+        "abettors",
+        "inciters"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal upheld",
+    "final_order": "Conviction and sentences awarded to the accused-appellants by the Additional District and Sessions Judge, (Fast Track Court- I), Chennai were upheld for the offences punishable under different sections of the Indian Penal Code, 1860.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "abduction",
+    "IPC",
+    "Section 120-B",
+    "Section 365",
+    "Section 109",
+    "Indian Penal Code",
+    "Criminal Procedure Code",
+    "Code of Criminal Procedure",
+    "Specific Relief Act",
+    "Indian Evidence Act",
+    "High Court",
+    "Supreme Court",
+    "Criminal Appeal",
+    "Fast Track Court",
+    "Trial Court",
+    "Imprisonment for life",
+    "Rigorous Imprisonment",
+    "Fine"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against conviction",
+    "drafting petition for bail",
+    "drafting application for anticipatory bail"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:42:42.466982"
 }

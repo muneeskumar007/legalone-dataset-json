@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-06-16T11:38:49.611098",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Additional Chief Judicial Magistrate, Room No. 27, Lucknow (Complaint Case No. 9780 of 2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Ayush Tandon And 2 Others vs State Of U.P. Thru. Prin. Secy. Home Lko. ... on 31 January, 2024",
+  "case_name": "Shri Ayush Tandon And 2 Others vs State Of U.P. Thru. Prin. Secy. Home Lko.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Ayush Tandon And 2 Others",
+    "respondent_defendant": "State Of U.P. Thru. Prin. Secy. Home Lko. And Another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The opposite party no.2 filed an application under Section 156(3) Cr.P.C against 10 persons alleging harassment and abuse after the death of her grandfather.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A complaint filed as an abuse of the process of law must be dismissed.",
+      "held": "In light of the aforesaid facts, the submissions of the learned counsel for the applicants is that the complaint has been filed as an abuse of the process of law for pressurizing the applicants for a favourable outcome in the matrimonial litigation between the parties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C — Section 156 (3)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "abuse of process",
+        "matrimonial litigation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party who fails to file a written statement in spite of repetitive opportunities may be deemed to have waived their right to contest the suit.",
+      "held": "On 17.12.2020 but in spite of repetitive opportunities, she did not file a written statement.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 9"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "written statement",
+        "waiver of right"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Quashing of summoning order dated 08.11.2023 passed by the court of Additional Chief Judicial Magistrate, Room No. 27, Lucknow.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 482 Cr.P.C",
+    "quashing",
+    "summoning order",
+    "Additional Chief Judicial Magistrate",
+    "Ayush Tandon",
+    "State Of U.P.",
+    "Prin. Secy. Home Lko",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "family court",
+    "marriage",
+    "spouse",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property settlement",
+    "matrimonial dispute",
+    "Section 125 Cr.P.C",
+    "domestic violence"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing summoning orders",
+    "family court litigation",
+    "marital disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T20:13:48.568745"
 }

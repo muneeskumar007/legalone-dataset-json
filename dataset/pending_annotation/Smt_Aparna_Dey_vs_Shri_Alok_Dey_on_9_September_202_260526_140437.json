@@ -7,7 +7,7 @@
   "total_pages": 19,
   "extracted_at": "2026-06-16T11:39:15.546286",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 2,
@@ -25,13 +25,13 @@
     "S.G.Chattopadhyay J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court at Agartala, case no. T.S.(Divorce)163 of 2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Aparna Dey vs Shri Alok Dey on 9 September, 2020",
+  "case_name": "Smt. Aparna Dey vs Shri Alok Dey",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Alok Dey, husband",
+    "respondent_defendant": "Smt. Aparna Dey, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -85,7 +85,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Hindus governed by the Hindu Marriage Act,1955. The husband made allegations against his wife, including desertion and cruelty. The trial court allowed the petition for dissolution of marriage. The wife appealed challenging the legality of the impugned judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -95,39 +95,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the respondent to show that she had made all efforts to reconcile and was not willing to return to her matrimonial home.",
+      "held": "Most of the times they were ill treated in the house of the respondent. The respondent had never shown any positive attitude for restoration of her relationship with her petitioner husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conciliation",
+        "reconciliation",
+        "matrimonial home"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not condone the filing of false complaints by a respondent.",
+      "held": "She started filing false complaints against her husband in which her husband as well as the PW were arrested and sent to prison.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "false complaints",
+        "false cases"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order dissolved the marriage by a decree of divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "desertion",
+    "Section 13",
+    "Family Court",
+    "Agartala",
+    "petition",
+    "dissolution",
+    "marriage",
+    "decree",
+    "Indian Penal Code",
+    "Protection of Women from DV Act",
+    "2005",
+    "Tripartite Agreement",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on desertion grounds",
+    "assisting in Family Court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:29:03.351837"
 }

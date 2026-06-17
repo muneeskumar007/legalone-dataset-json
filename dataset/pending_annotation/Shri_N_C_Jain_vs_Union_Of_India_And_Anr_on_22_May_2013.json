@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-06-16T11:38:54.035091",
   "domain": "cheque_bounce",
-  "sub_domain": "custody",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 1,
     "custody": 1,
@@ -23,17 +23,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri N.C. Jain vs Union Of India And Anr. on 22 May, 2013",
+  "case_name": "Shri N.C. Jain vs Union Of India And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri N.C. Jain, Director (Marketing)",
+    "respondent_defendant": "Union Of India And Anr.",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner was appointed as a Director (Marketing) by respondent No.2/Cement Corporation of India. He submitted his resignation letter dated 27.10.1995 and claimed that since no disciplinary proceedings were pending, his jural relationship as an employee came to an end on the same date.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -43,39 +43,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Harmonious construction of all clauses/terms is necessary.",
+      "held": "There has to be harmonious construction of all the clauses/terms of the appointment letter dated 14.12.1994.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appointment letter",
+        "harmonious construction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "interpretation disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Automatic resignation cannot be inferred without acceptance by the employer.",
+      "held": "The resignation is not automatic and government/respondent No.2 has a right to reject the resignation if the circumstances so warrant.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "automatic resignation",
+        "acceptance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "resignation disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Burden lies on the employee to prove that circumstances warrant rejection of resignation.",
+      "held": "The burden lies on the petitioner to show that the circumstances are such that the government/respondent No.2 should reject the resignation.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "circumstances"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "resignation disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The chargesheet dated 23.7.1996 was quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "appointment letter",
+    "chargesheet",
+    "disciplinary proceedings",
+    "earned leave",
+    "notice pay",
+    "resignation",
+    "jural relationship",
+    "employee",
+    "employer",
+    "High Court of Delhi",
+    "writ petition",
+    "quashing",
+    "Para xii(b)",
+    "Cement Corporation of India",
+    "Director (Marketing)",
+    "marketing"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for quashing chargesheet",
+    "advising on employee-employer relationships",
+    "assisting in drafting an appointment letter"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:15:24.108704"
 }

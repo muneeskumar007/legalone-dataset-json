@@ -7,7 +7,7 @@
   "total_pages": 18,
   "extracted_at": "2026-06-16T11:39:19.665668",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty_desertion",
   "domain_scores": {
     "divorce": 7,
     "partition": 1,
@@ -24,13 +24,13 @@
     "I.S. Mehta J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Dwarka, New Delhi, HMA No. 516/2011 and M No. 132/12",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Joginder Kaur (Gogi) vs Shri Prit Pal Singh on 24 August, 2016",
+  "case_name": "Smt. Joginder Kaur (Gogi) vs Shri Prit Pal Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Joginder Kaur (Gogi), wife",
+    "respondent_defendant": "Shri Prit Pal Singh, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -64,7 +64,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties were married in 2008; respondent-husband filed divorce petition under Section 13(1)(ia)&(ib) of the Hindu Marriage Act, 1955 on grounds of cruelty and desertion.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -74,39 +74,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging desertion to prove that the other spouse has deserted them for a continuous period of not less than two years.",
+      "held": "After the amendment, the ground for desertion for claiming divorce under Section 13(1)(ib) of the Hindu Marriage Act, 1955 requires that one of the spouse who has been deserted by the other for a continuous period of two years immediately preceding the date of the presentation of the divorce petition is entitled to a decree of divorce.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "divorce",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Desertion means the willful abandonment of one's duty or obligations, including living with one's spouse.",
+      "held": "In general parlance, as per Oxford English Dictionary Vol-1 desertion means 'The action of deserting, forsaking, or abandoning. Willful abandonment of one's duty or obligations, (b) to live with one's spouse.'",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Oxford English Dictionary Vol-1"
+      ],
+      "keywords": [
+        "desertion",
+        "abandonment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed. The judgment and divorce decree dated 26th February, 2014 in HMA No. 516/2011 are set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19",
+    "maintenance petition",
+    "DV Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "matrimonial dispute",
+    "alimony",
+    "custody",
+    "family court",
+    "judgment and divorce decree",
+    "marriage dissolution",
+    "spousal rights",
+    "property division",
+    "joint family",
+    "separation",
+    "annulment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for maintenance or alimony",
+    "advising on grounds for divorce under Hindu Marriage Act",
+    "assisting in property settlement disputes after separation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:33:30.896455"
 }

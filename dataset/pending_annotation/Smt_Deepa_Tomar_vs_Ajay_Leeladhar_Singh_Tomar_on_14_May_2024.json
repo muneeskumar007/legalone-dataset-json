@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-06-16T11:39:17.552162",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -25,13 +25,13 @@
     "Vivek Rusia Passed J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Gwalior in case No.10697/2020 RCSHM",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Deepa Tomar vs Ajay @ Leeladhar Singh Tomar on 14 May, 2024",
+  "case_name": "Smt. Deepa Tomar vs Ajay @ Leeladhar Singh Tomar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Deepa Tomar, wife",
+    "respondent_defendant": "Ajay @ Leeladhar Singh Tomar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married on 21.11.2011 and had a baby girl named Bhumi. The petitioner claimed that the respondent was cruel, aggressive, and short-tempered, and sought dissolution of marriage under Section 13(1) of the Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Mental cruelty can be caused by a husband's criminal background and uncertainty of his release on bail.",
+      "held": "Therefore, no wife can live in the matrimonial relationship with the person who is so short-tempered and impulsive turned criminal.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Sivasankaran Vs. Santhimeenal (2022) 15 SCC 742"
+      ],
+      "keywords": [
+        "mental cruelty",
+        "criminal background",
+        "uncertainty of release on bail"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases involving criminal husbands"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Desertion can be situational, and a wife may be entitled to divorce if her husband has been absent for more than two years.",
+      "held": "Therefore, this is the situational desertion of wife by the respondent/husband.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "situational desertion",
+        "two years"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving long-term absence of husbands"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The petition filed by the petitioner seeking dissolution of marriage was dismissed by the trial court. The appeal is also dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 13 (1)",
+    "Section 19",
+    "marriage dissolution",
+    "wife's petition",
+    "husband's response",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "joint family",
+    "separation",
+    "irretrievable breakdown",
+    "no fault divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for dissolution of marriage under Section 13 (1) Hindu Marriage Act",
+    "advising on maintenance and alimony in a matrimonial dispute",
+    "assisting with property division in a joint family"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:31:39.651866"
 }

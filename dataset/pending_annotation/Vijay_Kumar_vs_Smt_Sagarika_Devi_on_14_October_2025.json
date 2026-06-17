@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-06-16T11:41:05.512753",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "partition": 1,
@@ -24,13 +24,13 @@
     "Rajesh Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Family Court-I, East Singhbhum at Jamshedpur (Original Suit No. 314 of 2016)",
   "reserved_on": "",
   "delivered_on": "14/10/2025",
-  "case_name": "Vijay Kumar vs Smt. Sagarika Devi on 14 October, 2025",
+  "case_name": "Vijay Kumar vs Smt. Sagarika Devi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vijay Kumar, husband",
+    "respondent_defendant": "Smt. Sagarika Devi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Vijay Kumar and Sagarika Devi was solemnized in 2007. After marriage, the respondent-wife came to reside with the petitioner-husband for a period of 15 days. The respondent's behavior during this time was abnormal, and she was unable to perform household chores or understand family matters.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the other spouse has been suffering from incurable mental disease.",
+      "held": "It is submitted by the learned counsel for the appellant-husband that the Learned Family Court below has failed to appreciate that the petitioner /appellant has produced credible evidence which are sufficient to establish that the respondent-wife has been suffering from menta retardation and therefore the petitioner /appellant is entitled for grant of decree of divorce.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mental disease",
+        "incurable mental disease",
+        "divorce",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cases involving divorce on grounds of incurable mental disease"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party seeking divorce must substantiate their claim with credible evidence.",
+      "held": "Submission has also been made that the learned Court below also failed to appreciate that the petitioner /appellant has successfully substantiated that the decree of Judicial separation between the petitioner and the respondent has been passed on 04.04.2013 in Mat. Suit No. 52 of 2011, wherein it was ordered that if cohabitation takes place between the petitioner and the respondent for a period of one year, the petitioner shall be at liberty to file a case for divorce.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "credible evidence",
+        "substantiation",
+        "divorce"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "cases involving divorce on grounds of judicial separation"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's decision dismissing the petition for divorce was upheld by the High Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(iii)",
+    "family court",
+    "Additional Principal Judge",
+    "East Singhbhum",
+    "Jamshedpur",
+    "Original Suit No. 314 of 2016",
+    "petitioner-appellant-husband",
+    "respondent-wife",
+    "Smt. Sagarika Devi",
+    "Vijay Kumar",
+    "Indian Kanoon",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "responding to family court proceedings",
+    "appealing a family court decision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:29:39.855714"
 }

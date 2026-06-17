@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-06-16T11:40:12.684568",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 3,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, 11th Court, Alipore, Matrimonial Suit No. 6/1985",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sukhdev Kaur (Grewal) vs Ravinder Singh Grewal on 18 July, 1996",
+  "case_name": "Sukhdev Kaur (Grewal) v. Ravinder Singh Grewal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ravinder Singh Grewal, husband",
+    "respondent_defendant": "Sukhdev Kaur (Grewal), wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Sikh by religion and were married according to Sikh rites and ceremonies in 1970. The husband filed for divorce on grounds of desertion and cruelty. The wife refused to accompany the husband to his posting at Doomdooma, stayed only two months, and then started living with her parents. She also joined a B.Ed. course against the husband's wishes.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Unsubstantiated allegations of cheating, criminal breach of trust or criminal misappropriation against a husband or his mother can constitute cruelty.",
+      "held": "There is no doubt - and it can be noted as a general proposition - that unsubstantiated allegations of cheating, criminal breach of trust or criminal mis- appropriation against husband or against the mother of the husband and filing of criminal case on such unsubstantiated allegations would no doubt constitute cruelty on the part of the wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "I.P.C."
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Sukhdev Kaur (Grewal) vs Ravinder Singh Grewal, 1996"
+      ],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "unsubstantiated allegations",
+        "cheating",
+        "criminal breach of trust",
+        "criminal misappropriation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Filing a criminal case on unsubstantiated allegations is sure to cause humiliation and mental agony to the husband.",
+      "held": "There is no gain-saying that filing of a criminal case on unsubstantiated allegations of offences of cheating, criminal breach of trust and criminal misappropriation is sure to cause humiliation and mental agony to the husband.",
+      "applicable_acts_sections": [
+        "I.P.C."
+      ],
+      "cited_cases": [
+        "Sukhdev Kaur (Grewal) vs Ravinder Singh Grewal, 1996"
+      ],
+      "keywords": [
+        "humiliation",
+        "mental agony",
+        "unsubstantiated allegations",
+        "criminal case"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court granted decree of divorce in favour of the petitioner-husband on grounds of cruelty of the wife. The appeal is allowed and the decree of divorce is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "desertion",
+    "matrimonial suit",
+    "decree of divorce",
+    "negotiated marriage",
+    "consummation",
+    "minority",
+    "majority",
+    "security force",
+    "Assam",
+    "Doomdooma",
+    "posting",
+    "marriage rites",
+    "Sikh law",
+    "Hindu Marriage Act 1955",
+    "Section 13(1)(i)",
+    "Section 13(1)(ii)",
+    "Section 10"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "advising on grounds for divorce",
+    "preparing matrimonial suit"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:58:59.096211"
 }

@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-06-16T11:40:58.929188",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Chief Judicial Magistrate, Salem, H.M.O.P. No. 171 of 1986",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vanaja vs Gopu on 16 November, 1990",
+  "case_name": "Vanaja vs Gopu",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, seeking maintenance",
+    "respondent_defendant": "husband, respondent to wife's application",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife married husband in 1977, had a daughter, and lived together until 1984 when misunderstandings arose. Wife left husband's house and filed M.C. No. 9 of 1985 for maintenance, which was granted by the trial court at Rs. 250/- per mensem from 31.3.1986 onwards.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu wife is entitled to be maintained by her husband during her lifetime.",
+      "held": "Section 18(1) of the Hindu Adoptions and Maintenance Act, which came into operation on 21.12 1956, a Hindu wife, whether married before or after the commencement of that Act, shall be entitled to be maintained by her husband during her lifetime.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Adoptions and Maintenance Act — Section 18"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "wife",
+        "husband"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The right to claim maintenance or litigation expenses under Section 24 of the Hindu Marriage Act is a special statutory right.",
+      "held": "It is thus clear that the right to claim maintenance or litigation expeneses under Section 24 of the Hindu Marriage Act, is not made available generally to the parties to a marriage, but only when a proceeding between the spouses is pending under that Act, and in that respect, the right conferred under Section 24 of that Act, is in the nature of a special statutory right not in any manner outside the provisions Section 24 of the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "litigation expenses",
+        "special statutory right"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce",
+        "family law"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Respondent should pay petitioner maintenance at the rate of Rs. 250/- per mensem from 31.3.1986 onwards, having regard to the income of the respondent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "maintenance",
+    "Section 24",
+    "divorce",
+    "marriage",
+    "wife's rights",
+    "husband's obligations",
+    "family law",
+    "Indian divorce laws",
+    "Criminal Procedure Code",
+    "civil revision petition",
+    "judicial separation",
+    "alimony",
+    "property settlement",
+    "matrimonial disputes"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a maintenance application",
+    "advising on Hindu Marriage Act provisions",
+    "assisting with matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:27:36.081002"
 }

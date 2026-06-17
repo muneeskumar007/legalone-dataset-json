@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-06-16T11:38:23.769668",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -27,13 +27,13 @@
   "case_numbers": [
     "O.P.No.106 of\n2011"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Senior Civil Judge, Narasaraopet, Guntur District, H.M.O.P.No.106 of 2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shaik Mahammed Rafi vs Grandhi Poorna Seetha Manoja on 29 September, 2015",
+  "case_name": "Shaik Mahammed Rafi vs Grandhi Poorna Seetha Manoja",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shaik Mahammed Rafi (Appellant, husband)",
+    "respondent_defendant": "Grandhi Poorna Seetha Manoja (Respondent, wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent filed a petition under Section 12 of the Hindu Marriage Act, 1955 to declare her marriage with the petitioner as null and void. The trial court allowed the petition. The petitioner appeals against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,111 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu is an excluding definition to say other than Muslim or Christian or Parsi or Jew, but may include a person who is a convert or re-convert to any of the Hindu, Buddhist, Jaina or Sikh religions.",
+      "held": "",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Hindu",
+        "conversion",
+        "re-conversion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the respondent to establish that he was converted into Hindu religion from Muslim religion.",
+      "held": "",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "conversion",
+        "Hindu religion",
+        "Muslim religion"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Hindu Adoptions and Maintenance Act, 1956 has no application to Muslims.",
+      "held": "",
+      "applicable_acts_sections": [
+        "Hindu Adoptions and Maintenance Act, 1956 — Section 2(1)(c)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Hindu Adoptions and Maintenance Act",
+        "Muslims"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "adoption cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "An adoption, which is void, shall neither create any rights in adoptive family nor destroy the rights of any person in the family of his or her birth.",
+      "held": "",
+      "applicable_acts_sections": [
+        "Hindu Adoptions and Maintenance Act, 1956 — Section 5(2)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "adoption",
+        "void adoption"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 12",
+    "marriage nullity",
+    "irretrievable breakdown",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "separation",
+    "cohabitation",
+    "resumption of cohabitation",
+    "Hindu Marriage Act, 1955",
+    "Code of Civil Procedure, 1908"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Section 12 of Hindu Marriage Act",
+    "advising client on grounds for divorce",
+    "preparing reply to divorce petition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T20:06:16.749190"
 }

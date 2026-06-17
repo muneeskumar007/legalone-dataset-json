@@ -7,7 +7,7 @@
   "total_pages": 28,
   "extracted_at": "2026-06-16T11:38:46.619820",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 3,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shilpa Sailesh vs Varun Sreenivasan on 1 May, 2023",
+  "case_name": "Shilpa Sailesh vs Varun Sreenivasan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shilpa Sailesh — wife",
+    "respondent_defendant": "Varun Sreenivasan — husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -96,7 +96,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties had a marriage that was dissolved by mutual consent. The issue before the court is whether the period prescribed in sub-section (2) of Section 13-B of the Hindu Marriage Act, 1955 can be waived or reduced.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -106,21 +106,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The powers conferred on the Court by Article 142 being curative in nature cannot be construed as powers which authorise the Court to ignore the substantive rights of a litigant while dealing with a cause pending before it.",
+      "held": "This power cannot be used to supplant substantive law applicable to the case or cause under consideration of the Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Constitution of India — Article 142"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "curative",
+        "substantive rights",
+        "litigant",
+        "cause pending"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The construction of Article 142 must be functionally informed by the salutary purposes of the article, viz., to do complete justice between the parties.",
+      "held": "It cannot be otherwise. As already noticed in a case of contempt of court, the contemner and the court cannot be said to be litigating parties.",
+      "applicable_acts_sections": [
+        "Constitution of India — Article 142"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "complete justice",
+        "parties",
+        "contempt of court"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Court cannot disregard a statutory provision governing a subject, except perhaps to balance the equities between the conflicting claims of the litigating parties by 'ironing out the creases' in a cause or matter before it.",
+      "held": "Indeed this Court is not a court of restricted jurisdiction of only dispute-settling. It is well recognised and established that this Court has always been a law-maker and its role travels beyond merely dispute-settling.",
+      "applicable_acts_sections": [
+        "Constitution of India — Article 142"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "statutory provision",
+        "equities",
+        "litigating parties",
+        "cause or matter"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The Constitutional powers cannot, in any way, be controlled by any statutory provisions but at the same time these powers are not meant to be exercised when their exercise may come directly in conflict with what has been expressly provided for in a statute dealing expressly with the subject.",
+      "held": "Indeed, these constitutional powers cannot, in any way, be controlled by any statutory provisions but at the same time these powers are not meant to be exercised when their exercise may come directly in conflict with what has been expressly provided for in a statute dealing expressly with the subject.",
+      "applicable_acts_sections": [
+        "Constitution of India — Article 142"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "constitutional powers",
+        "statutory provisions",
+        "conflict",
+        "subject"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
@@ -130,15 +192,34 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Protection of Women from DV Act",
+    "Section 13-B",
+    "Article 142",
+    "Indian Penal Code",
+    "Transfer Petition",
+    "Criminal Original Jurisdiction",
+    "Supreme Court",
+    "Constitution Bench",
+    "Family Courts",
+    "High Courts",
+    "Latin Maxim",
+    "Motion to Divorce",
+    "DV Act",
+    "Domestic Violence"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on domestic violence cases",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T20:11:05.826922"
 }

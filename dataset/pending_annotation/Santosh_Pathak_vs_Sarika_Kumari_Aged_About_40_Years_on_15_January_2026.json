@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-06-16T11:38:16.531833",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 3,
@@ -22,13 +22,13 @@
     "Arun J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Original Suit No. 70 of 2014",
   "reserved_on": "",
   "delivered_on": "15/01/2026",
-  "case_name": "Santosh Pathak vs Sarika Kumari Aged About 40 Years on 15 January, 2026",
+  "case_name": "Santosh Pathak vs Sarika Kumari Aged About 40 Years",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Santosh Pathak, husband",
+    "respondent_defendant": "Sarika Kumari Aged About 40 Years, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2013 and the petitioner filed a divorce petition which was dismissed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging fraud to prove it.",
+      "held": "It has been submitted that the learned Principal Judge has failed to consider that the respondent and her parents knowingly and deliberately misrepresented the fact about her qualification and appointment and impressed falsely to get married to the appellant by playing fraud.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "fraud",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court should not ignore documentary evidence.",
+      "held": "Thus, it has further been contended that learned Family Court has completely ignored the documentary evidence and has dismissed the case of the appellant on erroneous and extraneous consideration.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "documentary evidence",
+        "ignoring evidence"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order is not mentioned in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "maintenance",
+    "alimony",
+    "separation",
+    "irreconcilable differences",
+    "Section 13(1)(ia)",
+    "Section 27",
+    "matrimonial dispute",
+    "marital breakdown",
+    "joint family",
+    "separate maintenance",
+    "custody",
+    "child support",
+    "family law",
+    "Indian court judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T19:59:12.204268"
 }

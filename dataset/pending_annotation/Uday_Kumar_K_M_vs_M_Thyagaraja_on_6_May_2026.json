@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-06-16T11:40:55.559683",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 8,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "XX ACMM, Bengaluru (C.C. No.24580/2019)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Uday Kumar K M vs M Thyagaraja on 6 May, 2026",
+  "case_name": "Uday Kumar K M vs M Thyagaraja",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Uday Kumar K M, accused",
+    "respondent_defendant": "M Thyagaraja, complainant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Accused borrowed Rs. 3 lakhs from complainant and issued cheque for repayment. Cheque bounced. Complainant demanded repayment but accused did not respond. Case filed under S.138 of Negotiable Instruments Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that he was not given a fair opportunity to cross-examine the witness and lead defense evidence.",
+      "held": "This court has given opportunity to the appellant to cross- examine PW1 and also to lead defense evidence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "fair opportunity",
+        "cross-examination",
+        "defense evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A complainant cannot misuse a security cheque and file a false complaint.",
+      "held": "It is the contention of the accused is that even though his brother Chandrashekar K.M repaid the borrowed amount to the complainant, but the complainant failed to return security cheque to him and his brother Chandrashekar K.M.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "security cheque",
+        "false complaint"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal filed",
+    "final_order": "Appeal against judgment of conviction dated 21.03.2023 passed in C.C. No.24580/2019 by learned XX ACMM, Bengaluru.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of criminal procedure",
+    "section 138",
+    "criminal appeal",
+    "judgment of conviction",
+    "complaint",
+    "friendship",
+    "business improvement",
+    "improvement of business",
+    "latin maxim",
+    "nemo judex in causa sua",
+    "appeal against judgment",
+    "summary trial",
+    "negotiable instrument",
+    "cheque",
+    "bounced cheque",
+    "dishonoured cheque"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under section 138 of the Negotiable Instruments Act",
+    "defending an appeal against judgment in a cheque bounce case",
+    "advising on the legal implications of a bounced cheque"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:19:35.997306"
 }

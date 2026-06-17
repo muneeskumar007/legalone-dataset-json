@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-06-16T11:39:52.965179",
   "domain": "cheque_bounce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 3,
     "custody": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Saurabh Goyal, JMFC-01, South West District Dwarka Courts, Delhi (Criminal Case No.: 3556/2021)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "State vs Hardeep Singh on 1 June, 2026",
+  "case_name": "State vs Hardeep Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "State",
+    "respondent_defendant": "Hardeep Singh S/o Sh. Hari Singh",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The State accused Hardeep Singh of committing an offence punishable under Section 420 IPC by dishonestly inducing the complainant to enter into a Bayana Agreement and causing wrongful loss.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that the receipt was not genuine.",
+      "held": "PW-5 has deposed that he has brought the summoned record i.e. Account opening Form of accused Hardeep Singh, which bears the signatures of Accused Hardeep.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section X"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "receipt",
+        "genuineness",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A witness's testimony can be impeached by showing that they were not telling the complete truth.",
+      "held": "During his cross-examination, he denied giving statement dated 25 January 2021, to the I/O. He testified that he had signed the receipt in presence of Vinod Kumar and Hardeep Singh.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872 — Section X"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "witness",
+        "testimony",
+        "impeachment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving witness credibility"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Convicted",
+    "final_order": "Accused was convicted on 1 June, 2026.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of criminal procedure",
+    "ipc section 420",
+    "bayana agreement",
+    "dishonesty",
+    "indian penal code",
+    "criminal case",
+    "federal court",
+    "judgment",
+    "conviction",
+    "plea not guilty",
+    "complaint",
+    "accused",
+    "prosecution",
+    "evidence act",
+    "district courts",
+    "delhi"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a plea in a cheque bounce case",
+    "preparing a prosecution brief for a criminal case",
+    "responding to a complaint of dishonesty"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:51:48.480347"
 }

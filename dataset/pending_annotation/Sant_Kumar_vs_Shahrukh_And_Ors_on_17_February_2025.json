@@ -7,7 +7,7 @@
   "total_pages": 21,
   "extracted_at": "2026-06-16T11:38:18.317551",
   "domain": "cheque_bounce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 8,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS Aunradha Jindal, Addl. Senior Civil Judge-Cum-Judge Small Cause Court-Cum-Guardian Judge, District: South, New Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sant Kumar vs Shahrukh And Ors on 17 February, 2025",
+  "case_name": "Sant Kumar vs Shahrukh And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sant Kumar and Urmila Devi (husband and wife, plaintiffs)",
+    "respondent_defendant": "Shahrukh and Rahimuddin (son and father, defendants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Financial dispute between plaintiffs and defendants; loan sought by defendants due to financial distress; cheques issued but dishonored; suit filed for reimbursement of outstanding amount with interest and damages.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party who seeks to enforce a claim must establish the existence of a valid loan agreement.",
+      "held": "The plaintiffs have deliberately withheld the true facts of the case and have failed to provide any documentary proof of disbursing a loan.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "loan agreement",
+        "documentary proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party who is accused of fraud must establish the absence of any deceitful practices.",
+      "held": "The plaintiffs operate a fraudulent financial scheme through their illegal 'Committee Business', misleading investors and later threatening them with police action when repayment is demanded.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "fraud",
+        "deceitful practices"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "fraud cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court granted the relief claimed by the plaintiffs, ordering the defendants to reimburse the outstanding amount along with interest and damages.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of civil procedure",
+    "limitation act",
+    "perpetual injunction",
+    "mandatory injunction",
+    "friendly loan",
+    "shop burning",
+    "financial distress",
+    "cheques",
+    "dishonoured cheques",
+    "civil suit",
+    "court judgment",
+    "judicial discretion",
+    "plaintiffs",
+    "defendants",
+    "judgment debt",
+    "interest rate"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a cheque bounce case",
+    "guidelines for filing a civil suit",
+    "practical tips for advocates in financial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T19:58:19.147806"
 }

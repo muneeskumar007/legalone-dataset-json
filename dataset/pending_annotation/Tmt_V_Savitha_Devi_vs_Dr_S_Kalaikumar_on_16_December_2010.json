@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-06-16T11:40:50.834275",
   "domain": "cheque_bounce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 3,
@@ -29,13 +29,13 @@
     "CC.No.876 of 2007",
     "CC.No.117 of 2008"
   ],
-  "trial_court": "",
+  "trial_court": "Learned Judicial Magistrate No.II, Coimbatore (CC.No.855 of 2010)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tmt. V.Savitha Devi vs Dr. S.Kalaikumar on 16 December, 2010",
+  "case_name": "Tmt. V.Savitha Devi vs Dr. S.Kalaikumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tmt. V.Savitha Devi, Thiru G.Venkatesh, Thiru J.Balachander, Thiru V.Devarajan",
+    "respondent_defendant": "Dr. S.Kalaikumar",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are accused in CC.No.855 of 2010. They borrowed money from respondent and issued cheques which bounced. Respondent filed cases against petitioners under Section 138 of Negotiable Instruments Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The words 'any proceeding' used in Clause (B)(1) of Sub Section 1 to Section 195 Cr.P.C. are words of wide amplitude and have no limitations except that the proceedings should be before a Court.",
+      "held": "These words are very general and are wide enough to cover a proceeding in contemplation before a criminal Court, though it may not have begun at the date when the offence was committed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 195"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "P.C.Gupta v. State, (1974) CrLJ 945 (All-FB)"
+      ],
       "keywords": [
-        "TODO"
+        "proceeding",
+        "Court",
+        "amplitude"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type: complaint against cheque bounce"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The offence must have been committed 'in or in relation to any proceeding in any Court'.",
+      "held": "These words are very general and are wide enough to cover a proceeding in contemplation before a criminal Court, though it may not have begun at the date when the offence was committed.",
+      "applicable_acts_sections": [
+        "Cr.P.C. — Section 195"
+      ],
+      "cited_cases": [
+        "M.L.Sethi v. R.P.Kapur, AIR 1967 SC 528"
+      ],
+      "keywords": [
+        "proceeding",
+        "Court",
+        "relation"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "case type: complaint against cheque bounce"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings in CC.No.855 of 2010 quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "dishonoured cheque",
+    "criminal procedure code",
+    "section 482",
+    "quash proceedings",
+    "judicial magistrate",
+    "coimbatore",
+    "learned judicial magistrate",
+    "inherent jurisdiction",
+    "petition under section 482 crpc",
+    "cc no 855 of 2010",
+    "bounce cheque case",
+    "cheque bounce case in coimbatore",
+    "section 138 ni act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition to quash proceedings under section 482 crpc",
+    "responding to a petition to quash proceedings under section 482 crpc",
+    "cheque bounce case in coimbatore court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T22:17:47.592912"
 }

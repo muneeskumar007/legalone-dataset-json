@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-06-16T11:38:22.178153",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Akola (FCA No.4 of 2023 and FCA No.11 of 2023)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sau. Pooja W/O. Shrikant Kale vs Shrikant Rameshwarrao Kale on 2 February, 2024",
+  "case_name": "Sau. Pooja W/O. Shrikant Kale vs Shrikant Rameshwarrao Kale",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sau. Pooja w/o Shrikant Kale (wife)",
+    "respondent_defendant": "Shrikant Rameshwarrao Kale (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed proceedings under Section 9 of Hindu Marriage Act, 1955 for restitution of conjugal rights, while the husband filed a petition under Section 12(1)(c) of Act of 1955 for annulment of marriage and in the alternate under Section 13(1)(ia) of the Act of 1955 for decree of divorce on the ground of cruelty. The couple started residing separately from each other just after three months of their marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A material fact, if disclosed, would have resulted in the husband not agreeing or consenting to the marriage.",
+      "held": "Though the said disease may not seriously interfere with the married life of the husband, but it is of such a nature, certainly if disclosed, would have resulted in the husband not agreeing or consenting to the marriage",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12(c)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "material fact",
+        "consent",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "annulment of marriage cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party alleging concealment to prove that the other party was not informed about a material fact.",
+      "held": "Though the said disease may not seriously interfere with the married life of the husband, but it is of such a nature, certainly if disclosed, would have resulted in the husband not agreeing or consenting to the marriage",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 12(c)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "concealment",
+        "material fact"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "annulment of marriage cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned common judgment and decree, dated 27/12/2022, passed by the Family Court, Akola is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "separation",
+    "cohabitation",
+    "joint family",
+    "matrimonial home",
+    "family court",
+    "appeal",
+    "Nagpur Bench",
+    "Bombay High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on grounds for divorce",
+    "preparing appeal against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T20:03:19.789212"
 }

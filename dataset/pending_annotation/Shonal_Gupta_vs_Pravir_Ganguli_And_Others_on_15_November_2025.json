@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-06-16T11:38:47.544974",
   "domain": "cheque_bounce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 6,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Civil Judge-01, Shahdara District, Karkardooma Courts, Delhi, Civil Suit No: 9954/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shonal Gupta vs Pravir Ganguli And Others on 15 November, 2025",
+  "case_name": "Shonal Gupta vs Pravir Ganguli And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Shonal Gupta, plaintiff",
+    "respondent_defendant": "Sh. Pravir Ganguli, defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were close friends. The defendant requested a loan from the plaintiff and received Rs.3,50,000/- which he promised to return. The suit seeks recovery of Rs.1,77,000/- (including principal amount of Rs.1,50,000/- + Rs.27,000/- interest) along with interest @ 24% per annum.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court has no territorial jurisdiction to entertain a suit if the defendant is residing or works for gain at a place outside its territorial jurisdiction.",
+      "held": "that as per his own claim, the plaintiff has not made Mr. Vijay Aggarwal a party to the present suit and that in view of aforesaid stated facts, the suit of the plaintiff is false and frivolous and same is liable to be dismissed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "territorial jurisdiction",
+        "defendant's residence",
+        "gain"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "civil suits"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot claim relief in a court where it has not made necessary parties to the suit.",
+      "held": "that the suit of the plaintiff is false and frivolous and same is liable to be dismissed.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "necessary parties",
+        "joinder",
+        "mis-joinder"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil suits"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court passed a decree in favour of the plaintiff and against the defendant for Rs.1,83,000/- with interest @ 24% per annum from the date of institution till realization.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque_bounce",
+    "Negotiable Instruments Act",
+    "1881",
+    "Section 138",
+    "dishonour",
+    "cheque",
+    "bounce",
+    "payment",
+    "interest",
+    "24% per annum",
+    "principal amount",
+    "Rs.1,77,000/-",
+    "suit for recovery",
+    "civil suit",
+    "Court of Civil Judge-01",
+    "Shahdara District",
+    "Karkardooma Courts",
+    "Delhi"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a cheque bounce case in Delhi",
+    "using Section 138 Negotiable Instruments Act for dishonour of cheque",
+    "advocating for payment of interest on bounced cheque"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T20:12:01.244167"
 }

@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-06-16T11:39:54.702242",
   "domain": "murder_criminal",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "cheque_bounce": 1,
     "partition": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS Shilpi Singh, Erstwhile Judicial Magistrate-02 (South District), Saket Courts Complex, New Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "State vs Mukesh Solanki Ors on 9 December, 2024",
+  "case_name": "State vs Mukesh Solanki Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Rattan Kaur, represented through State of NCT of Delhi",
+    "respondent_defendant": "Mukesh Solanki s/o Sh. Mange Ram and Anil Katyal s/o Sh. KL Katyal",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant Smt Rattan Kaur owns a land measuring 4,565 Sq yards at Village Adampur, District Gurgaon, Haryana. Accused no.1 approached her and asked her to sign on some papers in order to save the property from acquisition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Burden lies on the investigating officer to ensure that the investigation is fair and impartial.",
+      "held": "He also admitted that he did not serve any notice on PW-4 or PW-6 even though he had 30 years of experience of investigation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "investigation",
+        "fairness",
+        "impartiality"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A witness's credibility can be impeached by showing inconsistencies in their testimony.",
+      "held": "During his cross examination by accused no.1, PW-8 admitted that in Ex PW-8/A, detail of number of seized documents or detail of attesting officer for point 1, 5 and 6 or date of execution or the cheque number, its date or branch at point 2, 3 and 4 was not mentioned.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "witness credibility",
+        "testimonial inconsistencies"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Acquitted",
+    "final_order": "NA-Acquitted",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Code of Criminal Procedure",
+    "IPC",
+    "FIR",
+    "Charge-sheet",
+    "Evidence",
+    "Sentencing Order",
+    "Acquitted",
+    "Land",
+    "Property",
+    "Adampur",
+    "Gurgaon",
+    "Haryana",
+    "Adjacent",
+    "2004",
+    "2006",
+    "2010",
+    "2017",
+    "2018"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a criminal case",
+    "preparing a sentencing order",
+    "defending an acquittal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:52:41.640698"
 }

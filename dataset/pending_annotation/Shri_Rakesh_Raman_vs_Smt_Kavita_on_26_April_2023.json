@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-06-16T11:38:54.642812",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Additional District Judge (North), Tis Hazari Courts, Delhi, Civil Appeal No.2012 of 2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Rakesh Raman vs Smt. Kavita on 26 April, 2023",
+  "case_name": "Shri Rakesh Raman vs Smt. Kavita",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rakesh Raman, husband",
+    "respondent_defendant": "Kavita, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married under Hindu rituals and customs in Delhi on April 16, 1994. The husband's case is that his wife was not happy in their small dwelling and used offensive language against him. She left her matrimonial home several times, including in September 1994 when she got her pregnancy terminated without informing her husband.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -79,39 +79,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "Repeatedly filing of criminal cases by one party against the other in a matrimonial matter would amount to cruelty.",
+      "held": "A three Judge Bench of this Court in Naveen Kohli v. Neelu Kohli1 held that repeatedly filing of criminal cases by one party against the other in a matrimonial matter would amount to cruelty and the same was reiterated by a Division Bench of this Court in K. Srinivas Rao v. D.A. Deepa2.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Naveen Kohli v. Neelu Kohli, (2006) 4 SCC 558",
+        "K. Srinivas Rao v. D.A. Deepa"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "matrimonial matter",
+        "criminal cases"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Mere filing of criminal cases against the husband would not constitute cruelty.",
+      "held": "The High Court has taken a view that mere filing of criminal cases against the appellant−husband would not constitute cruelty.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Delhi High Court"
+      ],
+      "keywords": [
+        "cruelty",
+        "criminal cases"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The marriage was dissolved by the order of the trial court, which was set aside by the Delhi High Court and the petition of the husband was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "marital discord",
+    "abusive language",
+    "termination of pregnancy",
+    "Hindu rituals",
+    "customs",
+    "small dwelling",
+    "petition",
+    "appeal",
+    "Special Leave Petition",
+    "matrimonial dispute",
+    "family law",
+    "Indian Penal Code",
+    "Specific Relief Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "advising on matrimonial disputes in Delhi",
+    "appealing a family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T21:16:16.009924"
 }

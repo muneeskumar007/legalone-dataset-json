@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-06-16T11:38:48.790968",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Aldino Santos Braganza vs Smt. Marle Dos Santos Braganza on 6 May, 2008",
+  "case_name": "Shri Aldino Santos Braganza vs Smt. Marle Dos Santos Braganza",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Aldino Santos Braganza (husband, plaintiff)",
+    "respondent_defendant": "Smt. Marle Dos Santos Braganza (wife, defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1987 and had a child. The wife was residing at her mother's house since 1990 due to strained relations with the husband. The husband filed a suit for divorce based on an incident that occurred in 1991.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging ill treatment to prove the same.",
+      "held": "The learned trial Court recorded evidence of three witnesses for the Plaintiff and four of the Defendant and came to the conclusion that the Plaintiff had succeeded in proving that the Defendant had ill treated the Plaintiff.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "ill treatment",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant divorce merely on the basis of isolated incidents.",
+      "held": "However, the learned Single Judge came to the conclusion that the incident of 5-4-1991 of slapping the Plaintiff by the Defendant, even if held to be proved, it could not be called so humiliating, so discrediting and so shameful or causing such mental agony that it should be treated as a ground for dissolution of marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "isolated incidents",
+        "divorce grounds"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the appeal and granted the husband a decree of divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Indian Evidence Act",
+    "divorce",
+    "Law of Divorce",
+    "Article 4(4)",
+    "ill-treatment",
+    "serious injury",
+    "arranged marriage",
+    "estrangement",
+    "strained relations",
+    "marriage settlement",
+    "alimony",
+    "maintenance",
+    "custody",
+    "child custody",
+    "property division",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "negotiating marriage settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T20:12:55.875655"
 }
