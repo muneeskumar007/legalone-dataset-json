@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-06-16T11:37:24.622551",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 8,
@@ -26,13 +26,13 @@
     "C.C.No.7971 of 2010",
     "C.C.No.7971\nof 2010"
   ],
-  "trial_court": "",
+  "trial_court": "IX Metropolitan Magistrate, Saidapet, Chennai (C.C.No.7971 of 2010)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "N.Vasantha vs R.Srinivasan on 17 March, 2017",
+  "case_name": "N.Vasantha vs R.Srinivasan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "N.Vasantha, mother of 2nd accused",
+    "respondent_defendant": "R.Srinivasan, complainant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Respondent filed complaint against petitioner and her son for cheque bounce under Section 138 of Negotiable Instruments Act. Petitioner claims the complaint is an abuse of process and hit by limitation.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Criminal liability can only be fastened against the drawer of the cheque.",
+      "held": "Therefore this Court is of the opinion that the criminal liability cannot be fastened against the petitioner and the continuance of such criminal prosecution will be an abuse of process of Court and Law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881 — Section 138"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Seetha Lakshmi v. Suresh"
+      ],
       "keywords": [
-        "TODO"
+        "cheque bounce",
+        "criminal liability",
+        "drawer",
+        "negotiable instruments act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Criminal prosecution must fall within the purview of the Section charged with.",
+      "held": "Therefore this Court is of the opinion that the criminal liability cannot be fastened against the petitioner and the continuance of such criminal prosecution will be an abuse of process of Court and Law.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881 — Section 138"
+      ],
+      "cited_cases": [
+        "Seetha Lakshmi v. Suresh"
+      ],
+      "keywords": [
+        "criminal prosecution",
+        "section charged with",
+        "negotiable instruments act"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings in C.C.No.7971 of 2010 quashed",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "criminal procedure code",
+    "quash proceedings",
+    "cc no.7971 of 2010",
+    "ix metropolitan magistrate",
+    "saidapet chennai",
+    "icici bank ltd",
+    "vellacherry branch",
+    "hand loan",
+    "barrowed money",
+    "failed to repay",
+    "latin maxim: actio non procedat ex injuria",
+    "criminal original petition",
+    "section 482",
+    "criminally liable"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a quash petition for cheque bounce cases",
+    "advising on criminal liability under section 138",
+    "preparing a defence against a complaint under section 138"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T07:46:06.076722"
 }

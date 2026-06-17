@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-06-16T11:37:41.983494",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "land_acquisition": 1,
@@ -20,13 +20,13 @@
     "Lisa Gill J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "None mentioned",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Punit Bhatia vs State Of Haryana And Anr on 18 May, 2018",
+  "case_name": "Punit Bhatia vs State Of Haryana And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Punit Bhatia (husband)",
+    "respondent_defendant": "State of Haryana and another (wife, complainant/respondent No.2)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial discord between husband and wife; FIR registered under Sections 323/406/498A/506 IPC; compromise arrived at between parties; petition for quashing of FIR.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,60 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The genuineness of a compromise between parties can be determined by examining the statements recorded before a judicial magistrate.",
+      "held": "Satisfaction is expressed that the compromise between the parties is genuine and an outcome of free will of the parties without any coercion.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Kulwinder Singh and others versus State of Punjab and another, (2007) (3) R.C.R. (Criminal) 1052"
+      ],
       "keywords": [
-        "TODO"
+        "compromise",
+        "genuineness",
+        "free will",
+        "coercion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition for quashing of FIR allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial discord",
+    "compromise",
+    "FIR",
+    "Sections 323/406/498A/506 IPC",
+    "quashing",
+    "criminal proceedings",
+    "family law",
+    "marriage",
+    "separation",
+    "conciliation",
+    "mediation",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing FIR for compromise",
+    "mediating family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:37:08.549429"
 }

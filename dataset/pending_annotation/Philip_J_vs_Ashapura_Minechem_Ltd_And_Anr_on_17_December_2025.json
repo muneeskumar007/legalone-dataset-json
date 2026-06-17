@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-06-16T11:37:33.250509",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 3,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Philip J. vs Ashapura Minechem Ltd. And Anr on 17 December, 2025",
+  "case_name": "Philip J. vs Ashapura Minechem Ltd. And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Philip J.",
+    "respondent_defendant": "Ashapura Minechem Ltd. And Anr",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeking quashing of FIR No. 35 of 2011 registered at Shrivardhan Police Station, Dist. Raigad, for offences under Sections 406 and 420 of the Indian Penal Code, 1860 (IPC), as also the charge-sheet filed therein on 3rd March 2014 before the Judicial Magistrate First Class, Shrivardhan.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Same set of facts can give rise to civil and criminal cases.",
+      "held": "What is required is that an analysis of the material on record indicates at least prima facie ingredients of the offences registered against the accused.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Delhi Race Club (1940) Limited & Ors. Vs. State of Uttar Pradesh & Anr., (2024) 10 SCC 690"
+      ],
       "keywords": [
-        "TODO"
+        "civil",
+        "criminal",
+        "prima facie"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Two offences of Sections 406 and 420 of the IPC cannot go together.",
+      "held": "The offences under Sections 406 and 420 of the IPC cannot go together and at least one of them deserves to be knocked out.",
+      "applicable_acts_sections": [
+        "Indian Penal Code"
+      ],
+      "cited_cases": [
+        "Delhi Race Club (1940) Limited & Ors. Vs. State of Uttar Pradesh & Anr., (2024) 10 SCC 690"
+      ],
+      "keywords": [
+        "IPC",
+        "cheating",
+        "breach of trust"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Interim stay of further proceedings was granted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of criminal procedure",
+    "fiscal year",
+    "judicial magistrate first class",
+    "interim stay",
+    "quashing of FIR",
+    "sections 406 and 420 IPC",
+    "Indian penal code",
+    "judicial magistrate",
+    "magistrate first class",
+    "shrivardhan police station",
+    "raigad district",
+    "bounced cheque",
+    "dishonoured cheque"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing of FIR",
+    "preparing a case for cheque bounce dispute",
+    "understanding interim stay orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:23:53.959543"
 }

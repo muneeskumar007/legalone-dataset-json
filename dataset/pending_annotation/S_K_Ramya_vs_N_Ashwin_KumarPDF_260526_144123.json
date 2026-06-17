@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-06-16T11:40:19.771071",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "SR.No.7428\nof 2025"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Family Court, Chennai, OP.SR.No.7428 of 2025",
   "reserved_on": "19.02.2026",
   "delivered_on": "27.02.2026",
   "case_name": "S.K.Ramya @ vs N.Ashwin Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ramya Senguttuvan Kavitha, wife",
+    "respondent_defendant": "N.Ashwin Kumar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a divorce petition under Section 13(1)(ia) of the Hindu Marriage Act, 1955, which was returned by the trial court on jurisdictional grounds. The wife is currently residing in Sydney, Australia, but at the time of filing the petition, she was residing within the jurisdiction of the Family Court, Chennai.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu who is domiciled in India can avail the provisions of the Hindu Marriage Act, even if residing outside India.",
+      "held": "Thus, the provisions of the Hindu Marriage Act have extra territorial operation insofar as Hindus and it would be sufficient if the person who seeks relief or remedy under the Hindu Marriage Act to be domiciled in India.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 19"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Sondur Gopal vs. Sondur Rajini, (2013) 7 SCC 426"
+      ],
       "keywords": [
-        "TODO"
+        "domicile",
+        "extra territorial operation",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving Hindus"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Domicile can be domicile of origin or domicile of choice, and the Court should consider the specific averments in the petition.",
+      "held": "Domicile can be domicile of origin or domicile of choice. Domicile of choice is where the person abandons one domicile and acquires residence in another domicile. Domicile of origin would prevail until another domicile is acquired by manifest abandonment of the domicile of origin.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "S.K.Ramya @ vs N.Ashwin Kumar"
+      ],
+      "keywords": [
+        "domicile",
+        "petition",
+        "specific averments"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "cases involving disputes over jurisdiction"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order of returns passed by the trial court is set aside and the petition is directed to be registered and assigned a main number on the file.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "matrimonial proceedings",
+    "Principal Family Court",
+    "Chennai",
+    "jurisdiction",
+    "OP.SR.No.7428",
+    "2025",
+    "Article 227",
+    "Constitution of India",
+    "civil revision petition",
+    "petition main number",
+    "family court",
+    "online filing",
+    "litigation login",
+    "learned counsel",
+    "petitioner/wife"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court orders",
+    "filing civil revision petitions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:17:50.147848"
 }

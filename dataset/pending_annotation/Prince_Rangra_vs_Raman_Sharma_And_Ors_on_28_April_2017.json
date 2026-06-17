@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-06-16T11:37:39.531462",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "murder_criminal": 1,
@@ -20,13 +20,13 @@
     "Lisa Gill J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned Judicial Magistrate First Class, Sangrur (Criminal complaint No.19 dated 4.12.2014)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Prince Rangra vs Raman Sharma And Ors on 28 April, 2017",
+  "case_name": "Prince Rangra vs Raman Sharma And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Prince Rangra — husband",
+    "respondent_defendant": "Raman Sharma and another — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial discord between the petitioner and respondent No.1; parties amicably resolved their dispute; petition under Section 13B of Hindu Marriage Act filed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,71 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can amicably resolve their disputes.",
+      "held": "The parties, it is submitted, have amicably resolved their entire dispute.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "matrimonial discord"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Interim bail can be granted for a reasonable period.",
+      "held": "The petitioner had been afforded the benefit of interim bail for a period of two months in this case vide order dated 27.01.2017.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "interim bail",
+        "reasonable period"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "bail applications"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this petition is\nallowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Petition allowed",
+    "final_order": "Interim bail granted to the petitioner, subject to his furnishing requisite bail bonds and surety to the satisfaction of the learned Trial Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial discord",
+    "bail pending trial",
+    "Sections 495/494/493/419/420/376/506/120B IPC",
+    "Section 13B",
+    "demand draft",
+    "amicable settlement",
+    "petition under Section 13B",
+    "criminal complaint No.19",
+    "Judicial Magistrate First Class",
+    "Sangrur",
+    "Punjab and Haryana High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail applications",
+    "advising on divorce proceedings",
+    "representing clients in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:34:25.152406"
 }

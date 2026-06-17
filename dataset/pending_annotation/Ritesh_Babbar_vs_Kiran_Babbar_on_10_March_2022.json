@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-06-16T11:38:10.809173",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Vipin Sanghi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, East District, Karkardooma Courts, Delhi - H.M.A. No. 309/2017",
   "reserved_on": "05.01.2022",
   "delivered_on": "10.03.2022",
-  "case_name": "Ritesh Babbar vs Kiran Babbar on 10 March, 2022",
+  "case_name": "Ritesh Babbar vs Kiran Babbar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ritesh Babbar (husband)",
+    "respondent_defendant": "Kiran Babbar (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of the parties was solemnized on 02.05.2008. On 30.06.2009, a son was born out of the wedlock. The respondent unilaterally left their matrimonial home with the child without informing or seeking the appellant's consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The conduct of the parties is relevant in determining their willingness to maintain a marriage.",
+      "held": "The conduct of the appellant shows that, at least, till the time he filed the petition under Section 9 of the Hindu Marriage Act, 1955, he wanted to make his marriage work.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conduct",
+        "willingness",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may consider the conduct of the parties in determining their willingness to maintain a marriage.",
+      "held": "We have heard learned counsel for the parties and have gone through the documents and judgments relied upon.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 9"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "conduct",
+        "willingness",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's judgment and decree dated 14.08.2019 was upheld, dismissing the petition seeking divorce under Sections 13(1)(ia) and 13(1)(ib) of the Hindu Marriage Act, 1955.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19(1)",
+    "Section 28",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "matrimonial home",
+    "unilateral leave",
+    "consent",
+    "child custody",
+    "joint family",
+    "marriage solemnized",
+    "son born",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "advising on child custody disputes",
+    "representing client in joint family property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:16:09.606842"
 }

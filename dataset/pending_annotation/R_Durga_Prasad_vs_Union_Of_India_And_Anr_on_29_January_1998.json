@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-06-16T11:38:11.812930",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "R. Durga Prasad vs Union Of India And Anr. on 29 January, 1998",
+  "case_name": "R. Durga Prasad vs Union Of India And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (husband)",
+    "respondent_defendant": "Union Of India And Anr.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the husband, and his wife filed a case before the Family Court, Visakhapatnam. The petitioner had also filed an application seeking assistance of an advocate to conduct the case on his behalf, which was dismissed. He then filed this writ petition questioning the constitutional validity of clause (a) of explanation to Section 7(1) of the Family Courts Act, 1984.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When interpreting a statute, specific provisions of the statute are to be read and understood in consistency with the language and intention of the said legal provisions.",
+      "held": "If the language and intention of the legal provisions are clear and unambiguous, then, mere is no need to take the aid of preamble or Statement of Objects and Reasons.",
       "applicable_acts_sections": [
-        "TODO"
+        "Family Courts Act, 1984"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "statute interpretation",
+        "language and intention"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "statutory interpretation cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The caption of the Act or the Statement of Objects and Reasons or even the Preamble thereto cannot be used to construe a statute.",
+      "held": "The words '..... settlement of disputes relating to marriage .....' takes in not only the matters of an admitted marriage, but also a dispute with regard to the very existence of the marriage.",
+      "applicable_acts_sections": [
+        "Family Courts Act, 1984"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "statute interpretation",
+        "caption and preamble"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "statutory interpretation cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The burden lies on the party challenging the vires of a statute to show that the statute is ultra vires.",
+      "held": "It has to be borne in mind that while interpreting the statute, the specific provisions of statute are read and understood and have to be interpreted in consistence with the language and intention of the said legal provisions.",
+      "applicable_acts_sections": [
+        "Family Courts Act, 1984"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "statute interpretation",
+        "burden of proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "statutory interpretation cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The constitutional validity of clause (a) of explanation to Section 7(1) of the Family Courts Act, 1984 is challenged as violative of Articles 14 and 21 of Indian Constitution.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Article 14",
+    "Article 21",
+    "Section 7(1)",
+    "Section 12(1)(c)",
+    "void and nullity",
+    "free will and consent",
+    "force and fraud",
+    "divorce",
+    "marriage",
+    "Indian Constitution",
+    "Code of Civil Procedure",
+    "Code of Criminal Procedure",
+    "Indian Evidence Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on marriage validity",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:45:49.134464"
 }

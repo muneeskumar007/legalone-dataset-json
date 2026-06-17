@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-06-16T11:37:39.438630",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "cheque_bounce": 1,
@@ -23,13 +23,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Prakash Kumar Bachlaus vs Smt. Chanchal @ Jaya on 23 January, 2007",
+  "case_name": "Prakash Kumar Bachlaus vs Smt. Chanchal @ Jaya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Prakash Kumar Bachlaus (husband)",
+    "respondent_defendant": "Smt. Chanchal @ Jaya (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage took place on 30.11.1993, wife left the matrimonial home on 14.5.1994, husband sought annulment of marriage due to fraud and wife's mental disorder.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,28 +55,53 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage can be annulled if the wife was suffering from a serious mental disorder that rendered living together impossible.",
+      "held": "In view of the clear findings of the Family Court that the respondent wife was suffering from such serious mental disorder as to render of the living together of the husband and wife impossible",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Durga Prasanna Tripathy v. Arundhati Tripathy",
+        "Bikkar Singh v. Smt. Mohinder Kaur AIR 1981 Punjab & Haryana 391",
+        "Smt. Asha Srivastava v. R.K. Srivastava AIR 1981 Delhi 253"
+      ],
+      "keywords": [
+        "mental disorder",
+        "living together",
+        "impossible"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases where mental health is an issue"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage can be annulled if the parties have lived separately for more than 12 years and there is no possibility of reconciliation.",
+      "held": "Having lived separately for more than 12 years now, the marriage had fallen on the rocks and had crossed the point of return",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "separation",
+        "reconciliation",
+        "12 years"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where separation has been long-standing"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Decree of annulment denied due to husband continuing to live with wife after knowing about her mental disorder.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
     "TODO — add 15+ keywords after reading"
@@ -87,7 +112,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:33:43.183520"
 }

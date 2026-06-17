@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-06-16T11:37:30.444914",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -27,13 +27,13 @@
     "M.C.No.139 of 2011",
     "CMA.No.2685 of 2017"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Family Court, Coimbatore (M.C.No.139 of 2011 & HMOP No.929 of 2011)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Parameswari vs Subramanian on 5 March, 2026",
+  "case_name": "Parameswari vs Subramanian",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Parameswari (wife)",
+    "respondent_defendant": "Subramanian (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were in a marriage that took place on 06.06.1985. The wife filed M.C No.139 of 2011 seeking maintenance, while the husband filed HMOP No.929 of 2011 seeking restitution of conjugal rights. Both matters were heard together and by common order dated 24.01.2017, the petition seeking maintenance was dismissed and the petition seeking restitution of conjugal rights was allowed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party seeking remedy must necessarily workout their remedy over a valid decree dissolving the marriage.",
+      "held": "We would close the appeal and the criminal revision case, as of now, since there is a valid decree dissolving the marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage dissolution",
+        "valid decree",
+        "remedy"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's remedy is tied to the outcome of a valid decree dissolving the marriage.",
+      "held": "The appellant herein will have to necessarily workout her remedy over that particular decree.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage dissolution",
+        "valid decree",
+        "remedy"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal closed",
+    "final_order": "The marriage was dissolved by a valid decree passed on 08.09.2025 in HMOP No.1995 of 2024, making the appeal infructuous.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 19",
+    "Family Court Act",
+    "fair and final order",
+    "Principal Family Court",
+    "Coimbatore",
+    "Criminal Revision Case",
+    "Section 397",
+    "Section 401",
+    "Cr.P.C.",
+    "M.C.No.139",
+    "2011",
+    "appellant",
+    "respondent",
+    "petitioner",
+    "family court",
+    "marriage",
+    "divorce proceedings"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:20:03.193987"
 }

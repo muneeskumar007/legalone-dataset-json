@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-06-16T11:38:07.299516",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 3,
@@ -20,13 +20,13 @@
     "Jasmeet Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "MM (NI Act)-03, Patiala House Courts, New Delhi, Criminal Complaint No. 14799/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Reena Singh vs M S Bhumi Sagar Infrastructure Pvt Ltd on 29 August, 2022",
+  "case_name": "Reena Singh vs M S Bhumi Sagar Infrastructure Pvt Ltd",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Reena Singh, wife of one of the Directors",
+    "respondent_defendant": "M S Bhumi Sagar Infrastructure Pvt Ltd",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's husband resigned as a Director from M/s A and A Build Projects Pvt. Ltd. on 18.09.2019. The respondent filed a complaint under Section 138 NI Act for bouncing of cheque bearing No.009016 dated 20.09.2019 for an amount of Rs. 7.5 crores.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the complainant to prove that the cheque was dishonoured due to the drawer's negligence.",
+      "held": "It is stated in the petition that the petitioner is neither the Director nor the signatory of M/s A and A Build Projects Pvt. Ltd.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881 — Section 138"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque bounce",
+        "negligence",
+        "complainant",
+        "petitioner"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who is not a director or signatory of the company cannot be held liable for cheque bouncing.",
+      "held": "The petitioner is neither the Director nor the signatory of M/s A and A Build Projects Pvt. Ltd.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881 — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "director",
+        "signatory",
+        "liability",
+        "cheque bounce"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings before the learned MM (NI Act)-03, Patiala House Courts, New Delhi are stayed till the next date of hearing and before the Revision Court bearing Revision No.89/2022 is also stayed till the next date of hearing.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "Negotiable Instruments Act",
+    "Section 138",
+    "Section 142",
+    "criminal complaint",
+    "quashing",
+    "petition",
+    "Director",
+    "resignation",
+    "company law",
+    "Form DIR-11",
+    "check bouncing",
+    "bounced cheque",
+    "NI Act",
+    "Patiala House Courts",
+    "MM (NI Act)-03",
+    "New Delhi",
+    "Delhi High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing of criminal complaint",
+    "advising on company law and director's resignation",
+    "representing clients in cheque bounce cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:12:16.882141"
 }

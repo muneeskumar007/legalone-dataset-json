@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-06-16T11:37:58.066078",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 2,
@@ -19,13 +19,13 @@
     "Jasmeet Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MM-02, Shahdara, Karkardooma Courts, Delhi (CT. CASES No. 320/2017)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ramesh Bhatia vs State Of Nct Of Delhi & Anr on 11 May, 2022",
+  "case_name": "Ramesh Bhatia vs State Of Nct Of Delhi & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ramesh Bhatia — Petitioner",
+    "respondent_defendant": "State Of Nct Of Delhi & Anr — Respondents",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's cheque bounced; respondent filed complaint under Section 138 N.I. Act; parties entered into MoU to settle debt; petitioner seeks quashing of proceedings.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the complainant to prove that the cheque was dishonoured due to the drawer's default and not due to any other reasons.",
+      "held": "It is submitted by Mr Sahani, learned counsel appearing for the petitioner that the respondent No.2 had filed the criminal complaint under Section 138 N.I. Act against the petitioner for dishonor of cheque.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881 — Section 138"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque bounce",
+        "dishonour",
+        "complainant's burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases under Negotiable Instruments Act"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A settlement agreement can be a valid defence to a cheque bounce complaint.",
+      "held": "Out of these 25 Post Dated Cheques of Rs. 20,000/- each, some of the cheques have bounced and respondent No.2 has also initiated three more criminal complaints.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "settlement agreement",
+        "cheque bounce defence"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "criminal cases under Negotiable Instruments Act"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Application stands disposed of, subject to all just exceptions.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "dishonor of cheque",
+    "MoU",
+    "post dated cheques",
+    "demand draft",
+    "criminal complaint",
+    "patiala house court",
+    "karkardooma courts",
+    "shahdara",
+    "petition for quashing",
+    "criminal proceedings",
+    "court of mm-02"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing criminal proceedings",
+    "advising on cheque bounce cases",
+    "representing clients in criminal complaints under section 138"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:06:49.434003"
 }

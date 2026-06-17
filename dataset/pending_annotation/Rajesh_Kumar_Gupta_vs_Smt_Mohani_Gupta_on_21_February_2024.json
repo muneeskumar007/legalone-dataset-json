@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-06-16T11:37:54.300102",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -25,13 +25,13 @@
     "Vinay Saraf J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Mandla, Civil Suit No.1-A/2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rajesh Kumar Gupta vs Smt. Mohani Gupta on 21 February, 2024",
+  "case_name": "Rajesh Kumar Gupta vs Smt. Mohani Gupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rajesh Kumar Gupta, husband",
+    "respondent_defendant": "Smt. Mohani Gupta, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant/husband married respondent/wife in 2008 and they had a son in 2011. Husband filed divorce petition in 2012 alleging wife's unnatural behavior and mental condition was not sound & proper.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party is impotent if his or her mental or physical condition makes consummation of the marriage a practical impossibility.",
+      "held": "The condition must be one, according to the statute, which existed at the time of the marriage and continued to be so until the institution of the proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Digvijay Sinhji v. Pratap Kumari, (1969) 2 SCC 279 : AIR 1970 SC 137"
+      ],
       "keywords": [
-        "TODO"
+        "consummation",
+        "marriage",
+        "practical impossibility"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Mental cruelty for the purposes of the Hindu Marriage Act, 1955 will not depend upon the numerical count of such incidents or only on the continuous course of such conduct but really go by the intensity, gravity and stigmatic impact of it when meted out even once.",
+      "held": "The intensity, gravity and stigmatic impact of it when meted out even once and the deleterious effect of it on the mental attitude, necessary for maintaining a conducive matrimonial home.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Rajani v. Subramonian, AIR 1990 Ker 1 : (1990) 1 DMC 561"
+      ],
+      "keywords": [
+        "mental cruelty",
+        "intensity",
+        "gravity",
+        "stigmatic impact"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's judgment and decree dated 5.4.2014 were upheld, dismissing the husband's petition for grant of divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19",
+    "Section 28",
+    "Civil Suit No.1-A/2014",
+    "Principal Judge",
+    "Indian Kanoon",
+    "Mandla",
+    "Lalipur Petrol Pump",
+    "Village Lalipur",
+    "Tehsil Mandla",
+    "District Mandla",
+    "Madhya Pradesh",
+    "Contractor",
+    "Occupation",
+    "Age 38",
+    "Age 32",
+    "Marriage",
+    "Divorce",
+    "Appeal",
+    "Judgment",
+    "Decree"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing family court decision",
+    "advising on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:03:16.082284"
 }

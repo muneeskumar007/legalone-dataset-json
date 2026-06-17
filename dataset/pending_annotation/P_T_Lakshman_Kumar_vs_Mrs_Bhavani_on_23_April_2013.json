@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-06-16T11:37:49.450367",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -30,10 +30,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "P.T.Lakshman Kumar vs Mrs.Bhavani on 23 April, 2013",
+  "case_name": "P.T.Lakshman Kumar vs Mrs.Bhavani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P.T.Lakshman Kumar (husband)",
+    "respondent_defendant": "Mrs.Bhavani (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a civil revision petition against the fair and decree order dated 28.01.2010 in I.A.No.1630 of 2007 in O.P.No.551 of 2007 on the file of the learned Additional Judge, Family Court, Chennai.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -88,39 +88,121 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A judgement is a statement containing a concise statement of the case, the points for determination, the decision and the reasons.",
+      "held": "A close reading of Section 2(9) of CPC would reveal that a judgement is nothing but a statement containing a concise statement of the case, the points for determination , the decision and the reasons.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Order XX, Rule 4 (2)",
+        "Family Courts Act — Section 17"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "judgement",
+        "decree",
+        "order"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A conclusive determination of any of the rights of the parties by adjudication is a judgement.",
+      "held": "Similarly, a conjoint reading of Section 2(2) and 2(9) along with Order XX, Rule 4(2) of CPC would reveal that if there is any conclusive determination of any of the rights of the parties by adjudication, such decision is a judgement.",
+      "applicable_acts_sections": [
+        "CPC — Sections 2(2), 2(9)",
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "conclusive determination",
+        "rights of the parties"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "An order pertains purely to the procedure regulating the conduct of the case.",
+      "held": "Thus, the real test is, whether the order is a decision, conclusively determining the rights of the parties?",
+      "applicable_acts_sections": [
+        "CPC — Section 2(14)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "order",
+        "procedure",
+        "conduct of the case"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A judgement followed by a decree is appealable, but an order that is not a decree is only appealable if it falls within the categories of orders enumerated in Section 104 of CPC.",
+      "held": "If such a judgement is followed by a decree, in terms of Section 2(2) of CPC, then, as per Section 96 of CPC, such decree is appealable. If no decree can be drawn, then, it is only an order.",
+      "applicable_acts_sections": [
+        "CPC — Sections 2(2), 96",
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "judgement",
+        "decree",
+        "order",
+        "appealability"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "Whether an order made under Section 24 of the Hindu Marriage Act, 1955 by a Family Court established under the Family Courts Act, 1984 is appealable under Section 19(1) of the said Act to the High Court?",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Evidence Act",
+    "1872",
+    "family court",
+    "petitioner",
+    "respondent",
+    "civil revision petition",
+    "decretal order",
+    "fair and decretal order",
+    "Constitution of India",
+    "Family Court Chennai",
+    "I Additional Judge"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court orders",
+    "guidelines for filing civil revision petitions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:17:36.042054"
 }

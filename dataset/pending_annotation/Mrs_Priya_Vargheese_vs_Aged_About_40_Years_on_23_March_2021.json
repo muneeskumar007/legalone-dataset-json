@@ -7,7 +7,7 @@
   "total_pages": 23,
   "extracted_at": "2026-06-16T11:36:33.129748",
   "domain": "cheque_bounce",
-  "sub_domain": "maintenance",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 8,
@@ -24,13 +24,13 @@
     "al.No.25034/2019",
     "CC.No.55706 of 2014"
   ],
-  "trial_court": "",
+  "trial_court": "LVII Addl. CMM, Bangalore, CC.No.55706 of 2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs. Priya Vargheese vs Aged About 40 Years on 23 March, 2021",
+  "case_name": "Mrs. Priya Vargheese vs Aged About 40 Years",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mrs. Priya Vargheese, Accused",
+    "respondent_defendant": "Aged about 48 years, Complainant (W/o. Mr. Sukumar)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -64,7 +64,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The Respondent filed a Complaint against the Appellant alleging that she was her neighbourer and had paid an amount of Rs.20,75,000/- to the Appellant. The Appellant had also collected a sum of Rs.2,00,000/- from her husband but failed to repay it as agreed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -74,39 +74,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The accused must show material evidence to support their defence.",
+      "held": "But no any material insupport of such contentions are coming forth from the side of the Accused.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "defence",
+        "material evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The accused must demonstrate a genuine business transaction to justify the issuance of cheques.",
+      "held": "Though the Complainant admits that she and the Accused have entered into a business of Hallow Bricks, but the Accused has not produced any material to show that, either she has given/issued ExP1−Cheque in the course of the said business transaction or the Complainant has taken Ex.P.1− Cheque from her, under the said business transaction.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "business transaction",
+        "cheques"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal preferred by the Appellant",
+    "final_order": "The trial court convicted the Appellant for the offence punishable under Sec. 138 of NI Act and sentenced her to pay fine of Rs.5,000/- in default to undergo Simple Imprisonment for a period of three months.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of criminal procedure",
+    "section 138",
+    "simple imprisonment",
+    "fine",
+    "complaint",
+    "conviction",
+    "appeal",
+    "criminal procedure code",
+    "judgment",
+    "imprisonment",
+    "ni act",
+    "crpc",
+    "bangalore",
+    "indian kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under section 138 of the NI Act",
+    "appealing a conviction for cheque bounce",
+    "understanding the criminal procedure code in India"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T07:15:12.121447"
 }

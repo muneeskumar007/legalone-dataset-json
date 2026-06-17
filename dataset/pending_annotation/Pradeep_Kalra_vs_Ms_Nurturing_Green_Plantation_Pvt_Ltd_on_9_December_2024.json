@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-06-16T11:37:38.307396",
   "domain": "cheque_bounce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 1,
     "land_acquisition": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Vaibhav Pratap Singh, Civil Judge, Patiala House Courts, New Delhi, CNR No. DLND03-000336-2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Pradeep Kalra vs Ms Nurturing Green Plantation Pvt Ltd on 9 December, 2024",
+  "case_name": "Pradeep Kalra vs Ms Nurturing Green Plantation Pvt Ltd",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Pradeep Kalra, Proprietor of World Wide Graphics",
+    "respondent_defendant": "Ms Nurturing Green Plantation Pvt Ltd, Manu Grover (Director), Annu Grover (Director)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff is the proprietor of World Wide Graphics, which sold goods to the defendants. The defendants did not pay for the goods despite requests and have also allegedly siphoned off money from defendant No.1's account.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party who seeks to rely on electronic documents to prove their case.",
+      "held": "However, despite service of legal notice via e-mail, Defendants failed to pay the outstanding dues and replied denying their liability and sought time to check their books.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act — Section 65 B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "electronic documents",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A plaintiff can prove their case by unchallenged evidence.",
+      "held": "The Learned Counsel for the Plaintiff has argued that the Plaintiff has proved the case by unchallenged evidence.",
+      "cited_cases": [],
+      "keywords": [
+        "unchallenged evidence",
+        "plaintiff's burden"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "contract disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The plaintiff is entitled to recover Rs. 1,29,256/- with pendente lite and future interest ex-pari judgment.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "Indian Evidence Act",
+    "1872",
+    "Section 114",
+    "Section 57",
+    "Section 65B",
+    "Section 138",
+    "N.I. Act",
+    "Negotiable Instruments Act",
+    "Payment of Wages Act",
+    "World Wide Graphics",
+    "graphics designing",
+    "printing",
+    "magazines",
+    "carry bags",
+    "tags",
+    "folders",
+    "stickers",
+    "Proprietor",
+    "suit for recovery",
+    "pendente lite"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a suit for cheque bounce",
+    "using Section 138 N.I. Act in a case",
+    "preparing a plaint for a proprietor"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:32:52.523332"
 }

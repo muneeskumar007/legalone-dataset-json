@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-06-16T11:38:15.048346",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sandeep Yadav vs State Of Haryana And Anr on 6 February, 2018",
+  "case_name": "Sandeep Yadav vs State Of Haryana And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sandeep Yadav (husband)",
+    "respondent_defendant": "State of Haryana and another (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial discord between the parties, FIR registered under Sections 498A/406/325/506 IPC. Parties decided to part ways.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A settlement between parties in a matrimonial dispute can be quashed if it is genuine and voluntary.",
+      "held": "The settlement, it is stated, has been arrived at voluntarily without any coercion or undue influence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial dispute",
+        "settlement",
+        "voluntary",
+        "coercion",
+        "undue influence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The genuineness of a settlement between parties in a matrimonial dispute can be verified by recording their statements before a judicial magistrate.",
+      "held": "This Court on 25.09.2017 directed the parties to appear before learned trial court/Illaqa Magistrate for recording their statements...",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "matrimonial dispute",
+        "judicial magistrate",
+        "statements"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR No.277 dated 30.05.2013 and all consequential proceedings quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "matrimonial discord",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "FIR",
+    "quashing",
+    "compromise",
+    "amicable settlement",
+    "Section 498A",
+    "Section 406",
+    "Section 325",
+    "Section 506",
+    "IPC",
+    "Police Station Faridabad Central",
+    "District Faridabad",
+    "CRM No.M-35710 of 2017",
+    "CRM No.M-42760 of 2015"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs",
+    "amicable settlements in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:24:41.224562"
 }

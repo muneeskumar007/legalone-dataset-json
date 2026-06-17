@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-06-16T11:37:30.293901",
   "domain": "cheque_bounce",
-  "sub_domain": "custody",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 1,
     "custody": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Padmini Technology Ltd. vs Jyoti Sarup Mittal on 12 March, 2014",
+  "case_name": "Padmini Technology Ltd. vs Jyoti Sarup Mittal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Padmini Technology Ltd.",
+    "respondent_defendant": "Jyoti Sarup Mittal",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "A contract was entered into between the parties for construction work of a factory. The respondent claimed that the petitioner did not make payment of running bills, and work had to be stopped due to bounced cheques.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An Award of the arbitrator can only be interfered if the Award is against the law or violative of the contractual provisions or wholly perverse.",
+      "held": "An Award of the arbitrator can only be interfered if the Award is against the law or violative of the contractual provisions or wholly perverse vide Section 28(1)(a) & (3) of the Arbitration & Conciliation Act, 1996 and as held by the ratio of the judgment of the Supreme Court in the case of ONGC Ltd. Vs. Saw Pipes Ltd. (2003) 5 SCC 705.",
       "applicable_acts_sections": [
-        "TODO"
+        "Arbitration & Conciliation Act, 1996 — Section 28(1)(a) & (3)"
       ],
+      "cited_cases": [
+        "ONGC Ltd. Vs. Saw Pipes Ltd., (2003) 5 SCC 705"
+      ],
+      "keywords": [
+        "arbitrator",
+        "award",
+        "interference",
+        "law",
+        "contractual provisions",
+        "perversion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeal against an arbitration award"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "An Award of the arbitrator shows that it was the appellant who caused stoppage of the work by failing to release payment.",
+      "held": "The relevant paras of the Award of the Arbitrator are paras 14,15,20, 25,26 and 27 and which read as under : ...",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "arbitrator",
+        "award",
+        "stoppage",
+        "payment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cases involving payment disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "A decree was passed against the appellant for payment of Rs. 9,67,425/- along with interest @ 12% per annum from 1.7.1998.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "Specific Relief Act",
+    "1963",
+    "award",
+    "compromise",
+    "delay",
+    "drag",
+    "payment",
+    "respondent",
+    "appellant",
+    "High Court of Delhi",
+    "New Delhi",
+    "FAO",
+    "CM",
+    "1997",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a cheque bounce appeal",
+    "using Specific Relief Act in a payment dispute",
+    "composing a compromise agreement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:19:14.749788"
 }

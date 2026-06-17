@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-06-16T11:37:59.445982",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 3,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Chief Judicial Magistrate, Murshidabad in Misc. Case No. 80(iv) of 1988",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rampada Biswas vs Dolly Mitra And Ors. on 22 December, 1997",
+  "case_name": "Rampada Biswas vs Dolly Mitra And Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband",
+    "respondent_defendant": "wife and ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner's wife filed an application under Section 125, Criminal Procedure Code for maintenance at the rate of Rs. 750/- per month. The trial court granted the relief. The petitioner challenged this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A maintenance to the extent of more than the claim of the opposite party No. 1 in her application has been awarded.",
+      "held": "The Trial Court relied more on surmises and conjectures than on the materials on record.",
       "applicable_acts_sections": [
-        "TODO"
+        "Criminal Procedure Code — Section 125"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "claim",
+        "application"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the applicant to prove that he is unable to maintain himself and his wife.",
+      "held": "There is no positive finding that there was neglect or refusal by the petitioner to maintain the wife and that the opposite party No. 1 is unable to maintain herself.",
+      "applicable_acts_sections": [
+        "Criminal Procedure Code — Section 125"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "maintenance",
+        "proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A decree in the Matrimonial Suit declaring the marriage as a nullity does not automatically make the opposite party No. 1 a divorcee for the purpose of maintenance under Section 125 of the Criminal Procedure Code.",
+      "held": "In view of a decree in the Matrimonial Suit preferred by the petitioner against the opposite party No. 1 declaring the marriage as a nullity, whether the opposite party No. 1 can be called a divorcee as to get maintenance under Section 125 of the Criminal Procedure Code.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 12",
+        "Criminal Procedure Code — Section 125"
+      ],
+      "cited_cases": [
+        "K. Sivarama Krishna Prasad v. K. Bharathi &Anr., (1996) Cr. LJ 317",
+        "Krishna Gopal v. Usha Rani, (1982) Cr. LJ 901"
+      ],
+      "keywords": [
+        "decree",
+        "Matrimonial Suit",
+        "nullity",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The interim maintenance passed by the Chief Judicial Magistrate was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 125",
+    "Criminal Procedure Code",
+    "maintenance",
+    "alimony",
+    "matrimonial suit",
+    "annulling marriage",
+    "Section 12(1)(c)",
+    "interim order",
+    "divorce",
+    "marriage validity",
+    "physical violence",
+    "District Judge",
+    "Chief Judicial Magistrate",
+    "Murshidabad",
+    "Indian law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance orders",
+    "representing clients in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:08:34.460590"
 }

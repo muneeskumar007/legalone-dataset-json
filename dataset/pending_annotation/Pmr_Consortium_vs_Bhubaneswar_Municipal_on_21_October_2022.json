@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-06-16T11:37:34.779012",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -28,8 +28,8 @@
   "delivered_on": "",
   "case_name": "Pmr Consortium vs Bhubaneswar Municipal on 21 October, 2022",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "PMR Consortium - Petitioner",
+    "respondent_defendant": "Bhubaneswar Municipal Corporation and others - Opp. Parties",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner seeks to quash the bid of opposite party no.3-Manju Services and declare itself as successful bidder for Package Nos.5 and 8. The petitioner also seeks direction to blacklist opposite party no.3 and take penal action for furnishing false certificate.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A bidder's misrepresentation or failure to provide information can lead to the rejection of their bid.",
+      "held": "Without prejudice, BMC reserves the right to reject any Bid and appropriate the Performance Security if: a. at any time, a material misrepresentation is made or uncovered;",
       "applicable_acts_sections": [
-        "TODO"
+        "RFP — 2.6.2"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "misrepresentation",
+        "bid rejection",
+        "performance security"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "contract disputes",
+        "tender processes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A bidder's failure to provide supplemental information can lead to the disqualification of their bid.",
+      "held": "the Bidder does not provide, within the time specified by BMC the supplemental information sought by BMC for evaluation of the Bid.",
+      "applicable_acts_sections": [
+        "RFP — 2.6.3"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "supplemental information",
+        "bid disqualification"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "contract disputes",
+        "tender processes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The writ petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "public_tender",
+    "bid_quashing",
+    "blacklisting",
+    "penal_action",
+    "false_certificate",
+    "Hindu_Marriage_Act_1955",
+    "writ_petition",
+    "Article_226",
+    "Article_227",
+    "Constitution_of_India",
+    "Orissa_High_Court",
+    "Cuttack_Bench",
+    "PMR_Consortium",
+    "Bhubaneswar_Municipal_Corporation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for quashing a public tender bid",
+    "advising on penal action for furnishing false certificate in a public tender",
+    "assisting with a property dispute related to a public tender"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:24:59.701349"
 }

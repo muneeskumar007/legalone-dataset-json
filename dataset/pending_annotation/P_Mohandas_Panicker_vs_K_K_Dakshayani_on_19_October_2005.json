@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-06-16T11:37:43.439753",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -28,13 +28,13 @@
     "O.P.No.112/2002",
     "Mat.Appeal.No. 15 of 2006"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Kozhikode (O.P.No.112/2002)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "P.Mohandas Panicker vs K.K.Dakshayani on 19 October, 2005",
+  "case_name": "P.Mohandas Panicker vs K.K.Dakshayani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P.Mohandas Panicker, husband",
+    "respondent_defendant": "K.K.Dakshayani, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -64,7 +64,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant/husband filed for divorce against his wife on grounds of adultery under Section 13(1)(i) of the Hindu Marriage Act, 1956.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -74,39 +74,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When direct evidence of adultery is adduced, the Court cannot ignore such evidence on baseless and untenable grounds.",
+      "held": "According to the appellant, the evidence of PW3 throws light upon the issue of adultery and the 1st respondent was living separately without any just and reasonable cause and that her explanations are not satisfactory.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13(1)(i)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "adultery",
+        "direct evidence",
+        "baseless grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court cannot ignore direct evidence of adultery on baseless and untenable grounds.",
+      "held": "It was complained that the direct evidence with regard to adultery is adduced, the Court cannot ignore such evidence on baseless and untenable grounds.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13(1)(i)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "adultery",
+        "direct evidence",
+        "baseless grounds"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed and the order passed by the Family Court was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "matrimonial dispute",
+    "Family Court",
+    "Kozhikode",
+    " Kerala High Court",
+    "Indian Evidence Act",
+    "1872",
+    "marital breakdown",
+    "separation",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "matrimony",
+    "spousal rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "assisting with property settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:13:54.648331"
 }

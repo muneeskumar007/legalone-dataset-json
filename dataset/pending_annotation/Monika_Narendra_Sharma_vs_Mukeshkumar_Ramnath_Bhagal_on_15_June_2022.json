@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-06-16T11:36:29.971393",
   "domain": "divorce",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Mumbai (Petition No. A - 2860 of 2017)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Monika Narendra Sharma vs Mukeshkumar Ramnath Bhagal on 15 June, 2022",
+  "case_name": "Monika Narendra Sharma vs Mukeshkumar Ramnath Bhagal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Monika Narendra Sharma (wife)",
+    "respondent_defendant": "Mukeshkumar Ramnath Bhagal (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant-wife filed for annulment of marriage under section 12 (1) (c) of the Hindu Marriage Act, 1955. Appellant is unaware of respondent's age, educational qualification and employment details. Respondent had forcibly made physical contact with her and took obscene photographs.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,116 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the person making the claim to prove their allegations.",
+      "held": "Appellant's parents lodged a telephonic complaint from Haryana on 3rd December, 2013 with Goregaon Police Station.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "domestic violence cases",
+        "harassment cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A person's right to privacy and dignity must be respected.",
+      "held": "Appellant was in complete mental and physical trauma due to frequent instances of physical, mental and psychological abuse by respondent.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "right to privacy",
+        "dignity"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "cases involving domestic violence",
+        "cases involving harassment"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A person's freedom from threats and intimidation must be protected.",
+      "held": "Respondent threatened appellant not to proceed with any complaint as he was not afraid of going to jail. However, when he would be free, he would actually hurt her and her family members.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "freedom from threats",
+        "intimidation"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "cases involving harassment",
+        "cases involving stalking"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A person's right to seek protection and justice must be facilitated.",
+      "held": "Appellant, therefore, filed a complaint vide her Advocate's letter dated 11th July, 2014 with Goregaon Police Station.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "right to seek protection",
+        "right to seek justice"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "cases involving domestic violence",
+        "cases involving harassment"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The judgment and order dated 7th September, 2021 passed by the Family Court, Mumbai dismissing Petition No. A - 2860 of 2017 filed for annulment of marriage under section 12 (1) (c) of the Hindu Marriage Act, 1955 is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "cruelty",
+    "desertion",
+    "irretrievable breakdown",
+    "marriage",
+    "matrimonial",
+    "cohabitation",
+    "separation",
+    "maintenance",
+    "alimony",
+    "property",
+    "assets",
+    "joint family",
+    "separate property",
+    "partition",
+    "dissolution",
+    "nullity"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T07:06:37.424475"
 }

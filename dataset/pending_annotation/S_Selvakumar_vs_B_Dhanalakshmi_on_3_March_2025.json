@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-06-16T11:40:21.397436",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "partition": 2,
@@ -31,13 +31,13 @@
     "l.A.No.80 of 2015",
     "Crl.A.No.80 of 2015"
   ],
-  "trial_court": "",
+  "trial_court": "XV Additional Sessions Judge, Chennai (C.A.No.80 of 2015); XV Metropolitan Magistrate, George Town, Chennai (DVC.No.23 of 2013)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S.Selvakumar vs B.Dhanalakshmi on 3 March, 2025",
+  "case_name": "S.Selvakumar vs B.Dhanalakshmi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S.Selvakumar, husband; S.Kalaivani, wife; S.Senthil, son; S.Sentamil, daughter — Petitioners",
+    "respondent_defendant": "B.Dhanalakshmi — Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife had filed a petition before the learned XV Metropolitan Magistrate, Chennai in DVC.No.23 of 2013. The order passed by the learned XV Metropolitan Magistrate, Chennai in Domestic Violence Case No.23 of 2013 was confirmed by the learned XV Additional Sessions Judge, City Civil Court by Judgment dated 03.08.2015. The petitioners are seeking to set aside this judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the complainant to prove that the marriage was valid and not a sham.",
+      "held": "The claim of the complainant that she is the wife of the first Respondent is also denied. The claim is made based on marriage performed under threat and duress by the Police Officials, Kothavalchavadi which is not a recognized marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from Domestic Violence Act, 2005"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "validity",
+        "sham",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A marriage performed under threat and duress is not a recognized marriage.",
+      "held": "The claim made by the complainant that the first Respondent approached the brother of the complainant/B.Nagaraj to marry the complainant which was also resisted by her brother as they hail from different community, Finally, B.Nagaraj agreed to solemnize the marriage only with the permission of the parents of the first Respondent.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "threat",
+        "duress",
+        "recognition"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court directed the respondent to rent out a house and pay monthly rent for the complainant, or accommodate the complainant if the respondent has their own house. The respondent was also directed to pay Rs.5,000/- per month towards maintenance.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Criminal Revision Case",
+    "Section 397 Cr.P.C.",
+    "Section 401 Cr.P.C.",
+    "maintenance",
+    "alimony",
+    "DV",
+    "domestic violence",
+    "family court",
+    "judgment",
+    "order",
+    "restraining order",
+    "protection officer",
+    "accommodation",
+    "rent",
+    "house",
+    "complainant"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "representing clients in DV cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:20:19.816981"
 }

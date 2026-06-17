@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-06-16T11:40:20.330162",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "property_dispute": 1
@@ -23,13 +23,13 @@
     "I.A.No.2 of\n2025",
     "OP.No.3914 of 2024"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Family Court, Chennai, HMOP.No.3914 of 2024",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S.Mahalakshmi vs P.Chandran on 10 December, 2025",
+  "case_name": "S.Mahalakshmi vs P.Chandran",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S.Mahalakshmi (wife)",
+    "respondent_defendant": "P.Chandran (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent filed an application for divorce under Section 13(1) (ia) of Hindu Marriage Act. The petition sought dissolution of marriage on the ground of desertion, but the pleadings mentioned cruelty. An amendment application was filed to add 'cruelty' in the prayer portion.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A clarificatory amendment need not be rejected on the ground of delay in filing the petition.",
+      "held": "It is only clarificatory in nature and the same need not be rejected on the ground of delay in filing the petition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "clarificatory",
+        "delay",
+        "filing",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The substance of the averment found in the original petition and the section mentioned in the preamble portion are relevant.",
+      "held": "Having regard to the substance of the averment found in the original petition and also the Section mentioned in the preamble portion, this Court feels that it is necessary",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "averment",
+        "preamble",
+        "petition"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Civil Revision Petition is partly allowed and the order passed by the Principal Family Court, Chennai, is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1) (ia)",
+    "cruelty",
+    "desertion",
+    "amendment",
+    "preamble",
+    "family court",
+    "civil revision petition",
+    "Article 227",
+    "Constitution of India",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "respondent's application for divorce",
+    "petitioner's challenge to family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:18:34.913495"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-06-16T11:37:42.736628",
   "domain": "murder_criminal",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "cheque_bounce": 1,
     "custody": 1,
@@ -25,17 +25,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "P.F.Lorence vs State Of Kerala on 26 May, 2016",
+  "case_name": "P.F.Lorence vs State Of Kerala",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P.F.Lorence, Commercial Tax Inspector; A.R DAS, Commercial Tax Inspector",
+    "respondent_defendant": "State Of Kerala, represented by Public Prosecutor",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners implicated and arraigned as accused in Crime No.335 of 2013. Allegation is that they received cheques or Demand Drafts in violation of Government Order, which were later found to be bounced or forged.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -45,39 +45,72 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Custodial interrogation is not necessary if the investigating officer has already seized relevant documents.",
+      "held": "The Investigating Officer has already seized the relevant documents including the questioned cheques and Demand Drafts. Interrogation of the petitioners in custody is not necessary, because even otherwise necessary materials have",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "investigation",
+        "custodial interrogation"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "murder cases",
+        "white-collar crimes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person is not liable under Section 420 IPC if they did not benefit from the alleged crime.",
+      "held": "The State must fairly concede that these petitioners are not in fact liable under Section 420 IPC. Admittedly, none of the accused was in any manner benefited by the alleged crime.",
       "applicable_acts_sections": [
-        "TODO"
+        "IPC"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "benefit",
+        "Section 420 IPC"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cheating cases",
+        "fraud cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Custodial interrogation not necessary as part of investigation. Petitioners are not liable under Section 420 IPC.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "pre-arrest bail",
+    "Crime No.335 of 2013",
+    "Palakkad",
+    "Commercial Tax Inspector",
+    "Kerala High Court",
+    "bail application",
+    "accused",
+    "petitioners",
+    "arrest",
+    "implication",
+    "arraignment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail applications in Kerala",
+    "seeking pre-arrest bail for commercial tax inspectors",
+    "defending accused in murder cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:13:07.689558"
 }

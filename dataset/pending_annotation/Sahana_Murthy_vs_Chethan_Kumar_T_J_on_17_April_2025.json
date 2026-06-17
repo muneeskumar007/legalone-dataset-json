@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-06-16T11:38:12.744212",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 1,
@@ -21,13 +21,13 @@
   "case_numbers": [
     "C.C.No.8643/2021"
   ],
-  "trial_court": "",
+  "trial_court": "30th Addl. Chief Judicial Magistrate, Bengaluru (C.C.No.8643/2021)",
   "reserved_on": "",
   "delivered_on": "17-04-2025",
-  "case_name": "Sahana Murthy vs Chethan Kumar T.J on 17 April, 2025",
+  "case_name": "Sahana Murthy vs Chethan Kumar T.J",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sahana Murthy, complainant State by Subramanyapura Police Station",
+    "respondent_defendant": "Chethan Kumar T.J, accused",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -37,7 +37,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant State by Subramanyapura Police Station filed charge sheet against accused for offences punishable U/s. 323, 354, 384, 504, 506 of IPC. Accused pleaded not guilty and was acquitted.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,104 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Where the prosecution is not diligent in producing its witnesses and has failed to serve bailable warrants on the witnesses and return the same, the Magistrate would be justified in refusing to grant an adjournment and to proceed to acquit the accused.",
+      "held": "It was found that the prosecution was not at all diligent as the non-bailable warrants issued to the witnesses had neither been served nor returned to the court by the concerned police.",
       "applicable_acts_sections": [
-        "TODO"
+        "Criminal Procedure Code"
+      ],
+      "cited_cases": [
+        "Abdul Hameed Khan's case",
+        "State of Karnataka v. Subramania Setti, 1980 MLJ 138"
+      ],
+      "keywords": [
+        "prosecution diligence",
+        "witnesses",
+        "bailable warrants"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "murder cases",
+        "other criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "If the prosecution had made an application for the issue of summons to its witnesses, it is the duty of the court to issue summons to the prosecution witnesses and to secure the witnesses.",
+      "held": "It is the duty of the court to issue summons to the prosecution witnesses and to secure the witnesses by exercising all the powers given to it under the Criminal Procedure Code.",
+      "applicable_acts_sections": [
+        "Criminal Procedure Code"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "prosecution witnesses",
+        "summons",
+        "court duties"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "murder cases",
+        "other criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "If the prosecution fails to produce its witnesses after the court has given it sufficient time and opportunities, the court would be justified in acquitting the accused.",
+      "held": "If still the presence of the witnesses could not be secured and the prosecution also either on account of pronounced negligence or recalcitrance does not produce the witnesses after the Court had given it sufficient time and opportunities to do so, then the Court, being left with no other alternative would be justified in acquitting the accused.",
+      "applicable_acts_sections": [
+        "Criminal Procedure Code"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "prosecution failure",
+        "witnesses",
+        "acquittal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "murder cases",
+        "other criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Accused is acquitted",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "323",
+    "354",
+    "384",
+    "504",
+    "506",
+    "charge sheet",
+    "acquittal",
+    "subramanyapura police station",
+    "bengaluru city",
+    "new bank colony",
+    "annapurneshwari temple road",
+    "crpc",
+    "section 313",
+    "section 355"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting acquittal appeal",
+    "drafting charge sheet response",
+    "drafting police report"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:21:21.477318"
 }

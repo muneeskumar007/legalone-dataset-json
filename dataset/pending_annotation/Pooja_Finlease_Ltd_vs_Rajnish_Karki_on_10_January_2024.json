@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-06-16T11:37:36.048379",
   "domain": "cheque_bounce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 9,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Metropolitan Magistrate, Dwarka Courts, New Delhi (Criminal Complaint No.:43280/2019)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Pooja Finlease Ltd vs Rajnish Karki on 10 January, 2024",
+  "case_name": "Pooja Finlease Ltd vs Rajnish Karki",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Pooja Finlease Ltd, Complainant",
+    "respondent_defendant": "Rajnish Karki, Accused",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Pooja Finlease Ltd filed a complaint against Rajnish Karki for cheque bounce under Section 138 of the Negotiable Instruments Act, 1881. The complainant alleged that the accused had taken loans from them and failed to repay the loan amount.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -79,39 +79,112 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Once the signature(s) of an accused on a cheque/negotiable instrument are established, then the 'reverse onus' clause becomes operative.",
+      "held": "The Statute mandates that once the signature(s) of an accused on the cheque/negotiable instrument are established, then the 'reverse onus' clause become operative.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act — Section 139"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "M/S Kalamani Tex vs P. Balasubramanian, Criminal Appeal No. 123 of 2021"
+      ],
       "keywords": [
-        "TODO"
+        "cheque",
+        "negotiable instrument",
+        "reverse onus",
+        "signature"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A cheque issued as security pursuant to a financial transaction cannot be considered as a worthless piece of paper.",
+      "held": "Merely because a cheque has been issued for only security purpose will not absolve the accused from the liability u/s. 138 NI Act.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [
+        "Sampelly Satyanarayana Rao v. Indian Renewable Energy Development Agency Ltd., (2016) 10 SCC 458",
+        "Sripati Singh vs. State of Jharkhand & Anr., 2021 SCC OnLine SC 1002",
+        "Sunil Todi vs. State of Gujarat & Anr., 2021 SCC OnLine SC 1174"
+      ],
+      "keywords": [
+        "cheque",
+        "security",
+        "financial transaction",
+        "liability"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court can raise a presumption under Section 118(a) r/w Section 139 of the NI Act that a cheque was issued by an accused to a complainant in discharge of legally enforceable debt or liability.",
+      "held": "This court raises presumption under section 118(a) r/w section 139 of NI Act that the cheque in question were issued by the accused to the complainant in discharge of legally enforceable debt or liability and it is now on the accused to raise a probable defence and to prove his case on the basis of preponderance of probabilities.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 118",
+        "Negotiable Instruments Act — Section 139"
+      ],
+      "cited_cases": [
+        "K. Bhaskaran vs. Sankaran Vaidhyan Balan, [1999(4) RCR (Criminal) 309]"
+      ],
+      "keywords": [
+        "presumption",
+        "cheque",
+        "legally enforceable debt or liability"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Convicted",
+    "final_order": "The accused was convicted for cheque bounce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "criminal complaint",
+    "complainant",
+    "accused",
+    "dishonour of cheque",
+    "payment of cheque",
+    "demand notice",
+    "30 days",
+    "prescription period",
+    "statutory notice",
+    "Indian evidence act",
+    "burden of proof",
+    "onus of proof",
+    "mens rea",
+    "actus reus"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under section 138 NIA",
+    "defending an accused in a cheque bounce case",
+    "advising on the prescription period for a demand notice"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:26:09.336946"
 }

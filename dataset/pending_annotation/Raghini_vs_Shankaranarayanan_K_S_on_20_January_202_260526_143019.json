@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-06-16T11:37:51.796411",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2
@@ -24,13 +24,13 @@
     "O.P.No.5021 of 2023",
     "O.P.No.5201 of 2023"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Family Court, Chennai (O.P.No.5021 of 2023)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Raghini vs Shankaranarayanan.K.S on 20 January, 2026",
+  "case_name": "Raghini vs Shankaranarayanan.K.S",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Raghini, wife",
+    "respondent_defendant": "Shankaranarayanan.K.S., husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner/wife filed an application under Section 24 of the Hindu Marriage Act, 1955, seeking interim maintenance at the rate of Rs.25,000/- per month and also litigation expenses at the rate of Rs.25,000/- as one time payment. The trial court partly allowed the application by directing the respondent/husband to pay interim maintenance at the rate of Rs.5,000/- per month.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The respondent/husband is bound to maintain the petitioner/wife.",
+      "held": "In such circumstances, the respondent/husband is bound to maintain the petitioner/wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "husband's duty",
+        "wife's entitlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden of proving reasonable income lies on the respondent/husband.",
+      "held": "Taking into consideration his educational qualification and the previous experience, this Court feels he must have reasonable income.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "reasonable income",
+        "burden of proof",
+        "husband's responsibility"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The quantum of interim maintenance fixed by the Principal Family Court is set aside and the Civil Revision Petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "interim maintenance",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Section 24",
+    "Section 125",
+    "Family Court",
+    "Chennai",
+    "Madras High Court",
+    "Civil Revision Petition",
+    "Article 227",
+    "Constitution of India",
+    "Indian Kanoon",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "seeking interim maintenance in family court",
+    "challenging quantum of maintenance"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:48:54.827807"
 }

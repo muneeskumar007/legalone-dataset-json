@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-06-16T11:38:13.868713",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sanat Kumar Agarwal vs Smt. Nandini Agarwal on 24 January, 1990",
+  "case_name": "Sanat Kumar Agarwal vs Smt. Nandini Agarwal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanat Kumar Agarwal (husband)",
+    "respondent_defendant": "Smt. Nandini Agarwal (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties belong to the Agarwal Community of Chhatisgarh region in Madhya Pradesh. The custom 'GURAWAT' resulted in matrimonial casualty between two families. The couple, along with their sister-in-law and mother-in-law, tried to resolve the friction but ultimately Nandini and Shakuntala remained at their parents' houses.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The question of desertion is a matter of inference to be drawn from the facts and circumstances of each case.",
+      "held": "It is well settled that the question of desertion is a matter of inference to be drawn from the facts and circumstances of each case and those facts have to be viewed as to the purpose which is revealed by those facts or by conduct and expression of intention, both interior and subsequent to the actual act of separation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "inference",
+        "facts",
+        "circumstances"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The purpose revealed by the facts or conduct and expression of intention is crucial in determining desertion.",
+      "held": "Those facts have to be viewed as to the purpose which is revealed by those facts or by conduct and expression of intention, both interior and subsequent to the actual act of separation.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "purpose",
+        "facts",
+        "conduct",
+        "intention"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Special leave granted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Gurawat",
+    "Salta-Palta",
+    "matrimonial casualty",
+    "Agarwal Community",
+    "Chhatisgarh region",
+    "Madhya Pradesh",
+    "divorce",
+    "marriage",
+    "brothers and sisters",
+    "family law",
+    "customary marriage",
+    "Indian family law",
+    "judicial separation",
+    "nullity of marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce based on custom",
+    "advising clients on the implications of Gurawat in their family",
+    "representing a client seeking judicial separation due to Gurawat"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:23:03.362022"
 }

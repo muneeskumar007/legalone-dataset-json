@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-06-16T11:40:20.479477",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -22,13 +22,13 @@
   "case_numbers": [
     "O.P.No.1743 of 2024"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Family Judge, Coimbatore (H.M.O.P.No.1743 of 2024)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S.Rashmi vs R.K.Ramasuwami Raja on 20 January, 2026",
+  "case_name": "S.Rashmi vs R.K.Ramasuwami Raja",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, seeking withdrawal and transfer",
+    "respondent_defendant": "husband, respondent in divorce proceedings",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2020 and had a child in 2021. The husband initiated divorce proceedings in Coimbatore, but the wife sought to transfer the case to Madurai due to difficulties in traveling from Madurai.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Convenience of the wife should be given a superior consideration than that of husband in matters of transfer.",
+      "held": "In line with this Parliamentary amendment, this Court and the Supreme Court have consistently held that convenience of wife should be given a superior consideration than that of husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 19(iii)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "convenience",
+        "wife",
+        "husband",
+        "transfer",
+        "Parliamentary amendment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "wife",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The Court should consider the difficulties faced by a wife in traveling to attend court proceedings.",
+      "held": "As the distance between Madurai and Coimbatore is considerable and since it will be difficult for the wife to leave the child behind and travel to attend the Court, I am inclined to accept the transfer.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "wife",
+        "traveling",
+        "court proceedings",
+        "distance",
+        "child"
+      ],
+      "favors": "wife",
+      "use_in": [
+        "family law disputes",
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the transfer petition and transferred the case to the Family Court, Madurai.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 24 C.P.C.",
+    "Transfer Petition",
+    "Family Court",
+    "Principal Family Judge",
+    "Coimbatore",
+    "Madurai",
+    "marriage",
+    "solemnized",
+    "Courtyard Marriott Hotel",
+    "Azhagar Kovil Road",
+    "Madurai",
+    "Hindu rite",
+    "Section 24 C.P.C.",
+    "C.P.C.",
+    "Civil Procedure Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "transferring case to family court",
+    "withdrawing case from principal family judge"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:19:21.874622"
 }

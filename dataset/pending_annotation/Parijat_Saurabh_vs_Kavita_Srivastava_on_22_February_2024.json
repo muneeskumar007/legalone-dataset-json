@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-06-16T11:37:31.391998",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 11,
     "partition": 1,
@@ -25,13 +25,13 @@
     "Neena Bansal Krishna J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Delhi in HMA No.61514/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Parijat Saurabh vs Kavita Srivastava on 22 February, 2024",
+  "case_name": "Parijat Saurabh vs Kavita Srivastava",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant-husband (Parijat Saurabh)",
+    "respondent_defendant": "Respondent-wife (Kavita Srivastava)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties met through the sister of the respondent. The respondent proposed marriage, but the appellant held back due to his elder sisters being unmarried. They eventually got married in 1990. A child was born out of this wedlock in 1991.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party making the allegation to prove it.",
+      "held": "The respondent also alleged that appellant's mother was extremely arrogant and headstrong being the wife of a Member of Parliament and she used to control the house and fight with the respondent on one pretext or the other.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "allegation",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's financial situation cannot be used to determine their ability to manage family finances.",
+      "held": "The respondent alleged that the appellant had a lavish lifestyle and whatever money he had in his hand, he used to spend on himself and was irresponsible towards her requirements and that of their son.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "financial situation",
+        "family finances"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 13(1)(ia)",
+    "Section 19",
+    "matrimonial dispute",
+    "marriage proposal",
+    "suicide threat",
+    "family abandonment",
+    "petition dismissal",
+    "appeal",
+    "judgment",
+    "family court",
+    "Delhi High Court",
+    "Indian law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "advising on family disputes",
+    "representing clients in matrimonial cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:20:48.294246"
 }

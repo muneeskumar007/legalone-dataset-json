@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-06-16T11:37:37.049634",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, 2nd Court, Howrah (Matrimonial Suit No. 256 of 1995)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Prabhat Kumar Chakraborty vs Smt. Papiya Chakraborty on 14 February, 2003",
+  "case_name": "Prabhat Kumar Chakraborty vs Smt. Papiya Chakraborty",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Probhat Kumar Chakraborty (husband)",
+    "respondent_defendant": "Smt. Papiya Chakraborty (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a suit for dissolution of marriage on grounds of cruelty and desertion. The husband filed a suit for restitution of conjugal rights under Section 9 of the Hindu Marriage Act. Both suits were tried analogously, with the suit for restitution of conjugal rights decreed and the suit for dissolution of marriage dismissed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,107 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A husband who does not comply with a decree for restitution of conjugal rights but instead commits fresh positive acts of cruelty is not entitled to a decree for divorce.",
+      "held": "It was held that it was not the case of mere noncompliance of a decree, but fresh positive acts of cruelty. It was held that the husband was not entitled to a decree for divorce in view of the commission of wrong as contemplated under Section 23(1)(a) of the Hindu Marriage Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 23"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Geeta Lakshmi v. C.V.R.K. Sarveswara Rao, (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "decree for restitution",
+        "fresh positive acts of cruelty",
+        "noncompliance",
+        "wrong"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where husband fails to comply with decree"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A spouse who does not resume cohabitation after a decree for restitution of conjugal rights is passed must show attempt to make it impossible for the other spouse to do so.",
+      "held": "There should be attempt of making it impossible for a spouse to resume cohabitation after the decree for restitution of conjugal rights is passed. The discretion is conferred to strike a balance.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 23"
+      ],
+      "cited_cases": [
+        "Mrs. Sanita Rajendra Nikaljee v. Rajendra Eknath Nikaljee, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "decree for restitution",
+        "cohabitation",
+        "attempt",
+        "impossible"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases where spouse fails to comply with decree"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A husband who takes advantage of his own wrong by not complying with a decree for restitution of conjugal rights and then filing a petition for divorce will not be allowed to do so.",
+      "held": "It was held that the husband should not be allowed to take advantage of his own wrong. Appeal preferred by the wife was allowed and the judgment and decree of divorce was set aside.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 23"
+      ],
+      "cited_cases": [
+        "Smt. Guru Bachan Kaur v. Pretam Singh, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "decree for restitution",
+        "own wrong",
+        "advantage",
+        "petition for divorce"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases where husband takes advantage of his own wrong"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order granted a decree of divorce to the wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "desertion",
+    "conjugal rights",
+    "Section 9",
+    "Section 13(1A)(ii)",
+    "matrimonial suit",
+    "dissolution of marriage",
+    "restitution of conjugal rights",
+    "restitution",
+    "marriage dissolution",
+    "family law",
+    "Indian family law",
+    "Hindu law",
+    "marital disputes",
+    "spousal abuse"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "advising on spousal abuse cases in Indian courts",
+    "representing clients in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:28:30.447928"
 }

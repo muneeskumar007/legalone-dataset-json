@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-06-16T11:37:36.345813",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 9,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "METROPOLITAN MAGISTRATE (NI ACT) - 08, SOUTH WEST DISTRICT, DWARKA COURTS, DELHI, Case No.1300/2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Pooja Finlease Ltd vs Ravit Kumar on 22 January, 2024",
+  "case_name": "Pooja Finlease Ltd vs Ravit Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Pooja Finlease Ltd, complainant",
+    "respondent_defendant": "Ravit Kumar, accused",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The complainant company filed a complaint under section 138 of the Negotiable Instruments Act against the accused for dishonoured cheque. The accused had availed a loan and failed to repay it, leading to the issuance of the cheque in question.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,136 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "To establish an offence under Section 138 of the NI Act, the complainant must prove the following: (i) The accused must have drawn a cheque on an account maintained by him in a bank for payment of a certain amount of money to another person from out of that account;",
+      "held": "",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881 — Section 138"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque bounce",
+        "negotiable instruments",
+        "criminal procedure"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The complainant must prove that the cheque was presented to the bank within a period of three months from the date on which it is drawn or within the period of its validity whichever is earlier;",
+      "held": "",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881 — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque presentation",
+        "negotiable instruments",
+        "criminal procedure"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The complainant must prove that the cheque is returned by the bank unpaid, either because of the amount of money standing to the credit of the account is insufficient to honour the cheque or that it exceeds the amount arranged to be paid from that account by an agreement made with the bank;",
+      "held": "",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881 — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque return",
+        "negotiable instruments",
+        "criminal procedure"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The complainant must prove that the payee or the holder in due course of the cheque makes a demand for the payment of the said amount of money by giving a notice in writing, to the drawer of the cheque, within 30 days of the receipt of information by him from the bank regarding the return of the cheque as unpaid;",
+      "held": "",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881 — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "demand notice",
+        "negotiable instruments",
+        "criminal procedure"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
+    },
+    {
+      "principle": "The complainant must prove that the drawer of such cheque fails to make payment of the said amount of money to the payee or the holder in due course of the cheque within 15 days of the receipt of the said notice.",
+      "held": "",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881 — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "payment deadline",
+        "negotiable instruments",
+        "criminal procedure"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_005"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Acquitted",
+    "final_order": "The accused was acquitted as the court found that the prosecution failed to prove its case beyond reasonable doubt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "ni act",
+    "complaint",
+    "accused",
+    "complainant",
+    "cheque amount",
+    "plea not guilty",
+    "acquitted",
+    "judgment",
+    "criminal procedure code",
+    "code of criminal procedure",
+    "metropolitan magistrate",
+    "negotiable instruments",
+    "bounced cheque",
+    "cheque dishonoured"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under section 138 NI Act",
+    "defending an accused in a cheque bounce case",
+    "advising on the consequences of acquittal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:27:21.846708"
 }

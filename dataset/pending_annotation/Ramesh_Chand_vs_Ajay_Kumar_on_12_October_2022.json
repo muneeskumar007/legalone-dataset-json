@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-06-16T11:37:58.991102",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 3,
     "cheque_bounce": 8,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Metropolitan Magistrate - 04 : North West, District Rohini District Courts : New Delhi (Case No. 2711/2019)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ramesh Chand vs . Ajay Kumar on 12 October, 2022",
+  "case_name": "Ramesh Chand vs. Ajay Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Ramesh Chand, S/o.: Sh. Sadhu Singh",
+    "respondent_defendant": "Sh. Ajay Kumar, S/o Sh. Ram Beer",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant and accused know each other; accused borrowed ₹5 lakhs from complainant in May 2018 with a promise to repay within six months; cheque issued on November 1, 2018 was dishonoured on November 6, 2018; legal notice was issued on December 5, 2018 but payment not made.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove his defence.",
+      "held": "Accused reiterated the defence taken already.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 313"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "accused",
+        "defence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A witness's credibility can be impeached by showing inconsistencies in his statement.",
+      "held": "He denied that he have not given any loan to the accused. He denied that the accused had deposited the abovesaid Rs. 15,000/− in his account upon the instruction of Nand Kishor Goel.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "witness",
+        "credibility",
+        "inconsistencies"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Acquittal",
+    "final_order": "Accused pleaded not guilty and was acquitted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "code of criminal procedure",
+    "complaint",
+    "accused",
+    "plea not guilty",
+    "acquittal",
+    "financial assistance",
+    "friendly loan",
+    "six months",
+    "old friend relations",
+    "company",
+    "advance",
+    "cash payment",
+    "May 2018",
+    "CIDR",
+    "lakhs"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting cheque bounce cases",
+    "negotiable instruments act applications",
+    "complaint procedures"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:07:36.373928"
 }

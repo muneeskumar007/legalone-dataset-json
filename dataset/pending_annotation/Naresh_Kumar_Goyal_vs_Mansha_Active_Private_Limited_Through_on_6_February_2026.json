@@ -7,7 +7,7 @@
   "total_pages": 29,
   "extracted_at": "2026-06-16T11:37:12.630094",
   "domain": "cheque_bounce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 6,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Nareesh Kumar Malhotra, District Judge (Commercial)-06, Tis Hazari Courts, West: Delhi, CS (Comm) No. 163/2024",
   "reserved_on": "",
   "delivered_on": "16.08.2010",
   "case_name": "Naresh Kumar Goyal vs Mansha Active Private Limited Through ... on 6 February, 2026",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Naresh Kumar Goyal, Proprietor of M/s. NKG Creations",
+    "respondent_defendant": "Mansha Active Private Limited, Through Director and Manoj Dua, Managing Director",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff filed a suit for recovery of Rs. 1,00,00,000/- along with future pending lite interest against the defendants. The parties had a business agreement which was terminated and there was stock worth Rs. 1,08,25,183/- lying with the plaintiff.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -79,39 +79,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to rely on a document to prove its authenticity.",
+      "held": "This witness has admitted that the entire statement produced by him is system generated.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "document",
+        "authenticity",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "civil cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's statement about their personal knowledge is not evidence.",
+      "held": "This witness has stated that he has no personal knowledge about the ongoing litigation between the parties.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "personal knowledge",
+        "evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court decided in favor of the plaintiff and ordered the defendants to pay the amount claimed along with future pending lite interest.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of civil procedure",
+    "specific relief act",
+    "civil suit",
+    "recovery of debt",
+    "future interest",
+    "pendent lite interest",
+    "commercial dispute",
+    "contractual obligation",
+    "breach of contract",
+    "damages",
+    "compensatory damages",
+    "interest on debt",
+    "delayed payment",
+    "business dispute",
+    "trade dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a cheque bounce case",
+    "preparing a commercial suit for recovery of debt",
+    "advising on contractual obligations and breach"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T07:46:56.172626"
 }

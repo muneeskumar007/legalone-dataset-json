@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-06-16T11:38:07.945963",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "Vipin Sanghi Vipin Sanghi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "ADJ-01 (East), Karkardooma Courts, Delhi in HMA No.450/2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rekha Mathur vs Manish Khanna on 16 July, 2015",
+  "case_name": "Rekha Mathur vs Manish Khanna",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rekha Mathur, wife",
+    "respondent_defendant": "Manish Khanna, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married under the Hindu Marriage Act, 1955. The wife sought divorce on the ground of cruelty and nullity due to impotency of the husband. The trial court granted divorce but rejected the claim for nullity. The wife appealed against the rejection of her claim.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A composite petition for nullity and divorce can be filed under the Hindu Marriage Act, 1955.",
+      "held": "The use of the words 'a decree of divorce thereby dissolving the marriage of the petitioner and the respondent ... ... ... ... ...' in prayer (b), can only be described as inept drafting of the petition by the counsel. However, the same does not take away from it, the substance of the prayer, which was to seek a decree of nullity of the marriage under Section 12(1)(a) of the HMA.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12(1)(a)",
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "composite petition",
+        "nullity",
+        "divorce",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A court can dismiss a petition for nullity under Section 12(1)(a) of the Hindu Marriage Act, 1955, while granting a decree of divorce under Section 13(1)(ia) of the same act.",
+      "held": "The learned ADJ has consciously dismissed the petition on the ground of impotence under Section 12(1)(a), while granting a decree of divorce under Section 13(1)(ia) of the HMA.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 12(1)(a)",
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "dismissal",
+        "nullity",
+        "divorce",
+        "Hindu Marriage Act"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the decree of divorce is modified to include a finding on the ground of impotency.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "impotency",
+    "Section 13(1)(ia)",
+    "Section 12(1)(a)",
+    "matrimonial appeal",
+    "composite petition",
+    "ADJ-01",
+    "Karkardooma Courts",
+    "Delhi",
+    "HMA No.450/2010",
+    "Section 5 of the Hindu Marriage Act",
+    "Latin maxim: Ubi Jus, Ibi Remedium"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "advising on grounds for divorce in Delhi courts",
+    "composing a composite petition for matrimonial appeal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:13:16.258184"
 }

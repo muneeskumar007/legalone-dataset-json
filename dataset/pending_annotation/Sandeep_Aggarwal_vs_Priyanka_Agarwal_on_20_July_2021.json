@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-06-16T11:38:14.759681",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sandeep Aggarwal vs Priyanka Agarwal on 20 July, 2021",
+  "case_name": "Sandeep Aggarwal vs Priyanka Agarwal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sandeep Aggarwal (husband)",
+    "respondent_defendant": "Priyanka Agarwal (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -70,7 +70,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a petition under Section 12 of the Hindu Marriage Act, 1955 seeking annulment of his marriage with the wife on the ground that she was suffering from Schizophrenia. The Family Court dismissed the petition and directed a decree sheet to be prepared. The husband then filed an appeal under Section 28 of the Hindu Marriage Act, 1955 r/w Section 19(1) of the Family Courts Act, 1984.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -80,39 +80,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A decree is mandatorily drawn after passing of judgment as per Section 33 of the Civil Procedure Code.",
+      "held": "In civil cases, a decree is mandatorily drawn after passing of judgment as per Section 33 of the Civil Procedure Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Civil Procedure Code — Section 33"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "decree",
+        "judgment",
+        "civil procedure code"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "civil cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A judgment followed by a decree is not governed by Section 19(3) of the Family Courts Act.",
+      "held": "This, by itself, is sufficient to reject the submission of learned counsel for the respondent that the limitation qua the present appeal is governed by Section 19(3) of the Family Courts Act, and not by Section 28(4) of the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Family Courts Act — Section 19(3)",
+        "Hindu Marriage Act — Section 28(4)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "judgment",
+        "decree",
+        "family courts act",
+        "hindu marriage act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeals"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application for condonation of delay in filing the appeal was allowed. The reasons for allowing the application were detailed in the judgment.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Hindu Marriage Act",
+    "matrimonial appeal",
+    "Section 28",
+    "Family Courts Act",
+    "Section 19",
+    "condonation of delay",
+    "Limitation Act",
+    "Section 5",
+    "delay in filing",
+    "matrimonial dispute",
+    "annulment petition",
+    "Section 12",
+    "Hindu Marriage",
+    "family law",
+    "marriage dissolution",
+    "divorce appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce appeal",
+    "condoning delay in filing a matrimonial appeal",
+    "advising on domestic violence cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:23:55.774409"
 }

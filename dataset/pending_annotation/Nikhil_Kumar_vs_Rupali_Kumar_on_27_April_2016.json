@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-06-16T11:37:14.998200",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Tiz Hazari District Courts, Delhi (Principal Judge, Family Court)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Nikhil Kumar vs Rupali Kumar on 27 April, 2016",
+  "case_name": "Nikhil Kumar vs Rupali Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Nikhil Kumar (husband)",
+    "respondent_defendant": "Rupali Kumar (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2011. They have been living separately for five years and their marriage has reached a breaking point. Both parties have filed a petition under Section 13-B(1) of the Hindu Marriage Act, 1955 before the Family Court seeking divorce by mutual consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may waive the six months' waiting period required under Section 13-B(2) of the Hindu Marriage Act, 1955.",
+      "held": "In view of the above circumstances, this Court is inclined to grant the prayer and wave the six months' waiting period.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "waive",
+        "waiting period",
+        "Hindu Marriage Act",
+        "Section 13-B"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's decision to part ways with their spouse must be taken out of free will and without any undue influence or coercion.",
+      "held": "Both of them have realized the consequences of their decision and they have taken the decision out of their free will and without any undue influence or coercion.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "free will",
+        "undue influence",
+        "coercion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The six months' waiting period required under Section 13-B(2) of the Hindu Marriage Act, 1955 is waived.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13-B(1)",
+    "family court",
+    "separation",
+    "marriage breakdown",
+    "consent divorce",
+    "no reconciliation",
+    "living separately",
+    "five years",
+    "customary rights",
+    "judicial separation",
+    "nullity of marriage",
+    "irretrievable breakdown"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting consent divorce petition",
+    "advising on judicial separation",
+    "assisting with family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T07:50:04.855878"
 }

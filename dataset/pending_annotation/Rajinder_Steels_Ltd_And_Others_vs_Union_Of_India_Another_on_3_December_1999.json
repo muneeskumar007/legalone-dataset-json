@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-06-16T11:37:57.487607",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 8,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rajinder Steels Ltd. And Others vs Union Of India & Another on 3 December, 1999",
+  "case_name": "Rajinder Steels Ltd. And Others vs Union Of India & Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rajinder Steels Ltd. And Others",
+    "respondent_defendant": "Union Of India & Another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complaint under Section 138 of Negotiable Instrument Act against petitioners filed by respondent No. 3 before the Metropolitan Magistrate, Patiala House, New Delhi.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,101 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A contract cannot be performed due to reasons beyond control.",
+      "held": "The act of issuing a cheque is a promise to pay at a subsequent date, and an extension to the performance of a financial contract and whereunder a contract cannot be performed due to reasons beyond control.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "contract",
+        "financial",
+        "cheque",
+        "promise",
+        "performance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The relationship of the debtor and creditor and their mutual rights and liabilities are sought to be regulated.",
+      "held": "It is also submitted that by virtue of Article 246 read with Entry 30 of List II of the VII Schedule of the Constitution of India, only said legislature alone is competent to legislate and any legislation in this field will be ultra-vires of the powers of the Central Government for want of legislative competence.",
+      "applicable_acts_sections": [
+        "Constitution of India"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "debtor",
+        "creditor",
+        "rights",
+        "liabilities",
+        "regulation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "money lending cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Mens-rea is an important ingredient of criminal jurisprudence.",
+      "held": "The petitioners took the financial assistance which was granted by respondent No. 3 and the assistance was based on the project of the petitioners. The intention of the petitioners was never dishonest and all through they have represented that they are in the process of repaying and only on account of some unforeseen circumstances they have not been able to comply with their contractual obligations.",
+      "applicable_acts_sections": [
+        "Indian Penal Code"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mens-rea",
+        "criminal jurisprudence",
+        "intention",
+        "dishonesty"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments",
+    "section 138",
+    "banking laws",
+    "amendment act",
+    "writ petition",
+    "article 226",
+    "constitution of india",
+    "legislative powers",
+    "rule making powers",
+    "ultra vires",
+    "post dated cheques",
+    "six months rule",
+    "metropolitan magistrate",
+    "complaint under section 138"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition against cheque bounce",
+    "defending against complaint under section 138",
+    "understanding the six months rule in cheque bounce cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:05:11.821184"
 }

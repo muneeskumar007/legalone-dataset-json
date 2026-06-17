@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-06-16T11:37:14.810577",
   "domain": "cheque_bounce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 3,
     "land_acquisition": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "CIVIL JUDGE-07, (CENTRAL), TIS HAZARI COURTS, DELHI - CS SCJ No. : 94173/16",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Neeraj Dhawan vs The Branch Manager, State Bank Of India on 2 December, 2024",
+  "case_name": "Neeraj Dhawan vs The Branch Manager, State Bank Of India",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Neeraj Dhawan, Director Of M/S Mega Grain Trading Co. Pvt. Ltd.",
+    "respondent_defendant": "The Branch Manager, State Bank Of India",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiff presented cheque to defendant bank on 25.07.2014. Defendant bank sent cheque for clearance twice but did not clear it. Plaintiff deposited cheque within limitation period but suffered due to defendant's fault.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the plaintiff to prove that he has been authorised by the company to file the suit.",
+      "held": "PW1 was cross examined at length on 02.04.16 and was discharged on the same day.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "authorisation",
+        "plaintiff"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A board resolution authorising the plaintiff to prosecute a matter can be taken on record in view of Order VII Rule 14.",
+      "held": "Board resolution was taken on record in view of the order on Order VII rule 14 of this court on 15.11.18.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "board resolution",
+        "Order VII Rule 14"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "company law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "Plaintiff is entitled to recover Rs. 2,00,000/- and costs of the suit.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "State Bank Of India",
+    "Code of Civil Procedure",
+    "Indian Evidence Act",
+    "suit for recovery",
+    "Rs. 2,00,000/-",
+    "M/S Mega Grain Trading Co. Pvt. Ltd.",
+    "director",
+    "registered office",
+    "New Delhi",
+    "Rajendra Place",
+    "Prabhat Kiran Building",
+    "SME Connaught Circus",
+    "Branch Code 30203",
+    "Middle Circus",
+    "B-39",
+    "judgment",
+    "costs of the suit"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a cheque bounce case",
+    "preparing a suit for recovery",
+    "understanding the role of a director in a company"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T07:48:38.637072"
 }

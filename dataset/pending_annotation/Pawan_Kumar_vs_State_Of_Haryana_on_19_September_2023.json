@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-06-16T11:37:32.778870",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Pawan Kumar vs State Of Haryana on 19 September, 2023",
+  "case_name": "Pawan Kumar vs State Of Haryana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Pawan Kumar, prayed for grant of pre-arrest bail",
+    "respondent_defendant": "State of Haryana",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -37,7 +37,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner sought pre-arrest bail in FIR No.69 dated 27.03.2023 registered under Sections 406/420/120-B IPC and Section 24 of Immigration Act, at Police Station Nigdhu, District Karnal, Haryana.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,21 +47,24 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The petitioner is required to make out a case for grant of relief under Section 438 Cr.P.C.",
+      "held": "As per the same, it is settled law that the petitioner is required to make out a case for grant of relief under Section 438 Cr.P.C.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 438"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gurbaksh Singh Sibbia vs State of Punjab, (1980) 2 SCC 565"
+      ],
       "keywords": [
-        "TODO"
+        "pre-arrest bail",
+        "Section 438 Cr.P.C."
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "bail applications"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
@@ -71,15 +74,30 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "pre-arrest bail",
+    "FIR",
+    "Sections 406/420/120-B IPC",
+    "Section 24 of Immigration Act",
+    "Police Station Nigdhu",
+    "District Karnal",
+    "Haryana",
+    "foreign shipping agent",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail applications",
+    "advising on criminal proceedings",
+    "representing clients in pre-arrest bail matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:23:04.236289"
 }

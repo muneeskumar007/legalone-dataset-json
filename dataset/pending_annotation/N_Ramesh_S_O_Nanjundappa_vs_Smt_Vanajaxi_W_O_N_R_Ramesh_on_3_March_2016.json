@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-06-16T11:37:17.509055",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 6,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "case_numbers": [
     "C.C.No.6685/2009"
   ],
-  "trial_court": "",
+  "trial_court": "LX Addl. City Civil & Sessions Judge, Bengaluru (CCH-61) in C.C.No.6685/2009",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "N.Ramesh S/O Nanjundappa vs Smt.Vanajaxi W/O N.R.Ramesh on 3 March, 2016",
+  "case_name": "N.Ramesh S/O Nanjundappa vs Smt.Vanajaxi W/O N.R.Ramesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "N.Ramesh S/o Nanjundappa (husband)",
+    "respondent_defendant": "Smt.Vanajaxi W/o N.R.Ramesh (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The accused and his wife suffered loss in real estate business and took a loan from the complainant. The complainant presented the cheque returned unpaid as insufficient funds. The trial court convicted the accused for cheque bounce and sentenced him to pay a fine.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A legally recoverable debt is a necessary condition for invoking the provisions of Section 138 of the Negotiable Instruments Act.",
+      "held": "It is the specific case of the complainant that the accused and his wife were doing real estate business and they suffered loss in the real estate business and in order to overcome their financial difficulties, the accused approached the complainant and requested her for hand loan of Rs.8,00,000/- agreeing to return the same in the month of November 2008 with interest at the rate of 18% p.a.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act — Section 138"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legally recoverable debt",
+        "Section 138",
+        "Negotiable Instruments Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the complainant to prove that the cheque was issued for a legally recoverable debt.",
+      "held": "In order to prove her case, complainant herself examined as PW1 and she has produced documents.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden of proof",
+        "legally recoverable debt",
+        "cheque bounce cases"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal filed under sec.374(3) of Cr.P.C.",
+    "final_order": "The appeal is challenging the judgment passed by the XIX ACMM, Bengaluru in C.C.No.6685/2009 convicting the accused for cheque bounce and sentencing him to pay a fine.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "crpc",
+    "crl appeal",
+    "bangalore",
+    "rajajinagar",
+    "bengaluru",
+    "simple imprisonment",
+    "fine",
+    "complainant",
+    "accused",
+    "lower court",
+    "xix acmm",
+    "cc no.6685/2009",
+    "negotiation of instruments",
+    "cheque dishonour",
+    "dishonoured cheque",
+    "payment of cheque"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a cheque bounce appeal",
+    "composing a response to a complaint under section 138",
+    "preparing a defence against a cheque bounce case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T07:40:52.824190"
 }

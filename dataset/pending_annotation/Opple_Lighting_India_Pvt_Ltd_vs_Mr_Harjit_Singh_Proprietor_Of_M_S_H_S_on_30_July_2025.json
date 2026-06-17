@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-06-16T11:37:29.729888",
   "domain": "cheque_bounce",
-  "sub_domain": "maintenance",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh Nikhil Chopra, District Judge (Commercial)-02, South-East, Saket Courts, New Delhi CS (COMM):654/22",
   "reserved_on": "25.07.2025",
   "delivered_on": "",
-  "case_name": "Opple Lighting India Pvt Ltd vs Mr. Harjit Singh Proprietor Of M/S H. S. ... on 30 July, 2025",
+  "case_name": "Opple Lighting India Pvt Ltd vs Mr. Harjit Singh Proprietor Of M/S H. S.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Opple Lighting India Private Limited, Through its AR Mr. Sanjeev Kukreja",
+    "respondent_defendant": "Mr. Harjit Singh Proprietor of M/s H.S Marshal & Co.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Opple Lighting India Private Limited claimed recovery of Rs. 60,61,340.19/- towards unpaid balance against supplies. Defendant used to purchase products from plaintiff and had outstanding amount due.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the plaintiff to prove that the cheque was dishonoured.",
+      "held": "He denied that the agreement dated 04.07.2016 was not completely executed between plaintiff and defendant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque bounce",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court will not accept a deficient certificate under section 65B Indian Evidence Act.",
+      "held": "He tendered the following documents in plaintiff's evidence: 1. Certificate under section 65B Indian Evidence Act as Ex.PW1/B (Objected to on the grounds of deficient certificate under section 65B Indian Evidence Act).",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "section 65B",
+        "deficient certificate"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "evidence cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Dismissed",
+    "final_order": "The judgment disposes off a commercial suit for recovery of Rs. 60,61,340.19/- towards unpaid balance against supplies.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "code of civil procedure",
+    "civil suit",
+    "commercial dispute",
+    "unpaid balance",
+    "supplies agreement",
+    "distributorship",
+    "invoice payment",
+    "plaintiff defendant",
+    "contract law",
+    "breach of contract",
+    "damages",
+    "interest rate",
+    "judgment debt",
+    "execution proceedings",
+    "summary judgment",
+    "pleading",
+    "evidence act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a commercial suit for recovery of unpaid balance",
+    "preparing a pleading in a contract dispute",
+    "conducting execution proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:12:23.615168"
 }

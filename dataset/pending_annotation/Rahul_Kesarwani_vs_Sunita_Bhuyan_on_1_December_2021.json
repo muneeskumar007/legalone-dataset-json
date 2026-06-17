@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-06-16T11:37:52.830271",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "05.08.2021",
   "delivered_on": "01.12.2021",
-  "case_name": "Rahul Kesarwani vs Sunita Bhuyan on 1 December, 2021",
+  "case_name": "Rahul Kesarwani vs Sunita Bhuyan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rahul Kesarwani, husband",
+    "respondent_defendant": "Sunita Bhuyan, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2011. The respondent left the matrimonial home in 2011 and filed a petition for dissolution of marriage under Section 13(1)(ia) and (iii) of the Hindu Marriage Act, 1955. The trial court allowed the petition and dissolved the marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Minor aberrations in a witness's testimony do not necessarily render the entire testimony unreliable.",
+      "held": "Minor aberrations are normal to occur, and cannot be a reason to discard the entire testimony of a witness.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "witness",
+        "testimony",
+        "reliability"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court's decision is not affected by the fact that a party did not press a particular ground in their petition.",
+      "held": "The grievance of the Appellant as to why the Family Court adjudicated on the ground of unsound mind, when the same was not pressed by the Respondent is again irrelevant for us.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "petition",
+        "grounds",
+        "court's decision"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The court will not draw adverse inferences from a party's silence or failure to prove something.",
+      "held": "There is no document to that effect that his disease was such that it cannot be cured. I am of the view that petitioner has failed to prove the necessary ingredients of Section 13 (1) (iii) of the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "silence",
+        "failure to prove",
+        "adverse inferences"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The family court's decision to dissolve the marriage was upheld by this court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "Section 13(1)(iii)",
+    "Section 19 Family Courts Act",
+    "Section 28 Hindu Marriage Act",
+    "matrimonial dispute",
+    "marriage dissolution",
+    "mediation",
+    "family court",
+    "judgment and decree",
+    "petition for dissolution",
+    "Hindu rites and ceremonies",
+    "DDA Flats Kalkaji"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "preparing judgment and decree"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T08:49:50.026950"
 }

@@ -7,7 +7,7 @@
   "total_pages": 70,
   "extracted_at": "2026-06-16T11:38:06.685450",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 6,
     "partition": 5,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ravi Shankar vs The State Of Bihar on 20 July, 2023",
+  "case_name": "Ravi Shankar vs The State Of Bihar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ravi Shankar, Son of Rajeshwar Prasad; Minu Kumari, W/o Ravi Shankar",
+    "respondent_defendant": "The State of Bihar, The District Magistrate, Patna, Chairman cum Sub Divisional Officer, Patna Sadar, The Senior Superintendent of Police, Patna, The Deputy Superintendent of Police, Patna, The Officer Incharge, Kankarbagh Police Station, Patna, The Officer Incharge, Rajendra Nagar Police Station, Patna; Rajeshwar Prasad Roy",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -89,7 +89,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's son is the son of private Respondent No. 8 and petitioners' daughter-in-law is living in matrimonial home. Petitioners have been directed to vacate rest house within one month and hand over keys to private Respondent No. 8.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -99,39 +99,105 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A joint family property must have a sufficient nucleus at the time of its acquisition.",
+      "held": "In order to establish that the property belongs to joint family, it must be established that a joint family had a sufficient nucleus at the time of its acquisition.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "P.S. Patna High Court CWJC No.7851 of 2022 dt.20-07-2023 Sairam and another V. P.S. Rama Rao Pisey and others (2004) 11 SCC 320"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "joint family",
+        "nucleus",
+        "acquisition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A daughter is entitled to share in the ancestral property and is a co-parcener as if she had been a son.",
+      "held": "Daughter of a co- parcener becomes a coparcener by birth in her own rights and liabilities in the same manner as the son.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [
+        "Ganduri Koteshwaramma and another Vs. Chakiri Yanadi and another (2011) 9 SCC 788"
+      ],
+      "keywords": [
+        "daughter",
+        "co-parcener",
+        "ancestral property"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A court cannot compel a party to knock the door of the civil court and fight a legal battle to obtain exclusive possession of the property.",
+      "held": "This would defeat the very purpose of the said Act which has an over- riding effect qua any other enactment in view of Section 3 of the said Act.",
+      "applicable_acts_sections": [
+        "Act Name — Section X"
+      ],
+      "cited_cases": [
+        "Patna High Court CWJC No.7851 of 2022 dt.20-07-2023"
+      ],
+      "keywords": [
+        "civil court",
+        "exclusive possession",
+        "property disputes"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "writ petition stands dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ dismissed",
+    "final_order": "Petitioners' writ petition stands dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Transfer of Property Act",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "domestic violence",
+    "DV act",
+    "criminal complaint",
+    "civil writ jurisdiction",
+    "family court",
+    "judicial separation",
+    "nullity of marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on alimony and maintenance",
+    "representing in a domestic violence case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:11:24.279134"
 }

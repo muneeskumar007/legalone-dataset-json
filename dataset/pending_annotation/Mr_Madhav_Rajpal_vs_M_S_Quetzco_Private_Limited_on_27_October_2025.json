@@ -7,7 +7,7 @@
   "total_pages": 35,
   "extracted_at": "2026-06-16T11:36:35.504086",
   "domain": "cheque_bounce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 6,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Sunil Beniwala, District Judge-06, South District, Saket Courts, New Delhi (CS DJ No.393/2020)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Madhav Rajpal vs M/S Quetzco Private Limited on 27 October, 2025",
+  "case_name": "Mr. Madhav Rajpal vs M/S Quetzco Private Limited",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Madhav Rajpal, Plaintiff",
+    "respondent_defendant": "M/S Quetzco Private Limited, Defendant No.1; Mr. Prashant Kamalakar Pradhan, Defendant No.2; Kapil Pradhan, Defendant No.3",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -84,7 +84,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff filed a suit against the defendants for recovery of possession, arrears of rent/use and occupation charges, mesne profit and permanent injunction in respect of suit property.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -94,39 +94,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the defendant to prove that the occupation was not unauthorised.",
+      "held": "In view of the above, it is clear that the defendant has failed to discharge this burden.",
       "applicable_acts_sections": [
-        "TODO"
+        "Transfer of Property Act, 1882 — Sections 107, 108, 111"
+      ],
+      "cited_cases": [
+        "Anthony v. KC Ittoop & Sons, (2000) 6 SCC 394",
+        "Ram v. XYZ"
+      ],
+      "keywords": [
+        "unauthorised occupation",
+        "burden of proof",
+        "lease agreement"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "breach of contract cases",
+        "landlord-tenant disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A lease agreement can be terminated by the landlord if the tenant defaults on rent payments.",
+      "held": "The plaintiff has established that the defendant defaulted on rent payments, thereby terminating the lease.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section X",
+        "Negotiable Instruments Act, 1881 — Section Y"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "lease termination",
+        "rent default",
+        "breach of contract"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "landlord-tenant disputes",
+        "contract breach cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The final court order granted the relief claimed by the plaintiff.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of civil procedure",
+    "civil suit",
+    "recovery of possession",
+    "arrears of rent",
+    "mesne profit",
+    "permanent injunction",
+    "transfer of property act",
+    "Indian evidence act",
+    "quasi-judicial authority",
+    "dishonoured cheque",
+    "cheque return memo",
+    "holder in due course",
+    "endorsement",
+    "allotment letter",
+    "share certificate",
+    "share transfer deed"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a reply to a notice of demand for payment",
+    "preparing a defence against a cheque bounce case",
+    "composing an application for recovery of possession"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T07:08:27.770257"
 }

@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-06-16T11:37:25.519890",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "cheque_bounce": 1,
@@ -24,13 +24,13 @@
     "Arun Kumar Rai J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bokaro, Original Suit No. 209 of 2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Om Prakash Choudhary Aged About 42 Year ... vs Renu Kumari Wife Om Prakash Choudhary ... on 5 December, 2025",
+  "case_name": "Om Prakash Choudhary Aged About 42 Year ... vs Renu Kumari Wife Om Prakash Choudhary ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Om Prakash Choudhary, husband",
+    "respondent_defendant": "Renu Kumari, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2011 and have two sons. The respondent-wife left the petitioner-husband's house without reasonable cause and did not spend her salary on their family.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to establish the grounds for divorce.",
+      "held": "The admitted fact herein is that the suit for divorce has been filed on the ground of cruelty and desertion i.e., by filing an application under Section 13 (1) (i-a) (i-b) of the Hindu Marriage Act, 1955",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "grounds for divorce",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking divorce must establish the grounds for divorce.",
+      "held": "The evidence has been led on behalf of both the parties. On behalf of petitioner-husband, four witnesses have been examined, namely, Ram Pravesh Choudhary [PW 1], the brother of the appellant; and Ramayan Choudary [PW 2], the father of the appellant;",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "grounds for divorce",
+        "establishment"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's order dismissing the divorce petition was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(i-a)",
+    "Section 19(1)",
+    "Family Court Act",
+    "1984",
+    "marriage dissolution",
+    "decree of divorce",
+    "Original Suit No. 209",
+    "2019",
+    "Bokaro",
+    "Jharkhand",
+    "High Court",
+    "Ranchi",
+    "First Appeal No.71",
+    "2023",
+    "Section 8",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act implications",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T07:51:54.135364"
 }

@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-06-16T11:36:28.171818",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 9,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Ms. Pooja Suhag, Judicial Magistrate First Class (N.I. Act), Digital Court -01, Central, TIS Hazari Courts, Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mohd Jamil vs Mohd Illiyas on 24 August, 2024",
+  "case_name": "Mohd Jamil vs Mohd Illiyas",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mohd Jamil, s/o. Mohd. Yunus, proprietor of HRA E−Waste Recycler",
+    "respondent_defendant": "Mohd. Illiyas, s/o. Sh. Chhotey Khan",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant Mohd Jamil filed a complaint against accused Mohd Illiyas under Section 138 of the Negotiable Instruments Act, 1881 for dishonor of a cheque.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The prosecution must fulfill all the essential ingredients of the offence to establish an offence under Section 138 of NI Act.",
+      "held": "In order to establish the offence under Section 138 of NI Act, the prosecution must fulfill all the essential ingredients of the offence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881 — Section 138"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque bounce",
+        "essential ingredients",
+        "Section 138"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the prosecution to prove its case beyond reasonable doubt.",
+      "held": "I have heard the learned counsel appearing for the parties and have given my thoughtful consideration to the material appearing on record.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "prosecution",
+        "reasonable doubt"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Acquitted",
+    "final_order": "The accused was acquitted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138 ni act",
+    "dishonor of cheque",
+    "complaint under section 138",
+    "acquitted",
+    "not guilty plea",
+    "prosecution failed to prove",
+    "burden of proof",
+    "presumption of innocence",
+    "accused acquitted",
+    "cheque bouncing",
+    "criminal complaint",
+    "negotiable instruments",
+    "criminal procedure code",
+    "code of criminal procedure",
+    "1872 evidence act",
+    "indian evidence act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a defence against cheque bounce complaint",
+    "preparing for acquittal in cheque bounce case",
+    "composing a brief on presumption of innocence"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T07:03:59.775318"
 }

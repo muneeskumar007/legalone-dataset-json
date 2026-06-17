@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-06-16T11:38:13.605908",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "Harish Vaidyanathan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Rohini (North) District Courts, H.M.A. No.126 of 2017",
   "reserved_on": "06.08.2025",
   "delivered_on": "20.08.2025",
-  "case_name": "Sameer Pareek vs Shweta Pareek Nee Bhatt on 20 August, 2025",
+  "case_name": "Sameer Pareek vs Shweta Pareek Nee Bhatt",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sameer Pareek (husband)",
+    "respondent_defendant": "Shweta Pareek Nee Bhatt (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2017. The wife filed a petition under Section 12(1)(c) of the Hindu Marriage Act, 1955, seeking annulment of marriage due to concealment by the husband of his prior marriage and discrepancy in salary figures. The trial court allowed the petition and issued a decree for annulment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage can be annulled if the consent of the respondent was obtained by fraud as to any material fact or circumstance concerning the respondent.",
+      "held": "Section 12(1)(c) of the HMA allows annulment of a marriage on specific grounds, including fraud ...as to any material fact or circumstance concerning the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 12"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "fraud",
+        "material fact",
+        "marriage annulment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The consent of the respondent was obtained under a mistaken belief induced by misrepresentation, which can lead to annulment of the marriage.",
+      "held": "The answer to this question depends not merely on the falsity of the statements, but on whether those particulars were so essential that the Respondent's consent was procured under a mistaken belief induced by them.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 12"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mistaken belief",
+        "misrepresentation",
+        "marriage annulment"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal was dismissed, and the trial court's decision to annul the marriage was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Sameer Pareek",
+    "Shweta Pareek Nee Bhatt",
+    "Hindu Marriage Act",
+    "Section 12(1)(c)",
+    "concealment of prior marriage",
+    "annulment of marriage",
+    "Family Courts Act",
+    "Section 19",
+    "Indian Evidence Act",
+    "1872",
+    "divorce",
+    "matrimonial dispute",
+    "marriage annulment",
+    "prior marriage",
+    "HMA No.126 of 2017"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:22:12.892084"
 }

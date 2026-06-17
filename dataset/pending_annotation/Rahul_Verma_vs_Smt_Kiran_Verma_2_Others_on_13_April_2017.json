@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-06-16T11:37:53.030221",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Lucknow in Case No. NIL of 2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rahul Verma vs Smt. Kiran Verma & 2 Others on 13 April, 2017",
+  "case_name": "Rahul Verma vs Smt. Kiran Verma & 2 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rahul Verma (husband)",
+    "respondent_defendant": "Smt. Kiran Verma (wife) & 2 Others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Divorce petition filed by Rahul Verma against Smt. Kiran Verma on various grounds including adulteration and desertion. Trial court rejected the petition on the ground that it is barred by Section 13(1)(ib) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The ground for desertion for claiming divorce under Section 13 (1) (ib) of the Hindu Marriage Act, 1955 requires that one spouse has been deserted by the other for a continuous period of two years immediately preceding the date of the presentation of the divorce petition.",
+      "held": "After the amendment, the ground for desertion for claiming divorce under Section 13 (1) (ib) of the Hindu Marriage Act, 1955 requires that one of the spouse who has been deserted by the other for a continuous period of two years immediately preceding the date of the presentation of the divorce petition is entitled to a decree of divorce.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "divorce",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The prescription of the continuous period of desertion for not less than two years signifies the intention of desertion and conduct of the party, burdening the onus of strict proof on the petitioner who claims that the other party has deserted him/her.",
+      "held": "The prescription of the continuous period of desertion for not less than two years signifies the intention of desertion and conduct of the party, burdening the onus of strict proof on the petitioner who claims that the other party has deserted him/her.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "desertion",
+        "onus",
+        "proof"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The divorce petition was allowed and the trial court's decision was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(ib)",
+    "adulteration",
+    "desertion",
+    "family court",
+    "Principal Judge",
+    "Lucknow",
+    "Rahul Verma",
+    "Smt. Kiran Verma",
+    "Jagat Pal Verma",
+    "plaint",
+    "affidavit",
+    "appeal",
+    "judgment",
+    "decree",
+    "barred",
+    "petition",
+    "grounds",
+    "Latin maxim: Actus non facit per se, sed per aliud"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing family court decision",
+    "adultery as grounds for divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:01:46.382005"
 }

@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-06-16T11:37:55.847803",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 8,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sh. Bhavaya Karhail, Ld. Metropolitan Magistrate (NI Act-02), West District, Tis Hazari Courts, Delhi and Sh. Rahul Verma, Ld. Metropolitan Magistrate/Judicial Magistrate First Class (NI Act-02), West District, Tis Hazari Courts, Delhi",
   "reserved_on": "",
   "delivered_on": "11/02/2015",
-  "case_name": "Rajinder Singh Gandhi vs Kunal Arora on 30 October, 2025",
+  "case_name": "Rajinder Singh Gandhi vs Kunal Arora",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rajinder Singh Gandhi — Revisionist",
+    "respondent_defendant": "Kunal Arora — Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -74,7 +74,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant filed a complaint case u/s 138 NI Act titled as 'Kunal Arora V. Rajinder Singh Gandhi.' The revisionist has prayed to set-aside the orders passed by the trial court and to stay the trial.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -84,39 +84,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An interlocutory order is an order that does not decide the rights of the parties but only one aspect of the suit or trial.",
+      "held": "It has been used in various statutes including the Code of Civil Procedure, Letters Patent of the High Courts and other like statutes. In Webster's New World Dictionary 'interlocutory' has been defined as an order other than final decision.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — 397(2)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Amar Nath & Ors. V. State of Haryana & Anr., (1977) 4 SCC 137"
+      ],
       "keywords": [
-        "TODO"
+        "interlocutory",
+        "order",
+        "rights",
+        "parties",
+        "suit",
+        "trial"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "appeal against intermediate order"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "An order which does not determine the rights of the parties but only one aspect of the suit or the trial is an interlocutory order.",
+      "held": "It was held by Hon'ble Supreme Court of India in case titled as 'V.C. Shukla V. State through C.B.I.' (AIR 1980 SC 962] that:—",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — 397(2)"
+      ],
+      "cited_cases": [
+        "V.C. Shukla V. State through C.B.I., AIR 1980 SC 962"
+      ],
+      "keywords": [
+        "interlocutory",
+        "order",
+        "rights",
+        "parties",
+        "suit",
+        "trial"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "appeal against intermediate order"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The present revision petition was dismissed as withdrawn vide order dated 30/10/2025.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of criminal procedure",
+    "revision petition",
+    "criminal revision",
+    "section 397 crpc",
+    "section 438 bnss",
+    "metropolitan magistrate",
+    "judicial magistrate first class",
+    "complaint case",
+    "tis hazari courts",
+    "delhi",
+    "west district",
+    "bharatiya nyaya sanhita",
+    "bharatiya nagarik suraksha sanhita",
+    "negotiation of instruments",
+    "cheque dishonour",
+    "dishonoured cheque",
+    "criminal proceedings"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a revision petition against an order on cheque bounce",
+    "advising on criminal proceedings for cheque dishonour",
+    "preparing a case for a complaint under the Negotiable Instruments Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-17T09:04:16.085917"
 }
