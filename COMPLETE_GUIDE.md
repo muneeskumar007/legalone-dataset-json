@@ -108,7 +108,7 @@ python3 run_pipeline.py --step 1 --input ./pdfs
 python3 run_pipeline.py --step 2
 
 # 5. Auto-annotate ALL 30 at once (30-45 min, Ollama must be running)
-python3 auto_annotator.py --mode ollama --input ./dataset/pending_annotation
+python3 auto_annotator.py --mode hybrid --input ./dataset/pending_annotation
 
 # 6. Store annotations in database
 python run_pipeline.py --step 2
