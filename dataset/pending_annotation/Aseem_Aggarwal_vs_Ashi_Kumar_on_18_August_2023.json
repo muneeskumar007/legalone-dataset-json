@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-06-18T21:02:34.857119",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Aseem Aggarwal vs Ashi Kumar on 18 August, 2023",
+  "case_name": "Aseem Aggarwal vs Ashi Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Aseem Aggarwal (husband)",
+    "respondent_defendant": "Ashi Kumar (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed for annulment of marriage under Hindu Marriage Act, 1955. Respondent claimed fraud and non-cohabitation due to dowry demands.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,99 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "While determining an application under Order VII Rule 11 CPC, only the averments made in the petition can be considered.",
+      "held": "It is only the averments made in the petition which can be considered, de-hors the averments and the documents which may have been relied upon by the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Order VII Rule 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Order VII Rule 11",
+        "averments",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A plaint must be read as a whole to determine whether it contains merely an illusion of cause of action and no clear right to sue is disclosed.",
+      "held": "There cannot be any compartmentalisation, desertion, segregation and inversion of the language to various paragraphs in the plaint. Further, where such meaningful reading of the plaint makes it clear that it contains merely an illusion of cause of action and no clear right to sue is disclosed, then powers of the court under Order VII Rule 11 should be exercised.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Order VII Rule 11"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "plaint",
+        "cause of action",
+        "right to sue"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The basic question to be decided while dealing with an application under Order VII Rule 11, CPC is whether the real cause of action has been set out in the plaint or something purely illusory has been stated.",
+      "held": "The Apex Court held that the basic question to be decided while dealing with an application under Order VII Rule 11, CPC is whether the real cause of action has been set out in the plaint or something purely illusory has been stated with a view to get out of Order VII Rule 11 of the CPC.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Order VII Rule 11"
+      ],
+      "cited_cases": [
+        "ITC Limited vs. Debt Recovery Appellate Tribunal and Anr., (1998) 2 SCC 70"
+      ],
+      "keywords": [
+        "cause of action",
+        "illusory",
+        "plaint"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "annulment",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Code of Civil Procedure",
+    "Order VII Rule 11",
+    "Section 12(1)(c)",
+    "Section 19",
+    "marriage annulment",
+    "permanent resident",
+    "New Zealand",
+    "Ghaziabad",
+    "petition",
+    "family court",
+    "judgment",
+    "appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "annulling marriage in family court",
+    "petition for annulment of marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:41:05.626801"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-06-18T21:02:08.211104",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "land_acquisition": 1,
@@ -20,13 +20,13 @@
     "Lisa Gill J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judicial Magistrate First Class, Hisar",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Aman Gupta vs State Of Haryana & Another on 10 November, 2017",
+  "case_name": "Aman Gupta vs State Of Haryana & Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Aman Gupta (husband)",
+    "respondent_defendant": "State of Haryana and another (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial discord between husband and wife. FIR registered under various IPC sections. Compromise arrived at between parties. Petition for quashing of FIR.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,62 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A compromise in a matrimonial dispute can be the sine qua non of harmony.",
+      "held": "The compromise, in a modern society, is the sine qua non of harmony",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Kulwinder Singh and others versus State of Punjab and another, (2007) 3 R.C.R. (Criminal) 1052"
+      ],
       "keywords": [
-        "TODO"
+        "compromise",
+        "matrimonial dispute",
+        "harmony"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR No. 25 dated 12.04.2016 under Sections 313, 323, 34, 342, 406, 498A, 506 IPC quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13B",
+    "matrimonial discord",
+    "compromise",
+    "FIR",
+    "quashing",
+    "IPC",
+    "Sections 313",
+    "323",
+    "34",
+    "342",
+    "406",
+    "498A",
+    "506",
+    "Indian Kanoon",
+    "High Court of Punjab and Haryana"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs in matrimonial disputes",
+    "compromise agreements in family law cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:19:23.825111"
 }

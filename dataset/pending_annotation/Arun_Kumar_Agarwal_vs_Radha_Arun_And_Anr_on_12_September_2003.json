@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-06-18T21:02:26.756052",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Arun Kumar Agarwal vs Radha Arun And Anr. on 12 September, 2003",
+  "case_name": "Arun Kumar Agarwal vs Radha Arun And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Arun Kumar Agarwal (husband)",
+    "respondent_defendant": "Radha Arun and another (wife and alleged adulterer)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a petition under Section 13(1)(i) of the Hindu Marriage Act, alleging adultery. The trial court allowed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person impleaded as a co-respondent in a petition under Section 13(1)(i) of the Hindu Marriage Act, 1955, as alleged adulterer, cannot seek deletion on the ground that no relief is sought against him.",
+      "held": "Once the petitioner chooses to implead as a co-respondent, the person who according to him is the adulterer, he being a proper party, cannot be deleted at the instance of such respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(i)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "impleading",
+        "co-respondent",
+        "petition",
+        "adulterer",
+        "deletion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "An adulterer is a proper, if not necessary party to a proceedings under Section 13(1)(i) of the Hindu Marriage Act.",
+      "held": "The principles relating to impleading of parties make it clear that an adulterer is a proper, if not necessary party to a proceedings under Section 13(1)(i) of the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(i)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "adulterer",
+        "proper party",
+        "necessary party",
+        "impleading"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "this appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The alleged adulterer is a proper party to the proceedings and cannot seek deletion from the petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i)",
+    "adulterer",
+    "proper party",
+    "necessary party",
+    "petition",
+    "co-respondent",
+    "HM Act",
+    "1955",
+    "Order 1 Rules 3,5,10(2)",
+    "Civil Procedure Code",
+    "1980",
+    "V /1908",
+    "Latin maxim"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on co-respondent roles",
+    "representing clients in Hindu Marriage Act cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:37:43.642625"
 }

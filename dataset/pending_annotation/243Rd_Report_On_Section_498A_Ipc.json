@@ -7,7 +7,7 @@
   "total_pages": 83,
   "extracted_at": "2026-06-18T21:01:38.908274",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -92,21 +92,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power of arrest should be sparingly drawn out and wielded only if necessary.",
+      "held": "This weapon should not be used at the whim and fancy of the I.O. or be treated as a panacea for checking such offences.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "power of arrest",
+        "arrest",
+        "498A IPC"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "domestic violence cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The police should act with due sensitivity and realization that they are dealing with an alleged offence arising out of strained matrimonial relations.",
+      "held": "They are expected to act with the realization that they are dealing with an alleged offence arising out of strained matrimonial relations and that nothing should be done to disrupt the chances of reconciliation, or to cause trauma to the children.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "police response",
+        "matrimonial disputes",
+        "sensitivity"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "domestic violence cases",
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The power of arrest should not be used to close the doors for reconciliation and amicable settlement.",
+      "held": "Arrest and such other drastic measures should not close the doors for reconciliation and amicable settlement.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "reconciliation",
+        "amicable settlement",
+        "arrest"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "domestic violence cases",
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The misuse of Section 498A IPC can be minimized by taking measures to ensure the strict observance of the law governing arrest.",
+      "held": "The Commission feels that misuse arising from exaggerated versions and over implication should not by itself be a ground to dilute the provision by making it bailable.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "misuse",
+        "Section 498A IPC",
+        "arrest"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "domestic violence cases",
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
@@ -116,15 +183,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Section 498A IPC",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Protection of Women from DV Act",
+    "Domestic Violence",
+    "Arrest",
+    "Misuse",
+    "Compounding the Offence",
+    "Police Duty",
+    "Compensation Limit",
+    "Estranged Women",
+    "State Obligation",
+    "Divorce",
+    "Marriage",
+    "Criminal Proceedings",
+    "Prosecutions",
+    "Judicial Decisions",
+    "National Commission for Women"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on domestic violence cases",
+    "representing clients in criminal proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:02:27.559606"
 }

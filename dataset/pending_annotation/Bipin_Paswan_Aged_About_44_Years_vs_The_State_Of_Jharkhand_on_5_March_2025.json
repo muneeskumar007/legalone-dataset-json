@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-06-18T21:03:10.176882",
   "domain": "cheque_bounce",
-  "sub_domain": "",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 1
   },
@@ -17,20 +17,20 @@
     "Navneet Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Special Judge SC/ST Act, Dhanbad, Cr. Appeal (SJ) No.496 of 2024",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Bipin Paswan Aged About 44 Years vs The State Of Jharkhand on 5 March, 2025",
+  "case_name": "Bipin Paswan Aged About 44 Years vs The State Of Jharkhand",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Bipin Paswan aged about 44 years, son of Shri Baleshwar Dusadh, resident of Prem Nagar (Near Hanuman Mandir), Putki, P.O. Kusunda, P.S. Putki, Town Dhanbad, District - Dhanbad",
+    "respondent_defendant": "1. The State of Jharkhand, 2. Jai Ram Kumar Singh",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "this appeal is dismissed",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complaint filed by the complainant was dismissed. Appellant's cheques were lost and misused by respondent No.2. Appellant lodged FIR for loss of cheques.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -40,39 +40,72 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the complainant to prove that the cheque was dishonoured due to the drawer's default.",
+      "held": "While as a matter of fact, the cheques of the appellant were lost and it has been misused by the Respondent No. 2 by filing a cheque bounce case against the appellant.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque",
+        "bounce",
+        "complainant"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A complainant cannot file a false case and then claim that the cheque was dishonoured due to the drawer's default.",
+      "held": "It has further been submitted that this appellant has lodged an FIR for the loss of the cheques from the very next date and the bank was also duly informed by which the payment through those cheques have been withheld on the basis of the request of a stop payment by the Appellant.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "false case",
+        "complainant"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "This appeal is dismissed as withdrawn with liberty to raise all the points before the concerned cheque bounce case.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "SC/ST Act",
+    "false allegation",
+    "check bounce case",
+    "Section 138 NI Act",
+    "dishonoured cheque",
+    "complaint dismissed",
+    "Special Judge SC/ST Act",
+    "Dhanbad",
+    "Jharkhand",
+    "High Court of Jharkhand",
+    "Ranchi",
+    "Navneet Kumar",
+    "Pradyot Chatterjee",
+    "Nehala Sharmin"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a cheque bounce case",
+    "appealing a complaint dismissal",
+    "using SC/ST Act provisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:53:55.770317"
 }

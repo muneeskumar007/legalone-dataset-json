@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-06-18T21:02:15.008090",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anil Yashwant Karande vs Smt. Mangal Anil Karande on 23 December, 2015",
+  "case_name": "Anil Yashwant Karande vs Smt. Mangal Anil Karande",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anil Yashwant Karande, husband",
+    "respondent_defendant": "Smt. Mangal Anil Karande, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2002. The respondent was forced to leave the matrimonial house and an FIR was lodged against the appellant under various IPC sections. The respondent filed a petition for restitution of conjugal rights. The trial court granted reliefs in favour of the respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A respondent is entitled to maintain a petition for restitution of conjugal rights independently, even if they have committed any cruelty upon the other party.",
+      "held": "He submits that even if this Court comes to the conclusion that any cruelty was committed by the respondent upon the appellant, this Court cannot set aside the orders passed by the two Courts below insofar as the reliefs of restitution of conjugal rights under section 9 of the Hindu Marriage Act has been granted in favor of the respondent is concerned.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conjugal rights",
+        "cruelty",
+        "independent proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court cannot interfere with the findings of fact by lower courts unless there is a substantial question of law.",
+      "held": "He submits that the said findings of fact being not perverse cannot be interfered with by this Court under section 100 of the Code of Civil Procedure, 1908.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Section 100"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "findings of fact",
+        "substantial question of law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeals against lower court judgments"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed and the order passed by the lower appellate bench granting reliefs to the respondent was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Indian Penal Code",
+    "1860",
+    "second appeal",
+    "civil appeal",
+    "family court",
+    "maintenance",
+    "alimony",
+    "separation",
+    "matrimonial dispute",
+    "marriage",
+    "divorce proceedings",
+    "judgment",
+    "decree",
+    "appealable order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing appeal against family court order",
+    "advising client on maintenance and alimony"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:24:52.924380"
 }

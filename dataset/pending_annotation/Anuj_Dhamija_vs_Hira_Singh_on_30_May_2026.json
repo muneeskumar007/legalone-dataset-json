@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-06-18T21:02:20.401465",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 8,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS. JAYANTI CHANDER, Judicial Magistrate First Class (NI Act) - 07, South District, Saket Courts, New Delhi.",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anuj Dhamija vs Hira Singh on 30 May, 2026",
+  "case_name": "Anuj Dhamija vs Hira Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Anuj Dhamija, Complainant",
+    "respondent_defendant": "Sh. Hira Singh, Accused",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant Sh. Anuj Dhamija filed a complaint against accused Sh. Hira Singh for dishonour of cheque bearing number 216801 dated 06.06.2019 for an amount of Rs. 36,00,000/- drawn by Corporation Bank, Neb Sarai Branch, New Delhi.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that he did not receive the amount.",
+      "held": "In response, the accused reiterated the defence taken in the notice framed under section 251, CrPC. The accused stated that he did not receive an amount of Rs. 18 lakhs from the complainant and did not enter into any agreement to sell with the complainant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 251"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "accused",
+        "receipt",
+        "amount"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The accused's statement under section 313, CrPC should be considered while evaluating the evidence.",
+      "held": "STATEMENT UNDER SECTION 313 CRPC ... wherein the entire incriminating evidence was put to him. In response, the accused reiterated the defence taken in the notice framed under section 251, CrPC.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 313"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "accused",
+        "statement",
+        "section 313"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Acquittal",
+    "final_order": "The court acquitted the accused Sh. Hira Singh.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "section 142",
+    "dishonor of cheque",
+    "complaint case",
+    "acquittal",
+    "corporation bank",
+    "neb sarai branch",
+    "greater noida",
+    "property sale",
+    "agreement to purchase",
+    "execution of agreement",
+    "cheque dated 06.06.2019",
+    "amount Rs. 36,00,000",
+    "latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint case for cheque bounce",
+    "defending an accused in a cheque bounce case",
+    "advising on the legal implications of dishonored cheques"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:29:12.634876"
 }

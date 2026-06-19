@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-06-18T21:02:06.331351",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 9,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of JMFC-02, North West District, Rohini Courts, Delhi - Case No. 3473/17",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Akshay Kumar vs Krishan Kumar on 29 January, 2025",
+  "case_name": "Akshay Kumar vs Krishan Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S/o Sh. Ashok Kumar, R/o H. No.500, Ground Floor, Orchid Island, Artemis Hospital, Sector 51, Islampur, Gurgaon, Haryana.",
+    "respondent_defendant": "S/o Late Sh. N. L. Thakur, R/o T-6, Top Floor, Shimla Hotel, Himachal Pradesh.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant provided loan to accused and issued cheque which was dishonoured. Accused failed to pay despite legal demand notice.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,104 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "It is wrong to suggest that a person is deposing falsely due to contradictions in the source of his funds.",
+      "held": "He was financially capable of granting the loan. It was correct to say that he had ₹90,000 in his bank account on 24.10.2013. It was also correct that he had received ₹4,00,000 in his account from Ashok Kumar Tyagi on 25.10.2013.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973",
+        "Negotiable Instruments Act, 1881"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "deposition",
+        "funds",
+        "loan",
+        "bank account",
+        "receipt"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's statement that he did not maintain any diary regarding the loan amount is credible.",
+      "held": "Voluntarily, he stated that it was a friendly loan. He did not maintain any diary regarding the loan amount.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973",
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "statement",
+        "diary",
+        "loan",
+        "friendly loan"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person's statement that he did not know the details of a cheque being filled in by someone else is credible.",
+      "held": "Voluntarily, he stated that he did not know whether the details were filled in by the accused or someone else.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973",
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "statement",
+        "cheque",
+        "details",
+        "filling"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Accused convicted for offence under section 138 of the Negotiable Instruments Act, 1881.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "criminal procedure code",
+    "complaint",
+    "accused",
+    "conviction",
+    "judgment",
+    "loan",
+    "friendly relations",
+    "NI Act",
+    "Criminal Procedure Code",
+    "Section 138 NI Act",
+    "Cheque Bounce Case",
+    "Accused Pleaded Not Guilty",
+    "Convicted for Cheque Bounce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under section 138 of the Negotiable Instruments Act",
+    "defending an accused in a cheque bounce case",
+    "advising on legal remedies for a bounced cheque"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:16:01.034360"
 }

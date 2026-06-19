@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-06-18T21:02:45.426848",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -25,13 +25,13 @@
     "M.A.No.1448 of 2013",
     "O.P.No.89 of 2004"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Puducherry - M.O.P.No.89 of 2004",
   "reserved_on": "20.07.2018",
   "delivered_on": "26.09.2018",
-  "case_name": "A.Pradeep vs R.Kavitha on 26 September, 2018",
+  "case_name": "A.Pradeep vs R.Kavitha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant (husband)",
+    "respondent_defendant": "Respondent (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties took place on 01.04.2001 at Reddiyarpalayam Police Station, Pondicherry. The appellant filed a petition under Section 12(1)(c) of the Hindu Marriage Act, 1955 to dissolve the marriage. The Family Court dismissed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to annul a marriage to establish that the consent was obtained by coercion, fear, or fraud.",
+      "held": "We have heard the learned counsel for the appellant and the respondent. We have also gone through the pleadings, the evidence on record both documentary and oral recorded and impugned order passed by the Family Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12(1)(c)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "annulment",
+        "consent",
+        "coercion",
+        "fear",
+        "fraud"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking to annul a marriage must establish the alleged fear and cessation of that fear before approaching the court.",
+      "held": "The Family Court has concluded that the marriage between the appellant and the respondent cannot be annulled as the appellant has not established by way of evidence of the alleged fear and cessation of alleged fear before approaching the Court in a petition under Section 12(1)(c) of the Hindu Marriage Act, 1955.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 12(1)(c)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "annulment",
+        "fear",
+        "cessation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order dated 18.03.2011 passed by the Family Court is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Section 12(1)(c)",
+    "divorce",
+    "marriage",
+    "dissolution",
+    "Family Courts Act",
+    "1984",
+    "M.O.P.No.89 of 2004",
+    "Reddiyarpalayam Police Station",
+    "Pondicherry",
+    "elders",
+    "social workers",
+    "Latin maxim: Nemo judex in causa sua",
+    "appellant",
+    "respondent",
+    "wife",
+    "husband",
+    "petition",
+    "judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "appealing family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:04:36.334904"
 }

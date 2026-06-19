@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-06-18T21:02:16.900842",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Jalaun at Orai in Criminal Misc. Case No. 419 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ankit Kumar vs State Of U.P. And 2 Others on 25 October, 2024",
+  "case_name": "Ankit Kumar vs State Of U.P. And 2 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ankit Kumar (husband)",
+    "respondent_defendant": "State Of U.P. and 2 Others (wife and minor son)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The revisionist solemnized marriage with Opposite Party No. 2 on 08.02.2019 as per Hindu rituals. The Opposite Party No. 2 alleged that she was tortured by her husband and in-laws for demand of dowry and therefore, she and her minor son left the house of the revisionist.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,67 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "No wife shall be entitled to receive an allowance for the maintenance or interim maintenance and expenses of proceeding, as the case may be, if she is living in adultery, or if, without any sufficient reason, she refuses to live with her husband, or if they are living separately by mutual consent.",
+      "held": "It is held that a wife shall not be entitled to receive an allowance for the maintenance or interim maintenance and expenses of proceeding, as the case may be, if she is living in adultery, or if, without any sufficient reason, she refuses to live with her husband, or if they are living separately by mutual consent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "interim maintenance",
+        "expenses",
+        "proceeding",
+        "adultery",
+        "refuses to live with husband",
+        "living separately by mutual consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Maintenance of Rs. 8,000/- per-month w.e.f. 06.07.2021 till 2.10.2023 and maintenance of Rs. 10,000/- per-month w.e.f. 3.10.2023 had been awarded in favour of Opposite Party No. 2.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Section 125 Cr.P.C.",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Family Court",
+    "Jalaun",
+    "Orai",
+    "Criminal Misc. Case No. 419",
+    "Smt. Kamini",
+    "Ankit Kumar",
+    "Principal Judge",
+    "Neutral Citation No.",
+    "High Court of Judicature at Allahabad",
+    "Reserved",
+    "Criminal Revision No. 5993",
+    "2021",
+    "2023"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance orders",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:26:33.078921"
 }

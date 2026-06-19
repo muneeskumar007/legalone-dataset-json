@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-06-18T21:02:03.182302",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 8,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS Parul Sharma: LD. JMFC NI Act Digital Court-02",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Aditya Gupta vs Vijender Sharma on 26 April, 2025",
+  "case_name": "Aditya Gupta vs Vijender Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Aditya Gupta, proprietor Giriraj Steel & Company",
+    "respondent_defendant": "Vijender Sharma, CMD/Director Multi Verse Venture LLP",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant Aditya Gupta filed a complaint against accused Vijender Sharma regarding dishonor of cheque bearing no 157774 dt. 03.01.2022 for an amount of Rs. 25,00,000/-.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,100 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "To establish the offence under Section 138 of the NI Act, the complainant must prove that the cheque was issued in discharge, in whole or in part, of any legal debt or other liability.",
+      "held": "The complainant must prove the following: - ... ii. the said cheque has been issued in discharge, in whole or in part, of any legal debt or other liability.",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act, 1881 — Section 138"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque bounce",
+        "negotiable instruments",
+        "legal debt"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The payee of the cheque must issue a legal notice of demand to the drawer within 30 days from the receipt of information by him from the bank regarding the return of the cheque.",
+      "held": "The payee of the cheque issued a legal notice of demand to the drawer within 30 days from the receipt of information by him from the bank regarding the return of the cheque.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "legal notice",
+        "demand",
+        "cheque bounce"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The drawer of the cheque must fail to make payment within 15 days of receipt of a legal notice of demand.",
+      "held": "The drawer of the cheque failed to make the payment within 15 days of the receipt of aforesaid legal notice of demand.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "payment",
+        "demand",
+        "cheque bounce"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Convicted",
+    "final_order": "The complainant was convicted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of criminal procedure",
+    "dishonor of cheque",
+    "Axis Bank",
+    "Ahmedabad",
+    "Gujarat",
+    "Rs. 25,00,000",
+    "cheque in question",
+    "138 NI Act",
+    "Multi Verse Venture LLP",
+    "CMD/Director",
+    "proprietor Giriraj Steel & Company",
+    "Wazirpur Industrial Area",
+    "New Delhi",
+    "110052",
+    "110037",
+    "not guilty",
+    "convicted"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under NI Act",
+    "defending against cheque bounce charges",
+    "advising on cheque dishonor procedures"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:13:24.835292"
 }

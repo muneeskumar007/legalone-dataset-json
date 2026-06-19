@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "63, Moons Technologies Limited ... vs Union Of India & 10 Others on 4 December, 2017",
+  "case_name": "63, Moons Technologies Limited vs Union Of India & 10 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Moons Technologies Limited (formerly Financial Technologies (India) Ltd. & Ors.)",
+    "respondent_defendant": "The Union of India & Ors.",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -61,7 +61,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are Moons Technologies Limited, formerly known as Financial Technologies (India) Ltd., and others. Respondents are the Union of India and others. The petitioners claim that the impugned order is ultra vires Section 396 of the Companies Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,21 +71,43 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The mechanism of paired contracts adopted at the NSEL exchange between 2009 and until the collapse of operations in 2013 was very similar to the abuse referred to in Statement of Objects and Reasons to the Amendment Act.",
+      "held": "By resort to such a modus operandi the transactions at the NSEL Exchange no longer remained any genuine spot delivery transactions or ready delivery transactions or even forward transactions of one day's duration, in sales and purchases of commodities.",
       "applicable_acts_sections": [
-        "TODO"
+        "Forward Contracts (Regulation) Act, 1952"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "forward contracts",
+        "spot delivery",
+        "ready delivery",
+        "commodities"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land acquisition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Transactions that assume the character of pure and simple financing transactions are not genuine spot delivery or ready delivery transactions.",
+      "held": "These contracts were invariably at predetermined prices and the long terms sell contract, was always at a profit, the difference effectively being the cost of lending.",
+      "applicable_acts_sections": [
+        "Forward Contracts (Regulation) Act, 1952"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "spot delivery",
+        "ready delivery",
+        "financing transactions"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "land acquisition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -95,15 +117,36 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Moons Technologies Limited",
+    "Union Of India",
+    "Section 396 of Companies Act",
+    "Companies Act",
+    "FTIL",
+    "NSEL",
+    "wholly owned subsidiary",
+    "profit making holding company",
+    "amalgamation",
+    "loss making",
+    "subsidiary",
+    "holding company",
+    "compensation",
+    "land use",
+    "public interest",
+    "judicial review",
+    "procedural fairness",
+    "natural justice"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for land acquisition",
+    "advising on subsidiary formation",
+    "assisting in a company law dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:03:39.780806"
 }

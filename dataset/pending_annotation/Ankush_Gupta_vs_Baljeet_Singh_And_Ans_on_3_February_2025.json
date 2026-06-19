@@ -65,21 +65,41 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the plaintiff to prove his case.",
+      "held": "It is stated that plaintiff has completely failed to show as to how the defendants are liable to pay a sum of Rs. 89,746/- to the plaintiff.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "plaintiff",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A plaintiff's averments must be supported by evidence.",
+      "held": "To prove his case, plaintiff himself stepped into the witness box as PW-1 and tendered his affidavit as Ex. PW1/A and placed reliance upon the following documents.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "plaintiff's averments"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -89,15 +109,31 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of civil procedure",
+    "specific relief act",
+    "civil suit",
+    "recovery of debt",
+    "future interest",
+    "pendente-lite interest",
+    "24% interest rate",
+    "suit for recovery",
+    "defendant's liability",
+    "plaintiff's claim",
+    "judgment decree",
+    "court order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a suit for cheque bounce",
+    "guidelines for recovering debt from defendant",
+    "practical tips for plaintiff's advocate"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:28:19.251064"
 }

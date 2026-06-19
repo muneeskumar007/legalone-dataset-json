@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-06-18T21:02:47.723805",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -26,13 +26,13 @@
     "OP.No.72  of 2006",
     "CMA.No.5 of 2008"
   ],
-  "trial_court": "",
+  "trial_court": "District Court, Sivagangai; Sub Court, Devakottai",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "A.R.Indira vs N.Kadappan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant (wife) seeking divorce",
+    "respondent_defendant": "Respondent (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized in 1988. The wife left her matrimonial home in 1989 and did not return. The husband filed a petition for divorce in 2006 on grounds of cruelty and desertion.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove the grounds for divorce.",
+      "held": "The respondent/husband cannot be permitted to make his submission on this ground [delay] for the first time only in this appeal.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "grounds",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's condonation of the other party's cruelty does not necessarily mean that the divorce should be granted.",
+      "held": "This would clearly show that he had condoned the cruelty and therefore, both the Courts below have erred in granting divorce on the ground of cruelty.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "condonation",
+        "cruelty",
+        "divorce"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order dated 12.04.2011 made by the trial court was set aside, and the fair and decreetal order dated 24.10.2007 was confirmed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Section 28",
+    "Section 100",
+    "matrimonial home",
+    "marriage",
+    "petition",
+    "HMOP",
+    "HMCMA",
+    "Sub Court",
+    "District Court",
+    "Sivagangai",
+    "Devakottai",
+    "Aathangudi Muthupattinam Village",
+    "wife",
+    "husband",
+    "mother-in-law",
+    "sister-in-law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "appealing against family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:06:17.809224"
 }

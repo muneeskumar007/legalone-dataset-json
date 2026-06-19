@@ -7,7 +7,7 @@
   "total_pages": 18,
   "extracted_at": "2026-06-18T21:02:55.260915",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "partition": 1,
@@ -22,13 +22,13 @@
     "V. Dhanapalan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "I Additional Principal Judge, Family Court, Madras in FCOP No.215 of 1997",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "A. Viswanathan vs G. Lakshmi @ Seetha on 20 November, 2006",
+  "case_name": "A. Viswanathan vs G. Lakshmi @ Seetha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "A. Viswanathan (husband)",
+    "respondent_defendant": "G. Lakshmi @ Seetha (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife who got married in 1992. The husband filed a petition for dissolution of marriage by decree of divorce on the ground of cruelty under Section 13(1) (i-a) of the Hindu Marriage Act, 1955. The Family Court dismissed the petition holding that the respondent has not treated the petitioner with cruelty and rejected the appellant's prayer to dissolve the marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Condonation means forgiveness of the matrimonial offence and the restoration of offending spouse to the same position as he or she occupied before the offence was committed.",
+      "held": "To constitute condonation, there must be, therefore, two things: forgiveness and restoration.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 23(1)(b)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Dr. N.G. Dastane vs. Mrs. S. Dastane, (1975) 2 SCC 326"
+      ],
       "keywords": [
-        "TODO"
+        "condonation",
+        "matrimonial offence",
+        "forgiveness",
+        "restoration"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — in determining whether a spouse has condoned the other's cruelty",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Cruelty, generally, does not consist of a single, isolated act but consists in most cases of a series of acts spread over a period of time.",
+      "held": "Law does not require that a",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 23(1)(b)"
+      ],
+      "cited_cases": [
+        "Dr. N.G. Dastane vs. Mrs. S. Dastane, (1975) 2 SCC 326"
+      ],
+      "keywords": [
+        "cruelty",
+        "series of acts",
+        "period of time"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM — in determining the nature of cruelty",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Section 13(1)(i-a)",
+    "Family Court",
+    "Madras",
+    "High Court",
+    "Judicial Separation",
+    "Marriage Dissolution",
+    "Matrimonial Dispute",
+    "Custody Battle",
+    "Maintenance Order",
+    "Property Division",
+    "Alimony",
+    "Separate Maintenance",
+    "Joint Family",
+    "Mutual Consent",
+    "Consent Divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:09:06.840474"
 }

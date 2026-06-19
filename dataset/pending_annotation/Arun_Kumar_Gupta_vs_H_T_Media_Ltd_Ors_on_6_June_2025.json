@@ -7,7 +7,7 @@
   "total_pages": 27,
   "extracted_at": "2026-06-18T21:02:29.366275",
   "domain": "property_dispute",
-  "sub_domain": "custody",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "cheque_bounce": 1,
     "partition": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS. PRABH DEEP KAUR: DJ-05, SOUTH EAST DISTRICT, SAKET COURTS, DELHI, CS DJ NO. 6574/16",
   "reserved_on": "",
   "delivered_on": "31.05.2007",
-  "case_name": "Arun Kumar Gupta vs H.T. Media Ltd Ors on 6 June, 2025",
+  "case_name": "Arun Kumar Gupta vs H.T. Media Ltd Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Arun Kumar Gupta, plaintiff",
+    "respondent_defendant": "1. HT Media Limited (through editor and publisher), 2. Integrix India Private Limited., 3. Mr. Atul Bansal, 4. Mrs. Vidhu Bansal, 5. Brig. (Retired) N. Kumar, 6. Mr. Pavan Duggal - Advocate Delhi High Court",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -42,7 +42,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff joined defendant no. 2 company as a Director on 01.09.2000 and he resigned from the said post on 05.07.2005. Thereafter, plaintiff started his own company rendering the services similar to the plaintiff company.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,112 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A party's silence or inaction can be taken as an admission of the truth.",
+      "held": "The plaintiff has not given any reason, much less any cogent reason, as to why he suddenly resigned from such business for no cause.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "silence",
+        "admission"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to provide a reason for its actions can be taken as an admission of the truth.",
+      "held": "The plaintiff fails to give any reason, much less any cogent reason, as to why he suddenly resigned from such business for no cause.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "failure",
+        "admission"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party's silence or inaction can be taken as an admission of the truth.",
+      "held": "The reason Defendants Nos. 2 to 5 are now denying the commission of any financial irregularity by the Plaintiff is perhaps because the Plaintiff and Defendants Nos. 2 to 5 have settled their inter-se disputes upon the condition that Defendants Nos. 2 to 5 will not make any statement on the issue of financial irregularity that the Plaintiff had allegedly committed.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "silence",
+        "admission"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A party's failure to provide a reason for its actions can be taken as an admission of the truth.",
+      "held": "The Plaintiff has not given any reason, much less any cogent reason, as to why he suddenly resigned from such business for no cause.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "failure",
+        "admission"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit disposed off",
+    "final_order": "The suit has been settled between plaintiff and defendant no. 2 to 5 vide settlement dated 25.02.2023 and between plaintiff and defendant no. 6 vide order dated 20.03.2023.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "CS DJ NO. 6574/16",
+    "Arun Kumar Gupta",
+    "H.T. Media Ltd Ors",
+    "Okhla Industrial Area Phase-2",
+    "New Delhi-110020",
+    "Old Address",
+    "I-1622 Second Floor",
+    "C.R. Park",
+    "New Delhi-110019",
+    "plaintiff",
+    "defendant",
+    "judgment",
+    "dispute",
+    "property",
+    "title",
+    "possession",
+    "transfer",
+    "registration",
+    "deed",
+    "agreement",
+    "contract",
+    "breach",
+    "damages"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint for property dispute",
+    "responding to a notice of breach of contract",
+    "advising on transfer of property"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:38:59.381625"
 }

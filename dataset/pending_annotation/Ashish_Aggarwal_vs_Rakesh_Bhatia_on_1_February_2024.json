@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-06-18T21:02:36.437126",
   "domain": "cheque_bounce",
-  "sub_domain": "will_succession",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 9,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Metropolitan Magistrate, (Negotiable Instrument Act) -07, South, SAKET Courts, New Delhi, CT Cases 470644/2016",
   "reserved_on": "04.01.2024",
   "delivered_on": "",
-  "case_name": "Ashish Aggarwal vs Rakesh Bhatia on 1 February, 2024",
+  "case_name": "Ashish Aggarwal vs Rakesh Bhatia",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Ashish Aggarwal, s/o Late Sh. Omprakash Aggarwal",
+    "respondent_defendant": "Sh. Rakesh Bhatia, s/o Darshan Lal Bhatia",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant Sh. Ashish Aggarwal filed a complaint under Section 138 Negotiable Instruments Act against accused Sh. Rakesh Bhatia alleging dishonoured cheques. Accused pleaded not guilty and claimed trial.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the complainant to prove that the accused had signed the agreement and received the loan amount.",
+      "held": "He further stated that he was assured by complainant and Prashant Kansal that amount of Rs.25 lakhs shall be credited in his bank account soon, however, no such amount was ever credited in his bank account.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "complainant",
+        "proof",
+        "agreement",
+        "loan"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's statement that he does not remember certain details is not sufficient to disprove the existence of those facts.",
+      "held": "He further stated that he does not remember dates of cheques or the bank upon which said cheques were given by accused to complainant.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "statement",
+        "remember",
+        "details",
+        "facts"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving disputed facts"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "ACQUITTAL",
+    "final_order": "The accused was acquitted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "criminal procedure code",
+    "complaint",
+    "acquittal",
+    "plea of accused",
+    "trial",
+    "not guilty",
+    "judgment reserved",
+    "final order",
+    "digital signature",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under Section 138 NI Act",
+    "preparing for trial in cheque bounce cases",
+    "understanding the acquittal of an accused"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:41:57.117609"
 }

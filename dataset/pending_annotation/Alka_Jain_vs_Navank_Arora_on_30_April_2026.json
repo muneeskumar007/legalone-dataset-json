@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-06-18T21:02:07.969920",
   "domain": "cheque_bounce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 9,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Judicial Magistrate First Class (Central), Tis Hazari Court, Delhi, CC No.3054/2018",
   "reserved_on": "",
   "delivered_on": "07.05.2010",
-  "case_name": "Alka Jain vs Navank Arora on 30 April, 2026",
+  "case_name": "Alka Jain vs Navank Arora",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Alka Jain, Proprietor of M/s Mayank Trading Company",
+    "respondent_defendant": "Navank Arora, S/o Sh. Manoj Arora, Proprietor of M/s Samsara Enterprises",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant Alka Jain is the proprietor of M/s Mayank Trading Co and accused Navank Arora failed to pay Rs. 16,00,147/- leading to a cheque bounce complaint.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,220 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The complainant has to prove beyond reasonable doubt elements of Section 138 Negotiable Instruments Act.",
+      "held": "to bring home the guilt of the accused, the complainant has to prove beyond reasonable doubt elements of Section 138 Negotiable Instruments Act by crossing the following legal benchmarks",
       "applicable_acts_sections": [
-        "TODO"
+        "Negotiable Instruments Act — Section 138"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque bounce",
+        "negotiable instruments",
+        "beyond reasonable doubt"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The cheque was drawn by the accused/drawer on account maintained by him with the banker for payment of any amount of money out of that account to the complainant.",
+      "held": "The cheque was drawn by the accused /drawer on account maintained by him with the banker for payment of any amount of money out of that account to the complainant",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque",
+        "account",
+        "banker"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The complainant has to prove that the cheque was returned unpaid by the bank.",
+      "held": "The said cheque was returned unpaid by the bank",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque",
+        "bank",
+        "unpaid"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The complainant has to prove that the cheque was presented before the bank within a period of three months from the date on which it was drawn or within a period of its validity, whichever is earlier.",
+      "held": "The said cheque was presented before the bank within a period of three months from the date on which it was drawn or within a period of its validity, whenever is earlier",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque",
+        "bank",
+        "three months",
+        "validity"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
+    },
+    {
+      "principle": "The complainant has to prove that the payee or the holder in due course of the cheque, as the case may be, made a demand for the payment of the said amount of money by giving notice in writing to the drawer of the cheque within 30 days of receipt of information by him from the bank regarding the return of the cheque as unpaid.",
+      "held": "The payee or the holder, in due course of cheque, as the case may be, made a demand for the payment of the said amount of money by giving the notice in writing to the drawer of the cheque within 30 days of receipt of the said notice",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque",
+        "payee",
+        "holder",
+        "demand",
+        "notice",
+        "30 days"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_005"
+    },
+    {
+      "principle": "The complainant has to prove that the drawer of the cheque fails to make the payment of the said amount of money to the payee, or, as the case may be, to the holder in due course of the cheque within 15 days of the receipt of the said notice.",
+      "held": "The drawer of the cheque fails to make the payment of the said amount of money to the payee, or, as the case may be, to the holder, in due course of cheque within 15 days of the receipt of the said notice",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque",
+        "payee",
+        "holder",
+        "payment",
+        "notice",
+        "15 days"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_006"
+    },
+    {
+      "principle": "The complainant has to prove that the cheque was drawn by the person who was maintaining the account pertaining to the cheque.",
+      "held": "The cheque was drawn by the person who was maintaining the account pertaining to the cheque",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque",
+        "account",
+        "maintaining"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_007"
+    },
+    {
+      "principle": "The complainant has to prove that the amount of money mentioned in the cheque was intended to be given.",
+      "held": "Amount of money mentioned in the cheque was intended to be given",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque",
+        "amount",
+        "intended"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_008"
+    },
+    {
+      "principle": "The complainant has to prove that the cheque was of the nature as described in Section 138.",
+      "held": "The cheque was of the nature as described in Section 138",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act — Section 138"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cheque",
+        "nature",
+        "Section 138"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_009"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court convicted the accused.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138 ni act",
+    "code of criminal procedure",
+    "complaint",
+    "accused",
+    "prosecution",
+    "defence",
+    "paper and board",
+    "business transaction",
+    "contract",
+    "breach of contract",
+    "dishonour of cheque",
+    "criminal proceedings",
+    "judicial magistrate first class",
+    "central district",
+    "tis hazari court",
+    "delhi"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint under section 138 NI Act",
+    "defending an accused in a cheque bounce case",
+    "advising on criminal proceedings for dishonour of cheque"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:18:43.990598"
 }

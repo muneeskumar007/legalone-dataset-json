@@ -1,7 +1,7 @@
 {
   "domain": "divorce",
   "total": 189,
-  "updated_at": "2026-06-17T22:42:20.302417",
+  "updated_at": "2026-06-19T11:02:40.091068",
   "version": "1.0",
   "judgments": [
     {
@@ -11,7 +11,7 @@
       "source_url": "",
       "pdf_filename": "243Rd_Report_On_Section_498A_Ipc.PDF",
       "total_pages": 83,
-      "extracted_at": "2026-06-16T18:58:27.039309",
+      "extracted_at": "2026-06-18T21:01:38.908274",
       "domain": "divorce",
       "sub_domain": "divorce_cruelty",
       "domain_scores": {
@@ -106,12 +106,13 @@
           "cited_cases": [],
           "keywords": [
             "power of arrest",
-            "arrest without warrant",
+            "arrest",
             "498A IPC"
           ],
           "favors": "neutral",
           "use_in": [
-            "cases under Section 498A IPC"
+            "domestic violence cases",
+            "matrimonial disputes"
           ],
           "significance": "HIGH",
           "principle_id": "LP_001",
@@ -126,12 +127,13 @@
           "cited_cases": [],
           "keywords": [
             "police response",
-            "matrimonial relations",
-            "reconciliation"
+            "matrimonial disputes",
+            "sensitivity"
           ],
           "favors": "neutral",
           "use_in": [
-            "cases under Section 498A IPC"
+            "domestic violence cases",
+            "matrimonial disputes"
           ],
           "significance": "HIGH",
           "principle_id": "LP_002",
@@ -147,11 +149,12 @@
           "keywords": [
             "reconciliation",
             "amicable settlement",
-            "498A IPC"
+            "arrest"
           ],
           "favors": "neutral",
           "use_in": [
-            "cases under Section 498A IPC"
+            "domestic violence cases",
+            "matrimonial disputes"
           ],
           "significance": "HIGH",
           "principle_id": "LP_003",
@@ -167,11 +170,12 @@
           "keywords": [
             "misuse",
             "Section 498A IPC",
-            "arrest without warrant"
+            "arrest"
           ],
           "favors": "neutral",
           "use_in": [
-            "cases under Section 498A IPC"
+            "domestic violence cases",
+            "matrimonial disputes"
           ],
           "significance": "HIGH",
           "principle_id": "LP_004",
@@ -193,28 +197,29 @@
         "Arrest",
         "Misuse",
         "Compounding the Offence",
-        "National Commission for Women",
         "Police Duty",
         "Compensation Limit",
         "Estranged Women",
         "State Obligation",
         "Divorce",
         "Marriage",
-        "Criminal Procedure",
-        "Indian Penal Code"
+        "Criminal Proceedings",
+        "Prosecutions",
+        "Judicial Decisions",
+        "National Commission for Women"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting divorce petitions",
+        "drafting a petition for divorce",
         "advising on domestic violence cases",
-        "representing clients in Section 498A IPC proceedings"
+        "representing clients in criminal proceedings"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:03:59.084676"
+      "updated_at": "2026-06-19T09:02:27.559606"
     },
     {
       "id": "HC_0000_Aarti_Narinder_Kumar",
@@ -223,7 +228,7 @@
       "source_url": "",
       "pdf_filename": "Aarti_vs_Narinder_Kumar_on_18_November_2022.PDF",
       "total_pages": 4,
-      "extracted_at": "2026-06-16T18:57:00.432550",
+      "extracted_at": "2026-06-18T21:01:54.325551",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -286,7 +291,7 @@
           ]
         }
       ],
-      "facts_of_case": "Parties were married in 2020. No child was born. Petitioner-wife is living separately since 2022 and seeking transfer of respondent-husband's petition under Section 13 of the Hindu Marriage Act, pending before the Principal Judge, Family Court, SBS Nagar.",
+      "facts_of_case": "Parties were married in 2020. No child was born out of this wedlock. Petitioner-wife is living separately from respondent-husband since 28.3.2022 and seeking transfer of petition filed by respondent-husband under Section 13 of the Hindu Marriage Act,1955.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -296,26 +301,105 @@
       ],
       "legal_principles": [
         {
-          "principle_id": "LP_001",
-          "principle": "TODO — one line reusable rule",
-          "held": "TODO — what court actually said (2-4 sentences)",
+          "principle": "The ends of justice should demand the transfer of the suit, appeal or other proceeding.",
+          "held": "The cardinal principle for exercise of power under section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.",
           "applicable_acts_sections": [
-            "TODO"
+            "Code of Civil Procedure — Section 24"
           ],
-          "cited_cases": [],
+          "cited_cases": [
+            "N.C.V. Aishwarya vs A.S. Saravana Karthik Sha",
+            "(2022) Live Law (SC) 627"
+          ],
           "keywords": [
-            "TODO"
+            "justice",
+            "transfer",
+            "proceeding"
           ],
-          "favours": "plaintiff / defendant / neutral",
+          "favors": "plaintiff",
           "use_in": [
-            "TODO — case types"
+            "matrimonial disputes"
           ],
-          "significance": "HIGH / MEDIUM / LOW — one reason"
+          "significance": "HIGH",
+          "principle_id": "LP_001",
+          "favours": "neutral"
+        },
+        {
+          "principle": "In matrimonial matters, the Courts have to take into consideration the economic soundness of both parties, social strata of spouses and their behavioural pattern.",
+          "held": "In matrimonial matters, wherever Courts are called upon to consider the plea of transfer, the Courts have to take into consideration the economic soundness of both the parties, the social strata of the spouses and their behavioural pattern, their standard of life prior to the marriage and subsequent thereto and the circumstances of both the parties in eking out their livelihood and under whose protective umbrella they are seeking their sustenance to life.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act — Section X",
+            "Code of Civil Procedure — Section Y"
+          ],
+          "cited_cases": [
+            "N.C.V. Aishwarya vs A.S. Saravana Karthik Sha",
+            "(2022) Live Law (SC) 627"
+          ],
+          "keywords": [
+            "matrimonial matters",
+            "economic soundness",
+            "social strata",
+            "behavioural pattern"
+          ],
+          "favors": "plaintiff",
+          "use_in": [
+            "divorce cases"
+          ],
+          "significance": "HIGH",
+          "principle_id": "LP_002",
+          "favours": "neutral"
+        },
+        {
+          "principle": "The Courts should give more weightage and consideration to the convenience of female litigants.",
+          "held": "Further, when two or more proceedings are pending in different Courts between the same parties which raise common question of fact and law, and when the decisions in the cases are interdependent, it is desirable that they should be tried together by the same Judge so as to avoid multiplicity in trial of the same issues and conflict of decisions.",
+          "applicable_acts_sections": [
+            "Code of Civil Procedure — Section X",
+            "Specific Relief Act — Section Y"
+          ],
+          "cited_cases": [
+            "Sumita Singh vs Kumar Sanjay",
+            "(2002) SC 396"
+          ],
+          "keywords": [
+            "convenience",
+            "female litigants"
+          ],
+          "favors": "plaintiff",
+          "use_in": [
+            "family disputes"
+          ],
+          "significance": "HIGH",
+          "principle_id": "LP_003",
+          "favours": "neutral"
+        },
+        {
+          "principle": "The Courts should consider the family condition of the wife, custody of minor child, economic condition of the wife and her physical health.",
+          "held": "Accordingly, it is well settled that while considering the transfer of a matrimonial dispute/case, at the instance of the wife, the Court is to consider the family condition of the wife, the custody of the minor child, economic condition of the wife, her physical health and earning capacity of the husband and most important the convenience of the wife i.e. she cannot travel alone without assistance of a male member of her family.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act — Section X",
+            "Code of Civil Procedure — Section Y"
+          ],
+          "cited_cases": [
+            "N.C.V. Aishwarya vs A.S. Saravana Karthik Sha",
+            "(2022) Live Law (SC) 627"
+          ],
+          "keywords": [
+            "family condition",
+            "custody",
+            "economic condition",
+            "physical health"
+          ],
+          "favors": "plaintiff",
+          "use_in": [
+            "divorce cases"
+          ],
+          "significance": "HIGH",
+          "principle_id": "LP_004",
+          "favours": "neutral"
         }
       ],
       "outcome": {
         "result": "Appeal allowed",
-        "final_order": "Case transferred to a Court of competent jurisdiction at Ambala (Haryana).",
+        "final_order": "Petition for transfer allowed.",
         "relief_granted": "",
         "costs": ""
       },
@@ -337,7 +421,9 @@
         "Ambala",
         "Hindu rites",
         "rituals",
-        "Latin maxim: Nemo dat quod non habet"
+        "marriage",
+        "petitioner",
+        "respondent"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
@@ -350,7 +436,7 @@
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:14:25.820643"
+      "updated_at": "2026-06-19T09:10:26.192327"
     },
     {
       "id": "KAR_0000_Aiyappa",
@@ -359,7 +445,7 @@
       "source_url": "",
       "pdf_filename": "Aiyappa_M_B_vs_The_State_Of_Karnataka_on_16_June_2023.PDF",
       "total_pages": 13,
-      "extracted_at": "2026-06-16T18:57:10.055745",
+      "extracted_at": "2026-06-18T21:02:04.737554",
       "domain": "divorce",
       "sub_domain": "divorce_cruelty",
       "domain_scores": {
@@ -460,31 +546,29 @@
         "Code of Criminal Procedure",
         "Indian Penal Code",
         "dowry prohibition",
-        "498-A",
-        "IPC",
-        "DPA",
+        "498-A IPC",
+        "Section 482 Cr.P.C.",
         "quash proceedings",
-        "Criminal Procedure Code",
-        "Section 482",
-        "Cr.P.C.",
-        "Section 4",
-        "Section 34",
-        "Latin maxim",
-        "actus reus",
-        "mens rea"
+        "criminal petition",
+        "High Court Karnataka",
+        "Bengaluru",
+        "JP Nagar Police",
+        "State Public Prosecutor",
+        "HCGP",
+        "Advocate"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
         "drafting divorce petitions",
         "quashing criminal proceedings",
-        "defending against dowry-related charges"
+        "representing clients in High Court of Karnataka"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:18:58.145923"
+      "updated_at": "2026-06-19T09:14:11.144571"
     },
     {
       "id": "HC_0000_Akhilesh_Patidar_Smt",
@@ -493,7 +577,7 @@
       "source_url": "",
       "pdf_filename": "Akhilesh_Patidar_vs_Smt_Priti_Patidar_on_16_May_2024.PDF",
       "total_pages": 6,
-      "extracted_at": "2026-06-16T18:57:10.813996",
+      "extracted_at": "2026-06-18T21:02:05.390342",
       "domain": "divorce",
       "sub_domain": "divorce_cruelty_desertion",
       "domain_scores": {
@@ -536,7 +620,7 @@
           ]
         }
       ],
-      "facts_of_case": "Second marriage between the parties; first wife committed suicide; respondent did not take care of the child; appellant sought divorce on grounds of cruelty and desertion.",
+      "facts_of_case": "Second marriage between the parties; first wife committed suicide; respondent did not take care of child; appellant sought divorce on grounds of cruelty and desertion.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -585,7 +669,7 @@
       ],
       "outcome": {
         "result": "Appeal dismissed",
-        "final_order": "The trial court's decision to dismiss the application for divorce was upheld, and the appeal was dismissed.",
+        "final_order": "The trial court's decision to dismiss the application for divorce was upheld.",
         "relief_granted": "",
         "costs": ""
       },
@@ -619,7 +703,7 @@
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:20:02.892294"
+      "updated_at": "2026-06-19T09:15:00.038025"
     },
     {
       "id": "KER_0000_Ali_Ummu_Selmakp",
@@ -628,7 +712,7 @@
       "source_url": "",
       "pdf_filename": "Ali_vs_Ummu_Selma_K_P_on_15_November_2018.PDF",
       "total_pages": 8,
-      "extracted_at": "2026-06-16T18:57:12.836404",
+      "extracted_at": "2026-06-18T21:02:07.250082",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -741,33 +825,36 @@
       },
       "keywords": [
         "Hindu Marriage Act",
-        "1955",
-        "divorce",
-        "null and void",
         "Muslim religious law",
-        "marriage declaration",
+        "null and void",
+        "declaration",
+        "marriage solemnized",
+        "separation",
         "civil court",
         "family court",
-        "op 164/1999",
-        "os no. 491/1998",
-        "mfa no. 1080/2001",
-        "petition dismissal",
-        "marital separation",
-        "15 months",
-        "nullity of marriage"
+        "divorce",
+        "petition",
+        "dismissal",
+        "appeal",
+        "first appeal",
+        "miscellaneous first appeal",
+        "Kerala High Court",
+        "Ernakulam",
+        "Manjeri",
+        "Malappuram District"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a petition for nullity of marriage",
-        "responding to a petition for divorce",
-        "advising on marital separation"
+        "drafting a petition for divorce",
+        "preparing an appeal against dismissal of a petition",
+        "seeking declaration of nullity of marriage"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:22:29.099066"
+      "updated_at": "2026-06-19T09:16:50.649802"
     },
     {
       "id": "HC_0000_Aman_Gupta_State",
@@ -776,7 +863,7 @@
       "source_url": "",
       "pdf_filename": "Aman_Gupta_vs_State_Of_Haryana_Another_on_10_November_2017.PDF",
       "total_pages": 3,
-      "extracted_at": "2026-06-16T18:57:14.323850",
+      "extracted_at": "2026-06-18T21:02:08.211104",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -791,7 +878,7 @@
         "Lisa Gill J."
       ],
       "case_numbers": [],
-      "trial_court": "None mentioned",
+      "trial_court": "Judicial Magistrate First Class, Hisar",
       "reserved_on": "",
       "delivered_on": "",
       "case_name": "Aman Gupta vs State Of Haryana & Another",
@@ -813,7 +900,7 @@
           ]
         }
       ],
-      "facts_of_case": "Matrimonial discord between husband and wife, FIR registered under various IPC sections, compromise arrived at between parties, petition for quashing of FIR.",
+      "facts_of_case": "Matrimonial discord between husband and wife. FIR registered under various IPC sections. Compromise arrived at between parties. Petition for quashing of FIR.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -832,8 +919,8 @@
             "Kulwinder Singh and others versus State of Punjab and another, (2007) 3 R.C.R. (Criminal) 1052"
           ],
           "keywords": [
-            "matrimonial dispute",
             "compromise",
+            "matrimonial dispute",
             "harmony"
           ],
           "favours": "neutral",
@@ -846,7 +933,7 @@
       ],
       "outcome": {
         "result": "Appeal allowed",
-        "final_order": "FIR No. 25 dated 12.04.2016 under Sections 313, 323, 34, 342, 406, 498A, 506 IPC registered at Police Station Women, District Hisar and all other consequential proceedings arising therefrom quashed.",
+        "final_order": "FIR No. 25 dated 12.04.2016 under Sections 313, 323, 34, 342, 406, 498A, 506 IPC quashed.",
         "relief_granted": "",
         "costs": ""
       },
@@ -880,7 +967,7 @@
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:24:43.335521"
+      "updated_at": "2026-06-19T09:19:23.825111"
     },
     {
       "id": "SC_0000_Amit_Kumar_Suman",
@@ -889,7 +976,7 @@
       "source_url": "",
       "pdf_filename": "Amit_Kumar_vs_Suman_Beniwal_on_11_December_2021.PDF",
       "total_pages": 8,
-      "extracted_at": "2026-06-16T18:57:17.718137",
+      "extracted_at": "2026-06-18T21:02:10.741607",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -933,7 +1020,7 @@
           ]
         }
       ],
-      "facts_of_case": "The parties were married for three days before separating. They filed a petition under Section 13B of the Hindu Marriage Act for divorce by mutual consent after over one year of separation.",
+      "facts_of_case": "The parties were married for three days before separating. They filed a petition under Section 13B of the Hindu Marriage Act for a decree of divorce by mutual consent.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -943,8 +1030,8 @@
       ],
       "legal_principles": [
         {
-          "principle": "The statutory period of six months specified in Section 13B(2) is directory in nature.",
-          "held": "However, if a Court comes to the conclusion that there is no chance of a reunion, it should not be powerless to waive the statutory period of six months so that the parties may not be subjected to further agony.",
+          "principle": "The statutory period of six months specified in Section 13B(2) is directory in nature, but the power to waive it is subject to certain conditions.",
+          "held": "Thus, it has been held that six months statutory period prescribed is directory in nature.",
           "applicable_acts_sections": [
             "Hindu Marriage Act — Section 13B"
           ],
@@ -954,19 +1041,42 @@
           "keywords": [
             "waiver",
             "statutory period",
-            "reunion",
-            "agony"
+            "directory",
+            "conditions"
           ],
-          "favours": "neutral",
+          "favors": "neutral",
           "use_in": [
             "divorce cases"
           ],
           "significance": "HIGH",
-          "principle_id": "LP_001"
+          "principle_id": "LP_001",
+          "favours": "neutral"
         },
         {
-          "principle": "All efforts for mediation/conciliation including efforts in terms of Order XXXIIA Rule 3 CPC/Section 23(2) of the Act/Section 9 of the Family Courts Act to reunite the parties have failed and there is no likelihood of success in that direction by any further efforts.",
-          "held": "ii) all efforts for mediation/conciliation including efforts in terms of Order XXXIIA Rule 3 CPC/Section 23(2) of the Act/Section 9 of the Family Courts Act to reunite the parties have failed and there is no likelihood of success in that direction by any further efforts;",
+          "principle": "The court should not grant permission for waiving off the stipulated period of six months under Section 13B(2) if the statutory period of one year under Section 13B is already over before the first motion itself.",
+          "held": "In such circumstances, this Court cannot grant permission for waiving off the stipulated period of six months under Section 13B(2) of the Hindu Marriage Act.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act — Sections 13B(1), 13B(2)"
+          ],
+          "cited_cases": [
+            "Amardeep Singh (supra)"
+          ],
+          "keywords": [
+            "waiver",
+            "statutory period",
+            "first motion"
+          ],
+          "favors": "neutral",
+          "use_in": [
+            "divorce cases"
+          ],
+          "significance": "HIGH",
+          "principle_id": "LP_002",
+          "favours": "neutral"
+        },
+        {
+          "principle": "The court should not grant permission for waiving off the stipulated period of six months under Section 13B(2) if all efforts for mediation/conciliation have failed and there is no likelihood of success in that direction by any further efforts.",
+          "held": "Thus, it has been held that six months statutory period prescribed is directory in nature.",
           "applicable_acts_sections": [
             "Hindu Marriage Act — Section 13B"
           ],
@@ -974,21 +1084,21 @@
             "Amardeep Singh (supra)"
           ],
           "keywords": [
+            "waiver",
             "mediation",
-            "conciliation",
-            "reunion",
-            "efforts"
+            "conciliation"
           ],
-          "favours": "neutral",
+          "favors": "neutral",
           "use_in": [
             "divorce cases"
           ],
           "significance": "HIGH",
-          "principle_id": "LP_002"
+          "principle_id": "LP_003",
+          "favours": "neutral"
         },
         {
-          "principle": "The parties have genuinely settled their differences including alimony, custody of child or any other pending issues between the parties.",
-          "held": "iii) the parties have genuinely settled their differences including alimony, custody of child or any other pending issues between the parties;",
+          "principle": "The court should not grant permission for waiving off the stipulated period of six months under Section 13B(2) if the parties have genuinely settled their differences including alimony, custody of child or any other pending issues between the parties.",
+          "held": "Thus, it has been held that six months statutory period prescribed is directory in nature.",
           "applicable_acts_sections": [
             "Hindu Marriage Act — Section 13B"
           ],
@@ -996,42 +1106,23 @@
             "Amardeep Singh (supra)"
           ],
           "keywords": [
+            "waiver",
             "settlement",
             "alimony",
-            "custody",
-            "differences"
+            "custody"
           ],
-          "favours": "neutral",
+          "favors": "neutral",
           "use_in": [
             "divorce cases"
           ],
           "significance": "HIGH",
-          "principle_id": "LP_003"
-        },
-        {
-          "principle": "The waiting period will only prolong their agony.",
-          "held": "iv) the waiting period will only prolong their agony;",
-          "applicable_acts_sections": [
-            "Hindu Marriage Act — Section 13B"
-          ],
-          "cited_cases": [
-            "Amardeep Singh (supra)"
-          ],
-          "keywords": [
-            "waiting period",
-            "agony"
-          ],
-          "favours": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
-          "significance": "HIGH",
-          "principle_id": "LP_004"
+          "principle_id": "LP_004",
+          "favours": "neutral"
         }
       ],
       "outcome": {
         "result": "Appeal dismissed",
-        "final_order": "The High Court's order dismissing the Civil Revisional Application was upheld, and the requirement to wait six months before filing a petition for divorce was not waived.",
+        "final_order": "The High Court's order dismissing the Civil Revisional Application was upheld, and the requirement to wait six months before filing the petition was not waived.",
         "relief_granted": "",
         "costs": ""
       },
@@ -1044,28 +1135,29 @@
         "separation",
         "Family Court",
         "Civil Revisional Application",
-        "CRA No. 2537/2021(O&M)",
+        "CRA No. 2537/2021",
         "IPS officer",
         "IFS officer",
         "marriage",
-        "petition for divorce",
+        "divorce by mutual consent",
         "waive requirement",
         "six months",
-        "Latin maxim: 'actus curiae neminem occidit'",
-        "Supreme Court of India"
+        "petition for divorce",
+        "Section 13B(2)",
+        "Latin maxim: 'actus curiae neminem esse judicem'"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a petition for divorce under Section 13B of the Hindu Marriage Act",
-        "advising on waiver of requirement to file motion for decree of divorce after six months",
-        "assisting in a case involving irreconcilable differences and separation"
+        "drafting a petition for divorce by mutual consent",
+        "advising on waiver of requirement under Section 13B(2)",
+        "assisting in a civil revisional application"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:27:16.373862"
+      "updated_at": "2026-06-19T09:21:24.610136"
     },
     {
       "id": "HC_2021_Amit_Vyas_Pramila",
@@ -1074,7 +1166,7 @@
       "source_url": "",
       "pdf_filename": "Amit_Vyas_vs_Pramila_Alias_Ranjana_on_27_May_2022.PDF",
       "total_pages": 8,
-      "extracted_at": "2026-06-16T18:57:18.735758",
+      "extracted_at": "2026-06-18T21:02:11.847817",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -1190,8 +1282,8 @@
         }
       ],
       "outcome": {
-        "result": "Review petition allowed",
-        "final_order": "The review applicant's appeal against an order granting interim maintenance to the respondent-wife is held maintainable.",
+        "result": "Appeal allowed",
+        "final_order": "The issue regarding the maintainability of the appeal against an order passed under Section 24 of the Hindu Marriage Act has been resolved by this Court.",
         "relief_granted": "",
         "costs": ""
       },
@@ -1218,14 +1310,14 @@
       "precedent_value": "TODO",
       "use_for_drafting": [
         "drafting divorce petitions",
-        "advising on maintenance claims",
+        "advising on maintenance orders",
         "representing clients in matrimonial disputes"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:28:21.117705"
+      "updated_at": "2026-06-19T09:22:15.717182"
     },
     {
       "id": "HC_0000_Anil_Kumar_Jain",
@@ -1234,7 +1326,7 @@
       "source_url": "",
       "pdf_filename": "Anil_Kumar_Jain_vs_Maya_Jain_on_1_September_2009.PDF",
       "total_pages": 7,
-      "extracted_at": "2026-06-16T18:57:20.471710",
+      "extracted_at": "2026-06-18T21:02:13.387410",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -1313,7 +1405,7 @@
           "principle_id": "LP_001"
         },
         {
-          "principle": "If either of the parties withdraws consent before passing of the final decree, the petition under Section 13-B of the Hindu Marriage Act would not survive and would have to be dismissed.",
+          "principle": "If either of the parties withdraws consent before passing of the final decree, the petition under Section 13-B would not survive and would have to be dismissed.",
           "held": "This Court held that in the event, either of the parties withdrew the consent before passing of the final decree, the petition under Section 13-B of the Hindu Marriage Act would not survive and would have to be dismissed.",
           "applicable_acts_sections": [
             "Hindu Marriage Act, 1955 — Section 13-B"
@@ -1325,7 +1417,7 @@
             "consent",
             "withdrawal",
             "petition",
-            "final decree"
+            "decree"
           ],
           "favours": "neutral",
           "use_in": [
@@ -1352,25 +1444,28 @@
         "marriage rites",
         "Indian Kanoon",
         "Supreme Court",
-        "SC judgment",
-        "family law",
-        "civil appeal",
-        "special leave petition",
-        "CIVIL APPEAL NO.5952 OF 2009",
-        "SLP (CIVIL)NO.14361 OF 2007"
+        "SC",
+        "HC",
+        "family court",
+        "divorce laws",
+        "Indian law",
+        "judicial separation",
+        "divorce petition",
+        "consent withdrawal",
+        "decree of divorce"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a divorce petition under Hindu Marriage Act",
-        "advising on consent withdrawal in mutual divorce cases",
-        "preparing for a Supreme Court appeal in family law matters"
+        "drafting a mutual divorce petition",
+        "advising on consent withdrawal in divorce proceedings",
+        "representing clients in Hindu Marriage Act cases"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:30:33.160996"
+      "updated_at": "2026-06-19T09:24:00.433639"
     },
     {
       "id": "BOM_0000_Anil_Yashwant_Karande",
@@ -1379,7 +1474,7 @@
       "source_url": "",
       "pdf_filename": "Anil_Yashwant_Karande_vs_Smt_Mangal_Anil_Karande_on_23_December_2015.PDF",
       "total_pages": 13,
-      "extracted_at": "2026-06-16T18:57:22.107625",
+      "extracted_at": "2026-06-18T21:02:15.008090",
       "domain": "divorce",
       "sub_domain": "divorce_cruelty",
       "domain_scores": {
@@ -1456,7 +1551,7 @@
             "cruelty",
             "independent proceedings"
           ],
-          "favours": "defendant",
+          "favours": "neutral",
           "use_in": [
             "divorce cases"
           ],
@@ -1464,20 +1559,19 @@
           "principle_id": "LP_001"
         },
         {
-          "principle": "A court cannot set aside the orders passed by lower courts in a case, unless there is a substantial question of law involved.",
-          "held": "He submits that the judgments delivered under family court appeal cannot be relied upon since in family court appeal, the Court has to consider all the questions of facts and law whereas in the second appeal, the Court can interfere only if substantial question of law arises.",
+          "principle": "A court cannot interfere with the findings of fact by lower courts unless there is a substantial question of law.",
+          "held": "He submits that the said findings of fact being not perverse cannot be interfered with by this Court under section 100 of the Code of Civil Procedure, 1908.",
           "applicable_acts_sections": [
             "Code of Civil Procedure — Section 100"
           ],
           "cited_cases": [],
           "keywords": [
-            "substantial question of law",
-            "second appeal",
-            "family court appeal"
+            "findings of fact",
+            "substantial question of law"
           ],
           "favours": "neutral",
           "use_in": [
-            "appeal cases"
+            "appeals against lower court judgments"
           ],
           "significance": "HIGH",
           "principle_id": "LP_002"
@@ -1492,35 +1586,36 @@
       "keywords": [
         "divorce",
         "Hindu Marriage Act",
+        "1955",
         "Code of Civil Procedure",
+        "1908",
         "Indian Penal Code",
+        "1860",
         "second appeal",
         "civil appeal",
-        "family law",
-        "marriage",
-        "separation",
-        "alimony",
+        "family court",
         "maintenance",
-        "custody",
-        "property division",
+        "alimony",
+        "separation",
         "matrimonial dispute",
-        "judicial separation",
-        "divorce petition",
-        "grounds for divorce",
-        "irretrievable breakdown"
+        "marriage",
+        "divorce proceedings",
+        "judgment",
+        "decree",
+        "appealable order"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a divorce petition",
-        "responding to a divorce petition",
-        "negotiating a settlement agreement"
+        "drafting divorce petition",
+        "preparing appeal against family court order",
+        "advising client on maintenance and alimony"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:31:41.644241"
+      "updated_at": "2026-06-19T09:24:52.924380"
     },
     {
       "id": "ALL_0000_Ankit_Kumar_State",
@@ -1529,7 +1624,7 @@
       "source_url": "",
       "pdf_filename": "Ankit_Kumar_vs_State_Of_U_P_And_2_Others_on_25_October_2024.PDF",
       "total_pages": 9,
-      "extracted_at": "2026-06-16T18:57:24.138085",
+      "extracted_at": "2026-06-18T21:02:16.900842",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -1550,7 +1645,7 @@
       "case_name": "Ankit Kumar vs State Of U.P. And 2 Others",
       "parties": {
         "petitioner_plaintiff": "Ankit Kumar (husband)",
-        "respondent_defendant": "State Of U.P. And 2 Others (wife and minor son)",
+        "respondent_defendant": "State Of U.P. and 2 Others (wife and minor son)",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -1595,8 +1690,10 @@
             "maintenance",
             "interim maintenance",
             "expenses",
+            "proceeding",
             "adultery",
-            "separation"
+            "refuses to live with husband",
+            "living separately by mutual consent"
           ],
           "favours": "neutral",
           "use_in": [
@@ -1645,7 +1742,7 @@
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:33:55.108094"
+      "updated_at": "2026-06-19T09:26:33.078921"
     },
     {
       "id": "ALL_0000_Ankit_Suman_State",
@@ -1654,7 +1751,7 @@
       "source_url": "",
       "pdf_filename": "Ankit_Suman_vs_State_Of_U_P_And_Another_on_7_August_2025.PDF",
       "total_pages": 11,
-      "extracted_at": "2026-06-16T18:57:25.798924",
+      "extracted_at": "2026-06-18T21:02:18.281574",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -1701,7 +1798,7 @@
           ]
         }
       ],
-      "facts_of_case": "The husband-petitioner filed a petition for divorce from his wife-respondent under Section 13 of the Hindu Marriage Act, 1955. The respondent-wife appeared and filed a written statement denying the allegations made by the petitioner. During pendency of this petition, an application under Section 24 of the Hindu Marriage Act was filed by the respondent-wife to which the petitioner filed objections.",
+      "facts_of_case": "Husband-petitioner filed a petition for divorce from his wife-respondent No. 2 before the Judge, Family Court under Section 13 of the Hindu Marriage Act, 1955. The case was decided by the order dated 30.10.2020 dismissing the application filed by the wife-respondent No.2.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -1728,68 +1825,72 @@
           "use_in": [
             "divorce cases"
           ],
-          "significance": "HIGH — significance in understanding the commencement of a suit",
+          "significance": "HIGH — determining the start of a proceeding",
           "principle_id": "LP_001",
           "favours": "neutral"
         },
         {
-          "principle": "The word 'during the proceedings' under Section 24 of the Hindu Marriage Act, 1955 are of great consequence.",
-          "held": "This term would cover the proceedings from the start till end to at least from the date the application is made till the termination of proceedings in the Court.",
+          "principle": "The term 'during the proceedings' under Section 24 of the Hindu Marriage Act, 1955 covers the proceedings from the start till end.",
+          "held": "This term would cover the proceedings from the date the application is made till the termination of proceedings in the Court.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act, 1955"
+            "Hindu Marriage Act, 1955 — Section 24"
           ],
           "cited_cases": [
             "Amrit Lal Nehru Vs. Usha Nehru (1982) J&K 98"
           ],
           "keywords": [
             "proceedings",
-            "Section 24"
+            "maintenance pendente lite"
           ],
           "favors": "neutral",
           "use_in": [
-            "maintenance pendente lite cases"
+            "divorce cases"
           ],
-          "significance": "MEDIUM — importance in understanding the scope of Section 24",
+          "significance": "HIGH — determining the scope of Section 24",
           "principle_id": "LP_002",
           "favours": "neutral"
         }
       ],
       "outcome": {
         "result": "Appeal allowed",
-        "final_order": "The order dated 30.10.2020 passed by Additional Principal Judge Family Court, Pilibhit was set aside and the application filed by respondent No. 2 under Section 24 of the Hindu Marriage Act was allowed.",
+        "final_order": "The order passed by this Court dated 18.11.2021 was challenged by the petitioner before Supreme Court and the Supreme Court directed for payment of maintenance to wife and minor daughter.",
         "relief_granted": "",
         "costs": ""
       },
       "keywords": [
         "divorce",
         "Hindu Marriage Act",
+        "1955",
         "Section 13",
         "Section 24",
         "Family Court",
         "Execution Case",
-        "Matrimonial Dispute",
-        "Marriage Dissolution",
-        "Custody Battle",
-        "Maintenance Order",
-        "Property Division",
-        "Alimony Payment",
-        "Separation Agreement",
-        "Legal Separation",
-        "Judicial Separation",
-        "Annulment of Marriage"
+        "Pilibhit",
+        "Additional Principal Judge",
+        "Judge, Family Court",
+        "written statement",
+        "objections",
+        "dismissed",
+        "First Appeal",
+        "matrimonial dispute",
+        "marriage dissolution",
+        "spousal rights",
+        "property settlement",
+        "maintenance",
+        "custody"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
         "drafting divorce petitions",
-        "advising on matrimonial disputes",
-        "representing clients in family courts"
+        "responding to written statements",
+        "objecting to applications under Section 24"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:35:03.267584"
+      "updated_at": "2026-06-19T09:27:27.333118"
     },
     {
       "id": "HC_0000_Anumukonda_Sri_Satya_Devi",
@@ -1798,7 +1899,7 @@
       "source_url": "",
       "pdf_filename": "Anumukonda_Sri_Satya_Devi_E_G_Dist_vs_Anumukonda_Satya_Prabhu_Krishna_Dist_on_6_December_2018 (1).PDF",
       "total_pages": 40,
-      "extracted_at": "2026-06-16T18:57:32.969956",
+      "extracted_at": "2026-06-18T21:02:25.415833",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -1924,7 +2025,7 @@
           "favours": "neutral",
           "use_in": [
             "divorce cases",
-            "family disputes"
+            "civil cases"
           ],
           "significance": "HIGH",
           "principle_id": "LP_001"
@@ -1953,9 +2054,9 @@
         },
         {
           "principle": "Access to justice includes qualitative access, ensuring just and inequitable judicial outcomes.",
-          "held": "Access to justice is, therefore, much more than improving an individual's access to courts, or guaranteeing representation. It must be defined in terms of ensuring that legal and judicial outcomes are just and inequitable.",
+          "held": "Access to justice is, therefore, much more than improving an individual's access to courts, or guaranteeing representation. It must be defined in terms of ensuring that legal and judicial outcomes are just and inequitable [see United Nations Development Programme, Access to Justice-Practice Note (2004)].",
           "applicable_acts_sections": [
-            "Constitution of India — Article 21"
+            "Constitution of India"
           ],
           "cited_cases": [
             "United Nations Development Programme, Access to Justice-Practice Note (2004)"
@@ -1966,8 +2067,8 @@
           ],
           "favours": "neutral",
           "use_in": [
-            "family disputes",
-            "civil cases"
+            "civil cases",
+            "criminal cases"
           ],
           "significance": "MEDIUM",
           "principle_id": "LP_003"
@@ -1988,16 +2089,16 @@
         "conjugal rights",
         "restitution",
         "Family Court",
-        "Srikakulam",
-        "Visakhapatnam",
         "Section 24 CPC",
         "Section 13(1)(ib) Hindu Marriage Act",
+        "transfer relief",
+        "original petition",
+        "petition by petition",
         "male assistance",
         "threat to life",
         "family judge",
-        "transfer relief",
-        "original petition",
-        "petition by petition"
+        "Srikakulam",
+        "Visakhapatnam"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
@@ -2010,7 +2111,7 @@
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:37:59.508506"
+      "updated_at": "2026-06-19T09:30:15.285082"
     },
     {
       "id": "MAD_0000_Arulmozhi_Diviya_Tjegadesan",
@@ -2019,7 +2120,7 @@
       "source_url": "",
       "pdf_filename": "Arulmozhi_Diviya_vs_T_Jegadesan_on_20_January_2026_260526_142711.pdf",
       "total_pages": 3,
-      "extracted_at": "2026-06-16T18:57:34.455321",
+      "extracted_at": "2026-06-18T21:02:26.261288",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -2089,10 +2190,10 @@
           "principle_id": "LP_001"
         },
         {
-          "principle": "The Court should consider the convenience of the wife in matters of transfer.",
-          "held": "This is an indication that convenience of the wife has to be given precedence by the Court.",
+          "principle": "The court should consider the convenience of the wife in matters of transfer.",
+          "held": "This Court is inclined to allow the petition seeking transfer as prayed for, considering the distance between Trichy and Sivakasi.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act, 1955"
+            "Hindu Marriage Act, 1955 — Section 19(iii)"
           ],
           "cited_cases": [],
           "keywords": [
@@ -2135,14 +2236,14 @@
       "precedent_value": "TODO",
       "use_for_drafting": [
         "drafting a transfer petition for divorce case",
-        "advising on jurisdiction in family law matters",
+        "advising on jurisdiction in family court matters",
         "preparing a withdrawal application under section 24 of the Civil Procedure Code"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:40:30.015374"
+      "updated_at": "2026-06-19T09:36:48.537883"
     },
     {
       "id": "HC_0000_Arun_Kumar_Agarwal",
@@ -2151,7 +2252,7 @@
       "source_url": "",
       "pdf_filename": "Arun_Kumar_Agarwal_vs_Radha_Arun_And_Anr_on_12_September_2003.PDF",
       "total_pages": 5,
-      "extracted_at": "2026-06-16T18:57:34.988990",
+      "extracted_at": "2026-06-18T21:02:26.756052",
       "domain": "divorce",
       "sub_domain": "divorce_cruelty",
       "domain_scores": {
@@ -2213,7 +2314,7 @@
           "use_in": [
             "divorce cases"
           ],
-          "significance": "HIGH",
+          "significance": "MEDIUM",
           "principle_id": "LP_001",
           "favours": "neutral"
         },
@@ -2234,7 +2335,7 @@
           "use_in": [
             "divorce cases"
           ],
-          "significance": "HIGH",
+          "significance": "MEDIUM",
           "principle_id": "LP_002",
           "favours": "neutral"
         }
@@ -2259,22 +2360,21 @@
         "Order 1 Rules 3,5,10(2)",
         "Civil Procedure Code",
         "1980",
-        "V of 1908",
-        "Latin maxim",
-        "nemo dat quod non habet"
+        "V /1908",
+        "Latin maxim"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
         "drafting divorce petitions",
-        "adultery cases in Hindu Marriage Act",
-        "petition under Section 13(1)(i)"
+        "advising on co-respondent roles",
+        "representing clients in Hindu Marriage Act cases"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:41:28.036563"
+      "updated_at": "2026-06-19T09:37:43.642625"
     },
     {
       "id": "HC_0000_Aruva_Deshaboina_Sandhya_Rani",
@@ -2283,7 +2383,7 @@
       "source_url": "",
       "pdf_filename": "Aruva_Deshaboina_Sandhya_Rani_vs_Aruva_Rajesh_Karimnagar_on_6_December_2018.PDF",
       "total_pages": 40,
-      "extracted_at": "2026-06-16T18:57:43.414995",
+      "extracted_at": "2026-06-18T21:02:33.930884",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -2383,7 +2483,7 @@
           ]
         }
       ],
-      "facts_of_case": "Multiple divorce petitions filed by the wife seeking transfer to different courts due to various reasons such as distance, lack of male assistance, and threat to life.",
+      "facts_of_case": "Multiple divorce petitions filed by the wife seeking transfer to different courts due to various reasons such as distance, health issues, and threat to life.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -2418,7 +2518,7 @@
           "principle": "Unduly long delay in disposal of cases can lead to blatant violation of the Rule of law and adverse impact on access to justice.",
           "held": "Unduly long delay has the effect of bringing about blatant violation of the Rule of law and adverse impact on the common man's access to justice.",
           "applicable_acts_sections": [
-            "Code of Civil Procedure, 1908"
+            "Constitution of India — Article 21"
           ],
           "cited_cases": [
             "MSM,J Tr.CMP_809 of 2016 & batch"
@@ -2430,8 +2530,8 @@
           ],
           "favours": "neutral",
           "use_in": [
-            "civil cases",
-            "criminal cases"
+            "criminal cases",
+            "civil cases"
           ],
           "significance": "HIGH",
           "principle_id": "LP_002"
@@ -2440,7 +2540,7 @@
           "principle": "Access to justice includes qualitative access, not just improving individual's access to courts or guaranteeing representation.",
           "held": "Access to justice is, therefore, much more than improving an individual's access to courts, or guaranteeing representation. It must be defined in terms of ensuring that legal and judicial outcomes are just and inequitable.",
           "applicable_acts_sections": [
-            "Constitution of India"
+            "Constitution of India — Article 21"
           ],
           "cited_cases": [
             "United Nations Development Programme, Access to Justice-Practice Note (2004)"
@@ -2448,12 +2548,12 @@
           "keywords": [
             "qualitative access",
             "access to courts",
-            "judicial outcomes"
+            "representation"
           ],
           "favours": "neutral",
           "use_in": [
-            "civil cases",
-            "criminal cases"
+            "divorce cases",
+            "civil cases"
           ],
           "significance": "MEDIUM",
           "principle_id": "LP_003"
@@ -2473,29 +2573,27 @@
         "dowry harassment",
         "conjugal rights",
         "Family Court",
-        "Srikakulam",
         "Visakhapatnam",
+        "Srikakulam",
+        "Sec.13(1)(ib)",
         "Section 24 CPC",
-        "Section 13(1)(ib) Hindu Marriage Act",
-        "transfer relief",
-        "original petition",
-        "petition by petition",
-        "male assistance",
-        "threat to life",
-        "restitution of conjugal rights"
+        "Transfer Relief",
+        "Original Petition",
+        "Ground for seeking transfer",
+        "Latin Maxim: Nemo judex in causa sua"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a divorce petition under the Hindu Marriage Act",
-        "seeking transfer of original petition from one court to another",
-        "providing legal aid for victims of domestic violence"
+        "drafting a petition for divorce",
+        "seeking transfer of original petition to another court",
+        "providing grounds for seeking transfer"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:43:37.001528"
+      "updated_at": "2026-06-19T09:40:02.788490"
     },
     {
       "id": "DEL_0000_Aseem_Aggarwal_Ashi",
@@ -2504,7 +2602,7 @@
       "source_url": "",
       "pdf_filename": "Aseem_Aggarwal_vs_Ashi_Kumar_on_18_August_2023.PDF",
       "total_pages": 8,
-      "extracted_at": "2026-06-16T18:57:44.293375",
+      "extracted_at": "2026-06-18T21:02:34.857119",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -2569,21 +2667,63 @@
       ],
       "legal_principles": [
         {
-          "principle_id": "LP_001",
-          "principle": "TODO — one line reusable rule",
-          "held": "TODO — what court actually said (2-4 sentences)",
+          "principle": "While determining an application under Order VII Rule 11 CPC, only the averments made in the petition can be considered.",
+          "held": "It is only the averments made in the petition which can be considered, de-hors the averments and the documents which may have been relied upon by the respondent.",
           "applicable_acts_sections": [
-            "TODO"
+            "Code of Civil Procedure, 1908 — Order VII Rule 11"
           ],
           "cited_cases": [],
           "keywords": [
-            "TODO"
+            "Order VII Rule 11",
+            "averments",
+            "petition"
           ],
-          "favours": "plaintiff / defendant / neutral",
+          "favours": "neutral",
           "use_in": [
-            "TODO — case types"
+            "divorce cases"
           ],
-          "significance": "HIGH / MEDIUM / LOW — one reason"
+          "significance": "MEDIUM",
+          "principle_id": "LP_001"
+        },
+        {
+          "principle": "A plaint must be read as a whole to determine whether it contains merely an illusion of cause of action and no clear right to sue is disclosed.",
+          "held": "There cannot be any compartmentalisation, desertion, segregation and inversion of the language to various paragraphs in the plaint. Further, where such meaningful reading of the plaint makes it clear that it contains merely an illusion of cause of action and no clear right to sue is disclosed, then powers of the court under Order VII Rule 11 should be exercised.",
+          "applicable_acts_sections": [
+            "Code of Civil Procedure, 1908 — Order VII Rule 11"
+          ],
+          "cited_cases": [],
+          "keywords": [
+            "plaint",
+            "cause of action",
+            "right to sue"
+          ],
+          "favours": "neutral",
+          "use_in": [
+            "divorce cases"
+          ],
+          "significance": "MEDIUM",
+          "principle_id": "LP_002"
+        },
+        {
+          "principle": "The basic question to be decided while dealing with an application under Order VII Rule 11, CPC is whether the real cause of action has been set out in the plaint or something purely illusory has been stated.",
+          "held": "The Apex Court held that the basic question to be decided while dealing with an application under Order VII Rule 11, CPC is whether the real cause of action has been set out in the plaint or something purely illusory has been stated with a view to get out of Order VII Rule 11 of the CPC.",
+          "applicable_acts_sections": [
+            "Code of Civil Procedure, 1908 — Order VII Rule 11"
+          ],
+          "cited_cases": [
+            "ITC Limited vs. Debt Recovery Appellate Tribunal and Anr., (1998) 2 SCC 70"
+          ],
+          "keywords": [
+            "cause of action",
+            "illusory",
+            "plaint"
+          ],
+          "favours": "neutral",
+          "use_in": [
+            "divorce cases"
+          ],
+          "significance": "MEDIUM",
+          "principle_id": "LP_003"
         }
       ],
       "outcome": {
@@ -2621,7 +2761,7 @@
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:44:52.026758"
+      "updated_at": "2026-06-19T09:41:05.626801"
     },
     {
       "id": "HC_0000_Ashok_Singh_Pal",
@@ -2630,7 +2770,7 @@
       "source_url": "",
       "pdf_filename": "Ashok_Singh_Pal_vs_Smt_Manjulata_on_14_January_2008.PDF",
       "total_pages": 4,
-      "extracted_at": "2026-06-16T18:57:46.860357",
+      "extracted_at": "2026-06-18T21:02:36.899129",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -2649,8 +2789,8 @@
       "delivered_on": "",
       "case_name": "Ashok Singh Pal vs Smt. Manjulata",
       "parties": {
-        "petitioner_plaintiff": "Petitioner (husband)",
-        "respondent_defendant": "Respondent (wife)",
+        "petitioner_plaintiff": "Petitioner/husband",
+        "respondent_defendant": "Respondent/wife",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -2709,7 +2849,7 @@
         },
         {
           "principle": "An order granting maintenance under Section 488, old Cr.P.C. does not oust the jurisdiction of the Court to order maintenance under Section 24 of the Hindu Marriage Act.",
-          "held": "It has been held by the Gujrat, Punjab and Haryana and Andra Pradesh High Courts in various cases that a application for temporary alimony under Section 24 of the Hindu Marriage Act is not a bar merely because an application under Section 125 Cr.P.C. is also allowed.",
+          "held": "Further, it has been held by the Gujrat High Court that a application for temporary alimony under Section 24 of the Hindu Marriage Act is not a bar merely because an application under Section 125 Cr.P.C. is also allowed.",
           "applicable_acts_sections": [
             "Cr.P.C. — Section 488",
             "Hindu Marriage Act — Section 24"
@@ -2732,6 +2872,31 @@
           "significance": "HIGH",
           "principle_id": "LP_002",
           "favours": "neutral"
+        },
+        {
+          "principle": "Both the provisions of Section 24 of the Hindu Marriage Act and Section 125 of Cr.P.C. can be invoked seeking maintenance and alimony pendente lite by either of the spouse.",
+          "held": "The consistent view of various Courts have been that both the provisions of Section 24 of the Hindu Marriage Act and Section 125 of Cr.P.C. can be invoked seeking maintenance and alimony pendente lite by either of the spouse.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act — Section 24",
+            "Cr.P.C. — Section 125"
+          ],
+          "cited_cases": [
+            "Virendra Kumar v. Santosh Dev, (1988) {1} HLR 373",
+            "Alka v. Vardhaman, (2001) {1} HLR 138"
+          ],
+          "keywords": [
+            "maintenance",
+            "alimony",
+            "pendente lite"
+          ],
+          "favors": "neutral",
+          "use_in": [
+            "divorce cases",
+            "family disputes"
+          ],
+          "significance": "HIGH",
+          "principle_id": "LP_003",
+          "favours": "neutral"
         }
       ],
       "outcome": {
@@ -2744,33 +2909,34 @@
         "divorce",
         "Hindu Marriage Act",
         "maintenance pendente lite",
-        "expenses fo",
-        "Section 13",
-        "Section 24",
+        "expenses pendente lite",
+        "Section 13 HMA",
+        "Section 24 HMA",
         "interim alimony",
         "adjustment of interim alimony",
         "Family Court",
         "Gwalior",
-        "petition under Article 227",
+        "petition under Article 227 Constitution",
         "dissolution of marriage",
         "marriage solemnized",
+        "maintenance",
         "pendente lite",
-        "Latin maxim",
-        "actus reus",
-        "mens rea"
+        "expenses pendente lite",
+        "Section 7 HMA",
+        "Section 10 HMA"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a petition for divorce",
-        "seeking maintenance pendente lite in family court",
-        "challenging an order of the Family Court"
+        "drafting divorce petition under Hindu Marriage Act",
+        "seeking maintenance pendente lite in Family Court",
+        "adjusting interim alimony in divorce proceedings"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:47:02.779029"
+      "updated_at": "2026-06-19T09:43:10.602746"
     },
     {
       "id": "MAD_2018_Apradeep_Rkavitha",
@@ -2779,7 +2945,7 @@
       "source_url": "",
       "pdf_filename": "A_Pradeep_vs_R_Kavitha_on_26_September_2018.PDF",
       "total_pages": 12,
-      "extracted_at": "2026-06-16T18:57:57.020731",
+      "extracted_at": "2026-06-18T21:02:45.426848",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -2823,7 +2989,7 @@
           ]
         }
       ],
-      "facts_of_case": "The appellant/husband filed a petition under Section 12(1)(c) of the Hindu Marriage Act, 1955 to dissolve the marriage held on 01.04.2001 between him and the respondent/wife at the police station. The Family Court dismissed the petition.",
+      "facts_of_case": "Marriage between the parties took place on 01.04.2001 at Reddiyarpalayam Police Station, Pondicherry. The appellant filed a petition under Section 12(1)(c) of the Hindu Marriage Act, 1955 to dissolve the marriage. The Family Court dismissed the petition.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -2834,22 +3000,23 @@
       "legal_principles": [
         {
           "principle": "The burden lies on the party seeking to annul a marriage to establish that the consent was obtained by coercion, fear, or fraud.",
-          "held": "Though they have not lived together after 11.8.2001, the appellant belatedly filed a petition on 21.11.2004 under Section 12(1)(c) of the Act to annul the marriage solemnized on 01.04.2001 on the ground of coercion and fear being exercised on the appellant and his family.",
+          "held": "We have heard the learned counsel for the appellant and the respondent. We have also gone through the pleadings, the evidence on record both documentary and oral recorded and impugned order passed by the Family Court.",
           "applicable_acts_sections": [
             "Hindu Marriage Act, 1955 — Section 12(1)(c)"
           ],
           "cited_cases": [],
           "keywords": [
             "annulment",
+            "consent",
             "coercion",
             "fear",
-            "marriage"
+            "fraud"
           ],
-          "favours": "defendant",
+          "favours": "neutral",
           "use_in": [
             "divorce cases"
           ],
-          "significance": "HIGH",
+          "significance": "MEDIUM",
           "principle_id": "LP_001"
         },
         {
@@ -2862,19 +3029,19 @@
           "keywords": [
             "annulment",
             "fear",
-            "cessation of fear"
+            "cessation"
           ],
-          "favours": "defendant",
+          "favours": "neutral",
           "use_in": [
             "divorce cases"
           ],
-          "significance": "HIGH",
+          "significance": "MEDIUM",
           "principle_id": "LP_002"
         }
       ],
       "outcome": {
         "result": "Appeal allowed",
-        "final_order": "The impugned order dated 18.03.2011 made by the Family Court was set aside.",
+        "final_order": "The impugned order dated 18.03.2011 passed by the Family Court is set aside.",
         "relief_granted": "",
         "costs": ""
       },
@@ -2891,25 +3058,27 @@
         "Reddiyarpalayam Police Station",
         "Pondicherry",
         "elders",
-        "parents",
         "social workers",
         "Latin maxim: Nemo judex in causa sua",
-        "judgment",
-        "appeal",
-        "decretal order"
+        "appellant",
+        "respondent",
+        "wife",
+        "husband",
+        "petition",
+        "judgment"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting divorce appeal",
-        "advising on dissolution of marriage",
-        "assisting with family court matters"
+        "drafting divorce petition",
+        "advising on Hindu Marriage Act",
+        "appealing family court order"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:06:44.059175"
+      "updated_at": "2026-06-19T09:04:36.334904"
     },
     {
       "id": "HC_0000_Premchand",
@@ -2918,7 +3087,7 @@
       "source_url": "",
       "pdf_filename": "A_Premchand_vs_V_Padmapriya_on_1_November_1996.PDF",
       "total_pages": 12,
-      "extracted_at": "2026-06-16T18:57:58.547732",
+      "extracted_at": "2026-06-18T21:02:46.943820",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -2971,8 +3140,8 @@
       ],
       "legal_principles": [
         {
-          "principle": "Consent obtained fraudulently cannot be relied upon",
-          "held": "In the light of the specific pleadings in the counter affidavit, which has not been denied by way of filing a reply by the husband, as well as the oral evidence of the wife that the appellant was aware of the correct date of birth as 6-1-1961 prior to the date of marriage, i.e., on 8-3-87, it is not open to the appellant to contend that his consent was obtained fraudulently.",
+          "principle": "Consent obtained prior to the date of marriage cannot be considered fraudulent if the correct information was disclosed.",
+          "held": "In view of the specific pleadings in the counter affidavit, which has not been denied by way of filing a reply by the husband, as well as the oral evidence of the wife that the appellant was aware of the correct date of birth as 6-1-1961 prior to the date of marriage, i.e., on 8-3-87, it is not open to the appellant to contend that his consent was obtained fraudulently.",
           "applicable_acts_sections": [
             "Hindu Marriage Act, 1955"
           ],
@@ -2982,7 +3151,8 @@
           "keywords": [
             "consent",
             "fraudulent",
-            "marriage"
+            "marriage",
+            "date of birth"
           ],
           "favours": "neutral",
           "use_in": [
@@ -2992,27 +3162,28 @@
           "principle_id": "LP_001"
         },
         {
-          "principle": "Admissions in cross-examination cannot be ignored",
-          "held": "It is also not uncommon in extending marriage invitation to the bride-groom by the wife's relatives and the bride.",
-          "applicable_acts_sections": [],
-          "cited_cases": [
-            "A. Premchand vs V. Padmapriya on 1 November, 1996"
+          "principle": "The burden lies on the party alleging fraud to prove it.",
+          "held": "It is not open to the appellant to contend that his consent was obtained fraudulently.",
+          "applicable_acts_sections": [
+            "Code of Criminal Procedure, 1973"
           ],
+          "cited_cases": [],
           "keywords": [
-            "admissions",
-            "cross-examination"
+            "burden",
+            "fraud",
+            "consent"
           ],
           "favours": "neutral",
           "use_in": [
-            "family law cases"
+            "criminal cases"
           ],
-          "significance": "LOW",
+          "significance": "MEDIUM",
           "principle_id": "LP_002"
         }
       ],
       "outcome": {
         "result": "Appeal allowed",
-        "final_order": "The trial court's decision dismissing the petition was set aside and a decree of nullity was granted to the husband.",
+        "final_order": "The trial court's dismissal of the petition for nullity was set aside and the marriage was annulled.",
         "relief_granted": "",
         "costs": ""
       },
@@ -3044,7 +3215,7 @@
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:07:53.282042"
+      "updated_at": "2026-06-19T09:05:28.204878"
     },
     {
       "id": "MAD_0000_Arindira_Nkadappan",
@@ -3053,7 +3224,7 @@
       "source_url": "",
       "pdf_filename": "A_R_Indira_vs_N_Kadappan.PDF",
       "total_pages": 8,
-      "extracted_at": "2026-06-16T18:57:59.343421",
+      "extracted_at": "2026-06-18T21:02:47.723805",
       "domain": "divorce",
       "sub_domain": "divorce_cruelty",
       "domain_scores": {
@@ -3157,7 +3328,7 @@
       ],
       "outcome": {
         "result": "Appeal allowed",
-        "final_order": "The order dated 12.04.2011 made by the trial court was set aside, and the appeal was allowed.",
+        "final_order": "The order dated 12.04.2011 made by the trial court was set aside, and the fair and decreetal order dated 24.10.2007 was confirmed.",
         "relief_granted": "",
         "costs": ""
       },
@@ -3195,7 +3366,7 @@
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:08:55.635899"
+      "updated_at": "2026-06-19T09:06:17.809224"
     },
     {
       "id": "HC_0000_Sumalata_Adilabad_Dist",
@@ -3204,7 +3375,7 @@
       "source_url": "",
       "pdf_filename": "A_Sumalata_Adilabad_Dist_vs_A_Sridhar_Khammam_Dist_on_6_December_2018.PDF",
       "total_pages": 40,
-      "extracted_at": "2026-06-16T18:58:04.482633",
+      "extracted_at": "2026-06-18T21:02:52.637828",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -3304,7 +3475,7 @@
           ]
         }
       ],
-      "facts_of_case": "Multiple divorce petitions filed by wife seeking transfer to different courts due to various reasons such as distance, threat to life, and difficulty in travelling.",
+      "facts_of_case": "Multiple divorce petitions filed by wife seeking transfer to different courts due to various reasons such as distance, threat to life, and difficulty in traveling.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -3408,15 +3579,15 @@
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting divorce petitions",
-        "advising on transfer of cases between courts",
-        "assisting with family law disputes"
+        "drafting a divorce petition",
+        "seeking transfer of original petition",
+        "providing grounds for seeking transfer relief"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:11:18.556118"
+      "updated_at": "2026-06-19T09:08:09.664629"
     },
     {
       "id": "MAD_0000_Viswanathan",
@@ -3425,7 +3596,7 @@
       "source_url": "",
       "pdf_filename": "A_Viswanathan_vs_G_Lakshmi_Seetha_on_20_November_2006.PDF",
       "total_pages": 18,
-      "extracted_at": "2026-06-16T18:58:07.494628",
+      "extracted_at": "2026-06-18T21:02:55.260915",
       "domain": "divorce",
       "sub_domain": "divorce_cruelty",
       "domain_scores": {
@@ -3545,24 +3716,27 @@
         "Judicial Separation",
         "Marriage Dissolution",
         "Matrimonial Dispute",
-        "Cruel Treatment",
-        "Spousal Abuse",
-        "Divorce Petition",
-        "Marital Breakdown",
-        "Legal Separation"
+        "Custody Battle",
+        "Maintenance Order",
+        "Property Division",
+        "Alimony",
+        "Separate Maintenance",
+        "Joint Family",
+        "Mutual Consent",
+        "Consent Divorce"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
         "drafting divorce petitions",
         "advising on matrimonial disputes",
-        "representing clients in family court"
+        "representing clients in family courts"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:12:34.902034"
+      "updated_at": "2026-06-19T09:09:06.840474"
     },
     {
       "id": "HC_0000_Bandula_Bhavani_Egdist",
@@ -3571,7 +3745,7 @@
       "source_url": "",
       "pdf_filename": "Bandula_Bhavani_E_G_Dist_vs_Bandula_Upparayya_W_G_Dist_on_6_December_2018.PDF",
       "total_pages": 40,
-      "extracted_at": "2026-06-16T18:58:13.178865",
+      "extracted_at": "2026-06-18T21:03:00.225841",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -3600,8 +3774,8 @@
       "delivered_on": "",
       "case_name": "Bandula Bhavani, E.G.Dist vs Bandula Upparayya, W.G.Dist on 6 December, 2018",
       "parties": {
-        "petitioner_plaintiff": "Petitioner (wife or husband) — full case name",
-        "respondent_defendant": "Respondent (husband or wife)",
+        "petitioner_plaintiff": "Bandula Bhavani, wife",
+        "respondent_defendant": "Bandula Upparayya, husband",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -3671,7 +3845,7 @@
           ]
         }
       ],
-      "facts_of_case": "Multiple parties filed petitions to withdraw original petitions and transfer them to different courts based on various grounds such as distance, threat to life, difficulty in travelling, etc.",
+      "facts_of_case": "Petitioner wife seeks transfer of original petitions pending in different courts to Srikakulam court for hearing together.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -3697,7 +3871,7 @@
           "favours": "neutral",
           "use_in": [
             "divorce cases",
-            "civil cases"
+            "criminal matters"
           ],
           "significance": "HIGH",
           "principle_id": "LP_001"
@@ -3719,14 +3893,14 @@
           "favours": "neutral",
           "use_in": [
             "criminal cases",
-            "civil cases"
+            "civil disputes"
           ],
           "significance": "HIGH",
           "principle_id": "LP_002"
         },
         {
           "principle": "Access to justice includes qualitative access, ensuring just and inequitable judicial outcomes.",
-          "held": "Access to justice is, therefore, much more than improving an individual's access to courts, or guaranteeing representation. It must be defined in terms of ensuring that legal and judicial outcomes are just and inequitable",
+          "held": "Access to justice is, therefore, much more than improving an individual's access to courts, or guaranteeing representation. It must be defined in terms of ensuring that legal and judicial outcomes are just and inequitable [see United Nations Development Programme, Access to Justice-Practice Note (2004)].",
           "applicable_acts_sections": [
             "Constitution of India — Article 21"
           ],
@@ -3740,8 +3914,8 @@
           ],
           "favours": "neutral",
           "use_in": [
-            "civil cases",
-            "criminal cases"
+            "family disputes",
+            "property cases"
           ],
           "significance": "MEDIUM",
           "principle_id": "LP_003"
@@ -3763,7 +3937,7 @@
           "favours": "neutral",
           "use_in": [
             "criminal cases",
-            "civil cases"
+            "civil disputes"
           ],
           "significance": "HIGH",
           "principle_id": "LP_004"
@@ -3771,7 +3945,7 @@
       ],
       "outcome": {
         "result": "Appeal dismissed",
-        "final_order": null,
+        "final_order": "All Transfer Civil Miscellaneous Petitions are dismissed.",
         "relief_granted": "",
         "costs": ""
       },
@@ -3796,13 +3970,13 @@
       "use_for_drafting": [
         "drafting a petition for divorce",
         "seeking transfer of original petition to another court",
-        "handling dowry harassment cases"
+        "providing grounds for seeking transfer"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:49:29.932597"
+      "updated_at": "2026-06-19T09:45:32.989387"
     },
     {
       "id": "HC_0000_Bathula_Madhuri_Secunderabad",
@@ -3811,9 +3985,9 @@
       "source_url": "",
       "pdf_filename": "Bathula_Madhuri_Secunderabad_vs_Bathula_Murali_Venkata_Krishna_Prasad_on_6_December_2018.PDF",
       "total_pages": 40,
-      "extracted_at": "2026-06-16T18:58:23.818311",
+      "extracted_at": "2026-06-18T21:03:09.187511",
       "domain": "divorce",
-      "sub_domain": "divorce",
+      "sub_domain": "divorce_cruelty",
       "domain_scores": {
         "divorce": 9,
         "partition": 2,
@@ -3911,7 +4085,7 @@
           ]
         }
       ],
-      "facts_of_case": "The wife filed multiple petitions for dissolution of marriage and restitution of conjugal rights, citing difficulties in traveling long distances and threats to her life. She sought transfer of the cases from different courts to a single court.",
+      "facts_of_case": "The wife filed multiple petitions for dissolution of marriage and restitution of conjugal rights, citing various grounds such as distance, lack of male assistance, threat to life, dowry harassment, and difficulty in travelling. She sought transfer of these petitions from different courts to the Family Court at Srikakulam.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -3999,29 +4173,30 @@
         "Protection of Women from DV Act",
         "dowry harassment",
         "conjugal rights",
+        "restitution",
         "Family Court",
         "Srikakulam",
         "Visakhapatnam",
         "Secunderabad",
-        "Transfer Civil Miscellaneous Petition",
+        "transfer petition",
         "Section 24 CPC",
         "Section 13(1)(ib) Hindu Marriage Act",
         "male assistance",
         "threat to life",
-        "restitution of conjugal rights"
+        "Latin maxim: Nemo judex in causa sua"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a divorce petition under the Hindu Marriage Act",
-        "seeking transfer of a civil miscellaneous petition under Section 24 CPC",
-        "providing legal aid for victims of domestic violence"
+        "drafting a transfer petition under Section 24 CPC",
+        "advising on divorce proceedings under the Hindu Marriage Act",
+        "assisting with protection orders under the Protection of Women from DV Act"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:52:23.673664"
+      "updated_at": "2026-06-19T09:48:35.742769"
     },
     {
       "id": "HC_0000_Chakradharamahanthi_Vekata_Maikya",
@@ -4030,7 +4205,7 @@
       "source_url": "",
       "pdf_filename": "Chakradharamahanthi_Vekata_Maikya_vs_Chakradharamahanthi_Vekata_Ramana_on_6_December_2018.PDF",
       "total_pages": 40,
-      "extracted_at": "2026-06-16T18:58:47.059655",
+      "extracted_at": "2026-06-18T21:03:28.634076",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -4130,7 +4305,7 @@
           ]
         }
       ],
-      "facts_of_case": "Petitioner wife seeks transfer of original petitions pending in different courts to Srikakulam court, citing difficulty in traveling long distances and threat to life.",
+      "facts_of_case": "Petitioner wife seeks transfer of original petitions pending in different courts to Srikakulam, citing distance and threat to life.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -4151,12 +4326,13 @@
           "keywords": [
             "access to justice",
             "Rule of law",
-            "delay in disposal of cases"
+            "delay",
+            "violation"
           ],
           "favours": "neutral",
           "use_in": [
-            "divorce case",
-            "family dispute resolution"
+            "divorce cases",
+            "family disputes"
           ],
           "significance": "HIGH",
           "principle_id": "LP_001"
@@ -4172,19 +4348,20 @@
           ],
           "keywords": [
             "access to justice",
-            "just and inequitable outcomes"
+            "just outcomes",
+            "inequitable"
           ],
           "favours": "neutral",
           "use_in": [
-            "divorce case",
-            "family dispute resolution"
+            "criminal cases",
+            "civil disputes"
           ],
           "significance": "HIGH",
           "principle_id": "LP_002"
         },
         {
           "principle": "The right of access to an independent judiciary is vital for the Rule of law.",
-          "held": "It is submitted that the stay of investigation or trial for significant periods of time runs counter to the principle of Rule of law, wherein the rights and aspirations of citizens are intertwined with expeditious conclusion of matters.",
+          "held": "It is submitted that the stay of investigation or trial for significant periods runs counter to the principle of Rule of law, wherein the rights and aspirations of citizens are intertwined with expeditious conclusion of matters.",
           "applicable_acts_sections": [
             "Constitution of India — Article 21"
           ],
@@ -4192,20 +4369,21 @@
             "Brij Mohan Lal v. Union of India and Ors (2012) 6 SCC 502"
           ],
           "keywords": [
-            "access to an independent judiciary",
-            "Rule of law"
+            "Rule of law",
+            "independent judiciary",
+            "access to justice"
           ],
           "favours": "neutral",
           "use_in": [
-            "divorce case",
-            "family dispute resolution"
+            "criminal cases",
+            "civil disputes"
           ],
           "significance": "HIGH",
           "principle_id": "LP_003"
         },
         {
-          "principle": "The right to expeditious and fair trial is guaranteed under Article 21 of the Constitution.",
-          "held": "Article 21 of the Constitution of India takes in its sweep the right to expeditious and fair trial. Even Article 39A of the Constitution recognises the right of citizens to equal justice and free legal aid.",
+          "principle": "The right to expeditious and fair trial is guaranteed by Article 21 of the Constitution.",
+          "held": "Article 21 of the Constitution takes in its sweep the right to expeditious and fair trial. Even Article 39A of the Constitution recognises the right of citizens to equal justice and free legal aid.",
           "applicable_acts_sections": [
             "Constitution of India — Article 21"
           ],
@@ -4213,13 +4391,14 @@
             "Brij Mohan Lal v. Union of India and Ors (2012) 6 SCC 502"
           ],
           "keywords": [
-            "right to expeditious and fair trial",
+            "expeditious trial",
+            "fair trial",
             "Article 21"
           ],
           "favours": "neutral",
           "use_in": [
-            "divorce case",
-            "family dispute resolution"
+            "criminal cases",
+            "civil disputes"
           ],
           "significance": "HIGH",
           "principle_id": "LP_004"
@@ -4240,34 +4419,31 @@
         "conjugal rights",
         "restitution",
         "Family Court",
-        "Visakhapatnam",
         "Srikakulam",
-        "Sec.13(1)(ib)",
+        "Visakhapatnam",
         "Section 24 CPC",
-        "Transfer Relief",
-        "Original Petition",
-        "CPC",
-        "DV Act",
-        "Hindu Marriage",
-        "marriage dissolution",
+        "Section 13(1)(ib) Hindu Marriage Act",
         "male assistance",
         "threat to life",
-        "dowry",
-        "harassment",
-        "Latin maxim: Nemo judex in causa sua"
+        "family violence",
+        "marriage dissolution",
+        "petition for divorce",
+        "transfer of petition",
+        "original petition",
+        "civil miscellaneous petition"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a divorce petition under Hindu Marriage Act",
-        "advising on transfer of original petition from one court to another",
-        "representing a client seeking protection under Protection of Women from DV Act"
+        "drafting a petition for divorce",
+        "seeking transfer of a civil miscellaneous petition",
+        "providing legal assistance in family violence cases"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:59:09.984376"
+      "updated_at": "2026-06-19T09:59:09.707468"
     },
     {
       "id": "BOM_0000_Chitra_Sachin_Mapara",
@@ -4276,9 +4452,9 @@
       "source_url": "",
       "pdf_filename": "Chitra_Sachin_Mapara_vs_Shri_Sachin_Kumar_Mapara_on_20_December_2016.PDF",
       "total_pages": 22,
-      "extracted_at": "2026-06-16T18:58:56.758901",
+      "extracted_at": "2026-06-18T21:03:37.057667",
       "domain": "divorce",
-      "sub_domain": "divorce",
+      "sub_domain": "maintenance",
       "domain_scores": {
         "divorce": 10,
         "cheque_bounce": 1,
@@ -4295,10 +4471,10 @@
       "trial_court": "",
       "reserved_on": "",
       "delivered_on": "",
-      "case_name": "Chitra Sachin Mapara vs Shri Sachin Kumar Mapara",
+      "case_name": "Chitra Sachin Mapara vs Shri Sachin Kumar Mapara on 20 December, 2016",
       "parties": {
-        "petitioner_plaintiff": "Chitra Sachin Mapara, Housewife",
-        "respondent_defendant": "Sachin Kumar Mapara, Service",
+        "petitioner_plaintiff": "TODO — fill manually",
+        "respondent_defendant": "TODO — fill manually",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -4326,7 +4502,7 @@
           ]
         }
       ],
-      "facts_of_case": "Appellant (housewife) and respondent (service) were married in 2002. Respondent filed a marriage petition seeking dissolution of the marriage and alimony. Trial court allowed the petition. Appellant appealed.",
+      "facts_of_case": "This is a divorce case decided by High Court of Judicature at Bombay on . The case involves Chitra Sachin Mapara vs Shri Sachin Kumar Mapara on 20 December, 2016. Relevant statutes include Hindu Marriage Act, 1955, Code of Civil Procedure, 1908.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -4336,96 +4512,72 @@
       ],
       "legal_principles": [
         {
-          "principle": "Normally some ups and down, wear and tear are bound to be there in the matrimonial life and no spouse however, could make any capital of such petty issues.",
-          "held": "The learned trial Judge rightly held that normally some ups and down, wear and tear are bound to be there in the matrimonial life and no spouse however, could make any capital of such petty issues.",
+          "principle": "Mental cruelty as a ground for divorce must be assessed based on the entire matrimonial life and not isolated incidents",
+          "held": "The court must look at the cumulative effect of the conduct of the respondent on the petitioner's mental health. Individual acts may appear trivial but their overall impact may constitute cruelty.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act, 1955"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
           ],
-          "cited_cases": [],
           "keywords": [
-            "matrimonial life",
-            "petty issues"
+            "mental cruelty",
+            "divorce",
+            "matrimonial cruelty",
+            "cumulative effect"
           ],
           "favours": "neutral",
+          "significance": "HIGH",
+          "principle_id": "LP_001",
+          "cited_cases": [],
           "use_in": [
-            "divorce cases"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_001"
+            "divorce"
+          ]
         },
         {
-          "principle": "The instances alleged by the respondent against the appellant in respect of the alleged cruelty did not constitute the act of cruelty as envisaged under section 13(1)(ia) of the Hindu Marriage Act, 1955.",
-          "held": "He submits that the learned trial Judge has rightly held that the instances alleged by the respondent against the appellant in respect of the alleged cruelty did not constitute the act of cruelty as envisaged under section 13(1)(ia) of the Hindu Marriage Act, 1955.",
+          "principle": "Desertion requires both factum deserendi and animus deserendi — physical separation alone is insufficient",
+          "held": "For desertion to be proved under Section 13(1)(ib) HMA, the petitioner must establish both the factum of desertion (physical separation) and the animus deserendi (intention to permanently desert). Absence without animus is not desertion in law.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act, 1955"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
           ],
-          "cited_cases": [],
           "keywords": [
-            "cruelty",
-            "act of cruelty"
+            "desertion",
+            "animus deserendi",
+            "factum deserendi",
+            "separation",
+            "divorce desertion ground"
           ],
           "favours": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_002"
-        },
-        {
-          "principle": "The burden lies on the party alleging cruelty to prove the same.",
-          "held": "He submits that the first appellate Court ought to have scrutinized the alleged acts of cruelty which were condoned by the respondent and which were not condoned before passing any decree of divorce.",
-          "applicable_acts_sections": [
-            "Code of Civil Procedure, 1908"
-          ],
+          "significance": "HIGH",
+          "principle_id": "LP_002",
           "cited_cases": [],
-          "keywords": [
-            "burden",
-            "cruelty"
-          ],
-          "favours": "neutral",
           "use_in": [
-            "divorce cases"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_003"
+            "divorce"
+          ]
         }
       ],
       "outcome": {
-        "result": "Appeal allowed",
-        "final_order": "The final court order set aside the trial court's decision and dismissed the respondent's petition for divorce.",
+        "result": "divorce case — see full judgment",
+        "final_order": "",
         "relief_granted": "",
         "costs": ""
       },
       "keywords": [
+        "bombay",
         "divorce",
-        "Hindu Marriage Act",
-        "Code of Civil Procedure",
-        "second appeal",
-        "civil application",
-        "family court",
-        "maintenance",
-        "alimony",
-        "property division",
-        "matrimonial dispute",
-        "marriage dissolution",
-        "judgment and decree",
-        "section 100",
-        "section 125",
-        "Section 23(1)(a)",
-        "Latin maxim: Nemo dat quod non habet"
+        "code of civil procedure 1908",
+        "hindu marriage act 1955",
+        "chitra sachin mapara vs shri s"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a divorce petition",
-        "advising on maintenance and alimony",
-        "preparing for a family court hearing"
+        "divorce petition",
+        "divorce arguments",
+        "Citing divorce precedents"
       ],
       "annotation_verified": false,
-      "annotation_status": "auto_llm",
-      "annotated_by": "ollama_llama3",
+      "annotation_status": "auto_template",
+      "annotated_by": "auto_template_engine",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T20:02:34.675346"
+      "updated_at": "2026-06-19T11:01:48.771303"
     },
     {
       "id": "HC_0000_Keerthi_Reddy_Hyderabad",
@@ -4434,7 +4586,7 @@
       "source_url": "",
       "pdf_filename": "Ch_Keerthi_Reddy_Hyderabad_vs_C_Shravan_Reddy_Karimnagar_Dist_on_6_December_2018.PDF",
       "total_pages": 40,
-      "extracted_at": "2026-06-16T18:59:02.345338",
+      "extracted_at": "2026-06-18T21:03:42.178621",
       "domain": "divorce",
       "sub_domain": "divorce",
       "domain_scores": {
@@ -4575,7 +4727,7 @@
             "MSM,J Tr.CMP_809 of 2016 & batch"
           ],
           "keywords": [
-            "unduly long delay",
+            "delay",
             "Rule of law",
             "access to justice"
           ],
@@ -4588,39 +4740,34 @@
           "principle_id": "LP_002"
         },
         {
-          "principle": "Access to justice includes qualitative access, not just improving individual's access to courts or guaranteeing representation.",
+          "principle": "Access to justice includes qualitative access, ensuring just and inequitable judicial outcomes.",
           "held": "Access to justice is, therefore, much more than improving an individual's access to courts, or guaranteeing representation. It must be defined in terms of ensuring that legal and judicial outcomes are just and inequitable.",
-          "applicable_acts_sections": [
-            "Constitution of India — Article 21"
-          ],
           "cited_cases": [
             "United Nations Development Programme, Access to Justice-Practice Note (2004)"
           ],
           "keywords": [
             "qualitative access",
-            "access to courts",
-            "judicial outcomes"
+            "just outcomes",
+            "inequitable outcomes"
           ],
           "favours": "neutral",
           "use_in": [
-            "divorce cases",
+            "family cases",
             "civil cases"
           ],
           "significance": "MEDIUM",
-          "principle_id": "LP_003"
+          "principle_id": "LP_003",
+          "applicable_acts_sections": []
         },
         {
-          "principle": "Delay in conclusion of criminal matters can restrict the right of access to justice, thus amounting to a violation of citizen's rights under Article 21.",
+          "principle": "Delay in conclusion of criminal matters can restrict the right of access to justice, violating citizen's rights under Article 21.",
           "held": "It is further submitted that delay in conclusion of criminal matters signifies a restriction on the right of access to justice itself, thus amounting to a violation of citizen's rights under the Constitution, in particular Under Article 21.",
-          "applicable_acts_sections": [
-            "Constitution of India — Article 21"
-          ],
           "cited_cases": [
             "Brij Mohan Lal v. Union of India and Ors, (2012) 6 SCC 502"
           ],
           "keywords": [
             "delay",
-            "right of access to justice",
+            "criminal matters",
             "Article 21"
           ],
           "favours": "neutral",
@@ -4629,7 +4776,8 @@
             "civil cases"
           ],
           "significance": "HIGH",
-          "principle_id": "LP_004"
+          "principle_id": "LP_004",
+          "applicable_acts_sections": []
         }
       ],
       "outcome": {
@@ -4648,8 +4796,8 @@
         "Family Court",
         "Srikakulam",
         "Visakhapatnam",
-        "Sec.13(1)(ib)",
         "Section 24 CPC",
+        "Section 13(1)(ib) Hindu Marriage Act",
         "Transfer Relief",
         "Original Petition",
         "Ground for seeking transfer",
@@ -4660,15 +4808,15 @@
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a petition for divorce",
-        "seeking transfer of original petition",
-        "providing grounds for seeking transfer"
+        "drafting divorce petitions",
+        "seeking transfer of cases",
+        "providing legal advice on family law matters"
       ],
       "annotation_verified": false,
       "annotation_status": "auto_llm",
       "annotated_by": "ollama_llama3",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T19:57:50.872700"
+      "updated_at": "2026-06-19T09:57:51.668663"
     },
     {
       "id": "SC_0000_Darshan_Gupta_Radhika",
@@ -4677,9 +4825,9 @@
       "source_url": "",
       "pdf_filename": "Darshan_Gupta_vs_Radhika_Gupta_on_1_July_2013.PDF",
       "total_pages": 20,
-      "extracted_at": "2026-06-16T18:59:05.942725",
+      "extracted_at": "2026-06-18T21:03:44.978820",
       "domain": "divorce",
-      "sub_domain": "divorce",
+      "sub_domain": "maintenance",
       "domain_scores": {
         "divorce": 9,
         "maintenance": 2,
@@ -4695,10 +4843,10 @@
       "trial_court": "",
       "reserved_on": "",
       "delivered_on": "",
-      "case_name": "Darshan Gupta vs Radhika Gupta",
+      "case_name": "Darshan Gupta vs Radhika Gupta on 1 July, 2013",
       "parties": {
-        "petitioner_plaintiff": "Darshan Gupta — husband",
-        "respondent_defendant": "Radhika Gupta — wife",
+        "petitioner_plaintiff": "TODO — fill manually",
+        "respondent_defendant": "TODO — fill manually",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -4717,7 +4865,7 @@
           ]
         }
       ],
-      "facts_of_case": "Marriage between Darshan and Radhika was solemnized in 1997. They had two pregnancies, both of which were terminated due to medical complications. The second pregnancy resulted in the birth of a child who survived for only eight days.",
+      "facts_of_case": "This is a divorce case decided by Supreme Court of India on . The case involves Darshan Gupta vs Radhika Gupta on 1 July, 2013. Relevant statutes include Hindu Marriage Act, 1955.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -4727,76 +4875,71 @@
       ],
       "legal_principles": [
         {
-          "principle": "The burden lies on the party alleging cruelty to prove it.",
-          "held": "The Court was of the view, that there was no evidence before the Court, except the deposition of interested witnesses, namely, the appellant-husband himself, his maternal aunt Nirmala Devi and his elder twin brother Darpan Gupta.",
-          "applicable_acts_sections": [],
-          "cited_cases": [],
-          "keywords": [
-            "cruelty",
-            "burden"
+          "principle": "Mental cruelty as a ground for divorce must be assessed based on the entire matrimonial life and not isolated incidents",
+          "held": "The court must look at the cumulative effect of the conduct of the respondent on the petitioner's mental health. Individual acts may appear trivial but their overall impact may constitute cruelty.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
           ],
-          "favours": "defendant",
-          "use_in": [
-            "divorce cases"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_001"
-        },
-        {
-          "principle": "Expert opinion evidence must be credible and reliable.",
-          "held": "Dr. M. Veera Raghawa Reddy-PW4, had admitted that while examining Radhika Gupta, he did not observe any signs of aggressiveness in the respondent-wife.",
-          "applicable_acts_sections": [],
-          "cited_cases": [],
           "keywords": [
-            "expert opinion",
-            "credibility"
+            "mental cruelty",
+            "divorce",
+            "matrimonial cruelty",
+            "cumulative effect"
           ],
           "favours": "neutral",
-          "use_in": [
-            "medical malpractice cases"
-          ],
           "significance": "HIGH",
-          "principle_id": "LP_002"
+          "principle_id": "LP_001",
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
+        },
+        {
+          "principle": "Desertion requires both factum deserendi and animus deserendi — physical separation alone is insufficient",
+          "held": "For desertion to be proved under Section 13(1)(ib) HMA, the petitioner must establish both the factum of desertion (physical separation) and the animus deserendi (intention to permanently desert). Absence without animus is not desertion in law.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
+          ],
+          "keywords": [
+            "desertion",
+            "animus deserendi",
+            "factum deserendi",
+            "separation",
+            "divorce desertion ground"
+          ],
+          "favours": "neutral",
+          "significance": "HIGH",
+          "principle_id": "LP_002",
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
         }
       ],
       "outcome": {
-        "result": "TODO",
-        "final_order": "TODO — 2-3 sentence summary",
-        "relief_granted": "TODO",
-        "costs": "TODO"
+        "result": "divorce case — see full judgment",
+        "final_order": "",
+        "relief_granted": "",
+        "costs": ""
       },
       "keywords": [
-        "Hindu Marriage Act",
-        "1955",
-        "consummation",
-        "abortion",
-        "hypertension",
-        "morning sickness",
-        "general weakness",
-        "medical advice",
         "divorce",
-        "matrimonial alliance",
-        "well-to-do families",
-        "marriage solemnized",
-        "Holiday Inn Hotel",
-        "Hyderabad",
-        "Hindu rights and customs",
-        "consummation of marriage",
-        "love and affection",
-        "cordiality between parties"
+        "darshan gupta vs radhika gupta",
+        "supreme court of ind",
+        "hindu marriage act 1955"
       ],
-      "relevance_score": 3,
+      "relevance_score": 5,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting divorce petition",
-        "advising on Hindu Marriage Act",
-        "representing client in family court"
+        "divorce petition",
+        "divorce arguments",
+        "Citing divorce precedents"
       ],
       "annotation_verified": false,
-      "annotation_status": "auto_llm",
-      "annotated_by": "ollama_llama3",
+      "annotation_status": "auto_template",
+      "annotated_by": "auto_template_engine",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T20:03:23.272822"
+      "updated_at": "2026-06-19T11:01:48.774926"
     },
     {
       "id": "ALL_2016_Deepak_Bose_Shrabonee",
@@ -4805,9 +4948,9 @@
       "source_url": "",
       "pdf_filename": "Deepak_Bose_vs_Shrabonee_Bose_on_14_March_2022.PDF",
       "total_pages": 18,
-      "extracted_at": "2026-06-16T18:59:08.826849",
+      "extracted_at": "2026-06-18T21:03:47.131485",
       "domain": "divorce",
-      "sub_domain": "divorce_cruelty",
+      "sub_domain": "maintenance",
       "domain_scores": {
         "divorce": 11,
         "maintenance": 3,
@@ -4821,13 +4964,13 @@
       "bench": "Single Judge",
       "judges": [],
       "case_numbers": [],
-      "trial_court": "Civil Judge (Senior Division), Ghaziabad, Marriage Petition No.1098 of 2010",
+      "trial_court": "",
       "reserved_on": "",
       "delivered_on": "17.11.2016",
-      "case_name": "Deepak Bose vs Shrabonee Bose",
+      "case_name": "Deepak Bose vs Shrabonee Bose on 14 March, 2022",
       "parties": {
-        "petitioner_plaintiff": "husband, Deepak Bose",
-        "respondent_defendant": "wife, Shrabonee Bose",
+        "petitioner_plaintiff": "TODO — fill manually",
+        "respondent_defendant": "TODO — fill manually",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -4883,7 +5026,7 @@
           ]
         }
       ],
-      "facts_of_case": "Deepak Bose and Shrabonee Bose were married in 2001. Deepak discovered that Shrabonee was a divorcee six years after marriage. He claims he was defrauded into marrying her and seeks divorce.",
+      "facts_of_case": "This is a divorce case decided by High Court of Judicature at Allahabad on 17.11.2016. The case involves Deepak Bose vs Shrabonee Bose on 14 March, 2022. Relevant statutes include Hindu Marriage Act, 1955, Code of Civil Procedure, 1908, Indian Penal Code, 1860.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -4893,110 +5036,74 @@
       ],
       "legal_principles": [
         {
-          "principle": "Desertion is not a single act, but a continuous course of conduct.",
-          "held": "Desertion, therefore, means withdrawing from the matrimonial obligations i.e. not permitting or allowing and facilitating the cohabitation between the parties.",
+          "principle": "Mental cruelty as a ground for divorce must be assessed based on the entire matrimonial life and not isolated incidents",
+          "held": "The court must look at the cumulative effect of the conduct of the respondent on the petitioner's mental health. Individual acts may appear trivial but their overall impact may constitute cruelty.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act, 1955"
-          ],
-          "cited_cases": [
-            "Bipinchandra Jaisinghbai Shah v. Prabhavati, (1957) SC 176"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
           ],
           "keywords": [
-            "desertion",
-            "matrimonial obligations",
-            "cohabitation"
+            "mental cruelty",
+            "divorce",
+            "matrimonial cruelty",
+            "cumulative effect"
           ],
-          "favors": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
+          "favours": "neutral",
           "significance": "HIGH",
           "principle_id": "LP_001",
-          "favours": "neutral"
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
         },
         {
-          "principle": "Two essential conditions must be present for the offence of desertion: factum of separation and intention to bring cohabitation permanently to an end.",
-          "held": "For the offence of desertion, so far as the deserted spouse is concerned, two essential conditions must be there, namely (1) the factum of separation, and (2) the intention to bring cohabitation permanently to an end (animus deserendi).",
+          "principle": "Desertion requires both factum deserendi and animus deserendi — physical separation alone is insufficient",
+          "held": "For desertion to be proved under Section 13(1)(ib) HMA, the petitioner must establish both the factum of desertion (physical separation) and the animus deserendi (intention to permanently desert). Absence without animus is not desertion in law.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act, 1955"
-          ],
-          "cited_cases": [
-            "Bipinchandra Jaisinghbai Shah v. Prabhavati, (1957) SC 176"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
           ],
           "keywords": [
             "desertion",
-            "factum of separation",
-            "intention to bring cohabitation permanently to an end"
+            "animus deserendi",
+            "factum deserendi",
+            "separation",
+            "divorce desertion ground"
           ],
-          "favors": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
+          "favours": "neutral",
           "significance": "HIGH",
           "principle_id": "LP_002",
-          "favours": "neutral"
-        },
-        {
-          "principle": "The offence of desertion commences when the fact of separation and the intention to bring cohabitation permanently to an end coexist.",
-          "held": "The offence of desertion commences when the fact of separation and the animus deserendi coexist.",
-          "applicable_acts_sections": [
-            "Hindu Marriage Act, 1955"
-          ],
-          "cited_cases": [
-            "Bipinchandra Jaisinghbai Shah v. Prabhavati, (1957) SC 176"
-          ],
-          "keywords": [
-            "desertion",
-            "fact of separation",
-            "intention to bring cohabitation permanently to an end"
-          ],
-          "favors": "neutral",
+          "cited_cases": [],
           "use_in": [
-            "divorce cases"
-          ],
-          "significance": "HIGH",
-          "principle_id": "LP_003",
-          "favours": "neutral"
+            "divorce"
+          ]
         }
       ],
       "outcome": {
-        "result": "Appeal allowed",
-        "final_order": "The final court order granted the decree of divorce to Deepak Bose.",
+        "result": "divorce case — see full judgment",
+        "final_order": "",
         "relief_granted": "",
         "costs": ""
       },
       "keywords": [
+        "indian penal code 1860",
         "divorce",
-        "Hindu Marriage Act",
-        "Section 13",
-        "marriage petition",
-        "matrimonial dispute",
-        "spousal abuse",
-        "irretrievable breakdown",
-        "cruelty",
-        "desertion",
-        "adultery",
-        "separation",
-        "maintenance",
-        "custody",
-        "joint family",
-        "Hindu law",
-        "family court",
-        "civil procedure code",
-        "Indian penal code"
+        "code of civil procedure 1908",
+        "indian evidence act 1872",
+        "allahabad",
+        "deepak bose vs shrabonee bose ",
+        "hindu marriage act 1955"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting divorce petition",
-        "responding to divorce petition",
-        "advising on matrimonial disputes"
+        "divorce petition",
+        "divorce arguments",
+        "Citing divorce precedents"
       ],
       "annotation_verified": false,
-      "annotation_status": "auto_llm",
-      "annotated_by": "ollama_llama3",
+      "annotation_status": "auto_template",
+      "annotated_by": "auto_template_engine",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T20:05:41.939111"
+      "updated_at": "2026-06-19T11:01:48.779152"
     },
     {
       "id": "HC_0000_Deepa_Dutta_Smt_Deepa",
@@ -5005,9 +5112,9 @@
       "source_url": "",
       "pdf_filename": "Deepa_Dutta_Smt_Deepa_Ghosh_vs_Pradeep_Ghosh_on_17_November_1995.PDF",
       "total_pages": 5,
-      "extracted_at": "2026-06-16T18:59:09.495397",
+      "extracted_at": "2026-06-18T21:03:47.740207",
       "domain": "divorce",
-      "sub_domain": "divorce",
+      "sub_domain": "property_dispute",
       "domain_scores": {
         "divorce": 7,
         "cheque_bounce": 1,
@@ -5018,13 +5125,13 @@
       "bench": "Single Judge",
       "judges": [],
       "case_numbers": [],
-      "trial_court": "Second Additional District Judge, Hazaribagh - Matrimonial Suit No. 36 of 1993",
+      "trial_court": "",
       "reserved_on": "",
       "delivered_on": "",
-      "case_name": "Deepa Dutta @ Smt. Deepa Ghosh vs Pradeep Ghosh",
+      "case_name": "Deepa Dutta @ Smt. Deepa Ghosh vs Pradeep Ghosh on 17 November, 1995",
       "parties": {
-        "petitioner_plaintiff": "Pradeep Ghosh (husband)",
-        "respondent_defendant": "Deepa Dutta @ Smt. Deepa Ghosh (wife)",
+        "petitioner_plaintiff": "TODO — fill manually",
+        "respondent_defendant": "TODO — fill manually",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -5040,7 +5147,7 @@
           ]
         }
       ],
-      "facts_of_case": "Marriage between Pradeep Ghosh and Deepa Dutta was solemnised on 19.11.1992. The husband alleged that the wife was insane at the time of marriage and concealing that fact. The suit was filed for annulment of the marriage under Section 11 of the Hindu Marriage Act, 1955.",
+      "facts_of_case": "This is a divorce case decided by Unknown Court on . The case involves Deepa Dutta @ Smt. Deepa Ghosh vs Pradeep Ghosh on 17 November, 1995. Relevant statutes include Hindu Marriage Act, 1955.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -5050,117 +5157,71 @@
       ],
       "legal_principles": [
         {
-          "principle": "A decree for divorce by mutual consent can be passed without going into the reasons of mal-adjustment in the marriage.",
-          "held": "If only these three conditions are satisfied, it is obligatory on the part of the court to pass a decree for divorce without going into deep as to the reasons of mal-adjustment in the marriage or other reasons behind their living separately.",
+          "principle": "Mental cruelty as a ground for divorce must be assessed based on the entire matrimonial life and not isolated incidents",
+          "held": "The court must look at the cumulative effect of the conduct of the respondent on the petitioner's mental health. Individual acts may appear trivial but their overall impact may constitute cruelty.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act — Section 13-B"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
           ],
-          "cited_cases": [],
           "keywords": [
+            "mental cruelty",
             "divorce",
-            "mutual consent",
-            "marriage annulment"
+            "matrimonial cruelty",
+            "cumulative effect"
           ],
           "favours": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
           "significance": "HIGH",
-          "principle_id": "LP_001"
+          "principle_id": "LP_001",
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
         },
         {
-          "principle": "The grounds for divorce and judicial separations in Hindu marriages are more stringent than those in Muslim or Christian marriages.",
-          "held": "When there was no ground for divorce available under the Act but the circumstances could not be able to adjust themselves, there remained then no scope for getting the marriage annulled by a decree of divorce.",
+          "principle": "Desertion requires both factum deserendi and animus deserendi — physical separation alone is insufficient",
+          "held": "For desertion to be proved under Section 13(1)(ib) HMA, the petitioner must establish both the factum of desertion (physical separation) and the animus deserendi (intention to permanently desert). Absence without animus is not desertion in law.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
           ],
-          "cited_cases": [],
           "keywords": [
-            "divorce",
-            "judicial separation",
-            "marriage annulment"
+            "desertion",
+            "animus deserendi",
+            "factum deserendi",
+            "separation",
+            "divorce desertion ground"
           ],
           "favours": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_002"
-        },
-        {
-          "principle": "The conception of Hindu marriage is sacramental, not contractual.",
-          "held": "In Muslim and Christian marriages, the concept is of contractual one while the Hindu marriage is of sacramental.",
-          "applicable_acts_sections": [
-            "Hindu Marriage Act"
-          ],
-          "cited_cases": [],
-          "keywords": [
-            "marriage",
-            "sacramental",
-            "contractual"
-          ],
-          "favours": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_003"
-        },
-        {
-          "principle": "The three conditions for a decree of divorce by mutual consent are: (i) spouses living separately for more than one year, (ii) they have not been able to live together, and (iii) they have mutually agreed that the marriage should be dissolved.",
-          "held": "Only three conditions are necessary for decree of divorce by mutual consent- (i) when the spouses are living separately for more than one year (ii) that they have not been able to live together (iii) that they have mutually agreed that the marriage should be dissolved.",
-          "applicable_acts_sections": [
-            "Hindu Marriage Act — Section 13-B"
-          ],
-          "cited_cases": [],
-          "keywords": [
-            "divorce",
-            "mutual consent",
-            "marriage dissolution"
-          ],
-          "favours": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
           "significance": "HIGH",
-          "principle_id": "LP_004"
+          "principle_id": "LP_002",
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
         }
       ],
       "outcome": {
-        "result": "Appeal dismissed",
-        "final_order": "The trial court's decree annulling the marriage was upheld.",
+        "result": "divorce case — see full judgment",
+        "final_order": "",
         "relief_granted": "",
         "costs": ""
       },
       "keywords": [
-        "Hindu Marriage Act",
-        "void marriage",
-        "insanity at time of marriage",
-        "concealment of fact",
-        "Section 11",
-        "Section 12(1)(c)",
-        "marriage solemnised",
-        "negotiation of marriage",
-        "Latin maxim: Silence gives consent",
-        "Matrimonial Suit",
-        "Second Additional District Judge",
-        "Hazaribagh",
-        "Dhanbad",
-        "Pathardih",
-        "Ramgarh"
+        "divorce",
+        "deepa dutta @ smt. deepa ghosh",
+        "unknown court",
+        "hindu marriage act 1955"
       ],
-      "relevance_score": 3,
+      "relevance_score": 2,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a petition for declaration of void marriage",
-        "advising on grounds for divorce",
-        "preparing a case for Matrimonial Suit"
+        "divorce petition",
+        "divorce arguments",
+        "Citing divorce precedents"
       ],
       "annotation_verified": false,
-      "annotation_status": "auto_llm",
-      "annotated_by": "ollama_llama3",
+      "annotation_status": "auto_template",
+      "annotated_by": "auto_template_engine",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T20:04:36.322464"
+      "updated_at": "2026-06-19T11:01:48.777055"
     },
     {
       "id": "HC_2022_Deputy_Commissioner_Income",
@@ -5169,9 +5230,9 @@
       "source_url": "",
       "pdf_filename": "Deputy_Commissioner_Of_Income_Tax_vs_M_S_U_P_Awas_Evam_Vikas_Parishad_on_10_June_2022.PDF",
       "total_pages": 58,
-      "extracted_at": "2026-06-16T18:59:16.494326",
+      "extracted_at": "2026-06-18T21:03:53.689558",
       "domain": "divorce",
-      "sub_domain": "income_tax",
+      "sub_domain": "custody",
       "domain_scores": {
         "divorce": 3,
         "cheque_bounce": 1,
@@ -5191,10 +5252,10 @@
       "trial_court": "",
       "reserved_on": "",
       "delivered_on": "08/06/2022",
-      "case_name": "Deputy Commissioner Of Income Tax vs M/S U.P Awas Evam Vikas Parishad",
+      "case_name": "Deputy Commissioner Of Income Tax ... vs M/S U.P Awas Evam Vikas Parishad, ... on 10 June, 2022",
       "parties": {
-        "petitioner_plaintiff": "Deputy Commissioner Of Income Tax",
-        "respondent_defendant": "M/S U.P Awas Evam Vikas Parishad",
+        "petitioner_plaintiff": "TODO — fill manually",
+        "respondent_defendant": "TODO — fill manually",
         "other_parties": []
       },
       "acts_cited_auto": [],
@@ -5207,7 +5268,7 @@
       ],
       "outcome_detected": "",
       "acts_cited": [],
-      "facts_of_case": "Assessee filed appeals against separate orders of learned CIT(A) dated 21/02/2019, 21/02/2019 and 26/11/2019 respectively. Revenue also filed Cross Objections.",
+      "facts_of_case": "This is a divorce case decided by Unknown Court on 08/06/2022. The case involves Deputy Commissioner Of Income Tax ... vs M/S U.P Awas Evam Vikas Parishad, ... on 10 June, 2022. Relevant statutes include .",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -5217,92 +5278,70 @@
       ],
       "legal_principles": [
         {
-          "principle": "Entities which carry on commercial activities will not be eligible for exemption under Section 11 or 10 (23C) of Act, 1961.",
-          "held": "Whether an entity is carrying on activities in the nature of trade, commerce or business is a question of fact which will be decided based on the nature, scope, extent and frequency of activities.",
+          "principle": "Mental cruelty as a ground for divorce must be assessed based on the entire matrimonial life and not isolated incidents",
+          "held": "The court must look at the cumulative effect of the conduct of the respondent on the petitioner's mental health. Individual acts may appear trivial but their overall impact may constitute cruelty.",
           "applicable_acts_sections": [
-            "Act Name — Section 11",
-            "Act Name — Section 10 (23C)"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
           ],
-          "cited_cases": [],
           "keywords": [
-            "commercial activities",
-            "exemption",
-            "Section 11",
-            "Section 10 (23C)",
-            "Act, 1961"
+            "mental cruelty",
+            "divorce",
+            "matrimonial cruelty",
+            "cumulative effect"
           ],
           "favours": "neutral",
+          "significance": "HIGH",
+          "principle_id": "LP_001",
+          "cited_cases": [],
           "use_in": [
-            "case type: registration of charitable trusts"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_001"
+            "divorce"
+          ]
         },
         {
-          "principle": "An Assessee, if engaged in any activity in the nature of trade, commerce or business or renders any service in relation to trade, commerce or business, it would not be entitled to claim that its object is 'charitable purpose'.",
-          "held": "In such a case, object of general public utility will be only a mask or a device to hide the true purpose, which is trade, commerce or business, or rendering of any service in relation to trade, commerce or business.",
-          "applicable_acts_sections": [],
-          "cited_cases": [
-            "Morice Versus Bishop of Durham (1805) 10 Ves Jr 522"
+          "principle": "Desertion requires both factum deserendi and animus deserendi — physical separation alone is insufficient",
+          "held": "For desertion to be proved under Section 13(1)(ib) HMA, the petitioner must establish both the factum of desertion (physical separation) and the animus deserendi (intention to permanently desert). Absence without animus is not desertion in law.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
           ],
           "keywords": [
-            "charitable purpose",
-            "trade",
-            "commerce",
-            "business",
-            "mask",
-            "device"
+            "desertion",
+            "animus deserendi",
+            "factum deserendi",
+            "separation",
+            "divorce desertion ground"
           ],
           "favours": "neutral",
+          "significance": "HIGH",
+          "principle_id": "LP_002",
+          "cited_cases": [],
           "use_in": [
-            "case type: registration of charitable trusts"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_002"
+            "divorce"
+          ]
         }
       ],
       "outcome": {
-        "result": "Appeal allowed",
-        "final_order": null,
+        "result": "divorce case — see full judgment",
+        "final_order": "",
         "relief_granted": "",
         "costs": ""
       },
       "keywords": [
-        "Income Tax Appellate Tribunal",
-        "Assessment Year",
-        "CIT(A)",
-        "Exemption",
-        "A.C.I.T.",
-        "M/s U.P. Awas Evam Vikas Parishad",
-        "PAN",
-        "C.O.No.",
-        "I.T.A.",
-        "Assessee",
-        "Revenue",
-        "Date of hearing",
-        "Date of pronouncement",
-        "Indian Kanoon",
-        "Deputy Commissioner Of Income Tax",
-        "Income Tax",
-        "Tax Appellate Tribunal",
-        "Appeal",
-        "Order",
-        "CIT",
-        "C.A.",
-        "Latin Maxim"
+        "divorce",
+        "unknown court",
+        "deputy commissioner of income "
       ],
-      "relevance_score": 3,
+      "relevance_score": 2,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting income tax appeals",
-        "preparing tax orders",
-        "understanding tax appellate tribunal procedures"
+        "divorce petition",
+        "divorce arguments",
+        "Citing divorce precedents"
       ],
       "annotation_verified": false,
-      "annotation_status": "auto_llm",
-      "annotated_by": "ollama_llama3",
+      "annotation_status": "auto_template",
+      "annotated_by": "auto_template_engine",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T20:06:44.444238"
+      "updated_at": "2026-06-19T11:01:48.781510"
     },
     {
       "id": "HC_0000_Deputy_Jarnail_Singh_And",
@@ -5311,9 +5350,9 @@
       "source_url": "",
       "pdf_filename": "Deputy_Jarnail_Singh_And_Ors_vs_State_Of_Haryana_And_Anr_on_12_March_2018.PDF",
       "total_pages": 3,
-      "extracted_at": "2026-06-16T18:59:16.708464",
+      "extracted_at": "2026-06-18T21:03:53.891225",
       "domain": "divorce",
-      "sub_domain": "divorce",
+      "sub_domain": "domestic_violence",
       "domain_scores": {
         "divorce": 3,
         "domestic_violence": 2,
@@ -5330,10 +5369,10 @@
       "trial_court": "",
       "reserved_on": "",
       "delivered_on": "",
-      "case_name": "Deputy Jarnail Singh And Ors vs State Of Haryana And Anr",
+      "case_name": "Deputy Jarnail Singh And Ors vs State Of Haryana And Anr on 12 March, 2018",
       "parties": {
-        "petitioner_plaintiff": "Deputy Jarnail Singh and others (husband, wife)",
-        "respondent_defendant": "State of Haryana and another (wife's father?)",
+        "petitioner_plaintiff": "TODO — fill manually",
+        "respondent_defendant": "TODO — fill manually",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -5363,7 +5402,7 @@
           ]
         }
       ],
-      "facts_of_case": "Matrimonial discord between husband and wife. FIR registered under Sections 498A, 323, 406, 506 IPC. Parties arrived at compromise. Petition for quashing of FIR.",
+      "facts_of_case": "This is a divorce case decided by Unknown Court on . The case involves Deputy Jarnail Singh And Ors vs State Of Haryana And Anr on 12 March, 2018. Relevant statutes include Hindu Marriage Act, 1955, Code of Criminal Procedure, 1973, Protection of Women from DV Act, 2005.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -5373,68 +5412,73 @@
       ],
       "legal_principles": [
         {
-          "principle": "A compromise is the sine qua non of harmony and orderly behaviour.",
-          "held": "The compromise, in a modern society, is the soul of justice and if the power under Section 482 of the Criminal Procedure Code is used to enhance such a compromise which, in turn, enhances harmony and orderly behaviour.",
+          "principle": "Mental cruelty as a ground for divorce must be assessed based on the entire matrimonial life and not isolated incidents",
+          "held": "The court must look at the cumulative effect of the conduct of the respondent on the petitioner's mental health. Individual acts may appear trivial but their overall impact may constitute cruelty.",
           "applicable_acts_sections": [
-            "Criminal Procedure Code — Section 482"
-          ],
-          "cited_cases": [
-            "Kulwinder Singh and others versus State of Punjab and another, (2007) 3 R.C.R. (Criminal) 1052"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
           ],
           "keywords": [
-            "compromise",
-            "harmony",
-            "orderly behaviour",
-            "justice",
-            "Section 482"
+            "mental cruelty",
+            "divorce",
+            "matrimonial cruelty",
+            "cumulative effect"
           ],
           "favours": "neutral",
-          "use_in": [
-            "matrimonial disputes",
-            "family law cases"
-          ],
           "significance": "HIGH",
-          "principle_id": "LP_001"
+          "principle_id": "LP_001",
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
+        },
+        {
+          "principle": "Desertion requires both factum deserendi and animus deserendi — physical separation alone is insufficient",
+          "held": "For desertion to be proved under Section 13(1)(ib) HMA, the petitioner must establish both the factum of desertion (physical separation) and the animus deserendi (intention to permanently desert). Absence without animus is not desertion in law.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
+          ],
+          "keywords": [
+            "desertion",
+            "animus deserendi",
+            "factum deserendi",
+            "separation",
+            "divorce desertion ground"
+          ],
+          "favours": "neutral",
+          "significance": "HIGH",
+          "principle_id": "LP_002",
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
         }
       ],
       "outcome": {
-        "result": "Appeal allowed",
-        "final_order": "FIR No. 641 dated 15.05.2014 under Sections 498A, 323, 406, 506 IPC registered at Police Station Panipat city, District Panipat and all other consequential proceedings arising therefrom quashed.",
+        "result": "divorce case — see full judgment",
+        "final_order": "",
         "relief_granted": "",
         "costs": ""
       },
       "keywords": [
+        "deputy jarnail singh and ors v",
         "divorce",
-        "Hindu Marriage Act",
-        "498A",
-        "Section 13B",
-        "matrimonial discord",
-        "compromise",
-        "FIR",
-        "quashing",
-        "DV Act",
-        "Protection of Women from DV Act",
-        "Code of Criminal Procedure",
-        "Criminal Misc",
-        "High Court",
-        "Punjab and Haryana",
-        "Chandigarh",
-        "Section 406",
-        "Section 506",
-        "Section 323"
+        "code of criminal procedure 1973",
+        "unknown court",
+        "protection of women from dv act 2005",
+        "hindu marriage act 1955"
       ],
-      "relevance_score": 3,
+      "relevance_score": 2,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting divorce petitions",
-        "quashing FIRs",
-        "compromise agreements in matrimonial disputes"
+        "divorce petition",
+        "divorce arguments",
+        "Citing divorce precedents"
       ],
       "annotation_verified": false,
-      "annotation_status": "auto_llm",
-      "annotated_by": "ollama_llama3",
+      "annotation_status": "auto_template",
+      "annotated_by": "auto_template_engine",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T20:07:30.470487"
+      "updated_at": "2026-06-19T11:01:48.783845"
     },
     {
       "id": "HC_2026_Diwakar_Kumar_Sharma",
@@ -5443,9 +5487,9 @@
       "source_url": "",
       "pdf_filename": "Diwakar_Kumar_Sharma_vs_Safalta_Sharma_on_18_February_2026.PDF",
       "total_pages": 20,
-      "extracted_at": "2026-06-16T18:59:21.999999",
+      "extracted_at": "2026-06-18T21:03:58.640096",
       "domain": "divorce",
-      "sub_domain": "divorce",
+      "sub_domain": "maintenance",
       "domain_scores": {
         "divorce": 7,
         "maintenance": 2,
@@ -5460,13 +5504,13 @@
         "Arun Kumar Rai J."
       ],
       "case_numbers": [],
-      "trial_court": "Family Court, Godda, Original Suit No.75 of 2021",
+      "trial_court": "",
       "reserved_on": "",
       "delivered_on": "18/02/2026",
-      "case_name": "Diwakar Kumar Sharma vs Safalta Sharma",
+      "case_name": "Diwakar Kumar Sharma vs Safalta Sharma on 18 February, 2026",
       "parties": {
-        "petitioner_plaintiff": "Diwakar Kumar Sharma, husband",
-        "respondent_defendant": "Safalta Sharma, wife",
+        "petitioner_plaintiff": "TODO — fill manually",
+        "respondent_defendant": "TODO — fill manually",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -5503,7 +5547,7 @@
           ]
         }
       ],
-      "facts_of_case": "The parties are legally married and their marriage has been solemnized in 2011. The petitioner filed a divorce petition under Section 13(1)(i),(i-a),(i-b) of the Hindu Marriage Act, 1955, which was dismissed by the trial court.",
+      "facts_of_case": "This is a divorce case decided by Family Court on 18/02/2026. The case involves Diwakar Kumar Sharma vs Safalta Sharma on 18 February, 2026. Relevant statutes include Hindu Marriage Act, 1955, Indian Evidence Act, 1872.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -5513,79 +5557,72 @@
       ],
       "legal_principles": [
         {
-          "principle": "The burden lies on the party alleging cruelty to prove the same.",
-          "held": "The behavior and conduct of OP perpetrated mental and physical cruelty to petitioner. That on account of her illicit relation with Sonu Sharma, OP used to defy/disobey petitioner and had also stopped making any physical relation with him.",
+          "principle": "Mental cruelty as a ground for divorce must be assessed based on the entire matrimonial life and not isolated incidents",
+          "held": "The court must look at the cumulative effect of the conduct of the respondent on the petitioner's mental health. Individual acts may appear trivial but their overall impact may constitute cruelty.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act, 1955"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
           ],
-          "cited_cases": [],
           "keywords": [
-            "cruelty",
-            "burden of proof"
+            "mental cruelty",
+            "divorce",
+            "matrimonial cruelty",
+            "cumulative effect"
           ],
-          "favours": "plaintiff",
-          "use_in": [
-            "divorce cases"
-          ],
+          "favours": "neutral",
           "significance": "HIGH",
-          "principle_id": "LP_001"
+          "principle_id": "LP_001",
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
         },
         {
-          "principle": "A party's illicit relation can be a ground for divorce.",
-          "held": "That due to her illicit relation with Sonu Sharma, OP used to defy/disobey petitioner and had also stopped making any physical relation with him.",
+          "principle": "Desertion requires both factum deserendi and animus deserendi — physical separation alone is insufficient",
+          "held": "For desertion to be proved under Section 13(1)(ib) HMA, the petitioner must establish both the factum of desertion (physical separation) and the animus deserendi (intention to permanently desert). Absence without animus is not desertion in law.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act, 1955"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
           ],
-          "cited_cases": [],
           "keywords": [
-            "illicit relation",
-            "grounds for divorce"
+            "desertion",
+            "animus deserendi",
+            "factum deserendi",
+            "separation",
+            "divorce desertion ground"
           ],
-          "favours": "plaintiff",
-          "use_in": [
-            "divorce cases"
-          ],
+          "favours": "neutral",
           "significance": "HIGH",
-          "principle_id": "LP_002"
+          "principle_id": "LP_002",
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
         }
       ],
       "outcome": {
-        "result": "Appeal dismissed",
-        "final_order": "The appeal against the judgment and decree passed by the trial court is dismissed.",
+        "result": "divorce case — see full judgment",
+        "final_order": "",
         "relief_granted": "",
         "costs": ""
       },
       "keywords": [
+        "family court",
         "divorce",
-        "Hindu Marriage Act",
-        "Family Court Act",
-        "Section 13(1)(i)",
-        "Section 19(1)",
-        "Indian Evidence Act",
-        "Godda",
-        "Jharkhand",
-        "Ranchi",
-        "High Court of Jharkhand",
-        "Basantrai",
-        "District Godda",
-        "Kirari Suleman Nagar Sultanpuri C Block North Western Delhi-110086",
-        "Vinay Kumar Tiwary",
-        "Rakesh Ranjan",
-        "Sujit Narayan Prasad",
-        "Arun Kumar Rai"
+        "indian evidence act 1872",
+        "diwakar kumar sharma vs safalt",
+        "hindu marriage act 1955"
       ],
-      "relevance_score": 3,
+      "relevance_score": 4,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting divorce petition under Hindu Marriage Act",
-        "appealing family court decision on divorce",
-        "advising client on divorce laws in Jharkhand"
+        "divorce petition",
+        "divorce arguments",
+        "Citing divorce precedents"
       ],
       "annotation_verified": false,
-      "annotation_status": "auto_llm",
-      "annotated_by": "ollama_llama3",
+      "annotation_status": "auto_template",
+      "annotated_by": "auto_template_engine",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T20:09:16.491375"
+      "updated_at": "2026-06-19T11:01:48.789177"
     },
     {
       "id": "KAR_0000_Geeta",
@@ -5594,9 +5631,9 @@
       "source_url": "",
       "pdf_filename": "Dr_Geeta_W_O_Dr_Mahantesh_Patil_vs_Dr_Mahantesh_Patil_S_O_Dr_V_D_Patil_on_16_September_2016.PDF",
       "total_pages": 18,
-      "extracted_at": "2026-06-16T18:59:24.803612",
+      "extracted_at": "2026-06-18T21:04:01.225147",
       "domain": "divorce",
-      "sub_domain": "divorce",
+      "sub_domain": "maintenance",
       "domain_scores": {
         "divorce": 8,
         "cheque_bounce": 1,
@@ -5618,13 +5655,13 @@
         "M.C.No. 47/2013",
         "M.C.No.47/2013"
       ],
-      "trial_court": "District Judge and Family Court, Kalaburagi, M.C.No.47/2013",
+      "trial_court": "",
       "reserved_on": "26.08.2016",
       "delivered_on": "",
-      "case_name": "Dr Geeta W/O Dr Mahantesh Patil vs Dr.Mahantesh Patil S/O Dr V.D.Patil",
+      "case_name": "Dr Geeta W/O Dr Mahantesh Patil vs Dr.Mahantesh Patil S/O Dr V.D.Patil on 16 September, 2016",
       "parties": {
-        "petitioner_plaintiff": "Dr. Geetha, wife",
-        "respondent_defendant": "Dr. Mahantesh Patil, husband",
+        "petitioner_plaintiff": "TODO — fill manually",
+        "respondent_defendant": "TODO — fill manually",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -5655,7 +5692,7 @@
           ]
         }
       ],
-      "facts_of_case": "The wife filed this appeal against the judgment and divorce decree dated 21.02.2015 made in M.C.No.47/2013 on the file of the District Judge and Family Court, Kalaburagi, allowing the petition filed by the respondent-husband under Section 13(1)(i-a) and (i-b) of the Hindu Marriage Act 1955.",
+      "facts_of_case": "This is a divorce case decided by High Court of Karnataka on . The case involves Dr Geeta W/O Dr Mahantesh Patil vs Dr.Mahantesh Patil S/O Dr V.D.Patil on 16 September, 2016. Relevant statutes include Hindu Marriage Act, 1955.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -5665,74 +5702,71 @@
       ],
       "legal_principles": [
         {
-          "principle": "The burden lies on the party alleging cruelty to prove the same.",
-          "held": "She has further contended that she was meritorious student and has attended the classes punctually. Hence, the question of shortage of attendance and influence of misuse of official capacity of the respondent's father does not arise.",
-          "applicable_acts_sections": [],
-          "cited_cases": [],
+          "principle": "Mental cruelty as a ground for divorce must be assessed based on the entire matrimonial life and not isolated incidents",
+          "held": "The court must look at the cumulative effect of the conduct of the respondent on the petitioner's mental health. Individual acts may appear trivial but their overall impact may constitute cruelty.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
+          ],
           "keywords": [
-            "burden",
-            "cruelty"
+            "mental cruelty",
+            "divorce",
+            "matrimonial cruelty",
+            "cumulative effect"
           ],
           "favours": "neutral",
+          "significance": "HIGH",
+          "principle_id": "LP_001",
+          "cited_cases": [],
           "use_in": [
-            "divorce cases"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_001"
+            "divorce"
+          ]
         },
         {
-          "principle": "The principle of leading a happy and peaceful life is important.",
-          "held": "She has no grudge against the respondent even now she loves the respondent and she is ready to reside with the respondent to lead happy and peaceful life.",
-          "applicable_acts_sections": [],
-          "cited_cases": [],
+          "principle": "Desertion requires both factum deserendi and animus deserendi — physical separation alone is insufficient",
+          "held": "For desertion to be proved under Section 13(1)(ib) HMA, the petitioner must establish both the factum of desertion (physical separation) and the animus deserendi (intention to permanently desert). Absence without animus is not desertion in law.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
+          ],
           "keywords": [
-            "happiness",
-            "peacefulness"
+            "desertion",
+            "animus deserendi",
+            "factum deserendi",
+            "separation",
+            "divorce desertion ground"
           ],
           "favours": "neutral",
+          "significance": "HIGH",
+          "principle_id": "LP_002",
+          "cited_cases": [],
           "use_in": [
-            "divorce cases"
-          ],
-          "significance": "LOW",
-          "principle_id": "LP_002"
+            "divorce"
+          ]
         }
       ],
       "outcome": {
-        "result": "Appeal allowed",
-        "final_order": "The marriage between the appellant and respondent was dissolved, and the prayer of the husband for custody of the minor child was rejected.",
+        "result": "divorce case — see full judgment",
+        "final_order": "",
         "relief_granted": "",
         "costs": ""
       },
       "keywords": [
         "divorce",
-        "Hindu Marriage Act",
-        "Section 19 (1)",
-        "Family Court act",
-        "M.C.No. 47/2013",
-        "Section 13(1) (ia) (ib)",
-        "Dr Geeta",
-        "Dr Mahantesh Patil",
-        "Kalaburagi",
-        "Belagavi",
-        "Shivabasavanagar",
-        "Sangameshwara Colony",
-        "Mal Maruti Extension",
-        "Shivakrupa",
-        "Hindwadi",
-        "Indian Kanoon"
+        "high court of karnat",
+        "dr geeta w/o dr mahantesh pati",
+        "hindu marriage act 1955"
       ],
-      "relevance_score": 3,
+      "relevance_score": 4,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting divorce petition",
-        "responding to divorce petition",
-        "family court procedures"
+        "divorce petition",
+        "divorce arguments",
+        "Citing divorce precedents"
       ],
       "annotation_verified": false,
-      "annotation_status": "auto_llm",
-      "annotated_by": "ollama_llama3",
+      "annotation_status": "auto_template",
+      "annotated_by": "auto_template_engine",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T20:10:57.134807"
+      "updated_at": "2026-06-19T11:01:48.793488"
     },
     {
       "id": "HC_0000_Veera_Reddi",
@@ -5741,9 +5775,9 @@
       "source_url": "",
       "pdf_filename": "Dr_H_T_Veera_Reddi_vs_Smt_Kistamma_on_9_November_1972.PDF",
       "total_pages": 13,
-      "extracted_at": "2026-06-16T18:59:26.651300",
+      "extracted_at": "2026-06-18T21:04:02.709385",
       "domain": "divorce",
-      "sub_domain": "divorce",
+      "sub_domain": "property_dispute",
       "domain_scores": {
         "divorce": 10,
         "maintenance": 2,
@@ -5756,13 +5790,13 @@
       "bench": "Single Judge",
       "judges": [],
       "case_numbers": [],
-      "trial_court": "VI Assistant Judge, City Civil Court, and C.R.P. No. 751 of 1972",
+      "trial_court": "",
       "reserved_on": "",
       "delivered_on": "",
-      "case_name": "Dr. H.T. Veera Reddi vs Smt. Kistamma",
+      "case_name": "Dr. H.T. Veera Reddi vs Smt. Kistamma on 9 November, 1972",
       "parties": {
-        "petitioner_plaintiff": "Dr. H.T. Veera Reddi, husband",
-        "respondent_defendant": "Smt. Kistamma, wife",
+        "petitioner_plaintiff": "TODO — fill manually",
+        "respondent_defendant": "TODO — fill manually",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -5792,7 +5826,7 @@
           ]
         }
       ],
-      "facts_of_case": "Marriage took place in 1943. Wife filed O.P. No. 25 of 1970 for maintenance. Husband filed O.P. No. 48 of 1971 for restitution of conjugal rights.",
+      "facts_of_case": "This is a divorce case decided by Unknown Court on . The case involves Dr. H.T. Veera Reddi vs Smt. Kistamma on 9 November, 1972. Relevant statutes include Hindu Marriage Act, 1955, Code of Civil Procedure, 1908, Indian Evidence Act, 1872.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -5802,84 +5836,73 @@
       ],
       "legal_principles": [
         {
-          "principle": "The Court has power to grant an injunction restraining a party from proceeding with a suit in a different court under the jurisdiction of a different High Court.",
-          "held": "Thus it is clear that the principle evolved by the Supreme Court is that the Court has power both under Order 39, Rules 1 and 2 and Section 151, Civil Procedure Code to grant an injunction restraining the party concerned from proceeding with the suit in a different Court under the jurisdiction of a different High Court.",
+          "principle": "Mental cruelty as a ground for divorce must be assessed based on the entire matrimonial life and not isolated incidents",
+          "held": "The court must look at the cumulative effect of the conduct of the respondent on the petitioner's mental health. Individual acts may appear trivial but their overall impact may constitute cruelty.",
           "applicable_acts_sections": [
-            "Code of Civil Procedure — Section 151"
-          ],
-          "cited_cases": [
-            "Ram Bahadur Thakur and Company v. Devidayal (Sales) Limited"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
           ],
           "keywords": [
-            "injunction",
-            "different court",
-            "High Court"
+            "mental cruelty",
+            "divorce",
+            "matrimonial cruelty",
+            "cumulative effect"
           ],
           "favours": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
           "significance": "HIGH",
-          "principle_id": "LP_001"
+          "principle_id": "LP_001",
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
         },
         {
-          "principle": "The Court has power to grant an injunction independently of the Code of Civil Procedure.",
-          "held": "Rash Behary Dey v. Bhowani Churn Base (1907) I.L.R. 34 Cal. 97, the Calcutta High Court has held in a suit filed in the High Court for specific performance of an agreement for lease of certain premises that the High Court has power under its general equity jurisdiction to grant an injunction of the character, independently of the Code of Civil Procedure.",
+          "principle": "Desertion requires both factum deserendi and animus deserendi — physical separation alone is insufficient",
+          "held": "For desertion to be proved under Section 13(1)(ib) HMA, the petitioner must establish both the factum of desertion (physical separation) and the animus deserendi (intention to permanently desert). Absence without animus is not desertion in law.",
           "applicable_acts_sections": [
-            "Code of Civil Procedure — Section 151"
-          ],
-          "cited_cases": [
-            "Rash Behary Dey v. Bhowani Churn Base (1907) I.L.R. 34 Cal. 97"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
           ],
           "keywords": [
-            "injunction",
-            "equity jurisdiction"
+            "desertion",
+            "animus deserendi",
+            "factum deserendi",
+            "separation",
+            "divorce desertion ground"
           ],
           "favours": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
           "significance": "HIGH",
-          "principle_id": "LP_002"
+          "principle_id": "LP_002",
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
         }
       ],
       "outcome": {
-        "result": "Appeal allowed",
-        "final_order": "The petition was pending before the VI Assistant Judge, City Civil Court.",
+        "result": "divorce case — see full judgment",
+        "final_order": "",
         "relief_granted": "",
         "costs": ""
       },
       "keywords": [
-        "Hindu Marriage Act",
         "divorce",
-        "conjugal rights",
-        "restitution",
-        "judicial separation",
-        "adultery",
-        "desertion",
-        "Section 9",
-        "Section 7",
-        "Code of Civil Procedure",
-        "Indian Evidence Act",
-        "O.P. No.48",
-        "C.M.A. No.348",
-        "L.P.A. No.31",
-        "C.A. No.1149",
-        "Supreme Court",
-        "HC Single Judge"
+        "code of civil procedure 1908",
+        "indian evidence act 1872",
+        "unknown court",
+        "dr. h.t. veera reddi vs smt. k",
+        "hindu marriage act 1955"
       ],
-      "relevance_score": 3,
+      "relevance_score": 2,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting divorce petitions",
-        "advising on restitution of conjugal rights",
-        "appealing against judicial separation orders"
+        "divorce petition",
+        "divorce arguments",
+        "Citing divorce precedents"
       ],
       "annotation_verified": false,
-      "annotation_status": "auto_llm",
-      "annotated_by": "ollama_llama3",
+      "annotation_status": "auto_template",
+      "annotated_by": "auto_template_engine",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T20:11:55.234911"
+      "updated_at": "2026-06-19T11:01:48.796182"
     },
     {
       "id": "MAD_0000_Drnyoganandhini_Nmanikandan",
@@ -5888,9 +5911,9 @@
       "source_url": "",
       "pdf_filename": "Dr_N_Yoganandhini_vs_N_Manikandan_on_24_February_2_260526_143607.pdf",
       "total_pages": 2,
-      "extracted_at": "2026-06-16T18:59:26.880544",
+      "extracted_at": "2026-06-18T21:04:02.886485",
       "domain": "divorce",
-      "sub_domain": "divorce",
+      "sub_domain": "maintenance",
       "domain_scores": {
         "divorce": 6,
         "maintenance": 1
@@ -5901,13 +5924,13 @@
         "A.D.Maria Clete J."
       ],
       "case_numbers": [],
-      "trial_court": "Subordinate Judge, Harur, Dharmapuri District (H.M.O.P. No.55 of 2025)",
+      "trial_court": "",
       "reserved_on": "",
       "delivered_on": "",
-      "case_name": "Dr.N.Yoganandhini vs N.Manikandan",
+      "case_name": "Dr.N.Yoganandhini vs N.Manikandan on 24 February, 2026",
       "parties": {
-        "petitioner_plaintiff": "Dr.N.Yoganandhini, wife",
-        "respondent_defendant": "N.Manikandan, husband",
+        "petitioner_plaintiff": "TODO — fill manually",
+        "respondent_defendant": "TODO — fill manually",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -5930,7 +5953,7 @@
           ]
         }
       ],
-      "facts_of_case": "Marriage between the parties was solemnized on 13.04.2022. They have no children and due to matrimonial disputes, they started living separately. The respondent filed H.M.O.P. No.55 of 2025 seeking divorce under Section 13(1)(ia) and 13(1)(ib) of the Hindu Marriage Act, 1955.",
+      "facts_of_case": "This is a divorce case decided by High Court of Judicature at Madras on . The case involves Dr.N.Yoganandhini vs N.Manikandan on 24 February, 2026. Relevant statutes include Hindu Marriage Act, 1955, Code of Civil Procedure, 1908.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -5940,75 +5963,72 @@
       ],
       "legal_principles": [
         {
-          "principle": "The convenience of the parties is a relevant consideration in determining whether to transfer a case.",
-          "held": "Having considered the above circumstances, and bearing in mind the convenience of the parties, this Court is satisfied that the transfer sought deserves to be ordered.",
-          "applicable_acts_sections": [],
-          "cited_cases": [],
+          "principle": "Mental cruelty as a ground for divorce must be assessed based on the entire matrimonial life and not isolated incidents",
+          "held": "The court must look at the cumulative effect of the conduct of the respondent on the petitioner's mental health. Individual acts may appear trivial but their overall impact may constitute cruelty.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
+          ],
           "keywords": [
-            "convenience",
-            "parties"
+            "mental cruelty",
+            "divorce",
+            "matrimonial cruelty",
+            "cumulative effect"
           ],
           "favours": "neutral",
+          "significance": "HIGH",
+          "principle_id": "LP_001",
+          "cited_cases": [],
           "use_in": [
-            "divorce cases"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_001"
+            "divorce"
+          ]
         },
         {
-          "principle": "A court may order the transfer of a case to avoid multiplicity and inconvenience.",
-          "held": "it would be appropriate that the matrimonial proceedings between the parties are tried within the same jurisdiction to avoid multiplicity and inconvenience",
-          "applicable_acts_sections": [],
-          "cited_cases": [],
+          "principle": "Desertion requires both factum deserendi and animus deserendi — physical separation alone is insufficient",
+          "held": "For desertion to be proved under Section 13(1)(ib) HMA, the petitioner must establish both the factum of desertion (physical separation) and the animus deserendi (intention to permanently desert). Absence without animus is not desertion in law.",
+          "applicable_acts_sections": [
+            "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
+          ],
           "keywords": [
-            "multiplicity",
-            "inconvenience"
+            "desertion",
+            "animus deserendi",
+            "factum deserendi",
+            "separation",
+            "divorce desertion ground"
           ],
           "favours": "neutral",
+          "significance": "HIGH",
+          "principle_id": "LP_002",
+          "cited_cases": [],
           "use_in": [
-            "divorce cases"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_002"
+            "divorce"
+          ]
         }
       ],
       "outcome": {
-        "result": "Appeal allowed",
-        "final_order": "Transfer sought deserves to be ordered. The matrimonial proceedings between the parties are tried within the same jurisdiction to avoid multiplicity and inconvenience.",
+        "result": "divorce case — see full judgment",
+        "final_order": "",
         "relief_granted": "",
         "costs": ""
       },
       "keywords": [
+        "madras",
         "divorce",
-        "Hindu Marriage Act",
-        "Code of Civil Procedure",
-        "matrimonial disputes",
-        "solemnized",
-        "no children",
-        "transfer petition",
-        "withdrawal",
-        "Subordinate Judge",
-        "Subordinate Court",
-        "Paramathi Velur",
-        "Namakkal District",
-        "Harur",
-        "Dharmapuri District",
-        "Section 24",
-        "C.M.P.",
-        "TR CMP"
+        "code of civil procedure 1908",
+        "dr.n.yoganandhini vs n.manikan",
+        "hindu marriage act 1955"
       ],
       "relevance_score": 3,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a transfer petition for divorce case",
-        "advising on jurisdiction in family law matters",
-        "preparing a withdrawal application in a matrimonial dispute"
+        "divorce petition",
+        "divorce arguments",
+        "Citing divorce precedents"
       ],
       "annotation_verified": false,
-      "annotation_status": "auto_llm",
-      "annotated_by": "ollama_llama3",
+      "annotation_status": "auto_template",
+      "annotated_by": "auto_template_engine",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T20:12:41.636537"
+      "updated_at": "2026-06-19T11:01:48.798691"
     },
     {
       "id": "KER_0000_Drshamsudheen_Sadasivan_Nair",
@@ -6017,9 +6037,9 @@
       "source_url": "",
       "pdf_filename": "Dr_Shamsudheen_Sadasivan_Nair_vs_B_T_Jalaja_on_23_March_2013.PDF",
       "total_pages": 9,
-      "extracted_at": "2026-06-16T18:59:28.263063",
+      "extracted_at": "2026-06-18T21:04:03.957025",
       "domain": "divorce",
-      "sub_domain": "divorce_cruelty",
+      "sub_domain": "maintenance",
       "domain_scores": {
         "divorce": 8,
         "partition": 1,
@@ -6036,13 +6056,13 @@
         "al.No. 367 of 2009",
         "Mat.Appeal.No. 367 of 2009"
       ],
-      "trial_court": "Family Court, Nedumangad, OP.1348/2005",
+      "trial_court": "",
       "reserved_on": "",
       "delivered_on": "",
-      "case_name": "Dr.Shamsudheen @ Sadasivan Nair vs B.T.Jalaja",
+      "case_name": "Dr.Shamsudheen @ Sadasivan Nair vs B.T.Jalaja on 23 March, 2013",
       "parties": {
-        "petitioner_plaintiff": "DR.SHAMSUDHEEN @ SADASIVAN NAIR, aged 63 years, husband",
-        "respondent_defendant": "B.T.JALAJA, wife",
+        "petitioner_plaintiff": "TODO — fill manually",
+        "respondent_defendant": "TODO — fill manually",
         "other_parties": []
       },
       "acts_cited_auto": [
@@ -6060,7 +6080,7 @@
           ]
         }
       ],
-      "facts_of_case": "The parties are Dr.Shamsudheen @ Sadasivan Nair and B.T.Jalaja. The respondent filed a complaint against the petitioner on 15/10/2003. The trial court decided something.",
+      "facts_of_case": "This is a divorce case decided by High Court of Kerala on . The case involves Dr.Shamsudheen @ Sadasivan Nair vs B.T.Jalaja on 23 March, 2013. Relevant statutes include Hindu Marriage Act, 1955.",
       "issues_decided": [
         {
           "issue_no": 1,
@@ -6070,102 +6090,71 @@
       ],
       "legal_principles": [
         {
-          "principle": "Desertion means rejection of one party of all the obligations of the marriage towards other.",
-          "held": "Desertion means, rejection of one party of all the obligations of the marriage towards other.",
+          "principle": "Mental cruelty as a ground for divorce must be assessed based on the entire matrimonial life and not isolated incidents",
+          "held": "The court must look at the cumulative effect of the conduct of the respondent on the petitioner's mental health. Individual acts may appear trivial but their overall impact may constitute cruelty.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
           ],
-          "cited_cases": [],
           "keywords": [
-            "desertion",
-            "marriage",
-            "obligations"
+            "mental cruelty",
+            "divorce",
+            "matrimonial cruelty",
+            "cumulative effect"
           ],
           "favours": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
           "significance": "HIGH",
-          "principle_id": "LP_001"
+          "principle_id": "LP_001",
+          "cited_cases": [],
+          "use_in": [
+            "divorce"
+          ]
         },
         {
-          "principle": "A temporary withdrawal or abandonment is not with the intention to desert permanently.",
-          "held": "A temporary withdrawal or abandonment is not with the intention to desert permanently.",
+          "principle": "Desertion requires both factum deserendi and animus deserendi — physical separation alone is insufficient",
+          "held": "For desertion to be proved under Section 13(1)(ib) HMA, the petitioner must establish both the factum of desertion (physical separation) and the animus deserendi (intention to permanently desert). Absence without animus is not desertion in law.",
           "applicable_acts_sections": [
-            "Hindu Marriage Act"
+            "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
           ],
-          "cited_cases": [],
           "keywords": [
             "desertion",
-            "abandonment",
-            "intention"
+            "animus deserendi",
+            "factum deserendi",
+            "separation",
+            "divorce desertion ground"
           ],
           "favours": "neutral",
-          "use_in": [
-            "divorce cases"
-          ],
           "significance": "HIGH",
-          "principle_id": "LP_002"
-        },
-        {
-          "principle": "The burden lies on the party alleging desertion to prove it.",
-          "held": "None mentioned in this judgment, but implied by the court's analysis of evidence.",
-          "applicable_acts_sections": [
-            "Hindu Marriage Act"
-          ],
+          "principle_id": "LP_002",
           "cited_cases": [],
-          "keywords": [
-            "desertion",
-            "burden",
-            "proof"
-          ],
-          "favours": "neutral",
           "use_in": [
-            "divorce cases"
-          ],
-          "significance": "MEDIUM",
-          "principle_id": "LP_003"
+            "divorce"
+          ]
         }
       ],
       "outcome": {
-        "result": "Appeal allowed",
-        "final_order": "The final court order said that the appeal was allowed.",
+        "result": "divorce case — see full judgment",
+        "final_order": "",
         "relief_granted": "",
         "costs": ""
       },
       "keywords": [
         "divorce",
-        "Hindu Marriage Act",
-        "1955",
-        "matrimonial appeal",
-        "family court",
-        "Nedumangad",
-        " Kerala High Court",
-        "Ernakulam",
-        "marriage dissolution",
-        "spousal rights",
-        "property division",
-        "alimony",
-        "custody",
-        "joint family",
-        "separation",
-        "irretrievable breakdown",
-        "no fault divorce",
-        "matrimonial property",
-        "family law"
+        "high court of kerala",
+        "dr.shamsudheen @ sadasivan nai",
+        "hindu marriage act 1955"
       ],
-      "relevance_score": 3,
+      "relevance_score": 4,
       "precedent_value": "TODO",
       "use_for_drafting": [
-        "drafting a petition for dissolution of marriage under Hindu Marriage Act, 1955",
-        "advising on spousal rights and obligations in a separation case",
-        "assisting with property division and alimony negotiations"
+        "divorce petition",
+        "divorce arguments",
+        "Citing divorce precedents"
       ],
       "annotation_verified": false,
-      "annotation_status": "auto_llm",
-      "annotated_by": "ollama_llama3",
+      "annotation_status": "auto_template",
+      "annotated_by": "auto_template_engine",
       "dataset_version": "1.0",
-      "updated_at": "2026-06-16T20:14:36.440626"
+      "updated_at": "2026-06-19T11:01:48.803615"
     },
     {
       "id": "HC_0000_Eluri_Sudharani_Egdist",

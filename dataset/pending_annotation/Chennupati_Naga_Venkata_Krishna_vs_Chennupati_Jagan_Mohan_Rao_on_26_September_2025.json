@@ -7,7 +7,7 @@
   "total_pages": 48,
   "extracted_at": "2026-06-18T21:03:33.775668",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 9,
@@ -26,13 +26,13 @@
     "Maheswara Rao J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "XII Additional district Judge, Krishna at Vijayawada (OS No. 197 of 2009)",
   "reserved_on": "31.07.2025",
   "delivered_on": "",
-  "case_name": "Chennupati Naga Venkata Krishna vs Chennupati Jagan Mohan Rao on 26 September, 2025",
+  "case_name": "Chennupati Naga Venkata Krishna vs Chennupati Jagan Mohan Rao",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chennupati Naga Venkata Krishna, S/o. Kesavara Rao, Hindu, Occ;Properties and Student",
+    "respondent_defendant": "Chennupati Jagan Mohan Rao, S/o Madhava Rao Properties R/o. patamata Center, Vijayawada, Krishna District",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -83,7 +83,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appeal against the Judgment and Decree dated 26-3-2015 passed in OS No. 197 of 2009 on the file of the XII Additional District Judge, Krishna at Vijayawada.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -93,39 +93,98 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A compromise decree is barred by law under Order 23 Rule 3ACPC.",
+      "held": "to set aside a compromise decree, which was barred by law under Order 23 Rule 3ACPC.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Order 23 Rule 3"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "decree",
+        "barred",
+        "Order 23 Rule 3"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The admission is the best evidence.",
+      "held": "submitting further that the admission is the best evidence.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "C.N. Ramappa Gowda vs C.C. Chandregowda (died) by LRs and another"
+      ],
+      "keywords": [
+        "admission",
+        "best evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "evidence cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The plaintiff has to still prove his plaint case.",
+      "held": "but, merely because of that reason, the suit could not be decreed, The plaintiff had to still prove his plaint case.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "C.N. Ramappa Gowda vs C.C. Chandregowda (died) by LRs and another"
+      ],
+      "keywords": [
+        "plaint",
+        "case",
+        "prove"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the judgment and decree dated 26-3-2015 passed in OS No. 197 of 2009 are set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Code of Civil Procedure",
+    "1908",
+    "Indian Evidence Act",
+    "1872",
+    "section 96 CPC",
+    "GPA Holder",
+    "Manikyamma @ Mani",
+    "Section 151 CPC",
+    "stay decree",
+    "judgment dated 26-03-2015",
+    "O.S No. 197/2009",
+    "O.S No. 197/2019"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on Hindu Marriage Act implications",
+    "assisting with Code of Civil Procedure appeals"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T10:00:58.945501"
 }

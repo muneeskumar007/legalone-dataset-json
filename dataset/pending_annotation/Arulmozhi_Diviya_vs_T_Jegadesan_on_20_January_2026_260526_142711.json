@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-06-18T21:02:26.261288",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "O.P.No.200 of 2025",
     "OP.No.200 of 2025"
   ],
-  "trial_court": "",
+  "trial_court": "Sub Court, Sivakasi - H.M.O.P.No.200 of 2025",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Arulmozhi @ Diviya vs T.Jegadesan on 20 January, 2026",
+  "case_name": "Arulmozhi @ Diviya vs T.Jegadesan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Arulmozhi @ Diviya (wife)",
+    "respondent_defendant": "T.Jegadesan (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2024 but separated due to differences. The husband initiated divorce proceedings in Sub Court, Sivakasi. The wife seeks transfer of the case to Family Court, Trichy due to difficulties in attending hearings from her current location.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Convenience of the wife should be given a superior consideration than that of husband in matters of transfer.",
+      "held": "In line with this Parliamentary amendment, this Court and the Supreme Court have consistently held that convenience of wife should be given a superior consideration than that of husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 19(iii)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "wife",
+        "husband",
+        "transfer",
+        "convenience"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court should consider the convenience of the wife in matters of transfer.",
+      "held": "This Court is inclined to allow the petition seeking transfer as prayed for, considering the distance between Trichy and Sivakasi.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 19(iii)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "wife",
+        "convenience",
+        "transfer"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court transferred H.M.O.P.No.200 of 2025 from Sub Court, Sivakasi to Family Court, Trichy.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "transfer petition",
+    "family court",
+    "sub court",
+    "Sivakasi",
+    "Trichy",
+    "civil procedure code",
+    "section 24",
+    "withdrawal of proceedings",
+    "petitioner's prayer",
+    "wife's instance",
+    "learned counsel",
+    "Family Court Trichy"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition for divorce case",
+    "advising on jurisdiction in family court matters",
+    "preparing a withdrawal application under section 24 of the Civil Procedure Code"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:36:48.537883"
 }

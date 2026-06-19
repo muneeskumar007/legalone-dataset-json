@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-06-18T21:02:09.767320",
   "domain": "cheque_bounce",
-  "sub_domain": "divorce",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 9,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Metropolitan Magistrate (NI Act), North-West, Rohini, Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amit Choudhary vs Bharti Sharma on 4 January, 2024",
+  "case_name": "Amit Choudhary vs Bharti Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amit Choudhary, s/o Sh. Sarvottam Singh (complainant)",
+    "respondent_defendant": "Smt. Bharti Sharma, w/o Sh. Vinay Sharma (accused)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Accused requested a loan from complainant in Feb 2013 and gave a cheque for Rs. 2,00,000/- which was dishonoured twice. Complainant sent legal notice but no payment was made.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that the cheque was given as a security.",
+      "held": "DW-1 further deposed that she did not receive any telephone call or reply of these letters from the complainant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cheque bounce",
+        "security",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cheque bounce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A notice or letter sent by post is sufficient to discharge the liability.",
+      "held": "The letters dated 24.12.2016, 27.01.2017 and 07.11.2017 are Ex. DW1/1(OSR), Ex. DW1/3(OSR) and Ex. DW1/5(OSR) respectively.",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act, 1881"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "notice",
+        "letter",
+        "liability"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cheque bounce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Acquittal",
+    "final_order": "The court acquitted the accused.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "complaint",
+    "acquittal",
+    "friendly loan",
+    "financial problems",
+    "cash payment",
+    "loan",
+    "NI Act",
+    "Criminal Procedure Code",
+    "Metropolitan Magistrate",
+    "Magisterial Court",
+    "Ashok Vihar",
+    "Delhi",
+    "Rohini",
+    "North-West",
+    "Shivangi Vyas"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting cheque bounce complaints",
+    "defending against section 138 NI Act charges",
+    "appealing acquittal in Magisterial Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-06-19T09:20:14.758138"
 }
