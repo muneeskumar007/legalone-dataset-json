@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T10:27:52.340347",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Kaushik Goswami J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sessions Judge, Goalpara in Criminal Appeal No.3/2007",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Crl Rev P  60 2011 on 19 March 2025",
+  "case_name": "Sri Bhupen Nath v. The State of Assam & Smti. Dipti Rani Devi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Bhupen Nath, husband",
+    "respondent_defendant": "The State of Assam & Smti. Dipti Rani Devi",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner was convicted under Section 494 of IPC and sentenced for 1 year Rigorous Imprisonment with fine of Rs. 3,000/- in default to undergo 6(six) months of Simple Imprisonment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,99 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu marriage must be solemnized in accordance with the applicable customs or usage.",
+      "held": "Therefore, requisite ceremonies for the solemnisation of the Hindu marriage must be in accordance with the applicable customs or usage and where saptapadi has been adopted, the marriage becomes complete and binding when the seventh step is taken.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 7"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Hindu marriage",
+        "customs",
+        "usage",
+        "saptapadi"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "marriage disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The requisite ceremonies for a Hindu marriage must be performed and there must be proof of performance when an issue or controversy arises.",
+      "held": "Therefore, the requisite ceremonies have to be performed and there must be proof of performance of the said ceremony when an issue/controversy arise.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 7"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Hindu marriage",
+        "ceremonies",
+        "proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "marriage disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A Hindu marriage is not valid if the requisite ceremonies are not performed.",
+      "held": "Where a Hindu marriage is not performed in accordance with the applicable rites or ceremonies such as saptapadi when included, the marriage will not be construed as a Hindu marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 7"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Hindu marriage",
+        "ceremonies",
+        "validity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "marriage disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "The judgment of the lower Court is upheld",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The judgment of the lower Court is upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "Indian Penal Code",
+    "Criminal Procedure Code",
+    "Sessions Judge",
+    "S.D.J.M.",
+    "G.R. Case",
+    "Assam",
+    "Goalpara",
+    "GAUHATI HIGH COURT",
+    "High Court of Assam",
+    "Nagaland",
+    "Mizoram",
+    "Arunachal Pradesh",
+    "Crl.Rev.P.",
+    "Section 401"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against Sessions Judge's order",
+    "drafting petition under Section 401 of Criminal Procedure Code",
+    "drafting application for bail in murder case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:02:18.836284"
 }

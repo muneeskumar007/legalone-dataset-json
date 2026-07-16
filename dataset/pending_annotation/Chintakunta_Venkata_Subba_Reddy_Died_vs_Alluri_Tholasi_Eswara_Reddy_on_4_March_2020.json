@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T10:27:36.679122",
   "domain": "property_dispute",
-  "sub_domain": "will_succession",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "partition": 3,
@@ -27,13 +27,13 @@
     "A.S.No.99 of 1988",
     "O.S.No.125 of 1984"
   ],
-  "trial_court": "",
+  "trial_court": "Court of learned Additional Senior Civil Judge (FTC), Nandyal, A.S.No.99 of 1988",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chintakunta Venkata Subba Reddy Died vs Alluri Tholasi Eswara Reddy on 4 March, 2020",
+  "case_name": "Chintakunta Venkata Subba Reddy Died vs Alluri Tholasi Eswara Reddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chintakunta Venkata Subba Reddy (died) and four others",
+    "respondent_defendant": "Alluri Tholasi Eswara Reddy",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -83,7 +83,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent laid the suit against the deceased first appellant for a declaration of right over the plaint schedule land and for a consequential permanent injunction.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -93,39 +93,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A gift deed can be valid if it is proved to confer right, title and interest to the suit plot.",
+      "held": "It is held that the Gift under Ex.A3 in favour of Sri Thimma Reddy is just and proper.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "gift deed",
+        "right",
+        "title",
+        "interest"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the respondent to prove a cause of action for filing a suit.",
+      "held": "None represented the respondent. Now, the matter is being disposed of on the material available.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cause of action",
+        "burden"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil suit"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order declared the right of the plaintiff over the plaint schedule land and granted a permanent injunction.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Succession Act",
+    "Code of Civil Procedure",
+    "Transfer of Property Act",
+    "Indian Evidence Act",
+    "property_dispute",
+    "family_property",
+    "succession_rights",
+    "partition_suit",
+    "family_members",
+    "heirship",
+    "will_execution",
+    "probate_granted",
+    "inheritance_claim",
+    "family_violence",
+    "land_dispute",
+    "real_estate",
+    "family_law",
+    "civil_procedure",
+    "judicial_relatives"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "filing a partition suit",
+    "claiming inheritance rights",
+    "resolving family property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:52:02.401177"
 }

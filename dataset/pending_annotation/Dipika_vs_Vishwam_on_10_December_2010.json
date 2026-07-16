@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:28:48.798778",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Vijay Manohar Sahai J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Surat, in Family Suit No.198/2010",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Dipika vs Vishwam on 10 December, 2010",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dipika Amrutbhai Patel - Appellant (husband?)",
+    "respondent_defendant": "Vishwam Parmanand Patel - Respondent (wife?)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The appellant sought a declaration that a deed of divorce executed between the parties is legal and valid, and that they have ceased to be husband and wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A suit for declaration about the validity of a marriage or matrimonial status falls within the jurisdiction of the Family Court.",
+      "held": "Considering the plaint, nothing appears that plaintiff has claimed the relief of declaration about her matrimonial status. Nothing appears from the plaint that plaintiff has claimed the relief of declaration that relation of husband and wife between the parties is not existent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Family Courts Act — Section 7"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "family court",
+        "matrimonial status",
+        "marriage validity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Family Court has jurisdiction to grant a declaration about the marital status of parties, including the validity of a customary divorce.",
+      "held": "Ultimately, the Suit came to be dismissed. Hence, this appeal.",
+      "applicable_acts_sections": [
+        "Family Courts Act — Section 7"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "family court",
+        "marital status",
+        "customary divorce"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed?",
+    "final_order": "Not specified",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "irretrievable breakdown",
+    "marital status",
+    "separation",
+    "cohabitation",
+    "joint family",
+    "matrimonial home",
+    "custody",
+    "maintenance",
+    "alimony",
+    "property settlement",
+    "equitable distribution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on property settlement",
+    "assisting with maintenance and alimony disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:47:23.971530"
 }

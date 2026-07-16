@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:28:16.088007",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "12.11.2025",
-  "case_name": "Decided On : 12.11.2025 vs State Of Himachal Pradesh & Another on 12 November, 2025",
+  "case_name": "Sumit Vasudeva & Others v. State of Himachal Pradesh & Another — Cr.MMO No. : 1025 of 2025",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sumit Vasudeva & Others (Petitioners)",
+    "respondent_defendant": "State of Himachal Pradesh & Another (Respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners filed a petition under Section 528 of the Bharatiya Nagarik Suraksha Sanhita for quashing of FIR No.32 of 2025, registered with Police Station, Palampur, District Kangra, H.P., under Sections 498−A and 34 of the Indian Penal Code.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When parties agree to part their ways, the court may grant a divorce on the basis of mutual consent.",
+      "held": "As per the stand taken by the parties, since it was not possible for petitioner No.1 and respondent No.2 to live together, as husband and wife, as such, they have decided to part their ways, by moving a petition, under Section 13−B of the Hindu Marriage Act, on the basis of mutual consent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "divorce",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A compromise deed can be a valid basis for granting a divorce.",
+      "held": "She has also deposed that the matter has been compromised between her and the petitioners, vide Compromise Deed Annexure P−2.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compromise deed",
+        "divorce",
+        "Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The FIR No.32 of 2025 is quashed and set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "Section 528",
+    "quashing of FIR",
+    "FIR No.32",
+    "Indian Penal Code",
+    "IPC",
+    "Sections 498-A and 34",
+    "Palampur",
+    "Kangra",
+    "H.P.",
+    "Police Station",
+    "oral evidence"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs in Himachal Pradesh",
+    "using Section 528 of Bharatiya Nagarik Suraksha Sanhita"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:31:25.316555"
 }

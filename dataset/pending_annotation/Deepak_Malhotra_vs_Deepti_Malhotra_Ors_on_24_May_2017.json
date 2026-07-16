@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:28:20.274308",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "Ashutosh Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judge, Family Court (North), Rohini, Delhi - M.T No.110/2015",
   "reserved_on": "18.05.2017",
   "delivered_on": "24.05.2017",
-  "case_name": "Deepak Malhotra vs Deepti Malhotra & Ors. on 24 May, 2017",
+  "case_name": "Deepak Malhotra vs Deepti Malhotra & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Deepak Malhotra, husband",
+    "respondent_defendant": "Deepti Malhotra & Ors., wife and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner was directed to pay Rs.22,000/- per month as interim maintenance to respondent from 23.07.2014 till disposal of the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,94 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When no definite evidence of income is offered, the Court has to form its opinion as to what could possibly be the income.",
+      "held": "The guess work made by the Court below is without any basis and is based on wrong assumptions.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "income",
+        "guesswork",
+        "wrong assumptions"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court should not make assumptions about people not showing their real income for taxation purposes.",
+      "held": "Such perception cannot be pressed into use while deciding any application judicially.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "income",
+        "taxation",
+        "assumptions"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Court should consider all relevant documents, including rent agreements and receipts.",
+      "held": "The Court below did not take into account the rent agreement and rent receipts which were filed by the petitioner.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "documents",
+        "rent agreements",
+        "receipts"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petitioner's appeal against the trial court order was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Divorce",
+    "Maintenance",
+    "Section 125 Cr.P.C.",
+    "Interim Maintenance",
+    "Family Court",
+    "Rohini",
+    "Delhi",
+    "Marriage",
+    "Children",
+    "Wife's Rights",
+    "Husband's Obligations",
+    "Domestic Violence",
+    "Protection of Women from DV Act",
+    "Criminal Procedure Code",
+    "Code of Civil Procedure",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance orders",
+    "representing clients in family court cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:38:10.697478"
 }

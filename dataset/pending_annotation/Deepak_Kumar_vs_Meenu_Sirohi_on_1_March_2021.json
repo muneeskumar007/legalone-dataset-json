@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:28:19.453788",
   "domain": "domestic_violence",
-  "sub_domain": "property_dispute",
+  "sub_domain": "domestic_violence",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "Rekha Palli J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge (East), Family Court, Karkardooma in H.M.A. No. 1458/18",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Deepak Kumar vs Meenu Sirohi on 1 March, 2021",
+  "case_name": "Deepak Kumar vs Meenu Sirohi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Deepak Kumar, husband",
+    "respondent_defendant": "Meenu Sirohi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent claimed that the marriage was a nullity as it was performed under coercion and pressure. She alleged that she was forced to consume a drink, became unconscious, and was then repeatedly raped without her consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party who claims that a marriage was not voluntary to prove that the consent was not obtained voluntarily.",
+      "held": "Since the appellant had not appeared in the witness box, the respondent's plea that she did not give her consent for the alleged marriage stood unrebutted.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "voluntary",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "domestic violence cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's plea that their consent to a marriage was illegally obtained under influence is more likely to be accepted if they can demonstrate the circumstances in which the alleged coercion or influence occurred.",
+      "held": "The respondent's plea that her consent to the alleged marriage had been illegally obtained under influence, with the help of one Ashwani and his wife Usha, by administering a spiked drink to her; even the respondent's plea that she had not voluntarily gone to the office of Registrar of Marriages for registration of the marriage, was accepted as well.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent",
+        "influence",
+        "coercion"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "marriage annulment cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is not specified in the given judgment excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Domestic Violence",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19",
+    "Section 28",
+    "Nullity of Marriage",
+    "Coercion and Pressure",
+    "Conspiracy",
+    "Marriage under Duress",
+    "Legal Separation",
+    "Divorce",
+    "Matrimonial Dispute",
+    "Domestic Abuse",
+    "Protection Order",
+    "Custody Battle",
+    "Maintenance Petition",
+    "Section 11",
+    "Section 12(1)(c)",
+    "Latin Maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for legal separation",
+    "advising on domestic violence cases",
+    "preparing a divorce petition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:37:10.611757"
 }

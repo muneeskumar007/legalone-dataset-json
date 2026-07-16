@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T10:29:19.706547",
   "domain": "will_succession",
-  "sub_domain": "partition",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "partition": 1,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr. Prabhakar Bhagwan Satpute vs Shamita Sanjay Galwankar & Anr on 21 November, 2016",
+  "case_name": "Dr. Prabhakar Bhagwan Satpute vs Shamita Sanjay Galwankar & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. Prabhakar Bhagwan Satpute, Executor named under the Will of the deceased",
+    "respondent_defendant": "Shamita Sanjay Galwankar and Geeta Ashok Samant",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -35,7 +35,7 @@
   ],
   "outcome_detected": "The Petition is\nallowed",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is a senior citizen who filed the petition in 2011. Caveats were filed later in 2013, when the petition was renumbered as a suit. The matter has been pending since April 2015.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -45,39 +45,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A testator's intention is to be gathered from the language used in the Will.",
+      "held": "This is a matter of construction and the intention of the testator must be gathered from the language used in the Will.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Dr. Prabhakar Bhagwan Satpute vs Shamita Sanjay Galwankar & Anr, (2016)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "testamentary intention",
+        "Will construction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the person challenging the Will to prove that it does not reflect the testator's true intentions.",
+      "held": "In view of the above, the burden lies on the respondents to prove that the Will does not reflect the testator's true intentions.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Dr. Prabhakar Bhagwan Satpute vs Shamita Sanjay Galwankar & Anr, (2016)"
+      ],
+      "keywords": [
+        "burden of proof",
+        "Will construction"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The Petition is\nallowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "The Petition is allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "will",
+    "succession",
+    "testamentary suit",
+    "intestate jurisdiction",
+    "executor",
+    "deceased",
+    "plaintiff",
+    "defendants",
+    "Indian Kanoon",
+    "High Court of Judicature at Bombay",
+    "Bombay",
+    "Mumbai",
+    "Borivali",
+    "West",
+    "East",
+    "Malad",
+    "L.T. Road",
+    "Datta Mandir Road",
+    "Mavalankar Nagar"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "filing a testamentary suit",
+    "executing the will of a deceased person"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:15:49.424373"
 }

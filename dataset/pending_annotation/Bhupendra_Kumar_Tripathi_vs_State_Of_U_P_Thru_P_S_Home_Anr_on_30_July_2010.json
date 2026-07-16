@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T10:25:58.967784",
   "domain": "property_dispute",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Bhupendra Kumar Tripathi vs State Of U.P. Thru. P.S. Home & Anr. on 30 July, 2010",
+  "case_name": "Bhupendra Kumar Tripathi vs State Of U.P. Thru. P.S. Home & Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "B.K.Tripathi, practicing lawyer",
+    "respondent_defendant": "State of U.P and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner, a practicing lawyer, moved an application for grant of fire arm license. Despite a favorable report, the application was rejected on the ground that the petitioner is originally from District Banda. The petitioner claims this is unsustainable and seeks to quash the order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Something more than a temporary stay is required to give jurisdiction on the ground of 'residence'.",
+      "held": "In order to give jurisdiction on the ground of 'residence'. something more than a temporary stay is required.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section X"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smt. Jeewanti Pandey v. Kishan Chandra Pandey, (1982) AIR 3"
+      ],
       "keywords": [
-        "TODO"
+        "residence",
+        "jurisdiction",
+        "temporary stay"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The word 'residence' has been subject matter of interpretation by Apex Court in various cases.",
+      "held": "The word 'residence' has been subject matter of interpretation by Apex Court in various cases.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section X"
+      ],
+      "cited_cases": [
+        "Smt. Jeewanti Pandey v. Kishan Chandra Pandey, (1982) AIR 3"
+      ],
+      "keywords": [
+        "residence",
+        "interpretation",
+        "Apex Court"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The writ petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Indian Arms Rules",
+    "fire arm license",
+    "revolver",
+    "Rule 51",
+    "Form A",
+    "Allahabad Development Authority",
+    "LL.B",
+    "Junior High School",
+    "District Magistrate",
+    "Licensing Authority",
+    "Civil Misc Writ Petition",
+    "property dispute",
+    "family law",
+    "marriage law",
+    "firearms license",
+    "safety"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for firearms license",
+    "advising on property disputes in Allahabad",
+    "assisting with family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T20:52:12.764985"
 }

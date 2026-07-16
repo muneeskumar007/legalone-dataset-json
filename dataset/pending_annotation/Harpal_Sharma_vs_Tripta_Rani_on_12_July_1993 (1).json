@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:31:13.545571",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Matrimonial Court, Kurukshetra",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Harpal Sharma vs Tripta Rani on 12 July, 1993",
+  "case_name": "Harpal Sharma vs Tripta Rani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Harpal Sharma, husband",
+    "respondent_defendant": "Tripta Rani, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner sought divorce under Section 13 of the Hindu Marriage Act on grounds of cruelty. The respondent denied allegations and the trial court dismissed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging cruelty to prove it with cogent and reliable evidence.",
+      "held": "From the perusal of the evidence, I am convinced that the petitioner has failed to substantiate allegations of cruelty against the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's fear of being killed during surgery is not sufficient to prove cruelty.",
+      "held": "If the respondent had any danger to her life, she would not have undergone any surgery.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "surgery",
+        "cruelty"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final order was dismissal of the appeal, upholding the trial court's decision to dismiss the divorce petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13",
+    "cruelty",
+    "divorce petition",
+    "Matrimonial Court",
+    "Kurukshetra",
+    "Tantrik",
+    "qualified Doctor",
+    "Post Graduate Institute",
+    "Chandigarh",
+    "surgery",
+    "affection",
+    "ailment",
+    "marriage solemnization",
+    "petition dismissal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Section 13 of Hindu Marriage Act",
+    "advising client on grounds for divorce",
+    "responding to petition for divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:51:34.978379"
 }

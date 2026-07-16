@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:26:59.624432",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "custody": 1
@@ -21,13 +21,13 @@
     "M.C.No.269/2017",
     "M.C.No.107/2017"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Hubballi; Family Court, Mysore",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chaitra W/O Sumit Wali vs Sumit S/O Siddaveerappa Wali on 22 November, 2017",
+  "case_name": "Chaitra W/O Sumit Wali vs Sumit S/O Siddaveerappa Wali",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chaitra W/O Sumit Wali (wife)",
+    "respondent_defendant": "Sumit S/O Siddaveerappa Wali (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2005. The petitioner filed a petition for restitution of conjugal rights before the Family Court, Mysuru, while the respondent filed a petition seeking divorce on grounds of desertion and cruelty before the Family Court, Hubballi.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The jurisdiction to file a petition under section 13 of the Hindu Marriage Act or section 9 of the Hindu Marriage Act stands in favour of the party who is residing at Mysuru.",
+      "held": "Admittedly the marriage of the parties has taken place at Mysuru and the petitioner is residing at Mysuru. Therefore two of the factors satisfying the jurisdiction to file a petition under section 13 of the Hindu Marriage Act or section 9 of the Hindu Marriage Act stands in favour of the party who is residing at Mysuru.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13",
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "jurisdiction",
+        "residency",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking transfer of a petition has to establish that the transfer is in the interest of justice and equity.",
+      "held": "PRAYI NG TO TRANSFER THE M.C.NO.107/ 2017, PENDING BEFORE FAMILY COURT, HUBBALLI TO FAMILY COURT, MYSORE, IN THE INTEREST OF JUSTICE AND EQUITY, ETC.,",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Chaitra W/O Sumit Wali vs Sumit S/O Siddaveerappa Wali on 22 November, 2017"
+      ],
+      "keywords": [
+        "transfer",
+        "interest of justice",
+        "equity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the petitioner's petition to transfer the case from the Family Court, Hubballi, to the Family Court, Mysore.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "CPC",
+    "1908",
+    "Section 24",
+    "Family Court",
+    "Mysore",
+    "Hubballi",
+    "matrimonial discord",
+    "residency",
+    "petitioner",
+    "respondent",
+    "marriage",
+    "solemnized",
+    "2005",
+    "Mysuru",
+    "equity",
+    "justice"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on residency issues in family court",
+    "assisting with transfer of cases between courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:22:18.417589"
 }

@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:28:25.018043",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "domestic_violence",
   "domain_scores": {
     "divorce": 3,
     "partition": 2,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Deoki Panjhiyara vs Shahshi Bhushan Narayan Azad & Anr on 12 December, 2012",
+  "case_name": "Deoki Panjhiyara vs Shahshi Bhushan Narayan Azad & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Deoki Panjhiyara — wife",
+    "respondent_defendant": "Shashi Bhushan Narayan Azad & Anr. — husband and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant, married to respondent in 2006, filed petition under Section 12 of Protection of Women from Domestic Violence Act, 2005 seeking reliefs including damages and maintenance. Interim maintenance granted by trial court at rate of Rs.2000/- per month.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The legislative intent to include women, living in marriages subsequently found to be illegal or even in relationships resembling a marriage, within the protective umbrella of the DV Act is absolutely clear and must be given its full effect.",
+      "held": "Learned counsel by referring to the definition of “aggrieved person” and “domestic relationship” as appearing in the DV Act, 2005 has urged that the legislative intent to include women, living in marriages subsequently found to be illegal or even in relationships resembling a marriage, within the protective umbrella of the DV Act is absolutely clear and the same must be given its full effect.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from Domestic Violence Act, 2005 — Section 2"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "domestic violence",
+        "DV Act",
+        "legislative intent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases",
+        "domestic violence cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A relationship in the nature of marriage is akin to a common law marriage which requires, in addition to proof of the fact that parties had lived together in a shared household as defined in Section 2(s) of the DV Act, the following conditions to be satisfied.",
+      "held": "They must be of legal age to marry. They must be otherwise qualified to enter into a legal marriage, including being unmarried. They must have voluntarily cohabited and held themselves out to the world as being akin to spouses for a significant period of time……",
+      "applicable_acts_sections": [
+        "Protection of Women from Domestic Violence Act, 2005 — Section 2"
+      ],
+      "cited_cases": [
+        "D. Velusamy vs. D.Patchaimmal, (2012) X SCC Y"
+      ],
+      "keywords": [
+        "common law marriage",
+        "shared household"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "cases involving common law marriages"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Appellant's application for interim maintenance affirmed by Sessions Judge and appeal allowed by Supreme Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Section 498A",
+    "Section 304B",
+    "Section 113B",
+    "Section 406",
+    "Section 498A IPC",
+    "Section 3 Protection of Women from DV Act",
+    "DV",
+    "marital violence",
+    "wife beating",
+    "cruelty",
+    "harassment",
+    "abuse",
+    "intimidation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "advising on Protection of Women from DV Act",
+    "representing victims of marital violence"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:21:12.232959"
 }

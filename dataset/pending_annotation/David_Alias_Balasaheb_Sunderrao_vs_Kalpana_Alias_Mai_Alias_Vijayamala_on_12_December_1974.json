@@ -7,7 +7,7 @@
   "total_pages": 26,
   "extracted_at": "2026-07-15T10:28:13.085758",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "David Alias Balasaheb Sunderrao ... vs Kalpana Alias Mai Alias Vijayamala ... on 12 December, 1974",
+  "case_name": "David Alias Balasaheb Sunderrao vs Kalpana Alias Mai Alias Vijayamala",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband, Indian Christian under the Indian Divorce Act",
+    "respondent_defendant": "wife, Kalpana Alias Mai Alias Vijayamala",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife committed frequent acts of adultery with co-respondent since December 6, 1970. Petitioner seeks decree declaring marriage null and void or in the alternative, a decree for divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party can prove that their consent was obtained by fraud and entitle them to obtain a decree declaring the marriage null and void if false representations were made with the knowledge that they were false.",
+      "held": "Mr. Sethna submitted that whatever be my view with regard to the sufficiency of evidence on the record, the main question is whether such false representations inducing consent on essential matters would enable a party to prove that his consent was obtained by fraud and further entitle him to obtain a decree declaring the marriage null and void.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "fraud",
+        "false representations",
+        "consent",
+        "marriage nullity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's right to obtain a decree for nullity can be lost due to acquiescence, approbation, condonation or waiver.",
+      "held": "She submitted that even if such fraud is established, the Court has to consider the conduct of the petitioner and to see whether such right to obtain a decree for nullity is lost to the petitioner by reason of acquiescence, approbation, condonation or waiver.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "acquiescence",
+        "approbation",
+        "condonation",
+        "waiver",
+        "nullity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Marriage declared null and void or decree of divorce may be passed in favour of the petitioner.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Specific Relief Act",
+    "Indian Divorce Act",
+    "Clause 35",
+    "Letters Patent",
+    "adultery",
+    "decree of divorce",
+    "amicus curiae",
+    "maternal uncle",
+    "Rev. N.R. Pandit",
+    "V.R. Lond",
+    "L.W. Bansode",
+    "Poona",
+    "April 1968",
+    "December 6, 1970",
+    "April 3, 1974",
+    "April 17, 1974"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "assisting court as amicus curiae",
+    "representing client in adultery case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:25:14.825141"
 }

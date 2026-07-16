@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:27:34.833804",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 8,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Civil Judge, Mandya, O.S. No. 131 of 1988",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chikkamma And Others vs N. Suresh And Others on 30 May, 2000",
+  "case_name": "Chikkamma And Others vs N. Suresh And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chikkamma And Others (plaintiff)",
+    "respondent_defendant": "N. Suresh And Others (defendants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff sought partition and separate possession of his share in the suit schedule properties. The defendants denied any relationship with the plaintiff and claimed that the 5th defendant is not the wife of late Nanjegowda.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An illegitimate son can seek his share as a matter of right in the joint family property.",
+      "held": "even an illegitimate son could seek his share as a matter of right in the said property",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Patel Chandrappa v Hanumanthappa, (Year) X SCC Y",
+        "S. Melagiriyappa and Others v Lalithamma, (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "illegitimate son",
+        "joint family property",
+        "coparcenary property"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The joint family property becomes the exclusive property of the sole coparcener.",
+      "held": "the joint family property in his hands becomes his exclusive property",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Patel Chandrappa v Hanumanthappa, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "joint family property",
+        "coparcenary property",
+        "exclusive property"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's decree was upheld, and the suit filed by the plaintiff was decreed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "joint family",
+    "family properties",
+    "coparceners",
+    "coparcenary",
+    " Hindu Undivided Family",
+    "HUDF",
+    "section 96 CPC",
+    "Section 2 HSA",
+    "Section 6 HMA",
+    "suit schedule properties",
+    "Nanjegowda",
+    "Chikkamma",
+    "Kempamma",
+    "Boramma",
+    "Bhagyamma"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on Hindu succession law",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:51:14.757739"
 }

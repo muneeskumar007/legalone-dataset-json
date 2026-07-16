@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:31:21.458359",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Dehradun, O.S. No.774 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Himani Sharma vs Vivek Sharma on 1 April, 2019",
+  "case_name": "Himani Sharma vs Vivek Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Himani Sharma, wife",
+    "respondent_defendant": "Vivek Sharma, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife's application for expenses pendente lite under Section 24 of the Hindu Marriage Act, 1955 was dismissed by the Family Court. Wife claimed Rs.25,000/- as litigation expenses. Husband was already giving monthly maintenance and bearing education expenses of their child.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking expenses pendente lite to establish that such expenses were incurred.",
+      "held": "Apart from this, the entire education expenses of the child, who is studying in Brightland School at Dehradun as well as kitchen, water charges are also borne by the respondent/husband, though both the appellant and respondent are residing in the same house.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "expenses pendente lite",
+        "litigation expenses",
+        "maintenance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may increase the amount awarded towards litigation expenses if it is not sufficient.",
+      "held": "We are of the opinion that Rs.25,000/- (Rupees Twenty Five Thousand Only) as awarded by the court below towards litigation expenses will not be sufficient, and therefore, we increase the amount...",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "litigation expenses",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Husband directed to give further amount of Rs.25,000/- to wife within a week. Family Court directed to proceed with the matter expeditiously.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19",
+    "Section 24",
+    "maintenance",
+    "education expenses",
+    "pendente lite",
+    "litigation costs",
+    "divorce",
+    "marriage",
+    "family law",
+    "Indian court judgments",
+    "judicial separation",
+    "matrimonial disputes",
+    "spousal support",
+    "child custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal maintenance",
+    "assisting with child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:05:42.792098"
 }

@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T10:29:34.369217",
   "domain": "property_dispute",
-  "sub_domain": "partition",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -24,13 +24,13 @@
     "I.A.No.1030 of 2010",
     "O.S.No.76 of 2007"
   ],
-  "trial_court": "",
+  "trial_court": "Additional District Munsif, Villupuram, O.S.No.76 of 2007",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Duraisamy Reddiar vs Saroja Ammal on 6 October, 2016",
+  "case_name": "Duraisamy Reddiar vs Saroja Ammal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Duraisamy Reddiar, plaintiff",
+    "respondent_defendant": "Saroja Ammal, Duraisamy, Sadagopan, defendants",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner filed a suit in O.S.No.76 of 2007 against the respondents seeking declaration and perpetual injunction. The respondents resisted the petition to amend the plaint.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,122 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An amendment changing the nature and character of the case cannot be allowed.",
+      "held": "The Apex Court has also held that an amendment changing the nature and character of the case cannot be allowed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amendment",
+        "nature",
+        "character",
+        "case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property_dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party may rely on different rights alternatively and there is nothing in the Civil P.C. to prevent a party from making two or more inconsistent sets of allegations & claiming relief thereunder in the alternative.",
+      "held": "Mukherjea, J, while penning down the judgment on behalf of a three judges bench of the Supreme Court has observed as under: 'A pltf., may rely upon different rights alternatively & there is nothing in the Civil P.C. to prevent a party from making two or more inconsistent sets of allegations & claiming relief thereunder in the alternative.'",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "Firm Sriniwas Ram Kumar Vs.Mahabir Prasad and others AIR (38) 1951 (SC)"
+      ],
+      "keywords": [
+        "alternative",
+        "allegations",
+        "relief"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "property_dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "When the alternative case, which the pltf., could have made, was not only admitted by the deft., in his written statement but was expressly put forward as an answer to the claim which the pltf., made in the suit, there would be nothing improper in giving the pltf., a decree upon the case which the deft., himself makes.",
+      "held": "Mukherjea, J, while penning down the judgment on behalf of a three judges bench of the Supreme Court has observed as under: 'When the alternative case, which the pltf., could have made, was not only admitted by the deft., in his written statement but was expressly put forward as an answer to the claim which the pltf., made in the suit, there would be nothing improper in giving the pltf., a decree upon the case which the deft., himself makes.'",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "Firm Sriniwas Ram Kumar Vs.Mahabir Prasad and others AIR (38) 1951 (SC)"
+      ],
+      "keywords": [
+        "alternative",
+        "case",
+        "decree"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "property_dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Amendments should be refused only where the other party cannot be placed in the same position as if the pleading had been originally correct, but the amendment would cause him an injury which could not be compensated in costs.",
+      "held": "In North Eastern Railway Administration, Gorakhpur V.Bhagvan das (D) by Lrs) 2008-4-LW-80, while speaking on behalf of a Division Bench, Hon'ble Mr.Justice D.K.Jain has observed as under: 'Amendments should be refused only where the other party cannot be placed in the same position as if the pleading had been originally correct, but the amendment would cause him an injury which could not be compensated in costs.'",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "North Eastern Railway Administration, Gorakhpur V.Bhagvan das (D) by Lrs) 2008-4-LW-80"
+      ],
+      "keywords": [
+        "amendment",
+        "pleading",
+        "costs"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property_dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu_Marriage_Act_1955",
+    "Code_of_Civil_Procedure_1908",
+    "Registration_Act_1908",
+    "Civil_Revision_Petition",
+    "Article_227_Constitution_India",
+    "Fair_and_Decretal_order",
+    "O_S_No_76_2007",
+    "I_A_No_1030_2010",
+    "Additional_District_Munsif",
+    "Villupuram",
+    "Plaintiff",
+    "Defendants",
+    "Notice",
+    "Service_of_notice"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a property dispute case",
+    "preparing a civil revision petition",
+    "understanding the role of notice in litigation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:25:47.039269"
 }

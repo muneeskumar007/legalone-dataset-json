@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T10:30:46.470462",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -33,13 +33,13 @@
     "CMA.No.53 of 2018",
     "CMA.No.54 of 2018"
   ],
-  "trial_court": "",
+  "trial_court": "V Additional Family Court, Chennai (O.P.No.3476 of 2008 and O.P.No.976 of 2010)",
   "reserved_on": "25.11.2022",
   "delivered_on": "01.12.2022",
-  "case_name": "G.P. Rajkumar vs Sunanthini on 1 December, 2022",
+  "case_name": "G.P. Rajkumar vs Sunanthini",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "G.P. Rajkumar (husband)",
+    "respondent_defendant": "Sunanthini (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -71,7 +71,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a petition for divorce in O.P.No.3476 of 2008 and the wife filed a petition for restitution of conjugal rights in O.P.No.976 of 2010. The trial court dismissed the husband's petition and allowed the wife's petition. The husband has appealed against these orders.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -81,39 +81,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The wife cannot be allowed to mark documents which have not been proved and tested by cross examination at the belated stage after the appellant/husband's counsel made his submissions.",
+      "held": "The wife cannot be allowed to mark documents which have not been proved and tested by cross examination at the belated stage after the appellant/husband's counsel made his submissions.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "document",
+        "cross-examination"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The conduct of the parties suggest that the matrimonial bond is beyond repair, the marriage would become sham and dejure declaration of dissolution of marriage is necessary.",
+      "held": "The conduct of the parties suggest that the matrimonial bond is beyond repair, the marriage would become sham and dejure declaration of dissolution of marriage is necessary.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Naveen Kohli Vs. Neelu Kohli (2006) 1675 AIR SC",
+        "Samar Ghosh Vs. Jaya Ghosh (2007) 4 SCC 511",
+        "K. Srinivas Rao Vs. D.A. Deepa (2013) 5 SCC 226",
+        "Sukhendu Das Vs. Rita Mukherjee (2017) 9 SCC 632"
+      ],
+      "keywords": [
+        "matrimonial bond",
+        "sham marriage"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "restoration of conjugal rights"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is dismissed as the husband failed to establish cruelty by his wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19",
+    "Indian Penal Code",
+    "marriage",
+    "spouse",
+    "maintenance",
+    "alimony",
+    "custody",
+    "property division",
+    "matrimonial dispute",
+    "family law",
+    "civil appeal",
+    "judgment and decree",
+    "family court",
+    "Chennai"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:36:05.574083"
 }

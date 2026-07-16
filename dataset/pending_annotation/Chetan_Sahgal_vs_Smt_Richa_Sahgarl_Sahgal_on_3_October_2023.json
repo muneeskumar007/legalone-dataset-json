@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:27:30.130484",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -24,13 +24,13 @@
     "S.A. J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "1st Additional Distrct Judge,Shujalpur, Distt. Shajapur in Case No. 06/2019(HMA)",
   "reserved_on": "17.08.2023",
   "delivered_on": "03.10.2023",
-  "case_name": "Chetan Sahgal vs Smt. Richa Sahgarl Sahgal on 3 October, 2023",
+  "case_name": "Chetan Sahgal vs Smt. Richa Sahgarl Sahgal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "CHETAN SAHGAL, husband",
+    "respondent_defendant": "SMT. RICHA SAHGARL SAHGAL, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant and respondent got married on 12.05.2009 as per Hindu rights and customs. The respondent never lived at her matrimonial house and have not cohabited.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The admissibility of additional evidence does not depend upon the relevancy to the issue on hand, or on the fact whether the applicant had an opportunity for adducing such evidence at an earlier stage or not.",
+      "held": "As observed and held by this Court in the case of A. Andisamy Chettiar v. A. Subburaj Chettiar, reported in (2015) 17 SCC 713, the admissibility of additional evidence does not depend upon the relevancy to the issue on hand, or on the fact whether the applicant had an opportunity for adducing such evidence at an earlier stage or not.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "A. Andisamy Chettiar v. A. Subburaj Chettiar, (2015) 17 SCC 713"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "additional evidence",
+        "relevancy",
+        "admissibility"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "appeal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The appellate court may permit additional evidence if the conditions laid down in Rule are found to exist and the parties are not entitled, as of right, to the admission of such evidence.",
+      "held": "However, at the same time, where the additional evidence sought to be adduced removes the cloud of doubt over the case and the evidence has a direct and important bearing on the main issue in the suit and interest of justice clearly renders it imperative that it may be allowed to be permitted on record, such application may be allowed.",
+      "applicable_acts_sections": [
+        "Order 41 Rule 27 CPC"
+      ],
+      "cited_cases": [
+        "Sanjay Kumar Singh V State Of Jharkhand, (2022) LiveLaw (SC) 268"
+      ],
+      "keywords": [
+        "additional evidence",
+        "conditions",
+        "admission"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "appeal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The appeal is\nallowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The present appeal has been filed by the appellant (husband) being aggrieved by the impugned judgment and decree dated 01.07.2019 passed by the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Protection of Women from DV Act",
+    "2005",
+    "maintenance",
+    "alimony",
+    "custody",
+    "joint family",
+    "separation",
+    "matrimonial dispute",
+    "family court",
+    "appeal",
+    "first appeal",
+    "judgment",
+    "decree",
+    "residence",
+    "occupation",
+    "student",
+    "learned counsel"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing for family court hearing",
+    "responding to maintenance application"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:47:45.816998"
 }

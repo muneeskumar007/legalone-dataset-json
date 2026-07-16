@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:28:18.891732",
   "domain": "domestic_violence",
-  "sub_domain": "",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "domestic_violence": 1
   },
@@ -18,20 +18,20 @@
     "Subramonium Prasad J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, case number not mentioned",
   "reserved_on": "",
   "delivered_on": "04.03.2020",
-  "case_name": "Deepak Kumar vs Meenu Sirohi on 19 November, 2020",
+  "case_name": "Deepak Kumar vs Meenu Sirohi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Deepak Kumar, husband",
+    "respondent_defendant": "Meenu Sirohi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent filed a petition under Sections 11 and 12(1c) of the Hindu Marriage Act for grant of a decree of nullity of the marriage. The trial court allowed the petition and annulled the marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -41,39 +41,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party who seeks to annul a marriage to prove its case.",
+      "held": "Though the respondent had tendered her evidence, appeared in the witness box as PW-1 and was partly cross-examined by the appellant, he had failed to take any further steps to cross-examine the respondent whose evidence was finally closed by the learned Family Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "annulment",
+        "marriage",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "nullity of marriage cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to take steps to cross-examine the other party can result in their right to lead evidence being closed.",
+      "held": "He did not even enter the witness box. Finally, the appellant's right to lead evidence was closed vide order dated 28.01.2020.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cross-examination",
+        "right to lead evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's decision to annul the marriage was upheld, and the appeal was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "matrimonial_dispute",
+    "appeal_against_order",
+    "stay_of_order",
+    "intimation_to_counsel",
+    "service_of_process",
+    "video_conferencing",
+    "court_hearing",
+    "logged_out",
+    "Court_Master_contact",
+    "telephonic_verification",
+    "family_law",
+    "Indian_Legal_System"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against order",
+    "seeking stay of order in family court",
+    "verifying service of process in matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:36:11.646324"
 }

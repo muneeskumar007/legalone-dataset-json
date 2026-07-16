@@ -7,7 +7,7 @@
   "total_pages": 28,
   "extracted_at": "2026-07-15T10:29:12.127903",
   "domain": "cheque_bounce",
-  "sub_domain": "custody",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "cheque_bounce": 1,
     "custody": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr. Noorjehan Safia Niaz And 1 Anr vs State Of Maharashtra And Ors on 26 August, 2016",
+  "case_name": "Dr. Noorjehan Safia Niaz And 1 Anr vs State Of Maharashtra And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. Noorjehan Safia Niaz, Social Activist & Zakia Soman, Social Activist",
+    "respondent_defendant": "State of Maharashtra Through Secretary, Minority Development Department & Haji Ali Dargah Trust",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -47,7 +47,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are social activists who claim that the State and the Haji Ali Dargah Trust have failed to protect their rights. They seek a direction from this Court to take steps to ensure their safety.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The law in regard to the powers of the Court to issue a writ under Article 226 of the Constitution is well settled.",
+      "held": "This court holds that the said petition is clearly maintainable and that the law in pil.106.14.doc regard to the powers of the Court to issue a writ under Article 226 of the Constitution is well settled.",
       "applicable_acts_sections": [
-        "TODO"
+        "Constitution of India — Article 226"
+      ],
+      "cited_cases": [
+        "Shri Anandi Mukta Sadguru Shree Muktajee Vandasjiswami Suvarna Jayanti Mahotsav Smarak Trust and Ors. v. V. R. Rudani & Ors., (1989) AIR 1607 SC",
+        "Board of Control for Cricket v. Cricket Association of Bihar & Ors., (2016) SCC 709 SC"
+      ],
+      "keywords": [
+        "maintainability",
+        "writ",
+        "Article 226",
+        "Constitution of India"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "Public Interest Litigation"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The State shall not make any law which takes away or abridges the rights conferred by this Part and any law made in contravention of this clause shall, to the extent of the contravention, be void.",
+      "held": "Article 13 of the Constitution gives recognition to customs/usages.",
+      "applicable_acts_sections": [
+        "Constitution of India — Article 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "custom",
+        "usage",
+        "fundamental rights",
+        "Constitution of India"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "Customary law",
+        "Fundamental rights"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petitioners' prayer for directions is allowed. The State and the Haji Ali Dargah Trust are directed to take steps to ensure the safety of the petitioners.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "section 138",
+    "dishonour of cheque",
+    "criminal proceedings",
+    "public interest litigation",
+    "judicial review",
+    "procedural fairness",
+    "natural justice",
+    "preliminary inquiry",
+    "cognizance",
+    "charge sheet",
+    "statutory compliance",
+    "minority development department",
+    "haji ali dargah trust"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for cheque bounce",
+    "advising on criminal proceedings",
+    "assisting in public interest litigation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:13:10.534815"
 }

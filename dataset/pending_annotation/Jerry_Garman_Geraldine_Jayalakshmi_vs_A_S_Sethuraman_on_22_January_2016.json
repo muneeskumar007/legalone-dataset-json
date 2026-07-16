@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:52:13.072332",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -26,13 +26,13 @@
     "O.P.No.2490 of 2007",
     "O.P.No.2940 of 2007"
   ],
-  "trial_court": "",
+  "trial_court": "III Additional Family Court, Chennai - O.P.No.2940 of 2007",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jerry Garman @ Geraldine @ Jayalakshmi vs A.S.Sethuraman on 22 January, 2016",
+  "case_name": "Jerry Garman @ Geraldine @ Jayalakshmi vs A.S.Sethuraman",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jerry Garman @ Geraldine @ Jayalakshmi (wife)",
+    "respondent_defendant": "A.S.Sethuraman (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a petition for divorce under Section 10(1)(x) of the Indian Divorce Act. The husband filed an interlocutory application to dismiss the main petition on the ground that the marriage was solemnized as per Hindu rites and customs, hence the original petition was not legally maintainable. The trial court allowed the interlocutory application, which the wife is challenging in this appeal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu marriage may be solemnized between any two Hindus if the conditions specified in Section 5 of the Hindu Marriage Act, 1955 are fulfilled.",
+      "held": "it is relevant to extract Section 5 of Hindu Marriage Act, 1955",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Hindu marriage",
+        "Section 5",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A Hindu convert to Christianity does not need to undergo any expiatory ceremonies before reverting back to Hinduism.",
+      "held": "His conduct and the circumstance that he was received by his community, were sufficient to establish his reversion to Hinduism",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "AIR 1940 Mad 513",
+        "AIR 1943 Lah 51"
+      ],
+      "keywords": [
+        "Hindu convert",
+        "expiatory ceremonies",
+        "reversion to Hinduism"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving religious conversions"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal preferred",
+    "final_order": "The order of the trial court allowing the husband's interlocutory application to dismiss the main petition is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 10 (1) (x)",
+    "Indian Divorce Act",
+    "Family Court Act",
+    "Section 19",
+    "Civil Miscellaneous Appeal",
+    "Original Petition",
+    "Interlocutory Application",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "spousal rights",
+    "custody",
+    "maintenance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:15:09.899471"
 }

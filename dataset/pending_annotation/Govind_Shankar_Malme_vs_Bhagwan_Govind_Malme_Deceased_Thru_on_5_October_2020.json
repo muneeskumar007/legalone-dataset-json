@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:30:22.579378",
   "domain": "partition",
-  "sub_domain": "divorce",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 3,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Govind Shankar Malme vs Bhagwan Govind Malme (Deceased Thru ... on 5 October, 2020",
+  "case_name": "Govind Shankar Malme vs Bhagwan Govind Malme (Deceased)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Govind Shankar Malme & Ors.",
+    "respondent_defendant": "Bhagwan Govind Malme (Deceased) Through LRs - Chingubai Bhagwan Malme & Ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Partition suit filed by Bhagwan against Govind. Trial court decreed four shares in the suit property. Appellants are illegitimate sons of Govind. Appeal is against modification of decree by lower appellate court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Illegitimate children do not have a share in ancestral joint family properties during the lifetime of their parents.",
+      "held": "The appeal court held that original defendant nos. 2 and 3, who are admittedly illegitimate sons of Govind, did not have any right in the suit property during the lifetime of Govind.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Revanasiddappa vs. Mallikarjun, (2011) 11 Supreme Court Cases 1"
+      ],
       "keywords": [
-        "TODO"
+        "illegitimate children",
+        "ancestral joint family properties",
+        "lifetime of parents"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "partition cases involving illegitimate children"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Children of void or voidable marriages are entitled to a share in ancestral or joint family property only after the death of their parents.",
+      "held": "The court held that they had a share in such property, whether the property be self-acquired or joint family property of their parents, upon its partition in favour of their parents; they may even seek partition of joint family property based on the share claimed by them from their parents but that could only be after their parents' death;",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [
+        "Revanasiddappa vs. Mallikarjun, (2011) 11 Supreme Court Cases 1"
+      ],
+      "keywords": [
+        "children of void or voidable marriages",
+        "ancestral or joint family property",
+        "death of parents"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "inheritance cases involving illegitimate children"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Original decree modified to determine two shares in favour of Govind and Bhagwan, and no share for original defendant nos. 2 and 3.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "second appeal",
+    "civil appeal",
+    "regular civil appeal",
+    "decree of partition",
+    "original defendant",
+    "illegitimate sons",
+    "suit property",
+    "shares",
+    "father's share",
+    "son's share",
+    "Latin maxim",
+    "nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a second appeal in a partition suit",
+    "advising on the rights of illegitimate children",
+    "guidance on the application of Hindu Marriage Act, 1955"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:19:00.364597"
 }

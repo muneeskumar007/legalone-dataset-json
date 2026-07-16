@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:53:07.461003",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -21,13 +21,13 @@
   "case_numbers": [
     "I.A.No.730/2019"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Family Court, Cuddalore, HMOP No.68 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "J. Jegan vs J. Preethi on 17 October, 2022",
+  "case_name": "J. Jegan vs J. Preethi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "J. Jegan, husband",
+    "respondent_defendant": "J. Preethi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent/wife filed HMOP No.68/2018 to declare the marriage as null and void. The revision petitioner/husband applied for certified copies of the marriage certificate and other relevant documents. The trial court dismissed his application.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party who contests the validity of a marriage to prove it.",
+      "held": "In the circumstances, summoning entire documents from the Registrar of Marriages, Cuddalore Joint-I, is not necessary for deciding the matter in issue in the instant case.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 12"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "burden",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot shift the burden of proof to another party.",
+      "held": "The petitioner in HMOP No.68/2018 had categorically contended that the marriage between her and the respondent is null and void and therefore, it is the bounden duty of the petitioner to prove the same.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Section 151"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "proof",
+        "petitioner"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order is not specified in this excerpt, but it appears that the appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "CPC",
+    "Section 12 (1) (c)",
+    "null and void",
+    "marriage nullity",
+    "Family Court",
+    "Principal Judge",
+    "Cuddalore",
+    "HMOP No.68/2018",
+    "I.A.No.730/2019",
+    "Section 151",
+    "Registry of Marriages",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on marriage nullity",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:30:10.720727"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:27:41.177528",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chitra Sengupta vs Dhruba Jyoti Sengupta on 3 April, 1987",
+  "case_name": "Chitra Sengupta vs Dhruba Jyoti Sengupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife-appellant, Chitra Sengupta",
+    "respondent_defendant": "husband-respondent, Dhruba Jyoti Sengupta",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife-appellant filed an application for maintenance pendente lite and cost of litigation under Section 24, Hindu Marriage Act. She also sought a temporary injunction restraining the husband from marrying again during the pendency of the appeal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The amount of a husband's income may not be within the knowledge of the wife, particularly in cases where the relation is strained and spouses are living apart.",
+      "held": "In a case like this, the onus would be on the husband to disclose the same and if he fails to do so without any good reasons, the Court would be entitled to presume against him and to accept the allegations of the wife as to the amount of income derived from such reasonable sources as would be available to her.",
       "applicable_acts_sections": [
-        "TODO"
+        "Evidence Act — Section 106"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "income",
+        "husband",
+        "wife",
+        "strained relation",
+        "living apart"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where income is disputed"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In affidavits on interlocutory application, statements true to one's belief can legitimately go in provided the grounds thereof are stated.",
+      "held": "The petitioner having clearly disclosed the source of her information and the name of the informant with the latter's detailed address, her statements do not suffer from any legal infirmity.",
+      "applicable_acts_sections": [
+        "Civil P.C. — Order 19, Rule 3"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "affidavits",
+        "interlocutory application",
+        "statements true to one's belief"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases where affidavits are used as evidence"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted maintenance pendente lite and cost of litigation to the wife-appellant.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance pendente lite",
+    "cost of litigation",
+    "Hindu Marriage Act",
+    "Section 24",
+    "temporary injunction",
+    "marriage again",
+    "pendency of appeal",
+    "wife-appellant",
+    "husband-respondent",
+    "Latin maxim",
+    "actus reus",
+    "mens rea",
+    "equitable relief",
+    "family law",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for maintenance pendente lite",
+    "preparing an application for temporary injunction in a matrimonial dispute",
+    "advising on the implications of Section 24, Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:55:35.744517"
 }

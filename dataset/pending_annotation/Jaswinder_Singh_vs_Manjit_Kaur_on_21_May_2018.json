@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T10:52:02.983309",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -24,13 +24,13 @@
     "Gurvinder Singh Gill. J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Ambala, FAO 2709 of 2015 (O&M)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jaswinder Singh vs Manjit Kaur on 21 May, 2018",
+  "case_name": "Jaswinder Singh vs Manjit Kaur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jaswinder Singh, husband",
+    "respondent_defendant": "Manjit Kaur, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Jaswinder Singh and Manjit Kaur was solemnized on December 12, 1997. They cohabited for 14 years, had one child, but lived separately for over 10 years due to alleged maltreatment and cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -89,39 +89,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife who has a living spouse at the time of her marriage is not entitled to maintenance under Section 125 Cr.P.C.",
+      "held": "It was held that under Section 12 of the Act, marriage of a woman with a man having a living spouse is a complete nullity and she is not entitled for benefit under Section 125 Cr.P.C.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Yamunabai Anantrao Adhav Vs. Anantrao Shivram Adhav, AIR 1988 SC 644"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "living spouse",
+        "Section 125 Cr.P.C."
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A husband who has stayed with his wife for a period of time, knowing about her previous marriage and divorce, may not be entitled to seek a declaration that his marriage is null and void.",
+      "held": "The point which is required for the determination of the present appeal is whether a husband who has stayed with his wife for a period of 14 years having knowledge about the date of her divorce from earlier husband would be entitled to seek a declaration that his marriage is null and void",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 11"
+      ],
+      "cited_cases": [
+        "Perminder Charan Singh etc. Vs. Harjit Kaur, AIR 2003 SC 2310"
+      ],
+      "keywords": [
+        "previous marriage",
+        "divorce",
+        "null and void"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The impugned judgment and decree dated March 4, 2015 passed by the Family Court, Ambala was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "annulment",
+    "marriage",
+    "nullity",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19",
+    "Sikh rites",
+    "cohabitation",
+    "child custody",
+    "divorce",
+    "Protection of Women from DV Act",
+    "Specific Relief Act",
+    "Code of Criminal Procedure",
+    "judgment and decree",
+    "family court",
+    "appeal",
+    "nullity declaration"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting annulment petition",
+    "advising on divorce proceedings",
+    "assisting in family court appeals"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:01:59.993484"
 }

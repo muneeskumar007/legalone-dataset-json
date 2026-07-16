@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:28:21.607064",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "compassionate_appointment",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Deepika Saini vs State Of Rajasthan on 28 September, 2022",
+  "case_name": "Deepika Saini vs State Of Rajasthan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Deepika Saini, wife and mother",
+    "respondent_defendant": "State Of Rajasthan, Through The Secretary, Department Of Education, Government Of Rajasthan, Jaipur, Rajasthan, etc.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Husband of the petitioner passed away. Petitioner filed an application seeking compassionate appointment as per the provisions of Rajasthan Compassionate Appointment of Dependents of Deceased Government Servants Rules, 1996. Respondents denied compassionate appointment on the ground that some matrimonial disputes were ongoing between the parties at the time of the death of the deceased employee.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A dependent is entitled to appointment on compassionate grounds if the deceased government servant had strained marital relations.",
+      "held": "The Rules of 1996 clearly stipulates that when a Government servant dies while in service, one of his/her dependents may be considered for appointment subject to condition that person appointed on compassionate grounds shall properly maintain other family members who are dependents of the deceased government servant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13",
+        "Code of Criminal Procedure — Section 125"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compassionate appointment",
+        "dependent",
+        "government servant",
+        "marital relations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A widow applying for appointment on compassionate grounds is not subject to an upper age limit.",
+      "held": "Rule 8 of the Rules of 1996 while prescribing upper age limit provides that there shall be no upper age limit for a widow applying for appointment on compassionate grounds.",
+      "applicable_acts_sections": [
+        "Rules of 1996 — Rule 8"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "upper age limit",
+        "widow",
+        "compassionate appointment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "government employment"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Petitioner is entitled to be appointed on compassionate grounds against suitable post as per the Rules of 1996.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "compassionate appointment",
+    "Rajasthan Compassionate Appointment of Dependents of Deceased Government Servants Rules",
+    "1996",
+    "matrimonial disputes",
+    "divorce",
+    "petitioner",
+    "respondent",
+    "teacher grade-III",
+    "government servants",
+    "dependents",
+    "deceased",
+    "appointment",
+    "rules",
+    "provisions"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for compassionate appointment",
+    "advising on divorce proceedings",
+    "representing a petitioner in a family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:12:27.413107"
 }

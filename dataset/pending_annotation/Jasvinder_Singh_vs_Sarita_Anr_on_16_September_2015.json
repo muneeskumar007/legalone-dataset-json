@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:52:01.610977",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jasvinder Singh vs Sarita & Anr. on 16 September, 2015",
+  "case_name": "Jasvinder Singh vs Sarita & Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jasvinder Singh — husband",
+    "respondent_defendant": "Sarita & minor daughter — wife and child",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2007. The respondent claimed maintenance pendente lite, but the appellant argued that the marriage was void as the respondent's earlier husband had not been divorced.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance under Section 125, Cr.P.C. cannot be denied where there is some evidence on which conclusion for grant of maintenance could be reached.",
+      "held": "It was held that order passed under Section 488 is a summary order which does not finally determine the rights and obligations of the parties;",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C."
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "S.Sethurathinam Pillai v. Barbara @ Dolly Sethurathinam, (1971) 3 SCC 923"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "Section 125",
+        "summary remedy"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The term 'wife' occurring in Section 125, Cr.P.C. is to be given a very wide interpretation.",
+      "held": "A broad and expansive interpretation should be given to the term 'wife' to include even those cases where a man and woman have been living together as husband and wife for reasonably long period of time;",
+      "applicable_acts_sections": [
+        "Cr.P.C."
+      ],
+      "cited_cases": [
+        "Chanmuniya vs. Virendra Kumar Singh Kushwaha & Anr., IX(2012) SLT 534=I (2013) DMC 131 (SC)=(2011) 1 SCC 141"
+      ],
+      "keywords": [
+        "wife",
+        "Section 125",
+        "interpretation"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's order for maintenance was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "maintenance pendente lite",
+    "Section 18",
+    "Section 20",
+    "Hindu Adoptions and Maintenance Act",
+    "Chunni ceremony",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "matrimonial dispute",
+    "marriage solemnized",
+    "separation",
+    "divorce decree",
+    "pendente lite",
+    "family court",
+    "maintenance order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing maintenance application",
+    "advising on matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:01:04.308666"
 }

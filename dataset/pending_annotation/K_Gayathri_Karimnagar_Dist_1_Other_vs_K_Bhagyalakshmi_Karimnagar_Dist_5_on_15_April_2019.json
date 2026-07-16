@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:54:27.651457",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "succession",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "O.P.No.243 of 2010",
     "O.A.No.6817 of\n2007"
   ],
-  "trial_court": "",
+  "trial_court": "I Additional District Judge, Karimnagar (O.P.No.243 of 2010)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "K Gayathri, Karimnagar Dist 1 Other vs K Bhagyalakshmi, Karimnagar Dist. 5 ... on 15 April, 2019",
+  "case_name": "K Gayathri, Karimnagar Dist 1 Other vs K Bhagyalakshmi, Karimnagar Dist. 5",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "K Gayathri, son and daughter of deceased-Anjaiah through the 6th respondent",
+    "respondent_defendant": "K Bhagyalakshmi, respondent nos.1 and 2",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners claimed to be the son and daughter of deceased-Anjaiah through the 6th respondent. The trial court dismissed their implead application.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Even if a marriage is not lawful, the children born out of it would still be heirs-at-law.",
+      "held": "Under Section 16 of the Hindu Marriage Act, 1955, even if the marriage between the 6th respondent and the said Anjaiah was not a lawful marriage, the petitioners would be heirs-at-law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "heirs-at-law",
+        "lawful marriage",
+        "Section 16"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "inheritance disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court should not unnecessarily go into the question of whether a person is the lawfully wedded wife or husband.",
+      "held": "The Court below overlooked this fact and unnecessarily went into the question whether the 6th respondent is the lawfully wedded wife of the deceased-Anjaiah or not.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "lawfully wedded",
+        "unnecessarily"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "marriage validity cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Court below's order dt.23.03.2017 was set aside and the petitioners' claim to be the son and daughter of deceased-Anjaiah through the 6th respondent was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "mutual consent",
+    "separation",
+    "maintenance",
+    "alimony",
+    "property division",
+    "joint family",
+    "family law",
+    "Indian Succession Act",
+    "1925",
+    "Section 372",
+    "succession certificate",
+    "death benefits",
+    "Administrative Tribunal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on property division in divorce",
+    "assisting with maintenance and alimony disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:39:26.253096"
 }

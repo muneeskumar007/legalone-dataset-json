@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:52:50.050677",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Special Chief Metropolitan Magistrate, Kanpur Nagar, Case No. 2381 of 2008",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jitendra Pal @ Pappu And Others vs State Of U.P.And Another on 23 July, 2010",
+  "case_name": "Jitendra Pal @ Pappu And Others v. State Of U.P.And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jitendra Pal Singh @ Pappu, Tavindar Singh, Seva Singh, and Smt. Satnam Kaur — applicants",
+    "respondent_defendant": "State of U.P. and another — respondent no. 2",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Dispute between Jyoti Deep Kaur and her husband Manmeet Singh led to a confrontation where the applicants allegedly shot at respondent no. 2, who was accompanied by his son Gurdeep Singh.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Courts should not compel parties to litigate against their own wishes.",
+      "held": "Allowing such a prosecution to go on between one time close relatives will only add to discord rather than settle the dispute for which the courts exists.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 482"
+      ],
+      "cited_cases": [
+        "B.S. Joshi and another versus State of Haryana and another: (2003) 4 SCC 675"
+      ],
+      "keywords": [
+        "family feud",
+        "harassment",
+        "litigation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "marital cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Courts should save precious time and avoid wastage of court resources.",
+      "held": "To save the precious time of the court and harassment of the litigating parties prosecution of the applicants be quashed as trial will only increase bickering between the parties which will not be in consonance with interest of justice.",
+      "applicable_acts_sections": [
+        "Cr.P.C. — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "wastage",
+        "precious time",
+        "court resources"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The proceeding of Criminal Case No. 2381 of 2008 is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "307",
+    "392",
+    "504",
+    "506",
+    "quash",
+    "stay",
+    "pendente lite",
+    "inherent jurisdiction",
+    "close relatives",
+    "sibling",
+    "brother-in-law",
+    "husband",
+    "wife",
+    "daughter-in-law",
+    "son",
+    "family dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting for quashing of criminal proceedings",
+    "drafting for stay of criminal proceedings",
+    "drafting for family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:20:58.687222"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:28:06.482618",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "land_acquisition": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "21.08.2023",
-  "case_name": "Date Of Decision: 20.08.2024 vs Diksha Sharma & Anr on 20 August, 2024",
+  "case_name": "Diksha Sharma & Anr v. Navneet Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Navneet Kumar, accused",
+    "respondent_defendant": "Diksha Sharma & Anr, complainant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "FIR sought to be quashed against petitioner-accused for alleged indecent behavior and stalking. Complainant alleged repeated pressure to marry and showing of pistol in January 2018.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Power under Section 482 Cr.P.C should not be exercised in cases involving heinous and serious offences.",
+      "held": "Hon'ble Apex Court has specifically held that power under Section 482 Cr.P.C is not to be exercised in the cases which involve heinous and serious offences of mental depravity or offences like murder, rape, dacoity, etc., as such offences are not private in nature and have a serious impact on society?",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 482"
+      ],
+      "cited_cases": [
+        "Narinder Singh and others versus State of Punjab and another, (2014) 6 SCC 466"
+      ],
+      "keywords": [
+        "heinous",
+        "serious",
+        "offences",
+        "mental depravity",
+        "murder",
+        "rape",
+        "dacoity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving murder or serious crimes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking quashing of FIR to demonstrate that there are no reasonable grounds for proceeding with the prosecution.",
+      "held": "No fruitful purpose would be served in case FIR as well as consequent proceedings pending adjudication in the competent court of law are allowed to sustain.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "FIR",
+        "reasonable grounds",
+        "prosecution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "cases involving quashing of FIR"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR No.33 of 2019, dated 03.03.2019, under Sections 354, 354-D, 506 & 201 of the Indian Penal Code and Section 27 of Arms Act, registered at Police Station Shimla West, Shimla, H.P., quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "Arms Act",
+    "Bharatiya Nagrik Suraksha Sanhita",
+    "quashing",
+    "FIR",
+    "Sections 354",
+    "354-D",
+    "506",
+    "201",
+    "Section 27",
+    "petition",
+    "judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing an FIR",
+    "advising on criminal procedure",
+    "assisting in a murder case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:19:23.174262"
 }

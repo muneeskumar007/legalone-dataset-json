@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:29:41.136411",
   "domain": "divorce",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "cheque_bounce": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Eega Prashanthi Reddy vs Sandeep Reddy N. on 22 March, 2023",
+  "case_name": "Eega Prashanthi Reddy vs Sandeep Reddy N.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Eega Prashanthi Reddy (wife)",
+    "respondent_defendant": "Sandeep Reddy N. (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent got married on 10.03.2019, but have been living separately since 08.05.2019. They do not have any child. Respondent filed divorce petition in 2020.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A decree of divorce by mutual consent dissolves the marriage.",
+      "held": "Keeping in view of the aforesaid facts, we pass the decree of divorce by mutual consent dissolving the marriage between the petitioner - Eega Prashanthi Reddy and the respondent - Sandeep Reddy N.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "mutual consent",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A settlement agreement is binding on the parties.",
+      "held": "The parties would be bound and abide by the said settlement agreement.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "agreement",
+        "binding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Decree of divorce by mutual consent dissolving the marriage between the parties. M.C. No. 5255 of 2020 under Section 13(1) (ia) & (ib) of the Hindu Marriage Act, 1955 will be treated as disposed of.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Article 142",
+    "settlement agreement",
+    "cheque",
+    "encashment",
+    "separation",
+    "co-habitation",
+    "marriage dissolution",
+    "quashing proceedings",
+    "Supreme Court mediation",
+    "Latin maxim: 'actus curiae neminem ordering'",
+    "transfer petition",
+    "civil original jurisdiction"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce settlement agreements",
+    "quashing proceedings in Supreme Court",
+    "using Article 142 for marriage dissolution"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:30:16.123308"
 }

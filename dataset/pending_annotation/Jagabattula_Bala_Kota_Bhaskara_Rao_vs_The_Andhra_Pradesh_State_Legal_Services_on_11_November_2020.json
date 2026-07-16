@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:51:40.848801",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1,
@@ -31,10 +31,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jagabattula Bala Kota Bhaskara Rao, vs The Andhra Pradesh State Legal Services ... on 11 November, 2020",
+  "case_name": "Jagabattula Bala Kota Bhaskara Rao v. The Andhra Pradesh State Legal Services",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jagabattula Bala Kota Bhaskara Rao, husband",
+    "respondent_defendant": "The Andhra Pradesh State Legal Services, respondents 1 and 2",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Third respondent married fourth respondent, then married petitioner. Disputes arose, leading to criminal case and divorce proceedings.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An award passed under Section 21 of the Legal Services Authorities Act, 1987 is deemed to be a decree of civil Court.",
+      "held": "A decree obtained by playing fraud on the Court can be challenged by a third party to the suit by filing a suit for declaration.",
       "applicable_acts_sections": [
-        "TODO"
+        "Legal Services Authorities Act — Section 21"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Vadiga Amose v. Vadiga Anjaneyulu, (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "award",
+        "decree",
+        "fraud",
+        "civil Court",
+        "suit for declaration"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A decree obtained by playing fraud on the Court can be challenged by a third party to the suit.",
+      "held": "",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Vadiga Amose v. Vadiga Anjaneyulu, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "decree",
+        "fraud",
+        "Court",
+        "suit"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
     "result": "Writ Petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "final_order": "The present Writ Petition is being disposed of at the admission stage.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "mutual consent",
+    "dissolution of marriage",
+    "Award",
+    "Mandamus",
+    "Article 226",
+    "Constitution of India",
+    "Indian Penal Code",
+    "marriage by mutual consent",
+    "suppression of facts",
+    "bigamy",
+    "fraudulent marriage",
+    "Hindu Rites and Customs",
+    "Latin maxim: Falsus in uno, falsus in omnibus"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce by mutual consent",
+    "advising on the consequences of bigamy",
+    "assisting with a case involving fraudulent marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:37:12.131796"
 }

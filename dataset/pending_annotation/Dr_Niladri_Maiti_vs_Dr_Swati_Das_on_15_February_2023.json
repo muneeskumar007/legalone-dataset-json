@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T10:29:08.801890",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -21,13 +21,13 @@
     "Subhasis Dasgupta. J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Learned Additional District Judge, Re-Designated Court, Paschim Medinipore, Judicial Misc. Case No. 159 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr. Niladri Maiti vs Dr. Swati Das on 15 February, 2023",
+  "case_name": "Dr. Niladri Maiti vs Dr. Swati Das",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. Niladri Maiti, husband",
+    "respondent_defendant": "Dr. Swati Das, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial Suit for divorce filed by petitioner/husband on 15th September, 2020; ex parte decree of divorce granted on 5th December, 2020; service upon the wife/opposite party is disputed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintainability of an application must be decided before granting interim relief.",
+      "held": "Whenever maintainability of an application had been grossly challenged, there could not be any interim order granted without deciding the maintainability.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Order 9 Rule 13"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "British Airways PLC Vs. Barunendra Nath Basu, (2002) SCC OnLine Cal 7",
+        "Director General of Police, Central Reserve Police Force, New Delhi & Ors. Vs. P.M. Ramalingam, (2009) 1 SCC 193",
+        "State of West Bengal & Ors. Vs. Indian Kanoon - http://indiankanoon.org/doc/15216112/"
+      ],
       "keywords": [
-        "TODO"
+        "maintainability",
+        "interim relief",
+        "ex parte decree"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A court must consider the maintainability of proceedings before granting an ad interim order of stay.",
+      "held": "While granting an ad interim order of stay, the maintainability of proceedings incidentally to be taken in view, otherwise there would be abuse of the process of the court leading to flagrant violation of justice.",
+      "applicable_acts_sections": [
+        "CPC — Order 9 Rule 13"
+      ],
+      "cited_cases": [
+        "British Airways PLC Vs. Barunendra Nath Basu, (2002) SCC OnLine Cal 7",
+        "Director General of Police, Central Reserve Police Force, New Delhi & Ors. Vs. P.M. Ramalingam, (2009) 1 SCC 193",
+        "State of West Bengal & Ors. Vs. Indian Kanoon - http://indiankanoon.org/doc/15216112/"
+      ],
+      "keywords": [
+        "maintainability",
+        "stay order",
+        "ad interim order"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Stay of operation of the order granting ex parte decree of divorce was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13",
+    "divorce",
+    "matrimonial suit",
+    "ex parte decree",
+    "stay of operation",
+    "service upon wife",
+    "opposite party",
+    "petitioner",
+    "husband",
+    "wife",
+    "Latin maxim",
+    "actus curiae nobis non est",
+    "Calcutta High Court",
+    "civil revisional jurisdiction",
+    "appellate side"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to stay applications",
+    "appealing ex parte decrees"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:12:11.384828"
 }

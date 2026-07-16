@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:31:16.032276",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 2,
@@ -19,13 +19,13 @@
     "This Court Be J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court at Latur, Hindu Marriage petition No.302/2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Harsha Vishal Sutar vs Vishal Ramesh Sutar on 11 June, 2019",
+  "case_name": "Harsha Vishal Sutar vs Vishal Ramesh Sutar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Harsha Vishal Sutar, wife",
+    "respondent_defendant": "Vishal Ramesh Sutar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant/wife seeks transfer of Hindu Marriage petition to Pandharpur court due to distance and difficulty in traveling alone from her village to Latur.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,77 @@
   ],
   "legal_principles": [
     {
+      "principle": "The burden lies on the applicant to establish that it is not possible for her to travel alone from her village to Latur.",
+      "held": "He submits that it is not possible for the applicant to travel alone from her village to Latur. He submits that one may it take at least 3-4 hours.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "distance",
+        "travel",
+        "maintenance"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases where maintenance is sought"
+      ],
+      "significance": "MEDIUM",
       "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A court may transfer a matter to another court if it is in the interest of justice.",
+      "held": "He submits that in the interest of justice this Court be pleased to transfer Hindu Marriage Petition No.302/2017 filed by respondent/husband u/s 13(1)(ia)(ib)(iii) of Hindu Marriage Act, to Pandharpur Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "interest of justice",
+        "transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "cases where a transfer is sought"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Court transferred the Hindu Marriage petition to Pandharpur court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "transfer of petition",
+    "Family Court",
+    "Civil Judge",
+    "Senior Division",
+    "Pandharpur",
+    "Solapur",
+    "Latur",
+    "maintenance charges",
+    "Criminal Procedure Code",
+    "125",
+    "distance",
+    "travel time",
+    "lady's rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition transfer request",
+    "advising client on maintenance options",
+    "preparing for Family Court hearing"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:55:09.784279"
 }

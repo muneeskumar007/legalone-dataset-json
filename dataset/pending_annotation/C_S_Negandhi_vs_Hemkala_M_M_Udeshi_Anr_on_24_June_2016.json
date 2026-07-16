@@ -7,7 +7,7 @@
   "total_pages": 22,
   "extracted_at": "2026-07-15T10:27:57.221268",
   "domain": "will_succession",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "partition": 1,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "C.S.Negandhi vs Hemkala @ M.M.Udeshi & Anr on 24 June, 2016",
+  "case_name": "Chittaranjan N. Negandhi v Hemkala Udeshi & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "C.S.Negandhi, sole surviving Executor and Trustees of the Will of Bhanumati Narottamdas Chapsi",
+    "respondent_defendant": "Hemkala @ M.M.Udeshi & Anr (Defendants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The Plaintiff seeks probate of a Will dated 24th May 1973 left by his mother, Bhanumati Narottamdas Chapsi. The Plaintiff is the sole surviving Executor of Bhanumati's Will.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,21 +67,41 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person capable of making a Will must be of sound mind and not a minor.",
+      "held": "Every person of sound mind not being a minor may dispose of his property by Will.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Succession Act, 1925 — Section 59"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "testamentary capacity",
+        "sound mind",
+        "minor"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A Will must be executed according to the rules specified in Section 63 of the Indian Succession Act, 1925.",
+      "held": "Every testator, not being a soldier employed in an expedition or engaged in actual warfare or an airman so employed, or engaged or a mariner at sea, shall execute his Will according to the following rules:",
+      "applicable_acts_sections": [
+        "Indian Succession Act, 1925 — Section 63"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Will execution",
+        "Section 63"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -91,15 +111,40 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "will",
+    "succession",
+    "testamentary suit",
+    "intestate jurisdiction",
+    "executor",
+    "trustees",
+    "Indian Evidence Act",
+    "Code of Civil Procedure",
+    "1908",
+    "1872",
+    "Hindu Inhabitant",
+    "Mumbai",
+    "Vile Parle",
+    "Green Bungalow",
+    "Subhash Road",
+    "Nav Bharat Sector No. 2",
+    "New Panvel",
+    "New Bombay",
+    "Constituted Attorney",
+    "Daughter",
+    "Kunjvan",
+    "Sir M.V. Road",
+    "Andheri East"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "proving testamentary capacity",
+    "executing a will"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:13:20.997507"
 }

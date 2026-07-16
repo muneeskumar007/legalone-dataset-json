@@ -59,21 +59,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Matrimonial litigation can be withdrawn in case of compromise between parties.",
+      "held": "The matrimonial litigation obtaining between the petitioner No. 1 and the respondent No. 2 on matrimonial file No. 317/2021 with case No. 62/2021 before the court of learned Principal Judge, Family Court, Jammu under section 9 of the Hindu Marriage Act, 1980 came to be withdrawn on account of compromise effected between the parties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1980 — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial litigation",
+        "compromise",
+        "withdrawal"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Criminal case can be pending without affecting the outcome of matrimonial litigation.",
+      "held": "During the pendency of the criminal case, the matrimonial litigation obtaining between the petitioner No. 1 and the respondent No. 2 on matrimonial file No. 317/2021 with case No. 62/2021 before the court of learned Principal Judge, Family Court, Jammu under section 9 of the Hindu Marriage Act, 1980 came to be withdrawn.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "criminal case",
+        "matrimonial litigation",
+        "pendency"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -83,15 +104,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "matrimonial",
+    "498-A",
+    "504",
+    "34",
+    "IPC",
+    "Criminal Procedure Code",
+    "CPC",
+    "Indian Kanoon",
+    "family law",
+    "marriage",
+    "restoration",
+    "petition",
+    "FIR",
+    "police station",
+    "Bari Brahmana",
+    "Samba",
+    "Jammu and Kashmir"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:29:45.418224"
 }

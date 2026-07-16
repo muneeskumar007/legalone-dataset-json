@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:29:35.265597",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Additional Chief Judicial Magistrate-VIII, Ghaziabad, Case No. 537 of 2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Durgesh Nandan @ Durgesh Sharma vs State Of U.P. And Anr. on 29 July, 2019",
+  "case_name": "Durgesh Nandan @ Durgesh Sharma vs State Of U.P. And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Durgesh Nandan @ Durgesh Sharma (husband)",
+    "respondent_defendant": "State Of U.P. And Anr., Smt. Renu (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties entered into a compromise and the wife received Rs. 4 lakhs. The husband has filed this application to quash the proceedings under Section 498-A, 323, 504, 506, 406 IPC and Section 3/4 D.P. Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Criminal proceedings may be quashed even in non-compoundable cases by the High Court in exercise of its extraordinary jurisdiction.",
+      "held": "In all the aforesaid cases, the Apex Court has laid down the law that criminal proceedings may be quashed even in non-compoundable cases by the High Court in exercise of its extraordinary jurisdiction.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure",
+        null
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab, (2012), 10 SCC 303",
+        "B.S. Joshi and others vs. State of Haryana and another, (2003) 4 SCC 675",
+        "Madan Mohan Abbot vs. State of Punjab, (2008) 4 SCC 582"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "non-compoundable cases",
+        "extraordinary jurisdiction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Continuation of proceedings will be an abuse of process of law if the dispute has been settled amicably out of court.",
+      "held": "At this stage, learned counsel for the applicant has also submitted that continuation of the proceedings of the aforesaid case will be an abuse of process of law.",
+      "applicable_acts_sections": [
+        null,
+        null
+      ],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab, (2012), 10 SCC 303",
+        "B.S. Joshi and others vs. State of Haryana and another, (2003) 4 SCC 675",
+        "Madan Mohan Abbot vs. State of Punjab, (2008) 4 SCC 582"
+      ],
+      "keywords": [
+        "abuse of process",
+        "amicable settlement"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce",
+        "family law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The proceeding is quashed as the parties have settled their dispute amicably out of court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "divorce",
+    "Section 125 Cr.P.C.",
+    "Section 482 Cr.P.C.",
+    "498-A IPC",
+    "323 IPC",
+    "504 IPC",
+    "506 IPC",
+    "406 IPC",
+    "Section 3/4 D.P. Act",
+    "compromise",
+    "settlement",
+    "quash",
+    "summoning order",
+    "Additional Chief Judicial Magistrate-VIII",
+    "Ghaziabad",
+    "Mahila Thana",
+    "Lohia Nagar",
+    "District Ghaziabad"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce settlement agreements",
+    "quashing criminal proceedings in family disputes",
+    "summoning orders in domestic violence cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:28:20.565560"
 }

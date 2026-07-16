@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T10:26:16.832387",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 3,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Burada Kanaka Ratnam vs Senior Superintendent Of Posts And Ors. on 28 January, 2005",
+  "case_name": "Burada Kanaka Ratnam vs Senior Superintendent Of Posts And Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Burada Kanaka Ratnam, widow",
+    "respondent_defendant": "Senior Superintendent Of Posts And Ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner was a widow who underwent training to become a Postal Assistant. She was discharged from the training without notice and was orally threatened with arrest if she did not credit an amount paid towards her stipend. The petitioner claims that this discharge is illegal and in violation of principles of natural justice.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,118 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Unless there is clear proof of re-marriage, the status as a widow continues.",
+      "held": "The learned Counsel would contend that absolutely there is no proof of re-marriage and unless there is clear proof of re-marriage, the writ petitioner won't cease to be a widow",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "widow status",
+        "re-marriage",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Courts of law are expected to enforce the provisions of law.",
+      "held": "The learned Counsel also would submit that the Courts of law are expected to enforce the provisions of law and unless the respondents are able to show any specific legal bar in this regard, the discharge is illegal",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "provisions",
+        "law",
+        "enforce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "service cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The mere fact that the writ petitioner begot a child by living with someone does not alter her status as a widow.",
+      "held": "The learned Counsel also would maintain that no specific statutory provision or service rule or regulation had been shown that on the ground of unchastity or on the ground on which the writ petitioner had been disqualified the writ petitioner would cease to be a widow",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "status",
+        "widow",
+        "child"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Unless a specific legal bar is shown, the discharge is illegal.",
+      "held": "The learned Counsel also would submit that unless the respondents are able to show any specific legal bar in this regard, the discharge is illegal",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "discharge",
+        "legal bar"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "service cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The court issued a writ of certiorari calling for records in O.A. No. 1713/98 on the file of Central Administrative Tribunal, Hyderabad, and quashed the said order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "writ petition",
+    "certiorari",
+    "Central Administrative Tribunal",
+    "Tribunal",
+    "Postal Assistant",
+    "induction training",
+    "appointment",
+    "discharge",
+    "Session",
+    "training",
+    "Mysore",
+    "Bhimavaram",
+    "Eluru",
+    "Employment Exchange"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for divorce",
+    "guiding a client on the process of appointment and discharge as a Postal Assistant",
+    "assisting in a case involving induction training and appointment"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:09:26.555445"
 }

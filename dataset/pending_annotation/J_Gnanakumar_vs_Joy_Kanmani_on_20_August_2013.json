@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T10:53:07.334603",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -28,13 +28,13 @@
     "O.P.No.5942/2009",
     "C.C.No.104 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "learned Judicial Magistrate No.II, Virudhunagar, C.C.No.104 of 2009",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "J.Gnanakumar vs Joy Kanmani on 20 August, 2013",
+  "case_name": "J.Gnanakumar vs Joy Kanmani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "J.Gnanakumar, husband; V.P.Rajan, Rita Ernest, Sivamayam, Gnanamani Susila, sisters and brother-in-laws of J.Gnanakumar (A1); Muthulakshmi, second wife of J.Gnanakumar",
+    "respondent_defendant": "Joy Kanmani, wife of J.Gnanakumar",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners filed criminal original petitions seeking to quash the entire criminal proceedings in C.C.No.104 of 2009, which was filed by the respondent against the petitioners.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court must apply its judicial mind while taking a complaint on file.",
+      "held": "The learned Judicial Magistrate No.II, Virudhunagar, without applying his judicial mind, had wrongly interpreted the provisions and taken the complaint on his file.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — sections 190 and 191"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "judicial mind",
+        "complaint",
+        "file"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "private complaints"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court cannot take cognizance of an offence punishable under section 498-A of the Indian Penal Code, except upon a police report or a complaint made by the person aggrieved.",
+      "held": "No Court shall take cognizance of an offence punishable under section 498-A of the Indian Penal Code (45 of 1860), except upon a police report of facts which constitute such offence or upon a complaint made by the person aggrieved by the offence or by her father, mother, brother, sister or by her father's or mother's brother or sister or, with the leave of the Court, by any other person related to her by blood, marriage or adoption.",
+      "applicable_acts_sections": [
+        "Indian Penal Code — section 498-A"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cognizance",
+        "offence",
+        "section 498-A"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving domestic violence"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted the relief sought and quashed the criminal proceedings.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "quashing",
+    "Criminal Procedure Code",
+    "Section 482 Cr.P.C.",
+    "inherent jurisdiction",
+    "Judicial Magistrate",
+    "Virudhunagar",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "Crl.O.P",
+    "M.P.(MD)",
+    "Madras High Court",
+    "Madurai Bench",
+    "T.Mathivanan",
+    "J.Gnanakumar",
+    "Joy Kanmani"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing criminal proceedings",
+    "appealing to Madras High Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:29:19.311272"
 }

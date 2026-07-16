@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:30:19.825416",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -31,13 +31,13 @@
     "R.P.No.16/2018",
     "M.C.No.8/2012"
   ],
-  "trial_court": "",
+  "trial_court": "Additional District Judge (Fast Track) Vellore, C.R.P.No.16 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Govindasamy vs M.Kanchana on 11 August, 2021",
+  "case_name": "Govindasamy vs M.Kanchana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Govindasamy (husband)",
+    "respondent_defendant": "M.Kanchana (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Govindasamy and M.Kanchana was solemnized in 1999. No child was born due to wedlock. The wife left the husband's company without proper cause, leading to a maintenance petition filed by her. The trial court partly allowed the petition, directing the husband to pay Rs.3,000/- per month.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife shall not be entitled to receive an allowance from her husband if she refuses to live with him without any sufficient reasons.",
+      "held": "In view of the above provisions, it is clear that the respondent refuses to live with her husband without any sufficient reason.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 125"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "divorce",
+        "marriage",
+        "conjugal rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance petitions"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the respondent to show that she has not refused to live with her husband without any sufficient reasons.",
+      "held": "In this case, it is stated by the petitioner that the respondent refuses to live with him without any sufficient reason.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 125"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "maintenance",
+        "divorce",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "maintenance petitions"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order dated 11.01.2019 made in C.R.P.No.16 of 2018 is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Crl.O.P.No.14155",
+    "M.C.No.8",
+    "2012",
+    "C.R.P.No.16",
+    "2018",
+    "Section 482",
+    "Criminal Original Petition",
+    "Additional District Judge",
+    "Fast Track",
+    "Judicial Magistrate",
+    "Katpadi",
+    "Vellore",
+    "marriage",
+    "solemnized",
+    "petitioner",
+    "respondent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing against family court order",
+    "seeking annulment of marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:19:50.849922"
 }

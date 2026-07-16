@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:51:30.099975",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 1,
     "custody": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "19.04.2024",
-  "case_name": "Ishrat And Another vs Ut Of Jk & Ors on 24 February, 2026",
+  "case_name": "Ishrat And Another vs Ut Of Jk & Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ishrat and another (Petitioner(s)/Appellant(s))",
+    "respondent_defendant": "UT OF JK & ORS (Respondent(s))",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners sought protection from respondent No. 5, father of petitioner No. 1, due to alleged threat, harassment and interference after petitioner No. 1's marriage to petitioner No. 2.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Aadhar Card is not a conclusive proof of date of birth.",
+      "held": "The Hon'ble Apex Court in a case titled 'Saroj & Ors Vs. Iffco-Tokio General Insurance Co. & Ors' (Civil Appeal No. 012077-012078 of 2024) (2024 INSC 819), has held that Aadhar Card is not a conclusive as proof of date of birth.",
       "applicable_acts_sections": [
-        "TODO"
+        "Juvenile Justice (Care & Protection of Children) Act, 2015 — Section 94"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Saroj & Ors Vs. Iffco-Tokio General Insurance Co. & Ors, (2024) INSC 819"
+      ],
       "keywords": [
-        "TODO"
+        "date of birth",
+        "Aadhar Card",
+        "conclusive proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "minor's age determination",
+        "custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "School leaving certificates need to be given preference as proof of date of birth.",
+      "held": "That school leaving certificates need to be given preference as Aadhar serves as a unique identification tool and should not be treated as conclusive proof especially when other statutorily recognized documents are available.",
+      "applicable_acts_sections": [
+        "Juvenile Justice (Care & Protection of Children) Act, 2015 — Section 94"
+      ],
+      "cited_cases": [
+        "Saroj & Ors Vs. Iffco-Tokio General Insurance Co. & Ors, (2024) INSC 819"
+      ],
+      "keywords": [
+        "date of birth",
+        "school leaving certificates",
+        "conclusive proof"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "minor's age determination",
+        "custody disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Petitioners were granted protection on the apprehension of threat, harassment and interference.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Custody",
+    "Marriage",
+    "Free Will",
+    "Choice",
+    "Undue Influence",
+    "Coercion",
+    "Protection",
+    "Interference",
+    "Harassment",
+    "Threat",
+    "Aadhar Card",
+    "Age Certificate",
+    "District Medical Board",
+    "Srinagar",
+    "Single Judge",
+    "High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for protection from harassment and interference",
+    "guiding principles for advocates on custody disputes",
+    "practical tips for handling family law cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:21:47.185645"
 }

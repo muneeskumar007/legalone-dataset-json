@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:28:49.301470",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "land_acquisition": 1,
@@ -24,13 +24,13 @@
     "E.P.No.1 of 2018",
     "O.P.No.5 of 2016"
   ],
-  "trial_court": "",
+  "trial_court": "Special Judicial First Class Magistrate for Mobile Judge, Nizamabad (C.C.NO.62 of 2018)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dnyaneshwar vs Balika on 18 July, 2019",
+  "case_name": "Dnyaneshwar vs Balika",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dnyaneshwar (husband)",
+    "respondent_defendant": "Balika (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Dnyaneshwar and Balika was performed on 18.11.2013. Disputes arose after five months, and Balika left her in-laws house. A charge sheet was filed against Dnyaneshwar for an offence punishable under Section 498-A IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Continuation of proceedings would be an abuse of process of law if allegations are omnibus.",
+      "held": "He submits that since the allegations made in the F.I.R. are omnibus, continuation of proceedings against the petitioners would be an abuse of process of law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 498-A"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "abuse of process",
+        "omnibus allegations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to join the other party in a previous proceeding can lead to subsequent proceedings being filed.",
+      "held": "An exparte decree was passed in the said H.M.O.P. Since the first respondent failed to join the first petitioner, E.P.No.1 of 2018 came to be filed by the first petitioner, which was transferred to Family Court, Nizamabad, for execution.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 9"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "failure to join",
+        "previous proceeding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "All further proceedings in C.C.NO.62 of 2018 were quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 498-A IPC",
+    "quashing of proceedings",
+    "Criminal Petition",
+    "charge sheet",
+    "dowry",
+    "marital life",
+    "disputes",
+    "notice",
+    "service affected",
+    "refusal to receive notice",
+    "Indian Penal Code",
+    "IPC",
+    "Hindu Marriage Act, 1955"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing of proceedings in a divorce case",
+    "advising on the implications of refusing to receive a notice",
+    "assisting with a charge sheet under Section 498-A IPC"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:50:02.049131"
 }

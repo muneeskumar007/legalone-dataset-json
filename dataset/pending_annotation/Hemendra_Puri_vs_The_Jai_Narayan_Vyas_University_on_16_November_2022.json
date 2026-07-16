@@ -28,8 +28,8 @@
   "delivered_on": "",
   "case_name": "Hemendra Puri vs The Jai Narayan Vyas University, ... on 16 November, 2022",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Hemendra Puri S/o Late Shri Hairsh Puri, by caste Goswami (Puri), aged about 45 years, Resident of Kair of Lakshman Giri, Goswami, Gau Ghat, Fateh Sagar, Jodhpur (Raj.)",
+    "respondent_defendant": "The Jai Narayan Vyas University, Jodhpur (Raj.), The Vice Chancellor, Jai Narayan Vyas University, Central Officer, Residency Road, Jodhpur (Raj.), The Registrar, Jai Narayan Vyas University, Central Office, Residency Road, Jodhpur (Raj.)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The father of the appellant passed away on 01.12.2004 while working as 'Tabla Vadak' in the respondent-university. The appellant and respondent No.4 applied for appointment on compassionate grounds in place of deceased employee. The respondent-university considered both applications and vide office order dated 04.08.2005 extended compassionate appointment in favour of respondent No.4.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,28 +57,55 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Where the deceased Government servant is not survived by a spouse, an application for compassionate appointment shall be made by one of the dependants and other dependants shall have to give their consent.",
+      "held": "Rule 10(2) of the Rules of 1996 provides that where the deceased Government servant is not survived by a spouse, the application shall be made by one of the dependants of the deceased Government servant and other dependants shall have to give their consent for his/her candidature.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [
+        "Union of India vs. V.R. Tripathi, (2019) 14 SCC 646"
+      ],
+      "keywords": [
+        "compassionate appointment",
+        "dependent",
+        "Government servant",
+        "spouse"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM — relevant to family law and government policies",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A child born from a marriage which is null and void under Section 11 of the Hindu Marriage Act, 1955 is legitimate.",
+      "held": "Sub-section (1) of Section 16 of the Hindu Marriage Act, 1955 stipulates that a child born from a marriage which is null and void under Section 11 is legitimate, regardless of whether the birth has taken place before or after the commencement of Amending Act 68 of 1976.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legitimacy",
+        "child",
+        "marriage",
+        "void"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — relevant to family law and succession",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The present intra court appeal has been preferred against the judgment dated 12.04.2018 passed by learned Single Bench whereby writ petition filed by the petitioner seeking compassionate appointment in the respondent Jai Narayan Vyas University (hereinafter referred to as 'respondent-university') in lieu of his deceased father was rejected.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
     "TODO — add 15+ keywords after reading"
@@ -89,7 +116,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:03:54.747343"
 }

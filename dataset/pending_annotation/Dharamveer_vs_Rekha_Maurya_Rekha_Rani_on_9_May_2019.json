@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:28:31.151392",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -23,13 +23,13 @@
     "Where There Is No Chance Of Reconciliation J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Gurugram, CR No. 3071 of 2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dharamveer vs Rekha Maurya @ Rekha Rani on 9 May, 2019",
+  "case_name": "Dharamveer vs Rekha Maurya @ Rekha Rani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dharamveer (husband, wife)",
+    "respondent_defendant": "Rekha Maurya @ Rekha Rani (wife, husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties were married in 2014 and had a child. They decided to take divorce by mutual consent. A petition under Section 13-B of Hindu Marriage Act was filed on 01.04.2019.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,120 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The statutory period under Section 13-B (2) of the Hindu Marriage Act is directory and not mandatory.",
+      "held": "The Hon'ble Apex Court has observed that the period mentioned in Section 13-B (2) of Hindu Marriage Act is not mandatory, rather the same is directory and it is open to the Court to exercise its discretion in the facts and circumstances of the case.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Civil) 608"
+      ],
       "keywords": [
-        "TODO"
+        "statutory period",
+        "directory",
+        "mandatory",
+        "discretion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court has to consider the interest of justice and the possibility of resuming cohabitation between the parties before exercising its discretion.",
+      "held": "The Court has to see whether there is any possibility of resuming cohabitation between the parties or there is any chance of rehabilitation.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [
+        "Civil) 608"
+      ],
+      "keywords": [
+        "interest of justice",
+        "possibility of resuming cohabitation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The court has to consider the period for which the parties have been married before exercising its discretion.",
+      "held": "The Court has to consider the period for which the parties have been married.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [
+        "Civil) 608"
+      ],
+      "keywords": [
+        "period of marriage",
+        "discretion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The court has to consider the interest of the minor child before exercising its discretion.",
+      "held": "Adequate arrangement has been made for the minor child towards her past, present and future maintenance.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [
+        "Civil) 608"
+      ],
+      "keywords": [
+        "interest of the minor",
+        "discretion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases involving minors"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Statutory cooling period of six months was not dispensed with.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "cooling period",
+    "matrimonial discord",
+    "separation",
+    "custody",
+    "family court",
+    "Gurugram",
+    "Punjab and Haryana High Court",
+    "Chandigarh",
+    "Indian law",
+    "judicial discretion"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce by mutual consent",
+    "advising on the cooling period in Hindu Marriage Act cases",
+    "understanding the role of family courts in India"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:27:38.458445"
 }

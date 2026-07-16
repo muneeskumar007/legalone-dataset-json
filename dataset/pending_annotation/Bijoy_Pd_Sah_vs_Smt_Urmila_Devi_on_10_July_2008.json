@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T10:26:00.392081",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Marriage Case No. 85 of 2004",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Bijoy Pd.Sah vs Smt.Urmila Devi on 10 July, 2008",
+  "case_name": "Bijoy Pd.Sah vs Smt.Urmila Devi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "BIJOY PD.SAH (husband)",
+    "respondent_defendant": "SMT.URMILA DEVI (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife deserted him for 25 years, and he sought divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court must be satisfied that there has not been any unnecessary and improper delay in institution of the proceeding.",
+      "held": "This Court would find that in section 23 of the Act there is sufficient indication that the court has to be satisfied that there has not been any unnecessary and improper delay in institution of the proceeding.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 23"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "delay",
+        "institution",
+        "proceeding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the plaintiff to explain such grossly delayed institution of proceedings.",
+      "held": "there is not a word in the plaint explaining such grossly delayed institution of proceedings.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "plaintiff",
+        "delayed institution"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Suit was held to be not maintainable due to grossly delayed institution of the proceeding seeking divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Matrimonial Suit",
+    "Limitation",
+    "Section 23",
+    "Unnecessary Delay",
+    "Improper Delay",
+    "Adultery",
+    "Desertion",
+    "Divorce",
+    "Marriage Case No. 85 of 2004",
+    "Barred by Limitation",
+    "Jurisdictional Error",
+    "Appearent Error",
+    "Court Below",
+    "High Court",
+    "Patna High Court",
+    "Indian Law",
+    "Family Law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce on grounds of adultery and desertion",
+    "arguing jurisdictional error in a matrimonial suit",
+    "seeking guidance on the application of Section 23 of the Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T20:55:26.338189"
 }

@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T10:27:14.316983",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge Family Court, Narsingpur in MJC No.101/17",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chandrabhan Patel vs Smt. Anjana Patel on 10 December, 2018",
+  "case_name": "Chandrabhan Patel vs Smt. Anjana Patel",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chandrabhan Patel (husband)",
+    "respondent_defendant": "Smt. Anjana Patel (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant filed an application under Section 9 Hindu Marriage Act before the Principal Judge Family Court, Jabalpur that in Civil Suit No.33A/2017. The respondent/wife filed an application under Section 125 of Cr.P.C. before the Principal Judge Family Court, Narsingpur that in MJC No.101/17 and the Family Court has awarded interim maintenance of Rs.2500/- per month to the respondent/wife vide order dated 27/6/2018.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,59 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove that there is a change in circumstances.",
+      "held": "Heard arguments of the learned counsel for the applicant/non-applicant and also perused the record.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "interim maintenance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The applicant will pay the maintenance amount of Rs.2500/- only in one case, and there is no necessity to interfere in the impugned order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Section 9",
+    "Section 24",
+    "Section 125",
+    "Cr.P.C.",
+    "interim maintenance",
+    "family court",
+    "principal judge",
+    "Narsingpur",
+    "Jabalpur",
+    "Criminal Revision",
+    "CRR-3957-2018",
+    "Chandrabhan Patel",
+    "Smt. Anjana Patel"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance orders",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:33:40.935445"
 }

@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:28:05.226173",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "31.10.2018",
-  "case_name": "Date Of Decision: 15.07.2024 vs State Of H.P. & Ors on 15 July, 2024",
+  "case_name": "Ujjwal Sachdeva & Ors. v. State Of H.P. & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ujjwal Sachdeva, husband, and others",
+    "respondent_defendant": "State of H.P., respondent No.1, and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "FIR sought to be quashed against petitioners-accused under Sections 498-A, 506 read with Section 34 of Indian Penal Code. Parties have entered into compromise to settle their dispute amicably.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,108 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Power under Section 482 Cr.P.C should not be exercised in cases involving heinous and serious offences of mental depravity or offences like murder, rape, dacoity, etc.",
+      "held": "Such offences are not private in nature and have a serious impact on society.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 482"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "(2014) 6 SCC 466",
+        "(2012) 10 SCC 303"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "compromise",
+        "criminal proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — to prevent abuse of process",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The power of the High Court in quashing criminal proceedings or FIR or complaint is distinct and different from the power of a Criminal Court to compound offences under Section 320 Cr.P.C.",
+      "held": "Even in the judgment passed in Narinder Singh's case, the Hon'ble Apex Court has held that while exercising inherent power of quashment under Section 482 Cr.P.C the Court must have due regard to the nature and gravity of the crime and its social impact.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Sections 482, 320"
+      ],
+      "cited_cases": [
+        "Narinder Singh",
+        "(2012) 10 SCC 303"
+      ],
+      "keywords": [
+        "quashing",
+        "compounding",
+        "criminal proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM — to guide court's exercise of discretion",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Criminal proceedings should not be quashed merely on the basis of compromise between the victim and the offender in cases involving heinous and serious offences.",
+      "held": "Apart from this, offences committed under special statute like the Prevention of Corruption Act or the offences committed by Public Servants while working in that capacity are not to be quashed merely on the basis of compromise between the victim and the offender.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 482"
+      ],
+      "cited_cases": [
+        "(2014) 6 SCC 466",
+        "(2012) 10 SCC 303"
+      ],
+      "keywords": [
+        "quashing",
+        "compromise",
+        "criminal proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH — to prevent abuse of process",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR No.11 of 2024 quashed as parties have resolved to settle their dispute amicably.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Specific Relief Act",
+    "quashing",
+    "FIR",
+    "Indian Penal Code",
+    "compromise",
+    "498-A",
+    "506",
+    "Section 34",
+    "Women Police Station Solan",
+    "Solan District",
+    "High Court Himachal Pradesh",
+    "Shimla"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs",
+    "compromise agreements in criminal cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:17:39.646087"
 }

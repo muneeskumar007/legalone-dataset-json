@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:27:59.700160",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, OP No. 2 of 2003",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dandu Sridhar vs Pothamashetty Padma Priya And Ors. on 29 December, 2003",
+  "case_name": "Dandu Sridhar vs Pothamashetty Padma Priya And Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband, petitioner",
+    "respondent_defendant": "mother and maternal grand parents of the minor, respondents",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed OP under Section 6 of Hindu Minority and Guardianship Act seeking custody of minor against wife and in-laws. Wife filed IA to dismiss main petition for want of jurisdiction.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The welfare of the minor child is the paramount consideration in determining custody.",
+      "held": "Deeksha, to the appellant herein, in view of her welfare.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Minority and Guardianship Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "minor child",
+        "custody",
+        "welfare"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court's earlier order can be modified if circumstances change.",
+      "held": "After considering the facts and circumstances of the case, the Lok Adalath modified the order on 15.7.2002",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Dandu Sridhar vs Pothamashetty Padma Priya And Ors., (2003)"
+      ],
+      "keywords": [
+        "court orders",
+        "modification"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The original petition was returned to the petitioner for presentation before the proper Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Guardians and Wards Act",
+    "Code of Civil Procedure",
+    "minor custody",
+    "Section 6 Hindu Minority and Guardianship Act",
+    "Section 25 Guardians and Wards Act",
+    "Section 9(1) Guardians and Wards Act",
+    "Section 151 Code of Civil Procedure",
+    "family court",
+    "Hyderabad",
+    "petitioner",
+    "respondents",
+    "maternal grandparents",
+    "custody dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on minor custody disputes",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:09:42.109692"
 }

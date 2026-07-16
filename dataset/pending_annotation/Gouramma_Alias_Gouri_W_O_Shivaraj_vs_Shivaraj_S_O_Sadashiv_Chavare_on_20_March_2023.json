@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:30:19.542702",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "M.C.No.68/2022",
     "sc.No.385/2022"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge and JMFC, Banahatti (M.C.No.68/2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gouramma Alias Gouri W/O Shivaraj ... vs Shivaraj S/O Sadashiv Chavare on 20 March, 2023",
+  "case_name": "Gouramma Alias Gouri W/O Shivaraj ... vs Shivaraj S/O Sadashiv Chavare",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gouramma Alias Gouri W/O Shivaraj, wife and student/household",
+    "respondent_defendant": "Shivaraj S/O Sadashiv Chavare, husband and agricultural/driver",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -37,7 +37,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks to withdraw M.C.No.68/2022 pending on the file of Senior Civil Judge and JMFC, Banahatti and transfer to Principal Judge, Family Court, Vijayapura due to uncordial relation between parties.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The ends of justice should demand the transfer of the suit, appeal or other proceeding.",
+      "held": "The cardinal principle for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "N.C.V. Aishwarya VS. A.S.Saravana Karthik Sha, (2022) AIR SC 4318"
+      ],
       "keywords": [
-        "TODO"
+        "transfer",
+        "justice",
+        "matrimonial matters"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family court proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "In matrimonial matters, the Courts have to take into consideration the economic soundness of both parties.",
+      "held": "In matrimonial matters, wherever Courts are called upon to consider the plea of transfer, the Courts have to take into consideration the economic soundness of both the parties",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Section 24"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya VS. A.S.Saravana Karthik Sha, (2022) AIR SC 4318"
+      ],
+      "keywords": [
+        "matrimonial matters",
+        "economic soundness"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family court proceedings"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner's prayer to withdraw M.C.No.68/2022 and transfer it to Principal Judge, Family Court, Vijayapura is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "CPC",
+    "Section 24",
+    "transfer petition",
+    "MC Petition No. 68/2022",
+    "family court",
+    "Vijayapura",
+    "High Court of Karnataka",
+    "Dharwad",
+    "civil petition",
+    "petition for transfer",
+    "order to transfer",
+    "justice",
+    "ends of justice",
+    "Latin maxim: Justice delayed is justice denied"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for transfer in family court",
+    "guidelines for filing a transfer petition under Section 24 CPC",
+    "practical tips for advocates on handling divorce cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:17:09.762981"
 }

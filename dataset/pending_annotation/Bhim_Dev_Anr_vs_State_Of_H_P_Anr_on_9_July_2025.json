@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:25:56.973404",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -20,13 +20,13 @@
     "Virender Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned Judicial Magistrate First Class, Court No. 2, Mandi, District Mandi, H.P.",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Bhim Dev & Anr vs State Of H.P.& Anr on 9 July, 2025",
+  "case_name": "Bhim Dev & Anr vs State Of H.P.& Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Bhim Dev & anr (Petitioners)",
+    "respondent_defendant": "State of H.P. & anr (Respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute between petitioner No. 1 and respondent No. 2 led to FIR registration under Sections 498-A, 323, 325 and 34 of the IPC. Parties settled matter, dissolved marriage by petition under Section 13-B of Hindu Marriage Act. Petitioners seek quashing of FIR and resultant proceedings.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,72 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties to a dispute can settle their differences and dissolve their marriage through mutual consent.",
+      "held": "However, when it was not possible for them to live together, as husband-wife, they dissolved their marriage, by way of their mutual consent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "marriage dissolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A compromise between parties can be a valid basis for quashing proceedings.",
+      "held": "On the basis of statements, so made by the petitioners, they have sought the relief, as claimed, in the petition.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "compromise",
+        "quashing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "litigation cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition allowed; FIR and resultant proceedings quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Bhartiya Nagarik Suraksha Sanhita",
+    "Section 528",
+    "498-A IPC",
+    "quashing FIR",
+    "Indian Penal Code",
+    "Judicial Magistrate First Class",
+    "Mandi District",
+    "Women Police Station",
+    "IPC Sections",
+    "FIR quashing",
+    "Hindu Marriage Act 1955",
+    "Bharatiya Nagarik Suraksha Sanhita 2023"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting FIR quashing petition",
+    "quashing criminal proceedings in divorce cases",
+    "using Section 528 BNSS for divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T20:48:48.272054"
 }

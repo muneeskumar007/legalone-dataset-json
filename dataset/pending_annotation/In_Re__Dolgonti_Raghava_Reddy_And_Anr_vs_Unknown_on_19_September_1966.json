@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:51:28.818409",
   "domain": "land_acquisition",
-  "sub_domain": "divorce",
+  "sub_domain": "marriage",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "In Re: Dolgonti Raghava Reddy And Anr. vs Unknown on 19 September, 1966",
+  "case_name": "In Re: Dolgonti Raghava Reddy And Anr. vs Unknown",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dolgonti Raghava Reddy and another (husband, wife)",
+    "respondent_defendant": "Unknown",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "A-1 married A-2 in a temple, despite his existing marriage. Prosecution claimed they committed the offence under Section 494 I.P.C. Trial Court found them guilty and awarded sentence.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,104 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnised in contravention of Section 5(i) is void.",
+      "held": "Section 11 declares a marriage which has been solemnised in contravention of section 6(1) shall be void.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5(i), Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void",
+        "contravention",
+        "Section 5(i)",
+        "Section 11"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land acquisition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A marriage solemnised after the commencement of this Act is void if on the date of such marriage, either party had a spouse living.",
+      "held": "Any marriage between two Hindus after the commencement of this Act is void if on the date of such marriage, either party had a husband or wife living and provisions of sections 494 and 495 I. P. C. shall apply accordingly.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 17"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "void",
+        "spouse living",
+        "commencement of this Act"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "land acquisition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A marriage must be celebrated with proper ceremonies and in due form according to the customs in the community to which the parties belong.",
+      "held": "Unless therefore the marriage is celebrated or performed with proper, ceremonies in due form, it cannot be said to be a marriage solemnised for the purpose of Section 17.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 7"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "proper ceremonies",
+        "due form",
+        "customs in the community"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "land acquisition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Sentence confirmed, direction to execute bond for good behaviour also confirmed",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Hindu Marriage Act",
+    "Section 494 I.P.C.",
+    "marriage",
+    "bigamy",
+    "probation",
+    "offenders",
+    "bond",
+    "good behaviour",
+    "Sessions Judge",
+    "judgment",
+    "sentence",
+    "trial Court",
+    "prosecution",
+    "witnesses",
+    "complainant",
+    "Jatra day",
+    "temple",
+    "Kottagattu"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bigamy cases",
+    "advising on marriage laws",
+    "assisting in land acquisition disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:15:36.574768"
 }

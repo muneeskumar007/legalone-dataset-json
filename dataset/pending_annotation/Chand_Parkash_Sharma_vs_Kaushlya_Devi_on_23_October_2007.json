@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T10:27:22.677535",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 10,
     "partition": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Judge, Solan",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chand Parkash Sharma vs Kaushlya Devi on 23 October, 2007",
+  "case_name": "Chand Parkash Sharma vs Kaushlya Devi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband",
+    "respondent_defendant": "wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed for divorce under Section 13 of the Hindu Marriage Act, 1955, alleging cruelty. Respondent resisted and expressed willingness to live with husband. No reconciliation was possible.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Court must not lightly dissolve a marriage on the ground of irretrievable break down.",
+      "held": "It is only in extreme circumstances the Court can use this ground for dissolving a marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "A. Jaychandra, AIR 2005 SC 534",
+        "Shyam Sunder's case AIR 2004 SC 5111"
+      ],
       "keywords": [
-        "TODO"
+        "irretrievable break down",
+        "extreme circumstances",
+        "marriage dissolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court cannot grant a decree of divorce on the ground of desertion if the husband's reasons for his wife not being ready to live with him are found false.",
+      "held": "The husband cannot be given advantage of his own wrong and granted decree of divorce on the ground of desertion.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Shyam Sunder's case AIR 2004 SC 5111"
+      ],
+      "keywords": [
+        "desertion",
+        "false reasons",
+        "marriage dissolution"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Marriage not annulled by decree of divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13",
+    "cruelty",
+    "divorce",
+    "annulled",
+    "reconciliation",
+    "joint family",
+    "marriage",
+    "petition",
+    "District Judge",
+    "HC Single Judge",
+    "Latin maxim",
+    "factual terms",
+    "legal terms",
+    "section numbers",
+    "landmark case",
+    "Supreme Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on reconciliation efforts",
+    "representing client in HC Single Judge"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:28:38.963920"
 }

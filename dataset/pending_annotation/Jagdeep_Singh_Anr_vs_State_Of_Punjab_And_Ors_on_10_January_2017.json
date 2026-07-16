@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:51:42.988437",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "custody": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "27.10.2016",
-  "case_name": "Jagdeep Singh & Anr vs State Of Punjab And Ors on 10 January, 2017",
+  "case_name": "Jagdeep Singh & Anr vs State Of Punjab And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jagdeep Singh and another (husband, wife)",
+    "respondent_defendant": "State of Punjab and others (government agency)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners, a married couple, sought protection from harassment by respondents. Petitioner No.2 was found to be a minor at the time of marriage. The trial court ordered protection for both petitioners.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnised in contravention of some but not all conditions prescribed for valid marriage is not void.",
+      "held": "Two incontrovertible propositions emerge from a combined reading of Sections 5 and 11 and other provisions of the Act, that the Act specifies conditions for valid marriage and a marriage contracted in breach of some but not all of them renders the marriage void.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5",
+        "Hindu Marriage Act, 1955 — Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "valid marriage",
+        "contravention",
+        "breach",
+        "conditions"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The law prescribes conditions for valid marriage and does not leave it to inference that each one of such conditions is mandatory.",
+      "held": "The statute thus prescribes conditions for valid marriage and also does not leave it to inference that each one of such conditions is mandatory and a contravention, violation or breach of any one of them would be treated as a breach of a prerequisite for a valid marriage rendering it void.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 5"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "conditions",
+        "mandatory",
+        "inference"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner No.2 was sent to a Protection Home, and respondent No.2 was directed to provide necessary protection to petitioner No.1.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "marriage against wishes",
+    "minor at time of marriage",
+    "false accusation",
+    "security",
+    "harassment",
+    "petitioners",
+    "respondents",
+    "Punjab",
+    "Chandigarh",
+    "UT",
+    "Addl. A.G.",
+    "Punjab",
+    "Aadhaar Card",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advocating for minor's rights",
+    "responding to false accusation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:40:11.912337"
 }

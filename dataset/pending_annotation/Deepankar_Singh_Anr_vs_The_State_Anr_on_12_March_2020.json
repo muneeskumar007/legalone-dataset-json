@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:28:21.373240",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Deepankar Singh & Anr vs The State & Anr on 12 March, 2020",
+  "case_name": "Deepankar Singh & Anr vs The State & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Deepankar Singh & Anr (husband)",
+    "respondent_defendant": "The State & Anr (wife, police station Shahdara, Delhi)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners filed a petition for quashing of the FIR No.356/2011 under Section 406/498A/34 Indian Penal Code registered at police station Shahdara, Delhi against them and the proceedings emanating therefrom.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,59 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to quash a criminal proceeding to demonstrate that the allegations made in the FIR are frivolous and without any basis.",
+      "held": "Considering the above settlement between the parties, the petitioners have demonstrated that the allegations made in the FIR are frivolous and without any basis.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quash",
+        "FIR",
+        "frivolous",
+        "basis"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "criminal proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
     "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "final_order": "FIR No.356/2011 under Section 406/498A/34 Indian Penal Code registered at police station Shahdara, Delhi and the proceedings emanating therefrom are quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "mutual consent",
+    "quashing FIR",
+    "Section 406 IPC",
+    "Section 498A IPC",
+    "Section 34 IPC",
+    "FIR No.356/2011",
+    "police station Shahdara",
+    "Delhi",
+    "Indian Penal Code",
+    "Memorandum of Understanding",
+    "Axis Bank",
+    "draft No.023622",
+    "Rs.7.00 lac"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "quashing FIR for settled disputes",
+    "divorce by mutual consent under Hindu Marriage Act",
+    "payment of settlement amount in court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:11:30.558199"
 }

@@ -7,7 +7,7 @@
   "total_pages": 21,
   "extracted_at": "2026-07-15T10:30:34.688588",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "B.Krishna Mohan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Mahila Court, Visakhapatnam, Sessions Case No.88 of 2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gundasi Narasinga Rao, Visakapatnam 2 ... vs State Of A.P., Rep. Pp., Hyd., on 29 May, 2020",
+  "case_name": "Gundasi Narasinga Rao, Visakapatnam 2 ... vs State Of A.P., Rep. Pp., Hyd.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Accused Nos.1 to 3 (husband, mother-in-law, brother-in-law)",
+    "respondent_defendant": "State Of A.P., Rep. Pp., Hyd.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Murder of a married woman by husband, mother-in-law and brother-in-law during midnight in the house of the accused/appellants themselves allegedly for her failure to meet the illegal demand for additional dowry.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -79,39 +79,108 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The prosecution must prove all incriminating facts and circumstances to draw inference of guilt.",
+      "held": "it is for the prosecution to prove all the incriminating facts and circumstances",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code, 1860"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Syed Hakkim & another v. State6"
+      ],
       "keywords": [
-        "TODO"
+        "circumstantial evidence",
+        "inference of guilt"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "murder cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Circumstantial evidence must be fully established, with a complete chain of individual circumstances pointing to the guilt of the accused.",
+      "held": "when the case of the prosecution is based on proof of circumstantial evidence",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860"
+      ],
+      "cited_cases": [
+        "G.Parshwanath v. State of Karnataka7",
+        "Rukia Begum Vs. State of Karnataka8"
+      ],
+      "keywords": [
+        "circumstantial evidence",
+        "individual circumstances",
+        "guilt of the accused"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "murder cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Circumstances must be cogently and firmly established, with a definite tendency unerringly pointing towards the guilt of the accused.",
+      "held": "the normal principle in a case based on circumstantial evidence",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860"
+      ],
+      "cited_cases": [
+        "Trimukh Maloti Kikran v. State of Maharashtra11"
+      ],
+      "keywords": [
+        "circumstantial evidence",
+        "guilt of the accused"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "murder cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The conviction and sentence passed under the Calendar and Judgment, dated 30.11.2012 were set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "498-A",
+    "302",
+    "304-B",
+    "Cr.P.C",
+    "Sessions Case",
+    "Mahila Court",
+    "Visakhapatnam",
+    "imprisonment",
+    "fine",
+    "Rigorous Imprisonment",
+    "Indian Penal Code",
+    "Specific Relief Act",
+    "Indian Evidence Act",
+    "Criminal Procedure Code",
+    "Section 235(2)",
+    "Section 374(2)",
+    "Section 498-A",
+    "Section 302",
+    "Section 304-B"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against conviction and sentence",
+    "drafting petition for anticipatory bail",
+    "drafting application for quashing of FIR"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:31:33.594974"
 }

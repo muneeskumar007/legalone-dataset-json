@@ -7,7 +7,7 @@
   "total_pages": 23,
   "extracted_at": "2026-07-15T10:31:25.212466",
   "domain": "land_acquisition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "arbitration",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "11.12.2025",
   "delivered_on": "19.12.2025",
-  "case_name": "Hindustan Petroleum Corporation Ltd vs M/S Fakhrudin Filling Station on 19 December, 2025",
+  "case_name": "Hindustan Petroleum Corporation Ltd vs M/S Fakhrudin Filling Station",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Hindustan Petroleum Corporation Ltd, Appellant",
+    "respondent_defendant": "M/S Fakhrudin Filling Station, Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The appellant challenged the judgment of the trial court which set aside an award passed by an Arbitral Tribunal. The respondent had applied for allotment of a retail petroleum outlet and executed an agreement with the appellant. However, the respondent handed over physical possession of the outlet to another person in violation of the terms of the agreement.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An award can be set aside if it is patently illegal.",
+      "held": "Such award/judgment/decision is likely to adversely affect the administration of justice. Hence, in our view, in addition to narrower meaning given to the term 'public policy' in Renusagar's case (supra), it is required to be held that the award could be set aside if it is patently illegal.",
       "applicable_acts_sections": [
-        "TODO"
+        "Specific Relief Act, 1963"
+      ],
+      "cited_cases": [
+        "Renusagar's case"
+      ],
+      "keywords": [
+        "patent illegality",
+        "public policy",
+        "administration of justice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "land acquisition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "An award can be set aside if it is contrary to the public policy of India.",
+      "held": "Award could also be set aside if it is so unfair and unreasonable that it shocks the conscience of the Court. Such award is opposed to public policy and is required to be adjudged void.",
+      "applicable_acts_sections": [
+        "Specific Relief Act, 1963"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "public policy",
+        "unfair",
+        "unreasonable",
+        "shocks the conscience"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land acquisition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "arbitration",
+    "conciliation",
+    "specific_relief_act_1963",
+    "jammu_kashmir_law",
+    "high_court_jammu_kashmir",
+    "commercial_division_srinagar_wing",
+    "section_34",
+    "section_37",
+    "arbitral_tribunal",
+    "retail_petroleum_outlet",
+    "dealership_allotment",
+    "newa_pulwama",
+    "hindustan_petroleum_corporation_ltd",
+    "m_s_fakhrudin_filling_station"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition under Section 34 of the J&K Arbitration and Conciliation Act",
+    "appealing against an arbitral award in the High Court of Jammu & Kashmir",
+    "guidelines for commercial disputes resolution"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:10:00.407458"
 }

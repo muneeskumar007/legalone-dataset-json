@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:28:03.414238",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "land_acquisition": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Date Of Decision: 07.12.2 vs State Of Punjab And Another on 7 December, 2010",
+  "case_name": "Rajat Gandhi v. State Of Punjab And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rajat Gandhi, husband; Manju Gandhi and another, parents-in-law; Aarti Sareen, married sister-in-law",
+    "respondent_defendant": "State of Punjab and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners seek quashing of FIR No.253 dated 1.7.2009 registered at Police Station Civil Lines, Amritsar City for the offences under Sections 406 and 498-A Indian Penal Code and all subsequent proceedings arising therefrom on the basis of compromise.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Matrimonial disputes can be amicably settled, and the court may quash proceedings in such cases.",
+      "held": "Keeping in view the matrimonial dispute having been amicably settled, it would be just and expedient to terminate the proceedings by quashing the FIR.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "B.S. Joshi and others v. State of Haryana (Year) X SCC Y"
+      ],
+      "keywords": [
+        "matrimonial disputes",
+        "amicable settlement",
+        "quash proceedings"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court may consider the compromise reached between parties in deciding whether to quash proceedings.",
+      "held": "In terms of the settlement reached at, it has inter alia been resolved that Rajat Gandhi would handover a draft of `7,80,000/- to the complainant Ruchika Gandhi in Court when her statement in the case for divorce by mutual consent is recorded by the Court concerned.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "quash proceedings",
+        "divorce by mutual consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law disputes",
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The settlement reached at has been placed on record as Annexure P5 in Crl. Misc. No. M-16497 of 2010.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "quashing",
+    "FIR",
+    "petitioners",
+    "complainant",
+    "husband",
+    "parents-in-law",
+    "wife",
+    "marriage",
+    "cruelty",
+    "desertion",
+    "restitution",
+    "alimony",
+    "maintenance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs in domestic violence cases",
+    "seeking alimony and maintenance"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:15:39.318343"
 }

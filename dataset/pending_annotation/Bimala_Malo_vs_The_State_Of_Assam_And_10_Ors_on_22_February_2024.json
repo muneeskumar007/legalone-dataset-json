@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:26:00.998906",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Bimala Malo vs The State Of Assam And 10 Ors on 22 February, 2024",
+  "case_name": "Bimala Malo vs The State Of Assam And 10 Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Bimala Malo, W/O- LATE GOBINDA CHANDRA MALO",
+    "respondent_defendant": "The State of Assam and 10 Ors",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner claiming grant of family pension payable to her in view of services rendered by her late husband Govinda Chandra Malo, who was working as an Assistant Teacher.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The pension proposal could not be prepared and proceeded with in absence of a valid 'Next of kin certificate'.",
+      "held": "The stand of the Department before this Court reflects that the pension proposal could not be prepared and proceeded with in absence of a valid 'Next of kin certificate' which is to be furnished by the petitioner or the respondent no.11.",
       "applicable_acts_sections": [
-        "TODO"
+        "Assam Services Pension Rules, 1969 — Rule 143"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Mustt Junufa Bibi vs Mustt Padma Begum @ Padma Bibi & 4 Ors., (2022) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "pension proposal",
+        "Next of kin certificate",
+        "family pension"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The law regarding the claim of family pension by the second wife is well settled.",
+      "held": "The law regarding the claim of family pension by the second wife is well settled by judgment of a Full Bench of this Court rendered on 22.12.2022 in Mustt Junufa Bibi vs Mustt Padma Begum @ Padma Bibi & 4 Ors.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section X",
+        "Hindu Succession Act, 1956 — Section Y"
+      ],
+      "cited_cases": [
+        "Mustt Junufa Bibi vs Mustt Padma Begum @ Padma Bibi & 4 Ors., (2022) X SCC Y"
+      ],
+      "keywords": [
+        "family pension",
+        "second wife",
+        "claim"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "family law",
+    "property division",
+    "joint family",
+    "coparcenary",
+    "marriage settlement",
+    "partition suit",
+    "family property",
+    "inheritance",
+    "succession",
+    "intestate",
+    "testamentary succession",
+    "family dispute",
+    "partition of assets"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on family property disputes",
+    "representing clients in inheritance matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T20:56:18.483551"
 }

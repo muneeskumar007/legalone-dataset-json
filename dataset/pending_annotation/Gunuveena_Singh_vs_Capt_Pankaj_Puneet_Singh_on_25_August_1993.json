@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:30:35.821354",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of District Judge, Indore in Hindu Marriage Case No. 47/90",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gunuveena Singh vs Capt. Pankaj Puneet Singh on 25 August, 1993",
+  "case_name": "Gunuveena Singh vs Capt. Pankaj Puneet Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gunuveena Singh, wife",
+    "respondent_defendant": "Capt. Pankaj Puneet Singh, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties was solemnized on 14-4-87. Respondent treated appellant with cruelty and deserted her in Oct. 1988. Appellant claimed restoration of property retained by respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,98 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The law must provide a protective umbrella to free the petitioner from the boneful bond of marriage which gave only tears and torture.",
+      "held": "Such attitude of the husband is palpably irremissible. The husband can have neither vote nor veto.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "divorce",
+        "cruelty",
+        "desertion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving cruelty and desertion"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court must scrutinise as to who has wronged and who is wronged.",
+      "held": "The Court, acting reasonably and judiciously, is obligated to scrutinise...",
+      "cited_cases": [],
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "keywords": [
+        "justice",
+        "fairness",
+        "scrutiny"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving disputes over wrongs committed"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The law must not stay petrified in matters of mental cruelty.",
+      "held": "Must the cause perish in law on sheer technicalities or military-like insistence on pleadings?",
+      "cited_cases": [],
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "keywords": [
+        "mental cruelty",
+        "technicalities",
+        "justice"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases involving claims of mental cruelty"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Trial Court dismissed the petition seeking dissolution of marriage by decree of divorce on grounds of cruelty and desertion.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "desertion",
+    "Section 28",
+    "Hindu rites",
+    "marriage dissolution",
+    "petition",
+    "summons",
+    "property retention",
+    "Latin maxim",
+    "fidelity suspicion",
+    "mental torture",
+    "reasonable apprehension",
+    "two years desertion",
+    "divorce grounds"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to summons in divorce case",
+    "claiming property retention in divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:33:26.324847"
 }

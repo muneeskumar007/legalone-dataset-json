@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:51:24.788863",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Bettiah, West Champaran (Matrimonial Case No. 66 of 2002)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Indu Devi vs Surajman Sah on 30 June, 2010",
+  "case_name": "Indu Devi vs Surajman Sah",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Indu Devi (wife)",
+    "respondent_defendant": "Surajman Sah (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent was married to Sunarpati Devi and had a child with the appellant. The parties got acrimonious and the respondent filed for judicial separation. The trial court granted the decree.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A second wife of a Hindu, while the first wife is still alive, is not a wife.",
+      "held": "It is a settled principle of law that a second wife of a Hindu, while the first wife is still alive, is not a wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5(i)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "judicial separation",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A lawful marriage is a sine quo non for an application for judicial separation.",
+      "held": "The sine quo non for an application for judicial separation under Section 10 of the Hindu Marriage Act is a lawful marriage as the Hindu Marriage Act does not recognize void marriages.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 10"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "judicial separation",
+        "lawful marriage",
+        "void marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal stands allowed, and the judgment under appeal is not sustainable in view of the finding that the marriage itself was void.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "judicial separation",
+    "void marriage",
+    "Section 5(i)",
+    "matrimonial relationship",
+    "condonation of delay",
+    "family court",
+    "divorce",
+    "marriage contrary to law",
+    "second wife",
+    "first wife still alive",
+    "legal marriage",
+    "voidable marriage",
+    "Hindu Marriage Act, 1955",
+    "judicial separation decree",
+    "Matrimonial Case No. 66 of 2002"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on validity of second marriage",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:17:18.620085"
 }

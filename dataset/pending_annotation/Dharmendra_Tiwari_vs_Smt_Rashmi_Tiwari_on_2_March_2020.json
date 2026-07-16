@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:28:34.199666",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 11,
     "partition": 1,
@@ -28,13 +28,13 @@
   "case_numbers": [
     "F.A.No.1825/2019"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Rewa in RCS HM No.16-A/2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dharmendra Tiwari vs Smt. Rashmi Tiwari on 2 March, 2020",
+  "case_name": "Dharmendra Tiwari vs Smt. Rashmi Tiwari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dharmendra Tiwari, husband",
+    "respondent_defendant": "Smt.Rashmi Tiwari, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant and respondent are legally wedded husband and wife. Appellant filed application under section 10 of Hindu Marriage Act, 1955 for judicial separation. Trial court allowed the application but directed appellant to pay maintenance @ Rs.6,000/- per month to respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power to grant alimony contained in S.25 of the Hindu Marriage Act has to be exercised when the court is called upon to settle the mutual rights of the parties after the marital ties have snapped.",
+      "held": "The Allahabad High Court while considering the case held thus :",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 25"
+      ],
+      "cited_cases": [
+        "Vinod Chandra Sharma Vs. Smt.Rajesh Pathak, (1988) AIR 150"
+      ],
+      "keywords": [
+        "alimony",
+        "maintenance",
+        "marital ties",
+        "mutual rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM — one reason why",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may order that the respondent shall pay to the applicant for her or his maintenance and support such gross sum or such monthly or periodical sum for a term not exceeding the life of the applicant.",
+      "held": "",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 25"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "support",
+        "life of the applicant"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM — one reason why",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Appellant was directed to pay maintenance @ Rs.6,000/- per month to respondent from date of order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "judicial separation",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Family Court Act",
+    "section 10",
+    "section 19",
+    "Indian Penal Code",
+    "marriage",
+    "separation",
+    "wife's maintenance",
+    "husband's appeal",
+    "first appeal",
+    "judgment and decree",
+    "principal judge",
+    "family court",
+    "rewa",
+    "hindu rites",
+    "rituals",
+    "kachnar",
+    "satna"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on maintenance claims",
+    "appealing a family court judgment"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:31:14.585567"
 }

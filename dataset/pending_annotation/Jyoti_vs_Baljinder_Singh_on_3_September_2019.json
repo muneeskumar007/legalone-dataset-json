@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:53:00.745407",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Raj Mohan Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Judge, Fazilka, CR No. 5324 of 2019",
   "reserved_on": "",
   "delivered_on": "24.09.2018",
-  "case_name": "Jyoti vs Baljinder Singh on 3 September, 2019",
+  "case_name": "Jyoti vs Baljinder Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jyoti - wife",
+    "respondent_defendant": "Baljinder Singh - husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent got married in March 2017 but separated just a month later. They have no children. The parties entered into a settlement, returning dowry articles and settling alimony. Petitioner seeks waiver of the six-month statutory period for granting divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,105 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The period mentioned in Section 13-B (2) of the Hindu Marriage Act is directory and not mandatory.",
+      "held": "The Hon'ble Apex Court has observed that the period mentioned in Section 13-B (2) of Hindu Marriage Act is not mandatory, rather the same is directory and it is open to the Court to exercise its discretion in the facts and circumstances of the case.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [
+        "Amardeep Singh vs Harveen Kaur, (2017) 4 RCR (Civil) 608"
+      ],
+      "keywords": [
+        "directory",
+        "mandatory",
+        "discretion",
+        "facts and circumstances"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court has to consider the period for which the parties have been married, duration of their separation, duration of pending litigation and any other pending litigation between them.",
+      "held": "The Court has to see whether there is any possibility of parties resuming cohabitation or chances of alternative rehabilitation for the purpose of waiving the statutory period of six months.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "duration",
+        "separation",
+        "pending litigation",
+        "cohabitation",
+        "rehabilitation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The discretion to waive the period is a guided discretion by considering the interest of justice where there is no chance of reconciliation and parties were already separated for a longer period or contesting the proceedings for a period longer than the period mentioned in Section 13-B(2) of the Hindu Marriage Act.",
+      "held": "The Court has to consider the period for which the parties have been married, duration of their separation, duration of pending litigation and any other pending litigation between them.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interest of justice",
+        "reconciliation",
+        "separation",
+        "contesting the proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court waived the statutory period of six months and granted divorce to the parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "exemption",
+    "statutory period",
+    "six months",
+    "petition",
+    "marriage",
+    "Sikh rites",
+    "ceremonies",
+    "separation",
+    "Assistant Professor",
+    "permanent resident",
+    "Dhani Vishakha Singh",
+    "Arniwala Sheikh Subhan",
+    "Tehsil",
+    "District Fazilka",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "seeking exemption from statutory period in divorce proceedings",
+    "advising on grounds for divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:32:59.575069"
 }

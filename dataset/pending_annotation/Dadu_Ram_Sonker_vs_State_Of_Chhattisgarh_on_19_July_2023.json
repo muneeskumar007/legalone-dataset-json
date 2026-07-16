@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:27:58.802876",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "land_acquisition": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dadu Ram Sonker vs State Of Chhattisgarh on 19 July, 2023",
+  "case_name": "Dadu Ram Sonker vs State Of Chhattisgarh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dadu Ram Sonker, husband",
+    "respondent_defendant": "State Of Chhattisgarh, Collector, Raipur, Commissioner Municipal Coroporation Raipur, Superintendent Of Police Raipur, Arya Samj Temple",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks relief against institutions cheating public at large; wants authorities to take action and control over marriage shops.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Recognition of marriage is granted by the State Government under the Rules, 2006.",
+      "held": "Thus, in the light of the above, it is submitted that the recognition of the marriage has been granted by the State Government under the Rules, 2006",
       "applicable_acts_sections": [
-        "TODO"
+        "Chhattisgarh Compulsory registration of Marriage Rules, 2006"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "recognition",
+        "Rules, 2006"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A valid marriage certificate issued under the relevant law by a competent authority is required for availing benefits.",
+      "held": "Thus, in the light of the above, it is submitted that an Arya Samajee who has obtained a certificate under the Arya Samaj even they have to obtain the certificate under the Rules, 2006",
+      "applicable_acts_sections": [
+        "Chhattisgarh Compulsory registration of Marriage Rules, 2006"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "certificate",
+        "benefits"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court directs respondents to examine provisions of Hindu Marriage Act, frame rules related to marriage act, and not recognize particular notary or pocket witness in solemnizing marriages.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "maintenance",
+    "alimony",
+    "custody",
+    "property",
+    "partition",
+    " Hindu Succession Act",
+    "family law",
+    "matrimonial dispute",
+    "marriage dissolution",
+    "spousal rights",
+    "child support",
+    "joint family",
+    "separation",
+    "nullity of marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on spousal maintenance",
+    "assisting with child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:08:57.597671"
 }

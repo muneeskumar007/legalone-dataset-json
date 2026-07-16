@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:27:37.290318",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -20,13 +20,13 @@
     "Would Be J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Berhampur, Ganjam (C.P. No.156 of 2018)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chitra Rath vs Amresh Pattanaik ..... Opposite Party on 17 December, 2021",
+  "case_name": "Chitra Rath vs Amresh Pattanaik — TRP(C) No.292 OF 2019",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chitra Rath, wife",
+    "respondent_defendant": "Amresh Pattanaik, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks transfer of C.P. No.156 of 2018 from Family Court to Civil Judge (Sr. Division), Parlakhemundi due to harassment by opposite party-husband.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The interest of justice would be best served when a party can participate in the proceeding.",
+      "held": "It is further contended that in the event, C.P. No.156 of 2018 pending in the court of learned Judge, Family Court, Berhampur, Ganjam is transferred to the court of learned Civil Judge (Sr. Division), Parlakhemundi, Gajapati, the interest of justice would be best served so that the petitioner can participate in the proceeding.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "justice",
+        "participation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party may withdraw a case if they are being harassed.",
+      "held": "It is also contended that the opposite party, instead of participating in the proceeding, withdrew the said MAT 32 of 2016 on 09.04.2018 and filed a fresh C.P. No.156 of 2018 before the learned Judge, Family Court, Berhampur only to cause harassment to the petitioner.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "harassment",
+        "withdrawal"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cases involving harassment"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court directs the learned Judge, Family Court, Berhampur to transmit C.P. No.156 of 2018 to the court of learned Civil Judge (Sr. Division), Parlakhemundi.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "transfer petition",
+    "family court",
+    "civil judge",
+    "Berhampur",
+    "Parlakhemundi",
+    "Ganjam",
+    "Gajapati",
+    "petitioner",
+    "opposite party",
+    "learned counsel",
+    "Judge",
+    "Family Court",
+    "Civil Judge",
+    "Senior Division",
+    "Court of Appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition in family court",
+    "advising on jurisdictional issues in divorce cases",
+    "preparing an appeal against a family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:53:37.311868"
 }

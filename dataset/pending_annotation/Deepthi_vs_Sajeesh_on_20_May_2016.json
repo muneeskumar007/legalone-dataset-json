@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:28:21.777597",
   "domain": "divorce",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "cheque_bounce": 1,
@@ -22,13 +22,13 @@
   "case_numbers": [
     "O.P.No.150 of 2016"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Kottarakkara (O.P.(HMA) No.349 of 2015); Family Court, Vadakara (O.P.150 of 2016)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Deepthi vs Sajeesh on 20 May, 2016",
+  "case_name": "Deepthi vs Sajeesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Deepthi, wife",
+    "respondent_defendant": "Sajeesh, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are the wife and husband who filed for divorce and maintenance. The wife is seeking dissolution of marriage due to strained relationship. The husband is seeking return of property. The case came to appeal as the wife wants all cases tried jointly in one court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking transfer of a case to establish sufficient reasons for such transfer.",
+      "held": "Though, notice had been properly served to the respondent, he has not chosen to enter appearance in this transfer petition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13(i-a) and (i-b)",
+        "Family Court Act — Section 7(1)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Deepthi vs Sajeesh, (2016) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "transfer",
+        "burden of proof",
+        "family court",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's convenience or hardship is not a sufficient reason to transfer a case.",
+      "held": "It is not disputed that O.P.(HMA) No.349 of 2015 before the Family Court, Kottarakkara under section 13(i-a) and (i-b) of the Hindu Marriage Act read with section 7(1) of the Family Court Act for dissolution of marriage between the petitioner and the respondent.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13(i-a) and (i-b)",
+        "Family Court Act — Section 7(1)"
+      ],
+      "cited_cases": [
+        "Deepthi vs Sajeesh, (2016) X SCC Y"
+      ],
+      "keywords": [
+        "convenience",
+        "hardship",
+        "transfer",
+        "family court"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Family Court, Kottarakkara will try both O.P.(HMA) No.349 of 2015 and O.P.150 of 2016.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "matrimonial relationship",
+    "strained",
+    "difference of opinion",
+    "family court",
+    "transfer petition",
+    "CIVIL",
+    "Tr.P(C)",
+    "No.246/2016",
+    "Kerala High Court",
+    "Ernakulam",
+    "Family Court, Kottarakkara",
+    "Vadakara"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "transfer of family court cases",
+    "family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:13:27.544894"
 }

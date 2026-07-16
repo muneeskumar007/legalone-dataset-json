@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:29:02.499705",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Judge at Alipore, Mat. Suit No. 1420 of 2007",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr. Deepak Sharma vs Smt. Vineeta Sharma (Nee Dubey) on 24 January, 2008",
+  "case_name": "Dr. Deepak Sharma vs Smt. Vineeta Sharma (Nee Dubey)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. Deepak Sharma, husband",
+    "respondent_defendant": "Smt. Vineeta Sharma (Nee Dubey), wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2001 but separated soon after. They decided to divorce by mutual consent and filed a joint petition under Section 151 of the Code of Civil Procedure. The trial court rejected their application for relaxation of the six months restricted period.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The personal presence of parties before the Court on the second occasion is not mandatory.",
+      "held": "It is rightly pointed out by Mr. Mukherjee, learned Advocate, appearing for the petitioner (husband) that all proceedings under the said Act shall be regulated, as far as may be, by the Code of Civil Procedure subject to other provisions contained in the said Act and to such Rules as the High Court may make in this behalf.",
       "applicable_acts_sections": [
-        "TODO"
+        "Special Marriage Act — Section 40",
+        "Code of Civil Procedure"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Annalie Prashad v. Ramesh Prashad"
+      ],
       "keywords": [
-        "TODO"
+        "special marriage act",
+        "code of civil procedure",
+        "personal presence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Affidavit evidence can be used in divorce by mutual consent.",
+      "held": "Such conclusion was arrived at by Their Lordships as Their Lordships were of the opinion that by virtue of Section 40 of the said Act, provision contained Order 19 of the Code of Civil Procedure which provides for proof of fact on affidavit evidence, is attracted as the application of Order 19 of the Code of Civil Procedure is not excluded either expressly or by necessary implication.",
+      "applicable_acts_sections": [
+        "Special Marriage Act — Section 40",
+        "Code of Civil Procedure"
+      ],
+      "cited_cases": [
+        "Annalie Prashad v. Ramesh Prashad"
+      ],
+      "keywords": [
+        "affidavit evidence",
+        "divorce by mutual consent"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order was that the parties' application for divorce by mutual consent was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Section 28(2)",
+    "Section 151",
+    "Special Marriage Act",
+    "Article 227",
+    "Constitution of India",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "separation",
+    "custody",
+    "property settlement",
+    "joint application",
+    "relaxation of six months restricted period"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a joint application for divorce",
+    "seeking relaxation of the six months restricted period",
+    "guidelines for filing a revisional application under Article 227"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:05:37.664712"
 }

@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sri Mahendra Nath Judicial Magistrate Ist District Bhadohi, Case No. 62 of 2001",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Indra Jeet Singh vs State Of U.P. & Another on 20 July, 2010",
+  "case_name": "Indra Jeet Singh vs State Of U.P. & Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Indra Jeet Singh (husband)",
+    "respondent_defendant": "State Of U.P. & Smt. Pramila Devi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife, Smt. Pramila Devi, filed an application under Section 125 Cr.P.C. for maintenance against the husband, Indra Jeet Singh. The trial court allowed the application and awarded maintenance to the wife and her minor child.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The revisional court cannot substitute its own finding in the finding of the trial court.",
+      "held": "It is not the subject of the revisional court to substitute its own finding in the finding of the trial court, if there is evidence adduced by the applicant which has been believed by the learned trial court then it is beyond the scope of the revisional court to interfere with the finding of the trial court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 125"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "revisional court",
+        "trial court",
+        "finding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The revisional court can interfere on the point of fact only on the ground of perversity.",
+      "held": "The revisional court can interfere on the point of fact only on the ground of perversity, if the conclusion drawn by the learned lower court is against the evidence on record, only then on the point of fact the court of revision can interfere.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 125"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "perversity",
+        "fact",
+        "evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The impugned order was challenged only on the ground of facts, not procedure or substantive law. The revisionist's arguments were rejected by the court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "maintenance",
+    "section 125 Cr.P.C.",
+    "divorce",
+    "family law",
+    "marriage",
+    "minor child",
+    "judgment",
+    "order",
+    "revision",
+    "criminal procedure",
+    "civil procedure",
+    "Indian Penal Code",
+    "IPC",
+    "Criminal Revision",
+    "Family Court",
+    "District Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for maintenance under section 125 Cr.P.C.",
+    "preparing a response to a petition for maintenance",
+    "advising on the grounds of revision in a family court case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:16:30.962798"
 }

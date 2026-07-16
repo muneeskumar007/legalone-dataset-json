@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T10:25:47.990055",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Bhavna Shamra vs Sri Sanjeev Sharma on 31 July, 2019",
+  "case_name": "Bhavna Shamra vs Sri Sanjeev Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Bhavna Sharma (wife, plaintiff)",
+    "respondent_defendant": "Sri Sanjeev Sharma (husband, defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -72,7 +72,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2007. The wife filed a suit under Section 12 of the Hindu Marriage Act, 1955 for declaring the marriage as void on the ground of impotency of the husband. The husband filed a separate suit under Section 9 of the Act for restitution of conjugal rights. Both suits were consolidated and dismissed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -82,39 +82,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Irretrievable breakdown between parties can be considered as a ground for divorce.",
+      "held": "In view of the settled law, I find that it is a case where ground of irretrievable breakdown between the parties is liable to be considered and thus, prayer for the relief of divorce can be considered by this Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Mental cruelty can be a ground for divorce.",
+      "held": "He, thus, submits that no purpose would be served by compelling the parties to live together in the matrimony.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Vinita Saxena Vs. Pankaj Pandit",
+        "Sukhendu Das vs. Rita Mukherjee",
+        "K. Srinivas Rao vs. D.A. Deepa"
+      ],
+      "keywords": [
+        "mental cruelty",
+        "divorce"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage was declared as null and void.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "impotency",
+    "void marriage",
+    "Section 12",
+    "marriage annulment",
+    "Indian Penal Code",
+    "Code of Criminal Procedure",
+    "family court",
+    "district court",
+    "High Court",
+    "Allahabad High Court",
+    "judicial separation",
+    "cruelty",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T20:43:16.119757"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:28:52.530903",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "employment",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dorisatti Dorisetti Sathynarayana vs The Singareni Collieries Company ... on 9 March, 2022",
+  "case_name": "Dorisatti Dorisetti Sathynarayana vs The Singareni Collieries Company",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dorisatti Dorisetti Sathynarayana (son's dependent employment)",
+    "respondent_defendant": "The Singareni Collieries Company (2nd and 4th respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "1st petitioner was a regular employee, medically invalidated; nominated 2nd petitioner for dependent employment; request rejected by 1st respondent on ground of being born to second wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Compassionate appointment is not founded merely on parentage or descent, for public employment must be consistent with equality of opportunity which Article 16 of the Constitution guarantees.",
+      "held": "The Hon'ble Supreme Court in V.R.Tripathi (1 supra), while dealing with the issue relating to provision of compassionate appointment to children of plural wife of deceased employee and the circular of the respondent therein stating that compassionate appointment cannot be granted to children born from second marriage of deceased employee, held as under:",
       "applicable_acts_sections": [
-        "TODO"
+        "Constitution — Article 16"
+      ],
+      "cited_cases": [
+        "V.R.Tripathi (1 supra)"
+      ],
+      "keywords": [
+        "compassionate appointment",
+        "equality of opportunity",
+        "Article 16"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "employment cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Legitimacy of a child born from a marriage which is null and void, is a matter of public policy so as to protect a child born from such a marriage from suffering the consequences of illegitimacy.",
+      "held": "Hence, though the marriage may be null and void, a child who is born from the marriage is nonetheless treated as legitimate by sub-section (1) of Section 16.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legitimacy",
+        "public policy",
+        "null and void marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "Writ Petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Court declared impugned proceedings null and void.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Writ Petition",
+    "Mandamus",
+    "dependent employment",
+    "medical invalidation",
+    "regular employee",
+    "petitioner's claim",
+    "counter-affidavit",
+    "Supreme Court decision",
+    "inaction",
+    "respondents",
+    "invalidated",
+    "employee benefits"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for dependent employment benefits",
+    "advising on employee rights in medical invalidation cases",
+    "assisting with divorce proceedings under Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:54:26.118149"
 }

@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:51:41.860486",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 3,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jagat Pal vs State Of U.P. & Others on 24 September, 2010",
+  "case_name": "Jagat Pal v. State Of U.P. & Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jagat Pal (son and dependent)",
+    "respondent_defendant": "State Of U.P. & Others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Father of the petitioner, Radhey Shyam, was a confirmed Class IV Employee who died in harness. The petitioner applied for appointment on compassionate ground under the U.P. Recruitment of Dependents of Government Servants Dying in Harness Rules 1974 but nothing was done.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,125 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A son delivers his father from the hell called PUT, he was therefore called PUT-TRA.",
+      "held": "Manu, IX, 137, 138; Vishnu, XV, 44, 46.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "son",
+        "father",
+        "PUT",
+        "PUT-TRA"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person by appointing another as heir to his property cannot confer on him the status of a son.",
+      "held": "Gaut. XXVIII, 32,33; Baudh II, 2, 3, 14-30;",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [
+        "Gurudit Singh v. Surjit Singh, (1950) Pepsu 56: 2 Pepsu LR 431."
+      ],
+      "keywords": [
+        "heir",
+        "son",
+        "property"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The aged mother and father, the chaste wife and an infant child must be maintained even by doing a hundred misdeeds.",
+      "held": "Manu, VIII, 389 with Medhatithi's comment on it;",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [
+        "Savitribai vs. Luximibai (1878) 2 Bom 573; Commr of Income-tax v. Lakshmipathi Saheba (1935) 14 Pat 313, 316; Bhoopathi Nath Vs. Basanta Kumari (1936) 63 Cal 1098, 1110."
+      ],
+      "keywords": [
+        "maintenance",
+        "aged parents",
+        "wife",
+        "minor children"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Where there may be no property but what has been self-acquired, the only person whose maintenance out of such property is imperative are aged parents, wife and minor children.",
+      "held": "Mitakshara lays down that;",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "self-acquired property",
+        "aged parents",
+        "wife",
+        "minor children"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The court directed the respondents to provide appointment to the petitioner within a specific period.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Succession Act",
+    "1956",
+    "Partition",
+    "Certiorari",
+    "U.P. Recruitment of Dependents of Government Servants Dying in Harness Rules",
+    "1974",
+    "Adoption Deed",
+    "Compassionate Appointment",
+    "Class IV Employee",
+    "Government Servant",
+    "Dependents",
+    "Harness",
+    "Rules 1974",
+    "Registered Adoption Deed",
+    "Writ Petition",
+    "Single Judge",
+    "High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for compassionate appointment",
+    "advising on Hindu succession and adoption law",
+    "assisting in a case involving government servants' dependents"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:38:27.343860"
 }

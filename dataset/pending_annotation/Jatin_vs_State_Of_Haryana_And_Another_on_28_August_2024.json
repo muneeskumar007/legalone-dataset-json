@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:52:03.641436",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "land_acquisition": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jatin vs State Of Haryana And Another on 28 August, 2024",
+  "case_name": "Jatin vs State Of Haryana And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jatin - husband",
+    "respondent_defendant": "State Of Haryana And Another - wife and state",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial discord between the petitioner and respondent No.2, FIR registered under Sections 323, 506, 34 of IPC, compromise recorded in proceedings under Section 13-B of Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,113 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power to quash criminal proceedings under Section 482 of the Code is to be exercised sparingly and with caution.",
+      "held": "No doubt, under Section 482 of the Code, the High Court has inherent power to quash the criminal proceedings even in those cases which are not compoundable, where the parties have settled the matter between themselves.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceedings",
+        "Section 482"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type 1"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The High Court should form an opinion on the ends of justice or to prevent abuse of the process of any court while exercising its power under Section 482.",
+      "held": "While exercising the power, the High Court is to form an opinion on either of the aforesaid two objectives.",
+      "applicable_acts_sections": [
+        "Indian Penal Code — Section 482"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "ends of justice",
+        "abuse of process"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type 1"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Criminal cases involving heinous and serious offences, such as murder, rape, dacoity, etc., should not be quashed merely on the basis of compromise between the victim and the offender.",
+      "held": "Such offences are not private in nature and have a serious impact on society. Similarly, for the offences alleged to have been committed under special statute like the Prevention of Corruption Act or the offences committed by public servants while working in that capacity are not to be quashed merely on the basis of compromise between the victim and the offender.",
+      "applicable_acts_sections": [
+        "Indian Penal Code — Section 307"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "heinous",
+        "serious",
+        "compromise"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type 2"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Criminal cases having overwhelmingly and predominantly civil character should be quashed when the parties have resolved their entire disputes among themselves.",
+      "held": "On the other hand, those criminal cases having overwhelmingly and predominantly civil character, particularly those arising out of commercial transactions or arising out of matrimonial relationships or family disputes should be quashed when the parties have resolved their entire disputes among themselves.",
+      "applicable_acts_sections": [
+        "Indian Penal Code — Section 320"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "civil",
+        "compromise"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type 1"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Quashing the FIR and all consequential proceedings arising therefrom.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "Indian Penal Code",
+    "Section 482 Cr.P.C.",
+    "FIR",
+    "Compromise/Joint Statement",
+    "Section 13-B Hindu Marriage Act",
+    "Quashing of FIR",
+    "Consequential proceedings",
+    "IPC Sections 323, 506, 34",
+    "Rohtak",
+    "Shivaji Colony",
+    "P.S. Shivaji Colony",
+    "Trial Court/Illaqa Magistrate"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing of FIR",
+    "advising on criminal proceedings under IPC",
+    "assisting in family law matters under Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:03:59.451162"
 }

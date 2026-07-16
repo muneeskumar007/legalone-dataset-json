@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jayalakshmi vs Krishna Padayachi on 4 September, 2002",
+  "case_name": "Jayalakshmi vs Krishna Padayachi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jayalakshmi (wife)",
+    "respondent_defendant": "Krishna Padayachi (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "A woman married a man when the earlier marriage had not been dissolved in accordance with law and the first wife was still living. She claimed maintenance under Section 18 of the Hindu Adoption and Maintenance Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,121 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person's claim of maintenance will accrue only if the second marriage was a valid one.",
+      "held": "It was held that the first wife's claim of maintenance will accrue only if the second marriage was a valid one.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Saraswathamma Vs. Bhadramma (AIR 1970 Mysore 157)"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "second marriage",
+        "validity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A woman can be given recognition either as the wife of a man or as his concubine, but there cannot be an intermediary clause.",
+      "held": "It was held that in law, a woman can be given recognition either as the wife of a man or as his concubine and that there cannot be an intermediary clause picturesquely described as an 'illegitimate wife'.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "A.P.K. Narayanaswamy Reddiar V. Padmanabhan (minor) and others (1966 (1) MLJ 529)"
+      ],
+      "keywords": [
+        "wife",
+        "concubine",
+        "intermediary clause"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "bigamy cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The expression 'wife' in Section 125 of the Code of Criminal Procedure means a legally wedded wife.",
+      "held": "It was held that the expression 'wife' in Section 125 of the Code of Criminal Procedure means a legally wedded wife.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "Smt. Yamunabai Anantrao Adhav V. Anantrao Shivram Adhav and another"
+      ],
+      "keywords": [
+        "legally wedded",
+        "Section 125"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A bigamous marriage is void ipso jure, that is, void from the very inception.",
+      "held": "It was held that in marriage of a woman with a man already having a living spouse as per Hindu rites is a complete nullity. The Supreme Court considered the provisions of Sections 11 and 12 of Hindu Marriage Act and held that while the cases covered by Section 12 are not void ab initio and such marriages continue to be effective unless the aggrieved party chooses to avoid it.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Smt. Yamunabai Anantrao Adhav V. Anantrao Shivram Adhav and another"
+      ],
+      "keywords": [
+        "bigamy",
+        "void ipso jure"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court held that a woman who marries a man when the earlier marriage has not been dissolved in accordance with law and the first wife is still living, is entitled to claim maintenance under Section 18 of the Hindu Adoption and Maintenance Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "divorce",
+    "maintenance",
+    "Section 18",
+    "Hindu Adoption and Maintenance Act",
+    "wife's maintenance",
+    "separate living",
+    "bigamy",
+    "polygamy",
+    "marriage validity",
+    "judicial separation",
+    " Hindu law",
+    "family law",
+    "Indian divorce laws"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for wife's maintenance",
+    "advising on grounds for judicial separation",
+    "assisting in a bigamy/polygamy case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:07:38.286543"
 }

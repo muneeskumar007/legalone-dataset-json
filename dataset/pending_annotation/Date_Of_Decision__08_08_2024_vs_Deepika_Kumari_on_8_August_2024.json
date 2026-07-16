@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:28:04.243802",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "Sandeep Sharma J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Cr.MA No.89-4/21",
   "reserved_on": "",
   "delivered_on": "31.10.2018",
-  "case_name": "Date Of Decision: 08.08.2024 vs Deepika Kumari on 8 August, 2024",
+  "case_name": "Cr. Revision No.634 of 2023",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rajneesh Kumar, husband",
+    "respondent_defendant": "Deepika Kumari, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner sought to challenge an order granting interim maintenance to respondent. Parties attempted amicable settlement but ultimately agreed to file joint petition for mutual divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "There is no requirement of 'cooling period' of six months in cases where marriage has broken beyond repair and there is no possibility of parties living together.",
+      "held": "This Court taking note of various judgments of Hon'ble Apex court has repeatedly held that there is no requirement of 'cooling period' of six months in the cases where marriage has broken beyond repair and there is no possibility of parties living together.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13B"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Bharti Kapoor v. Des Raj, CMPMO No. 271 of 2017, decided on 31.10.2018"
+      ],
       "keywords": [
-        "TODO"
+        "cooling period",
+        "marriage broken beyond repair",
+        "no possibility of parties living together"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where marriage has broken down"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The statutory period of six months as envisaged under Section 13B of the Act for grant of divorce by way of mutual consent can be waived when there is no possibility of rapprochement and marriage has broken beyond repair.",
+      "held": "Since both the parties are living separately for the last many years and they have been litigating with each other, statutory period of six months as envisaged under Section 13B of the Act for grant of divorce by way of mutual consent can be waived, especially when there is no possibility of rapprochement of the parties and marriage has broken beyond repair.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13B"
+      ],
+      "cited_cases": [
+        "Veena vs. State (Government of NCT of Delhi) and another, (2011)14 SCC 614",
+        "Priyanka Khanna v. Amit Khanna, (2011) 15 SCC 612"
+      ],
+      "keywords": [
+        "statutory period",
+        "six months",
+        "mutual consent",
+        "no possibility of rapprochement",
+        "marriage broken beyond repair"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases where marriage has broken down"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Parties agreed to file joint petition under Section 13-B of the Hindu Marriage Act, praying for dissolution of their marriage by way of mutual divorce. Petitioner to pay Rs.9,00,000/- towards permanent alimony.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "interim maintenance",
+    "Family Courts Act",
+    "Section 19(4)",
+    "Section 125 Cr.P.C.",
+    "Cr.MA No.89-4/21",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Cr.P.C.",
+    "Section 397/401",
+    "Family Court",
+    "Principal Judge",
+    "maintenance order",
+    "petitioner",
+    "respondent",
+    "interim relief"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "seeking interim maintenance orders",
+    "appealing against family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:16:37.585109"
 }

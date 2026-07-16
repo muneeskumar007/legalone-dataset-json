@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:30:38.568131",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gurpreet Singh vs Rubaljit Kaur on 24 May, 2019",
+  "case_name": "Gurpreet Singh vs Rubaljit Kaur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gurpreet Singh, husband",
+    "respondent_defendant": "Rubaljit Kaur, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-husband and respondent-wife filed a petition under Section 13-B of the Hindu Marriage Act, 1955 for decree of divorce by mutual consent. The trial court dismissed their petition. Both parties decided to dissolve their marriage by mutual consent during the pendency of the appeal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Waiver of statutory period is allowed when parties are still ready and willing to part ways by way of decree of divorce by mutual consent.",
+      "held": "Since, the petition is filed by both the parties for seeking decree of divorce by way of mutual consent and that both the parties are still ready and willing to part ways by way of decree of divorce by mutual consent, therefore, present application is allowed and the statutory period of six months under Section 13-B of the Act is hereby waived off.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "statutory period",
+        "waiver"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases with mutual consent"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties' agreement to dissolve marriage by mutual consent can be reduced into writing and taken on record.",
+      "held": "The parties have also entered into an agreement which was reduced into writing on 08.04.2019 (Annexure A-1) which bears the signatures of both the parties.",
+      "applicable_acts_sections": [
+        "Order 6 Rule 17 read with Section 151 of CPC"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "agreement",
+        "mutual consent",
+        "reduced into writing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases involving agreements"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The statutory period of six months under Section 13-B of the Act was waived off, and the main appeal was taken on board today itself.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "pre-ponement of hearing",
+    "waiver of mandatory period",
+    "six months",
+    "decree of divorce",
+    "petition",
+    "appeal",
+    "family court",
+    "Punjab and Haryana High Court",
+    "Chandigarh",
+    "Gurpreet Singh",
+    "Rubaljit Kaur"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce by mutual consent",
+    "seeking pre-ponement of hearing in a family court",
+    "waiving the mandatory period for grant of decree of divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:38:18.088697"
 }

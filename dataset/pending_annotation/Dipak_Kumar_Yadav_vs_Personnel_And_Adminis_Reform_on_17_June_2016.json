@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:28:47.676319",
   "domain": "will_succession",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dipak Kumar Yadav vs Personnel And Adminis Reform on 17 June, 2016",
+  "case_name": "Dipak Kumar Yadav vs Personnel And Adminis Reform",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dipak Kumar Yadav, son of Late Vishwaranjan Yadav",
+    "respondent_defendant": "State of Jharkhand through Secretary, Personnel and Administrative Reforms Department, Government of Jharkhand, Deputy Commissioner, Singhbhum East, Deputy Collector(Establishment) Singhbhum East, Civil Surgeon-cum-Chief Medical Officer, Singhbhum East",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's father died in harness. Petitioner claimed appointment on compassionate ground. Application was forwarded to Deputy Commissioner, East Singhbhum for consideration. Case was placed before District Compassionate Appointed Committee but ultimately rejected.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Children born out of a void marriage are legitimate",
+      "held": "Section 16(1) of the Hindu Marriage Act provides that notwithstanding a marriage is null and void, any child of such marriage who would have been legitimate if the marriage had been valid, shall be legitimate.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "legitimate children"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Illegitimate children are natural sons born out of a marriage",
+      "held": "The illegitimate son is also a natural son born out of the marriage which may be void.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Parayankandiyal Eravath Kanapravan Ka"
+      ],
+      "keywords": [
+        "illegitimate children",
+        "natural sons"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner's claim for appointment on compassionate ground has been turned down by the State.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "succession",
+    "will",
+    "appointment",
+    "compassionate ground",
+    "State Government",
+    "employee",
+    "death in harness",
+    "surveillance worker",
+    "Primary Health Centre",
+    "Baharagora",
+    "Singhbhum East",
+    "Health and Family Welfare",
+    "Department",
+    "Government of Jharkhand",
+    "Personnel and Administrative Reforms Department",
+    "Nepal House",
+    "Doranda",
+    "Ranchi",
+    "Deputy Commissioner",
+    "Singhbhum East",
+    "Sadar",
+    "Dist-Singhbhum East",
+    "Civil Surgeon-cum-Chief Medical Officer",
+    "Jamshedpur",
+    "P.O. & P.S. Sadar",
+    "Dist-Singhbhum East"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for appointment on compassionate ground",
+    "advising clients on succession and will matters",
+    "assisting in drafting a reply to an order rejecting a claim"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:46:37.617026"
 }

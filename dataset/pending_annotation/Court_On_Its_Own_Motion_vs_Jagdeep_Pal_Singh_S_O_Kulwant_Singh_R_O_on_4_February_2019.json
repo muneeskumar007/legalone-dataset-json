@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:27:48.106231",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Court On Its Own Motion vs Jagdeep Pal Singh S/O Kulwant Singh, R/O ... on 4 February, 2019",
+  "case_name": "Court On Its Own Motion vs Jagdeep Pal Singh S/O Kulwant Singh, R/O ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Court On Its Own Motion (Petitioner)",
+    "respondent_defendant": "Jagdeep Pal Singh (Respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent-husband re-married during pendency of the appeal filed by the appellant-wife. The wife had already filed the appeal within limitation.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party to a dissolved marriage cannot marry again if an appeal has been filed within the period of limitation.",
+      "held": "In view of the provisions of Section 15, it was not lawful for the respondent to re-marry.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 15"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "remarriage",
+        "appeal",
+        "limitation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Wilful disobedience to the other process of the Court occurs when a party obtains a decree and then enters into a second marriage in a hurried way, defeating the purpose of filing an appeal or nullifying the right of the losing spouse.",
+      "held": "Once there is a duty cast on the Court to make all endeavour to forge re- conciliation between the parties and if the party obtaining decree enters into second marriage in a hurried way displaying such a conduct which would defeat the purpose of filing first appeal or nullifying the right of the losing spouse then it would be covered by the expression 'wilful disobedience to other process of the Court'.",
+      "applicable_acts_sections": [
+        "Contempt of Courts Act"
+      ],
+      "cited_cases": [
+        "Court On Its Own Motion vs Jagdeep Pal Singh S/O Kulwant Singh, R/O ... on 4 February, 2019"
+      ],
+      "keywords": [
+        "contempt",
+        "wilful disobedience",
+        "appeal",
+        "conciliation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "contempt cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The compromise having fallen through, this Court proceeded to hear the contempt petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "contempt of court",
+    "civil contempt",
+    "unlawful marriage",
+    "pendency of appeal",
+    "Jasbir Kaur",
+    "suo moto notice",
+    "Division Bench",
+    "single judge",
+    "High Court",
+    "Punjab and Haryana",
+    "Chandigarh",
+    "oral judgment",
+    "Nirmaljit Kaur"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "contempt of court proceedings",
+    "appeals against divorce orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T22:01:07.070501"
 }

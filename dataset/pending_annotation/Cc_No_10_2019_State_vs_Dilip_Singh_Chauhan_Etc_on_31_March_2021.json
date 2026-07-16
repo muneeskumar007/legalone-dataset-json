@@ -7,7 +7,7 @@
   "total_pages": 87,
   "extracted_at": "2026-07-15T10:26:39.533272",
   "domain": "murder_criminal",
-  "sub_domain": "property_dispute",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -23,13 +23,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS. KIRAN BANSAL, Special Judge (PC Act) (ACB)−01, RADC, New Delhi",
   "reserved_on": "19.02.2021",
   "delivered_on": "31.03.2021",
-  "case_name": "Cc No.10/2019 State vs . Dilip Singh Chauhan Etc. on 31 March, 2021",
+  "case_name": "State vs. Dilip Singh Chauhan Etc.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "State (Govt. of NCT of Delhi)",
+    "respondent_defendant": "1. Dilip Singh Chauhan, S/o Late Jai Dayal Singh; 2. Sahashtra Bahu Yadav, S/o Sh. Mahender Singh",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complaint lodged by Naresh Gupta about his sister-in-law Neelam's admission in hospital and hiring of domestic help 'R', who later ran away and accused Naresh Gupta of gang rape.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,21 +76,41 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the investigating officer to ensure that the investigation is fair and unbiased.",
+      "held": "He denied the suggestion that he had not carried out the investigation fairly or that he has falsely implicated the accused persons under pressure and directions of senior officers.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "investigation",
+        "fairness",
+        "bias"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The investigating officer must verify the ownership of a vehicle before relying on documents related to it.",
+      "held": "Ownership of the car was verified from the transport authority and the papers provided by Transport Authority is Ex.PW31/A.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "vehicle ownership",
+        "document verification"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -100,15 +120,37 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Code of Criminal Procedure",
+    "Indian Evidence Act",
+    "rape",
+    "Prevention of Corruption Act",
+    "IPC",
+    "Judgment reserved",
+    "Judgment delivered",
+    "complaint",
+    "hospital",
+    "helper",
+    "orthopedic clinic",
+    "broken hipbone",
+    "sister-in-law",
+    "wife",
+    "brother",
+    "residence",
+    "accusations",
+    "respectable person's life"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint for rape",
+    "defending an accused in a murder case",
+    "preparing a judgment on a criminal matter"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:16:15.569597"
 }

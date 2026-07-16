@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:27:33.924939",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -21,13 +21,13 @@
   "case_numbers": [
     "O.P.No. 560 of 1987"
   ],
-  "trial_court": "",
+  "trial_court": "Subordinate Judge, Khammam (O.P.No. 560 of 1987)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chigurupati Sambasiva Rao vs Chigurupati Vijayalakshmi on 13 September, 1993",
+  "case_name": "Chigurupati Sambasiva Rao v. Chigurupati Vijayalakshmi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband",
+    "respondent_defendant": "wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed for divorce under Section 13(1)(ib) of the Hindu Marriage Act on grounds of desertion. The wife denied all allegations and left her husband's company multiple times without reasonable cause.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,123 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the petitioner to establish that the respondent deserted him without any reasonable cause and without his consent for not less than two years immediately preceding the presentation of the petition.",
+      "held": "When he failed to discharge such burden, the petition must fail.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13 (1) (ib)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "burden of proof",
+        "petitioner",
+        "respondent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The petitioner must adduce positive evidence to establish the fact that the respondent had left his company two years prior to filing of the petition.",
+      "held": "When he failed to discharge such burden, the petition must fail.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13 (1) (ib)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "positive evidence",
+        "desertion",
+        "petitioner",
+        "respondent"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The non-examination of any of the neighbours is one of the circumstances which goes against the petitioner.",
+      "held": "But, the petitioner did not choose to examine not even a single person who resides in the locality where the house of the petitioner is situated.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "neighbours",
+        "petitioner",
+        "circumstances"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The principle of burden of proof applies to the petitioner seeking a decree of divorce on the ground of desertion.",
+      "held": "When he failed to discharge such burden, the petition must fail.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13 (1) (ib)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden of proof",
+        "petitioner",
+        "desertion",
+        "divorce"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's order dismissing the petition for divorce was upheld, and the appeal was rejected.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "desertion",
+    "Section 13 (1) (ib)",
+    "consummation",
+    "family law",
+    "marriage",
+    "custody",
+    "alimony",
+    "matrimonial dispute",
+    "judicial separation",
+    "nullity of marriage",
+    "grounds for divorce",
+    "Hindu rites and custom",
+    "Postal Department",
+    "Vijayawada",
+    "Penamaluru",
+    "Bommaluru"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for judicial separation",
+    "advising on grounds for divorce",
+    "assisting in a matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:50:27.015621"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:29:45.881935",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gajendra S/O. Anil Singhvi And Ors vs The State Of Maharashtra on 6 July, 2021",
+  "case_name": "Gajendra S/O. Anil Singhvi And Ors vs The State Of Maharashtra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gajendra s/o Anil Singhvi & ors.",
+    "respondent_defendant": "The State of Maharashtra & anr.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage was solemnized between applicant no.1 Gajendra and respondent no.2 Gunjan. Since inception, marital life was afflicted with discord. Respondent no.2 alleged that applicants made unlawful demand of money and subjected her to cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle disputes through mutual consent.",
+      "held": "Respondent no.2 submitted before the court that she has voluntarily settled the dispute with the applicants out of her own volition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(B)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "settlement",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can agree to dissolve a marriage through mutual consent.",
+      "held": "Applicant no.1 and respondent no.2 have agreed to dissolve the marriage by mutual consent.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(B)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mutual consent",
+        "divorce",
+        "marriage dissolution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties have amicably resolved all disputes. Consent Terms have been filed, and a petition for divorce by mutual consent under Section 13(B) of the Hindu Marriage Act, 1955 has been filed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Protection of Women from DV Act",
+    "quash",
+    "Regular Criminal Case",
+    "DV Case",
+    "Judicial Magistrate",
+    "Thane",
+    "marriage",
+    "domestic violence",
+    "Section 482",
+    "Criminal Application",
+    "High Court",
+    "Bombay",
+    "Indian Penal Code",
+    "family law",
+    "criminal procedure"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing criminal cases",
+    "advising on domestic violence matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:45:43.054868"
 }

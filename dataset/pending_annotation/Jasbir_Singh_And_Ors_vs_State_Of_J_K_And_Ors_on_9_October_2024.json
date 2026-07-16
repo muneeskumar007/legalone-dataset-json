@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:51:57.675771",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "Mohd. Yousuf Wani J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "HIGH COURT OF JAMMU & KASHMIR AND LADAKH AT JAMMU CRM(M) No.622/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jasbir Singh And Ors vs State Of J&K And Ors on 9 October, 2024",
+  "case_name": "Jasbir Singh And Ors vs State Of J&K And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jasbir Singh and Ors (husband, wife, plaintiff)",
+    "respondent_defendant": "State of J&K and Ors (wife, husband, defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute between petitioners and respondent No.4; FIR registered against petitioners under Sections 498-A, 323, 406 & 34 RPC; petition for quashment of FIR filed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The quashment of FIR's and criminal proceedings can be allowed in exceptional circumstances for furthering the cause of justice, especially in cases where matrimonial disputes involving two families are amicably settled subsequent to registration of the FIR.",
+      "held": "Notwithstanding, the satisfaction of this Court to allow the instant petition in the backdrop of the settlement between the parties, it is needful to mention that in case the FIR's and the criminal cases culminating from the investigations are allowed to be quashed in a routine manner and at the wish of the complainants and/or accused, the criminal justice system is likely to become a causality and the society at large will have to bear the consequences.",
       "applicable_acts_sections": [
-        "TODO"
+        "Bharatiya Nagrik Suraksha Sanhita — Section 528"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashment",
+        "FIR",
+        "matrimonial disputes",
+        "amicable settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The powers of the court under Section 528 of Bharatiya Nagrik Suraksha Sanhita to quash FIR's and criminal proceedings are not restricted by the provisions of Section 345 of the Code corresponding to Section 320 of the Central Code (both repealed) and corresponding to Section 359 of the BNSS.",
+      "held": "The provisions of the Section 320 of the Code of 1973 corresponding to the Section 359 of the new Code i.e. Bharatiya Nagrik Suraksha Sanhita, 2023 do not restrict but limit and circumvent the powers of this Court under Section 482 of the Code corresponding to Section 528 of the BNSS regarding quashment of FIR's and criminal proceedings, for the sake of the society at large, which is the real beneficiary of the criminal justice delivery system.",
+      "applicable_acts_sections": [
+        "Bharatiya Nagrik Suraksha Sanhita — Section 528",
+        "Code of 1973 — Section 320"
+      ],
+      "cited_cases": [
+        "Gopakumar B. Nair Vs. CBI; (2014) 5 SCC 800"
+      ],
+      "keywords": [
+        "quashment",
+        "FIR",
+        "criminal proceedings",
+        "Section 528"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving matrimonial disputes",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR quashed as parties have compromised their matrimonial dispute and decided to dissolve their marriage.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "quashment",
+    "FIR",
+    "498-A",
+    "323",
+    "406",
+    "34",
+    "RPC",
+    "false complaint",
+    "frivolous complaint",
+    "harassment",
+    "intimidation",
+    "Indian Penal Code",
+    "Specific Relief Act",
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "Code of Criminal Procedure",
+    "ad interim order",
+    "interim order",
+    "final report",
+    "challan"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashment",
+    "responding to a false complaint",
+    "seeking interim relief in a criminal case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:56:36.134150"
 }

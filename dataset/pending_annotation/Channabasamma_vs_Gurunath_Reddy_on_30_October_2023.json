@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:27:23.198626",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -21,13 +21,13 @@
   "case_numbers": [
     "M.C.No.14/2023"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge, Lingsugur, M.C.No.14/2023",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Channabasamma vs Gurunath Reddy on 30 October, 2023",
+  "case_name": "Channabasamma vs Gurunath Reddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Channabasamma, W/O Gurunath Reddy, Public Relation Officer",
+    "respondent_defendant": "Gurunath Reddy, S/O Mudukangooda, Agriculturist",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed M.C.No.14/2023 seeking dissolution of marriage under Section 13(1)(ib) of the Hindu Marriage Act. She is facing inconvenience in attending the Court at Lingsugur due to her work and son's education.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A transfer of a case from one court to another can be allowed if the petitioner has made out any ground for such transfer.",
+      "held": "The following point would arise for my consideration: Whether the petitioner has made out any ground to allow the petition. My answer to the above point is 'Affirmative'.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
+      ],
+      "cited_cases": [
+        "Channabasamma vs Gurunath Reddy, (2023) X SCC Y"
+      ],
+      "keywords": [
+        "transfer of case",
+        "petitioner's ground",
+        "family court"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A petitioner seeking transfer of a case may rely on inconvenience caused to them in attending the court.",
+      "held": "She is facing inconvenience in attending the Court at Lingsugur.",
+      "applicable_acts_sections": [
+        "CPC — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "inconvenience",
+        "court attendance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "this petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition is allowed, case transferred from Lingsugur to Family Court at Bengaluru.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24",
+    "CPC",
+    "family court",
+    "Bengaluru",
+    "Lingsugur",
+    "transfer petition",
+    "withdrawal of petition",
+    "civil judge",
+    "PRL Judge",
+    "Family Court Bengaluru",
+    "marriage",
+    "spouse",
+    "public relation officer",
+    "agriculture",
+    "Karnataka High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition in family court",
+    "advising on withdrawal of divorce petition",
+    "preparing for a divorce case in Karnataka"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:41:30.585449"
 }

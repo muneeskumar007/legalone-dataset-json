@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:54:29.074241",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -25,13 +25,13 @@
     "MC.No.130 of 2007",
     "OP.No.31 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Tiruvannamalai, FCOP.No.64/2022",
   "reserved_on": "04.07.2022",
   "delivered_on": "22.07.2022",
-  "case_name": "K.Mohanarangan vs Nil on 22 July, 2022",
+  "case_name": "K.Mohanarangan vs Nil",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "K.Mohanarangan, Virudambigai @ Vishwa Priya (couples who presented petition for divorce by mutual consent)",
+    "respondent_defendant": "Nil (no respondent mentioned)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -43,7 +43,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Couples married in 2002; had a child; lived separately for 16 years; filed petition for divorce by mutual consent; trial court dismissed application to waive cooling period of 6 months.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court should consider the questions: i) How long parties have been married? ii) How long litigation is pending? iii) How long they have been staying apart? iv) Are there any other proceedings between the parties? v) Have the parties attended mediation/conciliation? vi) Have the parties arrived at genuine settlement which takes care of alimony, custody of child or any other pending issues between the parties?",
+      "held": "The Court must be satisfied that the parties were living separately for more than the statutory period and all efforts at mediation and reconciliation have been tried and have failed and there is no chance of reconciliation and further waiting period will only prolong their agony.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "K. Omprakash vs. K. Nalini, (Year) X SCC Y",
+        "Roopa Reddy vs. Prabhakar Reddy, (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "separation",
+        "litigation",
+        "conciliation",
+        "reconciliation",
+        "agony"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — to determine the court's discretion in waiving the waiting period",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court should consider the context, subject matter and object of the provision while determining whether a provision is mandatory or directory.",
+      "held": "In determining the question whether provision is mandatory or directory, language alone is not always decisive. The Court has to have regard to the context, the subject matter and the object of the provision.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Justice G.P. Singh’s “Principles of Statutory Interpretation” (9th Edn., 2004)"
+      ],
+      "keywords": [
+        "statutory interpretation",
+        "context",
+        "subject matter",
+        "object"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "statute interpretation cases"
+      ],
+      "significance": "MEDIUM — to guide the court's approach in interpreting statutes",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Cooling period waived, allowing couples to proceed with divorce by mutual consent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Sec.13(B)",
+    "Family Court",
+    "Tiruvannamalai",
+    "Indian Kanoon",
+    "I.A.",
+    "FCOP",
+    "Civil Revision Petition",
+    "Article 227",
+    "Constitution of India",
+    "Latin maxim: 'Justice must not only be done, but seen to be done'",
+    "cooling period",
+    "Sec.13(B)(2)(i)",
+    "petition for divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce by mutual consent",
+    "advising on the cooling period in a divorce case",
+    "appealing an order of the Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:43:56.066020"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:29:42.862766",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 3,
@@ -29,13 +29,13 @@
     "O.P.No.4810 of 2022",
     "W.A.No.1181 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "Subordinate Judge, Ranipet - O.P.No.6 of 2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "E.Revathi vs S.Sathish on 22 December, 2022",
+  "case_name": "E.Revathi vs S.Sathish",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "E.Revathi (wife)",
+    "respondent_defendant": "S.Sathish (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized on 12.04.2013. Two female children were born from the wedlock. The petitioner seeks to transfer the case to the III Additional Principal Family Court at Chennai.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,123 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Where the wife pleads lack of money, it has to be considered.",
+      "held": "The Hon'ble Supreme Court has held that where the petitioner's wife has pleaded lack of money, the same has to be considered.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 19"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Geeta Heera vs. Harish Chander Heera, (2000) 10 SCC 304"
+      ],
       "keywords": [
-        "TODO"
+        "wife's financial situation",
+        "petitioner's wife",
+        "lack of money"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where financial constraints are involved"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The intention of the Legislator is to safe-guard the interest and rights of women who are being subjected to harassment and cruelty.",
+      "held": "The intention of the Legislator is to safe-guard the interest and rights of the women, who are being subjected to harassment and cruelty.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 19"
+      ],
+      "cited_cases": [
+        "Lalita A.Ranga vs. Ajay Champalal Ranga, (2000) 9 SCC 355"
+      ],
+      "keywords": [
+        "women's rights",
+        "harassment",
+        "cruelty"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases involving domestic violence or harassment"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Courts will not allow the father to shift his responsibility of maintenance of the minor child.",
+      "held": "Even in the absence of any application, the Court will not allow the father to shift his responsibility of maintenance of the minor child.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 125"
+      ],
+      "cited_cases": [
+        "Archana Singh vs. Surendra Bahadur Singh, (2005) 12 SCC 395"
+      ],
+      "keywords": [
+        "minor child",
+        "maintenance",
+        "responsibility"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving child custody and maintenance"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The interest of the minor child is to be protected by the Courts.",
+      "held": "Whenever a minor child is with the custody of the unemployed mother, even in case if the mother is employed, the father is liable to maintain the minor child and the Courts will not allow the father to shift his responsibility of maintenance of the minor child.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 125"
+      ],
+      "cited_cases": [
+        "Archana Singh vs. Surendra Bahadur Singh, (2005) 12 SCC 395"
+      ],
+      "keywords": [
+        "minor child",
+        "custody",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving child custody and maintenance"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The transfer petition is filed to withdraw the case in O.P.No.6 of 2022 and tried along with O.P.No.4810 of 2022.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "transfer petition",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "matrimonial case",
+    "family court",
+    "subordinate judge",
+    "additional principal family court",
+    "Chennai",
+    "Ranipet",
+    "minor children",
+    "marriage solemnized",
+    "Hindu Rites and Customs",
+    "civil procedure code",
+    "section 24"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting transfer petition for divorce case",
+    "advising on jurisdictional issues in family court cases",
+    "assisting with matrimonial disputes involving minor children"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:29:30.370678"
 }

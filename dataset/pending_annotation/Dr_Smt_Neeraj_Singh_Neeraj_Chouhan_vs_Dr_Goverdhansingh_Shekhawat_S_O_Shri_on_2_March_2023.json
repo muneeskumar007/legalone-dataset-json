@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:29:25.695060",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Sameer Jain J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No. 1, Jodhpur",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr. Smt. Neeraj Singh @ Neeraj Chouhan ... vs Dr. Goverdhansingh Shekhawat S/O Shri ... on 2 March, 2023",
+  "case_name": "Dr. Smt. Neeraj Singh @ Neeraj Chouhan vs Dr. Goverdhansingh Shekhawat S/O Shri ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. Smt. Neeraj Singh @ Neeraj Chouhan (wife)",
+    "respondent_defendant": "Dr. Goverdhansingh Shekhawat S/o Shri Tejsingh Shekhawat (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial disputes; applicant-wife seeks transfer of case from Family Court, Jodhpur to Family Court, Jaipur due to distance and lack of support.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,98 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may transfer a case to a more convenient forum.",
+      "held": "Considering the provisions of Section 19 of the Hindu Marriage Act, 1955 and relying upon Hon'ble Apex Court judgments...",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 19"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "N.C.V. Aishwarya Vs. A.S. Saravana Karthik Sha: Civil Appeal No.4894/2022",
+        "Sumita Singh Vs. Kumar Sanjay & Ors.: AIR 2002 SC 396",
+        "Rajni Kishor Pardeshi Vs. Kishor Babulal Pardeshi: (2005) 12 SCC 237",
+        "Vaishali Shridhar Jagtap Vs. Shridhar Vishwanath Jagtap: AIR 2016 SC 3584"
+      ],
       "keywords": [
-        "TODO"
+        "convenient forum",
+        "transfer of case",
+        "Hindu Marriage Act",
+        "Section 19"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family court proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The applicant's residence and marriage location can be relevant factors in determining a more convenient forum.",
+      "held": "Considering the contentions putforth hereinabove and considering the fact that the applicant is presently residing at her parental home in Jaipur;",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya Vs. A.S. Saravana Karthik Sha: Civil Appeal No.4894/2022",
+        "Sumita Singh Vs. Kumar Sanjay & Ors.: AIR 2002 SC 396",
+        "Rajni Kishor Pardeshi Vs. Kishor Babulal Pardeshi: (2005) 12 SCC 237",
+        "Vaishali Shridhar Jagtap Vs. Shridhar Vishwanath Jagtap: AIR 2016 SC 3584"
+      ],
+      "keywords": [
+        "residence",
+        "marriage location",
+        "convenient forum"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family court proceedings"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Transfer of case granted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial disputes",
+    "Section 24 Code of Civil Procedure",
+    "Harish Uppal vs Union of India",
+    "time bound manner",
+    "lawyers' strike",
+    "final disposal",
+    "pleadings",
+    "service complete",
+    "transfer application",
+    "civil transfer application",
+    "RJJP",
+    "Jaipur",
+    "High Court of Judicature for Rajasthan",
+    "Bench at Jaipur",
+    "S.B. Civil Transfer Application",
+    "Vaishali Nagar",
+    "Queens Road",
+    "Moti Nagar",
+    "Hanuwant-A",
+    "Bjs Paota C Road",
+    "Jodhpur"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on transfer of civil cases",
+    "handling matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:21:11.789336"
 }

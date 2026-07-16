@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:26:06.785268",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "domestic_violence": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "25.11.2024",
-  "case_name": "Brijendra Singh vs State Of Himachal Pradesh on 25 November, 2024",
+  "case_name": "Brijendra Singh vs State Of Himachal Pradesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Brijendra Singh (husband)",
+    "respondent_defendant": "State of Himachal Pradesh",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant, Brijendra Singh, has filed an application under Section 482 of the Bharatiya Nagarik Suraksha Sanhita, 2023. He is apprehending his arrest in FIR No.36 of 2024 registered under Sections 67 and 351(2) of the Bharatiya Nayaya Sanhita, 2023. The applicant has moved a petition for restitution of Conjugal Rights, which was allowed on 2.7.2024.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove that he has co-operated with the investigation.",
+      "held": "In pursuance of the said interim protection, the applicant has joined the investigation on 23.11.2024.",
       "applicable_acts_sections": [
-        "TODO"
+        "BNSS"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "investigation",
+        "cooperation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The role allegedly played by the applicant in the commission of the alleged crime will be proved by the prosecution during the trial.",
+      "held": "The role allegedly played by the applicant, in the commission of the alleged crime, will be proved, by the prosecution, during the trial.",
+      "applicable_acts_sections": [
+        "BNSS"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "prosecution",
+        "trial"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is not mentioned in the provided judgment excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "Section 482",
+    "Section 67",
+    "Section 351",
+    "arrest",
+    "bail",
+    "FIR No.36",
+    "Women Police Station",
+    "Una District",
+    "H.P.",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail application",
+    "advising on arrest and release",
+    "representing client in divorce case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:05:19.058347"
 }

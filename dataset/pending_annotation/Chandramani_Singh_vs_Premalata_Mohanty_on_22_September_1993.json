@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:27:15.115098",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Subordinate Judge, Jagatsinghpur",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chandramani Singh vs Premalata Mohanty on 22 September, 1993",
+  "case_name": "Chandramani Singh vs Premalata Mohanty",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chandramani Singh (husband)",
+    "respondent_defendant": "Premalata Mohanty (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Husband initiated a proceeding against wife in the Court of Subordinate Judge, Jagatsinghpur under Sec. 13 of the Hindu Marriage Act, 1955. Interim maintenance and litigation expenses were granted. Wife filed an application to direct husband to pay arrear litigation expenses.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,116 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An appeal against an order under Chapter IX of the Code of Criminal Procedure, 1973 is not maintainable.",
+      "held": "Perusal of this provision makes it clear that appeal does not lie against an order under Chapter IX, CrPC or any interlocutory order.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Chapter IX"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appeal",
+        "Chapter IX",
+        "interlocutory order"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "An order refusing interim maintenance or litigation expenses is not an interlocutory order.",
+      "held": "Refusal to grant interim maintenance or litigation expenses is applicable under v. 19 of the Act but grant of lesser quantum than prayed for or grant of interim maintenance or litigation expenses or orders for enforcement of the same being interlocutory orders, no appeal lies against such orders.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "litigation expenses",
+        "interlocutory order"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "An interlocutory order can be reconsidered by the same Court if moved and cogent reasons are given.",
+      "held": "Such orders are amenable for reconsideration by the same Court if moved and in case cogent reasons are given. Court has ample power to vary the orders since it is interlocutory in nature.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interlocutory order",
+        "reconsideration"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A Court cannot vary an order that is not interlocutory in nature.",
+      "held": "Where the order is not interlocutory, same Court cannot vary it as the same would amount to review if there is no power of review provided in the statute. Higher authorities if vested with power can set aside, modify or revise the order.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interlocutory order",
+        "order variation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Family Court directed husband to pay arrear litigation expenses at the rate of Rs. 100/- per month as directed by the learned Subordinate Judge.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "family courts",
+    "maintenance",
+    "litigation expenses",
+    "arrear",
+    "Section 19",
+    "Section 13",
+    "Section 8(c)",
+    "Family Courts Rules",
+    "Stamp Reporter",
+    "Latin maxim",
+    "equitable relief",
+    "interim maintenance",
+    "subordinate judge",
+    "family court",
+    "appeal",
+    "revision"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for interim maintenance",
+    "guiding principles for family courts",
+    "strategies for appealing a family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:35:38.224061"
 }

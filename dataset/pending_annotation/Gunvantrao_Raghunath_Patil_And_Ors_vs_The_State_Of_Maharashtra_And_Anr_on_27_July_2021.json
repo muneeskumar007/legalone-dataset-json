@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:30:36.164633",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gunvantrao Raghunath Patil And Ors vs The State Of Maharashtra And Anr on 27 July, 2021",
+  "case_name": "Gunvantrao Raghunath Patil And Ors vs The State Of Maharashtra And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gunvantrao Raghunath Patil and others (husband, wife, relatives)",
+    "respondent_defendant": "The State of Maharashtra and Jagruti Gunvantrao Patil (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized in 2011. The dispute has been amicably resolved and a decree of divorce has been executed on December 20, 2012.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Continuation of prosecution in the face of an amicable settlement between parties would amount to abuse of process of law.",
+      "held": "In view of the settlement arrived at between the parties, the likelihood of the prosecution ending in a conviction is very remote and bleak. Continuation of prosecution, in such circumstances, would amount to abuse of the process of the Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "abuse of process",
+        "prosecution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's decision to settle a dispute and resolve the matter amicably should be respected by the court.",
+      "held": "The Respondent No.2 - the First Informant admits that in pursuance of the settlement between the parties, the marriage has also been dissolved by decree of divorce passed in the month of January 2021.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "amicable resolution",
+        "party's decision",
+        "settlement"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The FIR registered with Sangvi Police Station, Pune for the offences punishable under Sections 498-A, 323, 504, 506, 506(2) r/w Section 34 of the Indian Penal Code is quashed and set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Specific Relief Act",
+    "marriage",
+    "spouse",
+    "property",
+    "maintenance",
+    "alimony",
+    "custody",
+    "child",
+    "parent",
+    "family",
+    "matrimonial",
+    "rights",
+    "duties",
+    "joint family",
+    "separation",
+    "annulment",
+    "nullity"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "assisting with child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:34:19.745203"
 }

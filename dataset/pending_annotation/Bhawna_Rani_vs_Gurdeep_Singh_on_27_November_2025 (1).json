@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:25:49.042360",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -21,13 +21,13 @@
     "Alka Sarin J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Yamunanagar (FAO-1935-2020)",
   "reserved_on": "07.11.2025",
   "delivered_on": "27.11.2025",
-  "case_name": "Bhawna Rani vs Gurdeep Singh on 27 November, 2025",
+  "case_name": "Bhawna Rani vs Gurdeep Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Bhawna Rani, wife",
+    "respondent_defendant": "Gurdeep Singh, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of Bhawna Rani and Gurdeep Singh was solemnized in 2012. A female child was born out of the wedlock. Gurdeep Singh filed a petition for divorce under Section 13 of the Hindu Marriage Act, 1955. The Family Court granted a decree of divorce on March 2, 2020. Bhawna Rani appealed against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Performance of a marriage after filing an appeal does not amount to willful disobedience to the other process of the Court.",
+      "held": "The principles governing contempt jurisdiction do not require that disobedience of the 'other process of the Court' is required to be proved beyond reasonable doubt.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section X"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Jasbir Kaur vs. Kuljit Singh, (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "contempt jurisdiction",
+        "appeal",
+        "marriage",
+        "willful disobedience"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The right of appeal is a substantive right granted to the losing spouse by Section 28 of the Hindu Marriage Act, 1955.",
+      "held": "This right is presumed to be known to the holder of a decree of divorce.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 28"
+      ],
+      "cited_cases": [
+        "Jasbir Kaur vs. Kuljit Singh, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "appeal",
+        "substantive right",
+        "divorce decree"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law disputes",
+        "divorce appeals"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the order dated August 13, 2020 passed by the Division Bench of this Court is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Contempt of Courts Act",
+    "1971",
+    "Section 12",
+    "Section 13",
+    "divorce",
+    "marriage",
+    "family court",
+    "Yamunanagar",
+    "Jagadhri",
+    "Bilaspur",
+    "District Yamunanagar",
+    "contempt petition",
+    "willful disobedience",
+    "intentional disobedience"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on contempt of court proceedings",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T20:44:15.556450"
 }

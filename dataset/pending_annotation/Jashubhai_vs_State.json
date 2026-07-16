@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:51:57.931201",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -25,8 +25,8 @@
   "delivered_on": "",
   "case_name": "Jashubhai vs State",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jashubhai, father-in-law, mother-in-law, brother-in-law, uncle-in-law and wife of brother-in-law",
+    "respondent_defendant": "State of Gujarat",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage took place in 1997. Two children were born. Husband suffered serious ailments. Complainant left for UK in 2009. Customary divorce was signed in 2010. Son died on 24.01.2010.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party seeking to set aside a document to prove that it was obtained by fraud, coercion, or undue influence.",
+      "held": "Considering the nature of dispute between the widow-respondent No.2 and her in-laws and deed of customary divorce, prima facie it appears that the respondent No.2-complainant-widow had raised specific objection",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Jashubhai vs State"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "customary divorce",
+        "duress",
+        "coercion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot claim relief by creating a document that is not acceptable to them and then seek to set it aside.",
+      "held": "The complainant also signed the customary divorce deed on 29.01.2010 with specific note that she had signed under compulsion and duress of her in-laws",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Jashubhai vs State"
+      ],
+      "keywords": [
+        "customary divorce",
+        "duress",
+        "compulsion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner's prayer to quash and set aside criminal complaint is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 498",
+    "Indian Penal Code",
+    "IPC",
+    "quash",
+    "set aside",
+    "criminal complaint",
+    "Mahila Police Station",
+    "Sabarkantha",
+    "Himmatnagar",
+    "family law",
+    "marriage",
+    "relatives-in-law",
+    "brother-in-law",
+    "wife",
+    "mother-in-law",
+    "father-in-law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing criminal complaints",
+    "defending family members in court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:57:23.558568"
 }

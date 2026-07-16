@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:28:44.139249",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "murder",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "Ashutosh Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "5th Addl. District & Sessions Judge, Saran at Chapra in Sessions Trial No. 100 of 2006",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dinanath Tiwari & Ors vs The State Of Bihar on 8 May, 2018",
+  "case_name": "Dinanath Tiwari & Ors vs The State Of Bihar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dinanath Tiwari, Kamla Devi, Ravi Kant Tiwari, Hari Bans Tiwari (husband, wife, sons)",
+    "respondent_defendant": "The State of Bihar",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellants stand convicted for the offences punishable under Sections 498(A)/34, 304(B)/34 and 201/34 of the Indian Penal Code. They killed Soni Devi, wife of appellant No. 4/Hari Bans Tiwari, for non-fulfilment of dowry demand.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the prosecution to prove its case.",
+      "held": "Assuming but not admitting that such statement was made six months ago, the case would not fall within the category of dowry death as the deceased cannot be said to have been tortured soon before her death.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 304(B)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "dowry",
+        "torture",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The law requires evidence to support the prosecution's version.",
+      "held": "Evidence, it has been suggested, has come during the course of the trial that there was no telephone in the matrimonial home of the deceased and no letter, intimating such ill-treatment and torture, was ever brought on record.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "prosecution's version"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Appellants sentenced to undergo rigorous imprisonment for 3 years each for the offences under Sections 498(A)/34 and 201/34, and to pay a fine of Rs. 2,000/- for each of the offences.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "IPC",
+    "498A",
+    "304B",
+    "201",
+    "Indian Penal Code",
+    "Sessions Trial",
+    "Rigorous Imprisonment",
+    "Criminal Appeal",
+    "High Court",
+    "Patna High Court",
+    "Sessions Judge",
+    "Saran",
+    "Chapra",
+    "Janta Bazar",
+    "Kateya",
+    "Vill",
+    "P.S.",
+    "District",
+    "State of Bihar"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce cases",
+    "appealing criminal convictions",
+    "understanding Indian Penal Code sections"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:41:33.015199"
 }

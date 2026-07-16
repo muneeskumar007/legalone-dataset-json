@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:51:47.062156",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -22,13 +22,13 @@
     "Sangita Dhingra Sehgal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court in HMA Case No. 788/2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jag Parvesh Singh vs Manjeet Kaur on 15 December, 2015",
+  "case_name": "Jag Parvesh Singh vs Manjeet Kaur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jag Parvesh Singh, husband",
+    "respondent_defendant": "Manjeet Kaur, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnised on 16.05.2004. The respondent joined her matrimonial home at Rampura, Delhi. Due to temperamental differences and estrangement, they started living separately. The appellant preferred a petition under Section 13 (1) (i-a) of the Hindu Marriage Act on the ground of cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Procedural sin should never be the death of rights.",
+      "held": "The processual law so dominates in certain systems as to overpower substantive rights and substantial justice. The humanist rule that procedure should be the handmaid, not the mistress, of legal justice compels consideration of vesting a residuary power in Judges to act ex debito justitiaie where the tragic sequel otherwise would be wholly inequitable.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Kumar Sen Vs. State of Bihar : AIR 1975 SC 1185"
+      ],
       "keywords": [
-        "TODO"
+        "procedure",
+        "substantive rights",
+        "justice",
+        "equity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The ultimate guardian of justice should be the Judge.",
+      "held": "Parliament, I hope, will consider the wisdom of making the Judge the ultimate guardian of justice by a comprehensive, though guardedly worded, provision where the hindrance to rightful relief relates to infirmities, even serious, sounding in procedural law.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Kumar Sen Vs. State of Bihar : AIR 1975 SC 1185"
+      ],
+      "keywords": [
+        "justice",
+        "Judge",
+        "guardian"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned Ex-parte Judgment/Decree dated 16.07.2013 passed by the Family Court was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 19 Family Court Act",
+    "ex parte judgment",
+    "matrimonial dispute",
+    "estrangement",
+    "quarrelsome behavior",
+    "rented accommodation",
+    "separation",
+    "temperamental differences",
+    "Family Court",
+    "High Court of Delhi",
+    "HMA Case No. 788/2010",
+    "Section 13 Hindu Marriage Act",
+    "irretrievable breakdown",
+    "marriage solemnised",
+    "no issue born"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "appealing ex parte judgments"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:36:22.027698"
 }

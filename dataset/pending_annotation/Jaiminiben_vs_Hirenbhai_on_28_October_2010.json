@@ -23,13 +23,13 @@
     "Akil Kureshi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Ahmedabad (CRIMINAL Misc. Application No.1887/2003)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jaiminiben vs Hirenbhai on 28 October, 2010",
+  "case_name": "Jaiminiben vs Hirenbhai",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Wife, minor daughter",
+    "respondent_defendant": "Hirenbhai Rameshchandra Vyas & 1",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife and minor daughter challenged an order dated 31.1.2009 passed by the Family Court regarding maintenance under Section 125 of the Code of Criminal Procedure.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance payable under Section 125 of the Code of Criminal Procedure is for a different purpose than maintenance payable under Section 24 of the Hindu Marriage Act.",
+      "held": "It was observed that maintenance payable under Section 24 of Hindu Marriage Act and one under Section 125 of the Code of Criminal Procedure are for different purposes.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24",
+        "Code of Criminal Procedure, 1973 — Section 125"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Hansaben Rameshkumar Patani v. Rameshkumar Ratilal Patni & anr., (1992) 2 GLR 1404"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "different purposes"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The income of a wife should not be deducted from her maintenance if she is serving during her stay with the husband.",
+      "held": "The Magistrate while awarding maintenance under Section 125 of the Code of Criminal Procedure, had taken into consideration the fact that wife was serving during her stay with the husband and deducted such income from her maintenance.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 125"
+      ],
+      "cited_cases": [
+        "Pannaben Ramanlal Soni v. Jitendrakumar Chimanlal Soni and another, (1991) 1 GLH 616"
+      ],
+      "keywords": [
+        "income",
+        "maintenance",
+        "service"
+      ],
+      "favors": "wife",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petitioners' claim for maintenance was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "irretrievable breakdown",
+    "matrimonial dispute",
+    "grounds for divorce",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Section 27",
+    "Latin maxim: Actus non facit reum nisi mens sit rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce based on cruelty",
+    "advising clients on grounds for divorce under Hindu Marriage Act, 1955",
+    "preparing a case for divorce based on irretrievable breakdown of marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:47:52.846973"
 }

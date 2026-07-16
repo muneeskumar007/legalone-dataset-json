@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T10:27:11.594474",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "11.12.2023",
   "delivered_on": "13.04.2021",
-  "case_name": "Chanchal Rana vs State Of Himachal Pradesh& Others on 10 January, 2024",
+  "case_name": "Chanchal Rana vs State Of Himachal Pradesh& Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chanchal Rana, husband",
+    "respondent_defendant": "State Of Himachal Pradesh & Others, wife's parents-in-law and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Informant/wife married to Chanchal Rana in 2020. Wife's family spent more than their capacity to meet demands of husband's family. Husband left for job after 10 days of marriage. Wife's parents-in-law taunted her, demanding dowry and household expenses.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -89,39 +89,130 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power of quashing criminal proceedings should be exercised very sparingly and with circumspection, and only in the rarest of rare cases.",
+      "held": "Though there are no limits to the powers of the Court under Section 482 of the Code but the more the power, the more due care and caution is to be exercised in invoking these powers.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 482"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Amit Kapoor v. Ramesh Chander, (2012) 9 SCC 460"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceedings",
+        "rarest of rare cases"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — to prevent patent miscarriage of justice",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court should apply the test as to whether the uncontroverted allegations prima facie establish the offence or not.",
+      "held": "If the allegations are so patently absurd and inherently improbable that no prudent person can ever reach such a conclusion and where the basic ingredients of a criminal offence are not satisfied then the Court may interfere.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure"
+      ],
+      "cited_cases": [
+        "Amit Kapoor v. Ramesh Chander, (2012) 9 SCC 460"
+      ],
+      "keywords": [
+        "allegations",
+        "offence",
+        "prima facie"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases",
+        "quashing of charges"
+      ],
+      "significance": "MEDIUM — to ensure that the Court does not unduly interfere",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The High Court should not unduly interfere, and no meticulous examination of the evidence is needed for considering whether the case would end in conviction or not at the stage of framing of charge or quashing of charge.",
+      "held": "No meticulous examination of the evidence is needed for considering whether the case would end in conviction or not at the stage of framing of charge or quashing of charge.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure"
+      ],
+      "cited_cases": [
+        "Amit Kapoor v. Ramesh Chander, (2012) 9 SCC 460"
+      ],
+      "keywords": [
+        "High Court",
+        "undue interference",
+        "evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "quashing of charges",
+        "criminal cases"
+      ],
+      "significance": "MEDIUM — to prevent the High Court from unduly interfering",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Where there is an express legal bar enacted in any of the provisions of the Code or any specific law in force to the very initiation or institution and continuance of such criminal proceedings, such a bar is intended to provide specific protection to an accused.",
+      "held": "Where there is an express legal bar enacted in any of the provisions of the Code or any specific law in force to the very initiation or institution and continuance of such criminal proceedings, such a bar is intended to provide specific protection to an accused.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure"
+      ],
+      "cited_cases": [
+        "Amit Kapoor v. Ramesh Chander, (2012) 9 SCC 460"
+      ],
+      "keywords": [
+        "express legal bar",
+        "specific protection",
+        "accused"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "criminal cases",
+        "quashing of charges"
+      ],
+      "significance": "HIGH — to provide specific protection to an accused",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu rites and customs",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "Specific Relief Act",
+    "marriage",
+    "gifts",
+    "family members",
+    "mother-in-law",
+    "ornaments",
+    "petitioners",
+    "respondents",
+    "High Court",
+    "Judge",
+    "Advocate",
+    "Deputy Advocate General",
+    "Himachal Pradesh",
+    "Shimla"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family disputes",
+    "representing clients in High Court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:26:59.354312"
 }

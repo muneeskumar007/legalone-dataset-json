@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:29:01.040921",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -19,20 +19,20 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court at Bandra, Mumbai (Case No. not mentioned)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr. Bindu Devdutt Purohit vs Alka Purohit on 22 June, 2016",
+  "case_name": "Dr. Bindu Devdutt Purohit vs Alka Purohit",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. Bindu Devdutt Purohit, husband",
+    "respondent_defendant": "Ms. Alka Purohit, wife",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The Appellant husband has taken an exception to the judgment and decree dated 5 August 2010 passed by the Family Court at Bandra, Mumbai. The Appellant is the husband and the Respondent is the wife. An Application was made by the Appellant under section 25 of the Guardians and Wards Act for the custody of minor children.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -42,39 +42,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court will not grant custody to a parent who has failed to take care of the child's needs.",
+      "held": "Though the Respondent was under treatment of a Psychiatrist, on 2 July 2009 when she learnt that she had conceived for the third time, she stopped taking the medicines prescribed by the Psychiatrist from that day. As a result, she became aggressive.",
       "applicable_acts_sections": [
-        "TODO"
+        "HMA"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "custody",
+        "parental responsibility"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "child custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not consider a prayer for custody of a child that was not made in the original petition.",
+      "held": "The prayer for custody of the third child which has been made in the Appeal will have to be kept it out of consideration as no such prayer was made by the Appellant before the Family Court.",
+      "applicable_acts_sections": [
+        "HMA"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "custody",
+        "petition"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "child custody disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The learned Judge of the Family Court has dismissed the said Application.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "custody",
+    "family court",
+    "appeal",
+    "joint custody",
+    "shared parenting",
+    "parental rights",
+    "minor child",
+    "best interests of the child",
+    "Indian Kanoon",
+    "Family Court Appeal",
+    "Custody dispute",
+    "Matrimonial disputes",
+    "Divorce proceedings",
+    "Child welfare",
+    "Parenting plan",
+    "Joint decision making"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a custody appeal",
+    "advising on joint parenting arrangements",
+    "assisting in divorce proceedings involving minor children"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:03:53.497634"
 }

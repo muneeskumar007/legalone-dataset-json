@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:31:25.767623",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "domestic_violence": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "1st Additional Chief Judicial Magistrate, Dehradun, case no.729/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Hon'Ble R.C. Khulbe vs Chaudhary And Others\" Under Section 406 ... on 13 November, 2019",
+  "case_name": "Hon'Ble R.C. Khulbe vs Chaudhary And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Isha Singh (complainant)",
+    "respondent_defendant": "Arpit Chaudhary and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant filed a complaint under Section 406 IPC. After recording evidence, the trial court summoned the applicants. A compromise was reached between the parties.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When a compromise takes place between parties, the criminal proceedings can be quashed.",
+      "held": "Since, the compromise has taken place between the parties, and accordingly a joint petition under Section 13B of Hindu Marriage Act, 1958 has been moved by the parties before the Family Court, Roorkee",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "quashing",
+        "criminal proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A joint petition under Section 13B of Hindu Marriage Act, 1958 can be filed by parties after a compromise.",
+      "held": "Apart from that, as per the compromise, the parties have filed a divorce petition under Section 13B of Hindu Marriage Act, 1958",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1958 — Section 13B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "joint petition",
+        "compromise",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned summoning order and entire proceedings were quashed. The parties agreed to file a divorce petition under Section 13B of Hindu Marriage Act, 1958.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 406 IPC",
+    "quashing",
+    "summoning order",
+    "complaint case",
+    "Section 200 Cr.PC",
+    "Section 202 Cr.PC",
+    "Section 482 Cr.PC",
+    "criminal miscellaneous application",
+    "magistrate's order",
+    "IPC",
+    "CrPC",
+    "Dehradun",
+    "Raipur",
+    "District Court",
+    "Additional Chief Judicial Magistrate",
+    "complainant",
+    "respondent",
+    "divorce",
+    "marriage",
+    "family law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a quashing petition under Section 482 Cr.PC",
+    "preparing a complaint case under Section 406 IPC",
+    "advising on the summoning order of a magistrate"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:10:51.670813"
 }

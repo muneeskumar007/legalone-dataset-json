@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:26:03.353750",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "In Order To Bring Peace J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "S.D.J.M., Panposh, Rourkela (G.R. Case No.1257 of 2012)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Biswajit Rout And Others vs State Of Orissa And Another .... ... on 30 September, 2022",
+  "case_name": "Biswajit Rout And Others vs State Of Orissa And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Biswajit Rout and others (husband, wife, etc.)",
+    "respondent_defendant": "State of Orissa and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners filed a petition under Section 482 Cr.P.C. to quash criminal proceeding in G.R. Case No.1257 of 2012 arising out of Sector-7 Rourkela Mahila P.S. Case No.61 of 2012. The case was registered under Sections 498-A/506/34 of IPC and Section 4 of D.P. Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Criminal proceedings should be quashed in the interest of justice to bring peace and stability in the lives of parties.",
+      "held": "Considering the above facts and submissions of the learned counsel for the parties, regard being had to the interest of justice, it is just and proper that this criminal proceeding should be quashed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quash",
+        "interest of justice",
+        "peace",
+        "stability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Permanent alimony received by the opposite party is a relevant factor in considering whether to quash criminal proceedings.",
+      "held": "It is submitted that in view of such divorce between the parties, no fruitful purpose would be served in the continuation of the criminal proceeding which should be quashed.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "permanent alimony",
+        "quash",
+        "criminal proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The criminal proceeding is quashed in the interest of justice to bring peace and stability in the lives of the parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 482 Cr.P.C.",
+    "quashing of criminal proceeding",
+    "FIR",
+    "Sections 498-A/506/34 IPC",
+    "Section 4 D.P. Act",
+    "chargesheet",
+    "cognizance",
+    "dissolution of marriage",
+    "divorce",
+    "marriage between husband and wife",
+    "IPC",
+    "D.P. Act",
+    "Cr.P.C.",
+    "Criminal Procedure Code",
+    "Indian Penal Code",
+    "Domestic Violence Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing criminal proceeding",
+    "defending domestic violence case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T20:59:25.363949"
 }

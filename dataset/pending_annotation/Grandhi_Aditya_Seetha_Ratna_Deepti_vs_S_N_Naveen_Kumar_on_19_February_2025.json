@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:30:24.742541",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -25,13 +25,13 @@
     "M.C.No.47 of 2024",
     "S.R.No.9517 of 2024"
   ],
-  "trial_court": "",
+  "trial_court": "V Additional District Judge-cum-Family Court Judge, Tirupati, F.C.O.P.No.148 of 2024",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Grandhi Aditya Seetha Ratna Deepti vs S.N.Naveen Kumar on 19 February, 2025",
+  "case_name": "Grandhi Aditya Seetha Ratna Deepti vs S.N.Naveen Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Grandhi Aditya Seetha Ratna Deepti, wife",
+    "respondent_defendant": "S N Naveen Kumar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -70,7 +70,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the legally wedded wife of respondent who filed a petition under Section 24 of Code of Civil Procedure, seeking to withdraw F.C.O.P.No.148 of 2024 and transfer it to Senior Civil Judge, Tanuku.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -80,39 +80,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "If a wife does not have sufficient funds to visit the place where the divorce petition is filed by her husband, then the transfer petition filed by the wife may be allowed.",
+      "held": "Considering the fact that",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "GEETA HEERA Vs HARISH CHANDER HEERA (1)"
+      ],
       "keywords": [
-        "TODO"
+        "wife",
+        "husband",
+        "divorce",
+        "petition",
+        "transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The cardinal principles for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice are to be served.",
+      "held": "",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 24"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya Vs A.S.Saravana Karthik Sha (2)"
+      ],
+      "keywords": [
+        "justice",
+        "exercise of power",
+        "Section 24"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the petition and transferred the case to the Senior Civil Judge, Tanuku.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Protection of Women from DV Act",
+    "marriage",
+    "family court",
+    "trial",
+    "transfer",
+    "petition",
+    "wife",
+    "husband",
+    "Indian Penal Code",
+    "DV",
+    "domestic violence",
+    "Section 24",
+    "F.C.O.P",
+    "Senior Civil Judge",
+    "West Godavari District"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on family court proceedings",
+    "assisting with transfer of cases between courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:23:18.248407"
 }

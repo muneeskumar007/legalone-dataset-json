@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T10:30:14.359096",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 4,
     "cheque_bounce": 1,
@@ -29,13 +29,13 @@
     "O.S.NO.19/2014",
     "O.S.No.19/2014"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge and JMFC, Ron, O.S.No.19/2014",
   "reserved_on": "04.02.2020",
   "delivered_on": "",
-  "case_name": "Girijavva W/O Mallappa Hadapad vs Soubhagya W/O Muddesh Hadapad on 8 May, 2020",
+  "case_name": "Girijavva W/O Mallappa Hadapad vs Soubhagya W/O Muddesh Hadapad",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Girijavva, Manjunath, Kavita, Ravichandra (defendants)",
+    "respondent_defendant": "Soubhagya, Shivaleela (plaintiffs)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -86,7 +86,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are relatives of Mallappa Hadapad. The respondents/plaintiffs claimed declaration as absolute owners of certain properties and permanent injunction. The trial court partly decreed the suit.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -96,39 +96,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the defendants to prove the fact of marriage.",
+      "held": "But the defendants failed to prove the same. Exh.D20 the alleged wedding card relied upon by the defendants is inadmissible in law.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "proof",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "property cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The trial court's findings are binding and cannot be interfered with by the appellate court unless they are perverse or unreasonable.",
+      "held": "The impugned judgment and decree of the trial Court is based on the sound appreciation of the evidence and the legal position.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "trial court",
+        "findings",
+        "binding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeals",
+        "civil cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is partly allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal partly allowed",
+    "final_order": "The appeal is partly allowed, and the judgment and decree dated 04.08.2015 are modified.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Code of Civil Procedure",
+    "Negotiable Instruments Act",
+    "RFA",
+    "decree",
+    "injunction",
+    "declaration",
+    "family court",
+    "agriculture",
+    "barber",
+    "Gadag",
+    "Bagalkot",
+    "Bengaluru",
+    "Karnataka",
+    "High Court",
+    "Single Judge",
+    "Division Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition petitions",
+    "guiding principles for agricultural disputes",
+    "practical applications of Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:10:46.336714"
 }

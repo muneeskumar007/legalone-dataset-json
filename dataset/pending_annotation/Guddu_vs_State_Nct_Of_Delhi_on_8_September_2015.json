@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:30:26.280721",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "03.09.2015",
   "delivered_on": "08.09.2015",
-  "case_name": "Guddu vs State Nct Of Delhi on 8 September, 2015",
+  "case_name": "Guddu vs State Nct Of Delhi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Guddu (husband of the victim)",
+    "respondent_defendant": "State Nct Of Delhi",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The victim died in her matrimonial home. Appellant Guddu was convicted under Section 304-B and 498-A IPC. He was sentenced to RI for 10 years, fine of Rs.30,000/-, and SI for 6 months. Appellant Sudha was convicted under Section 498-A IPC and sentenced to RI for 3 years, fine of Rs.10,000/-, and SI for 9 months.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove how the death of the victim occurred within less than 6 months of the marriage at the matrimonial home.",
+      "held": "The burden under Section 304-B of the IPC has been shifted upon the accused and it is for the accused to have proved how the death of the victim occurred within less than 6 months of the marriage at the matrimonial home.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code, 1860 — Section 304-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "dowry",
+        "marriage",
+        "matrimonial home"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "murder cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The prosecution must prove that there was a demand in connection with dowry to establish an offence under Section 304-B of the IPC.",
+      "held": "it is incumbent upon the prosecution to have proved that there was a demand in connection with dowry which is wholly missing in this case.",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860 — Section 304-B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "dowry",
+        "demand"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "murder cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The court may invoke the presumption under Section 113-B of the Indian Evidence Act.",
+      "held": "Presumption under Section 113-B of the Indian Evidence Act has been rightly invoked by the trial Judge.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872 — Section 113-B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "presumption",
+        "evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving presumptions"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The sentences were to run concurrently for both the appellants.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "Section 304-B",
+    "Section 498-A",
+    "Indian Penal Code",
+    "Indian Evidence Act",
+    "High Court of Delhi",
+    "New Delhi",
+    "CRL.A.",
+    "Appellant",
+    "Respondent",
+    "Ms. Kusum Dhalla",
+    "Inspector Krishan Kumar",
+    "RI",
+    "SI",
+    "compensation",
+    "fine"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against conviction for murder or domestic violence",
+    "preparing response to criminal charges",
+    "advising client on legal options after conviction"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:26:18.836250"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:52:04.760894",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -25,13 +25,13 @@
     "M.A.No.15 of 2012",
     "O.P.No.65 of 2011"
   ],
-  "trial_court": "",
+  "trial_court": "Sessions Court, Nagapattinam in CMA No.15 of 2012",
   "reserved_on": "30.09.2021",
   "delivered_on": "22.11.2021",
-  "case_name": "Jayadeepa vs Janagarajan on 22 November, 2021",
+  "case_name": "Jayadeepa vs Janagarajan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jayadeepa (wife)",
+    "respondent_defendant": "Janagarajan (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife who got married in 2006. The husband filed for divorce alleging cruelty by the wife. The trial court granted the divorce. This is an appeal against that order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The appellate court must frame proper issues under Order XIV Rule 1 of the Civil Procedure Code.",
+      "held": "It is further grievance of the respondent/wife that the first appellate Court has not considered the essential factors of factum of separation and animus deserendi.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Order XIV Rule 1"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "issue framing",
+        "Order XIV Rule 1",
+        "Civil Procedure Code"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "appeal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court granting divorce must consider the essential factors of factum of separation and animus deserendi.",
+      "held": "Whether the appellate Court tested the facts for granting divorce under Section 13(1)(ib) of the Hindu Marriage Act 1955 by considering the essential factors of factum of separation and animus deserendi?",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "factum of separation",
+        "animus deserendi",
+        "divorce grounds"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order set aside the decree and judgment of the trial court and restored the original decree and judgment passed by the Principal Sub-Court, Mayiladuthurai.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Section 13(1)(1A)",
+    "CPC",
+    "Section 100",
+    "Sessions Court",
+    "Principal Subordinate Court",
+    "Mayiladuthurai",
+    "Nagapattinam",
+    "civil miscellaneous second appeal",
+    "judgment reserved",
+    "pronounced on",
+    "coram",
+    "HONOURABLE MRS.JUSTICE S.KANNAMMAL",
+    "C.M.S.A.No.5 of 2019",
+    "C.M.P.No.1497 of 2019",
+    "Jayadeepa vs Janagarajan"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "divorce judgment drafting",
+    "family law drafting"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:06:27.536774"
 }

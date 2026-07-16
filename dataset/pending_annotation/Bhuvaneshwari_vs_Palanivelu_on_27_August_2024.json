@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:25:59.310798",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 3,
@@ -26,13 +26,13 @@
     "O.P.No.19 of 2018",
     "O.P.No.19 of 2019"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Cuddalore, H.M.O.P.No.19 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Bhuvaneshwari vs Palanivelu on 27 August, 2024",
+  "case_name": "Bhuvaneshwari vs Palanivelu",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Bhuvaneshwari — wife",
+    "respondent_defendant": "Palanivelu — husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife filed for interim maintenance allowance under Section 24 of the Hindu Marriage Act, 1955. Trial court refused to grant relief. Wife separated from husband due to disputes and differences.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife is entitled to file an application seeking interim maintenance from the respondent/husband when she is unable to eke out a living for herself.",
+      "held": "Under Section 24 of the Hindu Marriage Act, 1955, when a wife is unable to eke out a living for herself, law entitles her to file an application seeking for interim maintenance from the respondent/husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "interim maintenance",
+        "wife's entitlement",
+        "Section 24"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A welfare legislation like Section 24 of the Hindu Marriage Act, 1955, should be interpreted in the light of its purposes and not stultified by technical pleas.",
+      "held": "Section 24 of the Hindu Marriage Act, 1955, being a welfare legislation, it requires to be interpreted in the light of the purposes for which the said provision has been brought about and the same can not be stultified by resorting to a technical plea like limitation and delay.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "welfare legislation",
+        "interpretation",
+        "technical pleas"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Civil revision petition allowed; trial court's order set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "interim maintenance",
+    "Hindu Marriage Act",
+    "Section 24",
+    "Family Court",
+    "Cuddalore",
+    "maintenance allowance",
+    "separation",
+    "disputes",
+    "differences",
+    "divorce petition",
+    "Section 13(1)(1-a)",
+    "Latin maxim: Nemo dat quod non habet",
+    "wife's rights",
+    "husband's rights",
+    "marriage settlement",
+    "property division"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on interim maintenance",
+    "representing clients in Family Court cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T20:53:02.779037"
 }

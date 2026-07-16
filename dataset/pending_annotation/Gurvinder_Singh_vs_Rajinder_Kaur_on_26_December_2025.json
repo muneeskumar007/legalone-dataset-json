@@ -7,7 +7,7 @@
   "total_pages": 37,
   "extracted_at": "2026-07-15T10:30:42.623645",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of District Judge -04, West District, Tis Hazari Courts, Delhi, Civil DJ No. 727/2024",
   "reserved_on": "12.12.2025",
   "delivered_on": "26.12.2025",
-  "case_name": "Gurvinder Singh vs Rajinder Kaur on 26 December, 2025",
+  "case_name": "Gurvinder Singh vs Rajinder Kaur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Gurvinder Singh, Plaintiff",
+    "respondent_defendant": "Late Ms. Rajinder Kaur, Through LR Mr. Jaspal Singh, and others (Defendants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The Plaintiff filed a suit for declaration of nullity with regard to the sale deed dated 30.07.2011 and for decree of permanent injunction with regard to suit property.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -97,39 +97,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Property possessed by a female Hindu is held by her as full owner thereof and not as a limited owner.",
+      "held": "Any property possessed by a female Hindu, whether acquired before or after the commencement of this Act, shall be held by her as full owner thereof and not as a limited owner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act — Section 14(1)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "female Hindu",
+        "property possession",
+        "full ownership"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Section 14(2) of the Hindu Succession Act applies only where a Hindu female acquires property for the first time as a grant without any pre-existing right under an instrument prescribing a restricted estate.",
+      "held": "The Hon'ble Supreme Court has held that Section 14(2) applies only where a Hindu female acquires property for the first time as a grant without any pre- existing right under an instrument prescribing a restricted estate.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act — Section 14(2)"
+      ],
+      "cited_cases": [
+        "Ranvir Dewan Vs. Rashmi Khanna: CA No.21784 of 2017"
+      ],
+      "keywords": [
+        "Section 14(2)",
+        "pre-existing right",
+        "restricted estate"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court declared the sale deed null and granted a permanent injunction with regard to the suit property.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Succession Act",
+    "Code of Civil Procedure",
+    "Specific Relief Act",
+    "Indian Evidence Act",
+    "family property",
+    "coparcenary",
+    "joint family",
+    " Hindu undivided family",
+    "HUF",
+    "property rights",
+    "inheritance",
+    "succession",
+    "partition suit",
+    "declaration",
+    "permanent injunction",
+    "family settlement",
+    "family arrangement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on family property disputes",
+    "negotiating a family settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:39:15.051995"
 }

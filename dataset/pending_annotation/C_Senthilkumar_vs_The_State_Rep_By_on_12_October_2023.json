@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:27:54.966160",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "land_acquisition": 1,
@@ -25,13 +25,13 @@
     "O.P.No.149 of 2016",
     "Cr.No.17 of 2018"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Mahila Court at Coimbatore, C.C.No.901 of 2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "C.Senthilkumar vs The State Rep.By on 12 October, 2023",
+  "case_name": "C.Senthilkumar vs The State Rep.By",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "C.Senthilkumar, C.Prema, Rukkumani, Ravi, R.Amutha, Nadarajan (husband/wife and others)",
+    "respondent_defendant": "The State rep.by The Inspector of Police, All Women Police Station, Perur, Coimbatore (government agency) and Asokadevi",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The case involves a complaint filed by the second respondent against the petitioners alleging harassment and dowry demands after her marriage to one of them. The trial court took cognizance for offences under Section 294(b), 498(A), 506(2) IPC and Section 4 of Tamilnadu Prohibition of Harassment of Women Act, 2002.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The knowledge of the first marriage and pendency of divorce petition is a ground to quash the proceedings.",
+      "held": "Further he submitted that mere pendency of the divorce petition filed by the 1st petitioner and the private complaint filed by the 2nd respondent cannot be considered by this court under section 482 of Cr.P.C. It can be only considered during the trial before the trial court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quash",
+        "proceedings",
+        "divorce petition",
+        "private complaint"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type: divorce"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The knowledge of the first marriage and pendency of divorce petition is a ground to nullify the subsequent marriage.",
+      "held": "Therefore, at the time of marriage between the 1st petitioner and the 2nd respondent on 01.06.2017, the 2nd respondent's 1st marriage was very much existing and as such marriage between the 1st petitioner and the 2nd respondent is null and void.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "first marriage",
+        "pendency of divorce petition",
+        "subsequent marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type: divorce"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is to quash the proceedings in C.C.No.901 of 2020.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "quash",
+    "Criminal Procedure Code",
+    "Section 482",
+    "Indian Penal Code",
+    "Section 294(b)",
+    "Section 498(A)",
+    "Section 506(2)",
+    "Tamilnadu Prohibition of Harassment of Women Act",
+    "2002",
+    "Additional Mahila Court",
+    "Coimbatore",
+    "Cognizance",
+    "Harassment",
+    "Women",
+    "Act",
+    "Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing criminal proceedings",
+    "representing clients in harassment cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:14:16.514347"
 }

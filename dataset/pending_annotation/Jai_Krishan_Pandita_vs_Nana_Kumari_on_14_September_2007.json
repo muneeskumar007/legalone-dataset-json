@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:51:52.262234",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge (Matrimonial Cases) Jammu",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jai Krishan Pandita vs Nana Kumari on 14 September, 2007",
+  "case_name": "Jai Krishan Pandita vs Nana Kumari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband, seeking dissolution of marriage by divorce decree",
+    "respondent_defendant": "wife, seeking return of 'Istri Dhan' and other gifted items",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner husband's petition for dissolution of marriage was pending when respondent wife filed an application to recover her 'Istri Dhan' and other gifted items. Petitioner absented from proceedings, and his petition was dismissed in default. Respondent's application continued, and the trial court directed petitioner to return the 'Istri Dhan'.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,95 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Pendency of proceedings contemplating passing of a 'Decree' under the Hindu Marriage Act is the sine qua non for exercise of jurisdiction under Section 33 of the Act.",
+      "held": "ake such provision in the decree demonstrates that pendency of proceedings contemplating passing of a 'Decree' under the Hindu Marriage Act is the sine qua non for exercise of jurisdiction under Section 33 of the Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 33"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "decree",
+        "Hindu Marriage Act",
+        "Section 33"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Dismissal of a spouse's petition seeking positive relief does not amount to a 'Decree' contemplated by Section 33 of the Hindu Marriage Act.",
+      "held": "Dismissal of a spouse's main petition seeking positive relief of restitution of conjugal rights, dissolution decree or decree for nullity of marriage would not thus amount to a 'decree' contemplated by Section 33 of the Act giving authority to the Matrimonial Court to deal with the property of the parties given at or about the time of the marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 33"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "dismissal",
+        "petition",
+        "Section 33"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Dismissal of a suit in default of appearance cannot be construed as a decree, much less a decree under the Act.",
+      "held": "Even the Code of Civil Procedure does not recognize the dismissal of a suit in default of appearance, as a decree and specifically excludes it from the definition of the decree as it appears in Section 2(2) of the Code of Civil Procedure.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 2(2)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "dismissal",
+        "appearance",
+        "Code of Civil Procedure"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order was set aside, and the matter was remanded back to the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Istri Dhan",
+    "gifted items",
+    "matrimonial disputes",
+    "default appearance",
+    "ex parte proceedings",
+    "family court",
+    "judicial separation",
+    "marriage dissolution",
+    "petition for divorce",
+    "property settlement",
+    "spousal rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on property settlement in matrimonial disputes",
+    "representing clients in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:45:13.875339"
 }

@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:27:23.820654",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Charanjit Kaur Nagi vs Govt. Of N.C.T. Of Delhi And Ors. on 9 October, 2007",
+  "case_name": "Charanjit Kaur Nagi vs Govt. Of N.C.T. Of Delhi And Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Charanjit Kaur Nagi — wife",
+    "respondent_defendant": "Govt. Of N.C.T. Of Delhi And Ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner claims to have got married with Shri Jaspal Singh on 21.4.1991. A son was born out of the wedlock on 9.2.1996. The petitioner applied for an immigration visa, but US Authorities asked her to produce a marriage certificate.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "State intervention is only as a facilitator in the absence of a mandate that all Hindu marriages are to be necessarily registered.",
+      "held": "Therefore, a conjoint reading of Section 8 and Rule 3 would imply that the intention was that whoever wanted to secure a certificate evidencing proof of his or her marriage, had to be facilitated the process in an appropriate and reasonable manner through rules.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 8"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "facilitator",
+        "mandate",
+        "registration",
+        "marriage",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The intention behind the Hindu Marriage Act is to facilitate the proof of Hindu marriages, not to mandate compulsory registration.",
+      "held": "Advisably it uses the expression 'facilitating the proof of Hindu marriages'. Advisably because there is no mandate that all marriages are to be registered compulsorily in terms of the Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 8"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "intention",
+        "mandate",
+        "registration",
+        "marriage",
+        "proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "marriage registration",
+    "unregistered marriage",
+    "immigration visa",
+    "green card",
+    "permanent resident status",
+    "US Authorities",
+    "Registry of Marriage",
+    "Section 7 Hindu Marriage Act",
+    "Section 12 Hindu Marriage Act",
+    "Section 13 Hindu Marriage Act",
+    "Section 16 Hindu Marriage Act",
+    "Section 17 Hindu Marriage Act",
+    "Section 18 Hindu Marriage Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on immigration law",
+    "assisting with marriage registration"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:43:05.176388"
 }

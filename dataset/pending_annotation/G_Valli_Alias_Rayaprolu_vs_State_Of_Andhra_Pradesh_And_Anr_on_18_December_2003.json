@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:30:53.606442",
   "domain": "partition",
-  "sub_domain": "custody",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 7,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "G. Valli Alias Rayaprolu vs State Of Andhra Pradesh And Anr. on 18 December, 2003",
+  "case_name": "G. Valli Alias Rayaprolu vs State Of Andhra Pradesh And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "G. Valli Alias Rayaprolu, major daughters of the declarant",
+    "respondent_defendant": "State Of Andhra Pradesh And Anr., declarant (surplus holder)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Declarant declared as surplus holder; daughters claimed share in property on par with sons due to Hindu Succession Act amendment; requested exclusion of their shares from holding.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Daughters are entitled to claim shares in the joint family property on par with brothers.",
+      "held": "The daughters are entitled to claim shares in the joint family property on par with the brothers.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act — Section 29A"
+      ],
+      "cited_cases": [
+        "Kum. Addalagadda Alivelamma v. Special Tahasildar, (1987) 2 APLJ (HC) 192"
+      ],
+      "keywords": [
+        "joint family property",
+        "coparcenary",
+        "Mitakshara law"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A family unit consisting of five members is entitled to one standard holding, and every member in excess of five is entitled to possess 1/5th of the standard holding.",
+      "held": "A family unit consisting of five members is entitled to one standard holding and every member in excess of five is entitled to possess 1/5th of the standard holding.",
+      "applicable_acts_sections": [
+        "Andhra Pradesh Land Reforms (Ceiling on Agricultural Holdings) Act — Section 4"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "family unit",
+        "standard holding",
+        "ceiling area"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land reform cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order passed by the Appellate Tribunal not accepted, and declarant declared as non-surplus holder.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Succession Act",
+    "partition",
+    "surplus holder",
+    "non surplus holder",
+    "daughters' share",
+    "sons' share",
+    "amendment 1986",
+    "Land Reforms Appellate Tribunal",
+    "L.R.A.",
+    "Revision Petitions",
+    "C.R.P.",
+    "West Godavari",
+    "Eluru",
+    "declarant",
+    "Valli",
+    "Saroja"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition agreements",
+    "advising on Hindu Succession Act implications",
+    "representing daughters in property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:40:24.197137"
 }

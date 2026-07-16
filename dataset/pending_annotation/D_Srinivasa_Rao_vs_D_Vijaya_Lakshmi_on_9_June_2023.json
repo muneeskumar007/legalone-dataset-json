@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:29:40.908703",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -26,13 +26,13 @@
   "case_numbers": [
     "O.P.No.1009 of\n2008"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Ranga Reddy District in O.P.No.1009 of 2008",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "D.Srinivasa Rao vs D.Vijaya Lakshmi on 9 June, 2023",
+  "case_name": "D.Srinivasa Rao vs D.Vijaya Lakshmi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband",
+    "respondent_defendant": "wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent were married in 1990. Respondent insisted on separate living, but petitioner refused. Respondent would frequently visit her parents' house without informing the petitioner. She never took responsibility for their two daughters. Petitioner filed a petition for divorce citing cruelty and desertion.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the petitioner to establish the grounds of cruelty and desertion.",
+      "held": "The conduct of the Petitioner was not free from doubt and he was not entitled to seek divorce as prayed by him.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "desertion",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court should not base its findings on surmises which are not borne out by record.",
+      "held": "The reasons and findings of the Family Court were based on surmises which were not borne out by record, as such, unsustainable",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "findings",
+        "record",
+        "surmises"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's order dismissing the petition for divorce was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "desertion",
+    "Sections 13(1)(ia)",
+    "Sections 13(1)(ib)",
+    "Family Court",
+    "Ranga Reddy District",
+    "petition for divorce",
+    "separate living",
+    "sole male member",
+    "family law",
+    "marriage",
+    "Hindu rites and customs",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on grounds of divorce",
+    "assisting with family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:08:10.712102"
 }

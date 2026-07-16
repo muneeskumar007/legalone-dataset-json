@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:31:16.271915",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "land_acquisition": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Harsh Gaurav Saxena vs State Of Karnataka on 4 December, 2023",
+  "case_name": "Harsh Gaurav Saxena vs State Of Karnataka",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "HARSH GAURAV SAXENA, aged about 39 years, S/O LATE AJAY PRAKASH",
+    "respondent_defendant": "STATE OF KARNATAKA, REP BY ITS STATE PUBLIC PROSECUTOR, HIGH COURT COMPLEX, BENGALURU-560 001",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks to quash charge sheet filed in C.C.NO.32667/2021 for alleged offence under Sections 498A, 377, 354, 354(A), 323, 504, 506 R/W 34 of IPC and Sections 3 and 4 of D.P Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to quash the proceedings to demonstrate that the continuation of the same would cause irreparable harm.",
+      "held": "The petitioners are sought to be prosecuted for the offences punishable under Sections 498(A), 377, 354, 354(A), 323, 504, 506 read with Section 34 of IPC and Sections 3, 4 of D P Act. The burden lies on the party seeking to quash the proceedings to demonstrate that the continuation of the same would cause irreparable harm.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "irreparable harm"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A memorandum of settlement under Section 89 of CPC read with Rules 24 and 25 of the Karnataka Civil Procedure (Mediation) Rules, 2005 can be used to quash criminal proceedings.",
+      "held": "The petitioner in Crl.P No.6389/2023 has annexed the memorandum of settlement under Section 89 of CPC read with Rules 24 and 25 of the Karnataka Civil Procedure (Mediation) Rules, 2005.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 482",
+        "CPC — Section 89"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "memorandum of settlement",
+        "quashing"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "criminal proceedings"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Specific Relief Act",
+    "CRL.P",
+    "C/W",
+    "High Court of Karnataka",
+    "Bangalore",
+    "Karnataka",
+    "domestic violence",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property settlement",
+    "joint family",
+    "separation",
+    "annulment",
+    "nullity"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in domestic violence cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:54:21.567354"
 }

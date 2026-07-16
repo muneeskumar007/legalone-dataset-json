@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:30:19.314268",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gopal Lal vs State Of Rajasthan on 30 January, 1979",
+  "case_name": "Gopal Lal vs State Of Rajasthan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gopal Lal (husband)",
+    "respondent_defendant": "State Of Rajasthan",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "After falling out with his wife Kanchan, Gopal Lal contracted a second marriage with Gopi in 1969. His first wife filed a complaint and he was convicted of bigamy under section 494 I.P.C. He appealed to the Supreme Court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The second marriage will become void only because of the provisions of section 17 of the Hindu Marriage Act.",
+      "held": "Therefore, the contention that the second marriage being void section 494 I.P.C. will have no application is not correct.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 17"
+      ],
+      "cited_cases": [
+        "Gopal Lal vs State Of Rajasthan, (1979) X SCC Y",
+        "Bhaurao Shankar Lokhande and Anr. v. State of Maharashtra and Ors., [1965]2 S.C.R. 837; Kanwal Ram and Ors. v. The Himachal Pradesh Administration, [1966]1 S.C.R. 539 and Priya Bala Ghosh v. Suresh Chandra Ghosh; [1973]3 S.C.R. 961"
+      ],
+      "keywords": [
+        "void marriage",
+        "Hindu Marriage Act",
+        "bigamy"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH — for understanding the application of section 494 I.P.C.",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The essential ingredients of section 494 are: (1) that the accused spouse must have contracted the first marriage, and (2) that while the first marriage was subsisting, the accused spouse contracted a second marriage.",
+      "held": "The essential ingredients of this offence are:",
+      "applicable_acts_sections": [
+        "Indian Penal Code — Section 494"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "bigamy",
+        "essential ingredients"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — for understanding the elements of bigamy",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appellant must be held to have committed the offence of Bigamy as contemplated by section 494 I.P.C.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "bigamy",
+    "section 494 I.P.C.",
+    "nata marriage",
+    "Hindu Marriage Act",
+    "1955",
+    "voidness of a marriage",
+    "section 17 H.M.A.",
+    "admission and legal evidence",
+    "actual marriage by custom",
+    "offence under section 494 I.P.C.",
+    "Telli community",
+    "second marriage",
+    "prevailing customs",
+    "Indian Penal Code",
+    "IPC",
+    "Hindu Marriage Act",
+    "marriage laws",
+    "voidable marriage",
+    "section 17 Hindu Marriage Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a plea for bigamy",
+    "advising on the validity of a second marriage in a specific community",
+    "assisting with a case involving voidable marriages"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:15:21.323569"
 }

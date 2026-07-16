@@ -7,7 +7,7 @@
   "total_pages": 34,
   "extracted_at": "2026-07-15T10:29:07.279453",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 10,
     "cheque_bounce": 1,
@@ -31,10 +31,10 @@
   "trial_court": "",
   "reserved_on": "08.11.2022",
   "delivered_on": "22.02.2023",
-  "case_name": "Dr.Maheswari vs Ramesh Ramiah on 22 February, 2023",
+  "case_name": "Dr.Maheswari vs Ramesh Ramiah",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr.Maheswari, Dr.A.Navaneethan (Plaintiffs)",
+    "respondent_defendant": "Ramesh Ramiah, Kalpana Ramiah, Senthilkumar Ramiah, Muthu Vijayan Ramiah, Sakunthala Ramiah (Defendants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The suit is filed for a decree and judgment against the defendants. The relief claimed includes damages for loss of reputation, defamatory statements, and mental stress.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,103 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Only a court of competent jurisdiction can entertain a matrimonial dispute.",
+      "held": "Thus, it is clear that only that Court will be a Court of competent jurisdiction which the Act or the law under which the parties are married recognises as a Court of competent jurisdiction to entertain the matrimonial dispute.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "(2010) CTC 858 (Deepalakshmi Vs.K.Murugesh)"
+      ],
       "keywords": [
-        "TODO"
+        "competent jurisdiction",
+        "matrimonial dispute"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A foreign court's judgment is not binding if the parties did not submit to its jurisdiction.",
+      "held": "Therefore, the finding of the Family Court that order passed by the Foreign Court is not binding upon the wife is correct.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "AIR 1962 AII 775 (Raj Rajendra Sardar Moloji Nar singh Roa Shitole Vs. Shankar Saran and others)"
+      ],
+      "keywords": [
+        "foreign court",
+        "judgment",
+        "jurisdiction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "international family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A foreign judgment is not valid outside the territory where it was given.",
+      "held": "The Gwalior Court therefore was not a court of competent jurisdiction. The judgment of Gwalior Court was therefore a nullity outside the United State (Madhya Bharat).",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860"
+      ],
+      "cited_cases": [
+        "Gurdyal Singh v. Raja of Faridkot"
+      ],
+      "keywords": [
+        "foreign judgment",
+        "territory"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "international law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "the suit is decreed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court directed the defendants to pay Rs.2,00,00,000/- in damages, declare the exparte final decree of divorce as void, return jewellery and valuables, and pay costs.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Indian Penal Code",
+    "1860",
+    "Order IV Rule 1",
+    "Order VII Rule 1",
+    "damages",
+    "reputation",
+    "defamatory statements",
+    "mental stress",
+    "agony",
+    "annoyance",
+    "exparte final decree",
+    "void",
+    "ab initio"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to allegations of defamation",
+    "seeking damages for loss of reputation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:08:23.155499"
 }

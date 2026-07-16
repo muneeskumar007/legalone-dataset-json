@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:28:21.024816",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Deepak S/O Ranveer Singh vs State Of Rajasthan (2023:Rj-Jp:23924) on 20 September, 2023",
+  "case_name": "Deepak S/O Ranveer Singh vs State Of Rajasthan (2023:Rj-Jp:23924)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Deepak S/o Ranveer Singh, Aged About 21 Years, R/o Mahrawar, Police Kumher, District Bharatpur (Raj.)",
+    "respondent_defendant": "State of Rajasthan, through P.P",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner has filed this miscellaneous bail application under Section 438 Cr.P.C who is having apprehension of his arrest in connection with FIR No.86/2023 PS Kumher, District Bharatpur for offences under Sections 363, 366 & 376 IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,121 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Anticipatory bail application can be entertained after filing of the charge-sheet.",
+      "held": "In case of Bharat Choudhary (supra), it was held by Hon'ble Apex Court that application under Section 438 Cr.P.C. for grant of anticipatory bail will be maintainable after charge-sheet is filed or cognizance is taken.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C — Sections 438"
+      ],
+      "cited_cases": [
+        "Bharat Choudhary & Anr. Vs. State of Bihar & Anr., (2003) 8 SCC 77"
+      ],
+      "keywords": [
+        "anticipatory bail",
+        "charge-sheet",
+        "cognizance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "murder cases",
+        "rape cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The issuance of warrant under Section 37 of the Police Act does not mean that the accused is absconding.",
+      "held": "Merely issuance of warrant under Section 37 of the Police Act does not mean that the petitioner is absconding.",
+      "applicable_acts_sections": [
+        "Police Act — Section 37"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "warrant",
+        "absconding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "anticipatory bail cases",
+        "bail applications"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The person who is 'absconding' and declared as 'proclaimed offender' is not entitled to seek anticipatory bail application normally.",
+      "held": "It was made clear in the aforesaid case of Lavesh (supra) that when the accused is absconding and has also been declared 'proclaimed offender', case of granting anticipatory bail does not arise.",
+      "applicable_acts_sections": [
+        "Cr.P.C — Sections 82"
+      ],
+      "cited_cases": [
+        "Lavesh Vs. State (NCT of Delhi), (2012) 8 SCC 730"
+      ],
+      "keywords": [
+        "absconding",
+        "proclaimed offender",
+        "anticipatory bail"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "murder cases",
+        "rape cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Anticipatory bail can be entertained even if the charge-sheet has been filed.",
+      "held": "In case of Ravindra Saxena (supra), Hon'ble Apex Court considering the same situation held that after filing of the charge-sheet, anticipatory bail application can be entertained.",
+      "applicable_acts_sections": [
+        "Cr.P.C — Section 438"
+      ],
+      "cited_cases": [
+        "Ravindra Saxena Vs. State of Rajasthan, (2010) 1 SCC 684"
+      ],
+      "keywords": [
+        "anticipatory bail",
+        "charge-sheet"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "murder cases",
+        "rape cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "Custodial interrogation of the petitioner is not warranted in this case.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 438 Cr.P.C",
+    "FIR No.86/2023",
+    "Sections 363",
+    "366",
+    "376 IPC",
+    "consensual relationship",
+    "prosecutrix",
+    "marriage registration",
+    "Latin maxim: actus me invito non facit actum"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail applications",
+    "advising on criminal law",
+    "assisting in domestic violence cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:41:09.704883"
 }

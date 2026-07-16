@@ -7,7 +7,7 @@
   "total_pages": 19,
   "extracted_at": "2026-07-15T10:30:03.755512",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -26,13 +26,13 @@
     "M.C.NO.3356/2013",
     "M.C.NO. 3812/2013"
   ],
-  "trial_court": "",
+  "trial_court": "VI Additional Principal Judge, Family Court, Bangalore, MC No.3356/2013 and MC No.3812/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gayathri Bai B N vs Dashrath Singh R on 10 February, 2023",
+  "case_name": "Gayathri Bai B N vs Dashrath Singh R",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gayathri Bai B N, wife",
+    "respondent_defendant": "Dashrath Singh R, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Gayathri Bai B N and Dashrath Singh R. The respondent-husband filed a petition for divorce under the Hindu Marriage Act, while the appellant-wife sought a decree for restitution of conjugal rights. The trial court allowed the husband's petition and dismissed the wife's petition. This appeal is against that judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking restitution of conjugal rights to prove that the other party has deserted him/her without reasonable cause.",
+      "held": "So far as petition in M.C. No.3812/2013 which is filed by the respondent-wife under Section 9 of the Hindu Marriage Act, for restitution of conjugal rights is concerned, similar contentions were raised by the respondent-wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "restitution",
+        "conjugal rights",
+        "desertion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking divorce must prove that the other party has deserted him/her without reasonable cause.",
+      "held": "Therefore she contended that the allegations made against her are false and prayed to dismiss the petition.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "desertion",
+        "divorce",
+        "reasonable cause"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeals are allowed, and the judgment and decree passed by the trial court are set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(III)",
+    "Family Courts Act",
+    "19(1)",
+    "M.C.No.3356/2013",
+    "petition",
+    "dismissal",
+    "judgment",
+    "decree",
+    "marriage",
+    "separation",
+    "maintenance",
+    "custody",
+    "property",
+    "partition",
+    "dissolution",
+    "matrimonial",
+    "dispute",
+    "conciliation",
+    "mediation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "assisting in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:01:05.353159"
 }

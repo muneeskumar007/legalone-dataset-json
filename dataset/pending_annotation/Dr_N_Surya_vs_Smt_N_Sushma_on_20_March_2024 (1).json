@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:29:15.579217",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce_cruelty_desertion",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -26,13 +26,13 @@
     "C.A.No.338 OF 2013",
     "O.P.No.214 of 2010"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Warangal, O.P.No.214 of 2010",
   "reserved_on": "",
   "delivered_on": "20.03.2024",
-  "case_name": "Dr. N.Surya vs Smt. N.Sushma on 20 March, 2024",
+  "case_name": "Dr. N.Surya vs Smt. N.Sushma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. N. Surya, husband",
+    "respondent_defendant": "Smt. N. Sushma, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant-husband sought dissolution of marriage on grounds of cruelty and desertion. Respondent-wife claimed that parties belong to Tribal Community (Lambadies) and Family Court has no jurisdiction under Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Sub-section 2 of Section 2 of Hindu Succession Act excludes members of any Scheduled Tribe from the application of the said Act only if they are not 'Hinduised' and do not follow Hindu traditions.",
+      "held": "Sub-section 2 only excludes members of any Scheduled Tribe admittedly as per finding recorded in the present case though the parties originally belong to the Santhal Scheduled Tribe they are Hinduised and they are following the Hindu traditions.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956 — Section 2"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Labishwar Manjhi vs. Pran Manjhi And Ors (2000) 8 SCC 587"
+      ],
       "keywords": [
-        "TODO"
+        "Scheduled Tribe",
+        "Hinduised",
+        "Hindu traditions"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving Hindu Succession Act"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — significance in determining the applicability of Hindu Succession Act to Scheduled Tribes",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Custom may be proved for the determination of civil rights of parties, including their status, and may be used for the purposes of proving the ingredients of an offence.",
+      "held": "No custom can create an offence as it essentially deals with the civil rights of the parties and no person can be convicted of any offence except for violation of law in force at the time of commission of the act charged.",
+      "applicable_acts_sections": [
+        "General Clauses Act — Section 3(37)"
+      ],
+      "cited_cases": [
+        "Dr. Surajmani Stella Kujur vs. Durga Charan Hansdah"
+      ],
+      "keywords": [
+        "custom",
+        "civil rights",
+        "offence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving custom as evidence"
+      ],
+      "significance": "MEDIUM — significance in understanding the role of custom in determining civil rights",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed, and the impugned order dated 28.09.2012 is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "family court appeal",
+    "maintenance",
+    "alimony",
+    "custody",
+    "joint family",
+    "separation",
+    "matrimonial dispute",
+    "property division",
+    "equitable distribution",
+    "no fault divorce",
+    "irretrievable breakdown"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act, 1955",
+    "advising on maintenance and alimony in a family court appeal",
+    "assisting with property division in a joint family dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:10:20.146782"
 }

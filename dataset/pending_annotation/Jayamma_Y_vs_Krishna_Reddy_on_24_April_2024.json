@@ -7,7 +7,7 @@
   "total_pages": 36,
   "extracted_at": "2026-07-15T10:52:09.716831",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 1,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "O.S.No.4019/2008"
   ],
-  "trial_court": "",
+  "trial_court": "Court of the XXXVIII Additional City Civil & Sessions Judge, Bengaluru City [CCH-39]",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jayamma Y vs Krishna Reddy on 24 April, 2024",
+  "case_name": "Jayamma Y vs Krishna Reddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt.Y.Jayamma W/o late Muniyappa Reddy, Kum. ANASUYA, aged about 37 years, D/o late Muniyappa Reddy, Sri Lokesh, aged about 35 years, S/o late Muniyappa Reddy",
+    "respondent_defendant": "MUNI KRISHNA REDDY, Smt.M. JAYAMMA, Smt.LAKSHMI, Sri M.VENKATESH REDDY, Smt.JAYAMMA, Sri SRINIVASA REDDY, Sri.VEERENDRA KUMAR, Smt.GIRIJA, Smt.SHYALAJA",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit for declaration, partition and separate possession and for mesne profit filed by Plaintiffs against Defendants.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,119 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party who has executed a registered partition deed and taken his share in the family properties is estopped from pleading anything contrary to the statements of facts made in the said deed.",
+      "held": "The Defendant No.1 is estopped from pleading that his father late Muniyappa Reddy had relationship with the 1st Plaintiff, and Plaintiff Nos.2 and 3 are born to late Muniyappa Reddy.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "partition deed",
+        "estoppel",
+        "family properties"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "property disputes",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party who has acted upon a registered partition deed and altered his position based on the same is estopped from challenging the validity of the said deed.",
+      "held": "The parties have acted upon the [partition deeds] and based on the partition, the parties have altered their positions and dealt with the properties.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "registered partition deed",
+        "estoppel",
+        "altered position"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "property disputes",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party who has executed a registered document and taken his share in the family properties is estopped from pleading anything contrary to the statements of facts made in the said document.",
+      "held": "The Defendant No.1 is estopped from pleading anything contrary to the statements of facts made in the aforesaid registered Partition Deeds Dt.31.3.2004 and 4.2.2005.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "registered document",
+        "estoppel",
+        "family properties"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "property disputes",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A party who has introduced new facts or evidence after a long period of time is estopped from relying on the same.",
+      "held": "The Plaintiffs have no right over any of the suit schedule properties mentioned in the schedule.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "new facts",
+        "estoppel",
+        "long period of time"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "property disputes",
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Not mentioned in the provided judgment excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "joint family",
+    "coparcenary",
+    "family property",
+    "partition suit",
+    "legal representatives",
+    "Muniyappa Reddy",
+    "Jayamma Y",
+    "Krishna Reddy",
+    "Bengaluru City",
+    "Karnataka",
+    "civil judge",
+    "additional city civil & sessions judge"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on Hindu succession law",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:09:49.516248"
 }

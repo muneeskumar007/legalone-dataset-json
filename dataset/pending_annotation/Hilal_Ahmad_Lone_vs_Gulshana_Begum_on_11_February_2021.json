@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:31:21.018265",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Sanjeev Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Chief Judicial Magistrate, Sopore (CRM(M) No.06/2021)",
   "reserved_on": "05.02.2021",
   "delivered_on": "12.11.2020",
-  "case_name": "Hilal Ahmad Lone vs Gulshana Begum on 11 February, 2021",
+  "case_name": "Hilal Ahmad Lone vs Gulshana Begum",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Hilal Ahmad Lone (husband)",
+    "respondent_defendant": "Gulshana Begum (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent are husband and wife who contracted their marriage in 2017. Petitioner claims to have divorced respondent by executing a written divorce deed on May 29, 2019, which was sent to the respondent through registered post. Respondent filed an application under Section 488 Cr. P. C seeking monthly maintenance of Rs.20,000.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "At the stage of grant of interim maintenance, the Court is only supposed to look to the admitted factual position and not embark upon determination of disputed questions of fact.",
+      "held": "The trial court has correctly ignored the plea of divorce taken by the petitioner and granted maintenance of Rs.8000/ per month to the wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 125"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Savitri v. Govind Singh Rawat, (1985) 4 SCC 337",
+        "Rajnesh v. Neha and another, Cr. Appeal No.730 of 2020"
+      ],
       "keywords": [
-        "TODO"
+        "interim maintenance",
+        "disputed questions of fact",
+        "maintenance petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance petitions"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Proceedings before the Magistrate are summary in nature and the complicated disputed questions like the factum of marriage or divorce cannot be made subject matter of adjudication in these proceedings.",
+      "held": "The provision is intended to provide a quick remedy to provide succour to destitute wife.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 125"
+      ],
+      "cited_cases": [
+        "Savitri v. Govind Singh Rawat, (1985) 4 SCC 337",
+        "Rajnesh v. Neha and another, Cr. Appeal No.730 of 2020"
+      ],
+      "keywords": [
+        "summary proceedings",
+        "disputed questions of fact",
+        "maintenance petition"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "maintenance petitions"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order quashed the orders passed by the trial court and the Revisional Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "quashing",
+    "Section 482 Cr. P. C.",
+    "marriage",
+    "wife",
+    "husband",
+    "unsatisfactory conduct",
+    "unbecoming wife",
+    "strained relations",
+    "petition for divorce",
+    "CrlM No. 23/2021",
+    "CRM(M) No.06/2021",
+    "Code of Criminal Procedure",
+    "High Court of Jammu and Kashmir"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting petition for quashing order",
+    "advising client on divorce proceedings",
+    "assisting in family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:04:53.497850"
 }

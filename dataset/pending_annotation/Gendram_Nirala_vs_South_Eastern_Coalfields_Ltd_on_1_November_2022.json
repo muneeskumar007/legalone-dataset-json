@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T10:30:08.905523",
   "domain": "will_succession",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "24.02.2022",
-  "case_name": "Gendram Nirala vs South Eastern Coalfields Ltd on 1 November, 2022",
+  "case_name": "Gendram Nirala vs South Eastern Coalfields Ltd",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ku. Anita Nirala D/o. Late Tulsiram Nirala, Aged about 27 years, Resident of Qtr. No. M-106, Ompur Colony, Post Rajgamar Colony, Rajgamar, Korba, District Korba (CG) --- Petitioner",
+    "respondent_defendant": "1. South Eastern Coalfields Limited, Through the Chief Manager (Min)/SAM Rajgamar Sub Area, Korba (CG) 2. South Eastern Coalfields Limited, Through its General Manager, Office of the Sub Area Manager, Rajgamar, Sub Area, PO Rajgamar Colliery, District Korba (CG) 495683.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Ku. Anita Nirala D/o. Late Tulsiram Nirala, Aged about 27 years, Resident of Qtr. No. M-106, Ompur Colony, Post Rajgamar Colony, Rajgamar, Korba, District Korba (CG) --- Petitioner",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,21 +56,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A succession certificate is required to determine the dependents of a deceased person.",
+      "held": "Unless and until the succession certificate is decided, the claim of the petitioner cannot be considered.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "succession",
+        "certificate",
+        "dependents"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A dependent is entitled to compassionate appointment.",
+      "held": "The deceased during his life time, had two wives, namely, Radhabai and Samrin Bai. The petitioner's father had performed second marriage with Samrim Bai after death of his first wife and she being the elder daughter of second wife has applied for grant of compassionate appointment.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compassionate",
+        "appointment",
+        "dependent"
+      ],
+      "favours": "petitioner",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -80,15 +101,37 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "succession",
+    "will",
+    "probate",
+    "intestate",
+    "testamentary",
+    "heir",
+    "executor",
+    "administrator",
+    "probate court",
+    "family settlement",
+    "partition",
+    " Hindu Succession Act",
+    "Section 6",
+    "Section 8",
+    "Section 10",
+    "Section 11"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "challenging a will",
+    "probate proceedings",
+    "intestate estate management",
+    "family settlement disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:05:54.403162"
 }

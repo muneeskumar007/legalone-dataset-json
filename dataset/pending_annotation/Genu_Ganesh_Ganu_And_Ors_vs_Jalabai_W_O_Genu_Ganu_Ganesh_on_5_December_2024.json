@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:30:09.766937",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 3,
     "partition": 4,
@@ -25,13 +25,13 @@
     "O.S.NO.6/2009",
     "O.S.No.6/2009"
   ],
-  "trial_court": "",
+  "trial_court": "IV Additional District Judge at Kalaburagi in RA.No.189/2010 and II Additional Civil Judge (Sr.Dn) at Gulbarga in O.S.No.6/2009",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Genu @ Ganesh @ Ganu And Ors vs Jalabai W/O Genu @Ganu @Ganesh on 5 December, 2024",
+  "case_name": "Genu @ Ganesh @ Ganu And Ors vs Jalabai W/O Genu @Ganu @Ganesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Genu @ Ganesh @ Ganu S/O Pemu, Sharadabai W/O Genu, Kantabai D/O Genu, Duliabai W/O Sanju (D/O Genu), Shivaji S/O Genu, Ramesh S/O Genu, Suresh S/O Genu, Rajesh S/O Genu, Jyotiba D/O Genu - all are R/O. Mokin Tanda",
+    "respondent_defendant": "Jalabai W/O Genu @Ganu @Ganesh, Sushilabai D/O Genu @Ganu @Ganesh, Lalitabai W/O Ramu, Sunitabai W/O Kalu, Putalabai D/O Genu @Ganu @Ganesh - all are R/O. Mokin Tanda",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The defendants appealed against the judgment and decree dated 01.07.2010 passed in O.S.No.6/2009, which declared that plaintiff No.1 is the legally wedded wife of defendant No.1 and defendants 2 to 5 are daughters, and they are entitled for 1/5th share each in suit properties.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the plaintiff to prove her marriage with the defendant.",
+      "held": "He submits it was for the plaintiff No.1 to discharge her burden of proving her marriage with the defendant No.1 and also with regard to existence of the joint family properties and without discharging this burden she was not entitled for any relief.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "marriage",
+        "proof",
+        "plaintiff",
+        "defendant"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "property partition"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court should not rely solely on the deposition of a defendant to prove a fact.",
+      "held": "He submits instead of calling upon the plaintiff No.1 to prove the marriage, the trial Court and the first Appellate Court have relied upon the deposition of defendant No.1, which was recorded in the earlier round of proceedings.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "deposition",
+        "defendant",
+        "fact",
+        "proof"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family disputes",
+        "property partition"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed and the impugned judgment and order dated 16.9.2017 passed by IV Additional District Judge at Kalaburagi in RA.No.189/2010 was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "section 9",
+    "section 10",
+    "joint family",
+    "coparcenary",
+    "undivided interest",
+    "family property",
+    "share",
+    "partition suit",
+    " Hindu law",
+    "Mitakshara School",
+    " coparceners",
+    "heirship",
+    "family settlement",
+    "agriculture",
+    "household"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on family property disputes",
+    "representing clients in Hindu law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:06:58.728739"
 }

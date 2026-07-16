@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:28:37.479823",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -27,13 +27,13 @@
     "I.A.No.57 of 2023",
     "O.P.No.218 of 2021"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court - cum-XII Additional District Judge, Guntur (FCOP No.218 of 2021)",
   "reserved_on": "28.11.2025",
   "delivered_on": "19.12.2025",
-  "case_name": "Dhulipalla Venkata Sundeep vs ,J on 19 December, 2025",
+  "case_name": "Dhulipalla Venkata Sundeep vs ,J",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dhulipalla Venkata Sundeep, husband",
+    "respondent_defendant": "Dhulipalla Talasila Yamini Satya, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -72,7 +72,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent married in 2015, had a child in 2020. Petitioner seeks interim custody of minor child.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -82,39 +82,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The primary and paramount consideration in matters pertaining to custody of a child is the welfare of the child.",
+      "held": "It is well settled law by a catena of judgments that while deciding matters of custody of a child, primary and paramount consideration is welfare of the child.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act",
+        "Code of Civil Procedure"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Yashita Sahu v. State of Rajasthan, (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "custody",
+        "child",
+        "welfare"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The view of one spouse alone should not be taken into consideration while deciding the custody of a child.",
+      "held": "However, while deciding the welfare of the child it is not the view of one spouse alone which has to be taken into consideration.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act",
+        "Code of Civil Procedure"
+      ],
+      "cited_cases": [
+        "Yashita Sahu v. State of Rajasthan, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "custody",
+        "child",
+        "spouse"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order dated 18.12.2023 set aside; further proceedings stayed pending Civil Revision Petition",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "custody",
+    "Hindu Marriage Act",
+    "Hindu Minority and Guardianship Act",
+    "Code of Civil Procedure",
+    "Indian Penal Code",
+    "Article 227",
+    "Section 151 CPC",
+    "Family Court",
+    "Guntur",
+    "Andhra Pradesh",
+    "High Court",
+    "Revision Petition",
+    "Custody Dispute",
+    "Parental Rights",
+    "Child Welfare",
+    "Legal Guardianship"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a custody petition under Article 227",
+    "advising on Hindu Minority and Guardianship Act",
+    "assisting in a family court matter"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:34:42.748384"
 }

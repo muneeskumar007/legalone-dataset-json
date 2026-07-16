@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:30:36.276783",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Judge, Hoshiarpur, dated 20.9.1991",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gurdev Singh vs Balbir Kaur on 12 January, 1993",
+  "case_name": "Gurdev Singh vs Balbir Kaur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gurdev Singh, husband",
+    "respondent_defendant": "Balbir Kaur, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed petition under Section 13 of the Hindu Marriage Act seeking divorce from his wife Balbir Kaur on the ground that she had treated him with cruelty after solemnisation of marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,59 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the petitioner to prove that the respondent has treated him with cruelty.",
+      "held": "In view of the above, it is a case where the petitioner has not been able to prove that his allegations were true.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "cruelty",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The Trial Court's judgment was upheld, and the petition for dissolution of marriage was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Section 13",
+    "marriage dissolution",
+    "venereal disease",
+    "uterus removal",
+    "childlessness",
+    "cohabitation",
+    "petition dismissal",
+    "allegations denial",
+    "Latin maxim",
+    "actus reus",
+    "mens rea",
+    "grounds for divorce",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition under Section 13 of the Hindu Marriage Act",
+    "responding to allegations of cruelty in a divorce case",
+    "advising on grounds for divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:34:57.117505"
 }

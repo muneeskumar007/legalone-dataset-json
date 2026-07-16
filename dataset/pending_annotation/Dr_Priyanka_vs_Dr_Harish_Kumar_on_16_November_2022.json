@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:29:21.046587",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr. Priyanka vs Dr. Harish Kumar on 16 November, 2022",
+  "case_name": "Dr. Priyanka vs Dr. Harish Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. Priyanka, wife",
+    "respondent_defendant": "Dr. Harish Kumar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks transfer of two cases from Family Court No.2 and 1, Bikaner to Family Court, Pali. Marriage solemnized in 2010, one son born in 2013. Petitioner is government employee, respondent permanently resides at Rohtak.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to disclose all material facts.",
+      "held": "It is submitted that the petitioner has preferred both the transfer petitions while concealing material facts.",
       "applicable_acts_sections": [
-        "TODO"
+        "Guardians and Wards Act — Section 9"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smt. Uma vs. Nilaksh Dwivedi, (2015) 4 DNJ 1766",
+        "Smt. Ekta Solanki vs. Johny Solanki"
+      ],
       "keywords": [
-        "TODO"
+        "material facts",
+        "disclosure",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court's jurisdiction is determined by the place where the minor ordinarily resides.",
+      "held": "In so far as the contention of the petition under Section 7, 17 & 25 of the Guardians and Wards Act is to be heard and decided at the place where the minor ordinarily resides as per Section 9 (1) of the Act...",
+      "applicable_acts_sections": [
+        "Guardians and Wards Act — Section 9"
+      ],
+      "cited_cases": [
+        "Smt. Uma vs. Nilaksh Dwivedi, (2015) 4 DNJ 1766",
+        "Smt. Ekta Solanki vs. Johny Solanki"
+      ],
+      "keywords": [
+        "minor's residence",
+        "jurisdiction",
+        "ordinarily resides"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "guardianship cases",
+        "minors' disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Transfer of cases granted to Family Court, Pali.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "irretrievable breakdown",
+    "marriage",
+    "spouse",
+    "separation",
+    "cohabitation",
+    "living separately",
+    "no reconciliation",
+    "mutual consent",
+    "joint petition",
+    "custody",
+    "maintenance",
+    "alimony",
+    "property settlement",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "negotiating property settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:17:34.331868"
 }

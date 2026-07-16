@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:28:55.371190",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 3,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "C.J.(S.D.), Sangamner - HMP No.98/2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr Anuja Satyajit Nighute vs Dr Satyajit Shantaram Nighute on 27 July, 2021",
+  "case_name": "Dr Anuja Satyajit Nighute vs Dr Satyajit Shantaram Nighute",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr Anuja Satyajit Nighute (wife)",
+    "respondent_defendant": "Dr Satyajit Shantaram Nighute (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are medical practitioners who got married in 2019, but their marriage is on the rocks. The petitioner fears threat to her life due to criminal antecedents of her husband's parents and seeks transfer of divorce proceedings from Sangamner to Ahmedpur.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Convenience of wife cannot be the sole criteria for transfer of proceedings to the place where wife resides.",
+      "held": "He submits that convenience of wife always is not the criterion for deciding the transfer application.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smt. Rekha wd/o. Late Avinash Raut Vs. Shivaji Bhimrao Sapate; 2011 (3) ALL MR 279",
+        "Shri Lotal Tryambak Khairnar V/s. Narayan Hari Shinde; 2011 (3) ALL MR 282"
+      ],
       "keywords": [
-        "TODO"
+        "transfer application",
+        "wife's convenience",
+        "matrimonial proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Subsequent matrimonial proceedings are to be transferred to the Court in which first matrimonial proceedings have been instituted.",
+      "held": "He submits that subsequent matrimonial proceedings are to be transferred to the Court in which first matrimonial proceedings have been instituted.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "Smt. Rekha wd/o. Late Avinash Raut Vs. Shivaji Bhimrao Sapate; 2011 (3) ALL MR 279",
+        "Shri Lotal Tryambak Khairnar V/s. Narayan Hari Shinde; 2011 (3) ALL MR 282"
+      ],
+      "keywords": [
+        "matrimonial proceedings",
+        "transfer application",
+        "first institution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the application for transfer of divorce proceedings from C.J.(S.D.), Sangamner to C.J.(S.D.), Ahmedpur.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "transfer of proceedings",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Protection of Women from DV Act",
+    "medical practitioners",
+    "matrimonial disputes",
+    "Section 24 CPC",
+    "CJ(SD)",
+    "Ahmedpur",
+    "Sangamner",
+    "Latur",
+    "Ahmednagar",
+    "Indian Penal Code",
+    "HMP No.98/2020"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on transfer of proceedings",
+    "representing clients in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:59:52.932090"
 }

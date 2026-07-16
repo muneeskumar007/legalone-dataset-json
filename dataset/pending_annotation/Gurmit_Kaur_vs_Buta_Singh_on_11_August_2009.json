@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:30:38.122351",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gurmit Kaur vs Buta Singh on 11 August, 2009",
+  "case_name": "Gurmit Kaur vs Buta Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gurmit Kaur, wife",
+    "respondent_defendant": "Buta Singh, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant-appellant seeks maintenance pendente lite and litigation expenses. The respondent-husband earns Rs.12,000/- per month and has a bank balance earning interest.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When the court intervenes under the Hindu Marriage Act, it has the power to grant permanent alimony or maintenance.",
+      "held": "It undoubtedly has the power to grant permanent alimony or maintenance, if that power is invoked at that time. It also retains the power subsequently to be invoked on application by a party entitled to relief.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Sections 9-14"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gurmit Kaur vs Buta Singh, (2009) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "permanent alimony",
+        "maintenance pendente lite",
+        "marital status"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "alimony disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — applies to situations where the court intervenes under the Hindu Marriage Act",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The expression 'at the time of passing any decree' in Section 25 encompasses all kinds of decrees, including restitution of conjugal rights and declaring a marriage null and void.",
+      "held": "When the legislature has used such wide expression as 'at the time of passing of any decree,' it encompasses within the expression all kinds of decrees such as restitution of conjugal rights under Section 9, declaring marriage null and void",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 25"
+      ],
+      "cited_cases": [
+        "Chand Dhawan's case (supra)"
+      ],
+      "keywords": [
+        "Section 25",
+        "decree",
+        "restitution of conjugal rights",
+        "declaring a marriage null and void"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "alimony disputes",
+        "divorce cases"
+      ],
+      "significance": "HIGH — applies to situations where the court is considering granting alimony or maintenance",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Maintenance pendente lite and litigation expenses granted to the applicant-appellant.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 24",
+    "maintenance pendente lite",
+    "litigation expenses",
+    "divorce",
+    "marriage",
+    "living spouse",
+    "monthly income",
+    "bank balance",
+    "interest",
+    "objection",
+    "preliminary objection",
+    "application under Section 24",
+    "pendente lite",
+    "family court",
+    "district court",
+    "Punjab and Haryana High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance pendente lite",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:37:27.350604"
 }

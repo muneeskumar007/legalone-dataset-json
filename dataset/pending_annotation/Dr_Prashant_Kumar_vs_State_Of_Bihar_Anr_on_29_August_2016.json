@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:29:20.738383",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "cheque_bounce": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr. Prashant Kumar vs State Of Bihar & Anr on 29 August, 2016",
+  "case_name": "Dr. Prashant Kumar vs State Of Bihar & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. Prashant Kumar, husband",
+    "respondent_defendant": "The State of Bihar, Shweta Prabhat (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife alleged she was beaten up and abused after marriage; petitioners seek quashing of cognizance taken against them.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The ambit and scope of inherent power of the High Court under Section 482 of the Cr.P.C. in quashing of the criminal proceeding in non-compoundable offences relating to matrimonial dispute is limited.",
+      "held": "Recently discussed and adjudicated by a three-Judge Bench of the Hon'ble Supreme Court in Jitendra Raghuvanshi & Ors. vs. Babita Raghuvanshi & Anr. [(2013) 4 SCC 58].",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C."
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Jitendra Raghuvanshi & Ors. vs. Babita Raghuvanshi & Anr., (2013) 4 SCC 58"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceeding",
+        "matrimonial dispute",
+        "non-compoundable offences"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "Neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — significance in understanding the court's power to quash criminal proceedings",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The State has no objection if the criminal prosecution is set aside when parties have amicably settled their dispute outside the court.",
+      "held": "Mr. Jharkhandi Upadhyay, learned Additional Public Prosecutor for the State has submitted that since the case arises out of a matrimonial dispute and the parties have amicably settled their dispute outside the court, the State has got no objection, if the criminal prosecution is set aside.",
+      "applicable_acts_sections": [
+        ""
+      ],
+      "cited_cases": [
+        ""
+      ],
+      "keywords": [
+        "State's interest",
+        "amicable settlement",
+        "matrimonial dispute"
+      ],
+      "favours": "Defendant",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "MEDIUM — significance in understanding the State's role in criminal proceedings",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Cognizance taken by trial court set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Section 27",
+    "matrimonial dispute",
+    "marital discord",
+    "separation",
+    "maintenance",
+    "alimony",
+    "custody",
+    "child custody",
+    "joint family",
+    "family law",
+    "Indian Penal Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "assisting in child custody matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:16:44.038981"
 }

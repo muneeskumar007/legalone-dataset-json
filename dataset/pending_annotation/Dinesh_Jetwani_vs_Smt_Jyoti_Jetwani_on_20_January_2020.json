@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:28:44.431163",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Narendra Singh Dhaddha J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.2, Kota (Raj.)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dinesh Jetwani vs Smt Jyoti Jetwani on 20 January, 2020",
+  "case_name": "Dinesh Jetwani vs Smt Jyoti Jetwani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dinesh Jetwani, husband",
+    "respondent_defendant": "Smt. Jyoti Jetwani, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized in 1996. The respondent changed her behavior after one year and used to quarrel with the appellant on petty matters. She used to go to her parental house without informing him and did not inform him even after 2-3 days.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A respondent's departure from the matrimonial home without reasonable cause and for a continuous period of more than two years can be considered as desertion.",
+      "held": "Whether the behaviour of respondent wife with appellant was cruel ? Whether the respondent - wife had without any reasonable cause, deserted the petitioner husband continuously for more than two years ?",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "matrimonial home",
+        "reasonable cause"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's cruelty towards the other can be inferred from their conduct, including filing false cases.",
+      "held": "The respondent had deprived the appellant of marital happiness. Inspite of all this, the appellant had gone to the respondent's parental house to bring her back but the respondent had clearly declined to accompany him.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "conduct",
+        "false cases"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Decree for dissolution of marriage was passed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Divorce",
+    "Matrimonial Dispute",
+    "Family Court",
+    "Rajasthan",
+    "Kota",
+    "Quarrel",
+    "Marriage",
+    "Custody",
+    "Maintenance",
+    "Separation",
+    "Annulment",
+    "Voidable Marriage",
+    "Hindu Rites",
+    "Customs",
+    "Porwala Dharmshala"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:42:21.144776"
 }

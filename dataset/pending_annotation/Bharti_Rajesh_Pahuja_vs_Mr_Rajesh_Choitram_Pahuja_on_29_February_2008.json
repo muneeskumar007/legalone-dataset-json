@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:25:46.462911",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Bharti Rajesh Pahuja vs Mr. Rajesh Choitram Pahuja on 29 February, 2008",
+  "case_name": "Bharti Rajesh Pahuja vs Mr. Rajesh Choitram Pahuja",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Bharti Rajesh Pahuja (wife)",
+    "respondent_defendant": "Mr. Rajesh Choitram Pahuja (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 1996, but the husband left for North America soon after and the wife was driven away from her matrimonial home on 24-12-1996. The wife filed a criminal case under Section 498A of Indian Penal Code against the husband and his family members. She is seeking maintenance and separate residence.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A maintenance claim must be justified by evidence.",
+      "held": "We find that the appellant-wife has not been able to justify her claim for monthly maintenance even for Rs. 90,000/- much less Rs. 2 lacs.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "justification",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's expenses must be reasonable and supported by evidence.",
+      "held": "We are unable to convince ourselves about the expenses set out by appellant-wife in her affidavit and we find that her maintenance claim is rather exaggerated by any standards.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "expenses",
+        "reasonable",
+        "evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed, and the wife is granted maintenance of Rs. 10,000/-per month from 1/11/1999 onwards and her prayer for separate residence is rejected.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "maintenance",
+    "separate residence",
+    "stridhan",
+    "Hindu Adoption and Maintenance Act",
+    "Section 18",
+    "Indian Penal Code",
+    "marriage",
+    "cohabitation",
+    "residence",
+    "ornaments",
+    "jewellery",
+    "contract",
+    "North America",
+    "Manager",
+    "St.Marten"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "assisting with property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T20:40:32.104229"
 }

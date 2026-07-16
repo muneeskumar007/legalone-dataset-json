@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:51:29.129263",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Iqbal Kaur Wife Of S. Pritam Singh vs Pritam Singh S. Nanak Singh on 1 November, 1962",
+  "case_name": "Iqbal Kaur Wife Of S. Pritam Singh v. Pritam Singh S. Nanak Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Iqbal Kaur, wife",
+    "respondent_defendant": "Pritam Singh, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties married for 25 years with 7 children; wife seeks judicial separation due to desertion and cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The whole matrimonial relations must be considered when determining cruelty.",
+      "held": "The general rule in all questions of cruelty is that the whole matrimonial relations must be considered, and that rule is of special value when the cruelty consists not of violent acts, but of injurious reproaches, complaints, accusations or taunts.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 10"
+      ],
+      "cited_cases": [
+        "Rayden on Divorce (8th edition)"
+      ],
+      "keywords": [
+        "cruelty",
+        "matrimonial relations"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Cruelty can be established through allegations of the foulest character.",
+      "held": "The husband has not hesitated to make allegations of the foulest character against his wife. He has accused the wife of living in adultery with Dr. Tarlok Singh, of conniving at immorality and keeping a brothel.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 10"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "allegations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Decree for judicial separation granted based on evidence of cruelty.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "judicial separation",
+    "desertion",
+    "cruelty",
+    "speculation",
+    "separation",
+    "divorce",
+    "marriage",
+    "family law",
+    "Indian law",
+    "Punjab and Haryana High Court",
+    "Section 10",
+    "judgment",
+    "judicial decree",
+    "family court",
+    "matrimonial disputes"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for judicial separation",
+    "advising on desertion grounds in divorce cases",
+    "assisting with matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:20:44.239324"
 }

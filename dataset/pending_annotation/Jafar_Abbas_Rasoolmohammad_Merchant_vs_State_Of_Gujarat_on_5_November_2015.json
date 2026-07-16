@@ -7,7 +7,7 @@
   "total_pages": 47,
   "extracted_at": "2026-07-15T10:51:39.237055",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "partition": 3,
@@ -25,13 +25,13 @@
     "J.B.Pardiwala J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of the learned Chief Judicial Magistrate, Bhavnagar, Criminal Case No.7307 of 2004",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jafar Abbas Rasoolmohammad Merchant vs State Of Gujarat & on 5 November, 2015",
+  "case_name": "Jafar Abbas Rasoolmohammad Merchant vs State Of Gujarat &",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jafar Abbas Rasoolmohammad Merchant — original accused, husband",
+    "respondent_defendant": "State Of Gujarat & — respondent No.2, wife's family",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -84,7 +84,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The case involves a dispute between the husband and wife, with the wife filing an FIR against her husband for various offences. The husband seeks to quash the proceedings.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -94,39 +94,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Bigamy is strictly prohibited by the Christian religious law.",
+      "held": "Since bigamy is strictly prohibited by the Christian religious law and the Act also impliedly prohibits it, applicability of the said IPC provisions to married Christians may be seen as a foregone conclusion.",
       "applicable_acts_sections": [
-        "TODO"
+        "Christian Marriage Act 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "bigamy",
+        "Christian marriage",
+        "IPC"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A post-marriage change of religion by either spouse does not affect the prohibition of bigamy.",
+      "held": "A post−marriage change of religion by either spouse may have no effect on prohibition of bigamy under the Christian law since both the Christian Marriage Act 1872 and its divorce supplement, the Indian Divorce Act 1869, apply also to cases where only one spouse is a Christian.",
+      "applicable_acts_sections": [
+        "Christian Marriage Act 1872",
+        "Indian Divorce Act 1869"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "post-marriage change of religion",
+        "bigamy"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings of the Criminal Case No.7307 of 2004 pending in the Court of the learned Chief Judicial Magistrate, Bhavnagar, are quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Penal Code",
+    "1860",
+    "Specific Relief Act",
+    "1963",
+    "maintenance",
+    "alimony",
+    "custody",
+    "property division",
+    "matrimonial dispute",
+    "family law",
+    "marriage dissolution",
+    "judicial separation",
+    "annulment",
+    "nullity of marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "representing clients in matrimonial disputes",
+    "assisting with property division"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:34:16.561410"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:27:44.031042",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 3,
@@ -25,13 +25,13 @@
     "M.C.No. 51 of 2001",
     "O.P.No. 487 of 2002"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Senior Civil Judge, Rajahmundry; Second Additional Judicial First Class Magistrate at Rajahmundry",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ch. Sri Rama Murthy vs Ch. Rajyalakshmi on 7 April, 2003",
+  "case_name": "Ch. Sri Rama Murthy vs Ch. Rajyalakshmi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Ch. Srirama Murthy (husband)",
+    "respondent_defendant": "Ch. Rajyalakshmi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a transfer CMP under Section 24 of the Code praying for transfer of cases to the Family Court, Visakhapatnam. The wife had filed several litigations in different Courts at Rajahmundry. The husband claimed that he was being harassed and sought relief.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A transfer CMP cannot be maintained under Section 24 of the Code if a composite transfer CMP is filed.",
+      "held": "The learned Counsel also had further pointed out that M.C.No. 51 of 2001 was filed on the file of the Second Additional Judicial First Class Magistrate at Rajahmundry under Section 125 of the Code of Criminal Procedure and the said proceeding under the Code of Criminal Procedure is not amenable to be transferred by exercising powers under Section 24 of the Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer CMP",
+        "composite transfer CMP",
+        "Section 24",
+        "Section 125"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A later O.P. filed by the husband may have to be transferred to be tried along with the prior O.P. for judicial separation.",
+      "held": "The learned Counsel also submitted that even in view of Section 21 A of the Hindu Marriage Act, 1955 (hereinafter referred to as 'Act' in short) inasmuch as the O.P. filed by the wife for judicial separation being first in point of time, the later O.P. filed by the husband may have to be transferred to be tried along with the prior O.P. for the judicial separation.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 21 A"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "judicial separation",
+        "O.P.",
+        "Section 21 A"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial proceedings",
+        "family court cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted the transfer of cases to the Family Court, Visakhapatnam.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "transfer CMP",
+    "monthly maintenance",
+    "judicial separation",
+    "dissolution of marriage",
+    "Family Court",
+    "Visakhapatnam District",
+    "Rajahmundry",
+    "Section 24",
+    "O.S.No. 1258",
+    "I.A. No. 1191",
+    "M.C.No. 51",
+    "O.P.No. 215",
+    "O.P.No. 487"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "guidelines for transfer of cases",
+    "practical tips for family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:19:20.740203"
 }

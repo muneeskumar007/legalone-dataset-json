@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:31:15.866163",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge Senior Division at Vaduj, Satara",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Harshada Omkar Dahiwadikar vs Omkar Sanad Dahiwadikar on 27 September, 2023",
+  "case_name": "Harshada Omkar Dahiwadikar vs Omkar Sanad Dahiwadikar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mrs. Harshada Omkar Dahiwadikar (wife)",
+    "respondent_defendant": "Mr. Omkar Sanad Dahiwadikar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are the wife and husband who were married in 2019. The wife claims harassment, torture, and insult by the husband's family members for more dowry. She has been residing with her parents since March 2020. The husband filed a petition under Section 9 of the Hindu Marriage Act, 1955, for restitution of conjugal rights.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The ends of justice would be served if the Marriage Petition is transferred to the Court where the Divorce Petition is pending.",
+      "held": "Having heard the learned Counsel and having perused the Application and considering the inconvenience and hardship of the wife as narrated above, this Court is of the view that ends of justice would be served if the Marriage Petition No.124 of 2020 filed by the Respondent-husband before the Civil Judge Senior Division, Vaduj, Satara, is transferred to the Court of",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Harshada Omkar Dahiwadikar vs Omkar Sanad Dahiwadikar on 27 September, 2023"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "ends of justice",
+        "inconvenience",
+        "hardship"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking transfer to show that it would be in the interests of justice.",
+      "held": "He would submit that, in any case, the Divorce Petition has been filed by the Applicant-wife in Vasai, and therefore, it would be in the interests of justice if the Petition for restitution of conjugal rights is transferred to the same Court where the Divorce Petition is pending.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Harshada Omkar Dahiwadikar vs Omkar Sanad Dahiwadikar on 27 September, 2023"
+      ],
+      "keywords": [
+        "burden",
+        "interests of justice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "transfer cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The proceedings for restitution of conjugal rights are transferred to this court from the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "restitution of conjugal rights",
+    "transfer of proceedings",
+    "DV Act",
+    "Protection of Women from DV Act",
+    "Indian Penal Code",
+    "marriage",
+    "conjugal rights",
+    "family court",
+    "civil procedure",
+    "judicial separation",
+    "matrimonial dispute",
+    "spousal abuse",
+    "domestic violence",
+    "wife's rights",
+    "husband's rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "representing wife in DV case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:57:30.364676"
 }

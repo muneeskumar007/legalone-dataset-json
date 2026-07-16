@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:29:25.122264",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr.Shaily Mishra vs Anurag Mittal on 10 August, 2016",
+  "case_name": "Dr.Shaily Mishra vs Anurag Mittal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr.Shaily Mishra (wife)",
+    "respondent_defendant": "Anurag Mittal (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent was married to Rachna Mittal. He filed a petition for restitution of conjugal rights, which was dismissed. His wife then filed a petition seeking annulment of the marriage, which was allowed. The respondent later withdrew both appeals and got married to the appellant.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A statute prohibiting a certain act without providing for the consequence of breach does not make that act void.",
+      "held": "Whenever a statute prohibits a certain thing being done thereby making it unlawful without providing for consequence of the breach, it is not legitimate to say that such a thing when done is void.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "statute",
+        "prohibition",
+        "breach",
+        "void"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage cannot be declared void unless the statute expressly says so.",
+      "held": "Sanctity of marriage has to be respected and it cannot be declared void unless statute expressly says so.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "void",
+        "statute"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A judgment or decree remains in abeyance during the pendency of an appeal, but does not become non-existent.",
+      "held": "Stay of operation of judgement/decree by a superior court merely suspends its operation. The judgment/decree remains in abeyance during the pendency of the appeal. It does not become non-existent.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "judgment",
+        "decree",
+        "appeal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeals cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 9",
+    "Section 13(1)(ia)",
+    "restitution of conjugal rights",
+    "annulment of marriage",
+    "matrimonial dispute",
+    "family court",
+    "judicial separation",
+    "maintenance",
+    "custody",
+    "property settlement",
+    "alimony",
+    "marriage annulment",
+    "conjugal rights",
+    "spousal rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:20:08.730302"
 }

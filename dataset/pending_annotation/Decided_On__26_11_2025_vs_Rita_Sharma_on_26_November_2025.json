@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:28:13.719366",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1,
@@ -20,13 +20,13 @@
     "Ajay Mohan Goel J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned Additional District Judge, Sundernagar, District Mandi, H.P.",
   "reserved_on": "",
   "delivered_on": "26.11.2025",
-  "case_name": "Decided On: 26.11.2025 vs Rita Sharma on 26 November, 2025",
+  "case_name": "Sanjay Kumar Gangania v. Rita Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjay Kumar Gangania (Petitioner)",
+    "respondent_defendant": "Rita Sharma (Respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Proceedings under Section 9 of the Hindu Marriage Act were filed before the Court of learned Civil Judge. The petition was dismissed. An appeal was preferred under Section 28 of the Hindu Marriage Act before the learned District Judge. An application was filed to return the appeal to be presented before the appropriate Appellate Court, which was rejected.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An appeal against an order/judgment of a Court exercising delegated power shall be filed before the Court to which such decree would have been appealable if it were made by the original Court.",
+      "held": "This Court is of the considered view that in light of the exercise of this delegated power, the appeal was to be filed against the order/judgment of the said Court before a Court ordinarily before which a decree passed by the learned District Judge was appealable.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 28"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appeal",
+        "delegated power",
+        "original jurisdiction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "When a Court exercises delegated power, the appeal against its order/judgment shall be filed before the Court to which such decree would have been appealable if it were made by the original Court.",
+      "held": "This Court is making this observation for the reason that the language of Section 28 of the Hindu Marriage Act is to the effect that all decrees made by the Court in any proceeding under the Hindu Marriage Act shall be appealable as decrees of the Court made in exercise of its original civil jurisdiction.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 28"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "delegated power",
+        "original jurisdiction",
+        "appeal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order is set aside and the appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Specific Relief Act",
+    "Section 28",
+    "Order 7 Rule 10A",
+    "Section 151",
+    "Civil Procedure Code",
+    "Appeal",
+    "Return of Appeal",
+    "Appellate Court",
+    "Section 9",
+    "Hindu Marriage Act 1955",
+    "Mandi",
+    "Sundernagar",
+    "District Judge",
+    "Senior Advocate",
+    "Advocate"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "appealing a family court order",
+    "return of appeal in Hindu Marriage Act case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:26:57.428432"
 }

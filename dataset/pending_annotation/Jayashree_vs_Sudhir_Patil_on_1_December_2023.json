@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:52:11.514243",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "M.C.No.97/2023",
     "sc.No.425/2023"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge Family Court at Bidar (M.C No.97/2023)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jayashree vs Sudhir Patil on 1 December, 2023",
+  "case_name": "Jayashree vs Sudhir Patil",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SMT. JAYASHREE, W/O SUDHIR PATIL",
+    "respondent_defendant": "SRI SUDHIR PATIL",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife filed petition under Section 24 of CPC to transfer M.C.No.97/2023 pending before Principal Judge, Family Court at Bidar to the Principal Judge, Family Court at Vijayapur.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party seeking transfer of a case has to demonstrate that they are experiencing difficulty in attending the proceedings.",
+      "held": "The petitioner is experiencing difficulty in attending the proceedings at Bidar, as she is residing in Vijayapur.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer of case",
+        "difficulty in attendance",
+        "petitioner's residence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family court proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's inability to attend proceedings due to distance or other reasons can be a ground for transfer.",
+      "held": "Naturally, she finds it difficult in travelling from Vijayapur to Bidar and contest M.C.No.97/2023.",
+      "applicable_acts_sections": [
+        "CPC — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "inability to attend",
+        "distance",
+        "traveling difficulties"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "family court proceedings"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "transfer of case",
+    "family court",
+    "principal judge",
+    "wife's petition",
+    "husband's response",
+    "maintenance",
+    "custody",
+    "alimony",
+    "property settlement",
+    "joint family",
+    "separation",
+    "matrimonial dispute",
+    "CPC",
+    "Family Court Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for transfer of case under Section 24 CPC",
+    "advising on maintenance and custody in divorce proceedings",
+    "assisting with property settlement in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:12:26.210813"
 }

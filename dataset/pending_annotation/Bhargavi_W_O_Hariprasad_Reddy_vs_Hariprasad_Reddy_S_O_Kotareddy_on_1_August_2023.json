@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:25:42.090652",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Bhargavi W/O Hariprasad Reddy vs Hariprasad Reddy S/O Kotareddy on 1 August, 2023",
+  "case_name": "Bhargavi W/O Hariprasad Reddy vs Hariprasad Reddy S/O Kotareddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SMT. BHARGAVI W/O HARIPRASAD REDDY (wife)",
+    "respondent_defendant": "SHRI HARIPRASAD REDDY @ HARIVARAPRASAD (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks to withdraw M.C.No.60/2022 pending on the file of Senior Civil Judge and JMFC, Shorapur and transfer to the court of Senior Civil Judge and JMFC at Sindhanur, Raichur District.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The convenience of the wife needs to be considered while transferring a petition.",
+      "held": "The learned counsel would contend that the convenience of the wife takes a paramount concern while transferring the petition from one place to another.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "N.C.V. AISHWARYA VS. A.S.SARAVANA KARTHIK SHA, (2022) SCC OnLine SC 119"
+      ],
       "keywords": [
-        "TODO"
+        "convenience",
+        "wife",
+        "petition",
+        "transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The ends of justice should demand the transfer of a petition.",
+      "held": "The cardinal principle for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the petition.",
+      "applicable_acts_sections": [
+        "CPC — Section 24"
+      ],
+      "cited_cases": [
+        "N.C.V. AISHWARYA VS. A.S.SARAVANA KARTHIK SHA, (2022) SCC OnLine SC 119"
+      ],
+      "keywords": [
+        "ends",
+        "justice",
+        "transfer",
+        "petition"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner's petition is allowed. M.C.No.60/2022 pending on the file of Senior Civil Judge and JMFC, Shorapur is withdrawn and transferred to the court of Senior Civil Judge and JMFC at Sindhanur, Raichur District.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "maintenance",
+    "alimony",
+    "custody",
+    "joint family",
+    "separation",
+    "matrimonial dispute",
+    "Section 24 CPC",
+    "Section 125 CrPC",
+    "Latin maxim: Nemo dat quod non habet",
+    "marital property",
+    "family law",
+    "property settlement",
+    "domestic violence",
+    "DV Act",
+    "HMA",
+    "CPC"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on maintenance and alimony",
+    "assisting in a matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T20:37:27.003590"
 }

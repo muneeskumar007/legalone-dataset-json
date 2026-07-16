@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:29:36.211307",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -29,13 +29,13 @@
     "RP.no.496 of 2017",
     "MC.no.26 of 2015"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Senior Civil Judge, Tenali (HMOP.no.33 of 2017)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "D Jagadish Babu vs D Sujatha on 19 July, 2019",
+  "case_name": "D Jagadish Babu vs D Sujatha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband",
+    "respondent_defendant": "wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a divorce petition under Section 13(1)(ia)&(ib) of the Hindu Marriage Act, 1955. The wife filed an interim maintenance petition under Section 24 of the Act. The trial court granted interim maintenance at Rs.1,500/- per month from the date of filing till disposal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife who is getting maintenance under Section 125 of CrPC cannot again claim interim alimony under Section 24 of the Hindu Marriage Act.",
+      "held": "Jharkhand High Court held that the wife who is getting a maintenance of Rs.5,000/- as per an interim order passed in MC under Section 125 of CrPC cannot again claim interim alimony under Section 24 of the Hindu Marriage Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24",
+        "CrPC — Section 125"
+      ],
+      "cited_cases": [
+        "Sangeeta v. State of Jharkhand, (2018) AIR JHARKHAND 57"
+      ],
+      "keywords": [
+        "maintenance",
+        "interim alimony",
+        "Section 125 CrPC",
+        "Section 24 Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "matrimonial proceedings"
+      ],
+      "significance": "HIGH — to determine the wife's entitlement to maintenance",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court below ought to have taken into consideration the huge expenses incurred by the wife on various litigations while fixing the quantum of interim maintenance.",
+      "held": "The Court below ought to have taken into consideration the huge expenses incurred by the wife on various litigations and ought to have fixed an adequate amount towards interim maintenance.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "expenses",
+        "litigations",
+        "interim maintenance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "matrimonial proceedings",
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM — to ensure fairness in determining the wife's entitlement to maintenance",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The revision petitions are disposed of with a direction to the trial court to reconsider the quantum of interim maintenance awarded to the wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "interim maintenance",
+    "Section 13(1)(ia)&(ib)",
+    "Section 24",
+    "desertion",
+    "marriage dissolution",
+    "family law",
+    "Indian court judgments",
+    "civil revision petition",
+    "maintenance award",
+    "judicial separation",
+    "matrimonial dispute",
+    "spousal support",
+    "family court jurisdiction"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on interim maintenance",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:05:09.301627"
 }

@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:30:24.122812",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -26,13 +26,13 @@
   "case_numbers": [
     "OP.No. 38/2000"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Senior Civil Judge, Eluru, OP No.38 of 2000",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Grandham Sridhar vs Smt. Grandham Jaya Vani on 3 July, 2019",
+  "case_name": "Grandham Sridhar vs Smt. Grandham Jaya Vani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Grandham Sridhar, husband",
+    "respondent_defendant": "Smt. Grandham Jaya Vani, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The marriage was performed on 10.04.1996. The husband filed for dissolution of marriage. The trial court dismissed the petition and allowed the wife's counter claim for restitution of conjugal rights.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden is on the party to prove cruel acts.",
+      "held": "The burden is on the appellant to prove the cruel acts on the part of the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Vidhya Viswanathan v Kartik Balakrishnan",
+        "K.Srinivas Rao v D.A.Deepa"
+      ],
       "keywords": [
-        "TODO"
+        "mental cruelty",
+        "physical cruelty",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Mental cruelty can be caused by refusal to have sexual intercourse, making defamatory allegations, and filing repeated false complaints.",
+      "held": "It was held in Vidhya Viswanathan v Kartik Balakrishnan that refusal to have sexual intercourse for considerable period by wife amounts to mental cruelty. It was also held in K.Srinivas Rao v D.A.Deepa that making undoubted, indecent defamatory allegations against the spouse or his or her relatives in the pleadings, filing of complaints or issuing notices or news items which may have adverse impact on the business prospects or the job of the spouse and filing repeated false complaints would, in the facts of a case amount to causing mental cruelty.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [
+        "Vidhya Viswanathan v Kartik Balakrishnan",
+        "K.Srinivas Rao v D.A.Deepa"
+      ],
+      "keywords": [
+        "mental cruelty",
+        "defamatory allegations",
+        "false complaints"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed, and the order dated 03/12/2004 was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 28",
+    "civil miscellaneous appeal",
+    "maintenance",
+    "alimony",
+    "separation",
+    "irretrievable breakdown",
+    "marriage",
+    "spouse",
+    "family court",
+    "principal senior civil judge",
+    "Elurtt",
+    "Khammam",
+    "West Godavari",
+    "Andhra Pradesh",
+    "High Court of Andhra Pradesh",
+    "Amaravathi"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "representing clients in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:22:28.511189"
 }

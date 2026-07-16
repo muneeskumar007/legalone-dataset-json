@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:31:22.491629",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "will_succession": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Himanshu Singh vs Rashmi Singh on 18 May, 2026",
+  "case_name": "Himanshu Singh vs Rashmi Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Himanshu Singh — husband",
+    "respondent_defendant": "Rashmi Singh — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of defendant-petitioner with plaintiff-respondents stood solemnized on 24.11.2024, they are living separately. Application for cooling period was preferred and rejected by trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A court may grant liberty to move a fresh application with better particulars.",
+      "held": "In view of the same, the petition is disposed of with liberty to the petitioner to move a fresh application with better particulars.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Amardeep Singh vs. Harveen Kaur; (2017) 8 SCC 746",
+        "Matters Under Article 227 No.1886 of 2020 (Smt. Pratibha v. Gaurav)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "fresh application",
+        "better particulars",
+        "expeditious disposal"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family court proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A court may consider guidelines issued by the Hon'ble Supreme Court in deciding a matter.",
+      "held": "Principle Judge (Family Court) will decide the same expeditiously preferably within a period of four weeks, considering the guidelines issued by the Hon'ble Supreme Court",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Amardeep Singh vs. Harveen Kaur; (2017) 8 SCC 746",
+        "Matters Under Article 227 No.1886 of 2020 (Smt. Pratibha v. Gaurav)"
+      ],
+      "keywords": [
+        "guidelines",
+        "expeditious disposal",
+        "Supreme Court"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family court proceedings",
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal disposed of",
+    "final_order": "Petition is disposed of with liberty to the petitioner to move a fresh application with better particulars.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cooling period",
+    "Section 13-B",
+    "separation",
+    "family court",
+    "Article 227",
+    "High Court of Judicature at Allahabad",
+    "Allahabad HC",
+    "marriage solemnized",
+    "living separately",
+    "plaintiff-respondent",
+    "defendant-petitioner",
+    "cooling off period",
+    "waive cooling period"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:09:03.291237"
 }

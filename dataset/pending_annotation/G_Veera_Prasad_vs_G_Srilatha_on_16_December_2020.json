@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:30:53.784102",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2
@@ -20,13 +20,13 @@
   "case_numbers": [
     "M.C.No.6 of 2018"
   ],
-  "trial_court": "",
+  "trial_court": "Court of learned Senior Civil Judge, Sattenapalli, HMOP No.28 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "G. Veera Prasad vs G. Srilatha on 16 December, 2020",
+  "case_name": "G. Veera Prasad vs G. Srilatha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri S.Subba Reddy, husband",
+    "respondent_defendant": "G. Srilatha, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are married and have been living separately. The respondent filed a petition for restitution of conjugal rights (HMOP No.28 of 2018) and the petitioner filed a petition for dissolution of marriage (FCOP No.629 of 2016). Both matters are pending.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The possibility of avoiding conflicting findings is seen when the same Court considers both matters.",
+      "held": "By this process, in as much as the same Court considers both these matters, possibility of avoiding conflicting findings is very much seen.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Kaligithi Priyanka v. Javudula Rajeev Gandhi, (2020) 3 ALD 87"
+      ],
       "keywords": [
-        "TODO"
+        "conflicting findings",
+        "same Court",
+        "possibility of avoiding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The course to follow to transfer a case from the Court of learned Family Judge to the Court of learned Senior Civil Judge is not barred.",
+      "held": "Thus, there is no legal bar for the Court of Senior Civil Judge to consider a matter, which was earlier pending in the Family Court and which is brought to on its file by mechanism of transfer, in terms of Sec",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 9"
+      ],
+      "cited_cases": [
+        "Kaligithi Priyanka v. Javudula Rajeev Gandhi, (2020) 3 ALD 87"
+      ],
+      "keywords": [
+        "transfer",
+        "Court of learned Family Judge",
+        "Court of learned Senior Civil Judge"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Transfer allowed",
+    "final_order": "The matter will be transferred to the Family Court, Guntur.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 9",
+    "conjugal rights",
+    "marriage dissolution",
+    "family court",
+    "transfer petition",
+    "HMOP",
+    "FCOP",
+    "Guntur District",
+    "Sattenapalli",
+    "Muppalla Mandal",
+    "Madala Village",
+    "separation",
+    "residency",
+    "petitioner",
+    "respondent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family court jurisdiction",
+    "assisting with transfer of cases between courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:41:14.983793"
 }

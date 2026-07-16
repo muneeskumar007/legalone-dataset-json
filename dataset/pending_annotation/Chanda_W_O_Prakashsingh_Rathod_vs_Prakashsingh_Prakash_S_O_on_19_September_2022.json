@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:27:14.023599",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 3,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Akola (judgment and decree of divorce passed on 22.10.2021)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chanda W/O Prakashsingh Rathod vs Prakashsingh @ Prakash S/O ... on 19 September, 2022",
+  "case_name": "Chanda W/O Prakashsingh Rathod vs Prakashsingh @ Prakash S/O ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chanda w/o. Prakashsingh Rathod, wife",
+    "respondent_defendant": "Prakashsingh @ Prakash s/o. Ramadharsingh Rathod, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant-Chanda w/o. Prakashsingh Rathod and respondent-Prakashsingh @ Prakash s/o. Ramadharsingh Rathod were husband and wife. Their marriage was solemnized on 6.5.2006 as per Hindu rites and religion. One son and one daughter are begotten from the said wedlock.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party has a right to defend the case.",
+      "held": "She had right to defend the case.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "right to defend",
+        "party's rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court should consider a party's application for maintenance pendente lite and expenses of proceedings before disposing of the main petition.",
+      "held": "The learned trial Court ought to have considered that the appellant is a resident of Nanded and was required to attend the case at Akola.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance pendente lite",
+        "expenses of proceedings"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party's failure to appear and cross-examine the witness does not necessarily mean that the court has committed an illegality.",
+      "held": "No illegality is committed by the learned trial Court, therefore, no interference is called for.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "party's failure",
+        "illegality"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Penal Code",
+    "1860",
+    "Family Court",
+    "Akola",
+    "judgment",
+    "decree",
+    "marriage",
+    "spouse",
+    "grounds",
+    "irretrievable breakdown",
+    "separation",
+    "cohabitation",
+    "residency",
+    "occupation",
+    "nil",
+    "service"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing family court judgment",
+    "advising on grounds for divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:29:32.027929"
 }

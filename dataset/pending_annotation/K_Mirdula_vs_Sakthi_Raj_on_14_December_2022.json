@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:54:28.635716",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -25,13 +25,13 @@
     "M.P.No.17102 of 2022",
     "M.C.No.169 of 2022"
   ],
-  "trial_court": "",
+  "trial_court": "Sub Court, Perundurai (HMOP No.68 of 2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "K.Mirdula vs Sakthi Raj on 14 December, 2022",
+  "case_name": "K.Mirdula vs Sakthi Raj",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "K.Mirdula, wife",
+    "respondent_defendant": "Sakthi Raj, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent were married in 2019. They have a one-and-a-half-year-old daughter. The petitioner is unemployed and seeking maintenance to care for the child.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,28 +69,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Courts are bound to protect the interest of minor children at all circumstances.",
+      "held": "However, the interest of the minor child is of paramount importance and the Courts are bound to protect the interest of the minor children at all circumstances.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "minor children",
+        "paramount importance",
+        "protection"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Remedy of maintenance is a social justice as envisaged under the Constitution to prevent the child from falling into destitution or vagrant.",
+      "held": "Remedy of maintenance is a social justice as envisaged under the Constitution to prevent the child from falling into destitution or vagrant.",
+      "applicable_acts_sections": [
+        "Constitution"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "social justice",
+        "maintenance",
+        "destitution",
+        "vagrant"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Courts are bound to consider the grant of interim maintenance even in the absence of any application from the mother till such time the final maintenance is to be determined after adjudication.",
+      "held": "Thus, the Family Courts or the Courts dealing with the matrimonial cases are bound to consider the grant of interim maintenance even in the absence of any application from the mother till such time the final maintenance is to be determined after adjudication.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "final maintenance",
+        "adjudication"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The Courts are directed to look into the issues and consider for grant of interim maintenance to protect the livelihood of the children residing with the unemployed mother.",
+      "held": "In all such cases, the Courts are directed to look into the issues and consider for grant of interim maintenance to protect the livelihood of the children residing with the unemployed mother.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "livelihood",
+        "unemployed mother"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Interim maintenance was ordered by the court to protect the livelihood of the minor child.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
     "TODO — add 15+ keywords after reading"
@@ -101,7 +161,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:42:49.974857"
 }

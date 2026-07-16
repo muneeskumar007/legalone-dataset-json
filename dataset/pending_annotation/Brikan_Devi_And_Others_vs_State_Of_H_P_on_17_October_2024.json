@@ -7,7 +7,7 @@
   "total_pages": 35,
   "extracted_at": "2026-07-15T10:26:13.342957",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "Rakesh Kainthla J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "learned Trial Court, case numbers 50 and 51 of 2010",
   "reserved_on": "21.08.2024",
   "delivered_on": "",
-  "case_name": "Brikan Devi And Others vs State Of H.P on 17 October, 2024",
+  "case_name": "Brikan Devi And Others vs State Of H.P",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Brikan Devi and others (accused)",
+    "respondent_defendant": "State of H.P.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -99,7 +99,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The police presented a challan against the accused for the commission of offences punishable under Sections 498-A and 306 read with Section 34 of IPC. The deceased Anita was being harassed with the demand of money by her husband and his relatives.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -109,39 +109,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Unless the particular matter or point in the previous statement sought to be contradicted is placed before the witness for explanation, the previous statement cannot be used in evidence.",
+      "held": "The utmost respect to the learned defence counsel, we are unable to accept his above contention. Because, unless the particular matter or point in the previous statement sought to be contradicted is placed before the witness for explanation, the previous statement cannot be used in evidence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act — Section 145"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Pangi Jogi Naik v. State, (1965) Cri LJ 661",
+        "Tahsildar Singh v. State of U.P., (1959) Cri LJ 1231"
+      ],
       "keywords": [
-        "TODO"
+        "previous statement",
+        "witness explanation",
+        "contradiction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "murder cases",
+        "criminal trials"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — to ensure the reliability of witness statements",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The correct procedure to contradict evidence given by a prosecution witness at trial with a statement made by him before the police during investigation is to draw the attention of the witness to that part of the contradictory statement which he made before the police, and question him whether he did, in fact, make that statement.",
+      "held": "However, if on the other hand the witness denies to have made such a statement before the police, the particular portions of the statement recorded should be provisionally marked for identification as B-1 to B-1, B-2 to B-2 etc. and when the investigating officer who had actually recorded the statements in question comes into the witness box, he should be questioned as to whether these particular statements had been made to him during the investigation by the particular witness.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act — Section 145"
+      ],
+      "cited_cases": [
+        "Pangi Jogi Naik v. State, (1965) Cri LJ 661",
+        "Tahsildar Singh v. State of U.P., (1959) Cri LJ 1231"
+      ],
+      "keywords": [
+        "witness statement",
+        "contradiction procedure",
+        "investigating officer"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "murder cases",
+        "criminal trials"
+      ],
+      "significance": "HIGH — to ensure the reliability of witness statements",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appellants were convicted of an offence punishable under Section 498-A read with Section 34 of IPC and sentenced to undergo three years rigorous imprisonment each and pay a fine of ₹2,000/- each.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "Indian Evidence Act",
+    "Section 498-A",
+    "Section 34",
+    "IPC",
+    "rigorous imprisonment",
+    "simple imprisonment",
+    "fine",
+    "imprisonment",
+    "Trial Court",
+    "High Court",
+    "Appeal",
+    "Criminal Appeal",
+    "Himachal Pradesh"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against conviction for domestic violence",
+    "preparing response to criminal appeal",
+    "assisting in drafting judgment on criminal appeal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:07:23.466668"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:31:11.066607",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Ambala",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Harjit Singh vs Iqbal Kaur on 5 July, 1993",
+  "case_name": "Harjit Singh vs Iqbal Kaur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Harjit Singh, husband",
+    "respondent_defendant": "Iqbal Kaur, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1972 and had two daughters. The wife filed a petition for restitution of conjugal rights in 1980, which was granted. The husband then filed a petition for divorce under Section 13(1A) of the Hindu Marriage Act, 1955, claiming that there had been no cohabitation between the parties for more than a year after the decree for restitution of conjugal rights. The trial court found that there had been no compliance with the decree and that the husband was not entitled to take advantage of his own wrongs.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party seeking to prove a fact to establish it through credible evidence.",
+      "held": "Not only this version of Narender Singh is contrary to what has been stated by the wife but the same is also not worthy of credence.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Harjit Singh vs Iqbal Kaur, (1993)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "credibility",
+        "evidence",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's version of events can be discredited if it is found to be false or fabricated.",
+      "held": "Her version that she had gone to Delhi in December, 1980 to live with her husband and the reafter she had filed the petition under Section 125 of the Code of Criminal Procedure, is thus proved to be false.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Harjit Singh vs Iqbal Kaur, (1993)"
+      ],
+      "keywords": [
+        "credibility",
+        "fabrication",
+        "falsehood"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order granted the husband's petition for divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "conjugal rights",
+    "restitution",
+    "Section 13(1A)",
+    "matrimonial dispute",
+    "desertion",
+    "dowry",
+    "family members",
+    "Latin maxim",
+    "actus reus",
+    "mens rea",
+    "cohabitation",
+    "annulment",
+    "separation",
+    "marriage",
+    "divorce petition",
+    "decree for divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "advising on grounds for divorce",
+    "representing in a matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:49:47.698106"
 }

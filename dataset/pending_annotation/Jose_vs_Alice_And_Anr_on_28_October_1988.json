@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:52:58.304403",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 3,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sessions Court",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jose vs Alice And Anr. on 28 October, 1988",
+  "case_name": "Jose vs Alice And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jose, husband",
+    "respondent_defendant": "Alice, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Jose and Alice were married in a Roman Catholic Church. Jose suspected Alice's chastity after 2.5 months of marriage. He terminated her pregnancy and she was left at her parents' house. The marriage was declared null and void by ecclesiastical tribunals. Alice then filed for maintenance under Section 125(1) of the Cri. P.C.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The High Court has jurisdiction to entertain a petition for nullity of marriage on the ground of force or fraud.",
+      "held": "Thus the power to make decrees of nullity of marriage on the ground of duress or fraud was inherited by the Supreme Courts from the Ecclesiastical Courts and the High Courts inherited that power from the Supreme Courts.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Divorce Act"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "B. Ignatius Anthoney Jayaraj v. Immy Margaret Florence, AIR 1978 Kant 69",
+        "T. Saroja David v. Christie Francis"
+      ],
       "keywords": [
-        "TODO"
+        "nullity of marriage",
+        "force or fraud",
+        "High Court jurisdiction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "nullity of marriage cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The ecclesiastical law under which a marriage was dissolved by the Church cannot affect or govern the Civil Law.",
+      "held": "It was a case where the respondent wife had addressed a letter to His Holiness Pope Paul VI for grant of a dispensation dissolving the marriage between the petitioner and herself on the ground of non-consummation.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Re V. Alexander H. Mackonochie v. The Hon. Lord Panzance and John Martin (1880-1) 6 AC 424",
+        "Kurian v. Alphonso, 1986 Ker LJ 585"
+      ],
+      "keywords": [
+        "ecclesiastical law",
+        "Civil Law",
+        "Church dissolution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "marriage cases",
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order quashed the decision of the Magistrate and Sessions Court directing Jose to pay maintenance to Alice.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Roman Catholic Christians",
+    "Indian Christian Marriage Act",
+    "Section 5",
+    "Eparchial Tribunal",
+    "Archdiocesan Tribunal",
+    "null and void",
+    "chastity",
+    "pregnancy",
+    "termination",
+    "marriage solemnized",
+    "minister's competence",
+    "episcopal ordination",
+    "rules of the church",
+    "rites and customs",
+    "Christian marriage",
+    "divorce",
+    "family law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Christian marriages",
+    "appealing tribunal decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:26:49.068978"
 }

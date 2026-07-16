@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:28:15.246412",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -21,13 +21,13 @@
     "Ranjan Sharma J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Ld. Principal Judge (Family Court), Shimla bearing HMA No.179-S/3 of 2023",
   "reserved_on": "",
   "delivered_on": "05.12.2023",
-  "case_name": "Decided On : 04Th November vs Shri Rajeev Pathik on 4 November, 2024",
+  "case_name": "Chandni v. Rajeev Pathik",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chandni, wife",
+    "respondent_defendant": "Rajeev Pathik, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage was solemnized on 14.08.2012. Respondent turned out petitioner from his matrimonial home. Petitioner is residing at her parental house and has filed a petition under Domestic Violence Act, claiming maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Convenience of the wife is to be preferred over convenience of the husband in matrimonial matters.",
+      "held": "In this type of matter, the convenience of the wife is to be preferred over the convenience of the husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rajani Kishor Pardeshi Versus Kishor Babulal Pardeshi (2005) 12 SCC 237"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial matters",
+        "wife's convenience",
+        "husband's convenience"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "wife",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In matrimonial matters, the Courts have to take into consideration the economic soundness of both parties, social strata of spouses and their behavioural pattern.",
+      "held": "The Courts have to take into consideration the economic soundness of both the parties, the social strata of the spouses and their behavioural pattern.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure"
+      ],
+      "cited_cases": [
+        "Civil Appeal No.4894 of 2022",
+        "N.C.V. Aishwarya versus A.S. Saravana Karthik Sha"
+      ],
+      "keywords": [
+        "matrimonial matters",
+        "economic soundness",
+        "social strata",
+        "behavioural pattern"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Proceedings i.e. HMA No.179-S/3 of 2023 may be transferred to the Court of Ld. Principal Judge (Family Court) Mandi, District Mandi, H.P.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Section 13 HMA",
+    "Family Court",
+    "Mandi",
+    "Shimla",
+    "High Court",
+    "Himachal Pradesh",
+    "petition",
+    "CMPMO",
+    "HMA No.179-S/3",
+    "Rajeev Pathik",
+    "Chandni",
+    "transfer of case",
+    "justice be done"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "transferring family court cases",
+    "appealing High Court judgments"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T15:29:41.769245"
 }

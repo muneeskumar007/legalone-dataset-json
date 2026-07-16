@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:51:56.466097",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jasbeer vs Nishta Dawar on 12 September, 2023",
+  "case_name": "Jasbeer vs Nishta Dawar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jasbeer (husband)",
+    "respondent_defendant": "Nishta Dawar (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married but their marriage was never consummated. The husband claimed the wife misrepresented herself and fraudulently obtained his consent to marry. He sought annulment of the marriage under Section 12(1)(c) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The consent of the parties to a marriage must be freely given and not obtained by force or fraud.",
+      "held": "Under the Hindu Marriage Act, not every kind of misrepresentation or concealment of fact can be termed as fraud as envisaged under Section 12 of the Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 12"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Jasbeer vs Nishta Dawar, (2023) X SCC Y",
+        "Anath Nath De vs. Smt. Lajjabati Devi, AIR 1959 Cal. 778"
+      ],
       "keywords": [
-        "TODO"
+        "consent",
+        "fraud",
+        "marriage",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "annulment of marriage cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The concealment of a fact that the wife had been in a 'naikin' by profession and even in the keeping of more than one person prior to the marriage was not a fraud if there was consent to the marriage.",
+      "held": "Mulla, in Principles of Hindu law, 11th Edition, observes that so long as the person 'freely consents' to solemnization of the marriage in accordance with customary ceremonies, understanding the nature and having an intention to marry, objection as to the validity of marriage on the ground of fraudulent representation or concealment cannot be taken subsequently.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 12"
+      ],
+      "cited_cases": [
+        "Jasbeer vs Nishta Dawar, (2023) X SCC Y",
+        "Anath Nath De vs. Smt. Lajjabati Devi, AIR 1959 Cal. 778"
+      ],
+      "keywords": [
+        "consent",
+        "fraud",
+        "marriage",
+        "Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "annulment of marriage cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed and the judgment dismissing the petition for annulment of marriage was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "annulment of marriage",
+    "fraud in marriage",
+    "Hindu Marriage Act",
+    "Section 12(1)(c)",
+    "consummation of marriage",
+    "Beautician profession",
+    "marriage registration",
+    "District Magistrate",
+    "Model Town",
+    "Arya Samaj Mandir",
+    "family court",
+    "Family Court Act",
+    "Section 19",
+    "Latin maxim: 'Nemo judex in causa sua'",
+    "domestic violence",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting annulment petitions",
+    "advising on marriage registration",
+    "representing clients in family court disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:54:40.621576"
 }

@@ -7,7 +7,7 @@
   "total_pages": 172,
   "extracted_at": "2026-07-15T10:26:57.996992",
   "domain": "property_dispute",
-  "sub_domain": "custody",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 1,
@@ -23,13 +23,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Ajay Gulati, Special Judge (PC Act), CBI-12",
   "reserved_on": "",
   "delivered_on": "15/10/2008",
   "case_name": "Cc No. 271/2019 Cbi vs Sanjiv Kumar And Others Page 1 Of 352 on 22 January, 2021",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Central Bureau of Investigation (CBI) vs. Sanjiv Kumar and others",
+    "respondent_defendant": "Sanjiv Kumar, Abha Sinha, Dr. Maheshwar Kumar, Kanak Lata",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Accused Sanjiv Kumar and others are charged with amassing assets beyond known sources of income.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,21 +65,24 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the witness to prove that his statement was recorded by CBI.",
+      "held": "Witness further admitted that he had received cash and cheques on various occasions from Tika Hasan Mustafa in the name of Sanjiv Kumar. However, he could not remember the names in which the shares used to be purchased and sold at the instance of Tika Hasan Mustafa.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "witness",
+        "statement",
+        "CBI"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
@@ -89,15 +92,32 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Indian Evidence Act",
+    "1872",
+    "PC Act",
+    "Section 109 IPC",
+    "Section 13(2) r/w 13 (1)(e)",
+    "CBI",
+    "IAS officer",
+    "Haryana cadre",
+    "assets",
+    "wealth",
+    "known sources of income",
+    "charge",
+    "trial",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a property dispute case",
+    "preparing for a trial on charges of amassing wealth",
+    "conducting research on Indian Evidence Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:17:25.308216"
 }

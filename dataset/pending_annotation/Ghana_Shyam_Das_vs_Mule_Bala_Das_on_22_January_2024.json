@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:30:10.700120",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "Kalyan Rai Surana J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "learned Addl. District Judge, Goalpara in Misc. (J) Case No. 05/2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ghana Shyam Das vs Mule Bala Das on 22 January, 2024",
+  "case_name": "Ghana Shyam Das vs Mule Bala Das",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ghana Shyam Das, estranged husband",
+    "respondent_defendant": "Mule Bala Das, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's estranged wife sought pendente lite maintenance and expenses of proceeding under Section 24 of the Hindu Marriage Act, 1955. The respondent claimed she was compelled to leave the petitioner's company with their minor son in 2015. A maintenance proceeding was instituted against the petitioner under Section 125 Cr.P.C., which was tried by the learned Court of Chief Judicial Magistrate, Bongaigaon.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power of the Courts to grant maintenance under the provisions of section 125 Cr.P.C. as well as section 24 of the Hindu Marriage Act, 1955 can both stand together.",
+      "held": "It has been held by the Supreme Court of India that such remedy has also been held to be a measure of social justice to prevent wives from falling into destitute and vagrancy.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — section 125",
+        "Hindu Marriage Act, 1955 — section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rajnesh v. Neha & Anr., (2021) 2 SCC 324"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "social justice",
+        "wives",
+        "destitute",
+        "vagrancy"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "It is mandatory for the parties to file their respective affidavit regarding disclosure of assets and liabilities.",
+      "held": "The Supreme Court of India had laid down the law that it was mandatory for the parties to file their respective affidavit regarding disclosure of assets and liabilities.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Rajnesh v. Neha & Anr., (2021) 2 SCC 324"
+      ],
+      "keywords": [
+        "affidavit",
+        "assets",
+        "liabilities",
+        "disclosure"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "property cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order dated 25.02.2022 is set aside and the matter is remanded to the trial court for fresh disposal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "pendente lite maintenance",
+    "expenses of proceeding",
+    "section 24",
+    "estranged husband",
+    "respondent-wife",
+    "Article 227",
+    "Constitution of India",
+    "Addl. District Judge",
+    "Misc. (J) Case No. 05/2021",
+    "Latin maxim: Nemo judex in causa sua",
+    "maintenance",
+    "Hindu Marriage Act, 1955",
+    "Code of Criminal Procedure, 1973"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "respondent's application for pendente lite maintenance",
+    "petitioner's appeal against order under Article 227"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:07:56.202682"
 }

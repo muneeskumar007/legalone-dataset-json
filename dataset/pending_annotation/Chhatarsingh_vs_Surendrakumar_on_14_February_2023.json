@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:27:33.046342",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "27.01.2023",
   "delivered_on": "14.02.2023",
-  "case_name": "Chhatarsingh vs Surendrakumar on 14 February, 2023",
+  "case_name": "Chhatarsingh vs Surendrakumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "CHHATTAR SINGH, S/O SHRI KANCHAN SINGH KUSHWAH, AGED 53 YEARS, OCCUPATION: AGRICULTURE.",
+    "respondent_defendant": "SURENDRA KUMAR S/O DEEPCHAND KUSHWAHA, AGED 25 YEARS, OCCUPATION: LABOUR",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The present Petitioners moved an application for mutation of their names in the revenue records u/s 109-110 of M.P. Land Revenue Code with regard to certain lands.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "On the basis of WILL, mutation cannot be done by revenue authorities.",
+      "held": "It was contended that a WILL was also executed in their by their Grandfather Daulatram and hiding all these facts and without making the Respondents party in the mutation proceedings got their names mutated in the revenue records on the basis of WILL, which was illegal and was against the settled principle of law.",
       "applicable_acts_sections": [
-        "TODO"
+        "M.P. Land Revenue Code"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "WILL",
+        "mutation",
+        "revenue authorities"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Children born out of the company cannot be said to be illegitimate children.",
+      "held": "It was also contended that even as per provisions of section 16 of Hindu Marriage Act, such children has a right in the property and therefore, without making them as a party in the mutation proceedings, the mutation of the names of the Petitioner in the revenue records on the basis of WILL, which was illegal and was against the settled principle of law.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 16"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "illegitimate children",
+        "children's rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The order passed by the Sub-Divisional-Officer was affirmed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Article 226",
+    "Constitution of India",
+    "matrimonial dispute",
+    "cruelty",
+    "desertion",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "separation",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property settlement",
+    "joint family",
+    "partition",
+    " Hindu law",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Section 23",
+    "Latin maxim: 'Nemo dat quod non habet'"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "assisting in property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:49:27.396066"
 }

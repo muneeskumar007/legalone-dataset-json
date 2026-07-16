@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:27:14.231422",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "partition": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chanderkala Trivedi (Smt) vs Dr. S.P. Trivedi on 24 August, 1993",
+  "case_name": "Chanderkala Trivedi (Smt) vs Dr. S.P. Trivedi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife",
+    "respondent_defendant": "husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife's appeal against grant of decree by divorce by the High Court on ground of cruelty under Section 13(1)(ia) of the Hindu Marriage Act. The parties were married for 9 years, and the husband filed a petition for divorce due to alleged intimacy with another lady doctor.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage cannot be continued if allegations of adultery are made by the parties.",
+      "held": "Once such allegations are made by the husband and wife as have been made in this case then it is obvious that the marriage of the two cannot in any circumstances be continued any further.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Narayan Ganesh Dastane v. Sucheta Narayan Dastane"
+      ],
       "keywords": [
-        "TODO"
+        "adultery",
+        "marriage",
+        "allegations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party making allegations of adultery to prove them beyond reasonable doubt.",
+      "held": "But we do not propose to examine it as we are satisfied that the marriage is dead and the findings of fact cannot be set aside by this Court except that the appeal can be sent back to Division Bench to decide it again which would mean another exercise in futility leading to tortuous litigation and continued agony of the parties.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Narayan Ganesh Dastane v. Sucheta Narayan Dastane"
+      ],
+      "keywords": [
+        "burden",
+        "adultery",
+        "proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The marriage was considered dead, and the parties were advised to arrive at a mutually acceptable resolution.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Section 13(1)(ia)",
+    "maintenance",
+    "alimony",
+    "marriage",
+    "family law",
+    "Indian law",
+    "judicial separation",
+    "matrimonial disputes",
+    "spousal abuse",
+    "domestic violence",
+    "family court",
+    "high court",
+    "supreme court",
+    "appeal",
+    "petition",
+    "family settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce on grounds of cruelty",
+    "advising clients on maintenance and alimony options",
+    "assisting in negotiating family settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:32:18.270729"
 }

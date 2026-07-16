@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:31:26.286184",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "S. Talapatra Counsel J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Kailasahar in Title Suit (Nullity) No. 1 of 2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Husband vs Smti. Panchali Das (Biswas) on 30 May, 2017",
+  "case_name": "Husband vs Smti. Panchali Das (Biswas)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Dipankar Biswas, husband",
+    "respondent_defendant": "Smti. Panchali Das (Biswas), wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent filed an application under Section 12(1)(C) of the Hindu Marriage Act, 1955 for annulling the marriage and directing the appellant to return presents, materials, articles, and valuables. The trial court dissolved the marriage on compromise.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Unless there is complete agreement between the parties for dissolution of marriage and unless court is completely satisfied in respect thereof, it cannot grant a decree for divorce by mutual consent.",
+      "held": "Once the appellant unilaterally withdrew his consent by filing the appropriate application as in this case, the trial court ought not to have granted the divorce decree;",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Hitesh Bhatnagar v. Deepa Bhatnagar, (2011) 5 SCC 234"
+      ],
+      "keywords": [
+        "divorce",
+        "mutual consent",
+        "agreement",
+        "satisfaction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court cannot grant a decree for divorce by mutual consent unless it is completely satisfied in respect thereof.",
+      "held": "Unless the court is completely satisfied in respect thereof, it cannot grant a decree for divorce by mutual consent;",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "mutual consent",
+        "satisfaction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is directed against the order dated 31-3-2016 passed by the learned Judge, Family Court, Kailasahar in Title Suit (Nullity) No. 1 of 2015 dissolving the marriage between the appellant and the respondent on compromise.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "annulment",
+    "marriage nullity",
+    "compromise",
+    "Family Court",
+    "Kailasahar",
+    "Section 12(1)(C)",
+    "nullity of marriage",
+    "matrimonial appeal",
+    "Tripura High Court",
+    "Agartala",
+    "West Tripura",
+    "Unakoti",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on annulment of marriage",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:11:47.493769"
 }

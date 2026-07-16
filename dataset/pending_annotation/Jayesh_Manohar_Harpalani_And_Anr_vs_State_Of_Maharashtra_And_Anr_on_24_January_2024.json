@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:52:12.491001",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "murder_criminal": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Metropolitan Magistrate's 17th Court, Borivali, C.C. No.2070/PW/18",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jayesh Manohar Harpalani And Anr vs State Of Maharashtra And Anr on 24 January, 2024",
+  "case_name": "Jayesh Manohar Harpalani And Anr vs State Of Maharashtra And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jayesh Manohar Harpalani and Anr (husband)",
+    "respondent_defendant": "The State of Maharashtra and Anr (wife, police station)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage was solemnized on 15/02/2009. Wife lodged FIR on 23/05/2017 alleging physical and mental cruelty. Parties resolved dispute amicably.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,63 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A dispute that has been amicably resolved between the parties can be settled by consent.",
+      "held": "The parties have resolved the dispute amicably. They have placed on record copy of the consent terms at Exhibit-B filed in Petition No.A-2620 of 2015, Family Court at Bandra, Mumbai.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(b)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "consent terms",
+        "divorce by mutual consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR No.111 of 2017 registered with Vanrai Police Station, Goregaon (East), Mumbai and C.C. No.2070/PW/18 arising therefrom are quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "498A",
+    "403",
+    "406",
+    "34",
+    "IPC",
+    "C.C.",
+    "Metropolitan Magistrate's",
+    "17th Court",
+    "Borivali",
+    "Mumbai",
+    "FIR",
+    "Vanrai Police Station",
+    "Goregaon East",
+    "quash",
+    "FIR No.111 of 2017",
+    "Sections",
+    "Criminal Case No.2070/PW/18"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs",
+    "family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:14:13.109396"
 }

@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:51:53.059077",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jamboo Parasad Jain vs Smt. Malti Prabha And Anr. on 24 January, 1979",
+  "case_name": "Jamboo Parasad Jain vs Smt. Malti Prabha And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Jamboo Prasad Jain (husband)",
+    "respondent_defendant": "Smt. Malti Prabha (wife) And Anr.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a petition under Sections 12 and 13 of the Hindu Marriage Act for a declaration that the marriage was null and void or a decree for divorce be granted. Petitioner alleged that respondent was suffering from schizophrenia at the time of marriage and was of unsound mind.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Subsequent events have to be noticed by a court of law.",
+      "held": "It was held that subsequent events have to be noticed by a court of law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Pasupuleti Venkateswarlu v. Motor & General Traders, AIR 1975 SC 1409"
+      ],
       "keywords": [
-        "TODO"
+        "subsequent events",
+        "court notice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The principle laid down in Section 15 would still be applicable even in a case where the marriage had been annulled.",
+      "held": "It was contended that although Section 15 did not specifically mention an annulment of marriage yet in view of the observations of their Lordships of the Supreme Court in Chandra Mohini v. Avinash Prasad (supra) the principle laid down in Section 15 would still be applicable even in a case where the marriage had been annulled.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Chandra Mohini v. Avinash Prasad",
+        "Vathsala v. Manoharan (AIR 1969 Mad 405)",
+        "Krishan Lal v. Krishna (AIR 1971 J. & K. 31)"
+      ],
+      "keywords": [
+        "annulment of marriage",
+        "Section 15 applicability"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Two civil revisions were decided by a common order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "null and void",
+    "schizophrenia",
+    "lunacy",
+    "unsound mind",
+    "matrimonial suit",
+    "civil revisions",
+    "Section 12",
+    "Section 13",
+    "U.P. Act No. XIII of 1972",
+    "Jain Hindus",
+    "Rohtak",
+    "marriage solemnised",
+    "mental illness",
+    "lucid intervals"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on nullity of marriage",
+    "representing client in matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:49:45.486300"
 }

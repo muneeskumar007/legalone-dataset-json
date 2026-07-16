@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:51:53.594259",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "MP.No. 1277 of 2022",
     "W.A.No.1181 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Erode (FCOP No. 528 of 2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Janaki vs Manickam on 12 December, 2022",
+  "case_name": "Janaki vs Manickam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Janaki, mother and caregiver",
+    "respondent_defendant": "Manickam, father",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner Janaki seeks to transfer a divorce case filed by respondent Manickam from the Family Court, Erode to the Principal Family Court, Coimbatore due to her inability to travel and contest the case.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The domicile or citizenship of the opposite party is immaterial in a case like this.",
+      "held": "In case the marriage was solemnized under Hindu Law marital relationship is governed by the provisions of the Hindu Marriage Act. Therefore, Section 19 has to be given a purposeful interpretation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 19"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "domicile",
+        "citizenship",
+        "marital relationship",
+        "Hindu Law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The residence of the wife determines the question of jurisdiction.",
+      "held": "It is the residence of the wife, which determines the question of jurisdiction, in case the proceeding was initiated at the instance of the wife.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "residence",
+        "jurisdiction",
+        "wife's residence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A beneficial provision meant for women should be given a meaningful interpretation by Courts.",
+      "held": "Such a beneficial provision meant for the women of our Country should be given a meaningful interpretation by Courts.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "beneficial provision",
+        "women's rights",
+        "meaningful interpretation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition is allowed and the divorce case is transferred to the Principal Family Court, Coimbatore.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Section 24",
+    "C.P.C.",
+    "Family Court",
+    "Principal Family Court",
+    "Coimbatore",
+    "Erode",
+    "unemployment",
+    "minor child",
+    "custody",
+    "residence",
+    "travel",
+    "contest",
+    "divorce case",
+    "FCOP",
+    "dissolution of marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family court procedures",
+    "representing clients in custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:50:37.300477"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:30:42.772217",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2
@@ -24,13 +24,13 @@
     "I.A.No.287 of 2012",
     "I.A.No.944 of 2012"
   ],
-  "trial_court": "",
+  "trial_court": "II Additional Senior Civil Judge at Warangal, O.P.No.78 of 2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "G.Bheeshmachary vs G.Chandrakala on 25 July, 2019",
+  "case_name": "G.Bheeshmachary vs G.Chandrakala",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "G.Bheeshmachary, husband",
+    "respondent_defendant": "G.Chandrakala, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed O.P. under Section 13 of Hindu Marriage Act, 1955 for dissolution of marriage. Respondent remained ex-parte and an ex-parte decree was passed. Respondent then filed application to condone delay in filing application to set aside the ex-parte decree.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to set aside an ex-parte decree to show sufficient cause for condonation of delay.",
+      "held": "He contended that if at this point of time, the delay in filing the application to set aside and the ex-parte decree in the O.P. is set aside, grave prejudice would be caused to him.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Order IX Rule 13"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Government of Andhra Pradesh, rep. by its Principal Secretary, I and CAD Department, Hyderabad and others v. Smt M.Pratimareddy and others (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "ex-parte decree",
+        "condonation of delay",
+        "sufficient cause"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party cannot agree to condone the delay in filing an application without proper instructions from the applicant.",
+      "held": "He further contended that the counsel, who represented him in the O.P. was never instructed to agree for the condonation of delay by him and he could not have agreed for condonation of the delay of 196 days in filing the application to set aside the ex-parte decree in the O.P.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Order IX Rule 13"
+      ],
+      "cited_cases": [
+        "Government of Andhra Pradesh, rep. by its Principal Secretary, I and CAD Department, Hyderabad and others v. Smt M.Pratimareddy and others (Year) X SCC Y"
+      ],
+      "keywords": [
+        "delay",
+        "condonation",
+        "instructions"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order dt.04.10.2012 in I.A.No.287 of 2012 is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "ex-parte decree",
+    "condonation of delay",
+    "Order IX Rule 13 CPC",
+    "Section 5 Limitation Act",
+    "Section 13 Hindu Marriage Act",
+    "Article 227 Constitution India",
+    "CPC",
+    "Revision Petition",
+    "ex-parte hearing",
+    "Motion List",
+    "II Additional Senior Civil Judge",
+    "Warangal",
+    "O.P.",
+    "IA",
+    "Limitation Act",
+    "Latin Maxim: audi alteram partem"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "condoning delay in filing applications",
+    "ex-parte hearings in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:33:38.360563"
 }

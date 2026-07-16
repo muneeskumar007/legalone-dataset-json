@@ -7,7 +7,7 @@
   "total_pages": 38,
   "extracted_at": "2026-07-15T10:52:15.290585",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 6,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jethu Ram vs Bhimu Through Her Lrs on 28 May, 2019",
+  "case_name": "Jethu Ram vs Bhimu Through Her Lrs",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jethu Ram — plaintiff",
+    "respondent_defendant": "Bhimu through her LRs — defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -77,7 +77,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff is the appellant, who aggrieved by judgments and decrees concurrently passed by the learned courts below, has filed the instant appeal. The parties shall be referred to as the 'plaintiff' and 'defendant'. Late Bihu made a grant of the suit land/property in favour of the defendant on account of maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -87,39 +87,108 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The right of a widow to be maintained is not a mere formality which is to be exercised as a matter of concession, grace or gratis but is a valuable, spiritual and moral right.",
+      "held": "From the judicial pronouncement, the right of a widow to be maintained, although does not create a charge on the property of her husband but certainly the widow can enforce her right by moving the Court and for passing a decree for maintenance by creating a charge.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "V. Tulsamma and others vs. Sesha Reddy, AIR 1977 SC 1944"
+      ],
+      "keywords": [
+        "maintenance",
+        "widow's right",
+        "spiritual",
+        "moral"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The husband has got a personal obligation to maintain his wife and if he is possessed of properties then his wife is entitled to a right to be maintained out of such properties.",
+      "held": "It is well settled that under the Hindu Law, the husband has got a personal obligation to maintain his wife and if he is possessed of properties then his wife is entitled to a right to be maintained out of such properties.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "husband's obligation",
+        "wife's entitlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The right under section 30 of the Hindu Succession Act, 1956 cannot be rendered otiose by a wide interpretation of Section 14(1).",
+      "held": "It was held at paras 13 and 14 that the right under section 30 of the Hindu Succession Act, 1956 cannot be rendered otiose by a wide interpretation of Section 14(1) and that these two provisions have to be balanced.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956",
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "Sadhu Singh vs. Gurdwara Sahib Narike, (2006) 8 SCC 75"
+      ],
+      "keywords": [
+        "section 30",
+        "section 14(1)",
+        "Hindu Succession Act",
+        "balance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Code of Criminal Procedure",
+    "1973",
+    "maintenance",
+    "grant",
+    "property",
+    "suit land",
+    "Cr. Revision No.8−M/85",
+    "RSA No.266/2004",
+    "Execution Petition No.1−X/05",
+    "partition suit",
+    "family property",
+    "joint family",
+    "coparceners",
+    "share",
+    "interest"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on Hindu succession law",
+    "assisting in maintenance disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:16:25.628534"
 }

@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T10:51:44.390723",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -19,13 +19,13 @@
   "case_numbers": [
     "I.A.No.6277/2023"
   ],
-  "trial_court": "",
+  "trial_court": "1st Civil Judge Class-1, Lakhnadaun, Distt.-Seoni in Civil Suit No.31-A/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jagdish Soni vs Raju on 2 August, 2023",
+  "case_name": "Jagdish Soni vs Raju",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jagdish Soni and others (husband, wife, plaintiff)",
+    "respondent_defendant": "Raju and others (wife, husband, defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Jagdish Soni and Raju. The relief claimed is declaration of share in the suit property. The trial court passed a judgment and decree which was reversed by the first appellate court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to set aside a decree.",
+      "held": "It is settled law that the burden lies on the party seeking to set aside a decree.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "decree",
+        "set aside"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The principle is that a party seeking to set aside a decree must establish sufficient grounds.",
+      "held": "It is settled law that the principle is that a party seeking to set aside a decree must establish sufficient grounds.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "set aside",
+        "sufficient grounds"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal admitted for final hearing",
+    "final_order": "Notice to respondents No.1 and 2 along with memo of appeal, substantial questions of law and I.A.No.6277/2023 application under Order 39 Rule 1 & 2 CPC.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 16",
+    "share in suit property",
+    "declaration of share",
+    "substantial questions of law",
+    "appeal",
+    "civil suit",
+    "Order 39 Rule 1 & 2 CPC",
+    "I.A.No.6277/2023",
+    "process fee",
+    "notice",
+    "returnable date"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "guidelines for filing civil suit",
+    "practical tips for handling family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:43:19.415165"
 }

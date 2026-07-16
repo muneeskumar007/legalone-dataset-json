@@ -7,7 +7,7 @@
   "total_pages": 22,
   "extracted_at": "2026-07-15T10:27:40.110074",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 10,
     "cheque_bounce": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chitra Sachin Mapara vs Shri Sachin Kumar Mapara on 20 December, 2016",
+  "case_name": "Chitra Sachin Mapara vs Shri Sachin Kumar Mapara",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chitra Sachin Mapara (husband, wife, plaintiff)",
+    "respondent_defendant": "Sachin Kumar Mapara (wife, husband, defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2002. The respondent filed a marriage petition in 2008 seeking dissolution of the marriage and alimony. The trial court allowed the petition and the respondent was granted alimony. This appeal is against that order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,116 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Normally some ups and down, wear and tear are bound to be there in the matrimonial life and no spouse however, could make any capital of such petty issues.",
+      "held": "The learned trial Judge rightly held that normally some ups and down, wear and tear are bound to be there in the matrimonial life and no spouse however, could make any capital of such petty issues.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial life",
+        "petty issues"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The instances alleged by the respondent against the appellant in respect of the alleged cruelty did not constitute the act of cruelty as envisaged under section 13(1)(ia) of the Hindu Marriage Act, 1955.",
+      "held": "He submits that the learned trial Judge has rightly held that the instances alleged by the respondent against the appellant in respect of the alleged cruelty did not constitute the act of cruelty as envisaged under section 13(1)(ia) of the Hindu Marriage Act, 1955.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The first appellate Court ought to have scrutinized the alleged acts of cruelty which were condoned by the respondent and which were not condoned before passing any decree of divorce.",
+      "held": "He submits that the first appellate Court ought to have scrutinized the alleged acts of cruelty which were condoned by the respondent and which were not condoned before passing any decree of divorce.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "condonation",
+        "decree of divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Even if the parties were staying separately after filing of the petition, the same cannot be a ground for granting divorce under the provisions of the Hindu Marriage Act.",
+      "held": "He submits that even if the parties was staying separately after filing of the petition, the same cannot be a ground for granting divorce under the provisions of the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order set aside the trial court's decision and dismissed the marriage petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "second appeal",
+    "civil appeal",
+    "judgment and decree",
+    "family court",
+    "district judge",
+    "Kalyan",
+    "May",
+    "2013",
+    "section 100",
+    "Code of Civil Procedure, 1908",
+    "Indian Kanoon",
+    "Jayawant Sawant Road",
+    "Dahisar",
+    "Mumbai",
+    "housewife",
+    "service",
+    "occupation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "appealing a family court judgment to the HC",
+    "responding to a second appeal in a civil case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:54:45.675968"
 }

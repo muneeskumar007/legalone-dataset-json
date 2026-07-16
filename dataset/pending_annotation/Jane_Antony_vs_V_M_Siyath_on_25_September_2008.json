@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T10:51:55.348096",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 4,
     "partition": 2,
@@ -32,8 +32,8 @@
   "delivered_on": "",
   "case_name": "Jane Antony vs V.M.Siyath on 25 September, 2008",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jane Antony, wife of Antony, and her three minor children (Roshen Antony, Lisa Antony, Aleykutty Ittyavirah)",
+    "respondent_defendant": "V.M.Siyath, Vellooparambil, K.K.Mohammed Ibrahim, The Oriental Insurance Company Limited, Sophia Mary Antony, Sona Noru Antony",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The case concerns the right of succession of illegitimate children born to Christian parents. The appellants' claim is against the award passed by the Motor Accidents Claims Tribunal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -83,39 +83,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The combined effect of Section 36 and Section 37 of the Indian Succession Act is that one-third of the estate of the deceased has to be first allocated to the widow, and the balance should be distributed among lineal descendants.",
+      "held": "We are of the view that Section 36 and Section 37 of the Indian Succession Act should be read with Section 33 (a) and the combined effect is that one-third of the estate of the deceased have to be first allocated to the widow and the balance should be distributed among lineal descendants.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Succession Act — Sections 36, 37"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "succession",
+        "estate",
+        "widow",
+        "lineal descendants"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Illegitimate children have a recognised status under the Indian Succession Act, and there is nothing in the Act barring them from succeeding to the estate of the deceased.",
+      "held": "He also pointed out that there is nothing in the Indian Succession Act barring illegitimate children from succeeding to the estate of the deceased.",
+      "applicable_acts_sections": [
+        "Indian Succession Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "illegitimate children",
+        "succession",
+        "estate"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The term 'children' in a Will or succession law includes only legal children, unless the testator intends to include illegitimate children.",
+      "held": "In common law, the legal significance of the word 'children' if used in a Will is legal children and it will not include illegitimate children unless the testator intends to include them.",
+      "applicable_acts_sections": [
+        "common law"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "children",
+        "illegitimate children",
+        "Wills"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "probate disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court held that the right of succession of illegitimate children born to Christian parents needs a central legislation. The appellants are entitled to inherit the property of their father under the Indian Succession Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Hindu Minority and Guardianship Act",
+    "illegitimate children",
+    "right of succession",
+    "Christian parents",
+    "central legislation",
+    "DV Act",
+    "marriage",
+    "divorce",
+    "custody",
+    "minor aged 2 years",
+    "minor aged 3 years"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "advising on Hindu Marriage Act and Protection of Women from DV Act",
+    "assisting with child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:52:31.183617"
 }

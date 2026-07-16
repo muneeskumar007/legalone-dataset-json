@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:29:48.592051",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "murder_criminal": 1
@@ -16,20 +16,20 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judicial Magistrate First Class, Kopargaon, Dist.Ahmednagar, Regular Criminal Case No.43 of 2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ganesh Madhukar Gadekar And Others vs The State Of Maharashtra And Another on 11 November, 2022",
+  "case_name": "Ganesh Madhukar Gadekar And Others v. The State Of Maharashtra And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ganesh Madhukar Gadekar and others (accused)",
+    "respondent_defendant": "The State of Maharashtra and another",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Couple seeks to quash criminal case for offenses punishable under Sections 498A, 504 and 506. They have agreed to amicably settle all disputes and seek divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -39,39 +39,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the applicant to demonstrate that the proceedings are abuse of process.",
+      "held": "They, therefore, unanimously request for quashment of the crime and the criminal case.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Ganesh Madhukar Gadekar And Others vs The State Of Maharashtra And Another, (2022)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashment",
+        "abuse of process"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may quash criminal proceedings if the parties have amicably settled their disputes.",
+      "held": "They advert our attention to the application Exhibit-F to demonstrate that they have inter alia agreed to withdraw all the proceedings initiated by them against each other including the present crime.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Ganesh Madhukar Gadekar And Others vs The State Of Maharashtra And Another, (2022)"
+      ],
+      "keywords": [
+        "amicable settlement",
+        "quashment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR No.0005 of 2022 registered at Kopargaon Rural Police Station, Dist.Ahmednagar, are quashed and set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Section 13(B)",
+    "Hindu Marriage Act",
+    "498A",
+    "504",
+    "506",
+    "quashment",
+    "amicable settlement",
+    "family law",
+    "marriage",
+    "judicial separation",
+    "criminal case",
+    "regular criminal case",
+    "Judicial Magistrate First Class",
+    "Kopargaon",
+    "Ahmednagar"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing criminal charges",
+    "amicable settlement agreement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:51:19.564622"
 }

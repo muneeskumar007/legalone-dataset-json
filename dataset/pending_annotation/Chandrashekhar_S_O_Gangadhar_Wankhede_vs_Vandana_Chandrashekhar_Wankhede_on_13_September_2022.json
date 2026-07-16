@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:27:17.278456",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 5,
     "property_dispute": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Chandrashekhar S/O Gangadhar Wankhede vs Vandana Chandrashekhar Wankhede on 13 September, 2022",
+  "case_name": "Chandrashekhar S/O Gangadhar Wankhede vs Vandana Chandrashekhar Wankhede",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chandrashekhar s/o Gangadhar Wankhede (husband)",
+    "respondent_defendant": "Vandana Chandrashekhar Wankhede (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The marriage took place on 21.7.2007. The respondent resided with the appellant only for 2 to 3 months after the marriage and since 2009, they have been residing separately. It is contended that there has been an irretrievable break down of marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,21 +48,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Irretrievable breakdown of marriage can be considered as a ground for divorce.",
+      "held": "Considering which, the following substantial question of law arises: whether due to voluntary leaving the matrimonial residence and not resuming cohabitation, even during the pendency of the litigation could it be said that the requirements of Section 13(1)(i-b) of the Hindu Marriage Act were satisfied.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "matrimonial residence",
+        "cohabitation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Voluntary leaving of the matrimonial residence and not resuming cohabitation can be considered as a ground for divorce.",
+      "held": "Whether due to voluntary leaving the matrimonial residence and not resuming cohabitation, even during the pendency of the litigation could it be said that the requirements of Section 13(1)(i-b) of the Hindu Marriage Act were satisfied.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "voluntary leaving",
+        "matrimonial residence",
+        "cohabitation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -72,15 +93,38 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "irretrievable break down",
+    "separation",
+    "cohabitation",
+    "marriage breakdown",
+    "substantial question of law",
+    "appellant",
+    "respondent",
+    "Nagpur Bench",
+    "High Court of Judicature at Bombay",
+    "Second Appeal No.205 of 2022",
+    "Chandrashekhar Wankhede",
+    "Vandana Chandrashekhar Wankhede",
+    "Advocate for appellant",
+    "Office Notes",
+    "Office Memoranda",
+    "Coram",
+    "Court's orders",
+    "Judge's orders",
+    "Registrar's orders"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on separation",
+    "appealing family court decision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:39:44.660818"
 }

@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:51:51.322621",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jaiprakash Madhukarrao Sahurkar vs Sarika W/O Jaiprakash Sahurkar on 29 February, 2016",
+  "case_name": "Jaiprakash Madhukarrao Sahurkar vs Sarika W/O Jaiprakash Sahurkar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jaiprakash Madhukarrao Sahurkar (husband)",
+    "respondent_defendant": "Sarika w/o Jaiprakash Sahurkar (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -67,7 +67,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant and non-applicant were married in 1999. Differences arose in 2013, leading to a complaint filed by the non-applicant against the applicant under Section 498-A of the Indian Penal Code. The parties arrived at an amicable settlement in 2014, but the applicant later filed for divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -77,39 +77,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The applicant cannot be compelled to undergo the rigour of trial under Section 12 of the Domestic Violence Act, 2005 on the basis of same allegations.",
+      "held": "Once it is found by the Court of competent jurisdiction that the non-applicant has failed to establish that the applicant had subjected the non-applicant to cruelty contemplated by Section 498-A of the Indian Penal Code, the applicant cannot be put to double jeopardy of undergoing the trial under the provisions of Section 12 of the Domestic Violence Act, 2005.",
       "applicable_acts_sections": [
-        "TODO"
+        "Domestic Violence Act, 2005 — Section 12"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Markapuram Siva Rao s/o Somaiah vs. State of Andhra Pradesh and another in Criminal Petition No.12970 of 2010",
+        "G.G.A. Naidu vs. State of Maharashtra & Ors. reported in 2002 ALL MR (Cri.) 1465"
+      ],
       "keywords": [
-        "TODO"
+        "domestic violence",
+        "double jeopardy",
+        "allegations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — to prevent harassment and abuse of process",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The findings recorded by the learned Magistrate while acquitting the applicant of the charge under Section 498-A and Section 323 of the Indian Penal Code are binding on the non-applicant.",
+      "held": "It is submitted that the maxim 'res-judicata provertitate accipitur' is applicable to the criminal proceedings also.",
+      "applicable_acts_sections": [
+        "Indian Penal Code — Sections 498-A, 323"
+      ],
+      "cited_cases": [
+        "Pritam Singh and another vs. The State of Punjab reported in AIR 1956 SC 415"
+      ],
+      "keywords": [
+        "res-judicata",
+        "binding findings"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "criminal cases",
+        "family disputes"
+      ],
+      "significance": "HIGH — to prevent harassment and abuse of process",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order passed by the learned Magistrate was set aside and the proceedings initiated by the non-applicant under Section 12 of the Protection of Women from Domestic Violence Act, 2005 were quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "Section 482",
+    "Article 227",
+    "Constitution of India",
+    "Magistrate",
+    "Misc. Criminal Application",
+    "Criminal Application",
+    "Nagpur Bench",
+    "Bombay High Court",
+    "Family Court",
+    "Domestic Violence",
+    "DV Act",
+    "Husband",
+    "Wife"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to DV allegations",
+    "appealing family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:48:53.091633"
 }

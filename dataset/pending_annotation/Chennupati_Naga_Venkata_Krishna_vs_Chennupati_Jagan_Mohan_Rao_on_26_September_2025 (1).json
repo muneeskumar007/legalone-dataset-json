@@ -7,7 +7,7 @@
   "total_pages": 44,
   "extracted_at": "2026-07-15T10:27:28.309399",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 9,
@@ -28,13 +28,13 @@
   "case_numbers": [
     "O.S.No.197 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "XII Additional District Judge, Krishna at Vijayawada",
   "reserved_on": "31.07.2025",
   "delivered_on": "",
-  "case_name": "Chennupati Naga Venkata Krishna vs Chennupati Jagan Mohan Rao on 26 September, 2025",
+  "case_name": "Chennupati Naga Venkata Krishna vs Chennupati Jagan Mohan Rao",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chennupati Naga Venkata Krishna, S/o. Kesava Rao, resident of Patamata Center, Vijayawada, Krishna District.",
+    "respondent_defendant": "Chennupati Jagan Mohan Rao, S/o. Madhava Rao, resident of Patamata Center, Vijayawada, Krishna District.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -100,7 +100,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The suit O.S.No.197 of 2009 was filed for declaration that the plaintiff Chennupathi Naga Venka...",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -110,39 +110,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the plaintiff to prove his case.",
+      "held": "Though the defendant did not lead any evidence and also did not cross-examine the plaintiff witness, but, merely because of that reason, the suit could not be decreed. The plaintiff had to still prove his plaint case.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "C.N. Ramappa Gowda vs C.C. Chandregowda (died) by LRs and another4",
+        "Manjunath Tirakappa Malagi (2012) 5 SCC 265 and another vs. Gurusiddappa Tirakappa Malagi (died through LRs)"
+      ],
+      "keywords": [
+        "plaintiff's burden",
+        "proof of case"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "civil suits"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The best evidence rule applies in cases where the authenticity of a document is disputed.",
+      "held": null,
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "best evidence",
+        "document authentication"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "civil suits"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "This appeal under Section 96 of the Code of Civil Procedure has been filed by the plaintiff in O.S.No.197 of 2009.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Code of Civil Procedure",
+    "Indian Evidence Act",
+    "appeal suit",
+    "cross-objection",
+    "family property",
+    "joint family",
+    "coparceners",
+    "share",
+    "partition suit",
+    " Hindu undivided family",
+    "HUF",
+    "family settlement",
+    "agreement",
+    "mutual consent",
+    "consent decree",
+    "judgment",
+    "property division"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on property division in a Hindu undivided family",
+    "negotiating a family settlement agreement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:44:03.789521"
 }

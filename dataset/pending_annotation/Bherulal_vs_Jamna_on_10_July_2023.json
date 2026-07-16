@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:25:54.883716",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "cheque_bounce": 1,
@@ -21,13 +21,13 @@
     "Farj J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.1, Bhilwara in Misc. Criminal Case No.333/2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Bherulal vs Jamna on 10 July, 2023",
+  "case_name": "Bherulal vs Jamna",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Bherulal S/o Sh. Mangu Ji Jat, husband",
+    "respondent_defendant": "Jamna W/o Sh. Bherulal And D/o Sh. Gambhir Jat, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of respondent was solemnized with petitioner 24 years ago. Parties separated themselves since 1999. Application under Section 125 of Cr.P.C. came to be filed on behalf of respondent-wife seeking maintenance, which came to be allowed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle their disputes permanently and agree on a full and final settlement.",
+      "held": "The parties stated before the trial Court that they have arrived at the settlement voluntarily and with full knowledge and without any coercion or duress.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "agreement",
+        "voluntary",
+        "knowledge",
+        "coercion",
+        "duress"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A settlement agreed upon by parties can be considered as a full and final settlement.",
+      "held": "The parties stated before the trial Court that they have arrived at the settlement voluntarily and with full knowledge and without any coercion or duress.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "agreement",
+        "voluntary",
+        "knowledge",
+        "coercion",
+        "duress"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Amount of maintenance was enhanced to the tune of Rs.4,000/- per month.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Section 125 CrPC",
+    "Section 127 CrPC",
+    "Hindu Marriage Act",
+    "marriage",
+    "separation",
+    "discord",
+    "family court",
+    "criminal revision petition",
+    "petitioner",
+    "respondent",
+    "wife's rights",
+    "husband's obligations",
+    "alimony",
+    "matrimonial disputes"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on maintenance claims",
+    "representing a respondent in a family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T20:48:00.552369"
 }

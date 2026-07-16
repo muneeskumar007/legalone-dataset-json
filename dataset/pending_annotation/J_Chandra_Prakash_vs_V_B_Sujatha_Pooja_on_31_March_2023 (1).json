@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:53:05.232999",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Vijaykumar A. Patil J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "II Additional Principal Judge, Family Court, Bengaluru, MC No.531/2013 and MC No.1964/2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "J. Chandra Prakash vs V. B. Sujatha @ Pooja on 31 March, 2023",
+  "case_name": "J. Chandra Prakash vs V. B. Sujatha @ Pooja",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "J. Chandra Prakash (husband)",
+    "respondent_defendant": "V.B. Sujatha @ Pooja (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are J. Chandra Prakash and V.B. Sujatha @ Pooja. The husband filed a petition under Section 13 of the Hindu Marriage Act, 1955, which was dismissed by the trial court. The wife filed a petition under Section 9 of the Hindu Marriage Act, 1955, which was allowed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,72 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Parties can settle disputes amicably and withdraw cases.",
+      "held": "Our attention has been invited to the memo which has been duly signed by the appellant as well as respondent.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "withdrawal of cases"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Permanent alimony can be settled through a compromise.",
+      "held": "In terms of the settlement arrived at between the parties, the appellants-husband is required to pay a sum of Rs.12,00,000/- to the respondent-wife herein, in full and final settlement of the claim of the respondent-wife as permanent alimony.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "permanent alimony",
+        "compromise"
+      ],
+      "favors": "respondent",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeals were allowed and the judgment and decree passed by the trial court were set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 19(1)",
+    "Family Courts Act",
+    "MFA No.5452 of 2018",
+    "MFA No.1498 of 2019",
+    "MC No.531/2013",
+    "Section 9",
+    "II Additional PRL JUDGE",
+    "Family Court",
+    "Bengaluru",
+    "High Court of Karnataka",
+    "Justice Alok Aradhe",
+    "Justice Vijaykumar A Patil"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "appealing family court judgment to High Court",
+    "seeking divorce on grounds of irretrievable breakdown"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:27:20.729514"
 }

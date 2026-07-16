@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:30:45.107224",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 5,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "II Addl. Dist. Judge, Cuddapah, OP No. 16 of 1991",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "G. Nirmalamma And Others vs G. Seethapathi And Others on 19 October, 2000",
+  "case_name": "G. Nirmalamma And Others vs G. Seethapathi And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "G. Nirmalamma And Others (wife, children)",
+    "respondent_defendant": "G. Seethapathi And Others (husband, wife, children)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -64,7 +64,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners are the wife and children of late Subba Rachaiah. The trial court held that the children are illegitimate and not entitled to succeed to their father's property. The appeal is against this finding.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -74,39 +74,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party seeking to establish a fact to prove it.",
+      "held": "It is further stated that there is ample record to show that the deceased has been living with the respondents continuously ever since the marriage till death.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The law is clear that a person's surname can be changed after marriage.",
+      "held": "It is further stated that in 1960 the first respondent was appointed as Staff Nurse and after her appointment she got her surname changed from 'Matli' to 'Gannamanthi' and it was notified in the A.P. Gazette dated 24-12-1964",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "surname change",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The findings of the Courts below were confirmed, and the appellants' claim for succession certificate was rejected.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Code of Civil Procedure",
+    "Specific Relief Act",
+    "illegitimate children",
+    "intestate properties",
+    "succession certificate",
+    "family court",
+    "district court",
+    "subordinate judge",
+    "civil miscellaneous appeal",
+    "Indian Succession Act",
+    "Order 41 Rule 1",
+    "Section 384",
+    "partition suit",
+    "joint family",
+    "coparceners",
+    "mitakshara",
+    "Dayabhaga"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on Hindu succession law",
+    "representing clients in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T17:35:10.408328"
 }

@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:30:22.244744",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Govindrao Ranoji Musale vs Sou. Anandibai And Anr. on 24 March, 1976",
+  "case_name": "Govindrao Ranoji Musale vs Sou. Anandibai And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Govindrao Ranoji Musale (husband)",
+    "respondent_defendant": "Sou. Anandibai And Anr. (wife and another party)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant, a Hindu man, was married to respondent No. 2 in 1934. He then married respondent No. 1 in 1959 while still married to respondent No. 2. Respondent No. 1 lived with her parents for five years after being driven away by the appellant and later filed a suit for maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,99 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A codifying Act provides the law for a particular branch of law.",
+      "held": "It is well settled that the object of codification of a particular branch of law is that on any matter specifically dealt with by it, the law should be sought for in the codifying enactment itself.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "codification",
+        "law",
+        "branch"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A provision in a statute that confers a remedy also creates a corresponding right.",
+      "held": "This power conferred upon the Court clearly creates a corresponding right in the wife or the husband to get maintenance provided the conditions laid down for the grant of the same are satisfied.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 25"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "remedy",
+        "right",
+        "corresponding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A court should not normally construe a provision in a statute to make it redundant.",
+      "held": "Hence, if the submission of Mr. Pendse is accepted, it would mean that the provisions of sub-section (1) of Section 25 of the Hindu Marriage Act, in so far as they deal with the claim of the husband for maintenance, would be redundant; and such a construction should not normally be resorted to.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 25"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "construction",
+        "redundant"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "statutory interpretation cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's decision was upheld, and respondent No. 1 was entitled to maintenance from the appellant.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "bigamy",
+    "polygamy",
+    "voidable marriage",
+    "separation",
+    "residency",
+    "cohabitation",
+    "hope",
+    "reconciliation",
+    " Hindu Law",
+    "Section 16",
+    "Section 17",
+    "Section 18",
+    "Section 19",
+    "Section 23",
+    "Section 24",
+    "Section 25"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on bigamy cases",
+    "assisting in Hindu marriage disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:20:48.698432"
 }

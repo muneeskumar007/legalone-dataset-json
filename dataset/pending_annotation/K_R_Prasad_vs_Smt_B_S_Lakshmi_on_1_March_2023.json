@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:54:35.978066",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "M.C.No.2089/2005",
     "M.C.No.279/2004"
   ],
-  "trial_court": "",
+  "trial_court": "VI Additional Principal Judge, Family Court, Bengaluru, M.C No.2089/2005 and M.C No.279/2004",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "K R Prasad vs Smt. B S Lakshmi on 1 March, 2023",
+  "case_name": "K R Prasad vs Smt. B S Lakshmi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "K R Prasad, husband",
+    "respondent_defendant": "Smt. B S Lakshmi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are K R Prasad and Smt. B S Lakshmi. The husband filed a petition under Section 9 of the Hindu Marriage Act for restitution of conjugal rights, which was allowed by the trial court. The wife filed a petition under Section 13(i), 1(a) and 13(ib) of the Hindu Marriage Act for dissolution of marriage, which was rejected by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking restitution of conjugal rights to prove that there has been no reasonable cohabitation for a period of three years.",
+      "held": "It is held that the burden lies on the party seeking restitution of conjugal rights to prove that there has been no reasonable cohabitation for a period of three years.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "restitution",
+        "conjugal rights",
+        "reasonable cohabitation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not interfere with the amicable settlement arrived at between the parties unless it is contrary to public policy or statute.",
+      "held": "This Court will not interfere with the amicable settlement arrived at between the parties unless it is contrary to public policy or statute.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 89"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "amicable settlement",
+        "public policy",
+        "statute"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "mediation cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "In the result the same are dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeals are dismissed. The parties have amicably resolved their dispute and arrived at an agreement under Section 89 of the Code of Civil Procedure.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19(1)",
+    "Section 9",
+    "conjugal rights",
+    "restoration",
+    "marriage dissolution",
+    "spousal rights",
+    "family law",
+    "Indian family law",
+    "Karnataka High Court",
+    "MFA No. 6349/2015",
+    "MFA No. 6350/2015",
+    "M.C No.2089/2005"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal rights",
+    "representing clients in family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:48:53.995581"
 }

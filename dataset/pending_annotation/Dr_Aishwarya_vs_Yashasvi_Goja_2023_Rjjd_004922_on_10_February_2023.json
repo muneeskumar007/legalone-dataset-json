@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:28:52.642745",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1
@@ -18,13 +18,13 @@
     "Yogendra Kumar Purohit J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.1, Udaipur (Raj.) - Case No. 224/2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Dr. Aishwarya vs Yashasvi Goja (2023/Rjjd/004922) on 10 February, 2023",
+  "case_name": "Dr. Aishwarya vs Yashasvi Goja (2023/Rjjd/004922)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. Aishwarya, wife",
+    "respondent_defendant": "Yashasvi Goja, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks transfer of petition filed by respondent-husband under Section 13(1)(ia)(ib) of the Hindu Marriage Act pending before Family Court No.1, Udaipur to Family Court, Chittorgarh.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,60 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Consent of parties is a valid ground for transfer of petition.",
+      "held": "With the consent of the learned counsel for the parties, the matter is heard and decided today.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "transfer",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition filed by respondent-husband is transferred to Family Court, Chittorgarh; parties directed to appear before the court on 09.03.2023; court directed to decide the petition expeditiously.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)(ib)",
+    "Family Court",
+    "transfer application",
+    "petition",
+    "wife",
+    "husband",
+    "Chittorgarh",
+    "Udaipur",
+    "Rajasthan",
+    "High Court",
+    "Jodhpur",
+    "civil transfer",
+    "apex court",
+    "family law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family law matters",
+    "appealing to the High Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T16:56:19.406461"
 }

@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T10:51:33.673076",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "O.P.No.158 of 2013"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court - Cum - Additional District Judge, Nizamabad (O.P.No.158 of 2013)",
   "reserved_on": "",
   "delivered_on": "19.01.2026",
-  "case_name": "Jadhav Raja Rajeshwari vs G Praveen Kumar on 19 January, 2026",
+  "case_name": "Jadhav Raja Rajeshwari vs G Praveen Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant (wife) seeking dissolution of marriage",
+    "respondent_defendant": "Respondent (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed petition under Section 13 (1) (i) (a) of Hindu Marriage Act, 1955 seeking dissolution of marriage with respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Hindu Marriage Act, 1955 has no application to the case on hand.",
+      "held": "It was contended that the petitioner admittedly belongs to Scheduled Tribe (ST), whereas the respondent belongs to Scheduled Caste (SC) Mala. It was further contended by the learned counsel for the petitioner that Sub - Section (2) of Section 2 of the Hindu Marriage Act, 1955 expressly excludes the members of the Scheduled Tribes from application of the said Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 2(2)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gullipilli Sowria Raj v. Bandaru Pavani @ Gullipilli Pavani",
+        "Satprakash Meena v. Alka Meena",
+        "Kadavath Srikanth v. Kadavath Ashwitha @ Jadav Preethilekha"
+      ],
       "keywords": [
-        "TODO"
+        "Scheduled Tribe",
+        "Scheduled Caste",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving inter-caste marriages"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the party seeking to establish a voluntary love relationship.",
+      "held": "It was submitted that in view of physical distance between them and the fact that they belong to different castes, the alleged marriage between the parties was neither practical, nor probable, more particularly in the light of these circumstances.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "none"
+      ],
+      "keywords": [
+        "voluntary love relationship",
+        "physical distance",
+        "different castes"
+      ],
+      "favourites": "defendant",
+      "use_in": [
+        "cases involving long-distance relationships or inter-caste marriages"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "no fault divorce",
+    "mutual consent",
+    "separation",
+    "cohabitation",
+    "living separately",
+    "reasonable grounds",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "unilateral separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advocating for no fault divorce",
+    "providing legal advice on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:33:09.378190"
 }

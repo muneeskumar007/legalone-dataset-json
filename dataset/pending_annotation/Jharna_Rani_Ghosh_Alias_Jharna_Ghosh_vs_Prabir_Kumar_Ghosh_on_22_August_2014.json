@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:52:16.151315",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Tapash Mookherjee J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, 1st Court at Howrah in Misc. Case No. 20 of 1989",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jharna Rani Ghosh Alias Jharna Ghosh vs Prabir Kumar Ghosh on 22 August, 2014",
+  "case_name": "Jharna Rani Ghosh Alias Jharna Ghosh vs Prabir Kumar Ghosh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Jharna Rani Ghosh (wife)",
+    "respondent_defendant": "Sri Prabir Kumar Ghosh (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married according to Hindu Rites and Customs. The wife left her matrimonial home with all belongings in October 1978. The husband filed a Suit for restitution of conjugal rights under Section 9 of the Hindu Marriage Act, 1955. The wife also filed an application under Section 125 of the Code of Criminal Procedure praying for maintenance allowance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A decree of divorce passed ex parte cannot defeat the legal rights of a party to file an application under Order 9 Rule 13 of the Code of Civil Procedure.",
+      "held": "She further argued that justice has been denied to the Appellant/Wife who is a helpless woman and hence the order passed by the learned Trial Court on 19.03.1991 dismissing the application under Order 9 Rule 13 of the Code of Civil Procedure should be set aside and the said application should be restored to its file and number by this Court of Appeal, and tried on merit.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "ex parte decree",
+        "Order 9 Rule 13",
+        "justice denied"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A second marriage contracted after the period for appeal against a decree of divorce passed ex parte does not defeat the legal rights of the other party to file an application under Order 9 Rule 13 of the Code of Civil Procedure.",
+      "held": "She further argued that the second marriage of the Respondent/Husband after the decree of divorce cannot defeat the legal rights of the Appellant/Wife to file the application under Order 9 Rule 13 of the Code of Civil Procedure for the setting aside of the ex parte decree of divorce.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "second marriage",
+        "ex parte decree",
+        "Order 9 Rule 13"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "matrimonial disputes",
+    "conjugal life",
+    "peaceful",
+    "marriage",
+    "Indian Kanoon",
+    "Code of Civil Procedure",
+    "1908",
+    "Code of Criminal Procedure",
+    "1973",
+    "Additional District Judge",
+    "Misc. Case No.",
+    "Matrimonial Suit No.",
+    "Hindu Rites",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "preparing for family court hearing"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:17:28.407696"
 }

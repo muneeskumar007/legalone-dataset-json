@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:52:04.137059",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 4
   },
@@ -21,13 +21,13 @@
     "M.A.No.14 of 2008",
     "O.P.No.70 of 1998"
   ],
-  "trial_court": "",
+  "trial_court": "Addl. District Judge, Fast Track Court III, Trivellore, C.M.A.No.14 of 2008",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jayachandra Chowdry vs K.Sandhya on 5 February, 2021",
+  "case_name": "Jayachandra Chowdry vs K.Sandhya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jayachandra Chowdry — husband",
+    "respondent_defendant": "K.Sandhya — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 1995 and lived separately for about 25 years. The husband filed a petition for divorce under Section 13(1)(ib) of the Hindu Marriage Act, which was dismissed by the trial court. The appeal is against this dismissal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When there is no possibility of reunion for several years and the marriage becomes a total failure, then there is no point in declining the relief of divorce to either party approaching the Court.",
+      "held": "This Court is of the considered opinion that when there is no possibility of reunion for several years and the marriage became a total failure, then, there is no point in declining the relief of divorce to either of the parties approaching the Court of law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "marriage",
+        "reunion",
+        "failure"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Courts ought to consider the ground of desertion when it is admitted between parties during the course of trial.",
+      "held": "The Courts ought to have considered the said ground for granting divorce.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "desertion",
+        "ground",
+        "consideration"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Court held that the Courts below erred in not considering the admitted fact regarding desertion as a main ground for divorce under the Hindu Marriage Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ib)",
+    "separation",
+    "living separately",
+    "more than 10 years",
+    "civil miscellaneous second appeal",
+    "C.M.S.A.No.35 of 2012",
+    "Jayachandra Chowdry vs K.Sandhya",
+    "family law",
+    "marriage",
+    "petition for divorce",
+    "Section 28",
+    "H.C.M.P.No.70 of 1998",
+    "Addl. District Judge",
+    "Fast Track Court III",
+    "Trivellore"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Section 13(1)(ib)",
+    "advising on grounds for divorce in Hindu Marriage Act cases",
+    "assisting with family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:04:48.613536"
 }

@@ -7,7 +7,7 @@
   "total_pages": 19,
   "extracted_at": "2026-07-15T10:30:00.813429",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -26,13 +26,13 @@
     "M.C.NO.3356/2013",
     "M.C.NO. 3812/2013"
   ],
-  "trial_court": "",
+  "trial_court": "VI Additional Principal Judge, Family Court, Bangalore, MC No.3356/2013 and MC No.3812/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Gayathri Bai B N vs Dashrath Singh R on 10 February, 2023",
+  "case_name": "Gayathri Bai B N vs Dashrath Singh R",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Gayathri Bai B N, wife",
+    "respondent_defendant": "Dashrath Singh R, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Gayathri Bai B N and Dashrath Singh R. The respondent-husband filed a petition for divorce under the Hindu Marriage Act, while the appellant-wife sought a decree for restitution of conjugal rights. The trial court allowed the husband's petition and dismissed the wife's petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,72 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party seeking to establish a fact to prove it.",
+      "held": "It was contended that, the respondent has been calling the petitioner over phone and requesting the petitioner and his parents to take back the respondent and her second child to the matrimonial house but the petitioner and his parents have been postponing to take back the respondent and her second child to the matrimonial house by one pretext or the other.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to take advantage of an opportunity to resolve a dispute does not necessarily mean that the other party is entitled to relief.",
+      "held": "In May 2013, the petitioner and his parents came to the house of the parents of the respondent and they have informed the respondent and her parents that they will take the decision in the matter within one month. But they have never taken any decision in the matter nor taken the respondent and her second child to the matrimonial house and ultimately, the present petition has been filed.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "opportunity",
+        "dispute resolution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeals were dismissed, and the judgment and decree passed by the trial court were upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(III)",
+    "Family Courts Act",
+    "M.C.No.3356/2013",
+    "MFA No. 875 of 2020",
+    "MFA No. 847 of 2020",
+    "petition filed U/S 13(1)(III)",
+    "dismissal of petition",
+    "judgment and decree",
+    "19(1) of Family Courts Act",
+    "Section 13(1)(III) Hindu Marriage Act",
+    "Latin maxim: 'Nemo judex in causa sua'",
+    "High Court of Karnataka",
+    "Bengaluru"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to dismissal of petition",
+    "appealing family court judgments"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T18:00:13.264640"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:51:58.554294",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 7,
     "partition": 1,
@@ -22,13 +22,13 @@
     "Neena Bansal Krishna J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court (MAT.APP.(F.C.) 79/2020)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Jasmeet Kaur vs Praveen Singh on 16 August, 2023",
+  "case_name": "Jasmeet Kaur vs Praveen Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Jasmeet Kaur (wife)",
+    "respondent_defendant": "Praveen Singh (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties got married in 2002 and had a child. Husband claimed wife was adamant, rigid, and stubborn with scant regard for love and emotions. Wife refused to do household works and denied matrimonial relation.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,99 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Cruelty can be established by a pattern of behaviour that causes mental and emotional distress.",
+      "held": "She deprived the respondent of showering his love and affection towards the child which caused him immense pain, agony and trauma.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "mental distress",
+        "emotional distress"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A pattern of behaviour that causes mental and emotional distress can be considered as cruelty.",
+      "held": "She continued to subvert her behaviour believing that birth of child would improve her behaviour but nothing changed despite even thereafter.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "mental distress",
+        "emotional distress"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party's failure to meet their obligations can be considered as cruelty.",
+      "held": "He was given to understand that at the time of marriage the father of appellant had expired, but he subsequently came to know that the father was alive at the time of solemnization of marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "obligations",
+        "failure"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Divorce granted on grounds of desertion under Section 13 (1)(ib) of Hindu Marriage Act, 1955.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "desertion",
+    "Section 13 (1)(ib)",
+    "marriage",
+    "dowry less",
+    "quarrelsome",
+    "cruel",
+    "adamant",
+    "rigid",
+    "stubby",
+    "love",
+    "emotions",
+    "sentiments",
+    "family court",
+    "matrimonial dispute",
+    "judgment",
+    "appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "advising on matrimonial disputes",
+    "preparing judgment for family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T19:59:10.857933"
 }

@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-07-15T10:54:32.285430",
   "domain": "murder_criminal",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -31,13 +31,13 @@
     "S.C.No.196/2003",
     "Crl.A.No.246/2012"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Sessions Judge, Namakkal, S.C.No.196/2003",
   "reserved_on": "01.12.2021",
   "delivered_on": "01.02.2022",
   "case_name": "K.Muruganandam vs State Rep. By on 1 February, 2022",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellants/Accused (husband, wife, parents, etc.)",
+    "respondent_defendant": "State rep. By / The Deputy Superintendent of Police, Rasipuram, Rasipuram Police Station",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellants were arrayed as Accused Nos.1, 3 to 6 and 8 to 10 before the trial Court. A1 married PW.1/Dhamayanthi on 05.04.2001. Out of their wedlock a male child was born to the de facto complainant on 29.01.2002.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The police have no power to register a case under Sec.494 IPC and this type of complaints ought to have been given only as per Section 198 Cr.P.C.",
+      "held": "This court holds that the police have no power to investigate such kind of offences; since PW.1 misbehaved with A1, he moved away from her and established his practice at Ariyalur;",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Sec.494",
+        "Cr.P.C — Section 198"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "police power",
+        "complaint registration",
+        "IPC",
+        "Cr.P.C"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving marriage and dowry"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Only an Officer not below the rank of DSP alone can investigate the offences falling under the Act;",
+      "held": "As per Sec.14 of the Scheduled Caste and Scheduled Tribe (Prevention of Atrocities) Act,1989 only an Officer not below the rank of DSP alone can investigate such kind of offences;",
+      "applicable_acts_sections": [
+        "Scheduled Caste and Scheduled Tribe (Prevention of Atrocities) Act — Sec.14"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "DSP",
+        "investigation",
+        "officer ranking"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving SC/ST atrocities"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal filed under Section 378 Cr.P.C., against the judgement of sentences and fine imposed in S.C.No.196/2003",
+    "final_order": "This Criminal Appeal has been filed by the appellants/accused to set aside the judgement of conviction imposed in S.C.No.196/2003.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "1860",
+    "Section 302",
+    "Section 304",
+    "Section 34",
+    "Section 149",
+    "conspiracy",
+    "intentional murder",
+    "culpable homicide",
+    "manslaughter",
+    "punishment",
+    "sentence",
+    "appeal",
+    "Criminal Appeal No.246/2012",
+    "Sessions Judge",
+    "Principal Sessions Judge",
+    "Namakkal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against conviction for murder",
+    "preparing response to appeal against sentence",
+    "assisting in drafting petition for anticipatory bail"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-16T20:46:04.489260"
 }

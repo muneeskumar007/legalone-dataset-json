@@ -7,7 +7,7 @@
   "total_pages": 28,
   "extracted_at": "2026-07-15T10:27:47.672037",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "murder",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -26,13 +26,13 @@
     "l.A.No.03 of 2025",
     "Crl.A.No.03 of 2025"
   ],
-  "trial_court": "",
+  "trial_court": "Learned Additional Sessions Judge, South Tripura, Belonia in connection with case No.S.T. 18 (Type-1) of 2023",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Convict vs The State Of Tripura on 26 March, 2025",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Mangal Saha, Convict-Appellant",
+    "respondent_defendant": "The State of Tripura, (Represented by the Secretary, Home Department), Government of Tripura, Agartala",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Convict Mangal Saha was sentenced to RI for 3 years and a fine of Rs.1,00,000/- ID to suffer SI for 2 months for the offence punishable under Section 494 of IPC and also for the offence punishable under Section 417 of IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The veracity of a witness's statement can be questioned based on inconsistencies.",
+      "held": "This fact offends the veracity of the victim's statement.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "veracity",
+        "inconsistencies"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party making a claim to prove it.",
+      "held": "Having appreciated the rival contentions and keenly assessed the evidence as recorded in the trial...",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "claim"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The sentence was modified. Both sentences of imprisonment shall run concurrently.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "Section 494 IPC",
+    "Section 417 IPC",
+    "conviction",
+    "sentence",
+    "RI",
+    "SI",
+    "fine",
+    "imprisonment",
+    "concurrent sentences",
+    "Trial Court",
+    "Additional Sessions Judge",
+    "South Tripura",
+    "Belonia",
+    "IPC",
+    "Indian Penal Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce cases",
+    "appealing conviction in trial court",
+    "understanding concurrent sentencing"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T22:00:17.750678"
 }

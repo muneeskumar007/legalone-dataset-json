@@ -53,21 +53,63 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The purpose behind Section 24 of the Act is to provide necessary financial assistance to a party with no independent income.",
+      "held": "Indisputably, the purpose behind Section 24 of the Act of 1955 is to provide necessary financial assistance to the party to the matrimonial dispute who has no independent income of his own sufficient for her or his support or to bear the expenses of the proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance pendente lite",
+        "interim maintenance",
+        "matrimonial dispute"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The relevant consideration for awarding interim maintenance is the inability of the spouse to maintain himself or herself.",
+      "held": "While considering the application for award of interim maintenance, the relevant consideration is the inability of the spouse to maintain himself or herself for want of independent income or inadequacy of the income to maintain at the level of social status of other spouse.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "matrimonial dispute",
+        "inability"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "No hard and fast rule can be laid down for determining the amount of interim maintenance.",
+      "held": "No hard and fast rule can be laid down for determination of the amount of interim maintenance.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "maintenance pendente lite"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
@@ -77,15 +119,32 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 24",
+    "maintenance pendente lite",
+    "litigation expenses",
+    "Family Court",
+    "Bharatpur",
+    "Rajasthan",
+    "divorce",
+    "restitution of conjugal rights",
+    "conjugal rights",
+    "marriage",
+    "pendente lite",
+    " Hindu Marriage Act, 1955",
+    "Section 25",
+    "Section 26"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance pendente lite",
+    "representing clients in Family Court cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-15T21:04:33.893846"
 }
