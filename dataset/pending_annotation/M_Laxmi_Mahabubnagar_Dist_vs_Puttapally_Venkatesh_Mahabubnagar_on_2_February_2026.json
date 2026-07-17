@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:58:35.311800",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "B.R. Madhusudhan Rao J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court-cum-VIII Additional District Judge at Mahabubnagar (FOP No.31 of 2013)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "M Laxmi, Mahabubnagar Dist vs Puttapally Venkatesh, Mahabubnagar on 2 February, 2026",
+  "case_name": "M Laxmi, Mahabubnagar Dist vs Puttapally Venkatesh, Mahabubnagar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Respondent - husband",
+    "respondent_defendant": "Appellant - wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are the wife and her husband, who obtained a decree of divorce with his first wife before marrying the appellant. They have two children together. The respondent filed for dissolution of their marriage under Section - 13 (1) (ia) of the Hindu Marriage Act, citing 'cruelty'.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Lok Adalat shall not grant any bail or a divorce by mutual consent.",
+      "held": "As per Regulation 17 (7) of the National Legal Services Authority (Lok Adalats) Regulation, 2009, Lok Adalat shall not grant any bail or a divorce by mutual consent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Legal Services Authority Act, 1987 — Section - 21"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Lok Adalat",
+        "divorce",
+        "mutual consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A divorce decree obtained by a party under Ex.R3 - Award with their first wife is contrary to the law.",
+      "held": "Therefore, decree of divorce obtained by the respondent herein under Ex.R3 - Award with his first wife is contrary to the law.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "decree",
+        "contrary to the law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed and the order of the trial court was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "arranged marriage",
+    "bigamy",
+    "decree of divorce",
+    "Family Court",
+    "appeal",
+    "judgment",
+    "marriage rites and customs",
+    " Railway Department",
+    "employee",
+    "child custody",
+    "maintenance",
+    "property settlement",
+    " Hindu rites",
+    "customs",
+    "family law",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "advising on family disputes",
+    "assisting in matrimonial matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T12:15:51.488216"
 }

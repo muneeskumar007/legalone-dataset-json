@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:53:21.263996",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "custody": 1,
@@ -20,13 +20,13 @@
     "Tashi Rabstan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned Additional District Judge (Matrimonial Cases) Jammu, Matrimonial Case No. 357 of 2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kanika Mahajan vs Vivek Jandial on 27 October, 2022",
+  "case_name": "Kanika Mahajan vs Vivek Jandial",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kanika Mahajan — wife",
+    "respondent_defendant": "Vivek Jandial — husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's divorce petition under Section 13 of Hindu Marriage Act, 1955 is pending before the trial court. Respondent has filed a divorce petition against petitioner in the same court to create an occasion for inflicting torture and harassment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition under Section 13 of Hindu Marriage Act, 1955 can be transferred to another court.",
+      "held": "In view of the above, this application is allowed. The petition, i.e., Matrimonial Case (Civil) No. 357 of 2020 (CNR No. JKJM020032342020) under Section 13 of Hindu Marriage Act, 1955 titled Matrimonial Case (Civil) No. 357 of 2020.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "petition transfer",
+        "Section 13 Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A respondent who fails to file objections or appear in a proceeding may not be heard on the merits.",
+      "held": "Despite service neither objections have been filed nor has anyone caused appearance on behalf of respondent.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "failure to respond",
+        "default judgment"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition under Section 13 of Hindu Marriage Act, 1955 is transferred from Jammu to Kathua.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Section 13",
+    "Section 125",
+    "Cr.P.C.",
+    "Domestic Violence Act",
+    "Matrimonial Cases",
+    "Additional District Judge",
+    "Principal District Judge",
+    "Chief Judicial Magistrate",
+    "torture",
+    "harassment",
+    "petition",
+    "complaint",
+    "inflicting",
+    "occasion",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in domestic violence cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:27:39.286839"
 }

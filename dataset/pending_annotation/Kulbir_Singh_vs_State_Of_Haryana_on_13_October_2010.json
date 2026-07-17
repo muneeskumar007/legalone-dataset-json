@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:54:01.093075",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "murder",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -21,13 +21,13 @@
     "Jora Singh. J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sessions Judge, Kurukshetra, in Sessions Case No.9 of 2001",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kulbir Singh vs State Of Haryana on 13 October, 2010",
+  "case_name": "Kulbir Singh vs State Of Haryana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kulbir Singh — Appellant",
+    "respondent_defendant": "State of Haryana — Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "On 18.3.2001, Sardar Singh reported to SI Chander Pal Singh that his daughter Rasvinder Kaur was kidnapped by Kulbir Singh. Prosecution story is that on 15.3.2001 at about 8.30 PM, prosecutrix had gone to the fields but did not return.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the prosecution to prove its case beyond reasonable doubt.",
+      "held": "After hearing learned defence counsel for the appellant, learned State counsel and have gone through the evidence on file.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "prosecution",
+        "reasonable doubt"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The law is clear that the prosecution must prove its case beyond reasonable doubt.",
+      "held": "After close of the prosecution evidence, statement of the accused was recorded under Section 313 Cr.P.C.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "law",
+        "prosecution",
+        "reasonable doubt"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Convicted under Sections 363/366/376 IPC and sentenced to undergo RI for seven years and to pay a fine of Rs.5,000/-",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Crl.Appeal",
+    "Sessions Case",
+    "FIR",
+    "Sections 363/366/376 IPC",
+    "RI",
+    "fine",
+    "sentence",
+    "concurrent",
+    "conviction",
+    "judgment",
+    "order",
+    "sentence",
+    "default",
+    "payment",
+    "punishment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing criminal convictions",
+    "understanding concurrent sentencing"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:25:11.338682"
 }

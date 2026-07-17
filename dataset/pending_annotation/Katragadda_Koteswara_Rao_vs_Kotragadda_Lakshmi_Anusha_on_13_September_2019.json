@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:53:28.330673",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -27,13 +27,13 @@
     "O.P.No.1665 of 2018",
     "O.P.No.1665/2018"
   ],
-  "trial_court": "",
+  "trial_court": "XIV Additional District Judge-cum-Additional Family Judge, Vijayawada",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Katragadda Koteswara Rao vs Kotragadda Lakshmi Anusha on 13 September, 2019",
+  "case_name": "Katragadda Koteswara Rao vs Kotragadda Lakshmi Anusha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kotragadda Koteswara Rao (husband)",
+    "respondent_defendant": "Kotragadda Lakshmi Anusha (wife and minor daughter)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife and minor daughter filed O.P. seeking monthly maintenance from husband; interim maintenance granted by trial court at Rs.5,000/- per month to each of the petitioners.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court can grant interim maintenance to a party without there being any enabling provision.",
+      "held": "It is no doubt true, the petition seeking interim maintenance was filed under Sections 24 and 26 of Hindu Marriage Act, read with Section 7 of Family courts Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Sections 24 and 26",
+        "Family Courts Act — Section 7"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "interim maintenance",
+        "enabling provision",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance petitions"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A court can grant interim maintenance to a party even if the respondent does not own immovable properties.",
+      "held": "The trial court allowed the I.A. in part, on the ground that though the petitioners failed to file documents to prove that the respondent owns immovable properties; cannot escape his liability.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Sections 24 and 26"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "immovable properties",
+        "liability"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "maintenance petitions",
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner directed to pay interim maintenance at the rate of Rs.5,000/- per month to each of the petitioners (wife and minor daughter).",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "maintenance",
+    "interim maintenance",
+    "Family Courts Act",
+    "Section 18(1)(2)(a)(b)(c)(g)",
+    "Section 7",
+    "Section 24",
+    "Section 26",
+    "Latin maxim",
+    "mens rea",
+    "actus reus",
+    "Hindu Adoption and Maintenance Act",
+    "O.P.No.1665/2018",
+    "I.A.No.150 of 2019"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on interim maintenance",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:35:23.722131"
 }

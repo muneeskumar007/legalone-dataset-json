@@ -7,7 +7,7 @@
   "total_pages": 22,
   "extracted_at": "2026-07-15T10:54:56.868902",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Lila Gupta vs Laxmi Narain & Ors on 4 May, 1978",
+  "case_name": "Lila Gupta vs Laxmi Narain & Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "LILA GUPTA (wife)",
+    "respondent_defendant": "LAXMI NARAIN & ORS.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband of the appellant-late Rajendra Kumar had earlier contracted a marriage with one Sarla Gupta. Both Rajendra Kumar and Sarla Gupta filed suits against each other praying for a decree of divorce, which were decreed on April 8, 1963. The marriage with the appellant Lila Gupta was solemnised on May 25, 1963. Disputes arose in consolidation proceedings between the appellant claiming as widow of Rajendra Kumar and respondents about succession to Bhumidari rights.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnised before the expiry of the period of limitation for presenting an appeal or where an appeal has been presented, during the pendency of the appeal must be regarded as a void marriage.",
+      "held": "The English Law and the decisions of the Australian High Court and Indian High Courts which involved the application of s. 57 Indian Divorce Act indicate that a marriage solemnised before the expiry of the period of limitation for presenting an appeal or where an appeal has been presented, during the pendency of the appeal must be regarded as a void marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 15"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Chichester v. Mure (falsely called Chichester) (1863) 3, SW. & Tr., 223",
+        "Warter v. Warter, (1890) 15 P., 152"
+      ],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "limitation period",
+        "appeal pendency"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A contention that a marriage solemnised in violation of the main provision of s. 15 is a nullity cannot be summarily rejected.",
+      "held": "At the lowest, there is good ground for saying that a contention that a marriage solemnised in violation of the main provision of s. 15 is a nullity cannot be summarily rejected.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 15"
+      ],
+      "cited_cases": [
+        "Chichester v. Mure (falsely called Chichester) (1863) 3, SW. & Tr., 223",
+        "Warter v. Warter, (1890) 15 P., 152"
+      ],
+      "keywords": [
+        "nullity",
+        "main provision",
+        "s. 15"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Court held that the marriage contracted by Rajendra Kumar with Lila Gupta was not void, but merely invalid. The parties were subject to a binding tie of wedlock flowing from the marriage.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Section 15",
+    "Void marriage",
+    "Invalid marriage",
+    "Divorce decree",
+    "Marriage solemnised",
+    "Widow's claim",
+    "Consolidation proceedings",
+    "Brothers' dispute",
+    "Rajendra Kumar",
+    "Sarla Gupta",
+    "Lila Gupta",
+    "Laxmi Narain",
+    "Ors",
+    "Decree of divorce",
+    "Binding force of marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on the validity of a marriage",
+    "representing a widow's claim in consolidation proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:57:45.710032"
 }

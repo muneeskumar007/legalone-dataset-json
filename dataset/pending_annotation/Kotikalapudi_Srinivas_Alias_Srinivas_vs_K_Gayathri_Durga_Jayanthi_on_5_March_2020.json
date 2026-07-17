@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:53:52.699442",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1,
@@ -22,13 +22,13 @@
   "case_numbers": [
     "I.A.No. 168 of 2019"
   ],
-  "trial_court": "",
+  "trial_court": "Court of learned Family Judge-cum-III Additional District Judge, Vizianagaram in I.A.No. 168 of 2019 in FCOP No. 70 of 2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kotikalapudi Srinivas Alias Srinivas vs K.Gayathri Durga Jayanthi on 5 March, 2020",
+  "case_name": "Kotikalapudi Srinivas Alias Srinivas vs K.Gayathri Durga Jayanthi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kotikalapudi Srinivas @ Srinivas, husband",
+    "respondent_defendant": "K. Gayathri Durga (Jayanthi), wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the husband who instituted a petition for grant of divorce dissolving the marriage of himself and the respondent. The ground urged by the petitioner for divorce is under Section 13(1)(iii) of the Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove the grounds for divorce.",
+      "held": "A reference is also made in respect of several Authorities required to be constituted either by the Central Government or the State Government, including Mental Health Establishments, while contending that mental Health Review Boards are required to be constituted by the State in terms of Section 73 of this Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Mental and Healthcare Act, 2017 — Section 73"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mental illness",
+        "rehabilitation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court's decision on the ground for divorce is final and binding.",
+      "held": "It is also contended by the learned counsel that ultimately it is for the learned trial Judge to decide as to the ground urged by the petitioner basing on the evidence vis-a-vis the relief and it cannot be further subject matter of any examination at this stage in this regard or through a panel of experts.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(iii)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "finality",
+        "binding"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order granted the petition for divorce dissolving the marriage.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Evidence Act",
+    "1872",
+    "marriage",
+    "spouse",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property",
+    "partition",
+    "separation",
+    "annulment",
+    "voidable",
+    "void",
+    "irretrievable breakdown",
+    "no fault divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act, 1955",
+    "advising on alimony and maintenance in a divorce case",
+    "representing a client seeking custody of children"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:05:38.484380"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:58:33.374857",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "M.J. Omkumar vs The District Revenue Officer (Stamp) on 19 June, 2019",
+  "case_name": "M.J. Omkumar vs The District Revenue Officer (Stamp)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M.J. Omkumar and M.J. Govindakumar (sons of M. Jayaraman)",
+    "respondent_defendant": "The District Revenue Officer (Stamp) and The Sub Registrar, Tiruttani",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are sons of M. Jayaraman who executed a Settlement Deed in their favour. Notice was issued by the Second Respondent claiming deficit stamp duty and registration charges. Petitioners claim to have made representation but did not receive response.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Children born out of a void marriage are legitimate.",
+      "held": "Section 16 of Hindu Marriage Act, 1955 makes the legal position abundantly clear that the children born out of 'void' marriage are 'legitimate'.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rameshwari Devi -vs- State of Bihar, (2000) 2 SCC 431"
+      ],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "legitimacy",
+        "children"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — significance in determining the legal status of children",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The legitimacy of children is not affected by the marital status of their parents.",
+      "held": "Notwithstanding that a marriage is null and void, any child of such marriage who would have been legitimate if the marriage had been valid, shall be legitimate.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [
+        "Rameshwari Devi -vs- State of Bihar, (2000) 2 SCC 431"
+      ],
+      "keywords": [
+        "marital status",
+        "legitimacy",
+        "children"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "HIGH — significance in determining the legal status of children",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "Writ Petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The writ petition is allowed, calling for the entire records connected with the impugned order passed by the Second Respondent and quashing the same.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Stamp Duty",
+    "Settlement Deed",
+    "Certiorari",
+    "Mandamus",
+    "Encumbrance Certificate",
+    "Registration Department",
+    "Pattukkottai",
+    "Tanjore District",
+    "R. Sivakumar",
+    "Sub Registrar",
+    "Indian Kanoon",
+    "Judicial Review",
+    "Writ Petition",
+    "Article 226",
+    "Constitution of India"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for judicial review",
+    "advising on stamp duty and registration procedures",
+    "assisting in divorce cases under Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T12:09:52.605654"
 }

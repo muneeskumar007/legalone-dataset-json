@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:53:39.860762",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2
   },
@@ -15,13 +15,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Dehradun, Original case no.237 of 2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kishan Lal vs Smt. Anita And Another on 24 January, 2019",
+  "case_name": "Kishan Lal vs Smt. Anita And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kishan Lal — husband",
+    "respondent_defendant": "Smt. Anita and another — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are in a marriage dispute under the Hindu Marriage Act, 1955. The petitioner seeks to expedite the disposal of the original case.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Old cases should be decided as early as possible.",
+      "held": "The matter is pending almost for the last three and half years. It should be decided as early as possible.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 21 (B)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "expeditious",
+        "early",
+        "old case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court should expedite the disposal of pending cases.",
+      "held": "It is directed to the learned Additional Principal Judge, Family Court Dehradun to expedite the disposal of Original case no.237 of 2015 as expeditiously as possible.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 21 (B)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "expedite",
+        "dispose",
+        "pending cases"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The trial court is directed to decide the case within six months from today.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "expeditious disposal",
+    "Family Court",
+    "Dehradun",
+    "Article 227",
+    "Constitution of India",
+    "Original case",
+    "petition",
+    "writ petition",
+    "M/S No.248",
+    "2019",
+    "Uttarakhand High Court",
+    "Nainital",
+    "Single Judge Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for expeditious disposal of a family court case",
+    "using Article 227 to challenge a family court order",
+    "guidelines for filing a petition under Hindu Marriage Act, 1955"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:48:01.372220"
 }

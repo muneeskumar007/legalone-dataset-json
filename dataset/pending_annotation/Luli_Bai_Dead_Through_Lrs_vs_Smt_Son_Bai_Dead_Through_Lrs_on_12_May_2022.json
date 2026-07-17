@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T10:55:09.224597",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 4,
     "partition": 3,
@@ -23,13 +23,13 @@
     "Narendra Kumar Vyas J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "2nd Additional District Judge (FTC), Mungeli, District Bilaspur, in Civil Suit No. 103-A/1997",
   "reserved_on": "11.03.2022",
   "delivered_on": "12.05.2022",
-  "case_name": "Luli Bai (Dead) Through Lrs vs Smt. Son Bai (Dead) Through Lrs on 12 May, 2022",
+  "case_name": "Luli Bai (Dead) Through Lrs vs Smt. Son Bai (Dead) Through Lrs",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Luli Bai (since deceased) through LRs.",
+    "respondent_defendant": "Smt. Son Bai (since deceased) through LRs.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Respondent No. 1/original plaintiff has instituted a Civil Suit before Civil Judge, Class-1, Mungeli for declaration of title and permanent injunction stating inter alia that deceased Sadhu Singh was residing at Patwari Halka No. 34 Village- Khapri.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the person who asserts a fact to prove it.",
+      "held": "In this case, the court has reiterated that the burden lies on the person who asserts a fact to prove it.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "fact"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property_dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The name of the widow and her children can be recorded in the revenue record even if the husband has expired.",
+      "held": "He has admitted that even if husband has expired, the name of widow and her children can be recorded in the revenue record.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "revenue record",
+        "widow",
+        "children"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "property_dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Second Appeal",
+    "Indian Kanoon",
+    "Section 100",
+    "family_property",
+    "inheritance",
+    "succession",
+    "marriage",
+    "divorce",
+    "partition",
+    "joint_family",
+    "coparcenary",
+    "share_of_property",
+    "family_dispute",
+    "property_rights",
+    "family_law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting property dispute cases",
+    "advising on family law matters",
+    "representing clients in inheritance disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T12:07:53.824072"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:54:03.569205",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Prashant Kumar Agarwal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Judge, Alwar in Civil Misc. Case No.41/13/10",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kuldip Kumar Lal vs Suman Rani on 7 May, 2012",
+  "case_name": "Kuldip Kumar Lal vs Suman Rani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kuldip Kumar Lal, husband",
+    "respondent_defendant": "Suman Rani, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a petition under Section 13 of the Hindu Marriage Act against his wife with a prayer to dissolve the marriage. The petition was registered as Matrimonial Case No.29/2008 and an exparte decree for divorce was passed on 27.8.2009. The respondent then filed an application under Order 9 Rule 13 CPC to set aside the exparte decree.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A subordinate Court has jurisdiction to set aside an exparte decree and condone the delay caused in filing such application if sufficient cause is shown by the applicant.",
+      "held": "Whether the applicant has shown sufficient cause or not will depend upon facts and circumstances of each case.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Order 9 Rule 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "sufficient cause",
+        "exparte decree",
+        "delay",
+        "applicant"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A Court of appeal or revision should not easily interfere with a subordinate Court's discretion if it has been exercised judiciously.",
+      "held": "If a subordinate Court after a judicious consideration has exercised a discretion vested in it, the Court of appeal or revision should not easily interfere in it.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 115"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "judicial discretion",
+        "appeal",
+        "revision"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeals against subordinate court orders"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order dated 21.1.2011 was set aside and the exparte decree for divorce was not set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "exparte decree",
+    "Order 9 Rule 13 CPC",
+    "Section 115 Code of Civil Procedure",
+    "Matrimonial Case No.29/2008",
+    "Section 13 Hindu Marriage Act",
+    "Alwar",
+    "Rajasthan",
+    "High Court",
+    "Civil Revision Petition",
+    "District Judge",
+    "CPC",
+    "Hindu Law",
+    "Marriage dissolution",
+    "Matrimony",
+    "Family law",
+    "Indian court judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to exparte decree",
+    "appealing against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:28:15.277082"
 }

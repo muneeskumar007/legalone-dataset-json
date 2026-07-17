@@ -7,7 +7,7 @@
   "total_pages": 62,
   "extracted_at": "2026-07-15T10:54:22.848713",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 11,
     "partition": 3,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kusum Sharma vs Mahinder Kumar Sharma on 6 August, 2020",
+  "case_name": "Kusum Sharma vs Mahinder Kumar Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kusum Sharma — wife",
+    "respondent_defendant": "Mahinder Kumar Sharma — husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -107,7 +107,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial case; Court has to ascertain financial capacity/status of both parties for fixing maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -117,39 +117,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court will consider the standard of living and lifestyle of the parties to determine the maintenance amount.",
+      "held": "In view of the above, it is clear that the court has to take into account the standard of living and lifestyle of the parties while determining the maintenance amount.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "standard of living",
+        "lifestyle"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will consider the income and expenses of the parties to determine the maintenance amount.",
+      "held": "It is held that the court has to take into account the income and expenses of the parties while determining the maintenance amount.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "income",
+        "expenses",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court modified the format of affidavits of assets, income and expenditure to make it more comprehensive.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Code of Criminal Procedure",
+    "matrimonial litigation",
+    "assets",
+    "income",
+    "expenditure",
+    "International Best Practices",
+    "affidavit",
+    "format",
+    "threshold",
+    "litigation",
+    "financial capacity",
+    "status",
+    "comprehensive format"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "preparing maintenance applications",
+    "advising clients on matrimonial litigation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:41:01.346201"
 }

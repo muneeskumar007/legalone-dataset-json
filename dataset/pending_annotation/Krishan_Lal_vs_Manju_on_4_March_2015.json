@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:53:54.207799",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6
   },
@@ -17,13 +17,13 @@
     "V.K. Shali J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "ADJ (no case number mentioned)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Krishan Lal vs Manju on 4 March, 2015",
+  "case_name": "Krishan Lal vs Manju",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Krishan Lal, husband",
+    "respondent_defendant": "Manju, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant got married to respondent in 1992. Respondent filed for divorce on mental cruelty and desertion grounds. Appellant's petition under Section 9 of Hindu Marriage Act was dismissed. Respondent's petition for divorce was also dismissed by trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party who fails to appear in a proceeding without sufficient cause may not set aside an ex parte decree.",
+      "held": "The court has taken note of the fact that the appellant was served through substituted service by way of publication in Dainik Tribune, Hindi Edition which has a wide circulation in Tehsil Gohana, Haryana. All these facts made the court to draw an irresistible conclusion that the appellant was duly served and he is not able to show any sufficient cause for his non appearance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "sufficient cause",
+        "ex parte decree",
+        "service of process"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A delay in filing an appeal without sufficient cause may not be condoned.",
+      "held": "The reason for this finding returned by the learned single Judge is that it has taken note of the fact that not only there were three addresses furnished by the respondent in the divorce petition and the appellant had been served by registered post at one of the addresses, but also, he was served at the address which was furnished by him at Gohana, Haryana.",
+      "applicable_acts_sections": [
+        "Limitation Act, 1963"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "delay",
+        "sufficient cause",
+        "condonation of delay"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "appeal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Ex parte decree of divorce against the appellant was passed without him being served.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "mental cruelty",
+    "desertion",
+    "condonation of delay",
+    "Limitation Act",
+    "Order 41 Rule 3A",
+    "Section 5",
+    "Section 9",
+    "second marriage",
+    "petition under Section 9",
+    "petition for divorce",
+    "divorce on ground of mental cruelty and desertion",
+    "ex parte",
+    "Hindu rights and ceremonies",
+    "marriage ceremony",
+    "household violence",
+    "family law",
+    "matrimonial disputes"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "condoning delay in filing appeal",
+    "advising on Hindu marriage laws",
+    "representing client in matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:09:29.156519"
 }

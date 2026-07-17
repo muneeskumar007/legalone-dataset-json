@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:53:53.627142",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -21,13 +21,13 @@
     "Ashwani Kumar Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Buxar in Maintenance Case No. 128 of 2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Krishan Behari Pandey vs State Of Bihar & Anr on 5 July, 2018",
+  "case_name": "Krishan Behari Pandey vs State Of Bihar & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Krishan Behari Pandey, husband",
+    "respondent_defendant": "State Of Bihar & Khushbu Pandey @ Gudiya D/o Shri Vishwanath Pandey",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks quashing of order directing him to pay Rs. 2500/- per month as ad interim maintenance and Rs. 4000/- as one time cost of litigation. Petitioner's wife has filed a criminal case against him for alleged physical and mental cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse is not entitled to maintenance if they are unwilling to reside with the other spouse.",
+      "held": "The case of the petitioner is that he is willing to keep his wife and for the said purpose he has also filed a petition under Section 9 of the Hindu Marriage Act for restitution of conjugal life, but his wife is adamant not to reside with him and, thus, she is not entitled to any maintenance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "residence",
+        "spouse",
+        "conjugal life"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A spouse's refusal to reside with the other spouse can be a ground for denying maintenance.",
+      "held": "The petitioner has not disputed the marriage with the opposite party no. 2. The case of the petitioner is that he is willing to keep his wife and for the said purpose he has also filed a petition under Section 9 of the Hindu Marriage Act for restitution of conjugal life, but his wife is adamant not to reside with him.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 9"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "residence",
+        "spouse",
+        "conjugal life",
+        "maintenance"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order quashed, petitioner directed to pay Rs. 2500/- per month as ad interim maintenance and Rs. 4000/- as one time cost of litigation",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "quashing",
+    "Family Court",
+    "Buxar",
+    "Section 482",
+    "Section 128",
+    "Maintenance Case No. 128",
+    "Indian Penal Code",
+    "Criminal Miscellaneous",
+    "High Court of Patna",
+    "Patna",
+    "Bihar"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing maintenance orders",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:08:30.994176"
 }

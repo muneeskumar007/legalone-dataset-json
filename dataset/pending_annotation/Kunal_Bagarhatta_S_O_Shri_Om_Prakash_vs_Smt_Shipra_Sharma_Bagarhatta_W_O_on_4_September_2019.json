@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:54:12.263203",
   "domain": "divorce",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "cheque_bounce": 2,
@@ -24,13 +24,13 @@
     "Narendra Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Alwar (for short 'the Family Court')",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kunal Bagarhatta S/O Shri Om Prakash ... vs Smt Shipra Sharma (Bagarhatta) W/O ... on 4 September, 2019",
+  "case_name": "Kunal Bagarhatta S/O Shri Om Prakash vs Smt Shipra Sharma (Bagarhatta) W/O ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kunal Bagarhatta, husband",
+    "respondent_defendant": "Smt. Shipra Sharma (Bagarhatta), wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent-wife filed petition for divorce under Section 13 of the Hindu Marriage Act, 1955. The parties were relegated to mediation where efforts were made for amicable settlement between them, but failed. Subsequently, they agreed to obtain a decree of divorce by mutual consent on permanent alimony.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can agree to withdraw pending cases.",
+      "held": "Both the parties agreed to have a decree of divorce and further that a permanent alimony be paid to the parties of Part-II by the party of Part-I to the tune of Ra. 40.00 lacs as full and final settlement.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "alimony",
+        "compromise"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can agree to settle disputes through compromise.",
+      "held": "Conciliation and negotiation taken place at various stages including at the stage of pending appeal before the Hon'ble High Court, both the parties agreed to have a decree of divorce and further that a permanent alimony be paid to the parties of Part-II by the party of Part-I to the tune of Ra. 40.00 lacs as full and final settlement.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compromise",
+        "settlement",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appellant has been directed to pay to the respondent-wife a sum of Rs. 40,00,000/- as permanent alimony.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Penal Code",
+    "1860",
+    "alimony",
+    "maintenance",
+    "custody",
+    "matrimonial dispute",
+    "separation",
+    "annulment",
+    "nullity",
+    "adultery",
+    "cruelty",
+    "desertion",
+    "reconciliation",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to divorce petition",
+    "negotiating alimony and maintenance"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:35:22.117431"
 }

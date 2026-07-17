@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:53:57.460768",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 4,
@@ -24,13 +24,13 @@
     "M.C.No.152/2015",
     "R.P.No.192/2017"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Metropolitan Sessions Judge for the Trial of JHCBBC-cum-Additional Family Judge, Hyderabad, M.C.No.152/2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Krishnaveni Rai, Secunderabad., vs State Of Telangana, Rep Pp Anr., on 9 April, 2019",
+  "case_name": "Krishnaveni Rai v. State Of Telangana, Rep Pp Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Krishnaveni Rai, wife",
+    "respondent_defendant": "State Of Telangana, Rep Pp Anr., husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is wife of respondent No.2, who married her after consulting astrologers. She was subjected to mental and physical torture, leading her to file complaint against him for offences under Sections 498-A, 406 and 500 IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnised after the commencement of this Act shall be null and void if it contravenes any one of the conditions specified in clauses (i), (iv) and (v) of section 5.",
+      "held": "Any marriage solemnised after the commencement of this Act shall be null and void and may, on a petition presented by either party thereto against the other party, be so declared by a decree of nullity if it contravenes any one of the conditions specified in clauses (i), (iv) and (v) of section 5.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "null and void",
+        "conditions for a Hindu marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "When a marriage has been dissolved by a decree of divorce, it shall be lawful for either party to marry again if there is no right of appeal against the decree or if the time for appealing has expired without an appeal having been presented.",
+      "held": "it shall be lawful for either party to marry again after dissolution of a marriage if there is no right of appeal against the decree or, if there is such a right of appeal, the time for appealing has expired without an appeal having been presented, or an appeal has been presented but has been dismissed",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 15"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "decree of divorce",
+        "right of appeal",
+        "marriage again"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order is set aside, and the petitioner is entitled to maintenance as sought for.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Section 125 Cr.P.C",
+    "maintenance",
+    "divorcee",
+    "widower",
+    "astrologers",
+    "Hindu law",
+    "marriage solemnized",
+    "petitioner",
+    "respondent",
+    "Criminal Revision Case",
+    "Sections 397 and 401 Cr.P.C",
+    "M.C filed",
+    "Additional Metropolitan Sessions Judge",
+    "Trial of JHCBBC-cum-Additional Family Judge",
+    "Hyderabad"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to maintenance claim",
+    "appealing against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:19:17.744941"
 }

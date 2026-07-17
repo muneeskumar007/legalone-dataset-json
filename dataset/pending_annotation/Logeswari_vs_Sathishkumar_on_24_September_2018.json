@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:55:04.143268",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -25,13 +25,13 @@
     "O.P.No.67 of 2013",
     "O.P.No.81 of 2013"
   ],
-  "trial_court": "",
+  "trial_court": "Subordinate Court, Ramanathapuram - H.M.O.P.No.111 of 2016",
   "reserved_on": "28.02.2024",
   "delivered_on": "05.04.2024",
   "case_name": "Logeswari vs Sathishkumar on 24 September, 2018",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Logeswari (wife)",
+    "respondent_defendant": "Sathishkumar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a petition for divorce which was dismissed as exparte due to her non-appearance in court. She then filed an application under Section 5 of the Limitation Act to condone the delay in filing an application to set aside the exparte order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the revision petitioner to show that notice was not properly served.",
+      "held": "As rightly observed by the learned trial Judge, ...",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "notice",
+        "service",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's address shown in an affidavit filed in support of a petition is presumed to be their correct address.",
+      "held": "The learned trial Judge has further observed that notice sent to the revision petitioner through the Court was affixed for the reason that she had gone to Chennai and then to Karaikudi...",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "address",
+        "affidavit",
+        "petition"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's order dismissing the petition was upheld, and the wife's attempt to set aside the exparte divorce order was rejected.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Limitation Act",
+    "Section 5",
+    "ex parte order",
+    "absent",
+    "exparte",
+    "petition",
+    "revision",
+    "civil revision petition",
+    "subordinate court",
+    "Ramanathapuram",
+    "Madras High Court",
+    "C.R.P.",
+    "I.A.No.",
+    "H.M.O.P.",
+    "Section 115"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to civil revision petitions",
+    "appealing exparte orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T12:01:37.072432"
 }

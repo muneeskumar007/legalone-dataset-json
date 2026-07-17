@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-07-15T10:53:37.593892",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 6,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kisan Ramchandra Kokane(Dec)His ... vs Bhagat Ramchandra Kokane (Decd)His ... on 20 June, 2016",
+  "case_name": "Kisan Ramchandra Kokane(Dec)His ... vs Bhagat Ramchandra Kokane (Decd)His ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kisan Ramchandra Kokane (Deceased) through his legal representatives.",
+    "respondent_defendant": "Bhagat Ramchandra Kokane (Deceased) through legal representatives.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties are deceased persons. Relief claimed is partition of property. Trial court decided in favour of respondent. This case came to appeal against the trial court's decision.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party claiming legal necessity to prove it.",
+      "held": "To prove the legal necessity the defendants have mainly relied on the following circumstances :-",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956",
+        "Transfer of Property Act, 1882"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legal necessity",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court should consider all relevant material and relevant position of law on legal necessity.",
+      "held": "The evidence given by both the sides needs to be considered and appreciated in view of the aforesaid admitted circumstances.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956",
+        "Transfer of Property Act, 1882"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "relevant material",
+        "position of law"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Succession Act",
+    "Transfer of Property Act",
+    "legal representatives",
+    "deceased",
+    "agriculture",
+    "household",
+    "occupation",
+    "family members",
+    "heirs",
+    "share",
+    "property",
+    "joint family",
+    "coparceners",
+    "major",
+    "minor",
+    "inheritance",
+    "devolution",
+    "partition suit",
+    "family settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on inheritance and devolution of property",
+    "representing family members in a joint family dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:45:40.610720"
 }

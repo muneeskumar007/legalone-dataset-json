@@ -29,13 +29,13 @@
     "M.C.No.46 of\n2011",
     "S.C.No.87 of 2011"
   ],
-  "trial_court": "",
+  "trial_court": "II Additional Judicial Magistrate of I Class, Tanuku, M.C.No.46 of 2011",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Kadali Durga Rao W G Dt vs Kadali Surya Kumari Wg Dt Anr Rep Pp on 20 January 2021",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "1st respondent (wife) and her daughter",
+    "respondent_defendant": "husband (petitioner in M.C.No.46 of 2011)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife filed M.C.No.46 of 2011 seeking maintenance under Section 125 of Cr.P.C. Husband denied paternity of child born in 2010 and sought DNA test to determine paternity.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,21 +61,57 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Conclusive proof of legitimacy is established by the birth of a child during the continuance of a valid marriage.",
+      "held": "Section 112 of the Evidence Act says where during the continuance of valid marriage if a child is born that is a conclusive proof about the legitimacy.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act — Section 112"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legitimacy",
+        "paternity",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Medical tests cannot be conclusive of paternity.",
+      "held": "Moreover it is settled law that medical test cannot be conclusive of paternity.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "paternity",
+        "medical tests"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Blood tests can show positively that a given man could or could not be the father, but cannot show positively that any man is the father.",
+      "held": "Rayden on Divorce, (1983) Vol. 1) p. 1054 has this to say: 'Medical Science is able to analyse the blood of individuals into definite groups: and by examining the blood of a given man and a child to determine whether the man could or could not be the father.'",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Rayden on Divorce, (1983) Vol. 1) p. 1054"
+      ],
+      "keywords": [
+        "paternity",
+        "blood tests"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
@@ -85,15 +121,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Section 125 Cr.P.C",
+    "Section 482 Criminal Procedure Code",
+    "Indian Evidence Act",
+    "Criminal Petition",
+    "M.C.No.46 of 2011",
+    "Tanuku",
+    "II Additional Judicial Magistrate",
+    "quash",
+    "acquaintance",
+    "tease",
+    "lust",
+    "marriage",
+    "sickness",
+    "medical check-up",
+    "carrying",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing a maintenance order",
+    "advising on the legal implications of acquaintance and marriage",
+    "assisting with a divorce case involving allegations of false promises"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:11:39.337407"
 }

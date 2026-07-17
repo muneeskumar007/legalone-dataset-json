@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:53:10.994387",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "M.R. Shah J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Senior Civil Judge, Kalol, Hindu Marriage Petition No.28 of 2008",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Kadambari vs Mihirkumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kadambari, wife and applicant",
+    "respondent_defendant": "Mihirkumar Trivedi, husband and opponent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner wife seeks to quash an order allowing interim maintenance to a minor child but not to the petitioner herself. The respondent husband had filed for restitution of conjugal rights and sought interim maintenance for himself and his minor child.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "Unless evidence is led to prove the fact, a document cannot be relied upon as proof of that fact.",
+      "held": "It is submitted that unless and until the said salary slip and the fact that the petitioner is serving in Prolific Consultants (India) Ltd. as alleged is proved by leading evidence, the learned trial Court ought not to have relied upon the salary slip produced at mark 25/1.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Kadambari vs Mihirkumar"
       ],
+      "keywords": [
+        "document",
+        "evidence",
+        "proof"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A husband's liability to maintain his wife and minor child continues even if the wife is employed.",
+      "held": "It is submitted that in a given case, to maintain the minor child and to maintain herself as the husband was not maintaining and taking care, the wife may serve as the wife and minor child cannot starve and therefore, the liability of the husband to maintain the wife and minor will still be there.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "husband's liability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order is set aside, and the trial court's decision to award interim maintenance only to the minor child is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "revision application",
+    "civil revision",
+    "family law",
+    "marriage dissolution",
+    "spousal rights",
+    "property division",
+    "maintenance",
+    "custody",
+    "joint family",
+    "separation",
+    "matrimonial dispute",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing revision application",
+    "advising on spousal rights and property division"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:12:28.643956"
 }

@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-07-15T10:54:39.477966",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 12,
     "partition": 2,
@@ -25,13 +25,13 @@
     "C. Saravanan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Erode (HMOP No. 1 of 2014)",
   "reserved_on": "21.08.2018",
   "delivered_on": "30-11-2018",
-  "case_name": "K. Shanmugha Raja @ Raja vs Shanthakumari on 30 November, 2018",
+  "case_name": "K. Shanmugha Raja @ Raja vs Shanthakumari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "K. Shanmugha Raja @ Raja (husband)",
+    "respondent_defendant": "Shanthakumari (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a petition under Section 13(1)(ia)(ib)(ii) of the Hindu Marriage Act for dissolution of marriage. The trial court dismissed the petition. The husband appealed to the High Court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage between a Hindu and a person who belongs to a different religion, even if it is solemnised by following Hindu rites and customs, is void.",
+      "held": "wherein it was held that a marriage between a Hindu and a person who belongs to different religion, even if it is solemnised by following Hindu rites and customs, is void.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 11",
+        "Hindu Marriage Act — Section 5"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gullipilli Sowria Raj vs. Bandaru Pawani @ Gullipilli Pawani, (2009) 1 Supreme Court Cases 714"
+      ],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "different religion",
+        "Hindu rites and customs"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving interfaith marriages"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Even if a plea is not specifically made, a party can still rely on it if it is satisfactorily proved by evidence.",
+      "held": "then the mere fact that the plea was not expressly taken in the pleadings would not necessarily disentitle a party from relying upon, if it is satisfactorily proved by evidence.",
+      "cited_cases": [
+        "Bhagwati Prasad vs. Shri Chandra Maul, AIR 1966 SC 735"
+      ],
+      "keywords": [
+        "plea",
+        "evidence",
+        "party's reliance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving alternative claims or implied issues"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "marriage dissolution",
+    "Family Court",
+    "Erode",
+    "original petition",
+    "dismissal",
+    "dissolution of marriage",
+    "Husband's petition",
+    "wife's response",
+    "family law",
+    "Indian Kanoon",
+    "judgment",
+    "appeal",
+    "civil miscellaneous appeal",
+    "Section 19",
+    "The Family Court Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "responding to a dismissal of original petition in family court",
+    "appealing a judgment on dissolution of marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:09:12.460016"
 }

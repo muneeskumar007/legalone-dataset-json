@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:53:20.728922",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "Arun Monga J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of District Judge (Family Court), Faridabad, TA-608-2019 (O&M)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kamya Verma vs Rohit Verma on 14 February, 2020",
+  "case_name": "Kamya Verma vs Rohit Verma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kamya Verma, wife",
+    "respondent_defendant": "Rohit Verma, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks transfer of petition for custody of three minor children and petition under Section 13(A) of Hindu Marriage Act, 1955. Petitioner is residing at Ludhiana with her parents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Convenience of the wife should be preferred over that of the husband in matrimonial matters.",
+      "held": "In matrimonial matters, convenience of wife is to be preferred over the convenience of husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Sumita Singh Vs. Kumar Sanjay and another",
+        "Rajni Kishor Pardeshi v. Kishor Babulal Pardeshi"
+      ],
+      "keywords": [
+        "matrimonial matters",
+        "wife's convenience",
+        "husband's convenience"
+      ],
+      "favours": "wife",
+      "use_in": [
+        "divorce cases",
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "It is the fundamental duty of every citizen to uphold the dignity of a woman.",
+      "held": "The ethos as manifested under Article 51-A of Constitution of India also envisage that it shall be fundamental duty of every citizen of India to uphold the dignity of woman.",
+      "applicable_acts_sections": [
+        "Constitution of India — Article 51-A"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "dignity of a woman",
+        "fundamental duty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving women's rights",
+        "cases related to domestic violence"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "All cases pending between the parties are tried and decided at one place.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 25",
+    "Guardian and Ward Act",
+    "Section 13(A)",
+    "Custody of minor children",
+    "Transfer of petition",
+    "Family Court",
+    "Cr.P.C.",
+    "FIR",
+    "Residence",
+    "Income",
+    "Distance from court",
+    "Service",
+    "Non-appearance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on custody disputes",
+    "preparing for family court hearings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:25:59.896271"
 }

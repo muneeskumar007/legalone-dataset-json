@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:54:35.446199",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "partition": 9,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "O.S.No.14 of\n1987",
     "O.S.No.14 of 1987"
   ],
-  "trial_court": "",
+  "trial_court": "Court of the Agent to Government, Kakinada, East Godavari District - O.S.No.14 of 1987",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "K.Ratnamma vs L.Santhamma 6 Others on 24 March, 2020",
+  "case_name": "K.Ratnamma vs L.Santhamma 6 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "K.Ratnamma (plaintiff)",
+    "respondent_defendant": "L.Santhamma and 5 others (defendants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff's father passed away intestate, leaving behind various properties. The plaintiff issued a registered notice for partition of the properties, but the defendants refused. The plaintiff approached the trial court for partition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden of proof lies on the plaintiff to show that the properties were acquired by her father and mother.",
+      "held": "As the contention of the plaintiff was disputed and denied by the defendants, the burden of proof showing that the properties were acquired by her father and mother would fall on the plaintiff.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "plaintiff",
+        "acquisition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The plaintiff must provide documentation to support her claim that the properties were acquired by her father and mother.",
+      "held": "However, no documentation of any nature has been filed in support of their claim.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "documentation",
+        "support",
+        "claim"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Succession Act",
+    "partition",
+    "intestate",
+    "self acquired properties",
+    "registered lawyer notice",
+    "S.6 Hindu Succession Act",
+    "family property",
+    "joint family",
+    "coparceners",
+    "majority",
+    "minor",
+    "improvement",
+    "partition suit",
+    "notice of partition",
+    "lawyer's notice"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on Hindu succession law",
+    "representing a plaintiff in a partition dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:04:50.510284"
 }

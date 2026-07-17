@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:54:39.651615",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "M.C.NO.77/2016"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Tumakuru, M.C.No.77/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "K.S. Vinay Kumar vs Smt. C.H. Meghana on 3 July, 2023",
+  "case_name": "K.S. Vinay Kumar vs Smt. C.H. Meghana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "K.S. Vinay Kumar, husband",
+    "respondent_defendant": "Smt. C.H. Meghana, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties was solemnized on 04.05.2012. A son was born out of wedlock. Appellant/husband filed petition seeking dissolution of marriage under Section 13(1)(ia) and (ib) of the Hindu Marriage Act, 1955. Family court dissolved marriage on ground of desertion and awarded Rs.5 Lakhs as permanent alimony.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the appellant to establish that the order granting permanent alimony is unreasonable.",
+      "held": "We have considered the submissions made on both sides and have perused the record. Admittedly, the applicant has not been able to demonstrate that the amount of permanent alimony awarded by the family court is unreasonable.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "permanent alimony",
+        "unreasonable",
+        "family court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The amount of permanent alimony awarded by the family court is reasonable and just.",
+      "held": "Learned counsel for the respondent has supported the judgment and decree passed by the family court and has submitted that the amount of permanent alimony awarded by the family court is reasonable and is just and proper.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "permanent alimony",
+        "reasonable",
+        "just"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Appellant's appeal against quantum of permanent alimony was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i-b)",
+    "Family Courts Act",
+    "M.C.No.77/2016",
+    "MFA No.8045 of 2017",
+    "NC: 2023:KHC:22805-DB",
+    "Tumakuru",
+    "Karnataka",
+    "High Court",
+    "Justice Alok Aradhe",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "appealing family court judgment in Karnataka High Court",
+    "guidelines for filing miscellaneous first appeal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:06:39.717044"
 }

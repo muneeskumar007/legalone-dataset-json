@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:53:56.982946",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -26,13 +26,13 @@
     "C.C.No.159 of 2016",
     "R.P.No.192/2017"
   ],
-  "trial_court": "",
+  "trial_court": "Metropolitan Sessions Judge, Hyderabad, in Criminal Revision Petition No.192/2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Krishnaveni Rai Alias Krishnaveni ... vs The State Of Telangana on 9 April, 2019",
+  "case_name": "Krishnaveni Rai Alias Krishnaveni vs The State Of Telangana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Krishnaveni Rai Alias Krishnaveni, de facto complainant",
+    "respondent_defendant": "The State Of Telangana, respondent No.1; Sri V.B.Gopal Krishna, learned counsel for the petitioner/de facto complainant; Sri Maj Pankaj Rai/respondent No.2, party-in-person",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the legally wedded wife of respondent No.2/accused; marriage was solemnized on 13.12.2014; petitioner was subjected to mental and physical torture by respondent No.2/accused, leading her to file complaint against him for offences under Sections 498-A, 406 and 500 IPC",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnised after the commencement of this Act shall be null and void if it contravenes any one of the conditions specified in clauses (i), (iv) and (v) of section 5.",
+      "held": "Any marriage solemnised after the commencement of this Act shall be null and void and may, on a petition presented by either party thereto against the other party, be so declared by a decree of nullity if it contravenes any one of the conditions specified in clauses (i), (iv) and (v) of section 5.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "null and void",
+        "conditions for a Hindu marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "When a marriage has been dissolved by a decree of divorce, it shall be lawful for either party to the marriage to marry again if there is no right of appeal against the decree or, if there is such a right of appeal, the time for appealing has expired without an appeal having been presented, or an appeal has been presented but has been dismissed.",
+      "held": "it shall be lawful for either party to the marriage to marry again after dissolution of a marriage if there is no right of appeal against the decree or, if there is such a right of appeal, the time for appealing has expired without an appeal having been presented, or an appeal has been presented but has been dismissed.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 15"
+      ],
+      "cited_cases": [
+        "Anurag Mittal v. Shaily Mishra Mittal (1 supra)"
+      ],
+      "keywords": [
+        "decree of divorce",
+        "right of appeal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order dated 23.01.2018 passed in Criminal Revision Petition No.192/2017 by the learned Metropolitan Sessions Judge, Hyderabad, was set aside and the order dated 15.03.2017 in Crl.M.P.No.6829 of 2016 in C.C.No.159 of 2016 on the file of XIII Additional Chief Metropolitan Magistrate (Mahila Court), Hyderabad, was restored",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Penal Code",
+    "1860",
+    "Criminal Revision Petition",
+    "498-A IPC",
+    "Crl.M.P.No.6829",
+    "C.C.No.159",
+    "XIII Additional Chief Metropolitan Magistrate",
+    "Mahila Court",
+    "Hyderabad",
+    "Section 397 CrPC",
+    "Section 401 CrPC",
+    "Crl.R.P",
+    "Metropolitan Sessions Judge",
+    "Hyderabad",
+    "Criminal Revision Case",
+    "de facto complainant",
+    "petitioner",
+    "accused",
+    "offence",
+    "solemnized",
+    "Hindu law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on criminal procedure",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:18:12.590492"
 }

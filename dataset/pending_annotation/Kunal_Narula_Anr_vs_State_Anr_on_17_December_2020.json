@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:54:13.707210",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kunal Narula & Anr vs State & Anr on 17 December, 2020",
+  "case_name": "Kunal Narula & Anr vs State & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kunal Narula, Hemant Suri, Vijay Kumar Suri, Poonam Suri",
+    "respondent_defendant": "State, Neha Suri",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant Neha Suri filed FIRs against petitioners under IPC sections. Petitioners seek quashing of FIRs.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Settlement between the offender and victim can have no legal sanction for serious offences like murder, rape, dacoity, etc.",
+      "held": "However, certain crimes have been made compoundable in law, with or without the permission of the court. In respect of serious offences like murder, rape, dacoity, etc., or other offences of mental depravity under IPC or offences of moral turpitude under special statutes, like the Prevention of Corruption Act or the offences committed by public servants while working in that capacity, the settlement between the offender and the victim can have no legal sanction at all.",
       "applicable_acts_sections": [
-        "TODO"
+        "IPC",
+        "Prevention of Corruption Act"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gian Singh vs. State of Signature Not Verified Digitally Signed By:SUMIT GHAI Signing Date:22.12.2020 20:38:10 This file is digitally signed by PS to HMJ ANU MALHOTRA."
+      ],
       "keywords": [
-        "TODO"
+        "settlement",
+        "serious offences"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Courts can quash criminal proceedings or complaints if the settlement between the offender and victim is genuine and there is no likelihood of conviction.",
+      "held": "The High Court may within the framework of its inherent power, quash the criminal proceeding or criminal complaint or FIR if it is satisfied that on the face of such settlement, there is hardly any likelihood of the offender being convicted and by not quashing the criminal proceedings, justice shall be casualty and ends of justice shall be defeated.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Kunal Narula & Anr vs State & Anr on 17 December, 2020",
+        "Punjab & Another, (2012) 10 SCC 303"
+      ],
+      "keywords": [
+        "quashing",
+        "genuine settlement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIRs quashed",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "cruelty",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "marriage",
+    "spouse",
+    "matrimonial",
+    "cohabitation",
+    "separation",
+    "maintenance",
+    "alimony",
+    "property",
+    "assets",
+    "joint family",
+    "partition",
+    " Hindu law",
+    "family court",
+    "conciliation",
+    "mediation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:37:18.833528"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:53:34.113786",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "family_pension",
   "domain_scores": {
     "divorce": 2,
     "partition": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Khushboo Khanna Alias Gudia vs Punjab State Power Corporation Ltd on 28 October, 2025",
+  "case_name": "Khushboo Khanna Alias Gudia vs Punjab State Power Corporation Ltd",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Khushboo Khanna Alias Gudia and another (minor children)",
+    "respondent_defendant": "Punjab State Power Corporation Limited and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are minor children seeking family pension on account of death of their father. Respondents rejected the claim without considering relevant factors.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "This court cannot decide a disputed question of facts while exercising its powers under Article 226 and 227 of the Constitution of India.",
+      "held": "A two-Judge Bench of the Hon'ble Apex Court in Orissa Agro Industries Corporation Ltd. Vs. Bharati Industries (2005) 12 SCC 725, observed that as follows: '9. A bare perusal of the High Court's judgment shows that there was clear non-application of mind.'",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Orissa Agro Industries Corporation Ltd. Vs. Bharati Industries (2005) 12 SCC 725"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "judicial discretion",
+        "factual disputes"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family pension claims"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court cannot decide a disputed question of facts in a writ petition.",
+      "held": "The High Court should have dismissed the case after coming to the above conclusions.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Orissa Agro Industries Corporation Ltd. Vs. Bharati Industries (2005) 12 SCC 725"
+      ],
+      "keywords": [
+        "factual disputes",
+        "writ petitions"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family pension claims"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "writ petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ dismissed",
+    "final_order": "The petition was dismissed, and respondents were directed not to release family pension in favour of respondent No.4.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "family pension",
+    "Hindu Marriage Act",
+    "Punjab Civil Services Rules",
+    "Rule 6.17",
+    "Protection of Women from DV Act",
+    "DV Act",
+    "quashing",
+    "mandamus",
+    "certiorari",
+    "Article 226/227",
+    "Constitution of India",
+    "PSPCL",
+    "family pension grant",
+    "wrongful denial"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for family pension",
+    "responding to a wrongful denial of family pension",
+    "quashing an order denying family pension"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:43:21.199961"
 }

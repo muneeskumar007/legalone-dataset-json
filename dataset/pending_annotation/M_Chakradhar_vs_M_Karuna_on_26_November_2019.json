@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:58:32.710852",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 3,
@@ -25,13 +25,13 @@
   "case_numbers": [
     "O.P.No.351 of 2014"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Family Court, Visakhapatnam, F.C.O.P. No.365 of 2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "M.Chakradhar vs M.Karuna on 26 November, 2019",
+  "case_name": "M.Chakradhar vs M.Karuna",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M.Chakradhar, husband",
+    "respondent_defendant": "M.Karuna, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1996 and had two children. The respondent filed a petition for maintenance and restitution of conjugal rights, which was resisted by the petitioner. The trial court allowed both petitions and granted Rs.5,500/- per month towards monthly maintenance to the respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person who is ready to take back his wife and resume their conjugal life in terms of the decree for restitution of conjugal rights cannot seek to avoid payment of maintenance as ordered by the trial Court.",
+      "held": "After recording the evidence of both the parties and on proper appreciation of the same, the learned Judge came to the conclusion that the petitioner herein has discarded the 1st respondent herein, who is his wife and neglected her and that he is not providing anything towards her maintenance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "conjugal rights",
+        "restitution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who is not providing anything towards his wife's maintenance cannot seek to avoid payment of maintenance as ordered by the trial Court.",
+      "held": "So, in view of the said finding recorded by the learned Judge on proper appreciation of evidence on record, the petitioner now cannot seek to avoid payment of maintenance as ordered by the trial Court on the ground that he is now ready and willing to take back his wife and resume their conjugal life in terms of the decree for restitution of conjugal rights.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "conjugal rights",
+        "restitution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final order confirmed the trial court's decision granting maintenance of Rs.5,500/- per month to the respondent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "dowry",
+    "harassment",
+    "torture",
+    "498-A IPC",
+    "Dowry Prohibition Act",
+    "Protection of Women from DV Act",
+    "Hindu Marriage Act",
+    "Indian Penal Code",
+    "Family Court",
+    "Visakhapatnam",
+    "Additional Family Court",
+    "Criminal Revision Case",
+    "monthly maintenance",
+    "wedlock",
+    "dowry demand",
+    "DV Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "representing clients in DV cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T12:08:53.857825"
 }

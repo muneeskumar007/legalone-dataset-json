@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:53:48.961726",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "C.C.No.839 of\n2017"
   ],
-  "trial_court": "",
+  "trial_court": "VI Metropolitan Magistrate, Medchal District, Cyberabad, C.C.No.839 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Konda Raghu Babu vs Smt.Konda Or Koti Radhika on 30 July, 2018",
+  "case_name": "Konda Raghu Babu vs Smt.Konda Or Koti Radhika",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "A1 to A3 (husband, wife, plaintiff)",
+    "respondent_defendant": "Smt Konda @ Koti Radhika (wife, defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners subjected the respondent to cruelty for her failure to meet the illegal demand of dowry. She lodged a report with the police alleging harassment and obtained an FIR. Investigation was conducted and a charge sheet was filed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging harassment to prove the same.",
+      "held": "Section 498-A IPC is clear that when the wife meted out any harassment in the hands of the husband or relatives and they are liable for punishment, if it is in connection with payment of dowry.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code, 1860 — Section 498-A"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "harassment",
+        "dowry",
+        "IPC"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "domestic violence cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A divorce deed executed by the parties can be considered as evidence of a legally valid divorce.",
+      "held": "Learned counsel for the petitioners also drawn the attention of the Court to the divorce deed dated 21.11.2011 whereby both parties dissolved their marriage by mutual consent and reason for obtain the divorce is also mentioned.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "divorce deed",
+        "legally valid divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "marriage dissolution cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The proceedings were quashed as the marriage between Nagaraju and the respondent was subsisting, making her not entitled to lodge a report with the police.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "dowry",
+    "cruelty",
+    "Hindu Marriage Act",
+    "IPC",
+    "Section 498-A",
+    "Section 4 of the Dowry Prohibition Act",
+    "quash proceedings",
+    "Crl.P.",
+    "Cr.P.C.",
+    "Section 482 Cr.P.C.",
+    "C.C.No.839",
+    "Medchal District",
+    "Cyberabad",
+    "Venkateshwara Swamy Temple",
+    "Lalapet",
+    "Nagaraju",
+    "illegality of dowry demand"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing criminal proceedings",
+    "defending against domestic violence charges"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:58:12.508286"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:54:51.253401",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, 10th Court at Alipore, South 24-Parganas (Matrimonial Suit No.10 of 2016 and Misc. Case No.7 of 2016)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Lavina Bhagnani Alias Muskaan Karan vs Karan Manoj Chainani on 24 March 2021",
+  "case_name": "Lavina Bhagnani alias Muskaan Karan Chainani v. Karan Manoj Chainani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner/wife",
+    "respondent_defendant": "Respondent/husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner/wife filed a matrimonial suit and an application for maintenance pendente lite under Section 24 of the Hindu Marriage Act, pending before the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A revisional application should be disposed of expeditiously.",
+      "held": "Taking into account the stage of the suit as also the age of the suit, this revisional application is disposed of with a direction upon the learned Court below to dispose of the miscellaneous case as also the matrimonial suit expeditiously.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "expediency",
+        "revisional application"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court should not go into the merits of a case in a revisional application.",
+      "held": "This Court has not gone into the merits of the case and the learned Court below shall proceed with the case and dispose of the same independently.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "merits",
+        "revisional application"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court is directed to dispose of the miscellaneous case within two months and the matrimonial suit within six months thereafter.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial suit",
+    "maintenance pendente lite",
+    "Section 24",
+    "expeditious disposal",
+    "parallel proceedings",
+    "cross-examination",
+    "PW1",
+    "revisional application",
+    "additional district judge",
+    "Alipore",
+    "South 24-Parganas",
+    "Latin maxim: justice delayed is justice denied"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for expeditious disposal of a matrimonial suit",
+    "guidelines for handling parallel proceedings in family courts",
+    "strategies for cross-examination in divorce cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:52:52.254782"
 }

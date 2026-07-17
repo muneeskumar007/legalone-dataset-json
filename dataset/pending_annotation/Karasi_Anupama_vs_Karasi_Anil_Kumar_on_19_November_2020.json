@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:53:25.959272",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 3,
@@ -25,13 +25,13 @@
     "OP.No.93 of 2018",
     "I.A.No.52\nof 2019"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Senior Civil Judge, Srikakulam - MOP No.93 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Karasi Anupama vs Karasi Anil Kumar on 19 November, 2020",
+  "case_name": "Karasi Anupama vs Karasi Anil Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (wife)",
+    "respondent_defendant": "Respondent (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner is the wife and respondent is the husband. The case is about restitution of conjugal rights and interim maintenance. The trial court dismissed the interlocutory application for interim maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,114 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A woman is entitled to lead a life in the similar manner as she would have lived in the house of her husband.",
+      "held": "She is entitled in law to lead a life in the similar manner as she would have lived in the house of her husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Bhuwan Mohan Singh v. Meena and Ors, (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "survival",
+        "husband's obligations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The concept of sustenance does not necessarily mean to lead the life of an animal, feel like an unperson to be thrown away from grace and roam for her basic maintenance somewhere else.",
+      "held": "She is entitled in law to lead a life in the similar manner as she would have lived in the house of her husband.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Bhuwan Mohan Singh v. Meena and Ors, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "maintenance",
+        "survival",
+        "husband's obligations"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The husband cannot take subterfuges to deprive her of the benefits.",
+      "held": "In a proceeding of this nature, the husband cannot take subterfuges to AIR 2014 Supreme Court 2875 deprive her of the benef",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Bhuwan Mohan Singh v. Meena and Ors, (Year) X SCC Y",
+        "AIR 2014 Supreme Court 2875"
+      ],
+      "keywords": [
+        "maintenance",
+        "benefits",
+        "husband's obligations"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The notice sent to the respondent was presumed served, and the petitioner is entitled to interim maintenance.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "cruelty",
+    "harassment",
+    "mental cruelty",
+    "physical harassment",
+    "marriage",
+    "wife",
+    "husband",
+    "child",
+    "custody",
+    "maintenance",
+    "alimony",
+    "Latin maxim: Actus me invito non facit actum",
+    "notice",
+    "service",
+    "presumption"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "assisting in custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:31:36.413307"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:58:33.575568",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -25,13 +25,13 @@
     "O.P.No.60 of\n1995",
     "O.P.No.60 of 1985"
   ],
-  "trial_court": "",
+  "trial_court": "Sub Judge, Tiruvallur (H.M.O.P.No.60 of 1995)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "M. Kabaleeswari @ Easwari vs M.G.Meganathan on 9 November, 2022",
+  "case_name": "M. Kabaleeswari @ Easwari vs M.G.Meganathan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M. Kabaleeswari @ Easwari (wife)",
+    "respondent_defendant": "M.G.Meganathan (husband), M. Suriya (daughter), M. Udayakumar (son)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife seeks to challenge the decree for divorce obtained by her husband before the Courts below.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to challenge a decree for divorce to prove that the decree is null and void.",
+      "held": "This Court therefore directed the learned counsel for the Railways to verify as to whether the said M.G.Meganathan, who was working with the Southern Railways had nominated any person to receive his terminal benefits.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "decree for divorce",
+        "null and void"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A nominee's nomination is effective until revoked or superseded.",
+      "held": "The said M.G.Meganathan appears to have taken voluntary retirement from service on 01.03.2013. The document would further show that in the year 2013, Form 6 has been submitted by the said M.G.Meganathan, which is a statement showing the details of members of the family for the purpose of family pension.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "nominee",
+        "nomination",
+        "revocation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family pension cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The un-successful wife's appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Section 28(1) (g)",
+    "Section 100",
+    "C.M.S.A.No.9/2002",
+    "C.M.A.No.12/2000",
+    "H.M.O.P.No.60/1995",
+    "Appellate Authority",
+    "Principal District Judge",
+    "Chengalpet",
+    "Sub Judge",
+    "Tiruvallur",
+    "Indian Kanoon",
+    "Latin Maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions under Hindu Marriage Act, 1955",
+    "appealing against orders of Appellate Authority and Principal District Judge",
+    "using Section 28(1) (g) and Section 100 of Code of Civil Procedure, 1908"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T12:12:05.808798"
 }

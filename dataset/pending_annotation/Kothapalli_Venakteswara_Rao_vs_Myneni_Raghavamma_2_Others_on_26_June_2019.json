@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:53:51.930816",
   "domain": "partition",
-  "sub_domain": "maintenance",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 7,
@@ -25,13 +25,13 @@
     "A.S.No.34 of 2015",
     "O.S.No.6 of 2011"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge, Repalle (OS No.6 of 2011) and Additional District and Sessions Judge, Tenali (A.S.No.34 of 2015)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kothapalli Venakteswara Rao vs Myneni Raghavamma 2 Others on 26 June, 2019",
+  "case_name": "Kothapalli Venakteswara Rao vs Myneni Raghavamma 2 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kothapalli Venakteswara Rao (Appellant/Defendant)",
+    "respondent_defendant": "Myneni Raghavamma, Katragadda Radha Bai, Myneni Bala Koteswara Rao (Respondents/Plaintiffs)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit filed for partition, court decreed property to be divided into 12 equal shares and separate possession of share to each of the plaintiffs.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A gift deed reciting that the property is being gifted to a person as the properties given by her in laws are not sufficient for her maintenance does not enlarge into an absolute right.",
+      "held": "The very small issue involved in this appeal is whether the property, which was given to Durgamma towards maintenance with limited rights, has enlarged into an absolute right by virtue of Section 14i) of the Hindu Succession Act or whether Kiurgamma would have only limited right over the suit schedule property without any right of alienation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act — Section 14i"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "gift deed",
+        "maintenance",
+        "absolute right",
+        "limited rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who executes a Will in favour of another has no right to execute the Will if it is not valid and binding.",
+      "held": "Durgamma has no right to execute the Will in favour of the mother of the defendant or to any other person.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "Will",
+        "valid",
+        "binding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "probate cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's judgment and decree were confirmed by the additional district and sessions judge, Tenali.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Succession Act",
+    "Code of Civil Procedure",
+    "Section 100 CPC",
+    "Section 151 CPC",
+    "OS No. G/2011",
+    "OS No. 6/2014",
+    "Additional District and Sessions Judge",
+    "Senior Civil Judge",
+    "Tenali",
+    "Repalle",
+    "Myneni Raghavamma",
+    "Kothapalli Venakteswara Rao",
+    "Jayaramaiah",
+    "Nageswara Rao",
+    "Bala Koteswara Rao",
+    "Radha Bai",
+    "Raghavaiah",
+    "Partition of Property",
+    "Family Settlement",
+    "Legal Heir",
+    "Succession Certificate"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition petitions",
+    "advising on family settlements",
+    "representing legal heirs in succession matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:04:39.818467"
 }

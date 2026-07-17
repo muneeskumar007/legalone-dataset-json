@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:53:16.729129",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kamal Gupta vs State (Govt Of Nct Of Delhi) on 6 October, 2015",
+  "case_name": "Kamal Gupta vs State (Govt Of Nct Of Delhi)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kamal Gupta, husband",
+    "respondent_defendant": "State (Govt Of Nct Of Delhi), wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant seeks pre-arrest bail in FIR No.522/2014 under sections 406/498A/34 IPC read with section 4 of the Dowry Prohibition Act, 1961. The parties have arrived at a Memorandum of Understanding dated 06.10.2015.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle disputes amicably and withdraw pending cases.",
+      "held": "The parties state and undertake that all disputes and misunderstandings of all kind whatsoever between the parties have been amicably settled and resolved.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from Domestic Violence Act, 2005 — section 12"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "withdrawal of cases"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can agree to file joint petitions for divorce.",
+      "held": "It is agreed that both the parties hereto shall file a petition under section 13B(1) of Hindu Marriage Act for a decree of divorce within one week of receipt of first payment of Rs.5,00,000/- by the First Party.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — section 13B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "joint petition",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Bail granted",
+    "final_order": "The applicant's application for pre-arrest bail is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "pre-arrest bail",
+    "section 438 CrPC",
+    "FIR No.522/2014",
+    "sections 406/498A/34 IPC",
+    "Dowry Prohibition Act",
+    "matrimonial disputes",
+    "amicable settlement",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "bail application",
+    "Mansarovar Park",
+    "Delhi High Court",
+    "section 4 Dowry Prohibition Act",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail applications",
+    "advising on matrimonial disputes",
+    "assisting with divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:21:16.283912"
 }

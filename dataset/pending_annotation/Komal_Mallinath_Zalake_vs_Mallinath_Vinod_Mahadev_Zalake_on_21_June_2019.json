@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:53:48.236701",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court at Solapur, Marriage Petition No.A-155/2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Komal Mallinath Zalake vs Mallinath @ Vinod Mahadev Zalake on 21 June, 2019",
+  "case_name": "Komal Mallinath Zalake vs Mallinath @ Vinod Mahadev Zalake",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Komal M. Zalake (wife)",
+    "respondent_defendant": "Mallinath @ Vinod M. Zalake (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife seeks transfer of divorce petition filed by husband from Family Court at Solapur to Family Court at Pune.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party seeking transfer of a case must ensure that the respondent is properly served.",
+      "held": "Though respondent is duly served, no one appeared when the matter called out.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13(1)(ib)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "service",
+        "transfer",
+        "proper service"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may issue a fresh notice to a respondent who fails to appear in court.",
+      "held": "Registry is directed to issue fresh notice to respondent for final disposal of matter at the stage of admission, returnable on 19.7.2019.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13(1)(ib)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "fresh notice",
+        "failure to appear"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Registry is directed to issue fresh notice to respondent for final disposal of matter, and the applicant is permitted to serve the respondents by private notice.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "transfer of case",
+    "Family Court",
+    "Solapur",
+    "Pune",
+    "notice",
+    "service",
+    "RPAD",
+    "private notice",
+    "affidavit",
+    "admission",
+    "judgment",
+    "marriage petition",
+    "section 13(1)(ib)",
+    "Latin maxim: justice delayed is justice denied"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "transferring a case between family courts",
+    "serving notice in a divorce matter"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:54:48.554654"
 }

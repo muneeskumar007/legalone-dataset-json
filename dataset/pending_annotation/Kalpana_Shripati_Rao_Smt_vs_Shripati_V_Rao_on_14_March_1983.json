@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T10:53:15.971499",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "City Civil Court, Bombay in M.J. Petition No. 107 of 1979",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kalpana Shripati Rao (Smt.) vs Shripati V. Rao on 14 March, 1983",
+  "case_name": "Kalpana Shripati Rao (Smt.) v. Shripati V. Rao",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kalpana Shripati Rao, wife",
+    "respondent_defendant": "Shripati V. Rao, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Kalpana and Shripati; two children born; husband's suspicious behavior, domination, and physical assault on wife; wife seeks judicial separation.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A suspicion is legitimate if there is material to support it, and the conduct of a person who entertains such suspicion is not unreasonable.",
+      "held": "If the respondent was justified in entertaining the suspicion for which there was material and the suspicion was reasonable, the conduct and behaviour of the respondent was not unreasonable.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "suspicion",
+        "material",
+        "reasonable",
+        "unreasonable"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who admonishes another and tells them to behave properly is not being cruel.",
+      "held": "If the respondent admonished the petitioner and told her repeatedly to be faithful and to behave in a proper manner, the respondent cannot be blamed.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "admonition",
+        "behaviour",
+        "cruelty"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's judgment for judicial separation was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "judicial separation",
+    "Hindu Marriage Act",
+    "section 10",
+    "marriage",
+    "domestic violence",
+    "assault",
+    "illicit relations",
+    "friendship",
+    "suspicion",
+    "quarrels",
+    "domination",
+    "family law",
+    "Indian family law",
+    "Bombay High Court",
+    "judicial separation under section 10"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for judicial separation",
+    "advising on domestic violence cases",
+    "representing clients in Hindu Marriage Act disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:17:40.003609"
 }

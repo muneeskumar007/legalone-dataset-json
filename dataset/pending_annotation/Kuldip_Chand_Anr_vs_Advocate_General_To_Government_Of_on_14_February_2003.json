@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T10:54:02.849463",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kuldip Chand & Anr vs Advocate General To Government Of ... on 14 February, 2003",
+  "case_name": "Kuldip Chand & Anr vs Advocate General To Government Of ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kuldip Chand & Anr.",
+    "respondent_defendant": "Advocate General to Government of Himachal Pradesh & Ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Raj Kumar Bir Singh constructed a Dharamsala on a land measuring 1702 sq. yards and 18 sq. Girha. The said Dharamsala was dedicated to the general public. Raj Kumar Bir Singh died, and the properties devolved upon Surjan Singh.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,117 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu is entitled to dedicate his property for religious and charitable purposes without an instrument in writing.",
+      "held": "It is beyond any dispute that a Hindu is entitled to dedicate his property for religious and charitable purposes wherefor even no instrument in writing is necessary.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "dedication",
+        "property",
+        "charitable",
+        "purposes"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A clear and unequivocal manifestation of intention to create a trust and vesting thereof in the donor and another as trustees is necessary for creating an endowment.",
+      "held": "For the purpose of creating an endowment, what is necessary is a clear and unequivocal manifestation of intention to create a trust and vesting thereof in the donor and another as trustees.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "intention",
+        "trustees",
+        "endowment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Dedication of property either may be complete or partial.",
+      "held": "Dedication of property either may be complete or partial.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "dedication",
+        "property"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A public trust is created when the dedication is complete.",
+      "held": "When such dedication is complete, a public trust is created in contra-distinction to a partial dedication which would only create a charity.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "public",
+        "trust",
+        "dedication"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Whether by mere use of a premises as a 'Dharamsala' for about 125 years would lead to an inference that the same belongs to a public trust, is the question involved in this appeal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Code of Civil Procedure",
+    "1908",
+    "Dharamsala",
+    "public trust",
+    "landmark",
+    "appeal",
+    "civil",
+    "Himachal Pradesh",
+    "judgment",
+    "Division Bench",
+    "premises",
+    "trust",
+    "inference",
+    "125 years",
+    "Latin maxim",
+    "nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a property dispute appeal in Himachal Pradesh",
+    "using the Code of Civil Procedure, 1908 for a public trust case",
+    "arguing an inference based on long-term use of premises"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:27:23.975729"
 }

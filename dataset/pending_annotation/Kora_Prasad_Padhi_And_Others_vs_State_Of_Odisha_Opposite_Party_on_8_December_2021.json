@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:53:50.419072",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "R.K. Pattanaik J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "learned J.M.F.C., Hinjilicut (G.R. Case No.3 of 2013)",
   "reserved_on": "",
   "delivered_on": "13.03.2003",
-  "case_name": "Kora Prasad Padhi And Others vs State Of Odisha .... Opposite Party on 8 December, 2021",
+  "case_name": "Kora Prasad Padhi And Others vs State Of Odisha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kora Prasad Padhi and others (husband, wife, etc.)",
+    "respondent_defendant": "State of Odisha",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners' wife lodged an F.I.R. leading to criminal proceeding; parties settled and filed joint application for mutual divorce under Hindu Marriage Act, 1955; court allowed application and dissolved marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A criminal proceeding can be quashed even if the offences are not compoundable, in order to advance the cause of justice.",
+      "held": "The settled position of law is that even if offences alleged in a criminal proceeding not to be compoundable, it can still be quashed keeping in view the larger interest of the parties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Constitution of India — Article 226",
+        "Cr.P.C. — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceeding",
+        "compoundable",
+        "justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court can exercise powers under Article 226 of the Constitution and Section 482 Cr.P.C. to quash a criminal proceeding.",
+      "held": "This Court has held and observed that there is no bar in exercising powers under Article 226 of the Constitution of India and also Section 482 Cr.P.C. in order to quash a criminal proceeding, even when the offences are not compoundable or it is required to advance the cause of justice.",
+      "applicable_acts_sections": [
+        "Constitution of India — Article 226",
+        "Cr.P.C. — Section 482"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "quashing",
+        "Article 226",
+        "Section 482 Cr.P.C."
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Criminal proceeding in G.R. Case No.3 of 2013 quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 482",
+    "quash criminal proceeding",
+    "compromise",
+    "FIR",
+    "charge sheet",
+    "summons",
+    "498A IPC",
+    "506 IPC",
+    "406 IPC",
+    "34 IPC",
+    "4 D.P. Act",
+    "6 D.P. Act",
+    "divorce",
+    "settlement",
+    "joint application"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce settlement agreement",
+    "quashing criminal proceeding in divorce case",
+    "negotiating compromise in domestic violence case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:59:58.627108"
 }

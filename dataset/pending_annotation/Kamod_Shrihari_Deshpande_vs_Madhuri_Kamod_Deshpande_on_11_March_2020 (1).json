@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:53:19.252612",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Joint Civil Judge Junior Division, Aurangabad, Hindu Marriage Petition No.114 of 2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kamod Shrihari Deshpande vs Madhuri Kamod Deshpande on 11 March, 2020",
+  "case_name": "Kamod Shrihari Deshpande vs Madhuri Kamod Deshpande",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kamod Shrihari Deshpande, husband, private service",
+    "respondent_defendant": "Madhuri W/o Kamod Deshpande, wife, household",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married and the husband instituted a petition for dissolution of marriage under Section 13(i)(a), 13(1)(iii), 13(i-b) of the Hindu Marriage Act, 1955. The wife failed to appear and the petition proceeded ex-parte. The trial court allowed the petition and declared the marriage dissolved.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An appeal shall ordinarily lie from the decisions of the Court.",
+      "held": "In terms of Section 28(1) of the Hindu Marriage Act, 1955, the appeal shall ordinarily lie from the decisions of the Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 28"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appeal",
+        "ordinarily lie",
+        "decisions of the Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The District Court shall be the Court of Appeal from all decrees and orders passed by the subordinate Courts.",
+      "held": "In terms of Section 8 of the Maharashtra Civil Courts Act, the District Court shall be the Court of Appeal from all decrees and orders passed by the subordinate Courts.",
+      "applicable_acts_sections": [
+        "Maharashtra Civil Courts Act — Section 8"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "District Court",
+        "Court of Appeal",
+        "subordinate Courts"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal from order allowed",
+    "final_order": "The appeal was allowed with directions about appointment of guardian / next friend for the respondent-wife and thereafter the petition",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "irretrievable breakdown",
+    "marital discord",
+    "separation",
+    "maintenance",
+    "alimony",
+    "custody",
+    "joint family",
+    "matrimonial home",
+    "partition",
+    "equitable distribution",
+    "Latin maxim: 'Nemo dat quod non habet'",
+    "mutual consent",
+    "unilateral decision"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "assisting with joint family property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:24:12.597694"
 }

@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T10:54:13.863520",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "land_acquisition": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kuncham Venkannan And 8 Others vs The State Of Telangana And Another on 27 November, 2018",
+  "case_name": "Kuncham Venkannan And 8 Others vs The State Of Telangana And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kuncham Venkannan and 8 others (husband, wife, etc.)",
+    "respondent_defendant": "The State of Telangana and another (wife, complainant, etc.)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners filed a petition to quash the FIR registered for an offence punishable under Section 494 r/w 34 IPC. The contention is that there was a decree of divorce in O.P.No.1743 of 2015 on 09.04.2017, and the so-called second marriage between petitioners 1 and 2 was performed on 10.07.2017.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "After expiry of the appeal time from a decree of divorce, where an appeal is not presented or an appeal presented but dismissed, it shall be lawful for either party to the marriage to marry again.",
+      "held": "Though from the very wording of Section 15 of the Act and the analogy taken, once there is an ex parte set aside application filed by the 2nd respondent, admittedly, by the time the so called second marriage between petitioners 1 and 2 performed on 10.07.2017, the analogy of pending appeal equally applies to the pending application.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 15"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Denny Pazhoor v. Greeta Sunitha Vincent, (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "divorce",
+        "marriage",
+        "appeal",
+        "ex parte",
+        "set aside"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Mere filing of an appeal is not sufficient; there must be a stay equally.",
+      "held": "Once there is an ex parte decree set aside application without even stated pending, he could not have been undergone the so called ceremony of marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 15"
+      ],
+      "cited_cases": [
+        "Denny Pazhoor v. Greeta Sunitha Vincent, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "appeal",
+        "stay",
+        "ex parte",
+        "set aside"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Criminal Petition is disposed of. All defences of the petitioners are left open.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 15",
+    "divorce",
+    "decree of divorce",
+    "ex parte",
+    "appeal time",
+    "Indian Divorce Act",
+    "Section 57",
+    "Kerala High Court",
+    "Denny Pazhoor v. Greeta Sunitha Vincent",
+    "Cr.P.C",
+    "Section 482",
+    "FIR",
+    "Section 494 r/w 34 IPC",
+    "Family Court",
+    "City Civil Court",
+    "Hyderabad",
+    "Nalgonda II Town Police Station"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs",
+    "advising on Hindu marriage laws"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:38:17.182423"
 }

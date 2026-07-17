@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:53:56.572419",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -25,13 +25,13 @@
   "case_numbers": [
     "M.C.No.56 of 2019"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, D.K. Mangaluru, I.A.No.VI in G & WC No.4 of 2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Krishnan Ratnakaran Nambiar vs Satya Krishnan Nee Reddy on 13 April, 2023",
+  "case_name": "Krishnan Ratnakaran Nambiar vs Satya Krishnan Nee Reddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Krishnan Ratnakaran Nambiar (husband)",
+    "respondent_defendant": "Satya Krishnan Nee Reddy (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the two takes place on 24-11-2003 at Kollur. From and out of the wedlock the couple have two children - a son born on 11-06-2008 and a daughter born on 03-06-2009. The marriage began to flounder which led to execution of a settlement agreement styled as a separation agreement between the two and their respective fathers laying certain conditions with regard to separation, custody, visitation and maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to deny maintenance to show that the other party has breached the separation agreement.",
+      "held": "Fault lies on both sides. He would submit that the petitioner is ready and willing to pay maintenance, as also education expenses of the children.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "separation agreement",
+        "breach"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will consider the atmosphere created by a party when seeking custody or visitation rights.",
+      "held": "he has not provided conducive atmosphere for the children to be with him",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "atmosphere",
+        "custody",
+        "visitation rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "custody cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "Writ Petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The petitioner's writ petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "maintenance",
+    "visitation",
+    "interim custody",
+    "children",
+    "family court",
+    "petitioner",
+    "respondent",
+    "Constitution of India",
+    "Articles 226 and 227",
+    "quash",
+    "order",
+    "condition precedent",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on maintenance rights",
+    "assisting with child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:12:27.480013"
 }

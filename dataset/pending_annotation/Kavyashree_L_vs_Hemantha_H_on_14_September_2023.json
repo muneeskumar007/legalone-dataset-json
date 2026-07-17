@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:53:29.659160",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -24,17 +24,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kavyashree L vs Hemantha H on 14 September, 2023",
+  "case_name": "Kavyashree L vs Hemantha H",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kavyashree L, wife",
+    "respondent_defendant": "Hemantha H, husband",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife is seeking transfer of MC No.6426/2022 from Bengaluru to Tumkuru due to inconvenience and hardship caused by distance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -44,39 +44,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In matrimonial cases, the Court shall have to look into the inconvenience and hardship that would be caused to the wife.",
+      "held": "The Court shall have to look into the inconvenience and hardship that would be caused to the wife along with financial and social aspects.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial cases",
+        "inconvenience",
+        "hardship",
+        "wife"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court shall consider the financial and social aspects in matrimonial cases.",
+      "held": "The Court shall have to look into the inconvenience and hardship that would be caused to the wife along with financial and social aspects.",
+      "applicable_acts_sections": [
+        "CPC — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "financial",
+        "social",
+        "matrimonial cases"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce",
+        "family law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court directed the transfer of MC No.6426/2022 from Bengaluru to Tumkuru.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "transfer of case",
+    "family court",
+    "CPC",
+    "1908",
+    "Section 24",
+    "MC No. 6426/2022",
+    "justice",
+    "equity",
+    "marriage",
+    "spouse",
+    "petitioner",
+    "respondent",
+    "wife",
+    "husband",
+    "Tumkur",
+    "Bengaluru",
+    "Karnataka"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for transfer of case",
+    "advising on divorce proceedings in Karnataka",
+    "assisting with family court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:37:12.307981"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:55:04.325483",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "murder_criminal": 1
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Lokesh Sharma And Anr vs The State Nct Of Delhi And Anr on 31 August, 2020",
+  "case_name": "Lokesh Sharma And Anr vs The State Nct Of Delhi And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Lokesh Sharma and another (husband)",
+    "respondent_defendant": "The State NCT of Delhi and another (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner husband seeks quashing of FIR registered under Sections 498A, 406, 34 IPC. Parties had arrived at a settlement whereunder wife was to receive Rs. 22,50,000/- towards full and final settlement.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to establish that the parties have arrived at a settlement.",
+      "held": "On perusal of the aforementioned judgement and decree, it is evident that petitioner no. 1 i.e. Mr. Lokesh Sharma and respondent no. 2 i.e. Ms. Reema Sharma had taken recourse to the provisions of Section 13-B of the Hindu Marriage Act, 1955 to seek divorce, predicated on the ground of mutual consent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "settlement",
+        "mutual consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A settlement arrived at between the parties can be a valid ground for divorce.",
+      "held": "The petition is numbered as HMA 3007/2019. By virtue of the aforesaid judgement and decree, the marriage between petitioner no. 1 i.e. Mr. Lokesh Sharma and respondent no. 2 i.e. Ms. Reema Sharma stands dissolved.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR No. 499/2015 dated 25.06.2015 is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498A IPC",
+    "406 IPC",
+    "34 IPC",
+    "quashing FIR",
+    "settlement",
+    "judgement and decree",
+    "Family Courts",
+    "marriage dissolution",
+    "dissolution of marriage",
+    "FIR quashing",
+    "IPC sections",
+    "Indian Penal Code",
+    "HMA 3007/2019",
+    "Principal Judge",
+    "Dwarka",
+    "New Delhi"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce settlement agreement",
+    "quashing FIR in domestic violence case",
+    "using Hindu Marriage Act for marriage dissolution"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T12:02:25.588707"
 }

@@ -7,7 +7,7 @@
   "total_pages": 39,
   "extracted_at": "2026-07-15T10:53:48.172827",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "habeas_corpus",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "10.02.2021",
   "delivered_on": "08.03.2021",
-  "case_name": "Km. Rachna And Another vs State Of U P And 4 Others on 8 March, 2021",
+  "case_name": "Km. Rachna And Another v. State Of U P And 4 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Km. Rachna and another (wife, wife)",
+    "respondent_defendant": "State of U.P. and 4 others (husband, husband's family)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -71,7 +71,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "First information report lodged by mother of second petitioner Km. Anchal; illegal detention in Children Home (Girl) District Saharanpur",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -81,39 +81,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A judicial order passed by the Child Welfare Committee is appealable and hence, the Habeas Corpus Petition is not maintainable.",
+      "held": "The order passed by the Committee is a judicial order and hence, the detention of corpus cannot be termed to be illegal. Moreover, the order passed by the Committee is appealable and hence the Habeas Corpus Petition is not maintainable and is liable to be dismissed.",
       "applicable_acts_sections": [
-        "TODO"
+        "J.J. Act — Section 27",
+        "J.J. Act — Section 101"
+      ],
+      "cited_cases": [
+        "Smt. Neelam vs. State of UP & 4 others, (Year) X SCC Y",
+        "Rahul Kumar Singh & another vs. State of UP 19 and Kajal & another vs. State of UP and ors, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "judicial order",
+        "appealable",
+        "Habeas Corpus Petition",
+        "Child Welfare Committee"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH — highlights the importance of considering appealability in judicial orders",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court must ensure that a person whose production is sought is not illegally detained.",
+      "held": "The Court while dealing with habeas corpus petitions are required to ensure that the person whose production is sought is not illegally detained.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "habeas corpus",
+        "illegally detained",
+        "court's duty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "habeas corpus cases",
+        "custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM — emphasizes the importance of due process in detention matters",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Release corpus/2nd petitioner Km. Anchal from illegal detention",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "habeas corpus",
+    "juvenile justice",
+    "care and protection of children",
+    "Hindu Marriage Act",
+    "divorce",
+    "Code of Criminal Procedure",
+    "Indian Evidence Act",
+    "Specific Relief Act",
+    "marriage",
+    "family law",
+    "child custody",
+    "matrimonial disputes",
+    "writ petition",
+    "judicial review",
+    "due process",
+    "procedural fairness"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for habeas corpus",
+    "advising on family law matters",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:54:02.580138"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:53:30.592103",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -19,13 +19,13 @@
     "Sanjay Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Matrimonial Case No.300 of 2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Keshav Mukherjee vs Bharti Mukherjee @ Julie on 26 November, 2018",
+  "case_name": "Keshav Mukherjee vs Bharti Mukherjee @ Julie",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Keshav Mukherjee, husband",
+    "respondent_defendant": "Bharti Mukherjee @ Julie, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife filed for dissolution of marriage under Section 13 of the Hindu Marriage Act. She also sought maintenance pendente lite and litigation cost. The trial court allowed her petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking maintenance to prove that they are entitled to it.",
+      "held": "On going through the impugned order and documents on record, I find that the specific case of wife is that her husband is Class-III employee posted as Record Clerk in LIC at Patna getting a sum of Rs.40,000/- per month.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Sections 24 and 26"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "entitlement",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A spouse's income can be considered while determining maintenance.",
+      "held": "Besides that he has moveable and immoveable properties and he is getting income to the tune of Rs.1,00000/- per annum.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Sections 24 and 26"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "income",
+        "maintenance",
+        "consideration"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petitioner was directed to pay a sum of Rs.5,000/- per month for the maintenance of the respondent and her daughter from the date of filing of the petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "matrimonial case",
+    "maintenance",
+    "cost of litigation",
+    "Family Court",
+    "Patna",
+    "Principal Judge",
+    "quashing",
+    "order",
+    "petition",
+    "husband",
+    "wife",
+    "daughter",
+    "monthly payment",
+    "lumpsum",
+    "litigation",
+    "judgment",
+    "High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance orders",
+    "quashing family court judgments"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:40:01.608174"
 }

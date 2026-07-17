@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T10:54:11.375316",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 5,
@@ -22,13 +22,13 @@
   "case_numbers": [
     "O.S.No.3363/2008"
   ],
-  "trial_court": "",
+  "trial_court": "XVIII Addl.City Civil Judge at [CCH.NO.10], Bangalore City. O.S.No.3363/2008",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kum.Roshini J.Reddy vs ) Smt.J.Pavithra Reddy on 26 March, 2016",
+  "case_name": "Kum.Roshini J.Reddy vs ) Smt.J.Pavithra Reddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kum.Roshini J.Reddy, daughter of Late G.Jayaram Reddy, minor reptd by her mother / Natural Guardian Smt.M.Shameem Banu",
+    "respondent_defendant": "Smt.J.Pavithra Reddy, w/o Late G.Jayaram Reddy, and others (1-7)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff is the daughter of Smt.M.Shameem Banu, seeking partition and separate possession of half share in the suit schedule property.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party claiming a relationship to prove it.",
+      "held": "The plaintiff was a minor when the suit was instituted. The suit initially was represented by her mother Smt.M.Shameem Banu as a natural guardian and after attaining majority she continued the proceedings in her individual capacity.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "relationship",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The testimony of a witness can withstand the test of cross-examination if it is consistent and credible.",
+      "held": "PW2 withstood the test of cross examination and has specifically stated that her marriage with late G.Jayaramareddy was took place on 18.1.1991 and the plaintiff was born to her through Late G.Jayaramareddy out of the wedlock on 28.8.1993.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "witness credibility",
+        "cross-examination"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "civil cases",
+        "criminal trials"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "Partition and separate possession of half share in the suit schedule property by metes and bounds, and for permanent injunction restraining the defendants from alienating the suit schedule property.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "minor",
+    "natural guardian",
+    "Smt.M.Shameem Banu",
+    "Koramangala",
+    "Bangalore",
+    "B A N G A L O R E",
+    "Indian Kanoon",
+    "indiankanoon.org",
+    "Gutte Anjaneya Temple Street",
+    "Hosur Road",
+    "Wilson Garden",
+    "Agara Village & Post",
+    "Sarjapura Road",
+    "Begur Hobli",
+    "Bangalore South Taluk"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "partition disputes",
+    "minor's rights",
+    "natural guardianship",
+    "family law"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:30:02.512850"
 }

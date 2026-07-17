@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:54:51.696575",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 7,
@@ -29,10 +29,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Laxmawwa W/O Dharmappa Pujar vs Gangawwa W/O Dharmappa Pujar(Lamani) on 2 December, 2024",
+  "case_name": "Laxmawwa W/O Dharmappa Pujar vs Gangawwa W/O Dharmappa Pujar(Lamani)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SMT. LAXMAWWA W/O. DHARMAPPA PUJAR, SMT. YAMANAPPA S/O. DHARMAPPA PUJAR, SMT. SOMAWWA W/O. AMARESH LAMANI, SMT. MANNAWWA W/O. HANMAPPA LAMANI, SMT. RUKMAWWA W/O. ESHAPPA LAMANI",
+    "respondent_defendant": "SMT. GANGAWWA W/O. DHARMAPPA PUJAR (LAMANI), SMT. YAMANAWWA W/O. YAMANAPPA LAMANI",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -64,7 +64,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are family members seeking partition of property. The trial court allowed the appeal and granted shares to the plaintiffs and defendants. This appeal is filed against that judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -74,39 +74,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A child of a marriage which is null and void under Section 11 is statutorily conferred with legitimacy",
+      "held": "irrespective of whether such a child is born before or after the commencement of Amending Act, 1976;",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legitimacy",
+        "void marriage",
+        "Amending Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A child begotten or conceived before a decree of nullity is deemed to be their legitimate child",
+      "held": "notwithstanding the decree, if the child would have been legitimate to the parties to the marriage if a decree of dissolution had been passed instead of a decree of nullity;",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "legitimacy",
+        "voidable marriage",
+        "decree of nullity"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A child who is legitimate under sub-section (1) or sub-section (2) of Section 16 of the HMA falls within the ambit of the explanation 'related by legitimate kinship'",
+      "held": "",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956 — Section 3(1)(j)",
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "legitimacy",
+        "related by legitimate kinship",
+        "HSA 1956"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family property disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order modified the judgment and decree of the Courts below granting shares to the parties in light of the decision of the Apex Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "S.6",
+    "family property",
+    "coparcenary",
+    "joint family",
+    " Hindu law",
+    "marriage",
+    "divorce",
+    "maintenance",
+    "alimony",
+    "property rights",
+    "partition suit",
+    "family settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on family property disputes",
+    "assisting in Hindu law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:53:54.768362"
 }

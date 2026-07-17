@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:54:34.652696",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "partition": 1,
@@ -25,13 +25,13 @@
   "case_numbers": [
     "O.P.No.629 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Hyderabad, F.C.O.P.No.629 of 2009",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "K. Rama Devi vs Sri K.Pandu Ranga Reddy on 17 April, 2026",
+  "case_name": "K. Rama Devi vs Sri K.Pandu Ranga Reddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "K. Rama Devi (wife, appellants)",
+    "respondent_defendant": "Sri K.Pandu Ranga Reddy (husband, respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellants and respondent No.2 filed a petition under Sections 13(1)(ia) and (ib) of the Hindu Marriage Act, 1955 seeking divorce dissolving their marriage performed on 20.11.1981. They also sought Rs.15.00 Crores towards permanent alimony and costs.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Appellant is entitled to maintenance.",
+      "held": "Appellant No.1 is also entitled for maintenance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Sukhdev v. Sukhbir Kaur",
+        "Vidhyadhar v. Manikrao and another",
+        "Iswar Bhai C.Patel @ Bachu Bhai Patel v. Harihar Behera and another",
+        "Shaik Mahammed Rafi v. Grandhi Poorna Seetha Manoja"
+      ],
+      "keywords": [
+        "maintenance",
+        "entitlement"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's version cannot be believed if they do not enter into the witness box.",
+      "held": "Though respondent No.1 filed counter and also chief-affidavit, he did not enter into the witness box. Therefore, his version cannot be believed.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "witness box",
+        "party's version"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family court cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is preferred challenging the order dated 07.04.2015 passed by the learned Judge, Family Court, Hyderabad.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "permanent alimony",
+    "costs",
+    "family court",
+    "appeal",
+    "F.C.O.P.No.629 of 2009",
+    "Tirupathi",
+    "Cottage",
+    "Hindu rites and customs",
+    "marriage dissolution",
+    "alimony",
+    "custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "guidelines for family court appeals",
+    "practical tips for alimony disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:04:07.279567"
 }

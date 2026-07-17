@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:54:09.758069",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Kumari Shikha vs Lalkrishna Dutta Thakur on 28 July, 2008",
+  "case_name": "Kumari Shikha vs Lalkrishna Dutta Thakur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kumari Shikha (appellant)",
+    "respondent_defendant": "Lalkrishna Dutta Thakur (respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant sought declaration under Section 11 of the Hindu Marriage Act, 1955. No solemnization date mentioned in application.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Family Court shall have and exercise all the jurisdiction exercisable by any district court or any subordinate civil Court under any law for the time being in force.",
+      "held": "It reads thus: A Family Court shall - (a) have and exercise all the jurisdiction exercisable by any district court or any subordinate civil Court under any law for the time being in force.",
       "applicable_acts_sections": [
-        "TODO"
+        "Family Courts Act, 1984 — Section 7"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "jurisdiction",
+        "Family Court",
+        "district court",
+        "subordinate civil Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A Family Court shall also have and exercise the jurisdiction exercisable by a Magistrate of the first class under Chapter IX of the Code of Criminal Procedure, 1973.",
+      "held": "Subject to the other provisions of this Act, a Family Court shall also have and exercise - (a) the jurisdiction exercisable by a Magistrate of the first class under Chapter IX relating to order for maintenance of wife, children and parents) of the Code of Criminal Procedure, 1973",
+      "applicable_acts_sections": [
+        "Family Courts Act, 1984 — Section 7",
+        "Code of Criminal Procedure, 1973 — Chapter IX"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "jurisdiction",
+        "Magistrate",
+        "Chapter IX",
+        "Code of Criminal Procedure"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Ultimate order of dismissal of application under Section 11 of the Hindu Marriage Act, 1955 cannot be faulted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 11",
+    "void marriage",
+    "solemnization of marriage",
+    "null and void",
+    "decree of nullity",
+    "Family Court",
+    "Bhagalpur",
+    "Special Marriage Act",
+    "Section 24",
+    "marriage solemnized",
+    "petition presented",
+    "declaration under Section 11",
+    "conditions specified in clauses (i), (iv) and (v)",
+    "Latin maxim: Nullum tempus occurrit regi"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting petition for nullity of marriage",
+    "advising client on void marriages",
+    "appealing Family Court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:34:29.560319"
 }

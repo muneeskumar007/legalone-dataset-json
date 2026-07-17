@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T10:53:32.866067",
   "domain": "murder_criminal",
-  "sub_domain": "partition",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "partition": 1,
     "maintenance": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "High Court of Manipur at Imphal",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Khundongbam Joychandra Meitei vs The Officer-In-Charge on 10 October, 2022",
+  "case_name": "Khundongbam Joychandra Meitei vs The Officer-In-Charge",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Khundongbam Joychandra Meitei, aged about 26 years, S/o Kh. Ibothoi Singh, a resident of Thoubal Kiyam Siphai Khudongbam Leikai, P.O. & P.S. Thoubal, District Thoubal, Manipur.",
+    "respondent_defendant": "1. The Officer-in-Charge, Women Police Station, Bishnupur, P.O. & P.S.- Bishnupur, Bishnupur District, Manipur; 2. Julia Pukhrambam, aged about 26 years, D/o P. Shantikumar Singh, a resident of Naranseina Awang Leikai, P.O. & P.S. Moirang, Bishnupur District, Manipur-795133.",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -41,7 +41,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner has been in a relationship with the victim for around 10 years and eloped on 22.11.2018. The victim lodged a complaint stating that she was raped by the petitioner saying he would marry her, but instead, he committed rape.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,21 +51,44 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that the anticipatory bail was granted in accordance with law.",
+      "held": "Per contra, Mr. H. Samarjit, the learned Additional Public Prosecutor submitted that the petitioner and his parents all know that they have done the Court marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        ""
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        ""
+      ],
       "keywords": [
-        "TODO"
+        "anticipatory bail",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "murder cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The validity of a Court marriage is crucial in determining the legal status of a couple.",
+      "held": "He further submits that the petitioner and his parents all know that they have done the Court marriage.",
+      "applicable_acts_sections": [
+        ""
+      ],
+      "cited_cases": [
+        ""
+      ],
+      "keywords": [
+        "Court marriage",
+        "validity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -83,7 +106,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:41:39.477895"
 }

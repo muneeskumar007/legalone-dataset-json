@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T10:53:25.410079",
   "domain": "property_dispute",
-  "sub_domain": "will_succession",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "cheque_bounce": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Gaurav Sharma, JSCC-Cum-ASCJ-Cum-Guardian Judge, East Karkardooma Courts/Delhi, Civ Suit No. 296/2020",
   "reserved_on": "12.02.2025",
   "delivered_on": "22.04.2025",
-  "case_name": "Karan Singh vs Sonia Talwar on 22 April, 2025",
+  "case_name": "Karan Singh vs Sonia Talwar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Karan Singh, plaintiff",
+    "respondent_defendant": "Ms. Sonia Talwar, defendants; Ms. Vishali Talwar, defendant no.2; Ms. Rupali Talwar, defendant no.3",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -67,7 +67,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiff Karan Singh claimed exclusive ownership of property; defendants Sonia Talwar and her daughters Vishali and Rupali were licensees who lost their right to reside after Sher Singh's death.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -77,39 +77,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Will can confer ownership on account of devolution after the death of the testator.",
+      "held": "In view of the same, when Vishnu Devi did pass away subsequent to executing the documents that she did, which included the Will document, the ownership of the suit property did pass on to Sajjan Singh.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Succession Act, 1925"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "devolution",
+        "Will",
+        "ownership"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The requirement of a Will having to be proved by summoning an attesting witness is not applicable where the disputes are not classical disputes between legal heirs.",
+      "held": "Such an argument also does not convince the Court. The requirement of a Will having to be proved by summoning of an attesting witness is an argument that can be put forth in cases where there are inter se disputes between the legal heirs of a deceased testator and the validity of the Will is questioned.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "Will",
+        "attesting witness"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The plaintiff's evidence was taken as credible, and the defendants' failure to produce evidence led to the decree in favor of the plaintiff.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Transfer of Property Act",
+    "Registration Act",
+    "exclusive ownership",
+    "absolute owner",
+    "Ground Floor",
+    "First Floor",
+    "Terrace Floor",
+    "Geeta Colony",
+    "Gandhi Nagar",
+    "Delhi-110031",
+    "suit property",
+    "Late Sher Singh",
+    "Chacha",
+    "plaintiff evidence",
+    "credible evidence",
+    "Mere assertions cannot take place of proof",
+    "proof of ownership"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a property dispute case",
+    "preparing for a property dispute hearing",
+    "advising on property rights"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T10:30:36.856402"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:54:52.848331",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -22,13 +22,13 @@
   "case_numbers": [
     "C.P.No. 800 of 2019"
   ],
-  "trial_court": "",
+  "trial_court": "Civil Judge (Senior Division), Chhatrapur, Ganjam (MAT Case No.20 of 2019)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Laxmi Narayan Samantaray vs Snigdharani Mangaraj Opposite Party on 5 July, 2021",
+  "case_name": "Laxmi Narayan Samantaray vs Snigdharani Mangaraj Opposite Party",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Laxmi Narayan Samantaray (husband-petitioner)",
+    "respondent_defendant": "Snigdharani Mangaraj (wife-opposite party)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a petition under Section 13 of the Hindu Marriage Act, while the husband initiated a proceeding under Section 9 of the same act. The wife was staying at Chhatrapur as she had been transferred to U.Co Bank, Chhatrapur Branch.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A proceeding under Section 13 of the Hindu Marriage Act cannot be transferred merely because an application under Section 9 is filed at a different location.",
+      "held": "It is in this view of the matter, this Court finds no difficulty in undertaking of the proceeding under Section 13 of the Hindu Marriage Act by the wife at Chhatrapur and merely because an application under Section 9 of the Hindu Marriage Act is filed at the instance of the husband at Bhubaneswar cannot be a ground for transfer of the MAT proceeding filed by the wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "proceeding",
+        "Section 13",
+        "Section 9"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A wife's residence does not affect her ability to file a petition under Section 13 of the Hindu Marriage Act.",
+      "held": "This Court finds there is no difficulty in undertaking of the proceeding under Section 13 of the Hindu Marriage Act by the wife at Chhatrapur",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "residence",
+        "Section 13"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The transfer application stands rejected with vacation of interim order dated 25.11.2019 passed by this Court in I.A.No,.422 of 2019.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "matrimonial case",
+    "desertion",
+    "petition",
+    "transfer application",
+    "civil judge",
+    "senior division",
+    "Chhatrapur",
+    "Ganjam",
+    "Orissa High Court",
+    "video conferencing",
+    "change in counsel",
+    "stay of proceedings",
+    "wife's petition",
+    "husband's petition",
+    "matrimonial dispute",
+    "family law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "advising on transfer application in matrimonial case",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:54:46.231469"
 }

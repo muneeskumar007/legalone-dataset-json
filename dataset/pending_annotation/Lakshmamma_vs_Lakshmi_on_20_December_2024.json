@@ -7,7 +7,7 @@
   "total_pages": 37,
   "extracted_at": "2026-07-15T10:54:44.542620",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 3,
@@ -24,13 +24,13 @@
     "O.S.No. 1962/2019",
     "S.C.No.222/2015"
   ],
-  "trial_court": "",
+  "trial_court": "XLI Addl. City Civil and Sessions Judge : At Bangalore [CCH-42] - O.S.No.5084/2015, O.S.No.1962/2019, P & S.C.No.222/2015",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Lakshmamma vs Lakshmi on 20 December, 2024",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Lakshmamma, W/o Chinna Swamy",
+    "respondent_defendant": "1. Smt. Lakshmi, W/o Chinna Swamy; 2. Office of the Commissioner of Service Tax, Bangalore Service Tax Commissionerate; 3. The Manager, The Indian Bank, S.S.I. Branch Peenya",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -64,7 +64,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff filed a suit against the defendants for service benefits available as per rules and regulations after death of her husband Sri Chinna Swamy.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -74,39 +74,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party claiming a relationship to prove it.",
+      "held": "She has denied that the 3rd respondent is the wife of deceased Sri Chinna Swamy and further denied that having no manner of right, title and interest she has filed an application for settlement before the respondent Nos. 1 and 2.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Lakshmamma vs Lakshmi on 20 December, 2024"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "relationship",
+        "burden",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "property settlement"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party cannot claim benefits in a capacity they are not entitled to.",
+      "held": "The 3rd respondent has no manner of right to claim any benefits in the capacity of wife of late Sri Chinna Swamy.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Lakshmamma vs Lakshmi on 20 December, 2024"
+      ],
+      "keywords": [
+        "benefits",
+        "entitlement",
+        "capacity"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "family disputes",
+        "property settlement"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court directed the defendants to pay all the service benefits in favour of the plaintiff.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Code of Criminal Procedure",
+    "suit for declaration and possession",
+    "injunction",
+    "pronote",
+    "Mandya District",
+    "Bangalore Service Tax Commissionerate",
+    "TTMC/BMTC Building",
+    "Old Airport road",
+    "Domlur",
+    "Bengaluru",
+    "Chikka Banavara",
+    "Dwarakanagar",
+    "Konasale Village",
+    "Koppa Hobli",
+    "Maddur Taluk"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting property dispute cases",
+    "preparing suits for declaration and possession",
+    "advising on injunctions in civil disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T11:44:48.687871"
 }
