@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:55:30.742125",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Belgaum - M.C. No. 133/2009",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mallappa S/O.Channabasappa Katavi vs Savita W/O.Mallappa Katavi, on 14 February, 2011",
+  "case_name": "Mallappa S/O.Channabasappa Katavi vs Savita W/O.Mallappa Katavi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mallappa S/O.Channabasappa Katavi (husband)",
+    "respondent_defendant": "Savita W/O.Mallappa Katavi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a petition under Section 13(1)(a) and (c) of Hindu Marriage Act, 1955 against the respondent for passing a decree of divorce. The petition was dismissed by the Family Court. This appeal has been preferred.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,60 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party's willingness to settle a dispute can be taken into account in disposing of an appeal.",
+      "held": "View the submission made by the learned counsel for the respondent, the learned counsel appearing for the petitioner reserves liberty to file a petition under Section 13(B) of the Family Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "appeal",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce appeal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is disposed of with liberty to the petitioner to file a petition under Section 13(B) of the Family Courts Act, if necessary.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 13",
+    "Section 131",
+    "Section 128",
+    "Section 19",
+    "Miscellaneous First Appeal",
+    "Appeal",
+    "Decree of divorce",
+    "Petition",
+    "Respondent",
+    "Counsel",
+    "Liberty",
+    "Withdraws",
+    "Dismissed",
+    "Hindu Marriage Act and seek submission"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "responding to a petition for divorce in Family Court",
+    "appealing a decision on a petition for divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:39:44.700735"
 }

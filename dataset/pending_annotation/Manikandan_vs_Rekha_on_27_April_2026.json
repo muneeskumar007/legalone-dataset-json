@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:55:35.465484",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -26,13 +26,13 @@
     "O.P.No.48 of 2019",
     "S.R.No.378 of 2018"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Villupuram in HMOP.No.48 of 2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manikandan vs Rekha on 27 April, 2026",
+  "case_name": "Manikandan vs Rekha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manikandan (husband)",
+    "respondent_defendant": "Rekha and Ramesh (wife and her paramour)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Manikandan and Rekha was solemnized on 24.01.2011. Rekha did not perform her moral obligations and there were frequent quarrels between the parties. The petitioner had earlier given a complaint before the All Women Police Station at Villupuram in the year 2015 with respect to non-performance of marital duties.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,101 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Production of a photograph is not sufficient to prove the allegation of adultery.",
+      "held": "It had been observed that production of a photograph would not be sufficient to prove the allegation of adultery.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "adultery",
+        "photograph",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "It is a very difficult task to prove the allegations of adultery since the physical relationship between the parties has to be established.",
+      "held": "However, it had been further observed that it is a very difficult task to prove the allegations of adultery since the physical relationship between the parties had to be established.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "adultery",
+        "physical relationship",
+        "evidence"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Circumstantial evidence can be used to prove the allegations of adultery.",
+      "held": "The learned counsel would place reliance on the evidence of PW3 and PW4 and particularly on the evidence of PW4, who had also taken a photograph of the first and second respondent, sitting together in close proximity and talking with each other.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "circumstantial evidence",
+        "adultery",
+        "photograph"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The judgment and decree passed by the Family Court, Villupuram in HMOP.No.48 of 2019 dated 01.08.2022 is set-aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i)",
+    "Family Courts Act",
+    "Section 28",
+    "Section 19",
+    "marriage",
+    "quarrels",
+    "moral obligations",
+    "CRPF",
+    "Constable",
+    "Villupuram",
+    "Family Court",
+    "petition",
+    "dismissal",
+    "judgment",
+    "decree"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court decisions",
+    "advising on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:49:02.776586"
 }

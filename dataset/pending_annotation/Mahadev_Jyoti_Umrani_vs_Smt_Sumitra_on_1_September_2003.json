@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:55:20.957162",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Civil Judge (Senior Division), Chikkodi, M.C. No. 61 of 1983",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mahadev Jyoti Umrani vs Smt. Sumitra on 1 September, 2003",
+  "case_name": "Mahadev Jyoti Umrani vs Smt. Sumitra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband",
+    "respondent_defendant": "wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband and wife filed a petition for divorce under the Hindu Marriage Act, 1955. The trial court dismissed the petition. The husband appealed to the District Court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In a proceeding under Sections 9 to 13 of the Hindu Marriage Act, jurisdiction is fixed statutorily and does not depend on pecuniary value.",
+      "held": "Jurisdiction is fixed statutorily under Section 19 of the HM Act read with Section 3(b) of HM Act and Notification dated 2-11-1971.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Sections 9 to 13",
+        "Code of Civil Procedure, 1908 — Section 19"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "jurisdiction",
+        "pecuniary value",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "When a relief is incapable of being valued and there is no legal obligation to value the relief sought, the question of 'value of subject-matter of the proceedings' does not arise.",
+      "held": "Even if any pecuniary value is mentioned, it is irrelevant and can be ignored.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Sections 9 to 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "valuation",
+        "relief sought",
+        "jurisdiction"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed, and the matter was referred to the Division Bench to resolve a conflict between two previous judgments.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Section 13(1)(i-a)",
+    "Section 13(1)(i-b)",
+    "Court fee",
+    "valuation",
+    "Karnataka Court Fees and Suits Valuation Act",
+    "1958",
+    "Parashuram Rao Anantha Rao Pise",
+    "Pratibha Parashuram Rao Pise",
+    "Principal Civil Judge",
+    "Senior Division",
+    "Chikkodi",
+    "Principal District Judge",
+    "Belgaum",
+    "Division Bench",
+    "High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing divorce decree",
+    "filing miscellaneous appeal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:24:08.379429"
 }

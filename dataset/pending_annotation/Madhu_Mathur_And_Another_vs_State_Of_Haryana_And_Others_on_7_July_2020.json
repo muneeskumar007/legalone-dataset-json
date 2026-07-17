@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:55:15.872704",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Madhu Mathur And Another vs State Of Haryana And Others on 7 July, 2020",
+  "case_name": "Madhu Mathur And Another vs State Of Haryana And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Madhu Mathur and another (Petitioners)",
+    "respondent_defendant": "State of Haryana and others (Respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner No.1, a minor girl, and Petitioner No.2, a boy, purportedly in love, got married despite parents' opposition. They claim threats to their life and liberty from private respondents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The age of the bridegroom and bride are essential conditions for a Hindu marriage.",
+      "held": "A perusal of Section 5, ibid leaves no manner of doubt that one of the essential conditions of Hindu Marriage Act is that the bridegroom must be above 21 years and the bride above 18 years.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "essential condition",
+        "Hindu marriage",
+        "age"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage solemnized in contravention of Sub Section (iii) of Section 5 of the Hindu Marriage Act is not void or invalid.",
+      "held": "precludes a marriage solemnized in contravention of Sub Section (iii) of Section 5, ibid from the purview of being regarded as void or invalid.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 11"
+      ],
+      "cited_cases": [
+        "Jitender Kumar Sharma Vs. State and Another, (2001) 7 AD (Delhi) 785"
+      ],
+      "keywords": [
+        "void",
+        "invalid",
+        "contravention"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "",
+    "final_order": "Grant of appropriate protection to the petitioners for reasons stated hereinafter.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Article 21",
+    "Section 5 (iii)",
+    "minor marriage",
+    "love marriage",
+    "consent",
+    "liberty",
+    "life and liberty",
+    "family law",
+    "marriageable age",
+    "juvenile justice",
+    "right to life",
+    "right to liberty",
+    "HC judgment",
+    "Punjab & Haryana HC"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on minor marriage laws",
+    "assisting in family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:15:24.198141"
 }

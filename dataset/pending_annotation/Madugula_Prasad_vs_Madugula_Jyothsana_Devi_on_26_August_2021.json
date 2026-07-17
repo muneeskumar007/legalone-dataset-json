@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:55:17.854615",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "I.A.No.498 of 2019"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge, Kovvu, SPSR Nellore, HMOP No.66 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Madugula Prasad vs Madugula Jyothsana Devi on 26 August 2021",
+  "case_name": "Petitioner v. Respondent — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband",
+    "respondent_defendant": "wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband and wife were married in 1995. The wife filed an application for interim maintenance under Section 24 of the Hindu Marriage Act. The trial court granted Rs.3,000/- per month as interim maintenance. The husband is challenging this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Either the wife or the husband has no independent income sufficient for her or his support and the necessary expenses of the proceedings, the Court may order interim maintenance.",
+      "held": "Section 24 of the Hindu Marriage Act provides that, either the wife or the husband has no independent income sufficient for her or his support and the necessary expenses of the proceedings, the Court may order interim maintenance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "interim maintenance",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking maintenance to establish that they are entitled to it.",
+      "held": "Though the present petition came to be filed seeking maintenance ...",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "burden of proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order was to grant an amount of Rs.3,000/- per month as interim maintenance to the wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "interim maintenance",
+    "Section 24",
+    "Article 227",
+    "Constitution of India",
+    "civil revision petition",
+    "family court",
+    "marriage",
+    "Pasupu Kumkuma",
+    "maintenance",
+    "food",
+    "cloth",
+    "medical expenses",
+    "shelter",
+    "Hindu rites and customs",
+    "marital property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on interim maintenance",
+    "representing clients in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:22:26.302487"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:55:29.838604",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Jalandhar",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Makhan Singh vs Gurmej Kaur on 5 March, 1993",
+  "case_name": "Makhan Singh vs Gurmej Kaur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Makhan Singh (husband)",
+    "respondent_defendant": "Gurmej Kaur (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1976. The wife left the husband and their minor daughter in 1985 to pressure him to agree to settle in Canada. The husband sought divorce on grounds of cruelty and desertion.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The onus of proof lies with the party alleging malafide intention.",
+      "held": "If the application under Section 406 IPC and application under Sections 4 and 6 of the Dowry Prohibition Act were filed by the respondent-wife with a malafide intention, the onus of proof was on the appellant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Dowry Prohibition Act — Sections 4 and 6",
+        "Indian Penal Code — Section 406"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "onus of proof",
+        "malafide intention",
+        "burden lies on"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where malafide intention is alleged"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court cannot determine the truth of allegations without evidence.",
+      "held": "A copy of the order passed on the application under Sections 4 and 6 of the Dowry Prohibition Act was not produced before it. Therefore, the Trial Court was not in a position to say on which ground the said application was dismissed.",
+      "applicable_acts_sections": [
+        "Dowry Prohibition Act — Sections 4 and 6"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "allegations",
+        "determination of truth"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases where evidence is crucial to determining the truth"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's decision dismissing the husband's petition for divorce was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "desertion",
+    "Section 13",
+    "joint account",
+    "fixed deposit",
+    "agricultural estate",
+    "Canada",
+    "Sikh religious rites",
+    "marriage dissolution",
+    "petition",
+    "appeal",
+    "judgment",
+    "Additional District Judge",
+    "Jalandhar"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on joint accounts in family disputes",
+    "representing clients in agricultural estate disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:38:11.723631"
 }

@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:58:41.092716",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "partition": 4,
     "custody": 2,
@@ -23,13 +23,13 @@
     "O.S.No.297 of 1988",
     "C.C.No.1919 of 1975"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Senior Civil Judge, Narasaraopet - O.S.No.297 of 1988",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "M.Ramakrishna Prasad. 2Ors vs K.Singaiah, Vijayawada6 Ors on 23 March, 2020",
+  "case_name": "M.Ramakrishna Prasad. 2Ors vs K.Singaiah, Vijayawada6 Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M.Ramakrishna Prasad and others (appellants)",
+    "respondent_defendant": "K.Singaiah and others (respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -39,7 +39,7 @@
   ],
   "outcome_detected": "this appeal is dismissed",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The appellants sued for partition of properties, claiming they were joint family properties with the respondents. The respondents remained ex parte. The suit was instituted when the appellants were minors and continued after they attained majority.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Once an order is passed by the competent authority determining excess holding and directing taking over the excess lands, it shall be deemed that such excess holding has been surrendered.",
+      "held": "Asserting that once an order is passed by the competent authority viz., Land Reforms Tribunal determining the excess holding and directing taking over the excess lands, it shall be deemed that such excess holding has been surrendered by the 1st respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "A.P. Act 1 of 1973 — Section 26"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "land ceiling",
+        "excess holding",
+        "surrender"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party claiming that an order has not been complied with to establish non-compliance.",
+      "held": "Asserting that so called excess lands attributed MVR,J to the 1st respondent were never surrendered, the learned counsel contended that in view of the amendment brought out by Central Act 15/1997 (Urban Land (Ceiling and regulation) Repeal Act, 1999, since the possession of these lands is established to remain with the appellants and the 1st respondent.",
+      "applicable_acts_sections": [
+        "A.P. Act 1 of 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "non-compliance",
+        "burden of proof"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final court order confirmed the decree and judgment of the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "appeal suit",
+    "minor",
+    "power of attorney",
+    "next friend",
+    "attained majority",
+    "government authorities",
+    "family court",
+    "civil judge",
+    "decree and judgment",
+    "land record",
+    "Latin maxim: Nemo dat quod non habet",
+    "Section 15 of the Partition Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "handling minor's property disputes",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:03:41.075053"
 }

@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T10:55:19.674671",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "partition": 1,
@@ -32,10 +32,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Maganti Krishna Durga, vs Maganti Anil Kumar, on 2 April, 2015",
+  "case_name": "Maganti Krishna Durga vs Maganti Anil Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Maganti Krishna Durga, wife",
+    "respondent_defendant": "Maganti Anil Kumar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -86,7 +86,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife preferred an appeal against the order dismissing her application to set aside an ex-parte divorce decree obtained by her husband.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -96,39 +96,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A judgment without reasons is not a binding judgment.",
+      "held": "Judgment without reasons and not in conformity with Or.XX, R.4 & 5 is not a binding Judgment.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Order XX"
+      ],
+      "cited_cases": [
+        "Rameshwar Dayal Vs. Banda(dead) through his L.Rs : (Year) X SCC Y"
+      ],
+      "keywords": [
+        "judgment",
+        "reasons",
+        "binding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court order must be in conformity with the relevant rules.",
+      "held": "it is important to mention that: Judgment without reasons and not in conformity with Or.XX, R.4 & 5 is not a binding Judgment.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Order XX"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conformity",
+        "rules"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Evidence Act",
+    "1872",
+    "C.M.A.No.3385",
+    "2004",
+    "Maganti Krishna Durga",
+    "Maganti Anil Kumar",
+    "Hindu Marriage",
+    "marriage",
+    "divorce proceedings",
+    "alimony",
+    "maintenance",
+    "residence",
+    "possession",
+    "joint family",
+    "separation",
+    "cohabitation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to divorce petition",
+    "negotiating alimony and maintenance"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:23:15.171991"
 }

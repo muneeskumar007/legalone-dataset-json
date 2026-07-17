@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T10:58:37.586852",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge (Sr.Dn.), Krishnarajapet, M.C.l/2006",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "M P Lakshmanan vs Smt S Laxmi on 7 September, 2010",
+  "case_name": "M P Lakshmanan vs Smt S Laxmi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "MP. Lakshmanan, husband",
+    "respondent_defendant": "Smt S Laxmi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed petition under Section 11 of Hindu Marriage Act to dissolve marriage. Respondent was his oil mill worker who represented herself as an orphan and was nominated as nominee for family pension.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the respondent to prove that the marriage was not dissolved according to law.",
+      "held": "According to him, both Venkateshgowda and a person of Palayad are alive and her marriage has not been dissolved according to law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "dissolution",
+        "law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage is considered valid if it has not been dissolved according to law.",
+      "held": "The respondent taking advantage of the petitioner's sympathy and oscillating mind on account of loss of company and loneliness, tried to harass the petitioner.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "dissolution",
+        "law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's judgment is set aside and the petition under Section 11 of Hindu Marriage Act is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 11",
+    "Section 28",
+    "Miscellaneous First Appeal",
+    "civil judge",
+    "Krishnarajapet",
+    "Kerala State",
+    "Indian Kanoon",
+    "family court",
+    "marriage dissolution",
+    "spousal rights",
+    "property division",
+    "maintenance",
+    "custody",
+    "matrimonial disputes"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on property division in a matrimonial dispute",
+    "assisting with maintenance and custody issues"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T13:59:59.266762"
 }

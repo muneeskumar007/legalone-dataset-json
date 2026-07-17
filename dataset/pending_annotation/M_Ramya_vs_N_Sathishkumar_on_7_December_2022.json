@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:58:42.086207",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 3,
@@ -24,13 +24,13 @@
     "M.P.No.1125 of 2022",
     "W.A.No.1181 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court at Salem, HMOP No.392 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "M.Ramya vs N.Sathishkumar on 7 December, 2022",
+  "case_name": "M.Ramya vs N.Sathishkumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M.Ramya, wife",
+    "respondent_defendant": "N.Sathishkumar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent were married in 2014. They have a 7-year-old child. Due to misunderstanding, they are living separately. Petitioner filed for divorce in the Family Court at Salem but now wants to transfer the case to Sub Court, Hosur.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,121 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The place of residence of the wife determines the question of jurisdiction.",
+      "held": "In case the marriage was solemnized under Hindu Law marital relationship is governed by the provisions of the Hindu Marriage Act. Therefore, Section 19 has to be given a purposeful interpretation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 19"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "residence",
+        "jurisdiction",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The objects and reasons which prompted the parliament to incorporate a provision have to be taken note of.",
+      "held": "While considering a provision like Section 19 (iii-a) of the Hindu Marriage Act, the objects and reasons which prompted the parliament to incorporate such a provision has also to be taken note of.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "parliament",
+        "provision",
+        "objects and reasons"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A beneficial provision meant for women should be given a meaningful interpretation.",
+      "held": "Therefore such a beneficial provision meant for the women of our Country should be given a meaningful interpretation by Courts.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "beneficial",
+        "women",
+        "meaningful interpretation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The wife's residence determines the jurisdiction, and difficulties faced by her should be considered.",
+      "held": "Considering the distance and the difficulties faced by the wife, the Supreme Court has allowed the transfer petition.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 5"
+      ],
+      "cited_cases": [
+        "Mona Aresh Goel vs. Aresh Satya Goel [(2000) 9 SCC 255]"
+      ],
+      "keywords": [
+        "residence",
+        "jurisdiction",
+        "difficulties",
+        "transfer petition"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition for transfer is allowed and the HMOP No.392 of 2017 on the file of the Family Court at Salem is transferred to the Sub Court, Hosur.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "transfer",
+    "Family Court",
+    "Salem",
+    "Sub Court",
+    "Hosur",
+    "competent jurisdiction",
+    "HMOP",
+    "392",
+    "2017",
+    "marriage",
+    "separation",
+    "understanding",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on jurisdictional issues",
+    "assisting with family court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:05:26.216886"
 }

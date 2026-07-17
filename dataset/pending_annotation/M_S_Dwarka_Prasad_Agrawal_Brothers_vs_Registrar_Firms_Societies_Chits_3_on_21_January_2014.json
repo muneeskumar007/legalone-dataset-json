@@ -7,7 +7,7 @@
   "total_pages": 45,
   "extracted_at": "2026-07-15T10:58:59.453337",
   "domain": "land_acquisition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partnership",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 1,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "13.12.2013",
   "delivered_on": "",
-  "case_name": "M/S Dwarka Prasad Agrawal & Brothers ... vs Registrar, Firms, Societies & Chits & 3 ... on 21 January, 2014",
+  "case_name": "M/S Dwarka Prasad Agrawal & Brothers vs Registrar, Firms, Societies & Chits & 3",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M/s Dwarika Prasad Agarwal & Brothers and another (Petitioners)",
+    "respondent_defendant": "Registrar, Firms, Societies and Chits, U.P. and others (Opp. parties)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Firm constituted in 1972; registered with Assistant Registrar, Firms, Societies and Chits, Jhansi on 15.11.1976. Partners running separate businesses regarding publication of newspaper from different cities.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -89,39 +89,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party invoking the High Court's jurisdiction under Article 226 of the Constitution is duty bound to place all facts before the court without any reservation.",
+      "held": "The apex Court held that in exercising power under Article 226 of the Constitution, the High Court is not just a court of law, but is also a court of equity and a person who invokes the High Court's jurisdiction under Article 226 of the Constitution is duty bound to place all the facts before the court without any reservation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Constitution of India — Article 226"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Prestige Lights Ltd. v. State Bank of India, (2007) 8 SCC 449",
+        "R v. Kensington Income Tax Commissioners"
+      ],
       "keywords": [
-        "TODO"
+        "jurisdiction",
+        "Article 226",
+        "Constitution of India",
+        "High Court",
+        "equity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land acquisition",
+        "public interest litigation"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — to deter unscrupulous litigants from abusing the process of Court by deceiving it",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party which has misled the Court in passing an order in its favour is not entitled to be heard on the merits of the case.",
+      "held": "The apex Court held that a party which has misled the Court in passing an order in its favour is not entitled to be heard on the merits of the case.",
+      "cited_cases": [
+        "Welcome Hotel and Ors. v. State of Andhra Pradesh and Ors."
+      ],
+      "keywords": [
+        "misleading",
+        "Court",
+        "order",
+        "merits"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "contract disputes",
+        "property disputes"
+      ],
+      "significance": "MEDIUM — to ensure that parties do not take advantage of the Court's process",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ Petition allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Hindu Marriage Act",
+    "Registration Act",
+    "Indian Partnership Act",
+    "partnership_firm",
+    "firm_registration",
+    "registered_office",
+    "business_operations",
+    "individual_partners",
+    "partnership_deed",
+    "Section_2",
+    "Section_4",
+    "Section_5",
+    "Section_6",
+    "Section_7",
+    "Section_8",
+    "Section_9",
+    "Section_10",
+    "Section_11",
+    "Section_12",
+    "Section_13"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partnership agreements",
+    "advising on firm registration",
+    "litigating land acquisition disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:07:27.610849"
 }

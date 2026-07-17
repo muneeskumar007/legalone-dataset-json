@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T10:55:30.631915",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Thane, in Petition No.A-192 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mala Kundan Rai @ Mala Rajeev Agarwal vs Rajeev Ramgopal Agarwal on 12 October, 2022",
+  "case_name": "Mala Kundan Rai @ Mala Rajeev Agarwal vs Rajeev Ramgopal Agarwal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant-wife, Mala Kundan Rai @ Mala Rajeev Agarwal",
+    "respondent_defendant": "Respondent-husband, Rajeev Ramgopal Agarwal",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married on 30 November, 2013. The husband filed a petition for annulment of the marriage, which was declared null and void by the trial court. The wife appeals against this decision.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party who alleges suppression to prove that there was actual suppression.",
+      "held": "We find from the scrutiny of Petitioner's cross examination, that it is the Respondent's case that entire past history of the Respondent was informed to Petitioner by Respondent's friend 'Soumya' prior to the marriage.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "suppression",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's admission in cross-examination can be used as evidence to prove their case.",
+      "held": "The Learned Counsel for Petitioner submits that the admissions given by the Respondent in her cross examination proves that Respondent had suppressed the fact that she was married to Ashok Yadav and that she had a son from the said wedlock.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "admission",
+        "cross-examination"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order is not specified in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "irretrievable breakdown",
+    "marriage",
+    "spouse",
+    "matrimonial",
+    "cohabitation",
+    "separation",
+    "maintenance",
+    "alimony",
+    "custody",
+    "property",
+    "assets",
+    "joint family",
+    "separate property",
+    "equitable distribution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "assisting with custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:39:03.284808"
 }

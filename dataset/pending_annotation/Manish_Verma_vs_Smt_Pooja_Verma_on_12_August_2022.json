@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:55:39.304885",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Radhakishan Agrawal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bemetra (FA(MAT) No. 49 of 2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manish Verma vs Smt. Pooja Verma on 12 August, 2022",
+  "case_name": "Manish Verma vs Smt. Pooja Verma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manish Verma, husband",
+    "respondent_defendant": "Smt. Pooja Verma, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage was solemnized on 04.05.2017. The parties could not go along and eventually started living separately since 02.01.2020. Husband filed an application for restitution of conjugal rights, which was dismissed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court can waive the statutory period of six months under Section 13-B(2) if it is satisfied that a case is made out to do so.",
+      "held": "Applying the above to the present situation, we are of the view that where the court dealing with a matter is satisfied that a case is made out to waive the statutory period under Section 13-B(2), it can do so after considering the following:",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Amardeep Singh Vs. Harveen Kaur, (2017) 7 SCC page 746"
+      ],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "divorce by mutual consent",
+        "statutory period",
+        "waive"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court should consider the following factors before waiving the statutory period: (i) whether the statutory period of six months is already over, and (ii) all efforts for mediation have failed.",
+      "held": "Applying the above to the present situation, we are of the view that where the court dealing with a matter is satisfied that a case is made out to waive the statutory period under Section 13-B(2), it can do so after considering the following:",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [
+        "Amardeep Singh Vs. Harveen Kaur, (2017) 7 SCC page 746"
+      ],
+      "keywords": [
+        "mediation",
+        "statutory period",
+        "waive"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Parties decided to part ways and agreement styled as 'Samjhauta Patra' is also been placed. Application under Section 13 (B) of Hindu Marriage Act, 1955 for dissolution of marriage by mutual consent was filed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Section 9",
+    "conjugal rights",
+    "divorce",
+    "matrimonial dispute",
+    "family court",
+    "mediation",
+    "marriage settlement",
+    "spousal rights",
+    "Indian Kanoon",
+    "Bemetra",
+    "Chhattisgarh",
+    "High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on spousal rights",
+    "mediation strategies for matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:56:15.803633"
 }

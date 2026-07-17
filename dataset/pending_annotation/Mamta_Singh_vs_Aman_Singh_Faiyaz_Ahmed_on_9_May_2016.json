@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:55:34.231424",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "I.S.Mehta J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, HMA No. 706/2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mamta Singh vs Aman Singh @ Faiyaz Ahmed on 9 May, 2016",
+  "case_name": "Mamta Singh vs Aman Singh @ Faiyaz Ahmed",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mamta Singh (wife)",
+    "respondent_defendant": "Aman Singh @ Faiyaz Ahmed (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties were married in 2003 and had a son. They separated in 2012. Wife filed FIR under IPC Sections 498A, 406, 419, 440 read with Section 34. Criminal case is pending. Parties reached an amicable settlement through mediation.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A second motion petition can be filed jointly by the parties under Section 13B(2) only on expiry of a period of six months after the date of presentation of the petition under Section 13B(1).",
+      "held": "",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "petition",
+        "jointly",
+        "Section 13B"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The outer limit of time for filing a second motion petition is statutorily prescribed under sub-section 3 of Section 13B of the Hindu Marriage Act as 'not later than 18 months after the presentation of the petition under Section 13B(1)'",
+      "held": "",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "time limit",
+        "petition",
+        "Section 13B"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "This appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal against the order dated 31st July, 2015 passed by the Family Court is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13B(2)",
+    "Family Court",
+    "HMA No. 706/2014",
+    "Section 498A",
+    "Indian Penal Code",
+    "Sections 406",
+    "419",
+    "440",
+    "read with Section 34",
+    "Code of Criminal Procedure",
+    "Specific Relief Act",
+    "matrimonial dispute",
+    "joint petition",
+    "separation",
+    "cohabitation",
+    "child custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "assisting in child custody cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:45:39.038184"
 }

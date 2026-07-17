@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T10:55:51.269541",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "cheque_bounce": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manoj Bajpai vs State Of Delhi on 21 May, 2015",
+  "case_name": "Manoj Bajpai vs State Of Delhi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manoj Bajpai, husband",
+    "respondent_defendant": "State Of Delhi",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant Seema Mohal accused Manoj Vajpayee of rape. FIR registered under Section 376 IPC. Petitioner seeks quashing of FIR and consequential proceedings.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Consensual physical relationship does not constitute the offence of rape.",
+      "held": "Even as per the FIR, the basic grievance of the complainant is that the petitioner has stopped giving her maintenance. Even if the allegations are taken at its face value and to be correct, this is at the most a case of sexual intercourse with consent which does not constitute the offence of rape.",
       "applicable_acts_sections": [
-        "TODO"
+        "IPC — Section 375/376"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consensual",
+        "rape",
+        "sexual intercourse"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving consensual relationships"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A complaint filed with mala fide intentions and ulterior motives is not a valid complaint.",
+      "held": "The present FIR is filed with mala fide intentions and with ulterior motives and to wreck vengeance against the petitioner. The complainant wanted to grab the aforesaid property at Delhi of the petitioner and when the petitioner wanted to get vacated the said property, out of vengeance the complainant filed the present criminal case out of vengeance.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mala fide",
+        "ulterior motives",
+        "vengeance"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cases involving malicious complaints"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "FIR No.19/2013 u/s 376 IPC dated 17th January, 2013 registered with PS Ashok Nagar, Delhi is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "divorce",
+    "FIR",
+    "quashing",
+    "Article 226",
+    "Section 482 Cr.P.C.",
+    "IPC",
+    "376 IPC",
+    "writ petition",
+    "Crl.M.A.",
+    "stay",
+    "Manoj Bajpai",
+    "State Of Delhi",
+    "Delhi High Court",
+    "New Delhi",
+    "Sunita Gupta",
+    "Geeta Luthra",
+    "V.N.Jha",
+    "Deepti Dwivedi",
+    "Rajesh Mahajan",
+    "Shinjan Jain",
+    "Pinki Rana",
+    "Ashok Nagar"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing FIR",
+    "seeking stay in criminal proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T15:04:56.833675"
 }

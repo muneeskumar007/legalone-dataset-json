@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:55:37.139054",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manish Kanaujia And 2 Others vs State Of U.P. Thru. Prin. Secy. Home ... on 7 February, 2025",
+  "case_name": "Manish Kanaujia And 2 Others vs State Of U.P. Thru. Prin. Secy.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manish Kanaujia And 2 Others (husband, wife, and another)",
+    "respondent_defendant": "State Of U.P. Thru. Prin. Secy. Home Deptt. Lko. And Another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -70,7 +70,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicants sought to quash the criminal proceeding of Case No-844 of 2015 arising out of impugned summoning order dated 28.3.2015, and stay further proceedings in the court of ACJM-IV Lucknow.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -80,39 +80,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has broken down irretrievably.",
+      "held": "It is settled law that the parties have to come to an agreement realizing the irretrievable breakdown of their marriage and have mutually agreed and consented that their marriage be dissolved by a decree of divorce through mutual consent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "mutual consent",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking divorce must demonstrate that the marriage has broken down irretrievably.",
+      "held": "The parties have now mutually agreed and decided that there is no reason for the continuance of the marital relationship & thus they have further mutually agreed upon by their own free will for dissolution of their marriage tie.",
+      "applicable_acts_sections": [
+        "Bharatiya Nyaya Sanhita, 2023"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "irretrievable breakdown",
+        "divorce",
+        "marital relationship"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application was allowed, and the entire criminal proceeding was quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "DV Act",
+    "Protection of Women from DV Act",
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "Bharatiya Nyaya Sanhita",
+    "domestic violence",
+    "wife's absence",
+    "service of notice",
+    "Chief Judicial Magistrate",
+    "Sub Inspector of Police",
+    "Indian Kanoon",
+    "family court",
+    "district court",
+    "High Court",
+    "Allahabad High Court",
+    "Lucknow Bench",
+    "Section 482",
+    "Criminal Procedure Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on service of notice in domestic violence cases",
+    "preparing an application under Section 482 CrPC"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:51:50.705847"
 }

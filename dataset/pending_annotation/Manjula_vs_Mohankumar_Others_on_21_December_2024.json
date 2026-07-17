@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-07-15T10:55:48.394785",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "partition": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "VIII Additional Chief Judicial Magistrate, Bengaluru City - C.C. No.11573/2009",
   "reserved_on": "",
   "delivered_on": "21-12-2024",
-  "case_name": "Manjula vs Mohankumar Others on 21 December, 2024",
+  "case_name": "Manjula vs Mohankumar Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Manjula (Complainant)",
+    "respondent_defendant": "Accused Nos. 1-7 (Mohankumar, Narayanamma, Krishnappa, Venkatramanappa, Poornima, Rammurthy)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Smt. Manjula accused Mohankumar and others of offences punishable under sections 494, 498A r/w 149 of IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -83,39 +83,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the other spouse has been guilty of cruelty.",
+      "held": "It is held that the burden lies on the party seeking divorce to prove that the other spouse has been guilty of cruelty.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "divorce",
+        "cruelty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The principle of no fault divorce is not applicable in a case where the respondent has been guilty of cruelty.",
+      "held": "It is held that the principle of no fault divorce is not applicable in a case where the respondent has been guilty of cruelty.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "no fault",
+        "divorce",
+        "cruelty"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Accused No.1, 2, 4-7 acquitted for the offence punishable under section 494 R/w Section 149 of IPC; Accused No. 1 and 2 convicted for the offence punishable under section 498A R/w Section 149 of IPC.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Penal Code",
+    "1860",
+    "Indian Evidence Act",
+    "1872",
+    "alimony",
+    "maintenance",
+    "custody",
+    "matrimonial dispute",
+    "separation",
+    "annulment",
+    "nullity",
+    "judicial separation",
+    "divorce petition",
+    "grounds for divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on grounds for divorce",
+    "representing in a matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T15:03:11.472475"
 }

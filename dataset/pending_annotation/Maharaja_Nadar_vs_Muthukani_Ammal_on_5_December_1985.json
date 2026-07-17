@@ -7,7 +7,7 @@
   "total_pages": 18,
   "extracted_at": "2026-07-15T10:55:25.320444",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "partition": 2,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "II Additional Subordinate Judge, Tirunelveli, in A. S. No. 147 of 1978",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Maharaja Nadar vs Muthukani Ammal on 5 December, 1985",
+  "case_name": "Maharaja Nadar vs Muthukani Ammal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Maharaja Nadar (defendant)",
+    "respondent_defendant": "Muthukani Ammal (plaintiff)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiff filed suit for maintenance after being beaten and treated cruelly by defendant, who then married a second wife. Plaintiff was not aware of defendant's income at the time of notice.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,123 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "There can be desertion by the husband even though the wife and the husband are living in the same house.",
+      "held": "Desertion has been considered by the Courts and under the provisions of Ss. 9, 10, 13 of the Hindu Marriage Act, XXV of 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Adoptions and Maintenance Act — Section LXXVIII"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Maharaja Nadar vs Muthukani Ammal, (1985) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "desertion",
+        "husband",
+        "wife",
+        "same house"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "If the husband has reasonable cause for leaving the wife, there can be no desertion.",
+      "held": "There can be no desertion if the husband has reasonable cause for leaving the wife.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section XXV"
+      ],
+      "cited_cases": [
+        "Maharaja Nadar vs Muthukani Ammal, (1985) X SCC Y"
+      ],
+      "keywords": [
+        "reasonable cause",
+        "desertion",
+        "husband",
+        "wife"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A wife does not forfeit her claim to separate maintenance if she has any of the grounds for separate living mentioned in this clause.",
+      "held": "This clause lays down that the wife does not forfeit her claim to be separately maintained if she has any of the grounds for separate living mentioned in this clause.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section XXV"
+      ],
+      "cited_cases": [
+        "Maharaja Nadar vs Muthukani Ammal, (1985) X SCC Y"
+      ],
+      "keywords": [
+        "separate maintenance",
+        "grounds for separate living",
+        "wife"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A wife's refusal to maintain was considered an offence under Hindu Law.",
+      "held": "Refusal to maintain was considered to be an offence under Hindu Law. Manu declares (***)",
+      "applicable_acts_sections": [
+        "Hindu Law"
+      ],
+      "cited_cases": [
+        "Maharaja Nadar vs Muthukani Ammal, (1985) X SCC Y"
+      ],
+      "keywords": [
+        "refusal",
+        "maintain",
+        "offence",
+        "Hindu Law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal preferred against judgment and decree dated 30-1-1979",
+    "final_order": "Plaintiff entitled to maintenance, including past maintenance and a charge upon schedule mentioned property from defendant.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "1955",
+    "cruelty",
+    "domestic violence",
+    "wife's rights",
+    "husband's responsibilities",
+    "marriage customs",
+    "usage of community",
+    "Latin maxim: Ubi Jus Non Permittit Quod Rectum Dictat",
+    "Section 13(1)(i) Hindu Marriage Act, 1955"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for maintenance under the Hindu Marriage Act",
+    "advising on divorce proceedings involving allegations of cruelty",
+    "assisting in drafting a response to a petition for divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:29:18.896724"
 }

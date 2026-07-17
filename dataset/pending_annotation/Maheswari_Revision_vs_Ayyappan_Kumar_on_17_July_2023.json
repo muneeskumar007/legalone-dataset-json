@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:55:28.109494",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "O.P.No.140 of 2015",
     "I.A.No.18\nof 2018"
   ],
-  "trial_court": "",
+  "trial_court": "District Judge, Family Court, Kanyakumari Division at Nagercoil (H.M.O.P.No.140 of 2015)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Maheswari ... Revision vs Ayyappan @ Kumar on 17 July, 2023",
+  "case_name": "Maheswari ... Revision vs Ayyappan @ Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, revision petitioner",
+    "respondent_defendant": "husband, respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife seeks to set aside exparte decree of divorce granted to husband; husband remarried after statutory period for setting aside the decree",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When a marriage has been dissolved by a decree of divorce and either there is no right of appeal against the decree or, if there is such a right of appeal, the time for appealing has expired without an appeal having been presented, or an appeal has been presented but has been dismissed, it shall be lawful for either party to the marriage to marry again.",
+      "held": "As per Section 15 of the Hindu Marriage Act, 1955, it shall be lawful for either party to re-marry, if no appeal has been filed within a statutory period.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 15"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Krishnaveni Rai v. Pankaj Rai and Signature Not Verified Digitally Signed ASWAL Signing Date:21.04.2023 14:58:35 N.C. No. 2023:DHC:2686-DB Anr., (2020) 11 SCC 253"
+      ],
       "keywords": [
-        "TODO"
+        "remarriage",
+        "divorce",
+        "appeal",
+        "statutory period"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — applies to all divorce cases",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The protection afforded by Section 15 is primarily to a person contesting the decree of divorce.",
+      "held": "The object of Section 15 is to provide protection to the person who had filed an appeal against the decree of dissolution of marriage and to ensure that such appeal was not frustrated.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 15"
+      ],
+      "cited_cases": [
+        "Anurag Mittal v. Shaily Mishra Mittal, (2018) 9 SCC 691 : (2018) 4 SCC (Civ) 550"
+      ],
+      "keywords": [
+        "protection",
+        "appeal",
+        "decree of divorce"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM — highlights the purpose of Section 15",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court sets aside exparte decree and allows wife's application to set it aside",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "marriage",
+    "civil revision petition",
+    "Article 227",
+    "Constitution of India",
+    "Limitation Act",
+    "family court",
+    "exparte order",
+    "counter statement",
+    "matrimonial dispute",
+    "spousal rights",
+    "judicial separation",
+    "dissolution of marriage",
+    "custody",
+    "maintenance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "responding to an exparte order",
+    "appealing a family court decision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:34:39.346583"
 }

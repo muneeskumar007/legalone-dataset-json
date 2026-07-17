@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:55:29.339446",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Maj. Rajkumar Singh Negi vs Maj. Shamila Rajkumarsingh Negi on 22 April, 2019",
+  "case_name": "Maj. Rajkumar Singh Negi vs Maj. Shamila Rajkumarsingh Negi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Maj. Rajkumar S. Negi (husband)",
+    "respondent_defendant": "Maj. Sharmila R. Negi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties arrived at a settlement and entered into Consent Terms, which were filed before the Court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may waive the statutory period of six months for obtaining divorce by mutual consent.",
+      "held": "Looking into the facts and circumstances of the case, we are inclined to accept this request.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13B"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Amardeep Singh Vs. Harveen Kaur, (2017) 8 Supreme Court"
+      ],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "statutory period",
+        "divorce by consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Consent Terms can be accepted as a valid basis for granting divorce by mutual consent.",
+      "held": "We have perused the Consent Terms. Looking into the special facts of this case, we are inclined to grant relief as prayed for in the Content Terms.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13B"
+      ],
+      "cited_cases": [
+        "Maj. Rajkumar Singh Negi vs Maj. Shamila Rajkumarsingh Negi, (2019) X SCC Y"
+      ],
+      "keywords": [
+        "Consent Terms",
+        "divorce by consent",
+        "family law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage was dissolved by decree of divorce under Section 13B of the Hindu Marriage Act, 1955. The parties shall act on the Consent Terms filed before the Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Consent Terms",
+    "Power of Attorney",
+    "Family Court Appeal",
+    "Civil Appellate Jurisdiction",
+    "High Court of Judicature at Bombay",
+    "Appeal preferred by husband",
+    "Petition for divorce",
+    "Settlement",
+    "Latin Maxim: 'Nemo judex in causa sua'",
+    "Legal Separation",
+    "Maintenance",
+    "Custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on legal separation and maintenance",
+    "assisting with settlement negotiations"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:37:21.951061"
 }

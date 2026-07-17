@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:55:37.369008",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4
   },
@@ -18,10 +18,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manish Keshav Bediya And Ors vs The State Of Maharashtra And Anr on 29 September, 2022",
+  "case_name": "Manish Keshav Bediya And Ors vs The State Of Maharashtra And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manish Keshav Bediya, Anita Keshav Bediya, Keshav Patoula Bediya, Nandini Keshav Bediya, Aarti Keshav Bediya (husband, wife, in-laws, unmarried sisters-in-law)",
+    "respondent_defendant": "The State of Maharashtra, Jyoti Manish Bediya (State, wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are husband and family members. Wife lodged FIR alleging offences under IPC sections 498-A, 323, 504 read with 34. Parties have amicably settled their dispute.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,94 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle their disputes amicably and seek quashing of the FIR.",
+      "held": "The parties have amicably settled their dispute. Quashing is sought on the premise that the parties have amicably settled their dispute.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "quashing of FIR"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Consent terms can be used to settle disputes and quash proceedings.",
+      "held": "The parties decided to put up a quietus to the dispute and accordingly, entered into consent terms.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent terms",
+        "quashing of proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Mutual consent can be used to dissolve a marriage.",
+      "held": "The Family Court at Bandra has allowed the petition seeking divorce by mutual consent and has dissolved the marriage vide judgment and order dated 18th July, 2022.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mutual consent",
+        "dissolution of marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Quashing of the FIR/complaint is sought and granted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "quashing",
+    "FIR",
+    "complaint",
+    "registered",
+    "petitioners",
+    "respondents",
+    "consent",
+    "parties",
+    "final disposal",
+    "notice",
+    "waive",
+    "Criminal Appellate Jurisdiction",
+    "High Court of Judicature at Bombay"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing FIR in family court",
+    "seeking final disposal in HC"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:52:45.956372"
 }

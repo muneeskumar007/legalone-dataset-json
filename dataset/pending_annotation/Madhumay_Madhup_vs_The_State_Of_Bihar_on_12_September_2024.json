@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:55:14.076364",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "criminal_miscellaneous",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Madhumay Madhup vs The State Of Bihar on 12 September, 2024",
+  "case_name": "Madhumay Madhup vs The State Of Bihar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "MADHUMAY MADHUP S/O LATE MADHUSUDAN SHARMA, MADHUP R/O VILLAGE- MADHUKUNJ SRI KRISHNA NAGAR, MAIN ROAD, PS BUDHA COLONY DISTRICT PATNA",
+    "respondent_defendant": "THE STATE OF BIHAR, ABHISHEK SINGH S/O ASHOK KUMAR R/O VILLAGE- NEEL KOTHI, PURANI BAZAAR, PS. LAKHISARAI, DIST. LAKHISARAI",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -75,7 +75,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complaint Case No.-60 Year-2022 Thana- COMPLAINT CASE District- Lakhisarai",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -85,39 +85,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to quash a criminal case to demonstrate that the continuation of the proceedings would cause irreparable harm.",
+      "held": "It is agreed between Petitioner No. 2 and O.P. No. 2 that they shall co-operate with each other in getting the above-mentioned criminal cases quashed against each other and their family members from this Hon'ble High Court or any other competent court.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "quash",
+        "criminal case"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Family Court of Learned Additional Principal Judge shall decide the Guardianship of the minor girl child.",
+      "held": "That the Petitioner No. 2 and O.P. No. 2 have mutually agreed that the Family Court of Learned Additional Principal Judge shall decide the Guardianship of the minor girl child namely Anika in Guardianship Case No. 30 of 2018 (Abhishek Singh Versus Madhup Madhumita),",
       "applicable_acts_sections": [
-        "TODO"
+        "Guardianship and Wards Act 1890"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "guardianship",
+        "minor child"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "child custody"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "This application has been filed under Section 482 of the Cr.P.C. for quashing the cognizance order dated 12.09.2022 passed by the learned Judicial Magistrate, 1st Class, Lakhisarai",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Specific Relief Act",
+    "Indian Penal Code",
+    "domestic violence",
+    "DV",
+    "alimony",
+    "maintenance",
+    "custody",
+    "matrimonial dispute",
+    "marriage dissolution",
+    "family law",
+    "judicial separation",
+    "separation agreement",
+    "property settlement",
+    "spousal support"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on domestic violence cases",
+    "negotiating separation agreements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:20:48.908304"
 }

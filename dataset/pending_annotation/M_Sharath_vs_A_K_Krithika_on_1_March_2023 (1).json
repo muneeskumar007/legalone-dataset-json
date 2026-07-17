@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:58:42.863430",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -30,13 +30,13 @@
     "M.C.No.9/2013",
     "M.C.No.17/2013"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Chikkamagaluru, M.C.No.9/2013 and M.C.No.17/2013",
   "reserved_on": "21.02.2023",
   "delivered_on": "",
-  "case_name": "M Sharath vs A K Krithika on 1 March, 2023",
+  "case_name": "M Sharath vs A K Krithika",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M Sharath, husband",
+    "respondent_defendant": "A K Krithika, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are M Sharath and A K Krithika. The husband filed a petition for divorce under Section 13(1) (i) (ia) (ib) of the Hindu Marriage Act, which was dismissed by the trial court. The wife also filed a petition seeking a decree of restitution of conjugal rights, which was allowed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Mental cruelty can be a ground for divorce.",
+      "held": "The first respondent/wife has caused mental cruelty to the appellant/husband without any valid reason.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mental cruelty",
+        "divorce",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Desertion can be a ground for divorce.",
+      "held": "Without any reason she left the matrimonial home by deserting the appellant/husband and started living separately since April 2002.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "desertion",
+        "divorce",
+        "marriage"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeals are allowed and the judgment and decree passed by the trial court are set aside. The parties are directed to maintain status quo until further orders.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 13(1)(i)(ia)(ib)",
+    "M.C.No.9/2013",
+    "M.F.A No.4184/2015",
+    "M.F.A No.4183/2015",
+    "Section 19(1)",
+    "Principles of Natural Justice",
+    "Res Judicata",
+    "Hindu Marriage Act, 1955",
+    "Divorce Petition",
+    "Family Court",
+    "Chikmagalur",
+    "Karnataka High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions in Karnataka",
+    "advising on Hindu Marriage Act provisions",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:09:42.500400"
 }

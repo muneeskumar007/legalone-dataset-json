@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:55:32.768011",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "M.C.NO.438/2011",
     "M.C.No.438/2011"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Family Court, Mysore, M.C.No.438/2011",
   "reserved_on": "07.03.2023",
   "delivered_on": "",
-  "case_name": "Mallikarjunappa K M vs Smt. C.S.Mala on 10 March, 2023",
+  "case_name": "Mallikarjunappa K M vs Smt. C.S.Mala",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mallikarjunappa K M, husband, Assistant Director / Deputy Chief, University Employment Information & Guidance Bureau",
+    "respondent_defendant": "Smt. C.S.Mala, wife, residing at Mysuru - 570023",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant and respondent got married in 1998. Initially they had a happy life. Appellant took respondent to her parental home and requested her to stay there. Respondent used to insult and quarrel with appellant, threatening suicide.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging cruelty to prove the same.",
+      "held": "It is averred that during her second pregnancy doctor had advised her to take rest and not to travel ignoring such advise she went to her parental home.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court will not interfere with the findings of the Family Court unless there is a manifest error.",
+      "held": "We have considered the submissions made by learned counsel for the appellant and respondent and have perused the records.",
+      "applicable_acts_sections": [
+        "Family Courts Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Family Court",
+        "manifest error"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family court appeals"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Petition filed by the appellant seeking dissolution of marriage was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Family Courts Act",
+    "Section 19(1)",
+    "Section 13(1) (ia) and (ib)",
+    "M.C.No.438/2011",
+    "MFA No.4876 of 2016",
+    "Assistant Director",
+    "Deputy Chief",
+    "University Employment Information & Guidance Bureau",
+    "Bangalore",
+    "Mysuru",
+    "J P Nagar",
+    "21st Cross",
+    "'D' Block"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "advising on maintenance rights under Protection of Women from DV Act",
+    "appealing against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:43:48.226046"
 }

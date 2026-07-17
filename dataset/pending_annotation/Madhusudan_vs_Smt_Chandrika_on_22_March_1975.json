@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:55:15.458761",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Fifth Additional District Judge, Jabalpur",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Madhusudan vs Smt. Chandrika on 22 March, 1975",
+  "case_name": "Madhusudan vs Smt. Chandrika",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Husband",
+    "respondent_defendant": "Wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1972. The husband discovered the wife had syphilis and applied for annulment of marriage under Section 12(1)(c) or judicial separation under Section 10(1)(d). The trial court dismissed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party alleging incurability to prove it.",
+      "held": "It is, however, quite clear from Dr. Swami's statement that syphilis is curable.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Madhusudan vs Smt. Chandrika, (1975)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "incurability",
+        "syphilis",
+        "treatment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to get themselves examined does not necessarily imply the other party contracted a disease from them.",
+      "held": "However, we find that the husband got his blood examined on 29th January, 1973 by Dr. Raja Indurkhya (P. W. 2) for K. T. and V. D. R. L. tests and both yielded negative results.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Madhusudan vs Smt. Chandrika, (1975)"
+      ],
+      "keywords": [
+        "examination",
+        "disease transmission"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is not specified in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 12(1)(c)",
+    "annulment of marriage",
+    "judicial separation",
+    "syphilis",
+    "blood test",
+    "pathalogical examination",
+    "marital intercourse",
+    "private parts",
+    "ulcer",
+    "respective families",
+    "graduate",
+    "respectable",
+    "Guiarati",
+    "Section 10(1)(d)",
+    "Section 28",
+    "decree of divorce",
+    "judicial separation",
+    "Hindu Marriage Act, 1955"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting petition for annulment of marriage",
+    "advising client on grounds for judicial separation",
+    "preparing decree of divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:21:39.690004"
 }

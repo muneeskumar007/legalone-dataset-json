@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:55:38.077061",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "custody": 2,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manish Prabhakar Nikam vs The State Of Maharashtra And Another on 2 March, 2022",
+  "case_name": "Manish Prabhakar Nikam vs The State Of Maharashtra And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manish Prabhakar Nikam (husband)",
+    "respondent_defendant": "The State Of Maharashtra And Another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties have arrived at amicable settlement. Husband seeks quashing of FIR and proceedings.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power of the High Court in quashing a criminal proceeding or FIR or complaint in exercise of its inherent jurisdiction is distinct and different from the power given to a criminal court for compounding the offences under Section 320 of the Code.",
+      "held": "The position that emerges from the above discussion can be summarised thus: the power of the High Court in quashing a criminal proceeding or FIR or complaint in exercise of its inherent jurisdiction is distinct and different from the power given to a criminal court for compounding the offences under Section 320 of the Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(B)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab and others, (2012) 10 SCC 303",
+        "Kulwinder Singh v. State of Punjab (2007) 4 CTC 769"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceeding",
+        "inherent jurisdiction",
+        "compounding offences"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The High Court must have due regard to the nature and gravity of the crime before exercising its power to quash a criminal proceeding or complaint or FIR.",
+      "held": "Before exercise of such power, the High Court must have due regard to the nature and gravity of the crime.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(B)"
+      ],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab and others, (2012) 10 SCC 303",
+        "Kulwinder Singh v. State of Punjab (2007) 4 CTC 769"
+      ],
+      "keywords": [
+        "quashing",
+        "criminal proceeding",
+        "nature and gravity of the crime"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Quashing of FIR and proceedings allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "quashing of FIR",
+    "amicable settlement",
+    "498-A IPC",
+    "323 IPC",
+    "504 IPC",
+    "506 IPC",
+    "34 IPC",
+    "RCC No.147",
+    "JMFC Sakri",
+    "Indian Penal Code",
+    "IPC",
+    "FIR",
+    "crime No.85",
+    "Pimpalner police station",
+    "District Dhule",
+    "Sakri",
+    "Dhule"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing FIR application",
+    "amicable settlement agreement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:54:29.638653"
 }

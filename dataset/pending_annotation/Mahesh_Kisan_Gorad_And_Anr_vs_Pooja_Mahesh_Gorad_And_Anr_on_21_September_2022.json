@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:55:27.761356",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "24th Additional Chief Metropolitan Magistrate, Borivali - Criminal Case No.227/PW/2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mahesh Kisan Gorad And Anr vs Pooja Mahesh Gorad And Anr on 21 September, 2022",
+  "case_name": "Mahesh Kisan Gorad And Anr vs Pooja Mahesh Gorad And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Applicants (husband, mother-in-law, sister-in-law, brother-in-law)",
+    "respondent_defendant": "Respondents (wife, State of Maharashtra)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicants seek quashing of the F.I.R bearing C.R. No.129 of 2021 registered with Charkop Police Station, Mumbai for alleged offences punishable under sections 498-A, 323, 504, 506, 509 of IPC. The parties have filed a Divorce petition under section 13 (1) (b) of the Hindu Marriage Act, 1955 seeking divorce by mutual consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish that the FIR is frivolous and without any substance.",
+      "held": "It appears that the applicants seek quashing of the F.I.R bearing C.R. No.129 of 2021 registered with Charkop Police Station, Mumbai for the alleged offences punishable under sections 498-A, 323, 504, 506, 509 of the Indian Penal Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "FIR",
+        "frivolous",
+        "substance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A mutual consent divorce petition can be filed even if the parties are involved in a pending criminal case.",
+      "held": "It appears that in the interregnum, the parties i.e applicant No.1 and respondent No.1 have filed a Divorce petition under section 13 (1) (b) of the Hindu Marriage Act, 1955 bearing M.P. No.430 of 2022 seeking divorce by mutual consent.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mutual consent",
+        "divorce petition",
+        "criminal case"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application is taken up for final disposal and the F.I.R bearing C.R. No.129 of 2021 is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "section 482",
+    "Criminal Application No.854",
+    "Maharashtra",
+    "family court",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "joint family",
+    "separation",
+    "annulment",
+    "nullity"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:33:41.185794"
 }

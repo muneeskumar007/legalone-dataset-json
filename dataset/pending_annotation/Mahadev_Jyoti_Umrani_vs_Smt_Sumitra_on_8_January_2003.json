@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:55:21.830368",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "custody": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Civil Judge (Senior Division) at Chikkodi in M.C. No. 61 of 1993",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mahadev Jyoti Umrani vs Smt. Sumitra on 8 January, 2003",
+  "case_name": "Mahadev Jyoti Umrani vs Smt. Sumitra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mahadev Jyoti Umrani (husband)",
+    "respondent_defendant": "Smt. Sumitra (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband presented a petition under Section 13(1), (1-a) and (1-b) of the Hindu Marriage Act seeking a decree of divorce, but it was dismissed by the trial court. The husband then filed an appeal before the Court of Principal District Judge at Belgaum, which was held not maintainable.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The forum of appeal from a decree passed by a Court of Civil Judge (Senior Division) is determined by the amount or value of subject-matter of the original suit or proceeding.",
+      "held": "So, it is the amount or value of subject-matter of the original suit or proceeding, which determines the forum of appeal.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "forum",
+        "appeal",
+        "decree",
+        "subject-matter"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "When the subject-matter of proceedings is valued, the test prescribed under Section 19(1) of the Civil Courts Act cannot be applied to such a case.",
+      "held": "the test prescribed under Section 19(1) of the Civil Courts Act cannot be applied to such a case",
+      "applicable_acts_sections": [
+        "Civil Courts Act"
+      ],
+      "cited_cases": [
+        "R.P. Muniswamappa v. Eramma, (1967) 2 Mys. L.J. 44",
+        "Sannakariyappa v. Lakshmakka, (1967) 2 Mys. L.J. 629"
+      ],
+      "keywords": [
+        "valuation",
+        "proceedings",
+        "subject-matter"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "judicial separation cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is that the appeal lies to the Court to which appeals ordinarily lie from the decisions of the Court given in the exercise of its original civil jurisdiction.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13",
+    "divorce",
+    "appeal",
+    "civil judge",
+    "Principal District Judge",
+    "Belgaum",
+    "Chikkodi",
+    "M.C. No.",
+    "Indraj v. Smt. Shanti",
+    "Latin maxim",
+    "res judicata",
+    "forum non conveniens"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "guidelines for filing appeals in family courts",
+    "practical tips for advocates on jurisdictional issues"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:25:02.498351"
 }

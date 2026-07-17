@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:59:01.910621",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -26,13 +26,13 @@
     "OP.No. 27 of 2022",
     "M.P.No. 39 of 2022"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Pudukottai (HMOP No. 27 of 2022) and Additional Family Court, Coimbatore (HMOP No. 1928 of 2021)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "M. Vijayakumar vs Savithiri on 13 December, 2022",
+  "case_name": "M. Vijayakumar vs Savithiri",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M. Vijayakumar, husband",
+    "respondent_defendant": "Savithiri, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2020. The wife filed HMOP for restitution of conjugal rights, while the husband filed HMOP for dissolution of marriage. Both cases are pending before different courts.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,120 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The intention of the parties in filing matrimonial cases is irrelevant for considering transfer applications.",
+      "held": "Intention of the parties in filing the matrimonial cases are irrelevant for the purpose of considering the transfer application filed to transfer cases from one court to another court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial cases",
+        "transfer applications"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Courts are not expected to get carried away with emotions or societal implications in matrimonial cases.",
+      "held": "Courts are not expected to get carried away with such emotions or otherwise.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "emotions",
+        "societal implications"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The place of residence of the wife is preferable for conducting the trial in matrimonial cases.",
+      "held": "As far as the present transfer petition is concerned, the place of residence of the wife is preferable for conducting the trial, in view of the amendment in Hindu Marriage Act and also based on the principles laid down by the Courts.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "wife's residence",
+        "matrimonial cases"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The domicile or citizenship of the opposite party is immaterial in matrimonial cases.",
+      "held": "The domicile or citizenship of the opposite party is immaterial in a case like this.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "domicile",
+        "citizenship",
+        "matrimonial cases"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court transferred the case from Family Court, Pudukottai to Additional Family Court, Coimbatore.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "restitution of conjugal rights",
+    "dissolution of marriage",
+    "Family Court",
+    "Pudukottai",
+    "Additional Family Court",
+    "Coimbatore",
+    "separation",
+    "understanding",
+    "conjugal rights",
+    "marriage",
+    "petition",
+    "HMOP",
+    "C.P.C.",
+    "Section 24"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on restitution of conjugal rights",
+    "assisting with dissolution of marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:12:51.290478"
 }

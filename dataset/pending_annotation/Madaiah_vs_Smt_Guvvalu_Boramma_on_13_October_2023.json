@@ -7,7 +7,7 @@
   "total_pages": 25,
   "extracted_at": "2026-07-15T10:55:11.603891",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 9,
@@ -30,10 +30,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Madaiah vs Smt Guvvalu Boramma on 13 October, 2023",
+  "case_name": "Madaiah vs Smt Guvvalu Boramma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Sannapalamma, Madaiah, Rajanna, Bhagymma",
+    "respondent_defendant": "S. Obaiyah, Bayanna, Doddamadaiah, Chinnaiah, Sanamaiaih, Smt Guvvalu Boramma",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties are agriculturists from Mallorahalli village. Appeal filed against judgment and decree dated 06.02.2007 passed in R.A.No.198/2002.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,71 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party seeking to establish a fact to prove it.",
+      "held": "In order to prove the case of the plaintiffs, the mother of plaintiffs examined herself as PW-1 and examined 4 witnesses as PW-2 to PW-5 and got marked 9 documents marked as Ex.P1 to P9.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's possession of property is a relevant factor in determining the issue of partition.",
+      "held": "The plaintiff was put in possession of the suit property as on the date of sale transaction. Since from the time of purchase, the plaintiff is in lawful possession of the suit property without interruption of anybody.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "possession",
+        "partition"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order set aside the judgment and decree dated 31.07.2000 passed in OS.No.1956/1994.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Code of Civil Procedure",
+    "RSA",
+    "Regular Second Appeal",
+    "Agriculturist",
+    "Mallorahalli Village",
+    "Nayakanahatti Hobli",
+    "Chitradurga District",
+    "LR",
+    "Children",
+    "Appellants",
+    "Respondents",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "Partition disputes",
+    "Family property division",
+    "Succession matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:14:36.520971"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:55:27.266084",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -19,13 +19,13 @@
     "Justice B. P. Routray J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "court of learned Civil Judge (Sr. Divn.), Jharsuguda",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mahendra Kumar Maharana vs Gauri Maharana on 1 September, 2021",
+  "case_name": "Mahendra Kumar Maharana vs Gauri Maharana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mahendra Kumar Maharana (husband)",
+    "respondent_defendant": "Gauri Maharana (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed MAT Case No.1/2011 for divorce, which was decreed ex parte. The wife then filed TRP (Civil) No.221/2015 seeking transfer of the case to Aska. The trial court allowed the petition, but the husband appealed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court's earlier order becomes final once it is passed.",
+      "held": "It is clear that the wife has pursuant thereto filed an application (C.M.A. No.49/2016 ) in the court of the learned Civil Judge (Sr. Divn.), Jharsuguda under Order 9 Rule 13 C.P.C. for setting aside the ex parte divorce decree.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "final order",
+        "ex parte decree"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot file multiple petitions to achieve the same result.",
+      "held": "In other words, there was no occasion for her to file another transfer petition in this Court to achieve a result opposite to the result in TRP (Civil) No.221/2015.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "multiple petitions",
+        "same result"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was stayed on 18th April, 2017, and the interim order is continuing.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "MAT Case",
+    "transfer of case",
+    "Single Judge",
+    "Civil Judge",
+    "Jharsuguda",
+    "Aska",
+    "co-operate",
+    "lingering proceeding",
+    "deliberate tactic",
+    "interim order",
+    "stay",
+    "family court",
+    "Orissa High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "requesting transfer of case",
+    "seeking interim order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:30:59.951013"
 }

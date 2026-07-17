@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:55:32.914538",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -24,8 +24,8 @@
   "delivered_on": "",
   "case_name": "Mallika vs Vipulkumar on 25 August, 2010",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mallika Vipulkumar Shah (wife)",
+    "respondent_defendant": "Vipulkumar Babulal Shah (husband) - Staff Nurse",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "After the birth of their son, the husband started playing gambling and snatched away the wife's hard earned income. The wife had to struggle to maintain the house and meet expenses for her son's upbringing.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse's habit of gambling can be a ground for divorce.",
+      "held": "The opponent has started to play the game of gambling and because of this habit, it was very difficult for the present applicant to maintain the house and meet with the expenditures required to be incurred in the upbringing of son Zenith.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "gambling",
+        "maintenance",
+        "upbringing"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A spouse's refusal to provide maintenance can be a ground for divorce.",
+      "held": "The present opponent has refused to give any maintenance amount to son Zenith and therefore, to avoid giving of maintenance to son Zenith, the opponent has filed application for fulfillment of conjugal rights under section 9 of the Hindu Marriage Act, 1955.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "conjugal rights"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The present petition is filed by one Mallika Vipulkumar Shah and the prayer made in the application is: Be pleased to transfer HMP Case No. 189 of 2009 filed by the opponent from the Court of Family Court at Surat to the Family Court at Ahmedabad, in the interest of justice.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "transfer petition",
+    "family court",
+    "justice",
+    "gambling",
+    "separation",
+    "maintenance",
+    "custody",
+    "property division",
+    "alimony",
+    "matrimonial dispute",
+    "judicial transfer",
+    "surat",
+    "ahmedabad",
+    "family law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition for family court jurisdiction",
+    "advising on matrimonial disputes and separation",
+    "assisting with property division and alimony"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:43:00.209097"
 }

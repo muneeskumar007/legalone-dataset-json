@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:55:46.552486",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 3,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manjula vs Mani And Others on 11 August, 1997",
+  "case_name": "Manjula vs Mani And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manjula (wife)",
+    "respondent_defendant": "Mani and others (husband and relatives)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The complainant, Manjula, filed a complaint against her husband, Mani, and his relatives for bigamy. She alleged that Mani married another woman, the 2nd accused, without divorcing her first. The trial court acquitted all the accused.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The credibility of a witness's testimony should not be rejected solely based on minor inconsistencies.",
+      "held": "A careful scrutiny of the evidence of P.W. 2 Rajagopal will show that his evidence is natural, cogent and convincing.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "witness credibility",
+        "testimonial reliability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden of proof does not lie with the witness to prove their own credibility.",
+      "held": "Merely because he did not purchase the bulls on that day or he did not visit the house of his relatives at Athur, it cannot be said that he could not have gone to Athur Village.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "burden of proof",
+        "witness credibility"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the order of acquittal is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "marriage",
+    "illtreatment",
+    "neglect",
+    "avoidance",
+    "mediation",
+    "failure",
+    "complaint",
+    "acquittal",
+    "order",
+    "Chief Judicial Magistrate",
+    "Chengalpattu",
+    "District Court",
+    "Uthiramerur police station",
+    "Kattuppakkam Village",
+    "relatives",
+    "neglecting",
+    "avoiding company"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "representing in District Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T15:02:19.911997"
 }

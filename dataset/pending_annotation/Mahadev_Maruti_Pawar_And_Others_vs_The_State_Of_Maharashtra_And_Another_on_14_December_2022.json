@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:55:22.240853",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mahadev Maruti Pawar And Others vs The State Of Maharashtra And Another on 14 December, 2022",
+  "case_name": "Mahadev Maruti Pawar And Others vs The State Of Maharashtra And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mahadev s/o Maruti Pawar, Kavita w/o Mahadev Pawar, Yogesh s/o Mahadev Pawar, Shailesh s/o Mahadev Pawar (husband, parents-in-law and brother-in-law)",
+    "respondent_defendant": "The State of Maharashtra Through Police Inspector, Shevgaon Police Station, Sumati w/o Shailesh Pawar (informant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Respondent No.2 set law in motion alleging that after her marriage in 2011, everything was smooth until 2013. Subsequently, husband and in-laws commented and taunted her for not preparing good food, for not cleaning clothes properly, and on such count, she was beaten and kept starved.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The exercise of inherent powers under Section 482 of Cr.P.C. is subject to legal requirements.",
+      "held": "Bearing in mind legal requirements on the point of exercise of inherent powers under Section 482 of Cr.P.C., we proceed to examine whether the applicants herein have at all made out a prima facie case for grant of relief and whether prosecution launched against them is indeed abuse of process of law or not.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 482"
+      ],
+      "cited_cases": [
+        "Inder Mohan Goswami and Anr. Vs. State of Uttaranchal and Ors., (2007) 12 SCC 1",
+        "Mahendra K.C. Vs. State of Karnataka and Another, (2022) 2 Supreme Court Cases 129"
+      ],
+      "keywords": [
+        "inherent powers",
+        "Section 482 Cr.P.C.",
+        "abuse of process of law"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "quashing FIR cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A prima facie case must be made out for grant of relief in exercise of inherent powers under Section 482 of Cr.P.C.",
+      "held": "whether the applicants herein have at all made out a prima facie case for grant of relief",
+      "applicable_acts_sections": [
+        "Cr.P.C. — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "prima facie case",
+        "exercise of inherent powers"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "quashing FIR cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Specific Relief Act",
+    "1963",
+    "marriage",
+    "spouse",
+    "property",
+    "joint family",
+    "maintenance",
+    "alimony",
+    "custody",
+    "child",
+    "parent",
+    "family law",
+    "Indian Kanoon",
+    "judgment",
+    "decree",
+    "matrimonial dispute",
+    "family court",
+    "high court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:25:58.700860"
 }

@@ -7,7 +7,7 @@
   "total_pages": 77,
   "extracted_at": "2026-07-15T10:58:53.216561",
   "domain": "land_acquisition",
-  "sub_domain": "divorce",
+  "sub_domain": "land_acquisition",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "31.01.2025",
-  "case_name": "M/S Ayodhya Faizabad Developement ... vs Dy. Commissioner Of Income Tax ... on 31 January, 2025",
+  "case_name": "M/S Ayodhya Faizabad Developement vs Dy. Commissioner Of Income Tax",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ayodhya Development Authority, Civil (Appellant)",
+    "respondent_defendant": "DCIT (Exemption), Lines, Faizabad (formerly Ayodhya Circle- Lucknow Faizabad Development Authority) (Respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -39,7 +39,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Assessee authority filed appeals against various orders passed by the ld. CIT(A) at Lucknow and NFAC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,108 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the assessee to substantiate its claim that it is a charitable trust.",
+      "held": "It was unable to respond to the query as to how the sales of properties made by it had benefited the weaker sections. It was also unable to demonstrate that the properties were disposed of on cost-to-cost basis, as the assessee had not submitted any details in this regard.",
       "applicable_acts_sections": [
-        "TODO"
+        "Income-tax Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "charitable trust",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "taxation disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A commercial enterprise cannot be disguised as a charitable trust by charging interest on delayed payments.",
+      "held": "The assessee charged its customers for each and every facility that it provided and was therefore, operating on the lines of a commercial enterprise.",
+      "applicable_acts_sections": [
+        "Income-tax Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "commercial enterprise",
+        "charitable trust",
+        "interest charges"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "taxation disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The law is clear that a charitable trust must demonstrate its charitable purpose and not just claim it.",
+      "held": "It had more than Rs.11.11 Crores of investment in the form of FDRs and savings accounts and was earning interest on the same. This earning of interest was devoid of any charitable purpose and was also not incidental to the nature of activity performed by the assessee.",
+      "applicable_acts_sections": [
+        "Income-tax Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "charitable trust",
+        "charitable purpose"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "taxation disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The assessee's appeals were partly allowed for the assessment years 2017-18 and 2018-19.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Ayodhya Faizabad",
+    "Land Acquisition",
+    "Income Tax Appellate Tribunal",
+    "Assessment Years",
+    "CIT(A)",
+    "NFAC",
+    "Appeals",
+    "Assessee Authority",
+    "Commissioner of Income Tax (Appeals)",
+    "Lucknow",
+    "Faizabad Development Authority",
+    "U.P.",
+    "PAN",
+    "CA",
+    "CIT(DR)",
+    "DR",
+    "Hearing Date",
+    "Pronouncement Date",
+    "Order",
+    "Ld. CIT(A)",
+    "Assessment Years 2012-13",
+    "2014-15",
+    "2015-16",
+    "2016-17",
+    "2017-18",
+    "2018-19"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting income tax appeals",
+    "assisting with land acquisition disputes",
+    "advising on assessment years"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:06:29.659244"
 }

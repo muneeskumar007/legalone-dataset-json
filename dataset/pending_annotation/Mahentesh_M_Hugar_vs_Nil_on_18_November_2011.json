@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:55:27.556626",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "domestic_violence": 1,
@@ -19,20 +19,20 @@
     "Rafl Mae Imath J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Belgaum, MCNo25O/2OO9",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mahentesh M Hugar vs Nil on 18 November, 2011",
+  "case_name": "Mahentesh M Hugar vs Nil",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mat'ente h M Hugar, husband",
+    "respondent_defendant": "Nil, wife",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners filed a petition under Section 13B of the Hindu Marriage Act seeking dissolution of marriage by mutual consent. The trial court rejected the petition on the ground that the parties were not living separately for one year prior to presentation of the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -42,39 +42,57 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The weightage of a stray sentence should not be given much",
+      "held": "However, in one stray sentence in the affidavit, it was mentioned that they lived together for a period of one year The stray sentence should not have been given much weightage by the Court.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "weightage",
+        "stray sentence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties are free to remarry with other persons.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Section 13B",
+    "Family Courts Act",
+    "1984",
+    "separation",
+    "one year prior",
+    "petition",
+    "dissolution of marriage",
+    "Belgaum",
+    "Family Court",
+    "MCNo250/2009",
+    "MFA",
+    "appeal",
+    "jointly filed",
+    "living separately"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on grounds for dissolution of marriage",
+    "preparing an appeal against Family Court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:32:43.996355"
 }

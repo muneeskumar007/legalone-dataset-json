@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:55:36.036554",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judicial Magistrate, First Class, Hadgaon and Family Court at Aurangabad",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manisha Madhukar Jadhav Nee Manisha ... vs The State Of Maharashtra And Another on 16 February, 2022",
+  "case_name": "Manisha Madhukar Jadhav Nee Manisha ... vs The State Of Maharashtra And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "01 Manisha w/o Madhukar Jadhav, 02 Madhukar s/o Dattarao Jadhav (Applicants)",
+    "respondent_defendant": "01 The State of Maharashtra; 02 The Police Station Officer, Mantha Police Station, Tq. Hadgaon, District Nanded (Respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties arrived at an amicable settlement for setting aside proceedings of Regular Criminal Case No. 88/2019, pending before the Judicial Magistrate, First Class, Hadgaon.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Criminal cases arising from matrimonial discord can be quashed if the parties have settled their dispute.",
+      "held": "The power of the High Court in quashing a criminal proceeding or FIR or complaint in exercise of its inherent jurisdiction is distinct and different from the power given to a criminal court for compounding the offences under Section 320 of the Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab and others, (2012) 10 SCC 303",
+        "Kulwinder Singh v. State of Punjab (2007) 4 CTC 769"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial discord",
+        "quashing",
+        "criminal proceeding",
+        "FIR",
+        "complaint"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Heinous and serious offences like murder, rape, dacoity, etc. cannot be quashed even if the victim or victim's family and the offender have settled their dispute.",
+      "held": "Such offences are not private in nature and have serious impact on society.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab and others, (2012) 10 SCC 303"
+      ],
+      "keywords": [
+        "heinous",
+        "serious",
+        "offences",
+        "murder",
+        "rape",
+        "dacoity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases",
+        "serious crimes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings quashed; parties agreed to get separated permanently and withdrawn all adverse allegations made against each other.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498A IPC",
+    "504 IPC",
+    "506 IPC",
+    "quashing FIR",
+    "amicable settlement",
+    "Regular Criminal Case",
+    "Judicial Magistrate",
+    "Indian Penal Code",
+    "family law",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "criminal proceedings",
+    "First Information Report",
+    "FIR quashing"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing FIR in family disputes",
+    "amicable settlement agreement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:57:11.061672"
 }

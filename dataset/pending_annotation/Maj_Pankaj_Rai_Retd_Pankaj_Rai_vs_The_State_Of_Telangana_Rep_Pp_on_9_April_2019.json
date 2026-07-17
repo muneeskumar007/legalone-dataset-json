@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:55:29.233708",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -27,13 +27,13 @@
     "CA.No.109 of 2007",
     "O.P.No.475/2015"
   ],
-  "trial_court": "",
+  "trial_court": "IV Metropolitan Magistrate, Hyderabad (DVC No.170/2015)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Maj Pankaj Rai Retd Pankaj Rai vs The State Of Telangana.,Rep.,Pp on 9 April, 2019",
+  "case_name": "Maj Pankaj Rai Retd Pankaj Rai v. The State Of Telangana, Rep.,Pp",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Maj Pankaj Rai (husband)",
+    "respondent_defendant": "The State Of Telangana, respondent No.2/de facto complainant (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife stayed only for 33 days and left without valid reasons, petitioner claims second marriage is nullity due to pending appeal in first husband's divorce case.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A second marriage by either party shall be lawful only after dismissal of an appeal against the decree of divorce, if filed.",
+      "held": "Section 15 of the Act provides that it shall be lawful for either party to marry again after dissolution of a marriage if there is no right of appeal against the decree. A second marriage by either party shall be lawful only after dismissal of an appeal against the decree of divorce, if filed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 15"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Maj Pankaj Rai Retd Pankaj Rai vs The State Of Telangana.,Rep.,Pp on 9 April, 2019"
+      ],
       "keywords": [
-        "TODO"
+        "second marriage",
+        "appeal against decree of divorce",
+        "dismissal of appeal"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — to ensure that the said appeal is not frustrated",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The object of Section 15 of the Act is to provide protection to the person who has filed an appeal against the decree of dissolution of marriage and to ensure that the said appeal is not frustrated.",
+      "held": "The purpose of Section 15 of the Act is to avert complications that would arise due to a second marriage during the pendency of the appeal, in case the decree of dissolution of marriage is reversed. The protection that",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 15"
+      ],
+      "cited_cases": [
+        "Maj Pankaj Rai Retd Pankaj Rai vs The State Of Telangana.,Rep.,Pp on 9 April, 2019"
+      ],
+      "keywords": [
+        "protection",
+        "appeal against decree of divorce",
+        "frustration"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH — to provide protection",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings against the petitioner are quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "quash proceedings",
+    "Criminal Procedure Code",
+    "party-in-person",
+    "defacto complainant",
+    "suppressed facts",
+    "false inducement",
+    "first marriage",
+    "dissolved marriage",
+    "F.C.A.",
+    "High Court",
+    "divorce decree",
+    "registration of marriage",
+    "Latin maxim: Falsus in uno, falsus in omnibus"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing proceedings under Cr.P.C. Section 482",
+    "representing party-in-person in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:36:31.596010"
 }

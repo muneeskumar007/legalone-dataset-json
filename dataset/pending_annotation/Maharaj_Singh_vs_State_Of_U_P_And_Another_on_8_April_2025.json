@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:55:26.459727",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court No. 3, Bareilly, Case No. 398/2024",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Maharaj Singh vs State Of U.P. And Another on 8 April, 2025",
+  "case_name": "Maharaj Singh vs State Of U.P. And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Maharaj Singh (husband)",
+    "respondent_defendant": "State of U.P. and Another (wife, police)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife lodged an FIR against the husband alleging harassment for dowry after marriage. Police submitted a charge sheet which is under challenge.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,103 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu marriage is not valid unless performed in accordance with the applicable rites or ceremonies.",
+      "held": "Where a Hindu marriage is not performed in accordance with the applicable rites or ceremonies such as saptapadi when included, the marriage will not be construed as a Hindu marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 7"
+      ],
+      "cited_cases": [
+        "Dolly Rani Vs. Manish Kumar Chanchal, (2025) 2 SCC 587"
+      ],
+      "keywords": [
+        "Hindu marriage",
+        "rites or ceremonies",
+        "saptapadi"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Registration of a Hindu marriage under the Hindu Marriage Registration Rules does not confer legitimacy to an invalid marriage.",
+      "held": "But if there has been no marriage in accordance with Section 7, the registration would not confer legitimacy to the marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 8",
+        "Hindu Marriage Registration Rules"
+      ],
+      "cited_cases": [
+        "Dolly Rani Vs. Manish Kumar Chanchal, (2025) 2 SCC 587"
+      ],
+      "keywords": [
+        "registration",
+        "legitimacy",
+        "invalid marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A certificate issued under the Hindu Marriage Registration Rules is prima facie proof of a valid Hindu marriage.",
+      "held": "The above marriage certificate facilitates prima facie proof of factum of marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Registration Rules"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "certificate",
+        "prima facie proof",
+        "valid Hindu marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The entire criminal proceeding pending in the court of Additional Chief Judicial Magistrate, Court No. 3, Bareilly relating to Case No. 398/2024 is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "498-A IPC",
+    "506 IPC",
+    "dowry harassment",
+    "Arya Samaj marriage",
+    "Indian Kanoon",
+    "Section 482 Cr.P.C.",
+    "quashing criminal proceeding",
+    "charge sheet",
+    "FIR",
+    "harassment for dowry demand",
+    "marriage solemnized",
+    "valid marriage",
+    "invalid marriage",
+    "divorce",
+    "Code of Civil Procedure",
+    "Bharatiya Nagarik Suraksha Sanhita"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing criminal proceeding in dowry harassment case",
+    "advising client on validity of Arya Samaj marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:28:07.239482"
 }

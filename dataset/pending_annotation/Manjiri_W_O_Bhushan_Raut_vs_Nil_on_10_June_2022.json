@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:55:40.484946",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.2, Nagpur, Case No. unknown",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manjiri W/O Bhushan Raut vs Nil on 10 June, 2022",
+  "case_name": "Manjiri W/O Bhushan Raut vs Nil",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manjiri w/o Bhushan Raut and another (husband, wife)",
+    "respondent_defendant": "Nil (no respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners got married in 2020 but separated due to irreconcilable differences. They filed a petition for divorce by mutual consent under Section 13-B of the Hindu Marriage Act, 1955. The trial court rejected their application to waive the statutory cooling period of six months.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Court can waive the statutory period under Section 13-B(2) if all efforts for mediation/conciliation have failed and there is no likelihood of success in that direction.",
+      "held": "Applying the above to the present situation, we are of the view that where the Court dealing with a matter is satisfied that a case is made out to waive the statutory period under Section 13-B(2), it can do so after considering the following...",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Manjiri W/O Bhushan Raut vs Nil, (2022) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "divorce by mutual consent",
+        "cooling-off period",
+        "reconciliation",
+        "mediation",
+        "conciliation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving mutual consent"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — to ensure that the court's discretion is exercised fairly",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The waiting period under Section 13-B(2) will only prolong the agony of the parties if there are no chances of reconciliation.",
+      "held": "The object of the provision is to enable the parties to dissolve a marriage by consent if the marriage has irretrievably broken down and to enable them to rehabilitate them as per available options...",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13-B"
+      ],
+      "cited_cases": [
+        "Manjiri W/O Bhushan Raut vs Nil, (2022) X SCC Y"
+      ],
+      "keywords": [
+        "divorce by mutual consent",
+        "cooling-off period",
+        "reconciliation",
+        "agony"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases involving mutual consent"
+      ],
+      "significance": "MEDIUM — to ensure that the court's decision is not influenced by unnecessary delays",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The writ petition is allowed and the impugned order dated 12/04/2022 passed by the Family Court No.2, Nagpur is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "irreconcilable differences",
+    "waiving statutory period",
+    "Family Court",
+    "Nagpur",
+    "petition for divorce",
+    "joint petition",
+    "statutory period",
+    "Latin maxim",
+    "factual separation",
+    "advocacy"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a joint petition for divorce under Hindu Marriage Act",
+    "advising on statutory periods in family law matters",
+    "assisting with advocacy in cases of irreconcilable differences"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-17T14:58:57.518151"
 }
