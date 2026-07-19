@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T20:32:32.246140",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Ld. ACJ-cum-ARC (Central District), Tis Hazari in Revocation Petition No.1/16",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anita Dhiman @ Anita Panikar vs Rita And Ors on 7 November, 2023",
+  "case_name": "Anita Dhiman @ Anita Panikar vs Rita And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anita Dhiman @ Anita Panikar, wife",
+    "respondent_defendant": "Rita and Ors (Ms. Prerna, Mr. Hardik, Union of India, State of Delhi, C.G.O Air Force Station)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Anita's husband Jai Rajan Panikar filed for divorce against her, which was dismissed by the District Court. He died during appeal, and Rita and their children claimed service dues. Anita appealed to set aside the order granting succession certificate.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "While granting a succession certificate, the court of competent jurisdiction shall decide the succession petition in a summary manner in favour of a person having prima-facie the best title.",
+      "held": "It is a settled preposition of law that",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "succession certificate",
+        "prima-facie",
+        "best title"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "inheritance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court prima-facie finds that a person has the best title when they have not concealed any material fact and there is no evidence led by the opponent to show that the person does not have the best title.",
+      "held": "The court prima- facie found",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 16"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "prima-facie",
+        "best title",
+        "concealment"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "family disputes",
+        "inheritance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal Dismissed",
+    "final_order": "The trial court's order granting succession certificate was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Specific Relief Act",
+    "Indian Succession Act",
+    "Section 384",
+    "matrimonial discord",
+    "Air Force employee",
+    "marriage annulment",
+    "revocation petition",
+    "ACJ-cum-ARC",
+    "Central District",
+    "Tis Hazari",
+    "Anita Dhiman",
+    "Rita",
+    "Prerna",
+    "Hardik",
+    "Union of India",
+    "Ministry of Defence",
+    "State of Delhi",
+    "C.G.O",
+    "Air Force Station",
+    "Palam",
+    "Delhi Cantt"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "representing in revocation petitions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:57:53.667554"
 }

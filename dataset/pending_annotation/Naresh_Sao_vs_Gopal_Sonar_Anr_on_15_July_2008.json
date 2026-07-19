@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T10:59:31.797900",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "property_dispute": 2,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Naresh Sao vs Gopal Sonar & Anr on 15 July, 2008",
+  "case_name": "Naresh Sao vs Gopal Sonar & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Naresh Sao (father)",
+    "respondent_defendant": "Gopal Sonar & Anr, respondent No.2 (wife), respondent No.4 (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Respondent No.2 filed a suit against respondent No.4 under Section-11 of the Hindu Marriage Act for declaring their marriage as a nullity.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,61 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party seeking condonation of delay to satisfy the court that there were sufficient reasons for the delay.",
+      "held": "This Court is not satisfied of the grounds urged to condone the delay for his illness.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "condonation",
+        "delay",
+        "satisfaction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal stands dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "nullity",
+    "matrimonial",
+    "Section-11",
+    "condonation of delay",
+    "appeal",
+    "written statement",
+    "judgment notice",
+    "admission",
+    "remarriage",
+    "first marriage",
+    "second marriage",
+    "family court",
+    "High Court",
+    "Patna High Court",
+    "Indian law",
+    "marital status"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court decisions",
+    "advising on remarriage and marital status"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:37:38.263935"
 }

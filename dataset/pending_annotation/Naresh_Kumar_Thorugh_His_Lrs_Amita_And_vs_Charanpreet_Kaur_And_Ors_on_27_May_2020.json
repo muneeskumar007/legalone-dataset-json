@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-07-15T10:59:25.670969",
   "domain": "property_dispute",
-  "sub_domain": "will_succession",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "21.04.2014",
-  "case_name": "Naresh Kumar Thorugh His Lrs. Amita And ... vs Charanpreet Kaur And Ors on 27 May, 2020",
+  "case_name": "Naresh Kumar Thorugh His Lrs. Amita And ... vs Charanpreet Kaur And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Naresh Kumar through his LRs Amita and others (husband, wife, plaintiff)",
+    "respondent_defendant": "Charanpreet Kaur @ Priti and others (wife, children)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff-Charanpreet Kaur @ Priti and her two minor sons filed a suit for declaration and permanent injunction. The suit was filed through their mother. Sushil Kumar was joint owner in possession of the property along with defendants No.1 and 2.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,109 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "No declaration can be granted without complete pleadings.",
+      "held": "In the absence of such material pleadings, no declaration qua status of plaintiff No.1 can be granted, nor any findings can be recorded with regard to status of plaintiffs No.2 and 3 being sons of Sushil Kumar.",
       "applicable_acts_sections": [
-        "TODO"
+        "General Clause Act — Section 3(12)",
+        "General Clause Act — Section 3(39)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "pleadings",
+        "status",
+        "declaration"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Evidence is inconclusive if it does not advance the case.",
+      "held": "The evidence is inconclusive and does not advance the case of the plaintiffs.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "inconclusive"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "No evidence can be led in the absence of specific pleadings.",
+      "held": "In the absence of status of plaintiff No.1 being of wife/widow of Sushil Kumar, the paternity of plaintiffs No.2 and 3 cannot be linked with deceased Sushil Kumar.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "pleadings",
+        "evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "No case has been set to attract any presumption of marriage.",
+      "held": "No case has been set by the plaintiffs to attract any presumption of marriage on account of cohabitation between plaintiff No.1 and deceased Sushil Kumar.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "presumption",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "The present lis is being disposed of vide this common order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Indian Evidence Act",
+    "family_property",
+    "partition",
+    "joint_holding",
+    "separate_possession",
+    "title_deed",
+    "possession",
+    "adverse_possession",
+    "prescription",
+    "limitation",
+    "equitable_mare",
+    "constructive_notice",
+    "fraudulent_conveyance",
+    "transfer_of_property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "family property disputes",
+    "partition suits",
+    "property transfer cases",
+    "adverse possession claims"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:33:29.607652"
 }

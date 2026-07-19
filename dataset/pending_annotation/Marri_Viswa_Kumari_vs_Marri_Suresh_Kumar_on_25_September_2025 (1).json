@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:56:02.391796",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Marri Viswa Kumari vs Marri Suresh Kumar on 25 September, 2025",
+  "case_name": "Marri Viswa Kumari vs Marri Suresh Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Marri Viswa Kumari, wife",
+    "respondent_defendant": "Marri Suresh Kumar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the legally wedded wife of respondent. They got married in 2010 and have a daughter aged about 12 years. Petitioner lodged a complaint under Section 498-A IPC and filed a Maintenance Case. Respondent filed H.M.O.P.No.9 of 2025 seeking restitution of conjugal rights.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,61 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The cardinal principle for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.",
+      "held": "The Apex Court held as follows: 'The cardinal principle for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.'",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "N.C.V. Aishwarya Vs A.S.Saravana Karthik Sha1"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial disputes",
+        "ends of justice",
+        "transfer of suit"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Service held sufficient. Petitioner's petition to withdraw H.M.O.P.No.9 of 2025 and transfer it to the Senior Civil Judge, Kakinada is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Section 24",
+    "marriage annulment",
+    "petition withdrawal",
+    "transfer petition",
+    "virtual hearing",
+    "service sufficient",
+    "notice sent",
+    "registered notice",
+    "Senior Civil Judge",
+    "Kakinada",
+    "Bobbili",
+    "Andhra Pradesh High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "petition withdrawal strategy",
+    "virtual hearing best practices"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:21:10.200610"
 }

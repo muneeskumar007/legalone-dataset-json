@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T20:32:41.083024",
   "domain": "murder_criminal",
-  "sub_domain": "custody",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "01.02.2013",
-  "case_name": "Ankit Tyagi vs State (Nct Of Delhi) & Ors. on 9 July, 2015",
+  "case_name": "Ankit Tyagi vs State (Nct Of Delhi) & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ankit Tyagi, husband",
+    "respondent_defendant": "State (NCT of Delhi), father and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's friend and wife left their houses without consent, resulting in FIR registration. Petitioner claims they were having an affair and marriage was solemnized. Respondents claim kidnapping.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "If a girl is more than 16 years old and makes a statement that she went with her consent, without force, coercion, or undue influence, the court can quash proceedings under Section 363 or 376 IPC.",
+      "held": "The Court has to be cautious, for the girl has right to get the marriage nullified under Section 3 of the PCM Act. Attending circumstances including the maturity and understanding of the girl, social background of girl, age of the girl and boy etc. have to be taken into consideration.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955",
+        "Code of Criminal Procedure, 1973"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Tion (Lajja Devi) Vs. State 2012 VI AD, Delhi 465"
+      ],
       "keywords": [
-        "TODO"
+        "consent",
+        "force",
+        "coercion",
+        "undue influence",
+        "marriage nullification"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving marriage consent and nullification"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A minor who leaves her father's protection knowing and having capacity to know the full import of what she is doing voluntarily joins the accused, the accused cannot be said to have taken her away from the keeping of her lawful guardian.",
+      "held": "We would limit ourselves to a case like the present where the minor alleged to have been taken by the accused person left her father's protection knowing and having capacity to know the full import of what she was doing voluntarily joins the accused person.",
+      "applicable_acts_sections": [
+        "Indian Penal Code"
+      ],
+      "cited_cases": [
+        "S. Varadarajan Vs. State of Madras, AIR 1965 SC 942"
+      ],
+      "keywords": [
+        "minor",
+        "father's protection",
+        "voluntary joining",
+        "lawful guardian"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving minor consent and guardianship"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR quashed due to the couple's mature understanding and consent for their marriage.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Section 363 IPC",
+    "kidnapping",
+    "prosecutrix",
+    "consent",
+    "marriage",
+    "family members",
+    "affair",
+    "quashing",
+    "FIR",
+    "CRL.M.C.",
+    "Section 482 CrPC",
+    "IPC",
+    "High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing of FIR",
+    "advising on criminal procedure",
+    "assisting in a case involving consent and marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:09:17.274768"
 }

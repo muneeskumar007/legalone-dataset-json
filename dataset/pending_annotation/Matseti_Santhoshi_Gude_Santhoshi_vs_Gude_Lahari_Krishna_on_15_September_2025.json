@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:56:07.933821",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "O.P.No. 335 of 2025",
     "O.P.No.335 of 2025"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Family Judge Court, Visakhapatnam (F.C.O.P.No. 335 of 2025)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Matseti Santhoshi Gude Santhoshi, vs Gude Lahari Krishna, on 15 September, 2025",
+  "case_name": "Matseti Santhoshi Gude Santhoshi v. Gude Lahari Krishna",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Matseti Santhoshi @ Gude Santhoshi, wife",
+    "respondent_defendant": "Gude Lahari Krishna, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is legally wedded wife of respondent/husband seeking transfer of F.C.O.P.No.335 of 2025 from Additional Family Judge Court at Visakhapatnam to Family Court at Rajamahendravaram.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking transfer of a case to establish sufficient grounds for such transfer.",
+      "held": "Perused the material available on record. The material on record prima facie goes to show that, in view of the matrimonial disputes between both the spouses, the petitioner/wife has been residing separately and depending upon the mercy of her parents at Rajahmundry.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "grounds",
+        "matrimonial disputes"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's ability to attend court proceedings without assistance is a relevant factor in considering transfer of a case.",
+      "held": "it is very difficult for her to travel to attend the case proceedings before the Court at Visakhapatnam without any male assistance",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "attendance",
+        "assistance",
+        "travel"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Service held sufficient, petition for transfer allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Section 24",
+    "Section 151",
+    "C.P.C.",
+    "F.C.O.P.",
+    "Additional Family Judge Court",
+    "Visakhapatnam",
+    "Family Judge Court",
+    "Rajamahendravaram",
+    "stay",
+    "proceedings",
+    "justice",
+    "marriage",
+    "wife",
+    "husband",
+    "house wife",
+    "chip engineer"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "seeking stay of proceedings",
+    "transferring case to another court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:30:15.910383"
 }

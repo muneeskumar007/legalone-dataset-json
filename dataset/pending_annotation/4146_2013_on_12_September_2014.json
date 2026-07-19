@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T20:31:05.785222",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, 3rd Court, Howrah - Matrimonial Suit No. 430 of 2008",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "4146 2013 on 12 September 2014",
+  "case_name": "Ms. Sucharita Biswas v. Respondent — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ms. Sucharita Biswas (wife, plaintiff)",
+    "respondent_defendant": "Respondent (husband, defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner instituted a matrimonial suit against respondent on 07.07.2008. Proceedings were converted from Hindu Marriage Act to Special Marriage Act on 06.04.2011. Only one witness has been examined since 24.01.2012.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may dispose of a revisional application without service of notice and copy of the application on the respondent if the respondent will not be prejudiced.",
+      "held": "Since the petitioner has prayed in this revisional application for expeditious disposal of the matrimonial proceedings, I am of the view that the instant revisional application may be disposed of without service of notice and copy of the application on the respondent who will not be prejudiced for expeditious disposal of the maintenance proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13",
+        "Special Marriage Act — Section 27"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "expeditious disposal",
+        "revisional application",
+        "maintenance proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Maintenance proceedings should be disposed of within a reasonable time frame.",
+      "held": "Since the maintenance proceedings is pending for final hearing for more than two years from the first date of fixing peremptory hearing, learned Additional District Judge, 3rd Court, Howrah will expedite the process of hearing of the Matrimonial Suit No. 430 of 2008 and dispose of the same within a period of three months from the date of communication of this order by fixing date of hearing.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13",
+        "Special Marriage Act — Section 27"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance proceedings",
+        "reasonable time frame",
+        "expeditious disposal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial cases",
+        "family law"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Matrimonial Suit No. 430 of 2008 to be disposed of within three months from the date of communication of this order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Matrimonial Suit",
+    "Section 13",
+    "Section 27",
+    "Special Marriage Act",
+    "expeditious disposal",
+    "maintenance proceedings",
+    "revisional application",
+    "Article 227",
+    "Constitution of India",
+    "Additional District Judge",
+    "Howrah",
+    "petitioner",
+    "respondent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "guidelines for expeditious disposal of maintenance proceedings",
+    "strategies for revisional applications in matrimonial suits"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T16:45:21.825407"
 }

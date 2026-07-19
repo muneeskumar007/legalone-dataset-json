@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:57:43.147005",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "cheque_bounce": 1,
     "partition": 3,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS. ANJANI MAHAJAN, CIVIL JUDGE−10 (CENTRAL), TIS HAZARI COURTS, DELHI - Suit No. 380/08",
   "reserved_on": "",
   "delivered_on": "30.07.1981",
-  "case_name": "Mr. Karan Nath vs . Mr. Kailash Nath & Ors. on 1 October, 2014",
+  "case_name": "Mr. Karan Nath vs . Mr. Kailash Nath & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Karan Nath (son, plaintiff)",
+    "respondent_defendant": "Mr. Kailash Nath & Ors. (father, daughters, wife of defendant no.1)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -34,7 +34,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff filed a suit for declaration, rendition of accounts, and permanent injunction against the defendants, claiming equal rights in the Hindu Undivided Family property as the son of defendant no.1.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -44,39 +44,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A settlement between parties to a suit cannot be reagitated in another suit.",
+      "held": "The issue regarding rights of the property in the suit had been settled and a compromise decree has been passed on the basis of settlement. Therefore, the plaintiff was precluded in law from challenging the compromise decree.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Mr. Karan Nath vs . Mr. Kailash Nath & Ors., (2014)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "compromise decree",
+        "preclusion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "partition suits"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A plaintiff cannot challenge a compromise decree in another suit.",
+      "held": "The issue regarding rights of the property in the suit had been settled and a compromise decree has been passed on the basis of settlement. Therefore, the plaintiff was precluded in law from challenging the compromise decree.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Mr. Karan Nath vs . Mr. Kailash Nath & Ors., (2014)"
+      ],
+      "keywords": [
+        "compromise decree",
+        "preclusion"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "partition suits"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted the plaintiff's application to withdraw the suit with liberty to file a fresh suit.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "co-parcener",
+    "joint family property",
+    "Hindu Undivided Family",
+    "CPC",
+    "Uo 23 R 1 CPC",
+    "declaration",
+    "rendition of accounts",
+    "injunction",
+    "lease hold",
+    "free hold",
+    "family property",
+    "son",
+    "daughters",
+    "wife",
+    "father",
+    "real son",
+    "admitted position",
+    "joint family",
+    "Hindu law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "guidelines for co-parcener rights",
+    "practical tips for Hindu Undivided Family property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:09:38.403201"
 }

@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:59:31.623749",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Naresh Kumar vs Ut Of J&K & Anr on 19 December, 2025",
+  "case_name": "Naresh Kumar vs Ut Of J&K & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Naresh Kumar (husband)",
+    "respondent_defendant": "Ut Of J&K & Anr (wife) and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -67,7 +67,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties have settled their disputes amicably and want the FIR quashed. The petitioner claims the FIR is false and frivolous, and that the respondent married him while concealing her earlier existing marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -77,39 +77,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power to quash under Section 482 is attracted even if the offence is non-compoundable.",
+      "held": "The power to quash under Section 482 is attracted even if the offence is non-compoundable.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 482"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Parbatbhai Aahir Alias Parbatbhai Bhimsinhbhai Karmur and Ors vs State of Gujarat and Anr. (2017) 9 SCC 641"
+      ],
       "keywords": [
-        "TODO"
+        "quash",
+        "Section 482",
+        "non-compoundable offence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type 1: quashing FIR or criminal proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — important principle for invoking court's extraordinary powers",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The invocation of the jurisdiction of the High Court to quash a First Information Report or a criminal proceeding on the ground that a settlement has been arrived at between the offender and the victim is not the same as the invocation of jurisdiction for the purpose of compounding an offence.",
+      "held": "While the invocation of the jurisdiction for the purpose of compounding an offence is governed by the provisions of Section 320 of the Code of Criminal Procedure, 1973, the power to quash under Section 482 is attracted even if the offence is non-compoundable.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Sections 320 and 482"
+      ],
+      "cited_cases": [
+        "Parbatbhai Aahir Alias Parbatbhai Bhimsinhbhai Karmur and Ors vs State of Gujarat and Anr. (2017) 9 SCC 641"
+      ],
+      "keywords": [
+        "quash",
+        "compounding an offence",
+        "settlement",
+        "non-compoundable offence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type 2: quashing FIR or criminal proceedings due to settlement between parties"
+      ],
+      "significance": "MEDIUM — important distinction between compounding and quashing",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Court has accepted the compromise deeds and quashed the FIR.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "quashment",
+    "FIR",
+    "Family Court",
+    "marriage",
+    "divorce",
+    "compromise deed",
+    "amicable settlement",
+    "private parties",
+    "petitioner",
+    "respondent",
+    "advocate",
+    "Dy AG",
+    "Jammu & Kashmir"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashment of FIR",
+    "advising on amicable settlements in family disputes",
+    "representing private parties in criminal cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:36:28.729890"
 }

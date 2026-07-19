@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:55:52.685953",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Nagpur",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manoj S/O Shreeram Ganveer vs Smt. Urmila W/O Manoj Ganveer And Others on 25 October, 2016",
+  "case_name": "Manoj S/O Shreeram Ganveer vs Smt. Urmila W/O Manoj Ganveer And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manoj S/O Shreeram Ganveer (husband)",
+    "respondent_defendant": "Smt. Urmila W/O Manoj Ganveer, Kunal s/o Manoj Ganveer, Ku. Karnika d/o Manoj Ganveer (wife and children)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -33,7 +33,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband challenges the judgment of the Family Court, allowing the petition filed by the wife and directing the husband to pay maintenance to the children.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -43,39 +43,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "Both parents are required to contribute towards the maintenance of their children.",
+      "held": "It is stated that since both the husband and the wife were working as Stenographers in the M.T.N.L. and the Department of Central Government respectively, it was necessary for the Family Court to direct both the husband and wife to maintain Kunal and Karnika.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Padmja Sharma vs. Ratan Lal Sharma, (2000) 4 SCC 266"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "children",
+        "parents"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The quantum of maintenance should be proportionate to the income that the parents are earning.",
+      "held": "It is stated though the husband had relied on the judgment of the Hon'ble Supreme Court in Padmja Sharma vs. Ratan Lal Sharma {(2000) 4 SCC 266} to canvass that the quantum of maintenance, which the husband and the working wife would be required to contribute, would be proportionate to the income that they are earning.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Padmja Sharma vs. Ratan Lal Sharma, (2000) 4 SCC 266"
+      ],
+      "keywords": [
+        "maintenance",
+        "income",
+        "proportionate"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order directed the husband to pay a sum of Rs.4000/- per month as maintenance to respondent no.2 and a sum of Rs.3000/- per month to respondent no.3 towards maintenance from the date of the order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "alimony",
+    "custody",
+    "minor",
+    "natural guardian",
+    "family court",
+    "appeal",
+    "matrimonial dispute",
+    "Section 125 CrPC",
+    "Section 7 Hindu Marriage Act",
+    "Latin Maxim: Nemo dat quod non habet",
+    "marital rights",
+    "spousal support",
+    "child education",
+    "joint family",
+    "separation",
+    "property settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing maintenance application",
+    "advising on child custody"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:15:38.169079"
 }

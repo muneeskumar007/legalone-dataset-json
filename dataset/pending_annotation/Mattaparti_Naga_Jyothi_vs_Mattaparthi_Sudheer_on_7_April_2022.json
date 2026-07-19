@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:56:08.201580",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -27,13 +27,13 @@
     "I.A.No.1 of 2018",
     "RP.No.4478 of 2018"
   ],
-  "trial_court": "",
+  "trial_court": "Court of the Senior Civil Judge, Ramachandrapuram, East Godavari District (O.P.No.31/2017)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mattaparti Naga Jyothi vs Mattaparthi Sudheer on 7 April, 2022",
+  "case_name": "Mattaparti Naga Jyothi vs Mattaparthi Sudheer",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (wife) — seeking maintenance and restitution of conjugal rights",
+    "respondent_defendant": "Respondent (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks maintenance and restitution of conjugal rights under Hindu Marriage Act, 1955; respondent opposes on grounds that a decree of divorce was granted in FCOP No.210 of 2017.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may order the respondent to pay expenses of proceeding and monthly sum during the proceeding if it appears that either party has no independent income sufficient for their support.",
+      "held": "Where in any proceeding under this Act it appears to the court that either the wife or the husband, as the case may be, has no independent income sufficient for her or his support...",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "pendente lite",
+        "expenses of proceeding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The application for payment of expenses of proceeding and monthly sum during the proceeding should be disposed of within sixty days from the date of service of notice.",
+      "held": "Provided that the application for the payment of the expenses of the proceeding and such monthly sum during the proceeding, shall, as far as possible, be disposed of within sixty days from the date of service of notice...",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "time limit",
+        "notice period"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner's petition for maintenance and restitution of conjugal rights is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24",
+    "conjugal rights",
+    "restitution",
+    "Family Court",
+    "Code of Civil Procedure",
+    "CPC",
+    "Order XIX Rule 1",
+    "ex-parte decree",
+    "condone delay",
+    "Section 151",
+    "reconciliation",
+    "High Court",
+    "CRP",
+    "I.A.No.",
+    "O.P.No.",
+    "FCOP"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "representing clients in reconciliation proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:31:46.643352"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:00:31.452363",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "O.P.No.10 of 2025",
     "M.C.No.18 of 2025"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge, Bhimavaram, West Godavari District (H.M.O.P.No.10 of 2025)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Padala Sri Satya vs Sudabathula Anjani Pavan Krishna on 10 September, 2025",
+  "case_name": "Padala Sri Satya vs Sudabathula Anjani Pavan Krishna",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Padala Sri Satya, wife",
+    "respondent_defendant": "Sudabathula Anjani Pavan Krishna, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner is the wife who filed a Domestic Violence Case and Maintenance Case against her husband. The husband filed H.M.O.P.No.10 of 2025 seeking nullity of marriage. The wife seeks to withdraw this case and transfer it to Kakinada, East Godavari District.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The convenience of the wife has to be considered in matrimonial proceedings.",
+      "held": "On considering the submissions made by the learned counsel appearing for both sides and in view of the ratio laid down in the aforesaid case laws that in matrimonial proceedings, the convenience of the wife has to be considered than that of the inconvenience of the husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "GEETA HEERA Vs HARISH CHANDER HEERA (Year) X SCC Y",
+        "N.C.V. Aishwarya Vs A.S.Saravana Karthik Sha (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial proceedings",
+        "wife's convenience",
+        "husband's inconvenience"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The ends of justice should demand the transfer of the suit, appeal or other proceeding.",
+      "held": "The cardinal principle for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Section 24"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya Vs A.S.Saravana Karthik Sha (Year) X SCC Y"
+      ],
+      "keywords": [
+        "ends of justice",
+        "transfer of suit"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition is allowed and the case is transferred to the Senior Civil Judge at Kakinada, East Godavari District.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "matrimonial disputes",
+    "domestic violence",
+    "Code of Civil Procedure",
+    "Section 24",
+    "H.M.O.P.No.10",
+    "Senior Civil Judge",
+    "Kakinada",
+    "East Godavari District",
+    "West Godavari District",
+    "Bhimavaram",
+    "petition to withdraw",
+    "transfer petition",
+    "marriage",
+    "legally wedded wife",
+    "respondent",
+    "petitioner",
+    "wife's rights",
+    "husband's obligations"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on matrimonial disputes",
+    "representing a client in a domestic violence case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:38:28.513079"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:58:22.859116",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Sessions Judge, Junagadh at Porbandar in Criminal Appeal No. 6 of 1971",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mukta Jesing vs Vallabhadas Kalidas And Ors. on 24 October, 1972",
+  "case_name": "Mukta Jesing vs Vallabhadas Kalidas And Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Muktaben (wife)",
+    "respondent_defendant": "Vallabhadas Kalidas and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant Muktaben was the legally married wife of respondent No. 1. Their marriage had taken place according to Hindu religious rites and caste customs. Respondent No. 1 filed a suit for divorce, which was granted. During the pendency of an appeal against this decree, respondent No. 1 allegedly performed a second marriage with respondent No. 2 and others.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A valid marriage between two parties must be proved by establishing that the marriage was performed according to Hindu rites and customs.",
+      "held": "What was to be proved was that, but for the provisions of Section 17 of the Hindu Marriage Act, 1955, which declares such second marriage to be void, there was a valid marriage between respondent No. 1 and respondent No. 2.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 17"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "Hindu rites",
+        "customs"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "An appeal under Section 417 of the Criminal Procedure Code will abate only on the death of the accused, not on the death of the appellant.",
+      "held": "From this section it is clear that an appeal under Section 417 can only abate on the death of the accused and not otherwise.",
+      "applicable_acts_sections": [
+        "Criminal Procedure Code — Section 431"
+      ],
+      "cited_cases": [
+        "Khedu Mohton v. State of Bihar",
+        "Thothan v. Murugan"
+      ],
+      "keywords": [
+        "appeal",
+        "Section 417",
+        "death of accused"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal appeals"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's order of acquittal was upheld, and the appeal was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Specific Relief Act",
+    "Indian Penal Code",
+    "Section 494",
+    "Section 114",
+    "Criminal Procedure Code",
+    "Section 417",
+    "judicial separation",
+    "bigamy",
+    "marriage annulment",
+    "matrimonial dispute",
+    "family law",
+    "criminal appeal",
+    "sentence",
+    "imprisonment",
+    "fine"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on grounds for judicial separation",
+    "assisting in a bigamy case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:02:59.076645"
 }

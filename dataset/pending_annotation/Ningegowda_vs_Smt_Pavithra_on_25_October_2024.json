@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:59:53.374843",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 6,
@@ -30,13 +30,13 @@
     "O.S.no.157/2007",
     "O.S.no.180/2009"
   ],
-  "trial_court": "",
+  "trial_court": "II Additional District and Sessions Judge, Mandya, in R.A.no.296/2010 and Civil Judge (Sr.Dn.) and JMFC, Pandavapura, in O.S.NO.180/2009 (Old O.S.no.157/2007).",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ningegowda vs Smt Pavithra on 25 October, 2024",
+  "case_name": "Ningegowda vs Smt Pavithra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ningegowda, Gangadhara (sons of Late Chunchegowda), aged about 57 years, R/O Nyamanahalli Village, Melukote Hobli, Pandavapura Taluk, Mandya - 571401.",
+    "respondent_defendant": "Smt. Pavithra, Anusha V W/O Puttegowda, Smt. Nagarathna, W/O Channe Gowda, Siddegowda, Smt. Jayamma (dead by her LRs), Doddegowda, husband of Late Jayamma, Ramegowda, Nagegowda, Suresh, children of Late Jayamma, and Smt. Shantha, W/O Shivanna.",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -47,7 +47,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "O.S.no.180/2009 was filed for partition and separate possession of properties.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A child of a marriage which is null and void under Section 11 is entitled to share in joint family properties.",
+      "held": "It was held that a child of a marriage which is null and void under Section 11 is statutorily entitled to share in the joint family properties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Revanasiddappa and Anr. v. Mallikarjun and Ors., (2023) 10 SCC 1"
+      ],
       "keywords": [
-        "TODO"
+        "null marriage",
+        "void marriage",
+        "joint family properties",
+        "entitlement to share"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases involving null marriages"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Hindu law recognizes the claim of a child born out of a second wife for a share in joint family properties.",
+      "held": "It was held that Hindu law recognizes the claim of a child born out of a second wife for a share in the joint family properties.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Revanasiddappa and Anr. v. Mallikarjun and Ors., (2023) 10 SCC 1"
+      ],
+      "keywords": [
+        "second wife",
+        "joint family properties",
+        "claim for share"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "partition cases involving second marriages"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The judgment and decree dated 13.09.2017 passed by II Additional District and Sessions Judge, Mandya, in R.A.no.296/2010 was confirmed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "family property",
+    "joint family",
+    "coparcenary",
+    "Hindu Succession Act",
+    "Section 6",
+    "Section 8",
+    "Section 10",
+    "Section 11",
+    "Section 12",
+    "Section 14",
+    "Section 15",
+    "Section 16",
+    "Section 17",
+    "Section 18"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition petitions",
+    "advising on family property disputes",
+    "representing clients in joint family matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:07:36.521046"
 }

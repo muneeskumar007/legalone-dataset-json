@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T20:31:13.895427",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Metropolitan Magistrate, 57th Court at Kurla, Mumbai",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Abhinav Chandra And Anr vs State Of Maharashtra And Anr on 18 October, 2022",
+  "case_name": "Abhinav Chandra And Anr vs State Of Maharashtra And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Abhinav Chandra, Pratibha Saxena, Prabhash Chander Saxena (husband and in-laws)",
+    "respondent_defendant": "The State of Maharashtra, Nimisha Chandra alias Nimisha Ram Dayal (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners seek quashing of FIR bearing C.R. No. 275 of 2017 registered with Govandi Police Station, Mumbai, for alleged offences punishable under Sections 498A, 406 r/w 34 of the Indian Penal Code. Parties have amicably settled their dispute.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle their disputes amicably and seek quashing of criminal proceedings.",
+      "held": "Quashing is sought on the premise, that the parties have amicably settled their dispute.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "quashing",
+        "criminal proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can agree on terms of divorce, including custody and maintenance.",
+      "held": "The said consent terms are at Exhibit - 'B', on page 177 of the petition. As per the said consent terms, the custody and guardianship of the minor daughter is to remain with the respondent No.2.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "consent terms",
+        "custody",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Quashing of FIR sought is allowed on the premise that parties have amicably settled their dispute.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "quashing",
+    "FIR",
+    "C.R. No. 275 of 2017",
+    "Govandi Police Station",
+    "Mumbai",
+    "punishable under Section",
+    "Secti",
+    "offences",
+    "petitioners",
+    "respondents",
+    "State of Maharashtra",
+    "Nimisha Chandra alias Nimisha Ram Dayal",
+    "Abhinav Chandra",
+    "Pratibha Saxena",
+    "Prabhash Chander Saxena"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing FIR in family court",
+    "responding to State's objections"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T16:56:43.366478"
 }

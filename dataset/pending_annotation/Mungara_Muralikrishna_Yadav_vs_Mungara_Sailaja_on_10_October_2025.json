@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T10:58:23.980621",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -26,13 +26,13 @@
     "A.Hari Haranadha Sarma J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court Appeal (FCA) NO: 48/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mungara Muralikrishna Yadav vs Mungara Sailaja on 10 October, 2025",
+  "case_name": "Mungara Muralikrishna Yadav vs Mungara Sailaja",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mungara Muralikrishna Yadav, Junior Assistant in PWD Office",
+    "respondent_defendant": "Mungara Sailaja, w/o. Mungara Muralikrishna Yadav, and minor son (Respondent No.2)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the husband, Respondents are his wife and minor son. The case is about a family court appeal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party making allegations to prove them.",
+      "held": "The conduct of the 1st petitioner/wife in implicating the relatives in a criminal case with false allegations should have been noted by the Family Court and mere initiation of a private complaint is not a proof of allegations.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Mungara Muralikrishna Yadav vs Mungara Sailaja, (2025)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "allegations",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The absence of legal notice from the appellant demanding restitution of conjugal rights is not a proof of allegations.",
+      "held": "The absence of any legal proceedings, or at least any notice inviting the wife for restitution of the matrimonial home from the end of the appellant-husband.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Mungara Muralikrishna Yadav vs Mungara Sailaja, (2025)"
+      ],
+      "keywords": [
+        "legal notice",
+        "restitution",
+        "conjugal rights"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order was not specified in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "family court",
+    "appeal",
+    "Code of Civil Procedure",
+    "1908",
+    "Code of Criminal Procedure",
+    "1973",
+    "Specific Relief Act",
+    "1963",
+    "marriage",
+    "spouse",
+    "minor",
+    "rep by mother",
+    "petitioner",
+    "respondent",
+    "counsel",
+    "family law",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing family court decision",
+    "negotiating alimony agreement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:03:42.817282"
 }

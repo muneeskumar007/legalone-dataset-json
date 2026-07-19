@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:58:21.121942",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "custody": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Ghaziabad in Matrimonial Case No.219 of 2025",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mukesh Arora vs Smt Neha Arora on 21 March, 2025",
+  "case_name": "Mukesh Arora vs Smt Neha Arora",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mukesh Arora (husband)",
+    "respondent_defendant": "Smt Neha Arora (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner was married to respondent according to Hindu rites and customs on 23.08.2004. A matrimonial dispute arose between the parties and they started living separately from 26.06.2020. A divorce petition was moved on 21.01.2025 under Section 13B of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In determining whether a provision is mandatory or directory, language alone is not always decisive.",
+      "held": "The court has to have regard to the context, subject-matter and object of the provision.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13B"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Kailash v. Nanhku, (2005) 4 SCC 480"
+      ],
       "keywords": [
-        "TODO"
+        "statutory interpretation",
+        "provisional nature",
+        "contextual approach"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — for understanding the scope of Section 13B",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court should not be powerless in enabling parties to have a better option when there are no chances of reunion and there are chances of fresh rehabilitation.",
+      "held": "Though every effort has to be made to save a marriage, if there are no chances of reunion and there are chances of fresh rehabilitation, the Court should not be powerless in enabling the parties to have a better option.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13B"
+      ],
+      "cited_cases": [
+        "Amardeep Singh (supra)"
+      ],
+      "keywords": [
+        "rehabilitation",
+        "fresh start",
+        "party autonomy"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "HIGH — for understanding the purpose of Section 13B",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application for waiving off cooling period has been allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13B",
+    "cooling period",
+    "matrimonial dispute",
+    "separation",
+    "mutual divorce",
+    "waiving off cooling period",
+    "Family Court",
+    "Principal Judge",
+    "Ghaziabad",
+    "Matrimonial Case No.219 of 2025",
+    "Indian Kanoon",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on cooling period waiver",
+    "representing clients in Family Court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:00:35.812174"
 }

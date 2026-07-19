@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:56:31.673187",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "07.10.2021",
-  "case_name": "Mohit Mittal And 3 Others vs State Of Up And 2 Others on 22 December, 2022",
+  "case_name": "Mohit Mittal And 3 Others v. State Of Up And 2 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mohit Mittal and 3 others (husband, father-in-law, mother-in-law, sister-in-law)",
+    "respondent_defendant": "State of UP and 2 others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute between husband and wife. Husband had brain tumor. Wife deserted him. He moved for divorce under Hindu Marriage Act. Present FIR lodged without finalisation of divorce proceeding.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A party's bonafide intention to comply with a compromise can be demonstrated by placing a bank draft in the name of the other party.",
+      "held": "Just to show his bonafide, the petitioners are ready to place on record a bank draft of Rs.6 lacs on the next date fixed in the matter.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Geeta Mehrotra vs. State of U.P. and others, 2012 (10) ADJ 464",
+        "Taramani Parakh vs. State of Madhya Pradesh and others, (2015) 11 SCC 260"
       ],
+      "keywords": [
+        "bonafide",
+        "compromise",
+        "bank draft"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's non-cooperation in a pending proceeding can be considered as a factor in deciding the matter.",
+      "held": "Admittedly the proceeding before the Principal Judge, Family Court is pending consideration but inspite of best efforts of the informant, the said proceeding has not been finalised on account of non-cooperation of the first petitioner.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "non-cooperation",
+        "pending proceeding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family court cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "writ petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ dismissed",
+    "final_order": "Interim protection accorded to petitioners, but writ petition is ultimately dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "matrimonial home",
+    "joint family",
+    "separation",
+    "maintenance",
+    "alimony",
+    "custody",
+    "child's welfare",
+    "best interests"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "assisting with child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:52:30.159052"
 }

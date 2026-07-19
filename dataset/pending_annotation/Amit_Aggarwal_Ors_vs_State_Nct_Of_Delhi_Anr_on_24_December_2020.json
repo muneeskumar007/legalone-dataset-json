@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T20:32:17.405965",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amit Aggarwal & Ors vs State (Nct) Of Delhi & Anr on 24 December, 2020",
+  "case_name": "Amit Aggarwal & Ors v. State (Nct) Of Delhi & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amit Aggarwal & Ors — husband, wife, and others",
+    "respondent_defendant": "State (Nct) Of Delhi & Anr — government agency",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks quashing of FIR No.478/2016 under Sections 498A/406/34 IPC. Parties settled on 17.08.2019, and marriage dissolved via mutual consent divorce decree dated 24.01.2020.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The High Court may quash criminal proceedings if the parties have settled their disputes amicably, and there is hardly any likelihood of the offender being convicted.",
+      "held": "However, certain offences which overwhelmingly and predominantly bear civil flavour having arisen out of civil, mercantile, commercial, financial, partnership or such like transactions or the offences arising out of matrimony, particularly relating to dowry, etc. or the family dispute, where the wrong is basically to the victim and the offender and the victim have settled all disputes between them amicably, irrespective of the fact that such offences have not been made compoundable, the High Court may within the framework of its inherent power, quash the criminal proceeding or criminal complaint or FIR if it is satisfied that on the face of such settlement, there is hardly any likelihood of the offender being convicted and by not quashing the criminal proceedings, justice shall be casualty and ends of justice shall be defeated.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab & Another, (2012) 10 SCC 303",
+        "B.S. Joshi, (2003) 4 SCC 675; Nikhil Merchant, (2008) 9 SCC 677 and Manoj Sharma, (2008) 16 SCC 1."
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial disputes",
+        "amicable settlement",
+        "ends of justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Courts should encourage genuine settlements of matrimonial disputes, particularly when they are on considerable increase.",
+      "held": "Even if the offences are non-compoundable, if they relate to matrimonial disputes and the Court is satisfied that the parties have settled the same amicably and without any pressure, we hold that for the purpose of securing ends of justice, Section 320 of the Code would not be a bar to the exercise of power of quashing of FIR, complaint or the subsequent criminal proceedings.",
+      "applicable_acts_sections": [
+        "Code"
+      ],
+      "cited_cases": [
+        "Jitendra Raghuvanshi & Ors. Vs. Babita Raghuvanshi & Anr. (2013) 4 SCC 58"
+      ],
+      "keywords": [
+        "matrimonial disputes",
+        "genuine settlements",
+        "ends of justice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Quashing allowed",
+    "final_order": "Exemption allowed, subject to just exceptions.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498A",
+    "406",
+    "34",
+    "Indian Penal Code",
+    "mutual consent",
+    "Section 13 B (2)",
+    "Family Court",
+    "Counselling Cell",
+    "PHC",
+    "New Delhi",
+    "South Saket",
+    "Delhi",
+    "settlement",
+    "FIR",
+    "quashing",
+    "Sections",
+    "IPC",
+    "HMA"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on settlement agreements",
+    "representing clients in family court cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:35:40.050909"
 }

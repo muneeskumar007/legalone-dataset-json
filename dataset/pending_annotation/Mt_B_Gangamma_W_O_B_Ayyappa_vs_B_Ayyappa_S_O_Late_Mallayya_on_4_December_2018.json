@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:58:20.427841",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "A.T.No.5/2016",
     "M.C.No.16/2017"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge at Siruguppa and JMFC Court, Gangavathi (M.A.T.No.5/2016) / Senior Civil Judge and JMFC Court, Gangavathi (M.C.No.16/2017)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mt. B. Gangamma W/O. B Ayyappa vs B. Ayyappa S/O. Late Mallayya on 4 December, 2018",
+  "case_name": "Mt. B. Gangamma W/O. B Ayyappa vs B. Ayyappa S/O. Late Mallayya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SMT. B. GANGAMMA W/O. B. AYYAPPA, housewife",
+    "respondent_defendant": "B. AYYAPPA S/O. LATE MALLAYYA, husband",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -38,7 +38,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife filed M.A.T.No.5/2016 seeking divorce, while respondent-husband filed M.C.No.16/2017 seeking restitution of conjugal rights; both cases pending in different courts",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In order to avoid the conflict of decisions, it is just and necessary that both the cases have to be heard and decided together by the Single Court.",
+      "held": "These two cases are pending in two different Courts. If the said cases are decided independently, then there is a likelihood of conflict of decisions.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conflict of decisions",
+        "single court",
+        "joint hearing"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases with multiple pending suits"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking to avoid conflict of decisions to demonstrate that there is a likelihood of such conflict.",
+      "held": "It is not in dispute that the respondent-husband has filed M.A.T.No.5/2016 seeking divorce and the petitioner-wife has filed M.C.No.16/2017 seeking restitution of conjugal rights.",
+      "applicable_acts_sections": [
+        "CPC — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "conflict of decisions",
+        "likelihood"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases with multiple pending suits"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Transfer the petition to the Court of Senior Civil Judge and JMFC, Gangavathi",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "transfer petition",
+    "CPC",
+    "Hindu Marriage Act",
+    "section 13(1-A)",
+    "section 13(1-B)",
+    "section 24",
+    "M.A.T.No.5/2016",
+    "Senior Civil Judge",
+    "J.M.F.C.",
+    "Gangavathi",
+    "petitioner-wife",
+    "respondent-husband",
+    "notice served",
+    "remains silent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting transfer petition under CPC",
+    "advising on divorce proceedings in Hindu Marriage Act cases",
+    "assisting with notice service and response"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:59:50.408997"
 }

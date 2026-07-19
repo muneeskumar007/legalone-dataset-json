@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T20:31:38.369029",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2
   },
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ajay Kumar S/O Shri Gangadhar By Caste ... vs Sarita Devi D/O Shri Mahipal@ Maniram By ... on 27 January, 2021",
+  "case_name": "Ajay Kumar S/O Shri Gangadhar By Caste ... vs Sarita Devi D/O Shri Mahipal@ Maniram By ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ajay Kumar S/o Shri Gangadhar — husband",
+    "respondent_defendant": "Sarita Devi D/o Shri Mahipal@ Maniram — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Not provided.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for divorce under Section 13(1)(ia) of the Hindu Marriage Act, 1955 is maintainable only if there has been no respite in the conduct of the respondent.",
+      "held": "It is settled law that a petition for divorce under Section 13(1)(ia) of the Hindu Marriage Act, 1955 is maintainable only if there has been no respite in the conduct of the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "respite",
+        "conduct",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the petitioner to prove that there has been no respite in the conduct of the respondent.",
+      "held": "The burden lies on the petitioner to prove that there has been no respite in the conduct of the respondent.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "petitioner",
+        "respite",
+        "conduct"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "Learned counsel for the appellant seeks time to file reply to the application under Section 24 of the Hindu Marriage Act, 1955. List again on 02.03.2021.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24",
+    "appellant",
+    "respondent",
+    "civil miscellaneous appeal",
+    "DB Civil Miscellaneous Appeal",
+    "Jaipur Bench",
+    "High Court of Rajasthan",
+    "family law",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "judicial separation",
+    "maintenance",
+    "custody",
+    "property division"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act implications",
+    "preparing for family court hearings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:12:18.358645"
 }

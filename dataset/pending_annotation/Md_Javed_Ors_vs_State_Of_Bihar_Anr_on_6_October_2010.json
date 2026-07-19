@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:56:13.994082",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Chief Judicial Magistrate, Madhepura - Complaint Case No.1053 of 2009",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Md.Javed & Ors vs State Of Bihar & Anr on 6 October, 2010",
+  "case_name": "Md.Javed & Ors vs State Of Bihar & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Md.Javed, Md. Imtiyaz, Sheikh Jasimuddin @ Sk.Jasimuddin @ Sk.Jasim, Bibi Mohsina Khatoon, Bibi Khusbu, Md. Sayeed Akhtar (brothers-in-law, father-in-law, mother-in-law, sister-in-law and husband of sister-in-law)",
+    "respondent_defendant": "State Of Bihar & Anr",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant alleges harassment, torture and ill-treatment by husband and family members including petitioners; petitioners claim allegations are false and complainant is not staying at matrimonial house.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party making the allegation to prove it.",
+      "held": "Having regard to the circumstances and upon consideration of the rival submissions.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Md.Javed & Ors vs State Of Bihar & Anr, (2010)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "allegation",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "maintenance"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's conduct can be considered in determining the outcome of a case.",
+      "held": "Learned counsel for the complainant appears and opposes the prayer made on behalf of the petitioners and submits that these petitioners are equally responsible for the disharmony that has occurred in marital life of the complainant.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Md.Javed & Ors vs State Of Bihar & Anr, (2010)"
+      ],
+      "keywords": [
+        "party",
+        "conduct",
+        "outcome"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce",
+        "maintenance"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioners released on bail upon furnishing bail bonds of Rs.10,000/- with two sureties to the satisfaction of Chief Judicial Magistrate, Madhepura.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "Dowry Prohibition Act",
+    "Section 498A",
+    "Section 4",
+    "harassment",
+    "torture",
+    "ill-treatment",
+    "dowry demands",
+    "matrimonial house",
+    "complaint petition",
+    "false allegations",
+    "sister-in-law",
+    "husband",
+    "mother-in-law",
+    "father-in-law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on domestic violence cases",
+    "representing clients in dowry-related disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:33:24.298622"
 }

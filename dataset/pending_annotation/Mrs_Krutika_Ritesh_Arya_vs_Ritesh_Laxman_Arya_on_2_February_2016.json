@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:57:02.868592",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Civil Judge, Senior Division, Kalyan (HMP Case No.777/2014)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs Krutika Ritesh Arya vs Ritesh Laxman Arya on 2 February, 2016",
+  "case_name": "Mrs Krutika Ritesh Arya vs Ritesh Laxman Arya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Krutika Ritesh Arya (wife)",
+    "respondent_defendant": "Ritesh Laxman Arya (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant and respondent were married in 2012. The applicant left her matrimonial home due to harassment by the respondent and his family members. She delivered a baby boy out of wedlock in 2013. The respondent filed a petition for divorce under Section 13(1)(i-a) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking indulgence to show that no prejudice would be caused to the other party.",
+      "held": "In so far as the submission of the learned counsel for the respondent that the applicant can be paid reasonable amount on transportation of the applicant from Nashik to Kalyan and no prejudice would be caused to the applicant is concerned, in my view, merely because the respondent has offered to pay reasonable expenses on transportation will not be sufficient for the applicant to leave her 2 years and 11 months old child with her old parents for attending the Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 24"
+      ],
+      "cited_cases": [
+        "Anindita Das Vs.Srijit Das, (2006) 9 SCC 197",
+        "Kalpana Deviprakash Thakar Vs.Dr.Deviprakash Thakar, (1996) 11 SCC 96"
+      ],
+      "keywords": [
+        "burden of proof",
+        "prejudice",
+        "indulgence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant indulgence to a party who is not willing to make reasonable arrangements for the other party's attendance at Court proceedings.",
+      "held": "It is not in dispute that the child of the applicant and the respondent is hardly 2 years and 11 months old who is staying with the applicant. Medical reports annexed to the application by the applicant clearly indicate that the applicant has been suffering from various ailments and Post Pregnancy complications.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "reasonable arrangements",
+        "attendance at Court proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases",
+        "child custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The applicant's application for transfer of the petition to the Family Court at Nashik was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "transfer petition",
+    "family court",
+    "Nashik",
+    "Mumbai",
+    "Badlapur",
+    "harassment",
+    "petition",
+    "civil judge",
+    "senior division",
+    "Kalyan",
+    "TCS",
+    "marriage",
+    "Hindu rites and customs",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition in family court",
+    "advising on divorce proceedings in India",
+    "preparing a case for harassment allegations"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:37:17.191107"
 }

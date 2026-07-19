@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:59:53.775746",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "murder_criminal": 3,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Niranjan S/O Rajiv Mahajan And Others vs The State Of Maharashtra And Another on 19 January, 2022",
+  "case_name": "Niranjan S/O Rajiv Mahajan And Others vs The State Of Maharashtra And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Niranjan S/O Rajiv Mahajan and others (original accused)",
+    "respondent_defendant": "The State Of Maharashtra and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners, original accused, seek quashing of FIR bearing Crime No. 227/2020 for offences punishable under IPC sections 498-A, 354, 504, 506 read with Section 34 and Dowry Prohibition Act sections 3 and 4. Parties have arrived at amicable settlement due to intervention of close relatives.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,28 +58,60 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Criminal cases arising from matrimonial discord can be quashed if the parties have settled their dispute.",
+      "held": "The power of the High Court in quashing a criminal proceeding or FIR or complaint in exercise of its inherent jurisdiction is distinct and different from the power given to a criminal court for compounding the offences under Section 320 of the Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Specific Relief Act, 1963"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab and others, (2012) 10 SCC 303",
+        "Kulwinder Singh v. State of Punjab, (2007) 4 CTC 769"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceeding",
+        "matrimonial discord",
+        "settlement",
+        "High Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Heinous and serious offences of mental depravity or offences like murder, rape, dacoity, etc. cannot be quashed even if the victim or victim's family and the offender have settled the dispute.",
+      "held": "Such offences are not private in nature and have a serious impact on society.",
+      "applicable_acts_sections": [
+        "Specific Relief Act, 1963"
+      ],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab and others, (2012) 10 SCC 303",
+        "Kulwinder Singh v. State of Punjab, (2007) 4 CTC 769"
+      ],
+      "keywords": [
+        "heinous offences",
+        "serious crimes",
+        "settlement",
+        "quashing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases",
+        "serious crime investigations"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Leave granted to correct the number of Regular Criminal Case in prayer clause C-1, petitioners' request for quashing of FIR and proceedings accepted as parties have arrived at amicable settlement.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
     "TODO — add 15+ keywords after reading"
@@ -90,7 +122,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:09:11.066729"
 }

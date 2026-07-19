@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:56:25.913063",
   "domain": "will_succession",
-  "sub_domain": "property_dispute",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "property_dispute": 1,
     "will_succession": 2
@@ -18,13 +18,13 @@
     "Mohammad Yaqoob Mir J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sub Judge, Handwara; Suit captioned Ghulam Mohammad Sheikh & anr Vs. Samandar Thokar & ors",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Mohammad Ramzan Thokur & Ors vs Samandar on 5 March, 2012",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mohammad Ramzan Thokur & ors (defendants)",
+    "respondent_defendant": "Gh. Mohammad Sheikh & ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit pending before the Court of Sub Judge, Handwara; two applications filed by petitioners (defendants); trial court allowed one application and dismissed another.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,21 +52,47 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The revisional power has to be exercised only in respect of orders which are final or the orders which, if made in favour of the party applying for revision, would result in termination of the suit or other proceedings.",
+      "held": "What will emerge from the careful reading of the proviso is that the revisional power has to be exercised only in respect of the orders which are final or the orders which if would have been passed in favour of the party applying for the revision would result in termination of the suit or other proceedings independent of the suit i.e. which may have trappings of the suit.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Section 115"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Surya Dev Rai Vs. Ram Chander Rai & others, (2003) 3 SCC 675"
+      ],
       "keywords": [
-        "TODO"
+        "revisional power",
+        "final orders",
+        "termination of suit"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases",
+        "will disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The revisional jurisdiction is taken away by the proviso inserted under sub-section (1) of Section 115 CPC in case the order of the High Court passed either way would not have the effect of finally disposing of the suit or other proceedings.",
+      "held": "The exercise of revisional jurisdiction in such a case is taken away by the proviso inserted under sub-section (1) of Section 115 CPC. The amendment is based on the Malimath Committee's recommendations.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 115"
+      ],
+      "cited_cases": [
+        "Surya Dev Rai Vs. Ram Chander Rai & others, (2003) 3 SCC 675"
+      ],
+      "keywords": [
+        "revisional jurisdiction",
+        "finally disposing of suit"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases",
+        "will disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -84,7 +110,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:48:09.393370"
 }

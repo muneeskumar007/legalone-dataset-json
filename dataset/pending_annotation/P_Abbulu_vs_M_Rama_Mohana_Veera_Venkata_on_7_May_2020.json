@@ -7,7 +7,7 @@
   "total_pages": 30,
   "extracted_at": "2026-07-15T11:02:05.197011",
   "domain": "property_dispute",
-  "sub_domain": "will_succession",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -24,20 +24,20 @@
   "case_numbers": [
     "O.S.No.41 of 1998"
   ],
-  "trial_court": "",
+  "trial_court": "I Additional District Judge, Rajahmundry, East Godavari District, O.S.No.41 of 1998",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "P.Abbulu vs M.Rama Mohana Veera Venkata ... on 7 May, 2020",
+  "case_name": "P.Abbulu vs M.Rama Mohana Veera Venkata ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P.Abbulu (sole plaintiff)",
+    "respondent_defendant": "M.Rama Mohana Veera Venkata (defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Satyavathi is the absolute owner of properties; her husband Gani Raju died intestate leaving behind Satyavathi as his sole surviving legal heir; defendant was adopted by Satyavathi and Gani Raju but adoption is not legally valid; plaintiff seeks declaration of title to properties, recovery of possession, and return of moveables",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party seeking to establish a fact to prove it.",
+      "held": "At the culmination of the trial of the suit, after hearing both the parties to the suit and upon considering the evidence on record,",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "P.Abbulu vs M.Rama Mohana Veera Venkata ... (2020)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "proof",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property_dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A registered adoption deed is valid under law.",
+      "held": "The points that emerge for determination in this appeal are: 1. Whether the adoption of the defendant taken by Satyavathi and Gani Raju under Ex.B-4 registered adoption deed is valid under law",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "P.Abbulu vs M.Rama Mohana Veera Venkata ... (2020)"
+      ],
+      "keywords": [
+        "registered",
+        "adoption",
+        "deed"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family_law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Suit filed by the sole plaintiff was dismissed",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "appeal_suit",
+    "title_declaration",
+    "possession_recovery",
+    "moveable_property",
+    "self_acquisition",
+    "absolute_owner",
+    "effective_control",
+    "adoption_validity",
+    "family_law",
+    "Indian_Legal_System",
+    "judicial_proceedings",
+    "civil_law",
+    "property_title",
+    "land_dispute",
+    "family_dispute",
+    "property_rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting property dispute appeals",
+    "advising on family law matters",
+    "assisting in civil litigation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:22:21.928321"
 }

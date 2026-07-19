@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:59:43.838016",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "Madan Gopal Vyas J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.2, Ajmer, case No. 206/2020",
   "reserved_on": "",
   "delivered_on": "10.11.2022",
-  "case_name": "Neelam Tailor vs Shri Nitin Verma on 18 October, 2023",
+  "case_name": "Neelam Tailor vs Shri Nitin Verma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Neelam Tailor, wife",
+    "respondent_defendant": "Shri Nitin Verma, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks transfer of application under Section 13 of Hindu Marriage Act from Family Court to court of Adl. District & Sessions Judge.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In matrimonial matters, the parties to the lis have a right to seek transfer of the case.",
+      "held": "This court holds that in matrimonial proceedings initiated by the husband against the wife, the convenience of the wife has to be considered for contesting the suit.",
       "applicable_acts_sections": [
-        "TODO"
+        "Civil Procedure Code — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Vinisha Jitesh Tolani @ Manmeet Laghmani vs Jitesh Kishore Tolani, (2010) 1 WLC (SC) 705"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial matters",
+        "transfer of case",
+        "convenience of the wife"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The territorial jurisdiction of this Court may order for transferring the application under Section 13 of the Hindu Marriage Act.",
+      "held": "This court holds that the court of Addl. District & Sessions Judge, Gulabpura, District, Bhilwara comes in the territorial jurisdiction of this Court.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [
+        "Smt. Tilak Shekhawat Vs. Karan Singh Chouhan: SB Civil Transfer Petition No.23/2022, decided on 10.11.2022",
+        "Shilpa Vs. Deepak Tiwari : SB Civil Transfer Petition no.133/2022, decided on"
+      ],
+      "keywords": [
+        "territorial jurisdiction",
+        "transferring application",
+        "Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases",
+        "transfer petitions"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Application under Section 13 of Hindu Marriage Act transferred to court of Addl. District & Sessions Judge, Gulabpura, District Bhilwara.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Section 24",
+    "CPC",
+    "Family Court",
+    "Adl. District & Sessions Judge",
+    "Section 125",
+    "Cr.P.C.",
+    "ACJM",
+    "FIR",
+    "Section 498A",
+    "Section 406",
+    "IPC",
+    "transfer petition",
+    "petitioner-wife",
+    "respondent-husband"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on transfer of cases between courts",
+    "assisting with Section 125 proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:51:30.946837"
 }

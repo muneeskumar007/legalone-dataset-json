@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:59:47.644232",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Neha Nakul Toshniwal vs Nakul Vinay Toshniwal on 17 June, 2022",
+  "case_name": "Neha Nakul Toshniwal vs Nakul Vinay Toshniwal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Neha Nakul Toshniwal (wife)",
+    "respondent_defendant": "Nakul Vinay Toshniwal (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties in a marriage dispute, seeking to resolve outstanding issues and convert petition into one by mutual consent under Section 13-B of the Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Parties can amicably resolve disputes through mediation.",
+      "held": "The mediation proceedings were conducted successfully and the report of the mediation dated 04/06/2022 is received by this court.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mediation",
+        "amicable settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Consent terms can be executed to resolve disputes and form part of the decree.",
+      "held": "The necessary consent terms shall be executed between the parties before the Family Court within one week and the marriage between them shall be resolved in terms of the consent terms to be filed before the Family Court, which shall also form part of the decree of divorce.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "consent terms",
+        "decree"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The parties have agreed to mutually and amicably resolve all existing disputes, claims, and/or counter-claims between them. The marriage petition shall be converted into a petition by mutual consent under Section 13-B of the Hindu Marriage Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "mediation",
+    "amicable settlement",
+    "conciliation",
+    "family law",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "property division",
+    "alimony",
+    "maintenance",
+    "custody",
+    "joint custody",
+    "sole custody",
+    "child support",
+    "spousal support"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "mediation agreement template",
+    "family law case brief"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:57:16.758996"
 }

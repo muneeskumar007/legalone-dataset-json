@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-07-15T10:56:43.910736",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "G.S.Sistani J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Delhi, CM(M) 684/2010 & CM.13618/2010",
   "reserved_on": "",
   "delivered_on": "12.12.2012",
-  "case_name": "Mon Mohan Kohli vs Natasha Kohli on 17 January, 2013",
+  "case_name": "Mon Mohan Kohli vs Natasha Kohli",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (husband)",
+    "respondent_defendant": "Respondent (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner was married to respondent on 14.11.1994 and a male child was born out of their wedlock. Petitioner filed petition for grant of divorce under Section 13 (1) (ia) of the Hindu Marriage Act on ground of cruelty which is pending. Meanwhile, petitioner filed another petition for grant of decree of nullity under Section 11 of the Hindu Marriage Act in alternate under section 12(c) of the Hindu Marriage Act for annulment of marriage on ground of fraud.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A thing which is void has no existence in the eye of law.",
+      "held": "Since in the eye of law the relationship of husband and wife did not exist between the petitioner and Smt. Padi, her subsequent marriage with another person will not attract Section 494, I.P.C.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Sections 5, 11, 17"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smt. Padi & Ors. Vs. Union of India AIR 1963 Himachal Pradesh 16 (V 50 C6)"
+      ],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "Hindu Marriage Act",
+        "Indian Penal Code"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving bigamy"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — highlights the importance of void marriages",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A decree which has been declared as void ab initio could not have any binding effect on a third party who would be affected.",
+      "held": "Ms.Luthra, contends that the said decree was collusive in nature, barred by law of limitation and even otherwise",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 13"
+      ],
+      "cited_cases": [
+        "Begins Vs. Begins (1958) 555"
+      ],
+      "keywords": [
+        "void decree",
+        "collusion",
+        "law of limitation"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases involving collusive decrees"
+      ],
+      "significance": "MEDIUM — emphasizes the importance of considering the validity of a decree",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order dated 17.01.2013 passed by the High Court of Delhi allowing the petition and setting aside the order of the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "annulment",
+    "nullity",
+    "fraud",
+    "cruelty",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Order 12 Rule 6",
+    "Section 13 (1) (ia)",
+    "Section 11",
+    "Section 12(c)",
+    "Protection of Women from DV Act",
+    "DV",
+    "domestic violence",
+    "marriage",
+    "nullity petition",
+    "annulment petition",
+    "divorce petition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a nullity petition under Section 11 Hindu Marriage Act",
+    "drafting an annulment petition under Section 12(c) Hindu Marriage Act",
+    "drafting a divorce petition under Section 13 (1) (ia) Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:55:27.271830"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:57:37.564177",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "H. S. Thangkhiew J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of the learned Additional District Judge (East Khasi Hills) in Misc. Case No. 42 (H) 2021",
   "reserved_on": "",
   "delivered_on": "06.10.1989",
-  "case_name": "Mr. Brijender Singh vs . Ms. Sakshi Pandey on 1 March, 2023",
+  "case_name": "Mr. Brijender Singh vs . Ms. Sakshi Pandey",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Brijender Singh (husband)",
+    "respondent_defendant": "Ms. Sakshi Pandey (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent filed an application for maintenance pendente lite, and the trial court directed the petitioner to pay Rs. 65,000/- per month. The petitioner appealed against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,117 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Family Courts Act does not contemplate concurrent jurisdiction of a Civil Court acting as a Family Court.",
+      "held": "It has also been submitted that, the Family Courts Act does not contemplate concurrent jurisdiction of a Civil Court acting as a Family Court, as the same would run counter to Section 8 of the Family Courts Act, which provides that on the establishment of Family Courts, all matters pending before the District or Sub-ordinate Courts over which the Family Court has jurisdiction shall stand transferred to the said Family Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Family Courts Act — Section 8"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "concurrent jurisdiction",
+        "Family Courts Act",
+        "Section 8"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The establishment of Family Courts is mandatory for a city or town having a population exceeding 1 million.",
+      "held": "Section 3(1)(a) makes it imperative for the establishment of the Family Court for a city or town having a population exceeding 1 million",
+      "applicable_acts_sections": [
+        "Family Courts Act — Section 3(1)(a)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "population",
+        "Family Courts Act",
+        "Section 3(1)(a)"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A notification in the Official Gazette is necessary for enforcing the Family Courts Act.",
+      "held": "It has been contended that, as the Family Courts Act will be applicable, in terms of Section 20 of the said Act, an interlocutory order under Section 24 of the Hindu Marriage Act is appealable.",
+      "applicable_acts_sections": [
+        "Family Courts Act — Section 20"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "notification",
+        "Official Gazette",
+        "Family Courts Act",
+        "Section 20"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The Family Courts Act does not apply to a State where the necessary notification has not been issued.",
+      "held": "It is also submitted that though Section 3(1)(a) makes it imperative for the establishment of the Family Court for a city or town having a population exceeding 1 million, the city of Shillong not having the required population, no Family Court has been established, nor the State has invoked the power under Section 3(1)(d) to establish the Family Court for any area in the State.",
+      "applicable_acts_sections": [
+        "Family Courts Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "notification",
+        "Family Courts Act",
+        "Section 3(1)(a)",
+        "Section 3(1)(d)"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The maintainability of the appeal was examined, and it was held that the Family Courts Act, 1984 applies to Meghalaya despite not being implemented.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "maintenance pendente lite",
+    "Section 19",
+    "Section 10",
+    "Section 28",
+    "MAT Divorce Suit",
+    "Additional District Judge",
+    "East Khasi Hills",
+    "Misc. Case No.",
+    "Appellate Jurisdiction",
+    "Appealability",
+    "Interim Maintenance",
+    "Pendency of Litigation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeals",
+    "advising on maintenance pendente lite",
+    "assisting with family court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:05:05.718980"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:56:07.471478",
   "domain": "property_dispute",
-  "sub_domain": "maintenance",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "maintenance": 1,
     "custody": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Dhenkanal in C.P. Case No. 54 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "MATA 83 2020 on 30 March 2021",
+  "case_name": "MATA/83/2020",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant (husband)",
+    "respondent_defendant": "Respondent No.1 (wife), Respondent No.2 (AMOFOI's Organisation)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant and Respondent No.1 got married, but Respondent No.1 filed an application under Section 7 Explanation(b) of the Family Court Act, 1984 to declare that the marriage certificate is nonest in the eye of law and she is not the wife of Appellant.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to set aside a registered marriage to prove that the registration was obtained through fraud, coercion, or undue influence.",
+      "held": "Taking into consideration the respective pleas and the evidence on record, the Court below observed that both parties are Hindus and it is admitted fact that their marriage was registered at AMOFOI Organisation and accordingly said marriage certificate was issued by that organization.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "registered marriage",
+        "fraud",
+        "coercion",
+        "undue influence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property_dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not lightly set aside a registered marriage without sufficient evidence to support the claim.",
+      "held": "No document was filed by respondent No.2 to show that their organization has got authority to perform the marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "registered marriage",
+        "sufficient evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property_dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court declared that the marriage certificate issued by Respondent No.2's Organisation (AMOFOI) is nonest in the eye of law and Respondent No.1 is not the legally married wife of Appellant.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Family Court Act",
+    "Section 7 Explanation(b)",
+    "nonest in the eye of law",
+    "valid marriage",
+    "fraudulent marriage certificate",
+    "marriage certificate",
+    "AMOFOI",
+    "invalid marriage",
+    "wife",
+    "husband",
+    "family court",
+    "property dispute",
+    "judgment",
+    "appeal",
+    "marriage declaration",
+    "court below",
+    "Family Court, Dhenkanal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against family court judgment",
+    "guidance on property disputes in Hindu Marriage Act cases",
+    "practical tips for advocates handling marriage certificate issues"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:28:46.848558"
 }

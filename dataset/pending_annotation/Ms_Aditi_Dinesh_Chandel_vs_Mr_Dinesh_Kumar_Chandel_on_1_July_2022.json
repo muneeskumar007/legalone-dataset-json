@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:58:02.886890",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ms. Aditi Dinesh Chandel vs Mr. Dinesh Kumar Chandel on 1 July, 2022",
+  "case_name": "Ms. Aditi Dinesh Chandel vs Mr. Dinesh Kumar Chandel",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ms. Aditi Dinesh Chandel (wife)",
+    "respondent_defendant": "Mr. Dinesh Kumar Chandel (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife instituted proceedings before the Family Court by filing a petition for divorce, invoking Section 13(1)(ia) of the Hindu Marriage Act on 14/12/2015. She prayed for permanent alimony, maintenance and permanent custody of her minor daughter.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party seeking to bring documents on record.",
+      "held": "This application was pressed into service by the petitioner along with an application filed by the respondent-husband vide Exh.-911, seeking cancellation of order of maintenance, on the pretext that the order was passed by playing fraud.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "party",
+        "documents"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to file an affidavit of income and assets can lead to the other party seeking to bring documents on record.",
+      "held": "petitioner had filed an application by pleading that since the respondent had failed to file an affidavit of income and assets, despite repeated orders being passed, she was desirous of examining certain witnesses to bring on record certain documents.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "affidavit",
+        "income",
+        "assets"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal disposed off with a consensus being arrived at between the parties",
+    "final_order": "The respondent-husband to pay interim maintenance of Rs.30,000/- per month to the wife from the date of application until for a period of six months from the date of the said order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "irretrievable breakdown",
+    "marital discord",
+    "separation",
+    "maintenance",
+    "alimony",
+    "custody",
+    "joint custody",
+    "Latin maxim: 'actus curiae memineris'",
+    "family law",
+    "matrimonial disputes",
+    "property settlement",
+    "child support"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on maintenance and alimony",
+    "assisting in property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:53:35.065402"
 }

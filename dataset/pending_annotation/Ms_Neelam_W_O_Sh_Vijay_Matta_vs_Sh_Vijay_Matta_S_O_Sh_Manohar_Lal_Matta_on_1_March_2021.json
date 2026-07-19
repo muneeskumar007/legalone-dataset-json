@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:58:19.552627",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Ms. Neena Bansal Krishna, Principal District & Sessions Judge, South East: Saket Court, New Delhi (CA No. 160/2019)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ms. Neelam W/O Sh. Vijay Matta vs Sh. Vijay Matta S/O Sh. Manohar Lal Matta on 1 March, 2021",
+  "case_name": "Ms. Neelam W/O Sh. Vijay Matta vs Sh. Vijay Matta S/O Sh. Manohar Lal Matta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ms. Neelam W/O Sh. Vijay Matta (Appellant/Complainant)",
+    "respondent_defendant": "Sh. Vijay Matta S/o Sh. Manohar Lal Matta (Respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Ms. Neelam got married to Sh.Vijay Matta on 21.04.2015. After the marriage, parties residing together as husband and wife. Appellant claimed Rs. 12 lacs were spent in the marriage including stridhan of about 5,50,000/- which was entrusted to the Respondent at the time of marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person has a legal duty to maintain their minor children.",
+      "held": "He has a legal duty to maintain his minor children from his first marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005 — Section 23"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "minor children"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's obligation to maintain their spouse is not limited by their own income or employment status.",
+      "held": "Moreover, even though Appellant/Complainant is more qualified it is the obligation of the Respondent, being the husband to maintain her as she has no means to sustain herself and is presently being supported by her aged parents who are senior citizens.",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act, 2005 — Section 23"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "spouse support"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application of the Appellant/Complainant for claiming interim maintenance has been set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "domestic violence",
+    "Protection of Women from DV Act",
+    "2005",
+    "Section 29",
+    "interim maintenance",
+    "maintenance",
+    "marriage",
+    "Hindu Rites and Ceremonies",
+    "widower",
+    "family court",
+    "judgment",
+    "order",
+    "dismissal",
+    "appeal",
+    "complainant",
+    "appellant",
+    "respondent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on domestic violence cases",
+    "preparing appeals against family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:57:40.465989"
 }

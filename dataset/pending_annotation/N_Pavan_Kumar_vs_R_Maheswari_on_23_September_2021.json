@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T11:00:01.085867",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 2,
     "custody": 3,
@@ -26,13 +26,13 @@
     "O.P.No.110/2018",
     "W.P.No.30964/2018"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court-cum-V Additional District Judge, Tirupati (F.C.O.P.No.110/2018)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "N Pavan Kumar vs R Maheswari on 23 September 2021",
+  "case_name": "F.C.A. No.172 of 2019",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant/petitioner (father) seeking guardianship and custody of minor boy N.Jainarayan Sai",
+    "respondent_defendant": "Respondent (mother) and divorced couple",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the father of minor boy N.Jainarayan Sai born to him and respondent in Michigan, U.S.A. They got divorced in Michigan, U.S.A. Petitioner seeks guardianship and custody of the minor boy. Trial court dismissed his petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The jurisdiction of a court should be decided based on the merits of the case and not by declining jurisdiction.",
+      "held": "In view of the above judgments, the lower Court ought to have decided the matter on merits instead of declining the jurisdiction.",
       "applicable_acts_sections": [
-        "TODO"
+        "Uniform Child-Custody Jurisdiction and Enforcement Act (UCCJEA) — Section 202(1)(b)"
+      ],
+      "cited_cases": [
+        "Yashita Sahu v. State of Rajasthan, (Year) X SCC Y",
+        "Nithya Anand Raghavan v. State of NCT of Delhi, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "jurisdiction",
+        "merits",
+        "declining jurisdiction"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "guardianship cases",
+        "child custody disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A court's jurisdiction is determined by the ordinary place of residence of a minor child.",
+      "held": "said place has become the ordinary place of residence of the minor boy and therefore, the Family Court at Tirupati holds jurisdiction to try the guardian petition.",
+      "applicable_acts_sections": [
+        "Hindu Minority and Guardianship Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "ordinary place of residence",
+        "minor child"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "guardianship cases",
+        "child custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "this Appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the order passed by the trial court is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Minority and Guardianship Act",
+    "custody",
+    "guardianship",
+    "minor boy",
+    "divorce",
+    "joint legal custody",
+    "physical custody",
+    "parenting time",
+    "Family Courts Act",
+    "Guardian and Wards Act",
+    "Section 6",
+    "Section 13",
+    "Section 9",
+    "Section 7(g)",
+    "matrimonial disputes",
+    "consent order",
+    "Michigan",
+    "USA"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting custody petitions",
+    "advising on joint legal and physical custody",
+    "representing clients in divorce cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:12:03.196157"
 }

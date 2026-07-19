@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T10:56:39.679548",
   "domain": "divorce",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "cheque_bounce": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Allahabad, Matrimonial Petition No. 172 of 1997",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Monika Ohri And Ors. vs Amit Misra And Anr. on 23 July, 2002",
+  "case_name": "Monika Ohri And Ors. vs Amit Misra And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Monika Ohri and others (daughter, mother, father)",
+    "respondent_defendant": "Amit Misra and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife filed for divorce under Hindu Marriage Act. Petitioner seeks to quash proceedings and restrain trial court from proceeding with petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,106 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A writ of prohibition is an order directed to an inferior Tribunal forbidding it from continuing with proceeding therein on the ground that the proceeding is without or in excess of jurisdiction or contrary to the laws of the land, statutory or otherwise.",
+      "held": "Following Mackonochie v. Lord Penzance (1881) 6 Appeal Cases 424, it was held by the Hon'ble Supreme Court",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Mackonochie v. Lord Penzance (1881) 6 Appeal Cases 424"
+      ],
       "keywords": [
-        "TODO"
+        "writ of prohibition",
+        "jurisdiction",
+        "laws of the land"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The jurisdiction for grant of a writ of prohibition is primarily supervisory and the object of that writ is to restrain Courts or inferior Tribunals from exercising a jurisdiction which they do not possess at all or else to prevent them for exceeding the limits of their jurisdiction.",
+      "held": "It was held by the Apex Court",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "S. Govinda Menon v. Union of India, AIR 1967 SC 1274"
+      ],
+      "keywords": [
+        "writ of prohibition",
+        "jurisdiction",
+        "supervisory jurisdiction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The inherent power has its roots in necessity and its breadth is coextensive with the necessity.",
+      "held": "It was observed by the Hon'ble Supreme Court",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "Nawabganj Sugar Mills Company Ltd. v. Union of India, AIR 1976 SC 1162"
+      ],
+      "keywords": [
+        "inherent power",
+        "necessity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "this appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings of Matrimonial Petition No. 172 of 1997 are quashed, and respondent is restrained from proceeding with the petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Matrimonial Petition",
+    "Section 10",
+    "Certiorari",
+    "Prohibition",
+    "Family Court",
+    "Allahabad",
+    "Indian Constitution",
+    "Articles 226 and 227",
+    "Nullity of marriage",
+    "Marriage dissolution",
+    "Residence",
+    "Age",
+    "IFFCO Unit Phulpur",
+    "Phulpur district",
+    "Chandauki village",
+    "Sikandra pargana",
+    "Tehsil Phulpur",
+    "District Allahabad"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "quashing proceedings of Matrimonial Petition",
+    "obtaining writ of Certiorari or Prohibition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:57:57.124406"
 }

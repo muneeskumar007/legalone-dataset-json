@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T20:32:14.930457",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amarjit Kaur vs Harbhajan Singh And Anr. on 23 October, 2002",
+  "case_name": "Amarjit Kaur vs Harbhajan Singh And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amarjit Kaur (wife)",
+    "respondent_defendant": "Harbhajan Singh And Anr. (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed an application under Section 24 of the Hindu Marriage Act, 1955 claiming maintenance for herself and minor children. The husband had filed a petition under Section 13 of the Hindu Marriage Act, 1955 seeking dissolution of marriage by grant of a decree for divorce on grounds of alleged adultery and cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may impose conditions for grant of maintenance pendente lite, including DNA test.",
+      "held": "It was also urged that no exception could be taken to the course adopted by the learned single judge in the light of the serious dispute raised with reference to the parentage of one male child living with the wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Dwarika Prasad Satpathy v. Bidyut Prava Dixit and Anr., JT 1999 (8) SC 329"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance pendente lite",
+        "DNA test",
+        "parentage dispute"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases with disputed parentage"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court may not impose conditions that deprive the party of a maintenance order, particularly if it is pendente lite.",
+      "held": "It was also pointed out that imposition of a condition which will operate as a disfeasance clause, to deprive the very maintenance order to be paid, particularly of the nature imposed in this case directing the conduct of DNA test of the male child in question is not warranted.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [
+        "Goutam Kundu v. State of West Bengal and Anr."
+      ],
+      "keywords": [
+        "maintenance pendente lite",
+        "disfeasance clause",
+        "DNA test"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "cases involving interim maintenance orders"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The High Court directed the respondent-husband to pay Rs. 2000/- by way of litigation expenses to the appellant and pay a further sum of Rs. 2000/- per month by way of maintenance from the date of her application.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "adultery",
+    "cruelty",
+    "Section 24",
+    "petition",
+    "marriage dissolution",
+    "decree",
+    "alleged",
+    "Ludhiana",
+    "district judge",
+    "trial",
+    "final disposal",
+    "pending",
+    "application",
+    "Hindu Marriage Act 1955",
+    "Code of Criminal Procedure",
+    "Punjab and Haryana",
+    "Chandigarh",
+    "High Court",
+    "single judge",
+    "review application"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to Section 13 petition",
+    "filing review application"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:33:56.422716"
 }

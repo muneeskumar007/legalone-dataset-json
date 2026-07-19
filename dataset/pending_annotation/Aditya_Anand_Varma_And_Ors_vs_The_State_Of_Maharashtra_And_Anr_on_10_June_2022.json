@@ -7,7 +7,7 @@
   "total_pages": 22,
   "extracted_at": "2026-07-15T20:31:29.774908",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "domestic_violence",
   "domain_scores": {
     "divorce": 2,
     "partition": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Aditya Anand Varma And Ors vs The State Of Maharashtra And Anr on 10 June, 2022",
+  "case_name": "Aditya Anand Varma And Ors vs The State Of Maharashtra And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Aditya Anand Varma, Anand Prakash Varma, Aarti Anand Varma (husband, father, wife)",
+    "respondent_defendant": "The State of Maharashtra, Harsha Aditya Varma (nee) Harsha Singh (complainant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are husband and family members. Respondent No.2 filed a Domestic Violence Application which was rejected by the trial court. Petitioners claim that this decision is incorrect.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking extraordinary writ jurisdiction to demonstrate that the statutory remedy is inadequate.",
+      "held": "It would be hazardous to rely upon the said order as a precedent, since it simply lacks the precedential value.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005 — Section 29"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Parvez Kapadia and Ors. V/s. Pravin P. Kapadia and Anr., (2022) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "DV Act",
+        "statutory remedy",
+        "extraordinary writ jurisdiction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving domestic violence proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not entertain a petition under Article 226 of the Constitution if there is an available statutory remedy.",
+      "held": "Therefore, it was possible for the Petitioner to file the appeal instead of filing the present Petition.",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act, 2005 — Section 29"
+      ],
+      "cited_cases": [
+        "Siddharth Sabharwal V/s. State of Maharashtra, (2022) X SCC Y"
+      ],
+      "keywords": [
+        "statutory remedy",
+        "Article 226",
+        "extraordinary writ jurisdiction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving domestic violence proceedings"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
     "result": "Writ Petition stands dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Section 498A",
+    "Section 304B",
+    "IPC Section 498A",
+    "IPC Section 304B",
+    "DV Act",
+    "Criminal Procedure Code",
+    "Mumbai High Court",
+    "Writ Petition",
+    "Family Violence",
+    "Marital Abuse",
+    "Legal Aid",
+    "Women's Rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "advising on Protection of Women from DV Act",
+    "assisting with Code of Criminal Procedure matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:07:11.994455"
 }

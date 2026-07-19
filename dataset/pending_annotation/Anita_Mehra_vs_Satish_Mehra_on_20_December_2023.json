@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T20:32:36.276225",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "partition": 1,
@@ -26,13 +26,13 @@
     "Neena Bansal Krishna J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court in HMA No.370/20211",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anita Mehra vs Satish Mehra on 20 December, 2023",
+  "case_name": "Anita Mehra vs Satish Mehra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anita Mehra, wife",
+    "respondent_defendant": "Satish Mehra, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -75,7 +75,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties got married in 1980, but marriage was not registered until 1982. Respondent was an acute alchoholic and physically assaulted the petitioner repeatedly. Petitioner claimed that she made efforts to make the marriage work but to no avail.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -85,39 +85,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that there has been no reasonable cohabitation for a period of three years or more.",
+      "held": "The Supreme Court held that there was no sufficient grounds to proceed with the trial and quashed the proceedings and discharged the petitioner vide judgment dated 31-07-1996.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "reasonable cohabitation",
+        "three years"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking divorce must prove that the other party has been guilty of cruelty.",
+      "held": "The respondent averred before the learned Family Court that the baseless and false allegations leveled against him, had amounted to cruelty at the hands of appellant.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "cruelty"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's judgment and decree dated 04.07.2014 was set aside, and the appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "desertion",
+    "annulment",
+    "dissolution",
+    "marriage registration",
+    "alchoholic",
+    "assault",
+    "beatings",
+    "family court",
+    "Section 12(1)(a)",
+    "Section 13(1)(ia)",
+    "Section 19",
+    "HMA No.370/20211",
+    "New York",
+    "USA",
+    "unregistered marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on annulment of marriage",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:59:26.655720"
 }

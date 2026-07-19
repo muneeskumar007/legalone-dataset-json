@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T10:58:07.048646",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 11,
     "maintenance": 3,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ms. Jordan Diengdeh vs S.S. Chopra on 10 May, 1985",
+  "case_name": "Ms. Jordan Diengdeh vs S.S. Chopra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ms. Jordan Diengdeh, wife",
+    "respondent_defendant": "S.S. Chopra, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner, a Christian woman, married to respondent, a Sikh man, under Indian Christian Marriage Act 1872. She filed petition for declaration of nullity of marriage or judicial separation on ground of impotence of her husband. Trial court rejected prayer for nullity but granted decree for judicial separation on ground of cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,118 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage appears to have broken down irretrievably when the parties are unable to live together.",
+      "held": "At this stage, we are not concerned with the question how far the wife has been able to establish her case. The real problem now is that the marriage appears to have broken down irretrievably.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Divorce Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "marriage breakdown"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A decree for dissolution of marriage can be granted only on the grounds specified in the Indian Divorce Act.",
+      "held": "The ground on which a husband may obtain a decree for dissolution of marriage is the adultery of the wife. The grounds on which a wife may obtain a decree for dissolution of marriage are change of religion from Christianity to another religion and marriage with another woman, incestuous adultery, bigamy with adultery, marriage with another woman with adultery, rape, sodomy or bestiality, adultery coupled with cruelty, adultery coupled with desertion for more than two years.",
+      "applicable_acts_sections": [
+        "Indian Divorce Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "grounds for divorce",
+        "dissolution of marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A declaration of nullity of marriage can be granted on the ground of impotence of the husband.",
+      "held": "Section 19 provides that a marriage may be declared null and void on the ground-(1) that the respondent was impotent at the time of the institution of the suit;",
+      "applicable_acts_sections": [
+        "Indian Divorce Act",
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "impotence",
+        "nullity of marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A decree for judicial separation can be granted on the ground of cruelty.",
+      "held": "A decree for judicial separation was granted on the ground of cruelty.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act",
+        "Code of Criminal Procedure"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "judicial separation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Supreme Court held irretrievable break-down of marriage.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Specific Relief Act",
+    "1963",
+    "judicial separation",
+    "cruelty",
+    "irretrievable break-down",
+    "uniform civil code",
+    "impotence",
+    "nullity",
+    "marriage dissolution",
+    "Parsi Marriage and Divorce Act",
+    "1936",
+    "Dissolution of Muslim Marriage Act",
+    "1939",
+    "Khasi Tribe",
+    "Presbytarian"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu marriage law",
+    "assisting in judicial separation cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:55:58.602030"
 }

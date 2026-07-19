@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:56:57.227404",
   "domain": "unknown",
-  "sub_domain": "",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {},
   "court": "High Court of Judicature at Bombay",
   "bench": "Single Judge",
@@ -16,17 +16,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs. Darshana W/O Alok Borkar vs Alok S/O Namdeo Borkar on 9 January, 2019",
+  "case_name": "Mrs. Darshana W/O Alok Borkar vs Alok S/O Namdeo Borkar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mrs. Darshana W/O Alok Borkar",
+    "respondent_defendant": "Alok S/O Namdeo Borkar",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant filed an appeal within limitation, and the respondent waived notice.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -36,39 +36,58 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An appeal filed within limitation is not barred by Section 15 of the Hindu",
+      "held": "The appeal is apparently filed within limitation and, therefore, bar of Section 15 of the Hindu",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appeal",
+        "limitation",
+        "Section 15",
+        "Hindu"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "civil appeal"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Stay granted in terms of prayer clause (1) till final disposal of the appeal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 15",
+    "Family Court Appeal",
+    "Appeal within limitation",
+    "Stay granted",
+    "Prayer clause",
+    "Civil Application",
+    "Waiving notice",
+    "Appellant",
+    "Respondent",
+    "Coram",
+    "Judge's orders",
+    "Office Memoranda",
+    "Court's orders"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting family court appeals",
+    "seeking stay in civil applications",
+    "waiving notice in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:31:09.239037"
 }

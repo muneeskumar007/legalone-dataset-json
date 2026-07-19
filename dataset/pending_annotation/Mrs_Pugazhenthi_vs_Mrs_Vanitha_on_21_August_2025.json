@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T10:57:10.820013",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 6,
@@ -27,13 +27,13 @@
     "A.S.No.157 of 2024",
     "O.S.No.22 of 2015"
   ],
-  "trial_court": "",
+  "trial_court": "Mahila Court, Perambalur (O.S.No.22 of 2015)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs.Pugazhenthi vs Mrs.Vanitha on 21 August, 2025",
+  "case_name": "Mrs.Pugazhenthi vs Mrs.Vanitha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mrs.Pugazhenthi (Appellant/1st Plaintiff)",
+    "respondent_defendant": "Mrs.Vanitha, Mr.Karthikeyan, Mr.Megarajan (Respondents/Defendants 1-3), Mr.Manivel, Mr.Selvam, Mr.Raja, Mr.Chandrasekar (R4-R7 given up), Mr.Dileeban (2nd Plaintiff)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -72,7 +72,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit for partition, declaring plaintiffs entitled to 2/5th share in Suit Schedule Property. Trial court decreed suit in part, dismissing relief sought by first plaintiff and entitling second plaintiff to 1/4th share.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -82,39 +82,129 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Even if an entry is made in an official record by the official concerned in the discharge of his official duty, it may have weight but still may require corroboration by the person on whose information the entry has been made.",
+      "held": "The standard of proof required herein is the same as in other civil and criminal cases",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act",
+        "1872"
+      ],
+      "cited_cases": [
+        "Madan Mohan Singh v. Rajni Kant, (2010) 5 CTC 503"
+      ],
+      "keywords": [
+        "corroboration",
+        "official record",
+        "standard of proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil cases",
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A combined reading of Section 50 and Section 114 of the Indian Evidence Act establishes a strong basis to presume a lawful marital relationship when there is a clear, prolonged cohabitation and public acknowledgement of such relationship.",
+      "held": null,
+      "applicable_acts_sections": [
+        "Indian Evidence Act",
+        "50",
+        "114"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cohabitation",
+        "public acknowledgement",
+        "lawful marital relationship"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "marriage cases",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Law must not permit exploitation of women by allowing legal heirs to disown or undermine such relationships after the man's death.",
+      "held": "The Trial Court finding fails to reflect the spirit of the Hindu Marriage Act and the evolving jurisprudence aimed at protecting women from exploitation",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Kanagavalli v. Saroja, AIR 2002 Mad 73"
+      ],
+      "keywords": [
+        "exploitation",
+        "women's rights",
+        "marriage law"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family law cases",
+        "inheritance disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The burden lies on the party claiming ancestral nature to establish a common ancestral nucleus.",
+      "held": null,
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "ancestral nature",
+        "common ancestral nucleus"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes",
+        "inheritance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Final order: Appeal allowed, setting aside decree and judgment of trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Indian Evidence Act",
+    "1872",
+    "Code of Civil Procedure",
+    "1908",
+    "Section 96",
+    "Decree and Judgment",
+    "Mahila Court",
+    "Perambalur",
+    "O.S.No.22",
+    "2015",
+    "A.S.Nos.501",
+    "157",
+    "2024",
+    "Appellate Suit",
+    "Appeal Suit",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "appealing decree and judgments",
+    "using Section 96 of the Code of Civil Procedure"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:43:32.168608"
 }

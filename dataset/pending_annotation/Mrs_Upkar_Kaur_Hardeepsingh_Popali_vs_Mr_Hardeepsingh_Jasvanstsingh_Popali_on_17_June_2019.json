@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:57:32.102075",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs. Upkar Kaur Hardeepsingh Popali vs Mr. Hardeepsingh Jasvanstsingh Popali on 17 June, 2019",
+  "case_name": "Mrs. Upkar Kaur Hardeepsingh Popali vs Mr. Hardeepsingh Jasvanstsingh Popali",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mrs. Upkar Kaur H. Popali (wife)",
+    "respondent_defendant": "Mr. Hadeepsingh J. Popali (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant/wife seeks transfer of Marriage Petition no.1974/2017, filed by the respondent/husband, pending before the learned Civil Judge, Senior Division, Khamgaon.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to show that the transfer of proceedings is necessary.",
+      "held": "By this application u/s 24 of CPC, the applicant/wife is seeking transfer of Marriage Petition no.1974/2017, filed by respondent/husband pending before learned Civil Judge, Senior Division, Khamgaon, u/s 13(1)(ia) and (ib) of the Hindu Marriage Act,1955, and other matter to Civil Judge, Senior Division, Pune and/or Family Court at Pune.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24",
+        "Hindu Marriage Act,1955 — Sections 13(1)(ia) and (ib)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer of proceedings",
+        "burden of proof",
+        "necessary grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The applicant must undertake to serve the respondent by hand delivery along with the entire proceeding and file an affidavit of service to that effect.",
+      "held": "Learned advocate for applicant submits that applicant undertakes to serve the respondent by hand delivery alongwith entire proceeding and file affidavit of service to that effect.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "service",
+        "affidavit of service"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases",
+        "divorce proceedings"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The applicant is directed to serve the respondent by private notice alongwith entire proceeding, either by RPAD and/or hand delivery, stating that, the matter will be decided finally at the stage of admission itself.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "transfer of petition",
+    "urgent orders",
+    "service by private notice",
+    "affidavit of service",
+    "Marriage Petition",
+    "Family Court",
+    "Pune",
+    "Khamgaon",
+    "Civil Judge",
+    "Senior Division"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition transfer request",
+    "seeking urgent orders in family court",
+    "preparing affidavit of service"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:49:59.112363"
 }

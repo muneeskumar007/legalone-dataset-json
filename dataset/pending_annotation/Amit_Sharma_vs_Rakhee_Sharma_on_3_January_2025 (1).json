@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T20:32:18.618553",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Puneet Gupta J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge (Matrimonial Cases), Jammu, RP No. 116/2022",
   "reserved_on": "",
   "delivered_on": "03.01.2025",
-  "case_name": "Amit Sharma vs Rakhee Sharma on 3 January, 2025",
+  "case_name": "Amit Sharma vs Rakhee Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amit Sharma, husband, plaintiff",
+    "respondent_defendant": "Rakhee Sharma, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit filed by Amit Sharma against Rakhee Sharma under Section 13 of the Jammu and Kashmir Hindu Marriage Act. Suit was initially dismissed as the adulterer was not impleaded. Review petition filed and matter remanded to trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,119 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party must plead all grounds for divorce in the suit.",
+      "held": "The plaintiff had not pleaded adultery as a ground for divorce in the case filed by the husband as is evident from the averments made in the suit.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "pleading grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A court cannot strike out a case for non-joinder of a party respondent if the trial court did not consider it necessary to implead that party.",
+      "held": "Indeed, it is also submitted that the trial court did not consider it necessary to implead the adulterer as party defendant in the suit.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "strike out",
+        "non-joinder",
+        "implead"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A court must decide the issue of cruelty independently, regardless of other grounds for divorce.",
+      "held": "It is also pleaded that the issue of cruelty could be determined independently in view of what had been pleaded and irrespective of the issue of adultery framed by the trial court.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "independent determination"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A court cannot apply a rule that is inconsistent with the provisions of another Act.",
+      "held": "As the principal Act itself stood repealed, the rules framed under 1970 Rules could not apply to the suit filed under the Act of 1980.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955",
+        "General Clauses Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "inconsistency",
+        "Act provisions"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court set aside judgment and decree of trial court, requiring adulterer to be impleaded in the suit.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "adultery",
+    "impleadment",
+    "review petition",
+    "matrimonial disputes",
+    "Jammu and Kashmir Hindu Marriage Act",
+    "Indian Kanoon",
+    "judgment and decree",
+    "appeal",
+    "family court",
+    "marriage dissolution",
+    "spousal rights",
+    "property division",
+    "maintenance",
+    "custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:39:09.737764"
 }

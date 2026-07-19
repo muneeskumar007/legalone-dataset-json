@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T10:59:55.968155",
   "domain": "property_dispute",
-  "sub_domain": "partition",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS. SHAGUN SHARMA, District Judge-12, Central District, Tis Hazari Court, Delhi (CS DJ No. 617199/2016)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Nirmala vs Bakshi Bhushan Ors on 12 December, 2025",
+  "case_name": "Nirmala vs Bakshi Bhushan Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mrs. Nirmala, Plaintiff",
+    "respondent_defendant": "Mr. Bakshi Bhushan & Ors., Defendants",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff seeks relief of Partition, Permanent Injunction and Declaration. The parties are the plaintiff, Mr. Bakshi Bhushan & Ors., who are defendants.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,72 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A claimant's own statement in a bail application can be used to contradict their later claims.",
+      "held": "Thus, if the plaintiff now claims that she was married to him in 1996 on the basis of a plot allotment letter, it is completely contradictory to her own statement of 1999, exposing the falsity of her claim.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "contradiction",
+        "claimant's statement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "property_dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's reluctance to disclose personal details can be used as evidence against them.",
+      "held": "The plaintiff's reluctance to disclose her details to defendants under RTI shows plaintiff's ill-design to come up with a false and frivolous suit against the defendants.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "reluctance",
+        "personal details"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "property_dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Dismissed",
+    "final_order": "This Court dismissed the suit filed by the Plaintiff seeking relief of Partition, Permanent Injunction and Declaration.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "family_law",
+    "succession",
+    "inheritance",
+    "partition",
+    "joint_holding",
+    "share_of_property",
+    "family_members",
+    "deceased_person",
+    "representation_by_LRs",
+    "civil_procedure",
+    "judicial_remedy",
+    "equitable_relief",
+    "specific_performance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for property dispute resolution",
+    "advising on succession and inheritance matters",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:11:50.398274"
 }

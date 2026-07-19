@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:55:52.220635",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "will_succession": 1
@@ -18,13 +18,13 @@
     "Bela M. Trivedi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, No. 1, Jaipur (D.B. Civil Misc. Appeal No. 446/2011)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manoj Mudgal vs Saroj Sharma on 25 September, 2012",
+  "case_name": "Manoj Mudgal vs Saroj Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manoj Mudgal (husband)",
+    "respondent_defendant": "Saroj Sharma & another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Husband-appellant filed an application under Section 13 of the Hindu Marriage Act for grant of decree of divorce, which was withdrawn and another application was filed under Section 13B for divorce by mutual consent along with an application to grant exemption of six months condition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may condone delay in filing an appeal if there is no merit in the appeal and it serves no useful purpose.",
+      "held": "We have examined the matter on merits also and in our view, there is no merit in the appeal and no useful purpose will be served in condoning the delay, but in the interest of justice, we condone the delay of 32 days in filing the appeal, subject to just exceptions.",
       "applicable_acts_sections": [
-        "TODO"
+        "Limitation Act — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "delay",
+        "appeal",
+        "merit",
+        "justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A consent decree of divorce cannot be passed unless a period of six months has elapsed since the filing of an application for divorce by mutual consent.",
+      "held": "As per requirement of law, consent decree of divorce cannot be passed, unless a period of six months has elapsed since the filing of an application for divorce by mutual consent.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent",
+        "divorce",
+        "six months",
+        "application"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Delay in filing the appeal is waived. The Family Court's order dismissing the application to waive the condition of minimum six months under Section 13B(2) of the Hindu Marriage Act is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13B(2)",
+    "waiver",
+    "minimum six months",
+    "Family Court",
+    "Limitation Act",
+    "Section 5",
+    "delay",
+    "condone delay",
+    "just exceptions",
+    "merits",
+    "justice",
+    "appeal",
+    "writ petition",
+    "Single Bench",
+    "entertainment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "waiving conditions in Hindu Marriage Act",
+    "handling delays in family court cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:14:48.212027"
 }

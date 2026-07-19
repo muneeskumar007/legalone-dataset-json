@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:00:24.865534",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 3,
@@ -21,13 +21,13 @@
     "M.A.Abdul Hakhim J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Sub Court, Alappuzha, AS No.219 of 2002",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Omanakunjamma vs V.R.Vinayachandran on 11 June, 2025",
+  "case_name": "Omanakunjamma vs V.R.Vinayachandran",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Omanakunjamma, daughter of Vijayappa Panicker",
+    "respondent_defendant": "V.R.Vinayachandran and others (1-8)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiff seeks partition of property, allotting ¼ share to herself with mesne profits, and permanent prohibitory injunction.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Marriage is to be presumed by long cohabitation.",
+      "held": "If such a marriage is found to be void, the plaintiff is entitled to get the benefit of the statutory presumption under S.16 of the Hindu Marriage Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 16"
+      ],
+      "cited_cases": [
+        "Kalliani Amma v. K. Devi [1996 (4) SCC 76]",
+        "Tulsa and others v.Durghatiya and others [2008 (4) SCC 520]"
+      ],
+      "keywords": [
+        "marriage",
+        "cohabitation",
+        "statutory presumption"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the plaintiff to prove that she was born in a wedlock between Vijayappa Panicker and her mother.",
+      "held": "The plaintiff ought to have filed a Reply and evidence should have been adduced to prove that there was a valid marriage between Vijayappa Panicker and PW2; that in the absence of pleading, there is no place for evidence on the question of legitimacy of the plaintiff.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "pleading",
+        "legitimacy"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court modified the trial court's order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "RSA No.935 of 2006",
+    "judgment and decree",
+    "divorce",
+    "alimony",
+    "maintenance",
+    "property division",
+    "joint family",
+    "coparceners",
+    "partition suit",
+    " Hindu law",
+    "family property",
+    "share",
+    "interest",
+    "partition deed",
+    "family settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on alimony and maintenance",
+    "guiding clients on property division in a joint family"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:19:01.870595"
 }

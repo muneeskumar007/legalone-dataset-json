@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T20:32:41.208952",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Subramonium Prasad J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, case number MAT.APP.(F.C.) 134/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ankur Kohli vs Vinita Kohli on 5 November, 2020",
+  "case_name": "Ankur Kohli vs Vinita Kohli",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ankur Kohli, husband",
+    "respondent_defendant": "Vinita Kohli, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of parties solemnized on 12.11.2009. They had a baby daughter and separated on 19.01.2012. Appellant filed divorce petition under Section 13(1)(1a & 1b) of the Hindu Marriage Act, which was dismissed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Parties are expected to negotiate and reconcile their disputes before seeking divorce.",
+      "held": "Mr.Arvind K.Gupta, learned counsel for the appellant states at the outset that his client is ready and willing to negotiate a settlement with the respondent and even reconcile the disputes for the parties to reunite.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "negotiation",
+        "reconciliation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Mediation can be a useful tool for resolving disputes and avoiding divorce.",
+      "held": "He states that if given a chance, the parties may be able to resolve their disputes through mediation.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "mediation",
+        "dispute resolution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Issue notice to respondent/wife directly and through her counsel, returnable on 21.01.2021.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(1a & 1b)",
+    "matrimonial dispute",
+    "negotiation",
+    "reconciliation",
+    "custody",
+    "child custody",
+    "family court",
+    "condonation of delay",
+    "exemption",
+    "video conferencing",
+    "judgment",
+    "petition",
+    "marriage",
+    "separation",
+    "settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "negotiating settlement in matrimonial disputes",
+    "seeking exemption from court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:10:40.548870"
 }

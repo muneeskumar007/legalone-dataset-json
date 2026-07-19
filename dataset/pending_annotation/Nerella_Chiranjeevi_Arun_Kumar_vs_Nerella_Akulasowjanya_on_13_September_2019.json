@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:59:50.602334",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "C. Praveen Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "XIV Additional District Judge, Krishna, F.C.O.P. No.634 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Nerella Chiranjeevi Arun Kumar, vs Nerella Akulasowjanya on 13 September, 2019",
+  "case_name": "Nerella Chiranjeevi Arun Kumar vs Nerella Akulasowjanya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Nerella Chiranjeevi Arun Kumar (G.P.A. holder)",
+    "respondent_defendant": "Nerella Akulasowjanya",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner sought to set aside dismissal order and restore main petition; G.P.A. holder wants to contest proceedings.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,98 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Court cannot throw out the evidence of a power of attorney on behalf of the principal, which has to be tested on the same lines as any witness subject to the principles under the law of evidence.",
+      "held": "In a given case, if the statement of a power of attorney cannot be relied on as not being a direct evidence, necessary presumption can always be drawn against the party for not coming before the Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "T.C.Mathai v. District and Sessions Judge, Thiruvananthapuram (2003) SCJ Online (AP) 1040"
+      ],
       "keywords": [
-        "TODO"
+        "power of attorney",
+        "law of evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A power of attorney is an authority whereby one is set in the turn, stead, or place of another to act for him.",
+      "held": "In Stroud's 'Judicial Dictionary', power of attorney is described as 'an authority whereby one is set in the turn, stead, or place of another to act for him.'",
+      "applicable_acts_sections": [
+        "Powers of Attorney Act, 1882"
+      ],
+      "cited_cases": [
+        "T.C.Mathai v. District and Sessions Judge, Thiruvananthapuram (2003) SCJ Online (AP) 1040"
+      ],
+      "keywords": [
+        "power of attorney",
+        "authority"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "litigation cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A recognized agent or pleader can make and do appearances, applications and acts on behalf of a party in litigation.",
+      "held": "Rule 1 of Order III contemplates that any appearance, application or act in or to any Court required or authorized by law to be made or done by a party may, except where otherwise expressly provided by any law for the time being in force, be made or done by the party in person, or by his recognized agent, or by a pleader appearing, applying or acting, as the case may be, on his behalf.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "Tukaram, through G.P.A. Holder v. Bheem Rao and others (1999) SCJOnline(SC) 1305"
+      ],
+      "keywords": [
+        "recognized agent",
+        "pleader",
+        "litigation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "litigation cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Allowed the application filed by the petitioner under Order 9 Rule 9 C.P.C. to set aside the dismissal order and to restore the main petition, directing the petitioner to appear in person for reconciliation.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Order 9 Rule 9 C.P.C.",
+    "Article 227 Constitution India",
+    "reconciliation",
+    "GPA holder",
+    "Family Court",
+    "mutual consent divorce",
+    "C.R.P. No.1441",
+    "I.A. No.991",
+    "F.C.O.P. No.634",
+    "dismissal order",
+    "petition proceedings"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for reconciliation",
+    "advising on representation in family court",
+    "assisting with divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:02:47.841707"
 }

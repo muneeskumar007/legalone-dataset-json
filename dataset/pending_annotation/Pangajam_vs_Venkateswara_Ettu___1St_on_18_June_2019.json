@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-07-15T11:00:57.133444",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 3,
     "partition": 5,
@@ -26,13 +26,13 @@
     "A.S.No.335 of 1998",
     "O.S.No.196 of 1989"
   ],
-  "trial_court": "",
+  "trial_court": "Subordinate Court, Tuticorin - O.S.No.196 of 1989",
   "reserved_on": "12.07.2023",
   "delivered_on": "07.08.2023",
   "case_name": "Pangajam vs Venkateswara Ettu : 1St on 18 June, 2019",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Pangajam and others (Appellants/Respondents)",
+    "respondent_defendant": "Venkateswara Ettu and others (1st Respondent/Plaintiff and others)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -67,7 +67,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit for partition filed by plaintiff against father and others; after filing, father died; sisters impleaded as defendants; others claiming to be children or second wife also impleaded.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -77,39 +77,95 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A superseded will cannot be looked into without considering the facts that since the second Will was held to be not proved, the same cannot operate to cancel the earlier Will.",
+      "held": "There is no legal bar or prohibition for the propounder of the Will to fall back on the earlier Will.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Succession Act — Section 63",
+        "Indian Evidence Act — Section 68"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "will",
+        "superseded",
+        "proceeding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party cannot fall back on an earlier will when the last will is not proved.",
+      "held": "The appellants have not taken any steps to prove the Will under Ex.B.16 in accordance with Sections 63 of the Indian Succession Act and under Section 68 of the Indian Evidence Act.",
+      "applicable_acts_sections": [
+        "Indian Succession Act — Section 63",
+        "Indian Evidence Act — Section 68"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "will",
+        "proceeding"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A finding of fact by the trial court is binding on all courts, including this court.",
+      "held": "The learned trial Judge has given a specific finding that the last unregistered Will dated 17.08.1979 has not been proved by the defendants 9 and 10 in accordance with law.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Pangajam vs Venkateswara Ettu, (2019)"
+      ],
+      "keywords": [
+        "finding",
+        "fact"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "appeal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed. The judgment and decree passed in O.S.No.196 of 1989, dated 04.03.1996 on the file of the Subordinate Court, Tuticorin are set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Indian Evidence Act",
+    "Section 96",
+    "Order 41 Rule",
+    "LRs",
+    "deceased",
+    "MADRAS HIGH COURT",
+    "Madurai Bench",
+    "family court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "partition disputes",
+    "family property settlement",
+    "Indian succession laws"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:53:11.965379"
 }

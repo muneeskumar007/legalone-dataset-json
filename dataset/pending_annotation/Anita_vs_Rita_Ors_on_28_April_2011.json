@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T20:32:37.132832",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anita vs Rita & Ors. on 28 April, 2011",
+  "case_name": "Anita vs Rita & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anita — wife",
+    "respondent_defendant": "Rita & Ors. — husband's family",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Shri Jai Rajan Panikar filed for divorce, which was dismissed. He died during appeal. Anita applied for pensionary and other service benefits. Rita and her children claimed they were his wife and children and sought to restrain Anita from withdrawing the benefits.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,78 @@
   ],
   "legal_principles": [
     {
+      "principle": "The appropriate court for moving an application would be the Trial Court and not this Court.",
+      "held": "In my opinion, the appropriate Court for moving the said application would be the Trial Court and not this Court.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "Trial Court",
+        "Appropriate Court"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases",
+        "divorce proceedings"
+      ],
+      "significance": "MEDIUM",
       "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The children, claimed to be of the deceased Sh. Jai Rajan Panikar, if so proved, were entitled to the benefit of Section 16 of the Hindu Marriage Act, 1955.",
+      "held": "The Addl. District Judge held that since the children, claimed to be of the deceased Sh. Jai Rajan Panikar, if so proved, were entitled to the benefit of Section 16 of the Hindu Marriage Act, 1955",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Section 16",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "children",
       "use_in": [
-        "TODO — case types"
+        "family law cases",
+        "inheritance disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Air Force was restrained from releasing the pensionary and other benefits to Anita till the question of whether Rita and her children were the deceased's wife and children was decided.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "petitioner",
+    "respondents",
+    "civil employee",
+    "Indian Air Force",
+    "family pension",
+    "service benefits",
+    "dissolution of marriage",
+    "dismissal of petition",
+    "appeal",
+    "release of family pension",
+    "service benefits",
+    "Latin maxim",
+    "nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on dissolution of marriage",
+    "representing clients in family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:00:54.672601"
 }

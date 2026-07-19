@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:57:52.083493",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Sanjiv Sangwan vs Smt. Sangeeta Sangwan on 7 August, 2007",
+  "case_name": "Mr. Sanjiv Sangwan vs Smt. Sangeeta Sangwan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband, Mr. Sanjiv Sangwan",
+    "respondent_defendant": "wife, Smt. Sangeeta Sangwan",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent were married in 1990. Marriage soured, and they separated. Respondent sought interim maintenance under Section 24 of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A usual tendency is to not truthfully disclose ones income when a dispute surfaces between a husband and a wife.",
+      "held": "As opined in various judicial decisions it is a usual tendency to not truthfully disclose ones income when a dispute surfaces between a husband and a wife.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Bharat Hegde v. Saroj Hegde, (2007) X SCC Y"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "income disclosure",
+        "marital disputes"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The amount of monthly maintenance should aid the applicant to live in a similar life style as he/she enjoyed in the matrimonial home.",
+      "held": "5. The amount should aid the applicant to live in a similar life style as he/she enjoyed in the matrimonial home.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Bharat Hegde v. Saroj Hegde, (2007) X SCC Y"
+      ],
+      "keywords": [
+        "monthly maintenance",
+        "life style"
+      ],
+      "favours": "applicant",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Order dated 26.7.2003 dismissing an application for review was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Section 24",
+    "interim maintenance",
+    "matrimonial dispute",
+    "monthly income",
+    "residential house",
+    "factory income",
+    "defunct factory",
+    "litigation expenses",
+    "family court",
+    "judgment",
+    "review petition",
+    "petitioner",
+    "respondent",
+    "marriage",
+    "separation",
+    "children's education"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "representing clients in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:19:12.009283"
 }

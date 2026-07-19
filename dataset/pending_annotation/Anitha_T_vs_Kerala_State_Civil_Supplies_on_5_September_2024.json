@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T20:32:38.363666",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "partition": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anitha T vs Kerala State Civil Supplies ... on 5 September, 2024",
+  "case_name": "Anitha T vs Kerala State Civil Supplies ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SMT.ANITHA T, AGED 51 YEARS, W/O. LATE C.SREENIVASAN",
+    "respondent_defendant": "1 KERALA STATE CIVIL SUPPLIES CORPORATION LIMITED, 2 TAHSILDAR, PERINTHALMANNA TALUK, MALAPPURAM DISTRICT-679 322, 3 STATE OF KERALA, REPRESENTED BY ITS SECRETARY, DEPARTMENT OF REVENUE, SECRETARIAT, THIRUVANANTHAPURAM-695 001, 4 LEELA K., KOLOTHODI HOUSE, VADAKKANGARA P.O., MALAPPURAM DISTRICT-676 324",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner married C.Sreenivasan on 08.10.1983 as per the Hindu rites and customs. A daughter was born in the wedlock on 18.08.1984.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu marriage solemnised under the Act can only be dissolved on any of the grounds specified under the Act.",
+      "held": "Till the time a Hindu marriage is dissolved under the Act none of the spouses can contract second marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Sarla Mudgal's case"
+      ],
       "keywords": [
-        "TODO"
+        "Hindu marriage",
+        "dissolution",
+        "grounds",
+        "Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Conversion to Islam and marrying again would not, by itself, dissolve the Hindu marriage under the Act.",
+      "held": "The second marriage by a convert would therefore be in violation of the Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Sarla Mudgal's case"
+      ],
+      "keywords": [
+        "conversion",
+        "Islam",
+        "marriage",
+        "violation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The Court directed the 1st respondent to release and make payment of the terminal/pension benefits of her deceased husband, expeditiously.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "no fault divorce",
+    "Kerala High Court",
+    "family law",
+    "matrimonial disputes",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property settlement",
+    "separation",
+    "annulment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act, 1955",
+    "advising on maintenance and custody in a matrimonial dispute",
+    "assisting with property settlement in a separation case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:01:46.241739"
 }

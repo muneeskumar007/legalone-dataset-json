@@ -121,21 +121,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The rights of a daughter are equal to those of a male member in coparcenary properties.",
+      "held": "Her rights would be subject to the same rights and liabilities as that of a person on partition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "AIR 2004 SC 68",
+        "Padmavathi vs Smt. Jayamma (2020)"
+      ],
       "keywords": [
-        "TODO"
+        "coparcenary",
+        "partition",
+        "daughter's rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition suits",
+        "succession disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A coparcenary property ceases to be joint family property on the death of a coparcener.",
+      "held": "The other coparceners and his widow held the property as tenants in common and not joint tenants.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [
+        "Padmavathi vs Smt. Jayamma (2020)"
+      ],
+      "keywords": [
+        "coparcenary",
+        "joint family",
+        "tenants in common"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession disputes",
+        "partition suits"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A partition suit cannot be filed during the lifetime of a coparcener.",
+      "held": "The Suit itself was not maintainable since, at the time when the Suit was filed, 2nd Defendant was alive.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [
+        "AIR 2004 SC 68"
+      ],
+      "keywords": [
+        "partition suit",
+        "coparcener's lifetime"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition suits",
+        "succession disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The share of a daughter in coparcenary properties is the same as that of a son.",
+      "held": "Her rights would be subject to the same rights and liabilities as that of a person on partition.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [
+        "AIR 2004 SC 68",
+        "Padmavathi vs Smt. Jayamma (2020)"
+      ],
+      "keywords": [
+        "coparcenary",
+        "daughter's rights",
+        "son's rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition suits",
+        "succession disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
@@ -145,15 +217,40 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Code of Civil Procedure",
+    "1908",
+    "Code of Criminal Procedure",
+    "1973",
+    "RFA",
+    "CROB",
+    "family court",
+    "property division",
+    "joint family",
+    "coparceners",
+    "partition suit",
+    " Hindu law",
+    "family settlement",
+    "agreement",
+    "consent",
+    "mutual consent",
+    "partition deed",
+    "family property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition agreements",
+    "advising on family settlements",
+    "representing clients in RFA/CROB proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:41:23.732234"
 }

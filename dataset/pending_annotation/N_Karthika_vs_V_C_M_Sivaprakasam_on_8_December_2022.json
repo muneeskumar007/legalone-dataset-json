@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:59:59.543153",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "M.P.No.1126 of 2022",
     "M.P.No.1127 of 2022"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Salem (HMOP No.141 of 2022 and GOP No.362 of 2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "N.Karthika vs V.C.M.Sivaprakasam on 8 December, 2022",
+  "case_name": "N.Karthika vs V.C.M.Sivaprakasam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "N.Karthika (wife)",
+    "respondent_defendant": "V.C.M.Sivaprakasam (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is wife who is unemployed and living with parents. She has two minor children with respondent. She wants to transfer case from Family Court at Salem to Namakkal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,118 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The place of the wife is her choice for conducting trial in matrimonial cases.",
+      "held": "The Courts have consistently held that the place of the wife is the choice for conducting trial in matrimonial cases.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial cases",
+        "wife's choice",
+        "conducting trial"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The place of wife is to be preferred for conducting trial in matrimonial cases.",
+      "held": "The Apex Court also held that the place of wife is to be preferred for conducting trial in matrimonial cases.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "matrimonial cases",
+        "wife's preference",
+        "conducting trial"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The residence of the wife determines the question of jurisdiction in matrimonial cases.",
+      "held": "It is the residence of the wife, which determines the question of jurisdiction, in case the proceeding was initiated at the instance of the wife.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "jurisdiction",
+        "wife's residence",
+        "matrimonial cases"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The place of wife is the choice for conducting trial in matrimonial cases, and courts should give a meaningful interpretation to beneficial provisions meant for women.",
+      "held": "Therefore, this Court is of an opinion that both the cases filed by the respondent before the Family Court at Salem is to be transferred.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "matrimonial cases",
+        "wife's choice",
+        "beneficial provisions"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Case transferred from Family Court, Salem to Family Court, Namakkal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "transfer petition",
+    "Section 24",
+    "Civil Procedure Code",
+    "Family Judge",
+    "Namakkal",
+    "Salem",
+    "HMOP No.141/2022",
+    "GOP No.362/2022",
+    "Tr.C.M.P.Nos.1126 & 1127 of 2022",
+    "Indian Kanoon",
+    "indiankanoon.org"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting transfer petition under Section 24",
+    "using Indian Kanoon for divorce cases",
+    "practical application of Hindu Marriage Act, 1955"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:10:31.085789"
 }

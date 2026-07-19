@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-07-15T10:56:37.275136",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "custody": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Monika Goyal And Ors vs State Of Punjab And Ors on 19 May, 2017",
+  "case_name": "Monika Goyal And Ors vs State Of Punjab And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Monika Goyal and others (examinees)",
+    "respondent_defendant": "State of Punjab and others (Punjab Civil Service (Judicial))",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Various examinees who had appeared at the Preliminary Examination for selection to the Punjab Civil Service (Judicial) on 15.1.2017 are aggrieved with both the Final Answer Key and the Result declared by the Commission.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,96 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Right to foreclosure belongs to the mortgagee and not the mortgagor.",
+      "held": "Only a mortgagee can apply for foreclosure on expiry of mortgage period. Right to redemption comes to an end only by the action of mortgagee when he secures orders for sale or foreclosure.",
       "applicable_acts_sections": [
-        "TODO"
+        "Transfer of Property Act — Section 60"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mortgage",
+        "foreclosure",
+        "redemption"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Right to redemption under Section 60 of Transfer of Property Act cannot be abolished or abrogated by the parties.",
+      "held": "Once a mortgage, is always a mortgage. Right to redemption comes to an end only by the action of mortgagee when he secures orders for sale or foreclosure.",
+      "applicable_acts_sections": [
+        "Transfer of Property Act — Section 60"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mortgage",
+        "redemption"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Right to foreclosure is subject to contract to the contrary between the parties.",
+      "held": "Section 67 of Transfer of Property Act clearly makes right to foreclosure subject to contract to the contrary between the parties which means they can by agreement abrogate the right of foreclosure.",
+      "applicable_acts_sections": [
+        "Transfer of Property Act — Section 67"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mortgage",
+        "foreclosure",
+        "contract"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "Indian Evidence Act",
+    "Transfer of Property Act",
+    "Punjab Public Service Commission",
+    "Punjab and Haryana High Court",
+    "Chandigarh",
+    "High Court of Punjab and Haryana",
+    "CWP",
+    "petitioners",
+    "respondents",
+    "judgment",
+    "verdict",
+    "appeal",
+    "murder_criminal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against murder conviction",
+    "preparing petition for bail in criminal case",
+    "researching legal precedents on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:57:01.823808"
 }

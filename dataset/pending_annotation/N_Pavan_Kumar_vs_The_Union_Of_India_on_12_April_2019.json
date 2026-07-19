@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T11:00:03.112254",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 2,
     "custody": 3,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "N. Pavan Kumar vs The Union Of India on 12 April, 2019",
+  "case_name": "N. Pavan Kumar vs The Union Of India",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "N. Pavan Kumar, Father",
+    "respondent_defendant": "The Union Of India, Respondents 1-12",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is seeking a writ of habeas corpus to produce the ward N. Jainarayan Sai before this Honble Court and return the child to his habitual residence in Tirupati, A.P., India.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Courts in the U.S. alone get jurisdiction to decide the custody of a child.",
+      "held": "It is pleaded that the Courts in U.S. alone gets jurisdiction to decide the custody of the child and that any order passed by the Court in India will not be binding on the 12th respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "V.Rauichandran (Dr.) v. Ulr-io'r. o.f India, (2019)"
+      ],
+      "keywords": [
+        "jurisdiction",
+        "custody",
+        "child",
+        "U.S.",
+        "India"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases",
+        "divorce proceedings"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court's order is binding on the parties to the case.",
+      "held": "The order granting divorce by USA on 21.I.2016 clearly required both parties, parental time in USA, which, according to the 12th respondent, is violated by the petitioner.",
+      "applicable_acts_sections": [
+        "Specific Relief Act, 1963"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "court order",
+        "binding",
+        "parties"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases",
+        "divorce proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The court directed Respondent Nos. 1-12 to produce the ward N. Jainarayan Sai before this Honble Court and return the child to his habitual residence in Tirupati, A.P., India.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "custody",
+    "Code of Civil Procedure",
+    "Specific Relief Act",
+    "High Court",
+    "Andhra Pradesh",
+    "Union Of India",
+    "Ministry of Home Affairs",
+    "Ministry of Externat Affairs",
+    "Consular",
+    "Extradition",
+    "Legal",
+    "Home Secretary",
+    "Principal Home Secretary",
+    "Additional DirectorGeneral Of police",
+    "Superintendent of police",
+    "Circre rnspector",
+    "Assistant Director",
+    "Under Secretary",
+    "Bureau of Investigation",
+    "New Delhi",
+    "Tirupati",
+    "Andhra Pradesh"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting custody petitions",
+    "advising on specific relief acts",
+    "representing clients in high court cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:12:50.290223"
 }

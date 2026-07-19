@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:57:33.919688",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Sibo Sankar Mishra J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned J.M.F.C. (LR), Bhubaneswar",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrutunjaya Swain & Others vs State Of Odisha & Another .... Opp. ... on 30 January, 2025",
+  "case_name": "Mrutunjaya Swain & Others vs State Of Odisha & Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mrutunjaya Swain & others (husband, in-laws)",
+    "respondent_defendant": "State of Odisha & another (wife, opposite party No.2)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife reported at Mancheswar P.S. alleging dowry demand and torture; F.I.R. registered; charge sheet filed; trial court took cognizance; parties settled dispute; petitioners seek quashing of criminal prosecution.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A decree of divorce by mutual consent dissolves the marriage.",
+      "held": "it is humbly submitted that the marriage between the Petitioner no.1 and Opp. Party no.2 has been dissolved by a decree of divorce by mutual consent of learned Judge, Family Court, Bhubaneswar in Civil Proceeding No.692 of 2021.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "mutual consent",
+        "marriage dissolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A criminal proceeding pending against a person cannot be quashed without considering the merits of the case.",
+      "held": "Opp. Party no.2 humbly submits that she has no objections to the prayer of the petitioners in this present case for a direction of this Hon'ble Court for quashing of the order of cognizance and the criminal proceeding pending against the petitioners...",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Mrutunjaya Swain & Others vs State Of Odisha & Another, (2025)"
+      ],
+      "keywords": [
+        "quash",
+        "criminal proceeding",
+        "merits of the case"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage between the petitioner No.1 and the opposite party No.2 was dissolved by mutual consent under Section 13-B of the Hindu Marriage Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498-A IPC",
+    "dowry demand",
+    "torture",
+    "marriage",
+    "in-laws",
+    "domestic violence",
+    "Section 4 D.P. Act",
+    "Sections 294/506/34 IPC",
+    "F.I.R.",
+    "charge sheet",
+    "investigation",
+    "Mancheswar P.S.",
+    "Bhubaneswar J.M.F.C.",
+    "LR",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "responding to a domestic violence charge",
+    "advising on dowry-related issues"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:52:51.246246"
 }

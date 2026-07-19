@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:01:05.973782",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court in Execution Petition No. 23/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Parikshit Sahebrao Thakre Thr. Poa Mr. ... vs Poonam Parikshit Thakre on 11 August, 2022",
+  "case_name": "Parikshit Sahebrao Thakre Thr. Poa Mr. ... vs Poonam Parikshit Thakre",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner husband",
+    "respondent_defendant": "Respondent lady (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties filed joint petition for divorce under Section 13(B) of the Hindu Marriage Act. They arrived at settlement terms and the Family Court passed a divorce decree with a rider that the petitioner husband would pay monthly maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The Executive Court cannot directly issue an arrest warrant.",
+      "held": "It is submitted that there is no source of power for the Executive Court to directly issue the arrest warrant.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "2wp546.22"
       ],
+      "keywords": [
+        "arrest warrant",
+        "Executive Court",
+        "power"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A divorce decree's terms, including maintenance, do not survive remarriage.",
+      "held": "The term of providing maintenance would not survive, for which the petitioner has filed proceeding for revocation of a divorce decree in particular term of providing the maintenance.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce decree",
+        "maintenance",
+        "remarriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The execution of the impugned order stands stayed, provided the petitioner complies with his undertaking to deposit 50% amount of arrears within two weeks.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(B)",
+    "maintenance",
+    "arrears",
+    "warrant of arrest",
+    "Family Court",
+    "joint petition",
+    "settlement terms",
+    "monthly payment",
+    "August 2019",
+    "Latin maxim",
+    "nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance payments",
+    "appealing Family Court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T22:02:59.626391"
 }

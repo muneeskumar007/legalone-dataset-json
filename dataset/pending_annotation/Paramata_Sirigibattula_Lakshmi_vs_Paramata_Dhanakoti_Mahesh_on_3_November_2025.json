@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:00:59.724691",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -24,13 +24,13 @@
     "S.R.No.121182 of 2025",
     "O.P.No.111 of 2024"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge, Kothapeta, and Court of Senior Civil Judge, Bhimavaram",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Paramata Sirigibattula Lakshmi ... vs Paramata Dhanakoti Mahesh, on 3 November, 2025",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Paramata @ Sirigibattula Lakshmi Prasanna, W/O. Dhanakoti Mahesh",
+    "respondent_defendant": "Paramata Dhanakoti Mahesh, S/o. Lakshman Rao",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a petition under Section 24 of the C.P.C. seeking withdrawal of H.M.O.P. No. 111 of 2024 and transfer it to the Court of Senior Civil Judge, Bhimavaram.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -79,39 +79,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Service is held sufficient when there is no representation on behalf of the respondent.",
+      "held": "Though notice has been served, there is no representation on behalf of the respondent. Therefore, service is held sufficient.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "service",
+        "notice",
+        "representation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A petitioner seeking withdrawal of a petition and transfer to another court must demonstrate sufficient reason.",
+      "held": "The material on record prima facie shows that, in view of the matrimonial disputes between the spouses, the petitioner/wife has been residing separately along with her child at her parents' house in Cherukumilli Village.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition",
+        "withdrawal",
+        "transfer"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The High Court ordered the withdrawal of H.M.O.P. No. 111 of 2024 and its transfer to the Court of Senior Civil Judge, Bhimavaram.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Section 24",
+    "Section 151",
+    "stay",
+    "withdrawal",
+    "transfer",
+    "trial",
+    "disposal",
+    "Senior Division",
+    "Kothapet",
+    "Bhimavaram",
+    "petition",
+    "affidavit",
+    "High Court",
+    "CPC",
+    "HMA",
+    "Indian Penal Code",
+    "Specific Relief Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "requesting stay of proceedings",
+    "transferring cases between courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:57:46.484016"
 }

@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:56:11.489716",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 3,
@@ -24,13 +24,13 @@
     "Mridul Kumar Kalita Judgment J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "learned District Judge, Baksa, Mushalpur in T.S.(M) No. 08/2020",
   "reserved_on": "",
   "delivered_on": "10.09.2024",
-  "case_name": "Mat App  55 2023 on 29 May 2026",
+  "case_name": "Sangita Roy v. Kuldip Lahkar — Mat.App./55/2023",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sangita Roy, wife",
+    "respondent_defendant": "Kuldip Lahkar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant and respondent were married on 21.01.2016. A girl child was born out of the wedlock on 05.01.2018. The parties had continuous matrimonial discord, and the appellant left her matrimonial home on 09.08.2020. The respondent sought dissolution of marriage under Section 13(1)(i-a) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The fact of filing cases cannot be regarded as 'cruelty' within the meaning given to the phrase under Section 13(1)(i-a) of the Hindu Marriage Act, 1955.",
+      "held": "Merely the fact of filing cases cannot be regarded as 'cruelty'.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [
+        "Anurag Mittal Vs. Shaily Mishra Mittal, (2018)9 SCC 691"
+      ],
+      "keywords": [
+        "cruelty",
+        "filing cases",
+        "Hindu Marriage Act"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage during the pendency of an appeal is not lawful and shall have to be treated as illegal.",
+      "held": "By marrying during the pendency of this appeal, the respondent has violated the provision of Section 15 of the Hindu Marriage Act, 1955.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 15"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "pendency of an appeal",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "appeal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The prayer of dissolution of marriage between the appellant and the respondent made by the present respondent under Section 13(1),(i-a) of the Hindu Marriage Act, 1955 was not allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i-a)",
+    "dissolution of marriage",
+    "matrimonial dispute",
+    "family law",
+    "marriage annulment",
+    "nullity of marriage",
+    "grounds for divorce",
+    "irretrievable breakdown",
+    "separation",
+    "maintenance",
+    "alimony",
+    "property settlement",
+    "custody",
+    "guardianship",
+    "matrimonial property",
+    "joint family",
+    "separate property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on grounds for divorce",
+    "negotiating property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:26:51.541710"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:00:50.492054",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Devashis Baruah J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of the learned District Judge, Karimganj (Title Suit No.5/2023)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Page No.# 1/5 vs Shri Kantish Dutta on 14 May, 2025",
+  "case_name": "Rupashree Dutta v. Shri Kantish Dutta — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rupashree Dutta, wife",
+    "respondent_defendant": "Shri Kantish Dutta, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -64,7 +64,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner married to respondent in 2018, started conjugal life at Lalarchak village. After birth of girl child, differences arose and respondent's family members tortured petitioner due to gender preference. Petitioner was driven out of matrimonial home on 02.09.2022.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -74,39 +74,60 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A petitioner's inability to travel due to distance and time constraints may be a valid ground for seeking relief.",
+      "held": "Considering the above and also taking into account that the petitioner is a lady and she would have to travel 10 hours in a day from Gharmura village, Hailakandi by bus to Karimganj alone.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "petitioner",
+        "travel",
+        "distance",
+        "time constraints"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "domestic violence cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Application under Section 24 of the Code of Civil Procedure, 1908 for transfer of Title Suit (Restitution) Case No.5/2023 pending before the Court of the learned District Judge, Karimganj to the Court of the learned District Judge, Hailakandi.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Protection of Women from DV Act",
+    "Section 24",
+    "Title Suit",
+    "Restitution",
+    "matrimonial home",
+    "conjugal life",
+    "Indian Kanoon",
+    "GAUHATI HIGH COURT",
+    "Assam",
+    "Nagaland",
+    "Mizoram",
+    "Arunachal Pradesh",
+    "Karimganj district",
+    "Hailakandi district"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing for family court hearing",
+    "advising on matrimonial property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:47:26.698222"
 }

@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T10:57:40.118652",
   "domain": "will_succession",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Joint Civil Judge, Senior Division, Sangli (Misc. Application Nos. 168 of 2003 and 131 of 2006)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr.Draupadaa@Draupadi Jaydeo ... vs Smt. Indubai D/O. Kashinath Shivram ... on 10 February, 2016",
+  "case_name": "Mr.Draupadaa@Draupadi Jaydeo ... vs Smt. Indubai D/O. Kashinath Shivram ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Draupada @ Draupadi Jaydeo Pawar and Others",
+    "respondent_defendant": "Indubai d/o. Kashinath Shivram Chavan and Another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Draupada and Indubai both claimed to be wives of the deceased Jaydeo Pawar. Draupada applied for Letters of Administration and claimed that Jaydeo had married her in 1979, while Indubai claimed their marriage was solemnized in 1981. The trial court decided in favour of Indubai's maintenance application under Section 125 of Code of Criminal Procedure.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The silence of a party about a fact cannot be given any weightage and can be considered as a circumstance against that party.",
+      "held": "Thus, silence of Jaydeo about his first marriage with Draupada in the written statement cannot be given any weightage and a circumstance against Draupada.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "silence",
+        "weightage",
+        "circumstance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The fact of a marriage can be proved by evidence and not just mere denials.",
+      "held": "His evidence could not be dislodged in the cross-examination by putting mere denials.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "mere denials"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "marriage cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the judgment and order dated 17th February, 2010 passed by the Joint Civil Judge, Senior Division, Sangli is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Succession",
+    "Heirship",
+    "Certificate",
+    "Joint Civil Judge",
+    "Senior Division",
+    "Sangli",
+    "Misc. Application",
+    "Wife",
+    "Deceased",
+    "Jaydeo Pawar",
+    "Marriage",
+    "Solomon's Dilemma"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "succession disputes",
+    "heirship certificate"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:06:30.994364"
 }

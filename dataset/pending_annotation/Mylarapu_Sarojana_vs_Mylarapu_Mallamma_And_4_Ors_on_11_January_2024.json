@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:58:31.849733",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -26,13 +26,13 @@
     "O.P.No.373 of 2001",
     "O.P.No.559 of 2000"
   ],
-  "trial_court": "",
+  "trial_court": "III Additional District Judge at Karimnagar, O.P.No.414 of 2007",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mylarapu Sarojana vs Mylarapu Mallamma And 4 Ors on 11 January, 2024",
+  "case_name": "Mylarapu Sarojana vs Mylarapu Mallamma And 4 Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mylarapu Sarojana, wife of deceased",
+    "respondent_defendant": "Mylarapu Mallamma And 4 Ors",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed application under Section 372 of Indian Succession Act for issuance of succession certificate and payment of death benefits to her husband's tune of Rs.3,09,371/-.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A customary divorce must be signed by both spouses.",
+      "held": "The learned III Additional District Judge at Karimnagar in the impugned order at page No.10 and paragraph No.17 has clearly stated that even according to the customs prevailing in the community, a customary divorce must be signed by both the spouses but in Ex.B1 there is no signature of deceased.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "customary divorce",
+        "signature"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The thumb impression of an illiterate person must be subscribed on a document.",
+      "held": "But surprisingly, in Ex.B1 the name of the petitioner was written as if she is a literate. Further, a mere name as 'Mallamma' was written and her surname was also not mentioned.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "thumb impression",
+        "illiterate"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving illiterates"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order was set aside and the succession certificate granted in favour of respondent No.1 was revoked.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 372",
+    "Indian Succession Act",
+    "succession certificate",
+    "death benefits",
+    "nominee",
+    "terminal benefits",
+    "sole legal heir",
+    "family court",
+    "civil miscellaneous appeal",
+    "judgment",
+    "appeal",
+    "set aside",
+    "impugned order",
+    "District Judge",
+    "Karimnagar"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce appeal",
+    "guidelines for filing a civil miscellaneous appeal",
+    "practical tips for setting aside an impugned order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:09:35.972387"
 }

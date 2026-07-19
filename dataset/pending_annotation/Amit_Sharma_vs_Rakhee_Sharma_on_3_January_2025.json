@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T20:32:18.964482",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Puneet Gupta J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge (Matrimonial Cases), Jammu, RP No. 116/2022",
   "reserved_on": "",
   "delivered_on": "03.01.2025",
-  "case_name": "Amit Sharma vs Rakhee Sharma on 3 January, 2025",
+  "case_name": "Amit Sharma vs Rakhee Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amit Sharma, husband, plaintiff",
+    "respondent_defendant": "Rakhee Sharma, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit filed by Amit Sharma against Rakhee Sharma under Section 13 of the Jammu and Kashmir Hindu Marriage Act. Suit was initially dismissed as the adulterer was not impleaded. Review petition filed and appeal allowed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,116 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party must plead all grounds for divorce in the suit.",
+      "held": "The plaintiff had not pleaded adultery as a ground for divorce in the case filed by the husband as is evident from the averments made in the suit.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "pleading",
+        "grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court must decide on the issue of cruelty independently.",
+      "held": "The issue of cruelty could be determined independently in view of what had been pleaded and irrespective of the issue of adultery framed by the trial court.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1980"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "independence",
+        "deciding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party must raise the inapplicability of a rule when the appeal is heard.",
+      "held": "The petitioner should have raised the inapplicability of Rule 10 when the appeal was heard.",
+      "applicable_acts_sections": [
+        "General Clauses Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "appeal",
+        "rule",
+        "inapplicability"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeals"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A court must consider the applicability of rules in the context of the relevant Act.",
+      "held": "The applicability of 1970 Rules or more specifically Rule 10 of 1970 Rules if mandatorily continues to be applicable under the new Act of 1980 though the Rule was made under 1955 Act requires determination.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1980",
+        "General Clauses Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "rules",
+        "applicability",
+        "context"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Suit to be heard on merits without being influenced by earlier observations.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "adultery",
+    "implead",
+    "review petition",
+    "judgment and decree",
+    "matrimonial cases",
+    "Jammu and Kashmir",
+    "Indian Kanoon",
+    "Latin maxim",
+    "actus reus",
+    "mens rea",
+    "marriage dissolution",
+    "spousal rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "reviewing judgments and decrees"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:40:04.555471"
 }

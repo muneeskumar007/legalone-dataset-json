@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T20:32:17.638660",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 3,
@@ -23,13 +23,13 @@
     "Shalinder Kaur J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Patiala House Court, Delhi (CM(M) 2003/2024)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amit Katyal vs Henna Alaggh on 29 February, 2024",
+  "case_name": "Amit Katyal vs Henna Alaggh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amit Katyal, husband",
+    "respondent_defendant": "Henna Alaggh, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed petition under Article 227 of the Constitution to impugn order granting ad-interim maintenance to respondent/wife. Petitioner was in judicial custody and later released on interim bail.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking maintenance to establish their entitlement thereto.",
+      "held": "Moreso, the respondent is being deprived of her legal right creating unmerciful circumstances for her.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "entitlement",
+        "deprivation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to file income and liability affidavits can be considered in determining their maintenance obligations.",
+      "held": "the petitioner has failed to file his income and liability affidavits before the learned Judge, Family Court",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "income",
+        "liability",
+        "affidavits",
+        "maintenance obligations"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order stands disposed of, subject to all just exceptions.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Section 24",
+    "ad-interim maintenance",
+    "Family Court",
+    "petition",
+    "Article 227",
+    "Constitution of India",
+    "Section 12(1)(a)",
+    "Section 12(1)(c)",
+    "HMA",
+    "Code of Civil Procedure",
+    "Code of Criminal Procedure",
+    "Specific Relief Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance applications",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:36:25.778532"
 }

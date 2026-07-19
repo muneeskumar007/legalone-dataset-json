@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:02:09.264384",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -26,13 +26,13 @@
     "M.P.No.764 of 2022",
     "M.P.No.13069 of 2022"
   ],
-  "trial_court": "",
+  "trial_court": "Sub Court at Poonamallee, HMOP No.788 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "P.Geetha vs V.Kirubaharan on 22 December, 2022",
+  "case_name": "P.Geetha vs V.Kirubaharan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P.Geetha (wife)",
+    "respondent_defendant": "V.Kirubaharan (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2020 and have a 11-month-old child. The husband filed for dissolution of marriage, but the wife is unable to travel from Tiruchirappalli to contest the case. She also seeks interim maintenance for her child.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,118 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parents are duty bound to maintain their minor children.",
+      "held": "The 11 months old female child has to be taken care of by the father, who is the natural guardian and an earning member.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "minor children",
+        "maintenance",
+        "natural guardian"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Courts are bound to consider grant of Interim Maintenance in the interest of the minor children and to protect their livelihood.",
+      "held": "For grant of Interim Maintenance to the minor children, no application is required. Even in the absence of any application, the Courts are bound to consider grant of Interim Maintenance in the interest of the minor children and to protect their livelihood, which is the Fundamental Right to life under Article 21 of the Constitution of India.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Interim Maintenance",
+        "minor children",
+        "livelihood"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Maintenance is dependent upon factual situations; the Court should mould the claim for maintenance based on various factors brought before it.",
+      "held": "Maintenance is dependent upon factual situations; the Court should mould the claim for maintenance based on various factors brought before it. The courts have held that if the wife is earning, it cannot operate as a bar from being awarded maintenance by the husband.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "factual situations"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The obligation of the husband to provide maintenance stands on a higher pedestal than the wife.",
+      "held": "The obligation of the husband to provide maintenance stands on a higher pedestal than the wife.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "husband",
+        "wife"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The respondent was directed to pay a sum of Rs.5,000/- towards Interim Maintenance to be paid to the petitioner for the purpose of maintenance of the minor child.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "family court",
+    "transfer petition",
+    "civil miscellaneous petition",
+    "Section 24",
+    "sub court",
+    "Poonamallee",
+    "Tiruchirappalli",
+    "marriage",
+    "custody",
+    "child",
+    "separation",
+    "misunderstanding",
+    "petitioner",
+    "respondent",
+    "Family Court",
+    "HMOP"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition for divorce case",
+    "advising on jurisdiction of family court",
+    "preparing a petition for custody dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:27:46.696000"
 }

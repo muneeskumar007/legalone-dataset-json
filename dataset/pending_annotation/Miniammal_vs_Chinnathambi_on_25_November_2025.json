@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T10:56:22.165164",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 4,
@@ -27,13 +27,13 @@
     "O.S.No.24 of 2000",
     "A.S.No.20 of 2012"
   ],
-  "trial_court": "",
+  "trial_court": "Sub Court, Mettur (A.S.No.20 of 2012) and District Munsif Court, Mettur (O.S.No.24 of 2000)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Miniammal vs Chinnathambi on 25 November, 2025",
+  "case_name": "Miniammal vs Chinnathambi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Miniammal, Rajendran, Lakshmanan, Dayanithi, Ramadevi, Selvi, Nirmala, Chandra, Mangayarkarasi (all are residing at Kuppanna Gounder Street, Karumalaikoodal Mettur Dam R.S.2, Mettur Taluk, Salem District)",
+    "respondent_defendant": "Chinnathambi, Govindan, Irusayee, Periya Irusayee, Saroja, Lakshmi",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit property originally belonged to Palaniappa gounder by way of a registered Sale Deed. He had two wives and died in 1986. Prior to him, his wife Arayee died in 1984. The suit was filed challenging the judgment and decree passed by the trial Court/District Munsif Court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When a male Hindu inherits property from his wife who died intestate, the property should revert back to her line of succession as contemplated under Section 15(1)(a) of the Hindu Succession Act.",
+      "held": "At the time of admitting the appeal, this Court formulated the following substantial questions of law: (a) When a male Hindu inherits property from his wife who died intestate, then, after his death, whether this property should revert back to his wife's line succession as contemplated under Section 15(1)(a) of the Hindu Succession Act or should succession operate under Section 8 of the said Act?",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act — Section 15(1)(a)",
+        "Hindu Succession Act — Section 8"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "inheritance",
+        "intestate",
+        "succession"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A plaintiff must prove the second marriage of Palaniappa Gounder to claim shares over his properties.",
+      "held": "However, the plaintiff has failed to prove the second marriage of Palaniappa Gounder and therefore, without proving the 2nd marriage, either the plaintiff or the defendants 9 to 13 are not entitled to the shares over the properties of said Palaniappa Gounder.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 16"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "second marriage",
+        "proof",
+        "shares"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "marriage cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order modified the earlier judgments and decrees.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Code of Civil Procedure",
+    "Section 100",
+    "SA No. 651",
+    "M.P.No.1",
+    "Miniammal",
+    "Chinnathambi",
+    "Irusa Gounder",
+    "Kuppanna Gounder",
+    "Karumalaikodal",
+    "Mettur Taluk",
+    "Salem District",
+    "Indian Kanoon",
+    "Section 12"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition petitions",
+    "advising on Hindu Marriage Act and Hindu Succession Act",
+    "guiding clients through Code of Civil Procedure"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:42:28.205003"
 }

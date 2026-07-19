@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:59:58.677373",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "S.B. Jalna Police Station, Jalna for the offence punishable under Sections 498-A, 323 read with Section 34 of the Indian Penal Code",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Nitin S/O. Motilal Patte And Anr vs The State Of Maharashtra And Anr on 29 November, 2022",
+  "case_name": "Nitin S/O. Motilal Patte And Anr vs The State Of Maharashtra And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Nitin S/o Motilal Patte, Manisha W/o Nitin Patte",
+    "respondent_defendant": "The State of Maharashtra, Manisha W/o Sachin Patte",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Accused persons filed applications to quash proceedings arising out of matrimonial dispute. Parties settled their dispute amicably and informant does not want to prosecute matter.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may exercise its inherent powers to quash proceedings if the parties have settled their dispute amicably.",
+      "held": "Since the First Information Report as well as the CRIA1561.19 proceedings were arising out of the matrimonial dispute and the husband and the wife have settled their dispute amicably, case is made out for exercise of inherent powers of this Court under Section 482 of the Code of Criminal Procedure.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "inherent powers",
+        "quash proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "matrimonial disputes",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the court to exercise its inherent powers judiciously and not arbitrarily.",
+      "held": "Hence, we pass following order:-",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 482"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "inherent powers",
+        "judicial discretion",
+        "burden on court"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial disputes",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Criminal Application No.1561 of 2019 and Criminal Application No.2336 of 2022 stand allowed. First Information Report vide Crime No.190 of 2019 registered with S.B. Jalna Police Station, Jalna for the offence punishable under Sections 498-A, 323 read with Section 34 of the Indian Penal Code and the proceedings before the learned Chief Judicial Magistrate, Jalna, arising out of the said First Information Report, bearing Criminal M.A. No.922 of 2020, stand quashed and set aside as against the accused persons.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Specific Relief Act",
+    "Criminal Application",
+    "High Court of Judicature at Bombay",
+    "Bench at Aurangabad",
+    "Criminal Proceedings",
+    "Accused persons",
+    "Crime No.190",
+    "Sections 49",
+    "Offence punishable",
+    "Marriage dissolution",
+    "Matrimonial disputes",
+    "Family law",
+    "Indian Kanoon",
+    "Legal principles"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing accused in criminal proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:16:36.338445"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:01:06.058336",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "land_acquisition": 1,
@@ -20,13 +20,13 @@
     "That J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sub-Divisional Judicial Magistrate, Kharar vide his order copy of which is Annexure P/2",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Parkash Singh vs Santosh Kaur on 26 November, 1993",
+  "case_name": "Parkash Singh vs Santosh Kaur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Parkash Singh (husband)",
+    "respondent_defendant": "Santosh Kaur (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Santosh Kaur filed complaint under Sections 406 and 498A I.P.C. against her husband Parkash Singh alleging that they had misappropriated her dowry articles and had also treated her with cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When parties effect a compromise, it is in the interest of justice to quash proceedings.",
+      "held": "Since the matter had been amicably settled by the parties and the respondent did not want to pursue the complaint, it will be in the interest of justice that the complaint as well as the proceedings are quashed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "amicable settlement",
+        "interest of justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A respondent's statement in a divorce petition can be used as evidence.",
+      "held": "The statement of Santosh Kaur recorded in a petition under Section 13 of the Hindu Marriage Act dated 21.8.1993 shows that she did not intend to pursue the complaint and she offered to withdraw it.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce petition",
+        "respondent's statement",
+        "evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The complaint as well as the proceedings are quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "dowry",
+    "cruelty",
+    "misappropriation",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Specific Relief Act",
+    "quashing",
+    "prima facie",
+    "false allegations",
+    "harassment",
+    "family members",
+    "compromise",
+    "decree of divorce",
+    "Section 406 I.P.C.",
+    "Section 498A I.P.C.",
+    "Section 34 I.P.C.",
+    "Section 482 Code of Criminal Procedure",
+    "Section 13 Hindu Marriage Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing a complaint under Section 482 Code of Criminal Procedure",
+    "advising on the implications of false allegations in a divorce case",
+    "assisting with a compromise decree of divorce under Section 13 Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T22:03:42.508928"
 }

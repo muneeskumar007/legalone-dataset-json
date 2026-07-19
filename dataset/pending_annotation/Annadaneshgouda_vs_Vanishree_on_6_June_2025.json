@@ -7,7 +7,7 @@
   "total_pages": 34,
   "extracted_at": "2026-07-15T20:32:43.445926",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 4,
@@ -31,8 +31,8 @@
   "delivered_on": "",
   "case_name": "Annadaneshgouda vs Vanishree on 6 June, 2025",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Annadaneshgouda (husband), Kumari Tejaswini (daughter), Kumar Rajendragouda (son)",
+    "respondent_defendant": "Vanishree, Sulochna, Veeranagouda, Uma, Nataraj, Rajashekhara",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -72,7 +72,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife, their children, and other relatives. The case is about partition of property.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -82,39 +82,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A finding which conclusively determines the legal status of a party constitutes a decree within the meaning of Section 2(2) of the Code of Civil Procedure, especially when such a finding affects the substantive rights of the parties and forms an integral part of the final adjudication.",
+      "held": "It is a settled principle of law that a finding which conclusively determines the legal status of a party such as marital status constitutes a decree within the meaning of Section 2(2) of the Code of Civil Procedure, especially when such a finding affects the substantive rights of the parties and forms an integral part of the final adjudication.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 2(2)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "decree",
+        "marital status",
+        "Code of Civil Procedure"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A finding which affects the substantive rights of the parties and forms an integral part of the final adjudication is a decree.",
+      "held": "",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "substantive rights",
+        "final adjudication"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order modified the earlier judgment and decree.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Code of Civil Procedure",
+    "1908",
+    "Indian Evidence Act",
+    "1872",
+    "RFA",
+    "CROB",
+    "minor",
+    "guardian",
+    "family court",
+    "partition suit",
+    "joint family",
+    "separate property",
+    "coparcener",
+    "share",
+    "partition deed",
+    "agreement",
+    "dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on Hindu law",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:11:29.383154"
 }

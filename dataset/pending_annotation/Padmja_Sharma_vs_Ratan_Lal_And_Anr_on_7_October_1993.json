@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:00:45.551608",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court Jaipur",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Padmja Sharma vs Ratan Lal And Anr. on 7 October, 1993",
+  "case_name": "Padmja Sharma vs Ratan Lal And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Padmja Sharma, wife",
+    "respondent_defendant": "Ratan Lal And Anr., husband and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a divorce petition under Section 13 of the Hindu Marriage Act, 1955. She moved an application to frame an issue regarding property belonging jointly to both parties. The trial court rejected her prayer.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,123 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Court will not review the findings of fact reached by inferior Courts.",
+      "held": "Thus, the Court will not review the findings in of fact reached by the inferior Courts.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Satyanarayan Laxminarayan Hegde and Ors. v. Mallikerjun Bhavanappa Tirumala, AIR 1960 SC 137",
+        "K..K. Shrivastava etc. v. Bhupendra Kumar Jain and Ors., AIR 1977 SC 1703"
+      ],
+      "keywords": [
+        "writ of certiorari",
+        "inferior Courts",
+        "findings of fact"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The Court should not exercise its powers under Article 227 of the Constitution for purposes of correcting mere errors.",
+      "held": "This power is to be exercised most sparingly and only in appropriate cases in order to keep the Subordinate Courts within the bounds of their authority and not for correcting mere errors.",
+      "cited_cases": [
+        "India Pipe Fitting Co. v. Fakruddtn M.A. Baker and Anr., AIR 1978 SC 45"
+      ],
+      "keywords": [
+        "Article 227",
+        "powers under Article 227",
+        "correcting mere errors"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": [],
+      "favours": "neutral"
+    },
+    {
+      "principle": "Interlocutory orders cannot be the subject matter of an appeal under Section 19 of the Family Courts Act.",
+      "held": "In my view, interlocutory orders cannot be the subject matter of an appeal under Section 19 of the Family Courts Act but these orders can be challenged alongwith final order in the case and merely because they cannot be challenged at the interlocutory stage it would not mean that a writ petition should be entertained for quashing the order of the subordinate Court.",
+      "applicable_acts_sections": [
+        "Family Courts Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "interlocutory orders",
+        "Section 19",
+        "Family Courts Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The Court should not exercise its powers under Article 227 of the Constitution for purposes of correcting an error apparent on the face of record.",
+      "held": "However, even if it may be said that this Court should exercise its powers under Article 227 of the Constitution for purposes of correcting an error apparent on the face of record, it may be looked into whether there is error apparent on the face of the record which requires correction by a writ of certiorari.",
+      "cited_cases": [],
+      "keywords": [
+        "Article 227",
+        "error apparent on the face of record"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004",
+      "applicable_acts_sections": [],
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "writ petition is\ndismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ dismissed",
+    "final_order": "The final order was that the trial court's decision rejecting the petitioner's application was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955 Act",
+    "Order 14 Rule 5 C.P.C.",
+    "Section 13",
+    "Section 7(1)(c)",
+    "Family Courts' Act 1984",
+    "divorce petition",
+    "property dispute",
+    "interlocutory order",
+    "fresh application",
+    "Family Court Jaipur",
+    "Judge Family Court Ajmer",
+    "Family Court",
+    "Hindu Marriage",
+    "marriage dissolution",
+    "petition for divorce",
+    "application under Order 14 Rule 5 C.P.C.",
+    "Section 7(c)",
+    "Family Courts Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on property disputes in family courts",
+    "guiding clients on fresh applications to family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:43:11.439204"
 }

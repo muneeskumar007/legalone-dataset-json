@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:02:10.465945",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "compassionate_appointment",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "P.Kirubha vs The District Collector on 22 January, 2015",
+  "case_name": "P.Kirubha vs The District Collector",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P.Kirubha — daughter seeking compassionate appointment",
+    "respondent_defendant": "The District Collector, Collectorate, Karur and The Revenue Divisional Officer, Office of R.D.O., Karur",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's father was an office assistant who died in 2005. Petitioner's mother gave representations for compassionate appointment from 2006 to 2011. Petitioner also gave a representation in 2011. First respondent rejected the application on 02.08.2013.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An application for compassionate appointment can be made by a person immediately after attaining the majority.",
+      "held": "This Court has held in very many cases that application for compassionate appointment can be made by a person immediately after attaining the majority and therefore, there cannot be any impediment for the respondent to consider the request of the petitioner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "(2008)5 MLJ 795 (H.Anwar Basha vs. Registrar General (Incharge))"
+      ],
+      "keywords": [
+        "compassionate appointment",
+        "majority",
+        "application"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the respondent to consider the request of the petitioner.",
+      "held": "Therefore, it cannot be said that the application filed by the petitioner is the first application from the family that too, after a period of three years.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "petitioner's request"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Court directed respondents to provide petitioner with a Government Job in place of her father's job within stipulated time.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "compassionate appointment",
+    "government job",
+    "petitioner's father",
+    "office assistant",
+    "Revenue Divisional Officer",
+    "Karur",
+    "Article 226",
+    "Writ Petition",
+    "Certiorari",
+    "Mandamus",
+    "quash",
+    "order of the second respondent",
+    "request for employment",
+    "compassionate ground",
+    "Office Assistant",
+    "death of father",
+    "20 years service",
+    "office of R.D.O.",
+    "Karur"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition under Article 226",
+    "quashing an order on compassionate grounds",
+    "seeking employment on compassionate appointment"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:29:24.256218"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T20:31:27.281175",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -25,13 +25,13 @@
   "case_numbers": [
     "T.A.No.363 of 2023"
   ],
-  "trial_court": "",
+  "trial_court": "Court of Additional Principal Judge, Family Court, Gurugram (HMA-1240 of 2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Adarsh Parmar vs Vikas Parmar on 22 March, 2023",
+  "case_name": "Adarsh Parmar vs Vikas Parmar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Adarsh Parmar (wife)",
+    "respondent_defendant": "Vikas Parmar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties solemnized marriage in 2009. Two children born out of wedlock. Petitioner lives with minor children and in-laws at Bhiwani. Respondent resides alone in Gurugram since 2020. Distance between residences is 150 km.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,104 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "While considering the transfer of a matrimonial dispute, the Court is to consider the family condition of the wife, the custody of the minor child, economic condition of the wife, her physical health and earning capacity of the husband.",
+      "held": "the Courts have to take into consideration the economic soundness of both the parties, the social strata of the spouses and their behavioural pattern, their standard of life prior to the marriage and subsequent thereto and the circumstances of both the parties in eking out their livelihood",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Sumita Singh vs Kumar Sanjay",
+        "Rajani Kishor Pardeshi's case"
+      ],
+      "keywords": [
+        "matrimonial matters",
+        "economic soundness",
+        "social strata",
+        "behavioural pattern"
+      ],
+      "favours": "wife",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In matrimonial matters, the Courts should give more weightage and consideration to the convenience of the female litigants.",
+      "held": "the Courts are required to give more weightage and consideration to the convenience of the female litigants",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Sumita Singh vs Kumar Sanjay",
+        "Rajani Kishor Pardeshi's case"
+      ],
+      "keywords": [
+        "matrimonial matters",
+        "convenience of female litigants"
+      ],
+      "favours": "wife",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "When two or more proceedings are pending in different Courts between the same parties which raise common question of fact and law, they should be tried together by the same Judge.",
+      "held": "it is desirable that they should be tried together by the same Judge so as to avoid multiplicity in trial of the same issues and conflict of decisions",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "proceedings",
+        "different Courts",
+        "common question of fact and law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases with multiple proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition for transfer of petition bearing No.HMA-1240 of 2022 filed by respondent-husband to a court of competent jurisdiction at Bhiwani allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "transfer of petition",
+    "Section 13(1) (ia) (ib)",
+    "matrimonial home",
+    "distance between residence and proceedings",
+    "source of income",
+    "DV Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "family court",
+    "competent jurisdiction",
+    "Bhiwani",
+    "Gurugram",
+    "marriage solemnized",
+    "children born out of wedlock",
+    "residing alone"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "seeking transfer of family court case",
+    "advocating for women's rights under DV Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:04:51.109858"
 }

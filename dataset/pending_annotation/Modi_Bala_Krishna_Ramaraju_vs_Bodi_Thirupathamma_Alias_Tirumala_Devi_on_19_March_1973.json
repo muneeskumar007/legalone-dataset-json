@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:56:25.579379",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Modi Bala Krishna Ramaraju vs Bodi Thirupathamma Alias Tirumala Devi ... on 19 March, 1973",
+  "case_name": "Modi Bala Krishna Ramaraju vs Bodi Thirupathamma Alias Tirumala Devi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband",
+    "respondent_defendant": "wife and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband's complaint against his wife and others for the offences under Sections 494 and 494 read with Section 109, I.P.C. had resulted in acquittal of the accused.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A valid marriage under Hindu Law is not rendered invalid by the absence of certain details with regard to the ceremonies performed.",
+      "held": "Hindu marriages are not registered. Evidence with regard to the marriages that has necessarily to be let in is mainly oral, except for the production of invitation card if available and preserved.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Hindu Law",
+        "marriage ceremonies",
+        "oral evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The validity of a marriage under Hindu Law is not affected by the absence of solemnisation as per Section 17 of the Hindu Marriage Act.",
+      "held": "Though it was not necessary, to state it, this section itself provides that to such marriage the provisions of Sections 494 and 495, I.P.C. will apply.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 17"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "solemnisation",
+        "Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "bigamy cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "bigamy",
+    "Section 494 IPC",
+    "Section 109 IPC",
+    "marriage",
+    "residency",
+    "separation",
+    "second marriage",
+    "mediators",
+    "offence",
+    "complaint",
+    "acquittal",
+    "Hindu Dharmasastra"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a complaint for bigamy",
+    "advising on the consequences of second marriage without divorce",
+    "assisting in a case involving acquittal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:47:17.104824"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:56:58.585118",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bandra in M. J. Petition No. A-2859 of 2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs. Gauri Adesh Parab (Nee.Ms. Gauri ... vs Adesh Ashok Parab on 4 February, 2022",
+  "case_name": "Mrs. Gauri Adesh Parab (Nee.Ms. Gauri ... vs Adesh Ashok Parab",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mrs. Gauri Adesh Parab, wife",
+    "respondent_defendant": "Adesh Ashok Parab, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife challenged the order rejecting her application for interim maintenance. She claimed she was earning Rs.39,000/-p.m. and husband was earning more than Rs.2 lakhs per month. She left her matrimonial house in October 2015.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance shall be fixed considering the respondent's own income and other property, conduct of the parties.",
+      "held": "Section 25 of the Hindu Marriage Act, 1955, provides guideline to decide maintenance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 25"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "income",
+        "property",
+        "conduct"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The spouse who has no source of income or same is insufficient, he/she is entitled to enjoy the same standard of living as per spouse having higher income.",
+      "held": "It is true that the spouse who has no source of income/ or same is insufficient, he/she is entitled to enjoy same standard of living as per spouse having higher income.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "standard of living",
+        "income",
+        "insufficient"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order rejecting the petitioner-wife's application for interim maintenance is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "section 24",
+    "interim maintenance",
+    "Family Court",
+    "Bandra",
+    "petitioner",
+    "respondent",
+    "wife's application",
+    "maintenance",
+    "alimony",
+    "marriage",
+    "separation",
+    "matrimonial dispute",
+    "judgment",
+    "order",
+    "appeal",
+    "civil appeal",
+    "writ petition",
+    "Bombay High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "responding to an interim maintenance application",
+    "appealing a Family Court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:33:21.768283"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:59:37.224135",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 5
   },
@@ -18,10 +18,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Navnath Nagnath Salunke vs Shivkannya Navnath Salunke on 17 January, 2022",
+  "case_name": "Navnath Nagnath Salunke vs Shivkannya Navnath Salunke",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Navnath Nagnath Salunke (husband)",
+    "respondent_defendant": "Shivkannya Navnath Salunke (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a petition seeking dissolution of marriage on grounds of cruelty and desertion. He succeeded in obtaining a decree on the ground of desertion, but not on the ground of cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the other party has been guilty of desertion.",
+      "held": "It is settled law that the burden lies on the party seeking divorce to prove that the other party has been guilty of desertion.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant divorce on the ground of desertion unless it is proved that there was a clear intention to abandon the other party.",
+      "held": "This Court holds that the court will not grant divorce on the ground of desertion unless it is proved that there was a clear intention to abandon the other party.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "desertion",
+        "intention to abandon"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appellate court set aside the decree of divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "desertion",
+    "Section 13(1)(i-a)",
+    "Section 13(1)(i-b)",
+    "restitution of conjugal rights",
+    "marriage dissolution",
+    "family law",
+    "Indian court judgments",
+    "Navnath Nagnath Salunke",
+    "Shivkannya Navnath Salunke",
+    "Aurangabad Bench",
+    "Bombay High Court",
+    "Second Appeal No. 326 of 2019"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family law matters",
+    "appealing court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:45:43.912451"
 }

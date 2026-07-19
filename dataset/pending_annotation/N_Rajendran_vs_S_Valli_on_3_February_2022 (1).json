@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T11:00:10.505110",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "partition": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, decree dated 23.07.2004",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "N.Rajendran vs S.Valli on 3 February, 2022",
+  "case_name": "N.Rajendran vs S.Valli",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "N.Rajendran (husband)",
+    "respondent_defendant": "S.Valli (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -70,7 +70,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant and respondent were married in 1999. Appellant's sister was married to respondent's brother. Differences between them led to appellant's sister returning home. Respondent left appellant on 18.01.2000 and did not return. Divorce petition filed on 05.03.2001, decree passed on 23.07.2004. Appellant re-married on 31.10.2004.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -80,39 +80,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Cruelty is a matter to be decided on the facts of each case.",
+      "held": "It is a matter to be decided on the facts of each case.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "facts"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A strained relationship between a married couple is not necessarily cruelty.",
+      "held": "The High Court rightly noted that having regard to the date of the marriage of the appellant's sister, which is prior to the appellant's marriage, it cannot be a case where there was a strain between them, as in such a case, the marriage between the respondent and the appellant would not have taken place, in the first place.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "strained relationship",
+        "cruelty"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party seeking divorce must demonstrate specific instances of cruelty.",
+      "held": "To our query to the learned counsel for the appellant as to whether there are any other circumstances or instances of cruelty, learned counsel of appellant apart from pointing out to the threat to commit suicide and refusal to come back, was unable to point out any other specific instance of cruelty.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "specific instances"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The High Court's judgment reversing the Family Court's decree is set aside, and the original decree of dissolution of marriage stands.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13 (1) (ia)",
+    "cruelty",
+    "Family Courts Act",
+    "Section 19",
+    "marriage dissolution",
+    "dissolution of marriage",
+    "family court decree",
+    "appeal against divorce",
+    "High Court reversal",
+    "Supreme Court appeal",
+    "Hindu rites and customs",
+    "marital differences",
+    "Latin maxim: 'actus curiae neminem addicit'",
+    "use case 1: drafting divorce petition",
+    "use case 2: appealing family court decision",
+    "use case 3: seeking Supreme Court review"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "use case 1",
+    "use case 2",
+    "use case 3"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:16:03.041375"
 }

@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:00:53.563323",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "partition": 4,
     "maintenance": 1,
@@ -36,8 +36,8 @@
   "delivered_on": "",
   "case_name": "Pandarinathan vs Ramasamy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Pandarinathan, A.Muthukrishnan, Kannamal, Saroja, Seethalakshmi (deceased)",
+    "respondent_defendant": "Ramasamy, Varalakshmi, Selvalakshmi, Rajeswari, Murali",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "One Rukmaniammal filed a suit against Ramasamy and others to declare settlement deed executed by her in favour of them on the ground of fraud, misrepresentation and undue influence. Ramasamy and Vijayaraghavan filed a suit against Pandarinathan and others to declare their title over the suit property. Three other suits were also filed related to the same properties.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Factual findings by a lower court are generally not interfered with by a higher court.",
+      "held": "This court does not want to interfere in the said findings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "factual findings",
+        "interference"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "appeal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A preliminary decree for partition can be granted in favour of the rightful owners.",
+      "held": "The plaintiffs are entitled to a preliminary decree for partition and accordingly, decreed the suit.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "partition",
+        "preliminary decree"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Succession Act",
+    "Code of Civil Procedure",
+    "review application",
+    "judgment and decree",
+    "first appellate court",
+    "guardianship",
+    "minor",
+    "major",
+    "deceased",
+    "petitioners",
+    "respondents",
+    "appellants",
+    "Section 151 CPC",
+    "S.A.No.1658 of 2000",
+    "A.S.No.3 of 1999"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a review application under Section 151 CPC",
+    "guidance on partition and Hindu Succession Act",
+    "practical tips for handling minor's guardianship"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:51:17.444733"
 }

@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T20:31:13.107567",
   "domain": "domestic_violence",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "domestic_violence",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "29.11.2023",
   "delivered_on": "13.04.2021",
-  "case_name": "Abhilasha Sharma And Others vs State Of H.P. And Others on 2 January, 2024",
+  "case_name": "Abhilasha Sharma And Others vs State Of H.P. And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Abhilasha Sharma and others (accused)",
+    "respondent_defendant": "State of H.P. and others (complainants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -83,7 +83,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant No.2's marriage was solemnized with accused No.1, but she took all valuables and did not return after 15 days. Complainants searched their house and found that valuable articles worth ₹15 lakhs were stolen.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -93,39 +93,113 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Court should exercise the power under Section 228 of the Code very sparingly and with circumspection, and only in rare cases.",
+      "held": "of Section 228 of the Code should be exercised very sparingly and with circumspection and that too in the rarest rt of rare cases.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 228"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "rare cases",
+        "circumspection"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "quashing charges"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court should apply the test as to whether the uncontroverted allegations prima facie establish the offence or not.",
+      "held": "The Court should apply the test as to whether the uncontroverted allegations as made from the record of the case and the documents submitted therewith prima facie establish the offence or not.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "uncontroverted allegations",
+        "prima facie"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "quashing charges"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Court should not unduly interfere and meticulous examination of the evidence is not needed for considering whether the case would end in conviction or not at the stage of framing of charge or quashing of charge.",
+      "held": "The High Court should not unduly interfere. No meticulous examination of the evidence is needed for considering whether the case would end in conviction or not at the stage of framing of charge or quashing of charge.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "undue interference",
+        "meticulous examination"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "quashing charges"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The Court should balance the freedom of a person and the right of the complainant or prosecution to investigate and prosecute the offender.",
+      "held": "The Court has a duty to balance the freedom of a person and the right of the complainant or prosecution to investigate and prosecute the offender.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "freedom",
+        "balance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "quashing charges"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "IPC",
+    "Section 420",
+    "Section 120-B",
+    "Section 406",
+    "Section 407",
+    "Section 379",
+    "Section 427",
+    "complaint",
+    "marriage",
+    "solemnized",
+    "Hindu Rites and Customs",
+    "Agra",
+    "conspiracy",
+    "gold",
+    "valuable articles",
+    "bangle box",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "composing complaints under IPC",
+    "advising on Hindu marriage and divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T16:54:56.987360"
 }

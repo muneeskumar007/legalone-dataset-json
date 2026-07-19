@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:02:13.233561",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1
@@ -24,13 +24,13 @@
     "I.A.No.1 of 2022",
     "I.A.No.1\nof 2022"
   ],
-  "trial_court": "",
+  "trial_court": "Subordinate Judge, Thirumangalam (HMOP.No.33 of 2020)",
   "reserved_on": "05.12.2024",
   "delivered_on": "20.12.2024",
-  "case_name": "P.Ranjith Pandi vs Thangapandiyammal on 20 December, 2024",
+  "case_name": "P.Ranjith Pandi vs Thangapandiyammal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P.Ranjith Pandi (husband)",
+    "respondent_defendant": "Thangapandiyammal (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed for divorce and the wife remained ex parte. The court passed an ex parte decree in favour of the husband. The wife then sought to condone a delay in filing an application to set aside the decree.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Remarriage of the petitioner cannot be a reason to dismiss an application filed by the respondent for setting aside an ex parte decree.",
+      "held": "Therefore, there is no legality or perversity in the order passed by the trial Court setting aside the ex parte decree of divorce passed against the respondent / wife after condoning the delay of 53 days in filing an application and prays for dismissing this Civil Revision Petition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 15"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Denny Pazhoor Vs. Greeta Sunitha Vincent, (2018)"
+      ],
       "keywords": [
-        "TODO"
+        "remarriage",
+        "ex parte decree",
+        "setting aside",
+        "condoning delay"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the respondent to provide a proper explanation for condoning the delay in filing an application to set aside an ex parte decree.",
+      "held": "Apart from that no other reason has been given in the affidavit for condoning the delay of 53 days in filing an application to set aside the ex parte divorce decree, dated 01.04.2022.",
+      "applicable_acts_sections": [
+        ""
+      ],
+      "cited_cases": [
+        ""
+      ],
+      "keywords": [
+        "burden",
+        "delay",
+        "ex parte decree",
+        "proper explanation"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Civil Revision Petition is preferred against the order dated 19.03.2024 made in I.A.No.100 of 2022 in HMOP.No.33 of 2020.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Limitation Act",
+    "1963",
+    "ex parte",
+    "condone delay",
+    "HMOP",
+    "Subordinate Judge",
+    "Thirumangalam",
+    "Civil Revision Petition",
+    "Article 227",
+    "Constitution of India",
+    "I.A.No.100",
+    "HMOP.No.33",
+    "2020",
+    "Single Judge",
+    "Madras High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "condoning delay in family court",
+    "appealing single judge orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:34:55.308906"
 }

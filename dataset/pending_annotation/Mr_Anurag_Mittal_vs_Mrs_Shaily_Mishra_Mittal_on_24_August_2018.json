@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T10:57:35.758751",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Anurag Mittal vs Mrs. Shaily Mishra Mittal on 24 August, 2018",
+  "case_name": "Mr. Anurag Mittal vs Mrs. Shaily Mishra Mittal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Anurag Mittal — husband",
+    "respondent_defendant": "Mrs. Shaily Mishra Mittal — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The Appellant and Ms. Rachna Aggarwal reached a settlement before the Mediation Centre, Tis Hazari Court, Delhi. The Appellant married the Respondent on 06.12.2011. Matrimonial discord between the Appellant and the Respondent led to the filing of a petition by the Respondent for declaring the marriage as void.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,106 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A breach of a condition does not render the marriage void.",
+      "held": "Even where a marriage in breach of a certain condition is made punishable yet the law does not treat it as void.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Craies on Statute Law, 7th Edn., P. 263 and 264"
+      ],
       "keywords": [
-        "TODO"
+        "breach of condition",
+        "void marriage",
+        "punishable"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The absence of an express provision does not infer nullity.",
+      "held": "In the absence of an express provision it is not possible to infer nullity in respect of a marriage contracted by a person under incapacity prescribed by the proviso.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Craies on Statute Law, 7th Edn., P. 263 and 264",
+        "Catterall v. Sweetman, (1845) 9 Jur 951, 954"
+      ],
+      "keywords": [
+        "express provision",
+        "nullity",
+        "incapacity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Prohibitory words without a declaration of nullity do not create a nullity.",
+      "held": "That, viewing the successive marriage Acts, it appears that prohibitory words, without a declaration of nullity, were not considered by the legislature to create a nullity.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Craies on Statute Law, 7th Edn., P. 263 and 264",
+        "Catterall v. Sweetman, (1845) 9 Jur 951, 954"
+      ],
+      "keywords": [
+        "prohibitory words",
+        "nullity",
+        "legislature"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "the Appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal filed by the Appellant against the decree of divorce was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13 (1) (i) (a)",
+    "marriage dissolution",
+    "petition",
+    "judgment",
+    "Additional District Judge",
+    "North Tis Hazari Court",
+    "Delhi",
+    "Supreme Court",
+    "Civil Appeal",
+    "Appellant",
+    "Respondent",
+    "Section 9",
+    "Latin maxim",
+    "res judicata"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing against family court judgments",
+    "understanding Hindu Marriage Act provisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:03:14.780994"
 }

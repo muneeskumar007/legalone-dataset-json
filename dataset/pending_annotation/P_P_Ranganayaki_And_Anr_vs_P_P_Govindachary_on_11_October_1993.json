@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:02:12.936998",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "P.P. Ranganayaki And Anr. vs P.P. Govindachary on 11 October, 1993",
+  "case_name": "P.P. Ranganayaki And Anr. vs P.P. Govindachary",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P.P. Ranganayaki (wife) and son",
+    "respondent_defendant": "P.P. Govindachary (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a suit for maintenance, past and future, for herself and her minor son at the rate of Rs. 500/- and Rs. 200/- respectively, and also for return of jewellery. The husband had sent a lawyer's notice followed by a reply, then filed O.P. No. 235 of 1985 under Section 9 of the Hindu Marriage Act for restitution of conjugal rights. Subsequently, he withdrew that application and filed an application under Section 13 of the Hindu Marriage Act which was disposed of by a common order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging cruelty to prove it.",
+      "held": "Since the Lower Court has accepted on the ground of cruelty and also of desertion we feel that that finding may not be interfered with in view of the subsequent change of circumstances.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "desertion",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may not interfere with the finding of a lower court unless there is a manifest error.",
+      "held": "we feel that that finding may not be interfered with in view of the subsequent change of circumstances.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "lower court",
+        "manifest error"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The possibility of keeping certain silver articles with the in-laws cannot be ruled out.",
+      "held": "The possibility of these silver articles being kept at the in-laws house as a safer place cannot be ruled out.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "silver articles",
+        "in-laws"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The wife's appeal against the order granting decree for divorce was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Section 9",
+    "Section 13",
+    "conjugal rights",
+    "restitution",
+    "jewellery",
+    "marriage",
+    "separation",
+    "custody",
+    "child birth",
+    "Latin maxim: Nemo dat quod non habet",
+    "family court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance claims",
+    "assisting in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:34:06.401141"
 }

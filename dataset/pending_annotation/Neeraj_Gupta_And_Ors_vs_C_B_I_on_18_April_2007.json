@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:59:45.577637",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Chief Metropolitan Magistrate",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Neeraj Gupta And Ors. vs C.B.I. on 18 April, 2007",
+  "case_name": "Neeraj Gupta And Ors. vs C.B.I.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Neeraj Gupta and others (husband, parents-in-law)",
+    "respondent_defendant": "C.B.I.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners charged with committing offences punishable under Section 498-A/406, read with Section 34, IPC. Marriage was preceded by gifting valuables to petitioners. Petitioner's parents-in-law expressed disappointment and demanded more.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging cruelty to prove the same.",
+      "held": "It is settled law that the burden lies on the party alleging cruelty to prove the same.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court should not make an order without considering the materials and facts brought on record.",
+      "held": "It was contended that contrary to the allegations made in the FIR, the Additional District Judge found that the complainant was guilty of acts of cruelty and he therefore decreed divorce.",
+      "applicable_acts_sections": [
+        "Specific Relief Act, 1963"
+      ],
+      "cited_cases": [
+        "HMA 91/2006"
+      ],
+      "keywords": [
+        "materials",
+        "facts",
+        "order making"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order not mentioned in this excerpt",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Indian Penal Code",
+    "Section 498-A",
+    "Section 406",
+    "Section 34",
+    "matrimonial disputes",
+    "divorce",
+    "alimony",
+    "maintenance",
+    "dowry",
+    "IPC",
+    "IPC Section 498-A",
+    "IPC Section 406",
+    "IPC Section 34",
+    "family law",
+    "marriage",
+    "property settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "negotiating property settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:54:28.233131"
 }

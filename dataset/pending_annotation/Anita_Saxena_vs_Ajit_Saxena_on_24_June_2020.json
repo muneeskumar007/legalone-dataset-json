@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T20:32:36.580671",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Subramonium Prasad J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, case number MAT. APP.(F.C.) 87/2020 & CM 11897/2020& CM 11898/2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anita Saxena vs Ajit Saxena on 24 June, 2020",
+  "case_name": "Anita Saxena vs Ajit Saxena",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anita Saxena, wife",
+    "respondent_defendant": "Ajit Saxena, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife moved an application under Section 24 of the Hindu Marriage Act for grant of pendente lite maintenance. The Family Court directed the husband to pay Rs. 10,000/- per month towards maintenance. The wife appealed against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A respondent who is in gross default of payment of maintenance for over a year cannot explain away his non-compliance by citing a recent job loss.",
+      "held": "Having regard to the submission made by learned counsel for the appellant/wife that the respondent/husband has been in gross default of payment of the maintenance for over one year and as in June, 2020 the arrears of maintenance had amounted to Rs. 1,45,000/- this explanation cannot cut any ice.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "default"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A respondent who is in default of payment of maintenance must clear the arrears at the earliest.",
+      "held": "To start with, the respondent/husband shall clear the arrears of maintenance payable to the appellant/wife at the earliest.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "default"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court enhanced the monthly maintenance from Rs. 8,500/- to Rs. 10,000/- and also awarded litigation expenses of Rs. 8,000/-",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Section 24",
+    "pendent lite",
+    "Section 125 Cr.PC",
+    "National Lok Adalat",
+    "Family Court",
+    "Code of Criminal Procedure",
+    "1973",
+    "matrimonial dispute",
+    "alimony",
+    "settlement",
+    "Latin maxim: Nemo dat quod non habet",
+    "family law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance orders",
+    "negotiating settlements in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:00:10.698450"
 }

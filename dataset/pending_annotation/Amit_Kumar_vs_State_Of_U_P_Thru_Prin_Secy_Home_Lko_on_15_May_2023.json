@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T20:32:17.911261",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "domestic_violence": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amit Kumar vs State Of U.P. Thru. Prin. Secy. Home Lko. ... on 15 May, 2023",
+  "case_name": "Amit Kumar vs State Of U.P. Thru. Prin. Secy. Home Lko.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amit Kumar",
+    "respondent_defendant": "State Of U.P. Thru. Prin. Secy. Home Lko. And Others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a writ petition seeking quashing of the First Information Report No.1049/2019 against him under various IPC sections and Dowry Prohibition Act. He also sought an order directing the respondents not to arrest him.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,109 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Criminal proceedings can be quashed by the court on the basis of mutual settlement.",
+      "held": "Considering the compromise arrived at between the parties, we are of the considered opinion that no useful purpose would be served in continuation of criminal proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code",
+        null
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Dinesh Sharma and Ors. Vs. State of U.P and Ors., (2017) ADJ 613"
+      ],
       "keywords": [
-        "TODO"
+        "compromise",
+        "mutual settlement",
+        "quashing"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "murder cases with compromise"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court should accept the terms of a compromise in criminal proceedings where the question involved is of a purely personal nature.",
+      "held": "We need to emphasise that it is perhaps advisable that in disputes where the question involved is of a purely personal nature, the court should ordinarily accept the terms of the compromise even in criminal proceedings.",
+      "applicable_acts_sections": [
+        "null",
+        null
+      ],
+      "cited_cases": [
+        "Madan Mohan Abbot' case (supra)"
+      ],
+      "keywords": [
+        "compromise",
+        "personal dispute",
+        "criminal proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases with purely personal disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Technicalities should not be allowed to stand in the way of quashing criminal proceedings where there is a compromise between parties.",
+      "held": "Although the power should be used by the court sparingly, technicality should not be allowed to stand in the way of quashing criminal proceeding.",
+      "applicable_acts_sections": [
+        "null",
+        null
+      ],
+      "cited_cases": [
+        "Shiji @ Pappu and Ors. Vs. Radhika and another, (2011) CJ (SC) 239"
+      ],
+      "keywords": [
+        "quashing",
+        "compromise",
+        "technicalities"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases with compromise between parties"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The Court allowed the writ petition and quashed the First Information Report.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "498A",
+    "323",
+    "504",
+    "506",
+    "377",
+    "418",
+    "328",
+    "Dowry Prohibition Act",
+    "Certiorari",
+    "Mandamus",
+    "First Information Report",
+    "FIR",
+    "Indian Penal Code",
+    "Hindu Marriage Act",
+    "Allahabad High Court",
+    "Lucknow Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting writ petitions",
+    "quashing FIRs",
+    "seeking mandamus"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:37:20.652251"
 }

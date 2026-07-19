@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T20:32:12.667633",
   "domain": "murder_criminal",
-  "sub_domain": "property_dispute",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "15.03.2022",
   "delivered_on": "31.03.2022",
-  "case_name": "Aman Singh & Anr vs Union Territory Of J & K & Ors on 31 March, 2022",
+  "case_name": "Aman Singh & Anr vs Union Territory Of J & K & Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Aman Singh & Anr (Petitioner(s))",
+    "respondent_defendant": "Union Territory of J & K & Ors (Respondent(s))",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are seeking bail in anticipation of their arrest. Case arises out of FIR No.0092/2021 dated 06.12.2021 registered at Police Station Bani for the commission of offences punishable under Sections 342, 366, 376 and 109 IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The powers of Section 482 Cr.P.C are to be exercised very sparingly.",
+      "held": "Hon'ble the Supreme Court in 'Neeharika Infrastructure Pvt Limited vs State of Maharashtra, reported in 2021 SCC 315'.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C — Section 482"
+      ],
+      "cited_cases": [
+        "Neeharika Infrastructure Pvt Limited vs State of Maharashtra, (2021) SCC 315"
+      ],
+      "keywords": [
+        "Section 482 Cr.P.C",
+        "powers of the court",
+        "judicial interference"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "criminal cases",
+        "investigation-related matters"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the party seeking to invoke the jurisdiction of this Court under Section 482 Cr.P.C.",
+      "held": "This court holds that the scope into interference by the Court in the matter of investigation is very bleak.",
+      "applicable_acts_sections": [
+        "Cr.P.C — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Section 482 Cr.P.C",
+        "judicial interference",
+        "investigation-related matters"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases",
+        "investigation-related matters"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "Petitioners seek to be admitted to bail in anticipation of their arrest.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "bail",
+    "Section 438 CrPC",
+    "FIR No.0092/2021",
+    "Sections 342",
+    "366",
+    "376",
+    "109 IPC",
+    "Hindu Marriage Act, 1955",
+    "virtual mode",
+    "social media",
+    "friendship",
+    "love affair",
+    "interregnum"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail application",
+    "anticipatory bail",
+    "criminal law"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:30:39.825156"
 }

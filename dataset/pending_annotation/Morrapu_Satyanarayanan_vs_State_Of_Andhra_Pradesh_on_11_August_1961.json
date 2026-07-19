@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:56:45.650798",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of the Judicial First Class Magistrate, Parvatipuram in C.C. No. 124 of 1956",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Morrapu Satyanarayanan vs State Of Andhra Pradesh on 11 August, 1961",
+  "case_name": "Morrapu Satyanarayanan vs State Of Andhra Pradesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Morrapu Satyanarayanan, accused",
+    "respondent_defendant": "State Of Andhra Pradesh",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners were prosecuted for bigamy and abetment of bigamy. The trial court convicted them and sentenced them to imprisonment. They appealed to the Sessions Judge's Court, which acquitted them. This judgment sets aside that acquittal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The court should not reappreciate evidence unless the appreciation by the lower courts is perverse.",
+      "held": "But, where the appreciation of evidence by the Court below is of such a character as to offend the judicial conscience of this Court, by not satisfying the normal requirements of such appreciation by Courts...",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Morrapu Satyanarayanan vs State Of Andhra Pradesh on 11 August, 1961"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "judicial conscience",
+        "normal requirements"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "murder cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "In revisional powers, the court should not reappreciate evidence unless it is perverse.",
+      "held": "On the question whether this Court in exercise of its revisional powers should reappreciate the evidence already appreciated by the two Courts below, the answer would be in the negative normally.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Morrapu Satyanarayanan vs State Of Andhra Pradesh on 11 August, 1961"
+      ],
+      "keywords": [
+        "revisional powers",
+        "perverse appreciation"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "murder cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petitioners' conviction was confirmed, and they were sentenced to imprisonment.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "bigamy",
+    "Section 494 IPC",
+    "Section 17 Hindu Marriage Act",
+    "Section 109 IPC",
+    "Criminal Revision Cases",
+    "Sessions Judge",
+    "Judicial First Class Magistrate",
+    "Parvatipuram",
+    "Visakhapatnam"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting criminal appeals",
+    "preparing for Sessions Court hearings",
+    "responding to Criminal Revision Cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:00:08.436056"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:57:47.848374",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "O.P.No.377 of 2013"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court at Hyderabad, F.C.O.P.No.377 of 2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Nirmalia Bhattacharya vs Ms. Sonali Mukherjee on 6 February, 2026",
+  "case_name": "Mr. Nirmalia Bhattacharya vs Ms. Sonali Mukherjee",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant (husband)",
+    "respondent_defendant": "Respondent (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent filed an application under Section 13(1)(ia) of Hindu Marriage Act,1955 seeking dissolution of marriage and permanent alimony. The appellant is the husband who failed to consummate the marriage. The trial court decided in favor of the respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse's failure to consummate a marriage without reasonable cause can be considered as cruelty.",
+      "held": "The appellant, without any reasonable cause failed to consummate the marriage though the respondent was ready and later also, he badly failed to consummate the marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consummation",
+        "marriage",
+        "cruelty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to attend a court hearing without reasonable cause can be considered as abandonment of the case.",
+      "held": "Despite receipt of notice, appellant herein failed to attend the Family Court and he was set ex parte.",
+      "applicable_acts_sections": [
+        "CPC"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "court attendance",
+        "abandonment",
+        "ex parte"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed, and the order dated 29.11.2013 passed by the learned Judge, Family Court at Hyderabad, was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 27 General Clauses Act",
+    "service of notice",
+    "Family Courts Act",
+    "Section 13(1)(ia) Hindu Marriage Act",
+    "permanent alimony",
+    "alimony",
+    "marriage certificate",
+    "dissolution of marriage",
+    "Section 7 Family Courts Act",
+    "family court appeal",
+    "Telangana High Court",
+    "Hyderabad",
+    "Indian law",
+    "marital property",
+    "spousal support"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal support",
+    "representing clients in family court appeals"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:13:15.287550"
 }

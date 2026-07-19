@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:57:36.883574",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Anvesh Srivastava And Others vs State Of U.P. Thru. Secy. Home Deptt. ... on 6 December, 2023",
+  "case_name": "Mr. Anvesh Srivastava And Others vs State Of U.P. Thru. Secy. Home Deptt.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Anvesh Srivastava And Others",
+    "respondent_defendant": "State Of U.P. Thru. Secy. Home Deptt. Govt. Of U.P. Lko And Others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners filed writ petitions seeking quashing of FIR and direction not to arrest them. Marriage between petitioner No.1 and opposite party No.5 was solemnized, but soon a dispute arose and an F.I.R. was lodged.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Courts have inherent jurisdiction to pass a suitable order to prevent abuse of process of law and secure the ends of justice.",
+      "held": "Since both the parties to the matrimonial dispute have arrived at a compromise, in such a situation, the Court has inherent jurisdiction to pass a suitable order as may be necessary to prevent the abuse of process of law to secure the ends of justice.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "B.S. Joshi and others vs. State of Haryana and others, (Year) X SCC Y",
+        "G.V. Rao v. L.H.V. Prasad & Ors., [(2000) 3 SCC 693]"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial dispute",
+        "compromise",
+        "ends of justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Courts should encourage genuine settlements of matrimonial disputes.",
+      "held": "It becomes the duty of the Court to encourage genuine settlements of matrimonial disputes.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "B.S. Joshi and others vs. State of Haryana and others, (Year) X SCC Y",
+        "G.V. Rao v. L.H.V. Prasad & Ors., [(2000) 3 SCC 693]"
+      ],
+      "keywords": [
+        "matrimonial disputes",
+        "settlements",
+        "genuine settlements"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The impugned First Information Report is quashed, and the petitioners are directed not to be arrested on the basis of the said FIR.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Penal Code",
+    "1860",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "maintenance",
+    "alimony",
+    "Section 13",
+    "Section 10",
+    "Section 9",
+    "Section 23",
+    "Section 24",
+    "Section 25",
+    "Section 26",
+    "Section 27",
+    "Section 28",
+    "Section 29",
+    "Section 30"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "representing in Hindu Marriage Act cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:04:04.129951"
 }

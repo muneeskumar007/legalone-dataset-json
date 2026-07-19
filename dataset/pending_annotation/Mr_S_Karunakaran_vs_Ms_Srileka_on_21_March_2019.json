@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:57:56.970878",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -26,13 +26,13 @@
     "M.P.No.10093 of 2019",
     "O.S.No.63 of 2014"
   ],
-  "trial_court": "",
+  "trial_court": "I Additional Principal Judge, (Incharge of III Additional Principal Judge, Family Court, Chennai) - O.S.No.63 of 2014",
   "reserved_on": "",
   "delivered_on": "27.04.2019",
   "case_name": "Mr.S.Karunakaran vs Ms.Srileka on 21 March, 2019",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr.S.Karunakaran (Defendant)",
+    "respondent_defendant": "Ms.Srileka (Plaintiff)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were engineering students who got married in a ceremony that the plaintiff claimed was null and void. The defendant used to propose his love towards the plaintiff despite her reluctance. The marriage certificate was declared null and void by the trial court, leading to this appeal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging undue influence to prove it.",
+      "held": "When the evidence of D.W.1 to D.W.5 clearly establish the fact that the marriage was validly solemnized and legally registered, the trial Court ought not to have held that the marriage was registered by undue influence, etc.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 8"
+      ],
+      "cited_cases": [
+        "Mousumi Chakraborty Vs. Subrata Guha Roy, (1991) II DMC 380"
+      ],
+      "keywords": [
+        "undue influence",
+        "marriage registration",
+        "burden of proof"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "property dispute cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The mere registration of a marriage under section 8 of the Hindu Marriage Act does not necessarily prove a valid marriage.",
+      "held": "Whether mere registration of a marriage under section 8 of the Hindu Marriage Act proves the valid marriage?",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 8"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage registration",
+        "valid marriage",
+        "section 8"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal filed under Section 19 of Family Court Act read with Section 96 of Code of Civil Procedure against the decree and judgment dated 21.03.2019",
+    "final_order": "The final court order was not specified in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Indian Evidence Act",
+    "Family Court Act",
+    "Section 19",
+    "Section 96",
+    "null and void",
+    "marriage certificate",
+    "engineering students",
+    "Sakthi Engineering College",
+    "Thirunindravur",
+    "appeal filed",
+    "decree and judgment",
+    "trial Court",
+    "defendants",
+    "plaintiff",
+    "defendant",
+    "engineering students"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against decree and judgment",
+    "preparing response to family court suit",
+    "advising client on nullity of marriage certificate"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:17:45.382002"
 }

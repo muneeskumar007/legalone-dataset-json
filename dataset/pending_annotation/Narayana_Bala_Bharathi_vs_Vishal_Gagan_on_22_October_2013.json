@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T10:59:09.504773",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Najmi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Saket, New Delhi in HMA No. 192/2012",
   "reserved_on": "",
   "delivered_on": "22.10.2013",
-  "case_name": "Narayana Bala Bharathi vs Vishal Gagan on 22 October, 2013",
+  "case_name": "Narayana Bala Bharathi vs Vishal Gagan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Narayana Bala Bharathi (wife)",
+    "respondent_defendant": "Vishal Gagan (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife is an Indian Police Service officer of the Orissa cadre, and the husband is an Indian Administrative Service Officer of the Kerala Cadre. The marriage was solemnized under provisions of the Hindu Marriage Act and registered at the office of the Sub-Registrar in Tumkur, Karnataka. The husband filed a divorce petition on 05.03.2012, which was received by the wife personally in Delhi. The Family Court issued summons in this case, which was claimed to lie outside the territorial jurisdiction of the Family Courts in Delhi.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,117 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Residence requires the fact of and intention to stay permanently in a particular place.",
+      "held": "Since residence requires the fact of and intention to stay permanently in a particular place, the Court cannot seize itself of the cause of action if it has no jurisdiction over the subject matter by reason of a limitation imposed by any statute.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 19"
+      ],
+      "cited_cases": [
+        "Harshad Chiman Lal Modi v. DLF Universal Ltd. and Anr., (2006) 1 SCC 364",
+        "Jagir Kaur and Anr. v. Jaswant Singh, AIR 1963 SC 1521"
+      ],
+      "keywords": [
+        "residence",
+        "intention",
+        "permanent abode"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A permanent abode where one has the intention to live is required for residence.",
+      "held": "Residence means a permanent abode where one has the intention to live and not a mere casual residence for a temporary purpose.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 19"
+      ],
+      "cited_cases": [
+        "Jagir Kaur and Anr. v. Jaswant Singh, AIR 1963 SC 1521"
+      ],
+      "keywords": [
+        "permanent abode",
+        "intention to live"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Court cannot seize itself of the cause of action if it has no jurisdiction over the subject matter by reason of a limitation imposed by any statute.",
+      "held": "Where the Court has no jurisdiction over the subject matter by a reason of a limitation imposed by any statute, the Court cannot seize itself of the cause of action.",
+      "cited_cases": [
+        "Harshad Chiman Lal Modi v. DLF Universal Ltd. and Anr., (2006) 1 SCC 364"
+      ],
+      "keywords": [
+        "jurisdiction",
+        "statute",
+        "subject matter"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "applicable_acts_sections": []
+    },
+    {
+      "principle": "The Court has territorial jurisdiction to deal with a matter if the respondent has a permanent abode within its jurisdiction.",
+      "held": "Since the respondent has a permanent abode in Delhi and occasionally visits her mother and was served with process of the court at her Delhi address, so, I am of the opinion that the respondent shall be construed to be living within the jurisdiction of this court at the time of filing of the present petition, hence, this court has territorial jurisdiction to deal with the matter.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 19"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "territorial jurisdiction",
+        "permanent abode"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Family Courts Act",
+    "Section 19",
+    "Article 227",
+    "Section 151",
+    "CPC",
+    "Order VII Rule 11",
+    "Divorce",
+    "Matrimonial Dispute",
+    "HMA No. 192/2012",
+    "Saketh Family Court",
+    "New Delhi"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to divorce petitions",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:29:55.142382"
 }

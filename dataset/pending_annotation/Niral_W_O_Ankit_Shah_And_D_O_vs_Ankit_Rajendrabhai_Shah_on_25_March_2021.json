@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:59:53.499381",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1
@@ -19,13 +19,13 @@
     "R.P.Dholaria J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court no.4, Ahmedabad in Hindu Marriage Petition (HMP) no.1725 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Niral W/O Ankit Shah And D/O ... vs Ankit Rajendrabhai Shah on 25 March, 2021",
+  "case_name": "Niral W/O Ankit Shah And D/O ... v. Ankit Rajendrabhai Shah",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Niral W/O Ankit Shah And D/O JITENDRABHAI JAYANTIBHAI GARIWALA (wife)",
+    "respondent_defendant": "Ankit Rajendrabhai Shah (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were in a marriage that was dissolved by the trial court. The petitioner sought divorce under Section 13(1) of the Hindu Marriage Act, 1955, but the application was dismissed. The parties have since settled and agreed to a mutual divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can withdraw a petition and file an application for divorce by mutual consent.",
+      "held": "The said fact is evident from Paragraph 9 of the affidavit filed by the respondent herein.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13(B)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "divorce",
+        "petition withdrawal"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may grant permission to withdraw a petition and file an application for divorce by mutual consent.",
+      "held": "The appella",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13(B)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition withdrawal",
+        "divorce",
+        "mutual consent"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is permitted to withdraw the Hindu Marriage Petition no.1725 of 2018. The parties are at liberty to approach the Family Court, Ahmedabad with an application for divorce by mutual consent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)",
+    "Family Courts Act",
+    "Section 19",
+    "HMP no.1725 of 2018",
+    "Ahmedabad",
+    "Family Court no.4",
+    "paper book",
+    "oral order",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court decisions",
+    "using Hindu Marriage Act provisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:08:19.045471"
 }

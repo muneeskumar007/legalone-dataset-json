@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T20:32:24.770727",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -26,13 +26,13 @@
     "l.A.No.420 of 2016",
     "Crl.A.No.420 of 2016"
   ],
-  "trial_court": "",
+  "trial_court": "III Additional District and Sessions Court, Salem (C.A. No. 105 of 2015)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amutha vs Mani @ Bakthavachalam on 3 March, 2025",
+  "case_name": "Amutha vs Mani @ Bakthavachalam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amutha — wife",
+    "respondent_defendant": "Mani @ Bakthavachalam, Dhanabakkiam, Ramachandran, Madhaiyan — husband and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -71,7 +71,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The Appellant's marriage with the first Respondent was solemnised in 1992. The Appellant delivered a female child, but after the birth, the Respondents demanded dowry payment which was not met. The Appellant was driven out of the matrimonial home twice. The Appellant alleged that the Respondents developed an illicit relationship and got married again, resulting in three children.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -81,39 +81,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden shifts on the Accused when the Appellant proves the factum of marriage between the Respondents.",
+      "held": "When the Appellant, as complainant, proved the factum of marriage between the Respondents 1 and 2, through legally acceptable evidence, the burden shifts on the Accused.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 494"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "marriage",
+        "factum"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "bigamy cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "An adverse inference can be drawn against the Accused if they fail to enter evidence.",
+      "held": "Therefore, the Court is duty bound to draw an adverse inference against the Accused.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "adverse inference",
+        "evidence"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases where accused fails to present evidence"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order of acquittal dated 06.01.2016 made in C.A. No. 105 of 2015 is set aside and the matter is remitted to the trial court for fresh disposal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "Indian Evidence Act",
+    "acquittal",
+    "order of acquittal",
+    "Sessions Judge",
+    "Judicial Magistrate",
+    "Additional Mahila Court",
+    "Salem",
+    "Criminal Appeal",
+    "Section 378",
+    "judgment",
+    "judicial proceeding",
+    "family court",
+    "marriage",
+    "spouse",
+    "alimony"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing acquittal order",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:46:01.688042"
 }

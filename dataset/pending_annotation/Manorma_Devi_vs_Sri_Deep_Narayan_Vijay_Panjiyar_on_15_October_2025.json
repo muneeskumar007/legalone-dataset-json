@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T10:55:55.007554",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "S. B. Pd. Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Darbhanga in Matrimonial Case No. 127 of 2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Manorma Devi vs Sri Deep Narayan @ Vijay Panjiyar on 15 October, 2025",
+  "case_name": "Manorma Devi vs Sri Deep Narayan @ Vijay Panjiyar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manorma Devi, wife",
+    "respondent_defendant": "Sri Deep Narayan @ Vijay Panjiyar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married on 07.07.2003 and had three children. The respondent-husband filed a petition for dissolution of marriage under Section 13 of the Hindu Marriage Act, 1955, which was granted by the trial court with a decree of judicial separation under Section 10 of the Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party seeking judicial separation must make honest efforts to continue the matrimonial relationship.",
+      "held": "The learned Principal Judge, Family Court, Darbhanga has held that the appellant-wife has not taken any honest effort to continue her matrimonial relationship with her husband, to get the matrimonial dispute settled amicably.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 10"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial relationship",
+        "judicial separation",
+        "honest efforts"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party alleging cruelty must provide specific dates and evidence to support their claims.",
+      "held": "The respondent has alleged that his father has sustained injuries at the hands of the father and brother of the appellant but he has not produced any injury report to authenticate his claim.",
+      "applicable_acts_sections": [
+        "Indian Penal Code"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "specific dates",
+        "evidence"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cruelty cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the decree of judicial separation passed by the trial court is set aside. The parties are directed to live separately as per the terms of the decree.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "matrimonial case",
+    "family court",
+    "Darbhanga",
+    "Principal Judge",
+    "petition",
+    "dissolution of marriage",
+    "decree",
+    "Indian Penal Code",
+    "1860",
+    "appeal",
+    "judgment",
+    "date",
+    "Matrimonial Case No. 127",
+    "husband",
+    "wife",
+    "marriage",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "appealing a family court judgment on dissolution of marriage",
+    "advising clients on matrimonial cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:17:15.571753"
 }

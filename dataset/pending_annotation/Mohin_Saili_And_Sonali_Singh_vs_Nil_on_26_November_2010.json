@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T10:56:30.970052",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "property_dispute": 1,
@@ -19,13 +19,13 @@
     "Kailash Gambhir J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, case number: MAT APP NO.126/2010",
   "reserved_on": "",
   "delivered_on": "26.11.2010",
-  "case_name": "Mohin Saili And Sonali Singh vs Nil on 26 November, 2010",
+  "case_name": "Mohin Saili And Sonali Singh vs Nil",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mohin Saili and Sonali Singh (husband and wife)",
+    "respondent_defendant": "Nil",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners sought to challenge the Family Court's order dismissing their application for waiver of one year period for presenting a joint divorce petition under Section 13(B) of the Hindu Marriage Act. The petitioners claimed that they were incompatible and could not live together, with the wife working in Qatar.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for divorce under Section 13B of the Hindu Marriage Act cannot be allowed to invoke Section 14 seeking waiver of the statutory period of one year from separation.",
+      "held": "d, therefore, for filing a petition under Section 13B of the Act, the parties cannot be allowed to invoke Section 14 seeking waiver of the statutory period of one year from separation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13B",
+        "Hindu Marriage Act — Section 14"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "petition",
+        "statutory period",
+        "waiver"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court shall not entertain any petition for dissolution of a marriage by a decree of divorce unless one year has elapsed since the date of the marriage.",
+      "held": "Notwithstanding anything contained in this Act, it shall not be competent for any court to entertain any petition for dissolution of a marriage by a decree of divorce, unless at the date of the presentation of the petition one year has elapsed since the date of the marriage",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 14"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition",
+        "divorce",
+        "marriage",
+        "one year"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the appeal and granted exemption from the statutory requirement under Section 13B(1) of the Hindu Marriage Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13(B)",
+    "Section 14",
+    "joint divorce petition",
+    "waiver of one year period",
+    "family court",
+    "divorce",
+    "marriage",
+    "separation",
+    "living together",
+    "solemnization",
+    "Assistant Unit Manager",
+    "Flight Attendant",
+    "United Arab Emirates",
+    "Qatar Airways",
+    "Bikanervala Food Pvt. Ltd"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act",
+    "representing clients in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:51:02.746420"
 }

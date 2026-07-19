@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:56:59.758997",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "domestic_violence",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs. Gitika Barman vs Sanjeev Barman on 21 October, 2022",
+  "case_name": "Mrs. Gitika Barman vs Sanjeev Barman",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smti. Gitika Barman, wife",
+    "respondent_defendant": "Sanjeev Barman, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed an application under Section 12/18/19/20/22/23 of the Protection of Women from Domestic Violence Act, 2005. She alleged domestic violence and sought relief. The trial court directed the respondent to pay a lump sum relief.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,21 +65,47 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The scope of section 20 of the DV Act is much wider than section 125 Cr.P.C.",
+      "held": "section 20(3) of the Domestic Violence Act is an independent provision and in fact its scope is much wider than the section 125 Cr.P.C",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from Domestic Violence Act, 2005 — Section 20"
+      ],
+      "cited_cases": [
+        "Rajnesh Vs. Neha and Another, (2021) 2 SCC 324",
+        "Shome Nikhil Danani vs. Tanya Banaon Danani Criminal Revision Petition No. 994/2018"
+      ],
+      "keywords": [
+        "domestic violence",
+        "maintenance",
+        "compensation"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "cases involving domestic violence and maintenance claims"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court should consider the provisions of Protection of Women from Domestic Violence Act, 2005, when deciding a case.",
+      "held": "the learned appellate court had failed to consider the provisions of Protection of Women from Domestic Violence Act, 2005",
+      "applicable_acts_sections": [
+        "Protection of Women from Domestic Violence Act, 2005"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "domestic violence",
+        "maintenance",
+        "compensation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "cases involving domestic violence and maintenance claims"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
@@ -89,15 +115,32 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Section 397",
+    "Section 401",
+    "Section 482",
+    "Sessions Judge",
+    "Addl. Chief Judicial Magistrate",
+    "Misc. Case (DV)",
+    "Sections 12/18/19/20/22/23",
+    "lump sum relief",
+    "quashing and setting aside",
+    "Judgment and Oder",
+    "Criminal Appeal No. 06/2018",
+    "Protection of Women from Domestic Violence Act, 2005"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting DV petitions",
+    "quashing criminal appeals",
+    "seeking lump sum relief"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:34:06.413592"
 }

@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:57:51.563571",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "IInd Family Court, Bandra, Mumbai (Petition No.A-739 of 2009)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Samit Subhash Agarwal vs Ms. Kamlesh Laltaprasad Gupta on 27 April, 2018",
+  "case_name": "Mr. Samit Subhash Agarwal vs Ms. Kamlesh Laltaprasad Gupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Samit Subhash Agarwal, husband",
+    "respondent_defendant": "Ms. Kamlesh Laltaprasad Gupta, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The Appellant-husband sought a decree of nullity of his marriage with the Respondent-wife. The Respondent-wife filed a counter claim seeking a decree of restitution of conjugal rights. The Family Court dismissed the Petition and allowed the counter claim.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnized without the free will and consent of both parties is a nullity.",
+      "held": "Looking to all these facts, it is contended by the Appellant that his so called marriage with the Respondent has taken place by force and without his free will and consent and is therefore a nullity under the provisions of Hindu Marriage Act 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12(1)(c)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "nullity",
+        "free will",
+        "consent",
+        "marriage solemnization"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "Appellant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's consent to a marriage can be inferred from their conduct and actions.",
+      "held": "The Respondent categorically stated that the marriage of the Appellant and the Respondent was solemnized with the free will and consent of the Appellant",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent",
+        "inference",
+        "conduct",
+        "actions"
+      ],
+      "favours": "Respondent",
+      "use_in": [
+        "marriage disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Appellant's appeal was allowed, and the trial court's order was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "nullity of marriage",
+    "section 12(1)(c)",
+    "Family Court",
+    "FCA154",
+    "Petition No.A-739",
+    "2009",
+    "14th February",
+    "2009",
+    "nullity",
+    "decree",
+    "judgment",
+    "Family Court Appeal",
+    "Bandra, Mumbai",
+    "VRD",
+    "IInd Family Court",
+    "Mumbai",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for nullity of marriage under Hindu Marriage Act",
+    "advising on divorce proceedings in Family Court",
+    "assisting with appeal against Family Court judgment"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:18:30.879089"
 }

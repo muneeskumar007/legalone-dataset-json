@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:57:41.910335",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "cheque_bounce": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, dated 8th February, 2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Jayant S/O. Prafullakumar Bhansali vs Mrs. Sonal W/O. Jayant Bhansali @ Sonal ... on 14 July, 2016",
+  "case_name": "Mr. Jayant S/O. Prafullakumar Bhansali vs Mrs. Sonal W/O. Jayant Bhansali @ Sonal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Jayant s/o Prafullakumar Bhansali (husband)",
+    "respondent_defendant": "Mrs. Sonal w/o Jayant Bhansali (@ Sonal D/o Ramesh Shah) (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2001 and have two sons. The husband filed an application for divorce by mutual consent under Section 13-B of the Hindu Marriage Act. The trial court allowed the wife's application to withdraw her consent, leading to this appeal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party cannot be permitted to withdraw consent unless it is strictly proved that the consent for filing the Petition was secured fraudulently or under undue influence or coercion.",
+      "held": "It is submitted that a party cannot be permitted to withdraw his/her consent unless it is strictly proved that the consent for filing the Petition under section 13-B of the Act was secured fraudulently or under undue influence or coercion.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code, 1860 — Section 498-A"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "fraud",
+        "undue influence",
+        "coercion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Once a party has acted upon the terms that were favourable to them, they cannot be permitted to back out unless they prove that their consent was sought by practising fraud on them.",
+      "held": "It is stated that once the wife had acted upon the terms that were favourable to her, she could not have been permitted to back out unless she proved that her consent was sought by practising fraud on her.",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860 — Section 13-B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent",
+        "fraud",
+        "back out"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Family Court Appeal is admitted and heard finally with consent. The order of the Family Court allowing the wife's application to withdraw her consent is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "alimony",
+    "Section 125 CrPC",
+    "Family Court",
+    "Nagpur",
+    "Maharashtra",
+    "India",
+    "matrimonial",
+    "property",
+    "assets",
+    "joint family",
+    "separation",
+    "custody",
+    "minor children",
+    "family law",
+    "Indian Penal Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "representing in Family Court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:08:17.355208"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:59:50.771135",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 2,
@@ -21,20 +21,20 @@
     "C.Praveen Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judicial Magistrate of First Class, Nandyal, M.C. No. 13 of 2006",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Nichenametla Vijaya Kumar, vs Smt. Aruna Kumari And Another, on 22 January, 2020",
+  "case_name": "Nichenametla Vijaya Kumar vs Smt. Aruna Kumari And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Nichenametla Vijaya Kumar, husband",
+    "respondent_defendant": "Smt. Aruna Kumari, wife",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and Respondent/wife were married in 2004. Disputes arose, leading to filing of divorce petition and maintenance claim. Trial court dismissed the maintenance claim. Petitioner filed this criminal revision case.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -44,39 +44,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A spouse who leaves the matrimonial home without just cause is not entitled to maintenance.",
+      "held": "As seen from the record, the Respondent/wife herein filed M.C. No. 13 of 2006 and examined herself as PW1 and got marked Ex.P1 and Ex.P2.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Nichenametla Vijaya Kumar, vs Smt. Aruna Kumari And Another, (2020)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "matrimonial home",
+        "just cause"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party who files a maintenance petition must establish that they are in need of support.",
+      "held": "After considering the oral and documentary evidence on record, the Trial Court dismissed the M.C., which was set-aside in revision.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Nichenametla Vijaya Kumar, vs Smt. Aruna Kumari And Another, (2020)"
+      ],
+      "keywords": [
+        "maintenance",
+        "petition",
+        "support"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order under challenge requires interference.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Criminal Revision Case",
+    "Cr.P.C.",
+    "Sections 397 and 401",
+    "Judicial Magistrate",
+    "First Class",
+    "Nandyal",
+    "III Additional Sessions Judge",
+    "Kurnool",
+    "Latin maxim",
+    "Act of God",
+    "negligence",
+    "stay away",
+    "petitioner",
+    "respondent",
+    "wife",
+    "husband",
+    "family court",
+    "district court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on maintenance claims",
+    "appealing a family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:03:30.728764"
 }

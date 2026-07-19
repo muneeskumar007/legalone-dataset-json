@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:59:36.208759",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Naveen Mangla & Ors vs State Of Delhi & Anr on 4 July, 2022",
+  "case_name": "Naveen Mangla & Ors vs State Of Delhi & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Naveen Mangla & Ors (husband, wife, etc.)",
+    "respondent_defendant": "State Of Delhi & Anr (wife, husband, etc.)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners filed a petition for quashing of FIR No.0039/2020 under Sections 498A/406/34 IPC. Parties have resolved their differences and arrived at a settlement.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A settlement agreement can be a valid basis for quashing a FIR.",
+      "held": "Respondent no. 2 submits that she has no objection to quashing of the FIR in question.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "FIR",
+        "quashing"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's consent can be a valid basis for quashing a FIR.",
+      "held": "Respondent no. 2 submits that she has no objection to quashing of the FIR in question.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent",
+        "FIR",
+        "quashing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR No.0039/2020 dated 16.09.2020 is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498A",
+    "406",
+    "IPC",
+    "quashing",
+    "FIR",
+    "Memorandum of Understanding",
+    "Settlement Deed",
+    "MoU",
+    "bed rest",
+    "pregnancy",
+    "medical certificate",
+    "IO",
+    "identification",
+    "settlement",
+    "outside court",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs",
+    "negotiating settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:42:56.074354"
 }

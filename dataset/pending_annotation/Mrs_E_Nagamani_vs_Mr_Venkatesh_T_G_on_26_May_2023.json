@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:56:58.264717",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -25,13 +25,13 @@
     "M.C.NO.222/2015",
     "M.C.No.222/2015"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Tumakuru, M.C.No.222/2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs E Nagamani vs Mr Venkatesh T G on 26 May, 2023",
+  "case_name": "Mrs E Nagamani vs Mr Venkatesh T G",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mrs. E. Nagamani, wife",
+    "respondent_defendant": "Mr. Venkatesh T.G., husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2013. No children were born. The husband claimed the wife stayed with him for only 3 months and then left. He also alleged cruelty by the wife. The wife wanted a separate house and a lavish lifestyle. The husband's father was suffering from cancer, and he couldn't stay away from his parents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Pleadings relating to cruelty and desertion must specify particular instances of cruelty.",
+      "held": "The pleading relating to the alleged cruelty does not make reference to any specific instances of cruelty. The evidence also does not make any reference to specific instances of cruelty.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia) and 13(1)(ib)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "pleadings",
+        "cruelty",
+        "desertion",
+        "specific instances"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A decree for restitution of conjugal rights passed exparte cannot be used to prove desertion.",
+      "held": "Merely because there is a decree for restitution of conjugal rights in favour of the husband, which is passed exparte, it cannot be said that wife has deserted the company of the husband.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 15"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "exparte decree",
+        "restitution of conjugal rights",
+        "desertion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Family Court must follow well-settled principles governing pleading and proof of cruelty and desertion.",
+      "held": "This court has considered the contentions raised by the learned counsel for the wife. We have considered the pleadings as well as the evidence placed on record with reference to well established principles governing pleading and proof of cruelty and desertion under the Act of 1955.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Family Court",
+        "pleadings",
+        "cruelty",
+        "desertion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is filed under Section 19(1) of the Family Courts Act, 1984. The judgment and decree dated 18.01.2017 passed in M.C.No.222/2015 are set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i-a)(i-b)",
+    "Family Court Act",
+    "Section 19(1)",
+    "M.C.No.222/2015",
+    "Tumakuru",
+    "Karnataka",
+    "High Court of Karnataka",
+    "Bengaluru",
+    "Justice Alok Aradhe",
+    "Justice Anant Ramanath Hegde",
+    "Malayanooru Village",
+    "Andhra Pradesh",
+    "Ananthapur District",
+    "Kalyanadurga Taluk",
+    "Tumkur-572102",
+    "Srivari Nilaya",
+    "Nalanda School"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court decisions",
+    "litigating under Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:32:38.971632"
 }

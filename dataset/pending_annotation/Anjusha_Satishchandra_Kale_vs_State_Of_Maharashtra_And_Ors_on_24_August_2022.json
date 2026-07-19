@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T20:32:39.729485",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "will_succession": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anjusha Satishchandra Kale vs State Of Maharashtra And Ors on 24 August, 2022",
+  "case_name": "Anjusha Satishchandra Kale vs State Of Maharashtra And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Satishchandra Purushottam Kale (husband)",
+    "respondent_defendant": "The State of Maharashtra and Ors. (wife, state, others)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife has been amicably settled with the respondent No.4, and consent terms have been entered into between the parties. Divorce is sought under Section 13-B of the Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Consent terms executed between parties can lead to divorce.",
+      "held": "In view of the consent terms executed between the parties, the family Court is requested to...",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "divorce",
+        "family court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Courts can request family courts to take certain actions.",
+      "held": "The family Court is requested to...",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "court",
+        "family court",
+        "request"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The learned Judge, Family Court, is directed to decide the petition as expeditiously as possible and in any event within two weeks from the date of receipt of this order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "amicable settlement",
+    "Consent Terms",
+    "Family Court",
+    "petition",
+    "amicable dispute",
+    "Indian Kanoon",
+    "High Court of Judicature at Bombay",
+    "Criminal Appellate Jurisdiction",
+    "Criminal Writ Petition",
+    "Interim Application",
+    "Latin Maxim: Amicus Curiae",
+    "Section 2(1)",
+    "Section 5",
+    "Section 10"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on amicable settlements",
+    "representing clients in Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:08:26.742431"
 }

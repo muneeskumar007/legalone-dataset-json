@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:02:05.322716",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "will_succession": 1
@@ -26,13 +26,13 @@
     "CMA.No. 167 of 2020",
     "CMA.No.167/2029"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Senior Civil Judge, Madanapalle, H.M.O.P.No. 124 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "P. Anasuya, vs C. Obul Reddy on 25 August, 2020",
+  "case_name": "P. Anasuya vs C. Obul Reddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P. Anasuya, wife",
+    "respondent_defendant": "C. Obul Reddy, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are P. Anasuya and C. Obul Reddy. The trial court granted dissolution of marriage under Section 13 of Hindu Marriage Act on the main ground that the appellant has not looked after their children. The respondent, after the decree granted by the trial court, making attempts to have second marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A contention raised by the learned counsel needs a detailed hearing.",
+      "held": "However, having found, prima facie, force in the submission of learned counsel for petitioner, there shall be stay of operation of the order.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "stay",
+        "petitioner",
+        "submission",
+        "prima facie"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A prima facie finding of force in a submission can lead to a stay.",
+      "held": "having found, prima facie, force in the submission of learned counsel for petitioner, there shall be stay of operation of the order.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "prima facie",
+        "submission",
+        "stay"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Stay of operation of the order and decretal order in H.M.O.P.No.124 of 2017 for a period of eight weeks.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 151 CPC",
+    "stay order",
+    "decree",
+    "affidavit",
+    "CMA",
+    "High Court",
+    "Principal Senior Civil Judge",
+    "Madnapalle",
+    "Chittoor District",
+    "petition",
+    "notice",
+    "cause",
+    "show cause",
+    "compliance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "seeking stay order in family court",
+    "responding to show cause notice"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:23:04.119308"
 }

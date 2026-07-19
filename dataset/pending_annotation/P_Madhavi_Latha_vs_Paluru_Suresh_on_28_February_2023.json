@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:02:11.980662",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -24,13 +24,13 @@
   "case_numbers": [
     "M.C.NO.2691/2011"
   ],
-  "trial_court": "",
+  "trial_court": "II Additional Principal Judge, Family Court, Bangalore, M.C.No.2691/2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "P Madhavi Latha vs Paluru Suresh on 28 February, 2023",
+  "case_name": "P Madhavi Latha vs Paluru Suresh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P. Madhavi Latha, wife",
+    "respondent_defendant": "Paluru Suresh, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties was solemnized on 26.08.2004. Two children were born to the appellant. Respondent filed petition under Section 13 of Hindu Marriage Act seeking dissolution of marriage on ground of cruelty and desertion.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "If a testimony of witness is not challenged in the cross-examination, it is taken to be accepted.",
+      "held": "It is trite law that if a testimony of witness is not challenged in the cross-examination, the same is taken to be accepted.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "VIDHYADHAR VS. MANIKRAO AND ANOTHER', (1999) 3 SCC 573",
+        "MUDDASANI VENKATA NARSAIAH (D) THROUGH LRS."
       ],
+      "keywords": [
+        "witness testimony",
+        "cross-examination"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "civil cases",
+        "family law disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the party seeking to prove a fact or claim.",
+      "held": "None mentioned in this judgment.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "party seeking"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "civil cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition filed by respondent seeking dissolution of marriage was rejected, and appeal filed by wife was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "M.C.No.2691/2011",
+    "MFA No.5788 of 2014",
+    "Paluru Suresh",
+    "P Madhavi Latha",
+    "Hindu Marriage",
+    "Divorce Petition",
+    "Family Court",
+    "Bangalore",
+    "Andhra Pradesh",
+    "Karnataka",
+    "Indian Penal Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "appealing family court decision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:32:13.694886"
 }

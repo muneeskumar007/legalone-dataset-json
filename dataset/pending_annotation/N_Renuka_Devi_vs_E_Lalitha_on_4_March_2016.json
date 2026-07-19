@@ -7,7 +7,7 @@
   "total_pages": 91,
   "extracted_at": "2026-07-15T11:00:19.765296",
   "domain": "will_succession",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 6,
     "partition": 4,
@@ -30,10 +30,10 @@
   "trial_court": "",
   "reserved_on": "30.09.2015",
   "delivered_on": "17.04.2003",
-  "case_name": "N.Renuka Devi vs E.Lalitha on 4 March, 2016",
+  "case_name": "N.Renuka Devi vs E.Lalitha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "N.Renuka Devi, daughter and one of the legatees under the Will of the deceased S.V.Ramakrishnan",
+    "respondent_defendant": "E.Lalitha, S.V.Mathaprasad @ Pancras Matha Prasad (Defendants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -96,7 +96,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The father of the plaintiff died on 31.12.1980 and executed a Will in 1970. The plaintiff seeks Letters of Administration with a Will annexed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -106,39 +106,106 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A change in the course of natural affection does not necessarily affect the direction of settlement of properties.",
+      "held": "It is one thing for a father who feels that he has been wronged by a disobedient son to wish him well in life, and quite another thing to give him any of his properties.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "natural affection",
+        "settlement of properties"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's will is not necessarily reflected by their actions or correspondence.",
+      "held": "The two currents of natural affection and settlement of properties flowed in distinct channels, and that the change in the course of one had no effect on the direction of the other.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "will",
+        "actions",
+        "correspondence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person's strong will and determination can influence their decisions.",
+      "held": "The testator was a man of strong will, determined and unshakable in his resolutions.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "strong will",
+        "determination"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A person's sense of social humiliation can influence their decisions.",
+      "held": "The testator was all along smarting under a sense of social humiliation by reason of the inter-caste-marriage, and that the recitals in the will were manifestations of a sore in his heart which had remained unhealed to the last.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "social humiliation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Letters of Administration with a Will annexed, may be granted to the plaintiff as the daughter and one of the legatees under the Will of the deceased S.V.Ramakrishnan, having effect limited to the State of Tamil Nadu.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Transfer of Property Act",
+    "Limitation Act",
+    "Indian Succession Act",
+    "Letters of Administration",
+    "Will annexed",
+    "Legatees",
+    "Tamil Nadu",
+    "S.V.Ramakrishnan",
+    "N.Renuka Devi",
+    "E.Lalitha",
+    "S.V.Mathaprasad",
+    "Pancras Matha Prasad",
+    "O.P.No.367",
+    "O.P.No.2",
+    "Order 25 Rule 5",
+    "Madras High Court Original Side Rules"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting wills",
+    "obtaining letters of administration",
+    "succession disputes in Tamil Nadu"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:17:05.301004"
 }

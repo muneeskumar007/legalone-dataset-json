@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T20:31:38.812503",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "will_succession": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Criminal Writ Petition No.1048 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ajinkya Dhananjay Mirkhelkar vs The State Of Maharashtra And Others on 19 January, 2022",
+  "case_name": "Ajinkya Dhananjay Mirkhelkar vs The State Of Maharashtra And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ajinkya Dhananjay Mirkhelkar",
+    "respondent_defendant": "The State Of Maharashtra And Others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,39 +48,59 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has been broken down irretrievably.",
+      "held": "It is settled law that the burden lies on the party seeking divorce to prove that the marriage has been broken down irretrievably.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "",
+    "final_order": "Stand over to 21st February 2022.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "amicable settlement",
+    "mutual consent",
+    "Family Court",
+    "petition",
+    "compromise",
+    "affidavit",
+    "decree",
+    "marriage",
+    "spouse",
+    "consent",
+    "judgment",
+    "order",
+    "settlement",
+    "conciliation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "negotiating settlement terms",
+    "representing client in Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:14:43.797915"
 }

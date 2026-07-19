@@ -62,21 +62,48 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court may transfer a case to another court if the convenience of the parties is at stake.",
+      "held": "Pressing into service judgment in the case of Tejalben v/ s. Mihirbhai Bharatbhai Kothari [AIR 2016 SC 718], it is sought to be submitted by learned advocate for the petitioner that the petitioner is lady living in Vadodara along her mother at parental home.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Section 24"
+      ],
+      "cited_cases": [
+        "Tejalben v/ s. Mihirbhai Bharatbhai Kothari, (2016) SC 718"
+      ],
+      "keywords": [
+        "convenience",
+        "parties",
+        "transfer",
+        "case"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may consider the inconvenience faced by a party in deciding whether to transfer a case.",
+      "held": "Therefore, he would submit that the petitioner is urging to transfer Family Suit only on the ground of inconvenience she is facing.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "inconvenience",
+        "party",
+        "transfer",
+        "case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -86,15 +113,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Family Suit",
+    "transfer petition",
+    "section 24",
+    "family court",
+    "marriage",
+    "harassment",
+    "abuse",
+    "mental cruelty",
+    "physical abuse",
+    "torture",
+    "matrimonial dispute",
+    "joint family",
+    "separation",
+    "custody",
+    "maintenance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition under section 24 of the Code of Civil Procedure",
+    "advising on matrimonial disputes and separation",
+    "assisting in custody and maintenance matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:37:05.075608"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T20:32:12.136190",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "Sudhir Kumar Jain J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Ms. Anamika, M.M, Karkardooma Courts, Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amandeep Singh Kohli And Others vs The State Nct Of Delhi And Anr on 10 October 2022",
+  "case_name": "W.P.(CRL) 2336/2022, CRL.M.As. 20370/2022 & 20371/2022",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amandeep Singh Kohli and others (husband, wife, etc.)",
+    "respondent_defendant": "The State (NCT of Delhi) and another (wife's family)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner husband and respondent wife got married in 2014, but due to matrimonial differences started living separately since 2017. The wife filed a petition under the Protection of Women from Domestic Violence Act, 2005, which was pending. The husband also filed a divorce petition, which was withdrawn.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A settlement deed can dissolve a marriage by mutual consent.",
+      "held": "The marriage between the petitioner no.1 and the respondent no.2 has already been dissolved by way of divorce by mutual consent as per section 13B(2) of the Hindu Marriage Act, 1955 vide judgment dated 06.08.2022 titled as Amandeep Singh Kohli and Gurpriya Kaur in HMA bearing No.962/2022 passed by the Court of Mr. Ajay Pandey, Judge, Family Courts, Karkardooma Courts, New Delhi.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement deed",
+        "divorce by mutual consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A settlement deed can be executed to settle disputes between parties.",
+      "held": "The counsel for the petitioners and the respondent no. 2 stated that the petitioner no. 1 and the respondent no. 2 have already settled their disputes vide Settlement/Compromise Deed dated 15.03.2022, the terms and conditions of which have already been executed.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "settlement deed",
+        "dispute settlement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The FIR bearing no. 278/2017 registered under sections 406/498A/34 IPC is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "quashing of FIR",
+    "Article 226",
+    "section 482 Cr.P.C",
+    "matrimonial differences",
+    "separation",
+    "FIR bearing no. 278/2017",
+    "sections 406/498A/34 IPC",
+    "P.S. Jagatpuri",
+    "Karkardooma Courts",
+    "Delhi",
+    "Hindu/Sikh rites and ceremonies",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs",
+    "matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:31:31.974579"
 }

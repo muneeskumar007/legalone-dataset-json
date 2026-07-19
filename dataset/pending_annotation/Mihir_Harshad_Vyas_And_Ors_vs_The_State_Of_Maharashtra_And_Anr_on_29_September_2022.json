@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:56:20.445935",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -18,13 +18,13 @@
   "case_numbers": [
     "C.C.No. 97 of 2017"
   ],
-  "trial_court": "",
+  "trial_court": "JMFC, 9th Court at Thane being R.C.C.No. 97 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mihir Harshad Vyas And Ors vs The State Of Maharashtra And Anr on 29 September, 2022",
+  "case_name": "Mihir Harshad Vyas And Ors vs The State Of Maharashtra And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Mihir Harshad Vyas, Mrs. Nayna Harshad Vyas, Mr. Nakul Harshad Vyas (husband, mother-in-law, brother-in-law)",
+    "respondent_defendant": "The State of Maharashtra, Mrs. Nisha Mihir Vyas (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -34,7 +34,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners seek quashing of FIR/complaint registered vide C.R. No. 0144 of 2016 with the Mira Road Police Station, Mumbai for alleged offences punishable under Sections 498-A, 406, 323, 504, 506 read with 34 of the Indian Penal Code. Parties amicably settled their dispute.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -44,39 +44,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A party's consent to quash a criminal proceeding can be taken into account.",
+      "held": "Perused the papers. The respondent no.2 is present in person. She has tendered her consent affidavit dated 19th August, 2022, duly affirmed before the Assistant Registrar, High Court.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "quash"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's decision to withdraw allegations and complaints can be taken into account.",
+      "held": "She has stated that she has decided to withdraw all allegations/complaints made by her against the petitioners, including the subject FIR.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "withdraw",
+        "allegations"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal proceedings"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party's consent to settle a dispute can be taken into account.",
+      "held": "It appears that the parties decided to amicably resolve and settle their dispute.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "consent",
+        "settle"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Quashing of FIR/complaint sought and granted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "quashing",
+    "FIR",
+    "complaint",
+    "C.R.",
+    "petition",
+    "consent",
+    "notice",
+    "waive",
+    "final disposal",
+    "Indian Kanoon",
+    "judgment",
+    "family court",
+    "marriage",
+    "spouse",
+    "property",
+    "maintenance",
+    "alimony",
+    "custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing FIR",
+    "advising on divorce proceedings",
+    "assisting in family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:40:46.770401"
 }

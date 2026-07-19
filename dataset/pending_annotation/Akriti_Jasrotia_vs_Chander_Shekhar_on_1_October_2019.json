@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T20:31:42.166232",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -19,13 +19,13 @@
     "Sindhu Sharma J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal District Judge, Kathua (CTA No. 11/2017)",
   "reserved_on": "",
   "delivered_on": "01.10.2019",
-  "case_name": "Akriti Jasrotia vs Chander Shekhar on 1 October, 2019",
+  "case_name": "Akriti Jasrotia vs Chander Shekhar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner-wife",
+    "respondent_defendant": "Respondent-husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner-wife seeks transfer of the petition filed under Section 13 of the Hindu Marriage Act for Dissolution of Marriage by the respondent-husband from the court of Principal District Judge, Kathua to Additional District Judge (Matrimonial Cases) Jammu.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The convenience of the wife must be given due weightage for ordering the transfer of cases in matrimonial disputes.",
+      "held": "where consistent opinion is that it is always the convenience of wife which has to be given due weightage for ordering the transfer.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Anupama Patil v Nataraj Veeranagouda Patil, (2018) 15 SCC 354",
+        "Sumita Singh v. Kumar Sanjay and another, (2001) 10 SCC 41"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial disputes",
+        "convenience of wife",
+        "transfer of cases"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The circumstances indicating difficulty for the wife in contesting the petition at Kathua must be considered.",
+      "held": "circumstances indicated above are sufficient to make the transfer petition absolute.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Sumita Singh v. Kumar Sanjay and another, (2001) 10 SCC 41"
+      ],
+      "keywords": [
+        "difficulty for wife",
+        "petition at Kathua"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce",
+        "family law"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13",
+    "Divorce",
+    "Matrimonial Cases",
+    "Jammu",
+    "Kathua",
+    "Principal District Judge",
+    "Additional District Judge",
+    "Marriage Dissolution",
+    "Petitioner",
+    "Respondent",
+    "Family Court",
+    "Computer Courses",
+    "Typing Courses",
+    "Education",
+    "Child Custody",
+    "Residency",
+    "Court Transfer"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on court transfer",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:19:22.395937"
 }

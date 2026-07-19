@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T11:00:47.124750",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sessions Judge, Rajahmundry (Criminal Appeal No. 338 of 1959)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Padullaparthi Mutyala Paradeshi vs Padullaparthi Subbalakshmi And Anr. on 3 August, 1961",
+  "case_name": "Padullaparthi Mutyala Paradeshi vs Padullaparthi Subbalakshmi And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Padullaparthi Mutyala Paradeshi (1st accused)",
+    "respondent_defendant": "Padullaparthi Subbalakshmi and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner contracted a marriage with the 2nd accused, who is his second wife, despite having a previous wife. The trial court convicted the petitioner and sentenced him to imprisonment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,122 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The onus of proof in respect of the validity of a marriage lies with the party alleging bigamy.",
+      "held": "We consider that embarking upon such an enquiry is essential in view of the argument of the learned Counsel that the provision contained in Section 7 Of the Hindu Marriage Act, 1955 created a special rule of evidence in supersession of any presumptions which may arise in respect of the validity of a marriage even when in fact it has been found to have been truly performed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 7"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "onus of proof",
+        "bigamy",
+        "marriage validity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The statements of a person who had special means of knowledge and when such a statement was made before the question in dispute was raised, is made admissible under Sub-section (5) of Section 32 of the Indian Evidence Act.",
+      "held": "At the outset, it Is necessary to remember that in proving the existence of any relationship by marriage, the statements of a person who had special means of knowledge and when such a statement was made before the question in dispute was raised, is made admissible under Sub-section (5) of Section 32 of the Indian Evidence Act",
+      "applicable_acts_sections": [
+        "Indian Evidence Act — Section 32"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "special means of knowledge",
+        "admissibility",
+        "marriage proof"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The proof of fact at marriage is not to depend on opinion or conduct evidence.",
+      "held": "But the proviso Section 50 makes such opinion insufficient to prove a marriage in proceedings under the Indian Divorce Act (IV of 1889) or in prosecutions Under Sections 494, 495, 497 or 498 of the Indian Penal Code",
+      "applicable_acts_sections": [
+        "Indian Evidence Act — Section 50"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage proof",
+        "opinion evidence",
+        "conduct evidence"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the party alleging bigamy to prove the invalidity of the second marriage.",
+      "held": "We will advert to this second point later. Before then, we will proceed to consider the state of decided authorities so far as made available to this Court",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "bigamy",
+        "second marriage",
+        "invalidity"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The conviction and sentence imposed on the 1st accused were confirmed, but the appeal of the 3rd accused was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 17",
+    "Section 494 IPC",
+    "bigamy",
+    "polygamy",
+    "marriage validity",
+    "voidable marriage",
+    "divorce",
+    "cruelty",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "matrimonial offence",
+    "cohabitation",
+    "illegality of marriage",
+    "nullity of marriage",
+    "separation",
+    "maintenance",
+    "alimony"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on bigamy charges",
+    "assisting in nullity of marriage proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:44:20.423387"
 }

@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:56:33.350338",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mohit Sahney vs The State Of Uttar Pradesh on 18 September, 2023",
+  "case_name": "Mohit Sahney vs The State Of Uttar Pradesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mohit Sahney & Anr. (husband and wife)",
+    "respondent_defendant": "The State Of Uttar Pradesh & Anr.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner No.2 – wife was accused of having committed offences punishable under Sections 498A, 406, 377, 384, 420 & 120−B of the Indian Penal Code (IPC). The parties negotiated and arrived at an amicable settlement.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can agree to end their disputes and settle their differences through a settlement agreement.",
+      "held": "The parties, during the pendency of the proceedings, have negotiated and arrived at an amicable settlement.",
       "applicable_acts_sections": [
-        "TODO"
+        "Specific Relief Act, 1963"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "amicable",
+        "disputes",
+        "agreement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Courts can dissolve a marriage in the interest of justice, even if it's not a formal divorce.",
+      "held": "This Court hereby and in the interest of justice, dissolve their marriage.",
+      "applicable_acts_sections": [
+        "Constitution — Article 142"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "dissolve",
+        "justice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial disputes",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Complaint case No.4212/2013 pending before the Additional Chief Judicial Magistrate, District Gautam Budh Nagar, Noida, U.P. and all proceedings emanating therefrom are hereby quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "custody",
+    "specific relief act",
+    "code of criminal procedure",
+    "section 406",
+    "ipc",
+    "section 498a",
+    "section 377",
+    "section 384",
+    "section 420",
+    "section 120b",
+    "amicable settlement",
+    "joint application",
+    "criminal miscellaneous petition",
+    "supreme court",
+    "high court",
+    "allahabad",
+    "gautam budh nagar",
+    "uttar pradesh"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting custody agreements",
+    "negotiating settlements in criminal cases",
+    "quashing proceedings under section 406 IPC"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:53:54.653511"
 }

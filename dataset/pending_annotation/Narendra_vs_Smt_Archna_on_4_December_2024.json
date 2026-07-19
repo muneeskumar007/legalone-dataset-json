@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:59:21.580289",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Narendra vs Smt. Archna on 4 December, 2024",
+  "case_name": "Narendra vs Smt. Archna",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Narendra (husband)",
+    "respondent_defendant": "Smt. Archna (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant's wife and children are living separately, he is willing to keep them with him, but the court is unsure of his intentions.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In determining maintenance pendente lite, the court considers the price index, cost of daily needs, and special requirements of children.",
+      "held": "Accordingly, this Court is of the considered opinion that looking to the price index, cost of daily needs coupled with the fact that one of the children of appellant is a student of Class 10 and another child is a student of Class 8 who also require special diet, books, uniform etc",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance pendente lite",
+        "price index",
+        "cost of daily needs",
+        "children's education"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may protect the interests of a respondent and their children in a divorce case by considering the financial capacity of the appellant.",
+      "held": "Therefore, in all fairness, this Court thinks it appropriate to protect the interest of respondent and her children also",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "financial capacity",
+        "divorce case",
+        "respondent's interests"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal admitted for final hearing",
+    "final_order": "Application under Section 24 of Hindu Marriage Act taken up for consideration",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 24",
+    "maintenance pendente lite",
+    "family law",
+    "marriage dissolution",
+    "alimony",
+    "pendente lite",
+    "matrimonial disputes",
+    "child custody",
+    "parental responsibility",
+    "income disparity",
+    "financial support",
+    "family court",
+    "Indian legal system"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on alimony claims",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:31:53.793446"
 }

@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Ajmer",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Minor Anu vs Ratan Lal Sharma on 26 April, 1993",
+  "case_name": "Minor Anu vs Ratan Lal Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Minors Anu @ Atul and Manu @ Abhijit (sons)",
+    "respondent_defendant": "Ratan Lal Sharma (father)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The father was married to Smt. Padamja, and they had two sons. Proceedings under Section 125, Cr.P.C were initiated for interim maintenance allowance. The trial court initially granted Rs. 500/- p.m., but this was set aside by the High Court. Later, the trial court awarded Rs. 250/- p.m. as interim maintenance allowance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An interlocutory order is not a final decision of the whole controversy.",
+      "held": "Ordinarily and generally the expression 'interlocutory order' is understood and taken to mean as converse to the term 'final order'.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Corpus Juris Secundum, Volume 47",
+        "Webster's Third International Dictionary",
+        "Halsbury's Laws of England, Third Edition"
+      ],
       "keywords": [
-        "TODO"
+        "interlocutory order",
+        "final order",
+        "judgment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family court cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A final judgment is one that once puts an end to the action by declaring that the plaintiff has either entitled himself, or has not, to recover the remedy he sues for.",
+      "held": "Four different tests for ascertaining the finality of a judgment or order have been suggested :--",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "S. Kuppuswami Rao v. The King: AIR 1949 F.C. 1",
+        "Mohoan Lal Magan Lal Thakkar v. State of Rajasthan : AIR 1968 SC 733"
+      ],
+      "keywords": [
+        "final judgment",
+        "judgment",
+        "remedy"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeals allowed",
+    "final_order": "The appeals were allowed and the order awarding interim maintenance allowance at the rate of Rs. 250/- p.m. was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 125 CrPC",
+    "interim maintenance",
+    "minor children",
+    "family court",
+    "maintenance allowance",
+    "divorce proceedings",
+    "Section 13 Hindu Marriage Act",
+    "dissolution of marriage",
+    "Section 26 Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19 Family Courts Act",
+    "Code of Civil Procedure",
+    "Code of Criminal Procedure",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance rights",
+    "representing minor children in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:44:20.382318"
 }

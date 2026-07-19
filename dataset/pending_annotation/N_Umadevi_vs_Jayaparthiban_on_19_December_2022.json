@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:00:23.921492",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -24,13 +24,13 @@
     "M.P.No.795 of 2022",
     "M.P.No.13631 of 2022"
   ],
-  "trial_court": "",
+  "trial_court": "Subordinate Court, Kangayam (HMOP No.13 of 2021)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "N.Umadevi vs Jayaparthiban on 19 December, 2022",
+  "case_name": "N.Umadevi vs Jayaparthiban",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "N.Umadevi, wife",
+    "respondent_defendant": "Jayaparthiban, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent were married in 2012. They have a 7-year-old child. The respondent filed for divorce, but the petitioner is unemployed and cannot afford to contest the case.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,119 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The interest of the minor child is of paramount importance and the Courts are bound to protect the interest of the minor children at all circumstances.",
+      "held": "This Court is of the considered opinion that the disputes are no way connected with the maintenance of a minor child. Dispute between the husband and wife is to be resolved in the manner known to law or they can go for Conciliation for reunion or otherwise.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "minor child",
+        "maintenance",
+        "paramount importance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Remedy of maintenance is a social justice as envisaged under the Constitution to prevent the child from falling into destitution or vagrancy.",
+      "held": "Remedy of maintenance is a social justice as envisaged under the Constitution to prevent the child from falling into destitution or vagrancy.",
+      "applicable_acts_sections": [
+        "Constitution"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "social justice",
+        "maintenance",
+        "destitution",
+        "vagrancy"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Courts are bound to consider the grant of interim maintenance even in the absence of application from the mother till such time the final maintenance is to be determined after adjudication.",
+      "held": "Therefore, even in the absence of application seeking maintenance, the Courts are bound to consider the grant of interim maintenance whenever a child is residing with the mother, who is not employed. Even in case, the mother is employed, the father has to share the maintenance in respect of the minor.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "final maintenance",
+        "adjudication"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Courts are directed to look into the issues and consider for grant of interim maintenance to protect the livelihood of the children residing with the unemployed mother.",
+      "held": "In all such cases, the Courts are directed to look into the issues and consider for grant of interim maintenance to protect the livelihood of the children residing with the unemployed mother.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "livelihood",
+        "unemployed mother"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition for transfer was allowed, and the HMOP No.13 of 2021 was transferred from the Subordinate Court, Kangayam to the Family Court, Karur.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "transfer",
+    "HMOP",
+    "Family Court",
+    "Karur",
+    "Kangayam",
+    "Subordinate Court",
+    "marriage",
+    "separation",
+    "understanding",
+    "misunderstanding",
+    "divorce petition",
+    "civil procedure code",
+    "section 24"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family court procedures",
+    "assisting with transfer of cases between courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:19:32.738307"
 }

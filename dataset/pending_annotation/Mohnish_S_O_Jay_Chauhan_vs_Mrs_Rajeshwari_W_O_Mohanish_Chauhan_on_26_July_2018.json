@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:56:33.849070",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court-2, Nagpur in Petition No. (A)817/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mohnish S/O Jay Chauhan vs Mrs. Rajeshwari W/O Mohanish Chauhan @ ... on 26 July, 2018",
+  "case_name": "Mohnish S/O Jay Chauhan vs Mrs. Rajeshwari W/O Mohanish Chauhan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mohnish S/o. Jay Chauhan (husband)",
+    "respondent_defendant": "Mrs. Rajeshwari W/o Mohanish Chauhan (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife who got married on 29.01.2011. The husband claimed restitution of conjugal rights and later amended the petition to claim divorce under Hindu Marriage Act, 1955. The trial court allowed the respondent's petition. The husband is aggrieved by this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The evidence adduced by the petitioner without pleadings cannot be considered.",
+      "held": "The submission that there was already pleadings in the petition also cannot be accepted.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "pleadings",
+        "evidence",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A petition cannot be amended to introduce new grounds without sufficient evidence.",
+      "held": "The petitioner has also adduced evidence to that effect.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition",
+        "amendment",
+        "evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed. The marriage between the parties is dissolved.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 9",
+    "Family Court",
+    "Nagpur",
+    "Bombay",
+    "High Court",
+    "Judgment",
+    "Appeal",
+    "Petition",
+    "Marriage",
+    "Matrimonial",
+    "Dispute Resolution",
+    "Custody",
+    "Maintenance",
+    "Alimony",
+    "Property Division"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing family court judgment",
+    "negotiating property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:54:34.589324"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T20:32:39.923738",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -19,13 +19,13 @@
     "Virendra Kumar Mathur J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Udaipur, Case No.63/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anju Sharma vs Subhash Sharma on 24 August, 2017",
+  "case_name": "Anju Sharma vs Subhash Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anju Sharma, wife",
+    "respondent_defendant": "Subhash Sharma, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties was solemnized on 27.02.2009. Petitioner was harassed by respondent and his family members in connection with demand of dowry. A complaint has been filed by petitioner against respondent under sec.498A, 406 IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A transfer application under Section 24 of the Family Courts Act, 1984 is maintainable if there is a danger to the life and liberty of the party seeking transfer.",
+      "held": "In view of the above, it is held that the petitioner has made out a prima facie case for transfer of the case from Udaipur to Chittorgarh.",
       "applicable_acts_sections": [
-        "TODO"
+        "Family Courts Act, 1984 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer application",
+        "danger to life and liberty",
+        "Family Courts Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking transfer of a case under Section 24 of the Family Courts Act, 1984 must demonstrate a genuine danger to their life and liberty.",
+      "held": "The burden lies on the petitioner to show that there is a real and substantial danger to her life and liberty if she has to travel to Udaipur for contesting the case.",
+      "applicable_acts_sections": [
+        "Family Courts Act, 1984 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "transfer application",
+        "danger to life and liberty",
+        "genuine danger"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Transfer of case from Family Court, Udaipur to Family Court, Chittorgarh",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "dowry harassment",
+    "498A IPC",
+    "406 IPC",
+    "Family Court",
+    "Chittorgarh",
+    "Udaipur",
+    "transfer application",
+    "sec.24 CPC",
+    "sec.13A Hindu Marriage Act",
+    "marriage",
+    "harassment",
+    "dowry demand",
+    "complaint",
+    "challan",
+    "IPC",
+    "CPC"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on transfer of cases between courts",
+    "representing client in dowry harassment case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:07:00.606217"
 }

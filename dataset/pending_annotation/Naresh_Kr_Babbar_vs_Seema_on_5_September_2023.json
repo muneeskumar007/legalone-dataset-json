@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T10:59:22.958966",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Naresh Kr. Babbar vs Seema on 5 September, 2023",
+  "case_name": "Naresh Kr. Babbar vs Seema",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Naresh Kr. Babbar, husband",
+    "respondent_defendant": "Seema, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties got married in 1992. Appellant claimed cruelty and sapinda relationship. Trial court dismissed petition for divorce/annulment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The onus of proving a custom lies on the party propounding it.",
+      "held": "Section 102 of the Indian Evidence Act, 1872 provides that the burden of proof in any proceeding or suit lies on a person who would fail if no evidence at all was given on either side.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872 — Section 102"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "onus",
+        "custom",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A custom to be recognized as a source of law under Hindu Law must be characterized by its continuity, longevity and uninterruptedness.",
+      "held": "It was observed that for any custom to be recognized as a source of law under the Hindu Law, it has to be characterized by its continuity, longevity and uninterruptedness.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Arun Laxmanrao vs. Meena Arun, (2006) 3 Mh.L.J."
+      ],
+      "keywords": [
+        "custom",
+        "continuity",
+        "longevity",
+        "uninterruptedness"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Marriage declared nullity due to sapinda relationship.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "annulment",
+    "cruelty",
+    "sapinda relationship",
+    "Hindu Marriage Act",
+    "1955",
+    "section 5",
+    "section 11",
+    "nullity",
+    "marriage nullity",
+    "Indian Penal Code",
+    "1860",
+    "Indian Evidence Act",
+    "1872",
+    "matrimonial dispute",
+    "family law",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on family disputes",
+    "representing in matrimonial cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:32:35.446063"
 }

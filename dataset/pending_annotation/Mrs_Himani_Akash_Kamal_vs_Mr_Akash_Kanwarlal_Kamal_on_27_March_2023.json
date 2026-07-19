@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:57:01.272645",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.5, Mumbai (FCA No. 173/2019)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs. Himani Akash Kamal vs Mr. Akash Kanwarlal Kamal on 27 March, 2023",
+  "case_name": "Mrs. Himani Akash Kamal vs Mr. Akash Kanwarlal Kamal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Himani Akash Kamal (wife)",
+    "respondent_defendant": "Akash Kanwarlal Kamal (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2006 and had a son born in 2008. The wife filed for divorce due to cruel treatment by the husband and was granted custody of the child. She remarried within 90 days of the decree.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The appeal period for filing an appeal under Section 19 of the Family Courts Act is 90 days from the date of decree in the Family Court.",
+      "held": "In view of the 3 Judges' Bench Judgment of this Court in the matter of Shivram Dodanna Shetty v/s. Sharmila Shivram Shetty, the appeal period for filing appeal u/s. 19 of the Family Courts Act is 90 days from the date of Decree in Family Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Family Courts Act — Section 19"
+      ],
+      "cited_cases": [
+        "Shivram Dodanna Shetty v/s. Sharmila Shivram Shetty, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "appeal period",
+        "Family Courts Act",
+        "Section 19"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court appeals"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking to exclude time period required for obtaining certified copy, etc. under Limitation Act.",
+      "held": "It is needless to mention that all provisions of exclusion of time period required for obtaining certified copy etc. under Limitation Act, would apply here.",
+      "applicable_acts_sections": [
+        "Limitation Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "exclusion",
+        "certified copy",
+        "Limitation Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "appeals with time-related issues"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is dismissed, and the interim order passed earlier is vacated.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial dispute",
+    "interim application",
+    "family court appeal",
+    "dismissal of appeal",
+    "return of proceedings",
+    "infructuous",
+    "pending proceedings",
+    "wife's rights",
+    "husband's rights",
+    "marital property",
+    "maintenance",
+    "custody",
+    "Hindu law",
+    "Section 13(1)(i) Hindu Marriage Act",
+    "Section 23 Hindu Marriage Act",
+    "Section 24 Hindu Marriage Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in family court appeals"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:34:53.481573"
 }

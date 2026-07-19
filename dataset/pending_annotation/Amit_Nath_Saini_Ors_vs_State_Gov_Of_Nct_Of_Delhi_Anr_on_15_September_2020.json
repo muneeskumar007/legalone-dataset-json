@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T20:32:18.288761",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "murder_criminal": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amit Nath Saini & Ors vs State (Gov. Of Nct Of Delhi) & Anr on 15 September, 2020",
+  "case_name": "Amit Nath Saini & Ors vs State (Gov. Of Nct Of Delhi) & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amit Nath Saini, Maheshwari Nath Saini, Smt. Kamlesh, Smt. Himani Nath Saini and Sunil Kumar Soni — husband, wife, etc.",
+    "respondent_defendant": "State (Gov. Of Nct Of Delhi) & Anr — government, complainant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners seek quashing of FIR No.193/2012 registered under Sections 498A/406/506/34 of the Indian Penal Code, 1860. Settlement arrived at between parties and marriage dissolved vide a decree of divorce through mutual consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A settlement arrived at between the parties can be a valid basis for quashing criminal proceedings.",
+      "held": "She has also stated to the effect that there is no opposition to the quashing of the FIR and the consequential proceedings being quashed subject to the entire terms of the settlement being adhered to.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13 B (2)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "quashing",
+        "criminal proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A decree of divorce through mutual consent under Section 13 B (2) of the Hindu Marriage Act, 1955 is a valid basis for granting divorce.",
+      "held": "She has also stated that she had received a sum of Rs.25,00,000/- previously out of the stated settlement amount of Rs.35,00,000/- and vide a decree of divorce through mutual consent under Section 13 B (2) of the Hindu Marriage Act,1955 dated 25.11.2019 in HMA No.1787/2019 of the Court of the Judge, Family Court, Central District, Tis Hazari Court.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13 B (2)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "mutual consent",
+        "decree"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Quashing of FIR No.193/2012 and consequential proceedings subject to terms of settlement being adhered to.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "mutual consent",
+    "Section 13 B (2)",
+    "498A/406/506/34 IPC",
+    "quashing FIR",
+    "proclaimed person",
+    "Section 174/174A IPC",
+    "Family Court",
+    "Central District",
+    "Tis Hazari",
+    "Indian Penal Code",
+    "settlement",
+    "marriage dissolution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs for settlement",
+    "seeking mutual consent divorces"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:38:12.929538"
 }

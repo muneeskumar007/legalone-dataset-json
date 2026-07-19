@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:58:24.129867",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 3,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Munna Kumar @ Avinash Kumar vs Ruby Kumari & Anr on 1 September, 2008",
+  "case_name": "Munna Kumar @ Avinash Kumar vs Ruby Kumari & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Munna Kumar @ Avinash Kumar (husband)",
+    "respondent_defendant": "Ruby Kumari & Anr (wife and another)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner claimed maintenance under section 24 of the Hindu Marriages Act. Trial court directed father to pay maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The rigours of Section 24 of the Hindu Marriages Act cannot be avoided merely because a person claims that the marriage was void.",
+      "held": "Such reasoning of the court below, in fact, seems to be absolutely correct that merely because when a person i.e. husband will come out with a defence that the marriage at the inception was void, rigours of section 24 of the Hindu Marriages Act cannot be avoided.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "maintenance pending elite"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A father who files a suit on behalf of his minor son is not entitled to disown liability for paying maintenance.",
+      "held": "When an order has been passed directing that the petitioner, a minor, who is pursuing his matrimonial case through his natural guardian i.e. his father, the father cannot disown the liability of paying maintenance which actually has been directed against the petitioner.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Order 32 Rule 1"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "minor",
+        "matrimonial case",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Impugned order does not suffer from any jurisdictional error.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "section 24",
+    "maintenance",
+    "void marriage",
+    "minor",
+    "Latin maxim",
+    "pater est qui etiam post partum",
+    "divorce",
+    "marriage",
+    "petitioner",
+    "opposite parties",
+    "jurisdictional error",
+    "recalled order",
+    "second attempt",
+    "Hindu Marriages Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "appealing against recalled orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:04:22.640093"
 }

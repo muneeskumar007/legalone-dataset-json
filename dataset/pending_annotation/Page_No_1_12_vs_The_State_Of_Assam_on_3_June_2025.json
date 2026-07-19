@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:00:49.272421",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sessions Judge, Dhemaji, in Criminal Case No. 36(4)/2012",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Page No.# 1/12 vs The State Of Assam on 3 June, 2025",
+  "case_name": "SRI SUBHASH HAZARIKA @ DHAN HAZARIKA v. THE STATE OF ASSAM",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SRI SUBHASH HAZARIKA @ DHAN HAZARIKA, husband",
+    "respondent_defendant": "THE STATE OF ASSAM, represented by the Additional Public Prosecutor",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner was convicted under Section 498A IPC and sentenced to 3 years' simple imprisonment and a fine of Rs.10,000/-, which was modified by the Sessions Judge to 6 months' S.I. and a fine of Rs.2,000/-.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,94 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Proceedings under Section 498A IPC are not justified where there is no marriage between the parties.",
+      "held": "The Hon'ble Supreme Court has held that proceedings under Section 498A IPC are not justified where there is no marriage between the parties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5(iii)",
+        "Indian Penal Code, 1860 — Section 498A"
+      ],
+      "cited_cases": [
+        "Kantilal Martaji Pandor vs. State of Gujarat, (2013) 8 SCC 781",
+        "U. Suvetha vs. State, (2009) 6 SCC 757"
+      ],
+      "keywords": [
+        "marriage",
+        "Section 498A IPC",
+        "Hindu Marriage Act"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases",
+        "domestic violence cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Mere cohabitation does not constitute a legally recognized husband and wife relationship.",
+      "held": "The court held that mere cohabitation does not constitute a legally recognized husband and wife relationship.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 5(iii)",
+        "Indian Penal Code, 1860 — Section 498A"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cohabitation",
+        "marriage",
+        "legally recognized"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "family law cases",
+        "domestic violence cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The judgment and order dated 20.12.2012 passed by the learned Sessions Judge was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Penal Code",
+    "1860",
+    "Section 498A",
+    "simple imprisonment",
+    "S.I.",
+    "fine",
+    "Rs.10,000",
+    "default",
+    "six months",
+    "Sessions Judge",
+    "Additional Chief Judicial Magistrate",
+    "Criminal Case",
+    "Cr.P.C.",
+    "Sections 397",
+    "401",
+    "482",
+    "Judgment and Order",
+    "Sessions Judge Dhemaji",
+    "Addl. CJM",
+    "G.R. Case"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce cases",
+    "using Hindu Marriage Act",
+    "appealing Sessions Judge decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:45:10.023821"
 }

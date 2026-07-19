@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T20:31:00.757260",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, 1st Court, Hooghly, Matrimonial Suit No. 735 of 2010",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "131 2013 on 8 April 2014",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Probal Kumar Mukherjee, Mr. Sabyasachi Bhattacharyya (husband)",
+    "respondent_defendant": "Mrs. Baisali Basu (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial suit for dissolution of marriage; wife filed application under Section 24 of Hindu Marriage Act for maintenance pendente lite; court awarded Rs. 8000/- to wife and Rs. 4500/- to minor child per month as maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance pendente lite awarded by the court should not be disproportionate to the income of the petitioner.",
+      "held": "Taking 1/3rd of the income of the petitioner and the aforesaid background in mind, maintenance pendente lite awarded by the learned Court below is not disproportionate to the income of the petitioner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "pendente lite",
+        "income",
+        "petitioner"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "matrimonial suits"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court should consider compulsory deductions made from the gross salary of the petitioner when calculating his income.",
+      "held": "The record speaks that the husband took a case that his income per month was Rs. 25,468/- but the same appears to be not founded on substantive evidence.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compulsory deductions",
+        "gross salary",
+        "petitioner's income"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance pendente lite cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Maintenance pendente lite modified",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Matrimonial Suit",
+    "maintenance pendente lite",
+    "Section 24",
+    "dissolution of marriage",
+    "monthly income",
+    "compulsory deductions",
+    "Gross salary",
+    "petitioner",
+    "opposite party",
+    "wife",
+    "husband",
+    "minor child",
+    "pendency",
+    "revisional application"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance pendente lite",
+    "appealing against family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T16:39:03.727743"
 }

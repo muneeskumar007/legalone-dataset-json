@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:57:37.845143",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "domestic_violence": 1,
@@ -19,13 +19,13 @@
     "Without The Circumstances Exist Of Such Type. J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Thane, A. No.379 of 2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Chandrakant Narayan Patil vs Mrs. Seema Chandrakant Patil on 9 October, 2018",
+  "case_name": "Mr. Chandrakant Narayan Patil vs Mrs. Seema Chandrakant Patil",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Chandrakant Narayan Patil, husband",
+    "respondent_defendant": "Seema Chandrakant Patil, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-husband challenged the order dated 24th April, 2018 passed by the learned Judge, Family Court, Thane rejecting his application under section 9 of the Family Courts Act, 1984 to refer parties to expert Marriage Counseller for mediation and their report.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Family Court ought to have allowed the application filed by the petitioner.",
+      "held": "Having regard to these provisions, the Family Court ought to have allowed the application filed by the petitioner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Family Court Act — Section 9",
+        "Hindu Marriage Act — Section 23(3)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "family court",
+        "petitioner",
+        "application",
+        "settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Abuse of process of law can lead to dismissal of an application.",
+      "held": "The application is nothing but abuse of process of law and dismissed the same by imposing costs of Rs. 3,000/-.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "abuse",
+        "process",
+        "law",
+        "dismissal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "all types of cases",
+        "litigation"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The impugned order was upheld by the trial court, rejecting the application as an abuse of process of law.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "expert Marriage Counseller",
+    "mediation",
+    "marriage counseling",
+    "Section 9",
+    "Section 23",
+    "Article 227",
+    "Constitution of India",
+    "Family Court",
+    "Thane",
+    "petition",
+    "application",
+    "counseling report",
+    "charges",
+    "willingness"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on mediation options",
+    "assisting with family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:05:46.169281"
 }

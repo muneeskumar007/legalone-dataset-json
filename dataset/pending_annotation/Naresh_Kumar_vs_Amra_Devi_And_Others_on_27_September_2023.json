@@ -7,7 +7,7 @@
   "total_pages": 26,
   "extracted_at": "2026-07-15T10:59:28.634804",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "28.08.2023",
   "delivered_on": "",
-  "case_name": "Naresh Kumar vs Amra Devi And Others on 27 September, 2023",
+  "case_name": "Naresh Kumar vs Amra Devi And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Naresh Kumar — Appellant",
+    "respondent_defendant": "Amra Devi and others — Respondents",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -98,7 +98,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiffs filed a civil suit for seeking a declaration that an unregistered Will is a result of fraud, misrepresentation, and Mutation No. 1036 based on the Will is not binding upon the rights of the plaintiffs. A further declaration that plaintiffs are entitled to succeed to the property of Balak Ram being widow and daughter was also prayed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -108,39 +108,119 @@
   ],
   "legal_principles": [
     {
+      "principle": "Pleadings must be construed liberally as a whole.",
+      "held": "It was laid down by the Hon'ble Supreme Court in Des Raj v. Bhagat Ram, (2007) 9 SCC 641: 2007 SCC OnLine SC 221 that the of pleadings in the Mufassil have to be construed liberally as a whole.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Des Raj v. Bhagat Ram, (2007) 9 SCC 641"
+      ],
+      "keywords": [
+        "pleadings",
+        "liberal construction"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "HIGH",
       "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Pleadings must be construed reasonably.",
+      "held": "In Devasahayam v. P. Savithramma [(2005) 7 SCC 653] this Court opined: (SCC p. 661, para 20) 'The pleadings as are well known must be construed reasonably.'",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Devasahayam v. P. Savithramma [(2005) 7 SCC 653]"
+      ],
+      "keywords": [
+        "pleadings",
+        "reasonable construction"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The onus to prove adverse possession lies on the person who raises such a plea.",
+      "held": "Only because the parties did not use the terminology which they should have, ipso facto, would not mean that the ingredients for satisfying the requirements of the statute are absent. There cannot be any doubt whatsoever that having regard to the changes brought about by Articles 64 and 65 of the Limitation Act, 1963 vis-à-vis Articles 142 and 144 of the Limitation Act, 1908, the onus to prove adverse possession would be on the person who raises such a plea.",
       "applicable_acts_sections": [
-        "TODO"
+        "Limitation Act, 1963",
+        "Limitation Act, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "adverse possession",
+        "onus"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The possession of a co-sharer is presumed to be the possession of the other co-sharers unless the contrary is proved.",
+      "held": "It is also furthermore not in dispute that the possession of a co-sharer is presumed to be the possession of the other co-sharers unless the contrary is proved.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "co-sharer",
+        "possession"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "The judgment & decree dated 24.10.2005, passed by the learned Additional District Judge (Presiding Officer, Fast Track Court), Solan, District Solan, H.P., was set-aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Indian Evidence Act",
+    "Specific Relief Act",
+    "unregistered Will",
+    "declaration",
+    "civil suit",
+    "Trial Court",
+    "Fast Track Court",
+    "judgment and decree",
+    "set-aside",
+    "plaintiffs",
+    "appellant",
+    "respondents",
+    "Appeal",
+    "High Court",
+    "Himachal Pradesh",
+    "Shimla",
+    "RSA No. 4 of 2006"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a property dispute appeal",
+    "preparing a civil suit for declaration",
+    "responding to an unregistered Will"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:34:34.005055"
 }

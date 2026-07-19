@@ -7,7 +7,7 @@
   "total_pages": 27,
   "extracted_at": "2026-07-15T20:32:23.310734",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 2,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amruta Kaluji Shejol & 5 Others vs Vithal Ganpat Wadekar & Others on 15 July, 2016",
+  "case_name": "Amruta Kaluji Shejol & 5 Others vs Vithal Ganpat Wadekar & Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amruta Kaluji Shejol & 5 Others (since dead, through his LRs.)",
+    "respondent_defendant": "Vithal Ganpat Wadekar & Others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -93,7 +93,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties are Amruta Kaluji Shejol and others vs Vithal Ganpat Wadekar and others. The case is about partition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -103,39 +103,92 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When a property stands in the name of a member of a joint family, it is incumbent upon those asserting that it is a joint family property to establish it.",
+      "held": "The law raises a presumption that it is a joint family property and the onus is shifted to the individual member to establish that the property was acquired by him without the aid of the said nucleus.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Srinivas Krishnarao Kango v. Narayan Devji Kango and others, (1954) AIR 379"
+      ],
       "keywords": [
-        "TODO"
+        "joint family",
+        "property",
+        "onus",
+        "presumption"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the individual member to establish that the property was acquired by him without the aid of the nucleus.",
+      "held": "When it is proved or admitted that a family possessed sufficient nucleus with the aid of which the member might have made the acquisition, the law raises a presumption that it is a joint family property and the onus is shifted to the individual member to establish that the property was acquired by him without the aid of the said nucleus.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [
+        "Srinivas Krishnarao Kango v. Narayan Devji Kango and others, (1954) AIR 379",
+        "Achuthan Nair v. Chinnammu Amma and others, (1966) AIR 411"
+      ],
+      "keywords": [
+        "burden",
+        "onus",
+        "nucleus",
+        "joint family property"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Code of Civil Procedure",
+    "1908",
+    "Indian Evidence Act",
+    "1872",
+    "joint family",
+    "coparceners",
+    "share",
+    "property",
+    "family settlement",
+    "agreement",
+    "partition suit",
+    " Hindu law",
+    "family property",
+    "co-parcenary",
+    "right",
+    "interest"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on family settlements",
+    "representing clients in joint family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:44:43.841212"
 }

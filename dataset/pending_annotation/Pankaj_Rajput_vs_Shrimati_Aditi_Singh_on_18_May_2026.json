@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:00:58.149025",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Principal Judge-IX, Family Court, Lucknow - Case no.528 of 2025",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Pankaj Rajput vs Shrimati Aditi Singh on 18 May, 2026",
+  "case_name": "Pankaj Rajput vs Shrimati Aditi Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Pankaj Rajput (husband)",
+    "respondent_defendant": "Shrimati Aditi Singh (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties solemnized marriage in 2015 and had a child in 2018. Due to temperamental differences, their marriage broke down. The petitioner filed a suit for divorce under Section 13 of Hindu Marriage Act, 1955, and an application for interim relief under the Guardians and Wards Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party seeking relief must demonstrate a genuine and irreparable injury.",
+      "held": "Considering the estranged relationship, the petitioner filed a suit under Section 13 of Hindu Marriage Act, 1955 for granting the decree of divorce.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "estranged relationship",
+        "irreparable injury"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's marriage can be considered broken down if there are temperamental differences.",
+      "held": "due to temperamental differences their marriage has broken down and now it is not possible for the petitioner and respondent to live as husband and wife.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "temperamental differences",
+        "broken down"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The Additional Principal Judge-IX, Family Court, Lucknow is directed to decide the application for interim relief filed by the petitioner in Case No.528 of 2025 under Section 25 of Guardians and Wards Act, 1890, after providing proper opportunity of hearing to the concerned parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "marriage",
+    "Guardians and Wards Act",
+    "Section-25",
+    "interim relief",
+    "Family Court",
+    "Lucknow",
+    "writ petition",
+    "petitioner",
+    "respondent",
+    "Additional Principal Judge",
+    "IX Family Court",
+    "Section-1890",
+    "1890",
+    "Indian Kanoon",
+    "Allahabad High Court",
+    "Lucknow Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for interim relief in a family court case",
+    "using Section-25 of the Guardians and Wards Act in a divorce matter",
+    "seeking guidance on procedure for filing an application in a Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:54:42.196498"
 }

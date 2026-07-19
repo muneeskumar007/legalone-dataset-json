@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:56:31.204344",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mohit Goyal vs State Of Uttarakhand on 15 February, 2013",
+  "case_name": "Mohit Goyal vs State Of Uttarakhand",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mohit Goyal, husband; Satish Kumar Goyal, father-in-law; Smt. Anshu Goyal, mother-in-law; Anjali, married sister-in-law; Manoj Kumar, brother-in-law",
+    "respondent_defendant": "State of Uttarakhand, Principal Secretary Home; S.H.O., Police Station Jwalapur; Priyanka, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners sought quashing of First Information Report No. 37 of 2013 relating to offences punishable under section 498A of IPC and one punishable under section 3/4 of Dowry Prohibition Act, 1961.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Abuse of process of law is not permitted.",
+      "held": "It is argued that it is abuse of process of law on the part of the respondent no.3 to implicate the entire family members of her husband due to their matrimonial discord.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "abuse",
+        "process",
+        "law",
+        "matrimonial",
+        "discord"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot use the process of law to harass or intimidate others.",
+      "held": "It is contended that after the petitioner no.1 filed divorce petition against the respondent no.3 as a counter blast the respondent no.3 filed not only a petition under section 9 of Hindu Marriage Act, and application under section 125 of Cr.P.C, but also got lodged the impugned First Information Report.",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "harass",
+        "intimidate",
+        "process",
+        "law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Urgency Application No. 860 of 2013 is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Penal Code",
+    "1860",
+    "quashing",
+    "First Information Report",
+    "Article 226",
+    "Constitution of India",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "matrimonial",
+    "relief",
+    "interim relief",
+    "writ petition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs",
+    "seeking interim relief in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:51:46.827958"
 }

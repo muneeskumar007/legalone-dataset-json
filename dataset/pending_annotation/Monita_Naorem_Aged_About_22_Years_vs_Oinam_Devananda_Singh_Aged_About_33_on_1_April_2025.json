@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:56:40.943727",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "A.Guneshwar Sharma J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Manipur, Matrimonial (Divorce) Case No.168 of 2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Monita Naorem Aged About 22 Years vs Oinam Devananda Singh Aged About 33 ... on 1 April, 2025",
+  "case_name": "Monita Naorem Aged About 22 Years vs Oinam Devananda Singh Aged About 33",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Monita Naorem, wife",
+    "respondent_defendant": "Oinam Devananda Singh, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant/wife is challenging the impugned judgment and decree dated 15.12.2017 passed by the learned Judge, Family Court, Manipur in Matrimonial (Divorce) Case No.168 of 2016.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage is considered dead when the wife voluntarily cohabits with another person during the subsistence of her marriage.",
+      "held": "The evidence of the respondent proved that the wife had voluntarily cohabited with the said accused while her marriage with her husband was still subsisting and such acts rendered their marriage a dead marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cohabitation",
+        "dead marriage",
+        "subsistence of marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A divorce decree cannot be restored once the wife has remarried.",
+      "held": "Even if the appellant succeeds in the appeal, the earlier marriage cannot be restored due to the second marriage of the appellant.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "AIR 1974 SC 50"
+      ],
+      "keywords": [
+        "divorce decree",
+        "remarriage",
+        "restoration"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The marriage between the appellant and the respondent was dissolved on the ground of adultery committed by the appellant/wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "matrimonial",
+    "appeal",
+    "family court",
+    "Manipur",
+    "marriage",
+    "voidable",
+    "irretrievable breakdown",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "cohabitation",
+    "consent",
+    "mutual consent",
+    "divorce by mutual consent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "guidelines for filing divorce petition",
+    "practical tips for matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:59:25.971132"
 }

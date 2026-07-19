@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:57:50.087925",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Rushikesh Ramesh Ankam vs Sou. Sunita Rushikesh Ankam on 1 March, 2019",
+  "case_name": "Mr. Rushikesh Ramesh Ankam vs Sou. Sunita Rushikesh Ankam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Rushikesh Ramesh Ankam (husband)",
+    "respondent_defendant": "Sou. Sunita Rushikesh Ankam (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties have decided to amicably settle the matter. The husband agreed to pay a sum of Rs.10,00,000/- as one-time settlement and full and final settlement on all her claims for maintenance in the past, present, and future.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A consent decree can be set aside by mutual agreement of the parties.",
+      "held": "By consent of both the parties the Decree of Restitution of Conjugal Rights dated 30th January, 2018 passed in Petition No.A-08 of 2016 passed by the Learned Judge, Family Court, Solapur on the Petition for Restitution of Conjugal Rights by Respondent Wife is set aside.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent decree",
+        "set aside",
+        "mutual agreement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A consent divorce can be granted under Section 13-B of the Hindu Marriage Act, 1955.",
+      "held": "By consent of both the parties Counter Claim of Appellant for divorce filed in Petition No.A-08 of 2016 under Section 13(1)(ia) and (ib) of Hindu Marriage Act, 1955, is converted into a Divorce by mutual consent under section 13-B of Hindu Marriage Act, 1955",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent divorce",
+        "Section 13-B",
+        "Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties have agreed to settle the matter amicably. The husband has paid Rs.10,00,000/- as one-time settlement and full and final settlement on all her claims for maintenance.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "consent terms",
+    "amicable settlement",
+    "maintenance",
+    "one-time settlement",
+    "full and final settlement",
+    "family court appeal",
+    "civil appellate jurisdiction",
+    "Indian Kanoon",
+    "Latin maxim",
+    "meum et tuum est",
+    "marriage dissolution",
+    "alimony",
+    "property division"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce agreements",
+    "advising on consent terms",
+    "representing clients in family court appeals"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:16:58.451014"
 }

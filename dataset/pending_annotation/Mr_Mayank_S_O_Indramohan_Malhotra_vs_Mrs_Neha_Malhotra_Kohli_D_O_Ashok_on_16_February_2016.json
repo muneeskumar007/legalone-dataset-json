@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T10:57:47.417339",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, case numbers A386/13 and A289/12",
   "reserved_on": "",
   "delivered_on": "23.07.2015",
-  "case_name": "Mr. Mayank S/O Indramohan Malhotra vs Mrs. Neha Malhotra (Kohli) D/O Ashok ... on 16 February, 2016",
+  "case_name": "Mr. Mayank S/O Indramohan Malhotra vs Mrs. Neha Malhotra (Kohli) D/O Ashok",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mayank, husband",
+    "respondent_defendant": "Neha Malhotra (Kohli), wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner Mayank filed for annulment of marriage under Section 12[1][c] of the Hindu Marriage Act, 1955. Respondent Neha filed for restitution of conjugal rights under Section 9 of the Hindu Marriage Act. Family Court dismissed the petition and granted restitution with a direction to resume cohabitation.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,101 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Fraud must be established by clear and convincing evidence.",
+      "held": "To explain the concept of fraud as envisaged in Section 12[1][c], he has taken us through judgments reported at AIR 2011 SCW 5763 (Ramesh Kumar and another .vrs. Furu Ram and another) (paragraph no13) and AIR 2014 AP 43 (S. Mahender .vrs. Smt. Shalini).",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12"
+      ],
+      "cited_cases": [
+        "AIR 2011 SCW 5763",
+        "AIR 2014 AP 43"
+      ],
+      "keywords": [
+        "fraud",
+        "clear and convincing evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party alleging fraud to prove it by clear and convincing evidence.",
+      "held": "He submits that those photographs have been taken on about 6 different occasions, and hence the entire story of appellant about the disease, its suppression or fraud, is by way of an afterthought.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 12"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "fraud",
+        "clear and convincing evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The court will not lightly annul a marriage on the ground of fraud.",
+      "held": "He points out that the wife has pointed out physical relationship between the parties in her written statement and though the appellant husband has denied it, fact that he cohabited with the respondent at her parents house at Nagpur between 23.1.2012 to 26.01.2012 is not in dispute.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "annulment",
+        "fraud"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Family Court Appeal No. 73 & 74 of 2015 challenges the dismissal of annulment proceedings filed by him. FCA 74 of 2015 assails the grant of restitution in proceedings filed by Respondent wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 12[c]",
+    "Section 19",
+    "annulment of marriage",
+    "marriage annulment",
+    "matrimonial dispute",
+    "family court appeal",
+    "Nagpur Bench",
+    "Bombay High Court",
+    "Indian Kanoon",
+    "judicial separation",
+    "maintenance",
+    "custody",
+    "property settlement",
+    "alimony",
+    "joint family",
+    "separation of property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing for family court appeal",
+    "advising on maintenance and custody"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:12:33.443210"
 }

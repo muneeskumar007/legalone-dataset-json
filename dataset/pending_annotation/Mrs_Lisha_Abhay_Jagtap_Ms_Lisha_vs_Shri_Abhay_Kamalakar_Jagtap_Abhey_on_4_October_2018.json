@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:57:03.247054",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "case_numbers": [
     "P.A.No.585 of 2017"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court No.2, Pune - P.A.No.585 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs. Lisha Abhay Jagtap @ Ms. Lisha ... vs Shri. Abhay Kamalakar Jagtap @ Abhey ... on 4 October, 2018",
+  "case_name": "Mrs. Lisha Abhay Jagtap @ Ms. Lisha ... vs Shri. Abhay Kamalakar Jagtap @ Abhey ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner-wife",
+    "respondent_defendant": "Respondent-husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife challenged the judgment and order dated 03.07.2018 passed by the learned Judge, Family Court No.2, Pune below exhibit-5 in P.A.No.585 of 2017. The trial court allowed the application filed by the respondent husband and directed the petitioner to handover interim custody of minor son Ayush to the respondent within 4 weeks.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Welfare of the child is the paramount consideration in matters of custody.",
+      "held": "He submitted that while considering the aspect of interim custody, welfare of child is the paramount consideration.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "child",
+        "custody",
+        "welfare"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "minor matters"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may consider the conduct of the parties in granting interim custody.",
+      "held": "He submitted that respondent and petitioner have joint custody of Ayush. Respondent drops the child to the school. The conduct of the respondent also dis-entitles him from granting of interim custody.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "conduct",
+        "interim custody",
+        "joint custody"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "minor matters"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The learned Judge held that the petitioner is entitled to have overnight access of minor son Ayush from 6.00 p.m. of 2nd and 4th Friday till 8.00 p.m. The arrangement was ordered to remain in force till the decision of the main Petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "custody",
+    "interim custody",
+    "minor son",
+    "Ayush",
+    "overnight access",
+    "Family Court",
+    "Article 227",
+    "Constitution of India",
+    "Section 125",
+    "CrPC",
+    "Latin Maxim: Filius nullius est",
+    "joint custody",
+    "shared parenting",
+    "parental rights",
+    "child welfare",
+    "best interests of the child"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for joint custody",
+    "advising on interim custody arrangements",
+    "assisting in a divorce case with minor children"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:38:01.987495"
 }

@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T10:58:05.014580",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "cheque_bounce": 1,
@@ -23,13 +23,13 @@
     "Vinod K. Sharma J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge-I, Faridabad (FAO No.72-M of 2006)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ms.Bhavna @ Sahar Wasif vs Flg.Off. Rajiv Gakhar on 1 September, 2009",
+  "case_name": "Ms.Bhavna @ Sahar Wasif vs Flg.Off. Rajiv Gakhar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ms.Bhavna @ Sahar Wasif (wife)",
+    "respondent_defendant": "Flg.Off. Rajiv Gakhar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1999. The husband filed a petition for dissolution of marriage by a decree of nullity under sections 5 and 12 of the Hindu Marriage Act. The trial court allowed the petition, and this is an appeal against that decision.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party cannot take advantage of their own wrongs.",
+      "held": "The plea of estoppel was also raised on the ground that the respondent was guilty of various matrimonial offences and could not take advantage of his own wrongs.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "estoppel",
+        "matrimonial offences"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party must disclose all material facts pertaining to their past.",
+      "held": "It was pleaded that the appellant had disclosed all the material true facts pertaining to her past marriage and divorce with a Muslim husband.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "disclosure",
+        "material facts"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order allows the appeal and sets aside the decree passed by the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "nullity",
+    "sections 5 and 12",
+    "dissolution of marriage",
+    "decree",
+    "petition",
+    "Additional District Judge-I",
+    "Faridabad",
+    "judgment",
+    "marriage",
+    "wife",
+    "husband",
+    "nullity under sections 5 and 12",
+    "Hindu Marriage Act, 1955",
+    "AIR 2010 (NOC) 444 (P. & H.)",
+    "2010 (3) AKAR (NOC) 315 (P. & H.)"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act, 1955",
+    "representing wife in nullity proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:54:19.344561"
 }

@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T10:57:55.302404",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 3,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Nagpur (case number: A-1039/2014)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Siddharth S/O Saoji Urkude vs Mrs. Sheetal Siddharth Urkude on 21 October, 2022",
+  "case_name": "Mr. Siddharth S/O Saoji Urkude vs Mrs. Sheetal Siddharth Urkude",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Siddharth S/O Saoji Urkude (husband)",
+    "respondent_defendant": "Mrs. Sheetal Siddharth Urkude (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2009. The husband alleged cruelty by the wife and sought maintenance for himself and their children. The trial court allowed the wife's maintenance application.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A husband or wife would be entitled to dissolution of marriage by decree of divorce if the cruelty is proved.",
+      "held": "The mental cruelty and its effect varies from individual to individual, from society to society and also depends on the status of the persons.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Dr. (Mrs.) Malathi Ravi Vs. Dr. B.V. Ravi (2014) 6 ALL MR 400 (S.C.), Mrs. Christine lazarus Menezes Vs. Mr. lazarus Peter Menezes 2017 (2) DMC 363"
+      ],
       "keywords": [
-        "TODO"
+        "mental cruelty",
+        "marriage dissolution",
+        "divorce decree"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The principle is that the marriage is a social institution.",
+      "held": "A husband or wife would be entitled to dissolution of marriage by decree of divorce if the cruelty is proved.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Dr. (Mrs.) Malathi Ravi Vs. Dr. B.V. Ravi (2014) 6 ALL MR 400 (S.C.), Mrs. Christine lazarus Menezes Vs. Mr. lazarus Peter Menezes 2017 (2) DMC 363"
+      ],
+      "keywords": [
+        "marriage institution",
+        "social institution",
+        "divorce decree"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final order granted maintenance of Rs.4000/- per month to the respondent/wife and Rs.2000/- per month to each children.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Family Court",
+    "appeal",
+    "judgment",
+    "decree",
+    "Nagpur",
+    "Bombay High Court",
+    "marriage",
+    "spouse",
+    "private work",
+    "tailoring",
+    "occupation",
+    "residence",
+    "family court appeal",
+    "section 13",
+    "section 23",
+    "section 28"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeals",
+    "advising on Hindu Marriage Act",
+    "assisting with family court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:20:49.636035"
 }

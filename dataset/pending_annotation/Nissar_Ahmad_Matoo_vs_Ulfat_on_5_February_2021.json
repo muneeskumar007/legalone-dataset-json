@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:59:58.243400",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Sanjeev Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Special Mobile Magistrate (Sub Judge), Srinagar, file No.06/2019",
   "reserved_on": "27.01.2021",
   "delivered_on": "05.02.2021",
-  "case_name": "Nissar Ahmad Matoo vs Ulfat on 5 February, 2021",
+  "case_name": "Nissar Ahmad Matoo vs Ulfat",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Nissar Ahmad Matoo — husband, father",
+    "respondent_defendant": "Ulfat — wife, mother",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent entered into marital tie in 2005; twin female issues born; prior to marriage with respondent, petitioner had married Shabeena who left for her heavenly abode in 1997 due to illness; petitioner executed divorce deed on 06.07.2019 and communicated same to respondent through registered post; respondent filed complaint under Section 12 of J&K Protection of Women from Domestic Violence Act",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance granted under one provision can be taken note of, adjusted or set off while granting the same under other provision.",
+      "held": "Whether the maintenance granted by way of interim maintenance by the Revisional Court is exorbitant and has been granted without taking note of the fact that apart from two children out of the marriage between the petitioner and the respondent, the petitioner has two more major children of the previous marriage to take care of.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 488"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "interim maintenance",
+        "adjustment",
+        "set off"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Proceedings under different provisions entitling the aggrieved party to invoke both or either of them are two independent provisions.",
+      "held": "Whether the proceedings under Section 488 Cr.P.C. (125 of Central Cr.P.C.) and Section 20 of the D.V.Act are two independent provisions entitling the aggrieved party to invoke both or either of them?",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section X",
+        "Code of Criminal Procedure — Section Y"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "independent provisions",
+        "different proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order dated 31.01.2020 passed by the learned Additional District and Sessions Judge, Srinagar set aside the order of Special Mobile Magistrate (Sub Judge), Srinagar dated 29.07.2019",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Section 482 Cr.P.C.",
+    "Section 488 Cr.P.C.",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Muslim Personal Law",
+    "marital tie",
+    "twin females",
+    "quashment petition",
+    "Revisional Court",
+    "Special Mobile Magistrate",
+    "Sub Judge",
+    "petition for maintenance",
+    "Section 6/2019",
+    "file No.06/2019"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a quashment petition under Section 482 Cr.P.C.",
+    "advising on maintenance claims under Section 488 Cr.P.C.",
+    "assisting in divorce proceedings involving Muslim Personal Law"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:14:10.558229"
 }

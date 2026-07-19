@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T20:31:11.925954",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Principal Judge/F.T.C.-II, Mau, in Matrimonial Case No. 665 of 2012",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Abhilasha Pandey vs Rahul Pandey on 14 November, 2024",
+  "case_name": "Abhilasha Pandey vs Rahul Pandey",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Abhilasha Pandey (wife)",
+    "respondent_defendant": "Rahul Pandey (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married under the Hindu Marriage Act, 1955. The trial court declared their marriage void under Section 12 of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When a relationship of marriage is dissolved by decree of court and either no appeal is filed or if filed, is dismissed then either party to the marriage which has been dissolved by the process of law by a decree are free to marry again.",
+      "held": "The phrase 'either party to the marriage' if is co-related with the first part of the section, marriage which has been dissolved by decree of divorce will indicate that what was provided in this section was that when a relationship of marriage is dissolved by decree of court and either no appeal is filed or if filed, is dismissed then either party to the marriage which has been dissolved by the process of law by a decree are free to marry again.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 15"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "divorce",
+        "decree",
+        "appeal",
+        "nullity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The legislature so far as decrees under Section 13 are concerned wanted the right of appeal to survive but in decrees under Section 11 or 12 the legislature wanted the right of appeal to be subject to the will of the other party.",
+      "held": "As it is apparent that if what is contended by the learned counsel for the respondent and held by some of the High Courts is accepted that Section 15 will not apply to cases when a decree is passed under Section 11 or 12 it will mean that as soon as a decree is passed the party aggrieved may appeal but the other party by remarriage would make the appeal infructuous and therefore the right of appeal of one of the parties to the decree under Section 28 will be subject to the act of the other party in cases where decree is passed under Section 11 or 12",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Sections 11, 12, 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "appeal",
+        "right of appeal",
+        "legislature",
+        "decrees"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was filed within time and the court set aside the order declaring the marriage void.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 12",
+    "Section 19",
+    "void marriage",
+    "Matrimonial Case",
+    "Additional Principal Judge",
+    "FTC-II",
+    "Mau",
+    "Indian Kanoon",
+    "Lata Kamat Vs Vilas",
+    "SCC 613",
+    "decree for divorce",
+    "decree for nullity",
+    "Section 15",
+    "Supreme Court",
+    "landmark judgment",
+    "HC Single Judge",
+    "Family Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on appeal against family court order",
+    "researching case law on void marriages"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T16:54:00.221072"
 }

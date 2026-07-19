@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-07-15T10:56:13.893947",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mayra Alias Vaishnvi Vilas Shirshikar ... vs State Of Up And Others on 18 November, 2021",
+  "case_name": "Mayra Alias Vaishnvi Vilas Shirshikar ... vs State Of Up And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mayra Alias Vaishnvi Vilas Shirshikar And Another (husband, wife)",
+    "respondent_defendant": "State of U.P. and Others (wife's parents, husband's family)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Multiple women filed writ petitions against their husbands and in-laws for maintenance and other reliefs.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,96 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The right to convert another person to one's own religion is not granted by Article 25(1), but only the freedom to transmit or spread one's religion by an exposition of its tenets.",
+      "held": "What the article (25) grants is not the right to convert another person to one's own religion, but to transmit or spread one's religion by an exposition of its tenets.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Rev. Stainislaus vs. State of Madhya Pradesh"
       ],
+      "keywords": [
+        "freedom of conscience",
+        "right to convert",
+        "Article 25(1)"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases involving religious conversion"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "One has a right to propagate one's religion, but not to convert another person.",
+      "held": "The Court was of the view that one has a right to propagate but not to propagate in order to convert another.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "right to propagate",
+        "conversion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving religious conversion"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Religious conversions without a bona fide belief and for the sole purpose of deriving some legal benefit are illegal.",
+      "held": "The Supreme Court held that religious conversion without a bona fide belief and for the sole purpose of deriving some legal benefit are illegal.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Lily Thomas vs. Union of India",
+        "Sarla Mudgal vs. Union of India"
+      ],
+      "keywords": [
+        "bona fide belief",
+        "legal benefit",
+        "religious conversion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving bigamous marriages"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted the relief of maintenance to the petitioners.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Registration Act",
+    "1908",
+    "maintenance",
+    "alimony",
+    "custody",
+    "property division",
+    "matrimonial dispute",
+    "separation",
+    "annulment",
+    "nullity",
+    "voidable marriage",
+    "judicial separation",
+    "irretrievable breakdown",
+    "marriage dissolution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "representing clients in property division disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:32:38.561076"
 }

@@ -7,7 +7,7 @@
   "total_pages": 23,
   "extracted_at": "2026-07-15T11:00:23.577991",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 3,
     "partition": 7,
@@ -23,13 +23,13 @@
     "Sathi Kumar Sukumara Kurup J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal District Judge, Krishanagiri, A.S. No. 46 of 2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "N. Sundaram vs N. Saroja on 3 July, 2025",
+  "case_name": "N. Sundaram vs N. Saroja",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "N. Sundaram (Appellant)",
+    "respondent_defendant": "N. Saroja, The Assistant Engineer, Doordarshan T.V. Relay Centre, Krishnagiri, The Special District Revenue Officer, N.H.46, Jakkappan Nagar, Krishnagiri 635 001, The Special Thasildar, (Land Acquisition), Krishnagiri (Respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The Appellant is the first Defendant in O.S. No. 38 of 2004. The Respondent is the Plaintiff in the said suit. The case concerns a partition dispute.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An illegitimate child is entitled to a share in the ancestral property, but only up to a certain percentage.",
+      "held": "The Plaintiff is the illegitimate child of Narayanasamy and if at all she is entitled to any share, she is entitled only to 1/9th share in the suit properties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "illegitimate child",
+        "ancestral property",
+        "share"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A joint family property can be treated as such even if it is sold and re-purchased.",
+      "held": "The first Defendant’s father Narayanasamy sold some of the ancestral joint family properties and improved the house property and also purchased some suit properties from the purchase money of the ancestral property.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "joint family property",
+        "sale",
+        "re-purchase"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Second Appeal filed by the Appellant was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Code of Civil Procedure",
+    "1908",
+    "Second Appeal",
+    "Section 100",
+    "land acquisition",
+    "doordarshan",
+    "krishnagiri",
+    "judgment and decree",
+    "os no 38",
+    "as no 46",
+    "partition suit",
+    "family court",
+    "district court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "appealing a judgment in a family court",
+    "filing a second appeal in a district court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:18:34.629353"
 }

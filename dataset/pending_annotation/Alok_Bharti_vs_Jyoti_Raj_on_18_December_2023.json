@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-07-15T20:31:47.242523",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 10,
     "partition": 1,
@@ -25,13 +25,13 @@
     "Ramesh Ch J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Matrimonial (Divorce) Case No. 105 of 2019",
   "reserved_on": "",
   "delivered_on": "06.09.2023",
-  "case_name": "Alok Bharti vs Jyoti Raj on 18 December, 2023",
+  "case_name": "Alok Bharti vs Jyoti Raj",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Alok Bharti, husband",
+    "respondent_defendant": "Jyoti Raj, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant-husband and respondent-wife married in terms of Hindu rites and customs on 29.11.2012. Out of their wedlock, respondent-wife gave birth to a male child on 09.11.2013. Till 04.06.2015/05.06.2015 they were living together.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging cruelty to prove it.",
+      "held": "Further, in the absence of pleading, Family Court proceeded to hold that the appellant has not made out a case of desertion against the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Shailendra Patna High Court MA No.205 of 2023 dt.18-12-2023",
+        "K. Sriniwas Rai versus D.A. Deepa Civil Appeal No. 1794/2013",
+        "Shobha Rani versus Madhukar Reddi (1998) 1 Supreme Court Cases 105"
+      ],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "desertion",
+        "pleading"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party alleging domestic violence must prove the allegations.",
+      "held": "She had produced certain material information relating to domestic violence like injury and its subject matter of litigation.",
+      "applicable_acts_sections": [
+        "Indian Penal Code",
+        "Domestic Violence Act"
+      ],
+      "cited_cases": [
+        "Shailendra Patna High Court MA No.205 of 2023 dt.18-12-2023",
+        "K. Sriniwas Rai versus D.A. Deepa Civil Appeal No. 1794/2013",
+        "Shobha Rani versus Madhukar Reddi (1998) 1 Supreme Court Cases 105"
+      ],
+      "keywords": [
+        "domestic violence",
+        "allegations",
+        "proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Appellant's petition for divorce under Section 13(1)(ia) (ib) of the Hindu Marriage Act, 1955 is declined.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "matrimonial dispute",
+    "family court",
+    "Vaishali",
+    "Principal Judge",
+    "Family Court",
+    "Vaishali at Hajipur",
+    "petition for divorce",
+    "grounds for divorce",
+    "irretrievable breakdown of marriage",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "Hindu law",
+    "marriage dissolution",
+    "matrimonial relief",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to divorce petition",
+    "seeking judicial separation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:24:37.472334"
 }

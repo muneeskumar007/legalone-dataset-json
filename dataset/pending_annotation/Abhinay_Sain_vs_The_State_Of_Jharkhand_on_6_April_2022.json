@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T20:31:20.800523",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Abhinay Sain vs The State Of Jharkhand on 6 April, 2022",
+  "case_name": "Abhinay Sain vs The State Of Jharkhand",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Abhinay Sain, Ramesh Chand Sain, Sharda Sain, Manisha Sain (husband, father, wife, wife)",
+    "respondent_defendant": "The State of Jharkhand, Mukhta Kumari (state, wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners filed for quashing of FIR and criminal proceeding registered under Section 498-A IPC and Section 3/4 of Dowry Prohibition Act. Opposite party no.2 alleged torture due to non-fulfillment of demands.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A settled dispute can be a ground for quashing the criminal proceeding.",
+      "held": "None of the parties have complained about any technical snag of audio-video and with their consent this matter has been heard.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceeding",
+        "settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court can consider the settlement between parties as a ground for quashing the criminal proceeding.",
+      "held": "This petition has been filed for quashing of the FIR and the entire criminal proceeding...",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "quashing",
+        "criminal proceeding",
+        "settlement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Penal Code",
+    "1860",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "maintenance",
+    "alimony",
+    "matrimonial",
+    "property",
+    "assets",
+    "joint family",
+    "separate property",
+    "dissolution of marriage",
+    "nullity of marriage",
+    "voidable marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T16:59:14.722492"
 }

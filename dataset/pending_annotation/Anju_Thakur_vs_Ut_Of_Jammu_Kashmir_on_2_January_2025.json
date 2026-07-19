@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T20:32:40.138899",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anju Thakur vs Ut Of Jammu & Kashmir on 2 January, 2025",
+  "case_name": "Anju Thakur vs Ut Of Jammu & Kashmir",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anju Thakur, wife; Ashok Singh, husband; Oma Devi, mother; Ambica Kumar, sister; Neeraj Singh, brother",
+    "respondent_defendant": "UT of Jammu & Kashmir",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife alleged cruelty by her husband and in-laws. She registered an FIR and a criminal case was initiated. A reconciliation exercise led to a compromise between the parties.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A compromise agreement can be a valid basis for quashing criminal proceedings.",
+      "held": "The petitioners have come forward with the present petition invoking inherent jurisdiction of this Court under section 528 of the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023 seeking quashment of a criminal case born out of FIR No. 0383 dated 29.12.2020 read with Final Police Report No. 107/2021 dated 21.06.2021.",
       "applicable_acts_sections": [
-        "TODO"
+        "Bharatiya Nagarik Suraksha Sanhita, 2023 — section 528"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "quashing",
+        "criminal proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's willingness to withdraw accusations and allegations can be a factor in quashing criminal proceedings.",
+      "held": "The petitioner No. 1 has also agreed for withdrawing of her accusations and allegations against the petitioners No. 2 to 5 and also for withdrawal of her domestic violence case as well as maintenance case against the petitioners No. 2 to 5.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "withdrawal",
+        "accusations",
+        "allegations"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases involving domestic violence"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "marriage",
+    "DV Act",
+    "Protection of Women from DV Act",
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "Indian Penal Code",
+    "family court",
+    "domestic violence",
+    "wife's rights",
+    "husband's responsibilities",
+    "matrimonial disputes",
+    "maintenance",
+    "custody",
+    "alimony",
+    "separation",
+    "annulment",
+    "nullity"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on domestic violence cases",
+    "representing wife in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:07:47.237014"
 }

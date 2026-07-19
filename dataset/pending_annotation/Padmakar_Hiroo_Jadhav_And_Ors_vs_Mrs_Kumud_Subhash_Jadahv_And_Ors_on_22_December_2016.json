@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-07-15T11:00:34.243242",
   "domain": "will_succession",
-  "sub_domain": "partition",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "partition": 1,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Padmakar Hiroo Jadhav And Ors vs Mrs. Kumud Subhash Jadahv And Ors on 22 December, 2016",
+  "case_name": "Padmakar Hiroo Jadhav And Ors vs Mrs. Kumud Subhash Jadahv And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Padmakar Hiroo Jadhav, Smt.Sumitra Surve, Smt.Meghna Vasant Shinde",
+    "respondent_defendant": "Mrs.Kumud Subhash Jadhav, Akhilesh Subhash Jadhav",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Original defendants/caveators challenging judgment and order dismissing caveat filed by them and decreeing suit. Suit was for letter of administration as prayed for by respondents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,104 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Will is a solemn document by which a dead man entrusts to the living, the carrying out of his wishes.",
+      "held": "It is an instrument by which a person makes a disposition of his property to take effect after his death.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Will",
+        "disposition",
+        "property",
+        "death"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court is required to see whether the testator signed the Will, after understanding the nature and effect of the disposition in the Will.",
+      "held": "The court for examining proof of Will is also duty bound to see whether disposition under the Will is unnatural, improbable or unfair in the light of relevant circumstances.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "testator",
+        "Will",
+        "disposition",
+        "circumstances"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The duty is cast upon propounders of the Will to remove all legitimate doubts regarding suspicious circumstances.",
+      "held": "At this juncture, it is necessary for the court to see whether the propounders have removed all suspicious circumstances making it worth to act upon.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "propounders",
+        "Will",
+        "suspicious circumstances"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Suit decreed, declaring Will dated 3rd December 1988 executed by deceased Hiroo @ Hiraji Laxman Jadhav as his last Will and Testament. Letter of administration ordered.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "will",
+    "succession",
+    "testamentary suit",
+    "civil jurisdiction",
+    "appeal",
+    "Indian Evidence Act",
+    "Code of Criminal Procedure",
+    "family court",
+    "heir",
+    "executor",
+    "probate",
+    "inheritance",
+    "property",
+    "partition",
+    "share",
+    "beneficiary",
+    "petitioner",
+    "plaintiff"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "filing an appeal in a testamentary suit",
+    "proving inheritance of property"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:40:12.407355"
 }

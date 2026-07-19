@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:56:45.952577",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Moru Venkatesh vs The State Of Ap on 27 August, 2020",
+  "case_name": "Moru Venkatesh vs The State Of Ap",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Moru Venkatesh, husband",
+    "respondent_defendant": "The State Of Ap, police",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and his wife are living separately. Petitioner filed a petition for restitution of conjugal rights. Respondent police tried to arrest petitioner without following procedure.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The police must follow the procedure prescribed under Section 41-A of Cr.P.C and guidelines issued by the Apex Court in Arnesh Kumar's case.",
+      "held": "However, it is the contention of learned counsel for petitioner that while the investigation is pending, the 3rd respondent is bound to follow the procedure prescribed under Section 41-A of Cr.P.C and guidelines issued by Apex Court in Arnesh Kumar's case.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C — Section 41-A"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Arnesh Kumar vs. State of Bihar, (2014) 2 SCC 1"
+      ],
       "keywords": [
-        "TODO"
+        "procedure",
+        "investigation",
+        "guidelines",
+        "Apex Court",
+        "Cr.P.C"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving police investigations and arrests"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The police must not arrest a person without following the procedure prescribed under Section 41-A of Cr.P.C.",
+      "held": "Therefore, the petitioner seeks direction against the 3rd respondent to follow procedure under Section 41-A of Cr.P.C and guidelines issued by Apex Court in Arnesh Kumar's case.",
+      "applicable_acts_sections": [
+        "Cr.P.C — Section 41-A"
+      ],
+      "cited_cases": [
+        "Arnesh Kumar vs. State of Bihar, (2014) 2 SCC 1"
+      ],
+      "keywords": [
+        "arrest",
+        "procedure",
+        "Cr.P.C"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving police arrests and investigations"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Court directed respondent police to follow procedure under Section 41-A of Cr.P.C and guidelines issued by Apex Court in Arnesh Kumar's case.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "restitution of conjugal rights",
+    "natural justice",
+    "Article 226",
+    "Writ Petition",
+    "Mandamus",
+    "41-A Cr.P.C.",
+    "Arnesh Kumar Vs. State of Bihar",
+    "Lalita Kumari vs Govt. of U.P. & Ors.",
+    "police procedure",
+    "complaint",
+    "FIR",
+    "petition for divorce",
+    "separation",
+    "family members",
+    "Article 14",
+    "Article 19",
+    "Article 21"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for mandamus relief",
+    "advising on police procedure in filing FIR",
+    "assisting with divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:00:53.419999"
 }

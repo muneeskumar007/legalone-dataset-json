@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:02:10.095427",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 3,
@@ -26,13 +26,13 @@
     "M.P.No.1081 of 2022",
     "M.P.No.18579 of 2022"
   ],
-  "trial_court": "",
+  "trial_court": "Sub Court at Cheyyar, Thiruvannamalai District (HMOP No.119 of 2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "P.Kalaivani vs K.P.Selvam on 21 December, 2022",
+  "case_name": "P.Kalaivani vs K.P.Selvam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P.Kalaivani (wife)",
+    "respondent_defendant": "K.P.Selvam (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife who got married in 2009 and have two minor daughters. They are living separately due to misunderstanding. The respondent is working as Assistant Engineer in the Tamil Nadu Electricity Board.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parents are duty bound to maintain their minor children.",
+      "held": "The 11 and 7 year old girl children respectively have to be taken care of by the father, who is the natural guardian and an earning member.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "minor children",
+        "maintenance",
+        "natural guardian"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Courts are bound to consider grant of Interim Maintenance in the interest of the minor children and to protect their livelihood.",
+      "held": "Even in the absence of any application, the Courts are bound to consider grant of Interim Maintenance in the interest of the minor children and to protect their livelihood, which is the Fundamental Right to life under Article 21 of the Constitution of India.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Interim Maintenance",
+        "minor children",
+        "livelihood"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The father being the natural guardian under the Guardian and Wards Act, is bound to maintain his minor daughter or son by paying maintenance even in such circumstances.",
+      "held": "The father being the natural guardian under the Guardian and Wards Act, is bound to maintain his minor daughter or son by paying maintenance even in such circumstances, where there is a matrimonial dispute or for visitation right.",
+      "applicable_acts_sections": [
+        "Guardian and Wards Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "natural guardian",
+        "maintenance",
+        "matrimonial dispute"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The case was transferred from the Sub Court at Cheyyar to the IV Additional Family Court at Chennai.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Transfer Civil Miscellaneous Petition",
+    "HMOP No.119",
+    "Sub Court",
+    "Cheyyar",
+    "Thiruvannamalai District",
+    "IV Additional Family Court",
+    "Chennai",
+    "marriage",
+    "minor female children",
+    "custody",
+    "petitioner",
+    "respondent",
+    "Hindu Rites and Customs"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "transferring case to another court",
+    "seeking custody of minor children"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:28:38.423097"
 }

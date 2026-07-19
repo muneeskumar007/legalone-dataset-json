@@ -24,13 +24,13 @@
     "Chittaranjan Dash J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Rourkela, Civil Proceeding No. 132 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Nirmal Karnakar vs Parbati @ Parbati Karnakar .... ... on 14 February, 2025",
+  "case_name": "Nirmal Karnakar vs Parbati @ Parbati Karnakar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Nirmal Karnakar (husband)",
+    "respondent_defendant": "Parbati @ Parbati Karnakar (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent-wife is an elderly woman with no independent income. She was receiving ₹1,500 per month in maintenance but the Family Court enhanced it to ₹10,000 per month. The husband appealed against this order saying it was beyond what he had sought and that the court didn't properly assess his financial liabilities.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,122 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Courts can modify maintenance upon proof of material change in circumstances.",
+      "held": "It is well established that Courts can modify maintenance upon proof of material change in circumstances.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 125"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "circumstances",
+        "modification"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The amount of maintenance should be such that a wife is able to maintain herself decently and with dignity.",
+      "held": "The amount of maintenance should be such that a wife is able to maintain herself decently and with dignity.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "wife's dignity"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The Court is not debarred from awarding compensation exceeding the claimed amount.",
+      "held": "There is no specific restriction under Section 125 Cr. P.C. that the Magistrate cannot award more than the amount claimed in the petition.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 125"
+      ],
+      "cited_cases": [
+        "Kamaldeep Kaur and Anr. vs. Balwinder Singh, (2005) SCC OnLine P&H 417"
+      ],
+      "keywords": [
+        "compensation",
+        "maintenance"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The awarded maintenance should be just and proper, considering the husband's financial capacity and the needs of the dependents.",
+      "held": "The Court noted that the husband was gainfully employed and had a steady income, which justified the enhancement of the maintenance amounts.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 125"
+      ],
+      "cited_cases": [
+        "G. Amrutha Rao vs. The State of Andhra Pradesh, (2023) Crl.R.C. No. 80"
+      ],
+      "keywords": [
+        "maintenance",
+        "financial capacity",
+        "dependents' needs"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The maintenance payable to the respondent-wife was enhanced from ₹1,500 per month to ₹10,000 per month.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Family Court",
+    "civil proceeding",
+    "judgment",
+    "enhancement",
+    "financial liabilities",
+    "government benefits",
+    "limited income",
+    "advanced age",
+    "medical expenses",
+    "household expenses",
+    "Section 25(2)",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "representing clients in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:11:04.401413"
 }

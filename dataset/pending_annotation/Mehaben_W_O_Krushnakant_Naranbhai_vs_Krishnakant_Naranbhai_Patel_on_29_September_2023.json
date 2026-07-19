@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:56:19.355605",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "J. C. Doshi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Anand (Family Suit No. 164 of 2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mehaben W/O Krushnakant Naranbhai ... vs Krishnakant Naranbhai Patel on 29 September, 2023",
+  "case_name": "Mehaben W/O Krushnakant Naranbhai ... vs Krishnakant Naranbhai Patel",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mehaben W/O Krushnakant Naranbhai Patel, wife and mother",
+    "respondent_defendant": "Krishnakant Naranbhai Patel, husband and father",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner got married to respondent in 2013, had a son, but was tortured and harassed by respondent and his family. Petitioner returned to India after being deported from UK. Respondent filed for divorce at Family Court, Anand, while petitioner sought protection and filed a criminal application under Domestic Violence Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court may transfer a case to another court if the convenience of the parties is at stake.",
+      "held": "Pressing into service judgment in the case of Tejalben v/ s. Mihirbhai Bharatbhai Kothari [AIR 2016 SC 718], it is sought to be submitted by learned advocate for the petitioner that the petitioner is lady living in Vadodara along her mother at parental home.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Section 24"
+      ],
+      "cited_cases": [
+        "Tejalben v/ s. Mihirbhai Bharatbhai Kothari [AIR 2016 SC 718]"
+      ],
+      "keywords": [
+        "convenience",
+        "parties",
+        "transfer",
+        "case"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may consider the inconvenience faced by a party in deciding whether to transfer a case.",
+      "held": "Therefore, he would submit that the petitioner is urging to transfer Family Suit only on the ground of inconvenience she is facing.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "inconvenience",
+        "party",
+        "transfer",
+        "case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Family Suit",
+    "transfer petition",
+    "section 24",
+    "physical abuse",
+    "mental harassment",
+    "marital tortures",
+    "family court",
+    "Vadodara",
+    "Anand",
+    "convenience",
+    "petitioner's prayer",
+    "respondent's behavior"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition under section 24 of the Code of Civil Procedure",
+    "preparing a case for family court transfer",
+    "advising on grounds for transferring a family suit"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:37:51.634503"
 }

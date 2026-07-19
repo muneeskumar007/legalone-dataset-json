@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:56:46.421246",
   "domain": "maintenance",
-  "sub_domain": "divorce",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 3,
@@ -21,13 +21,13 @@
     "Parthivjyoti Saikia J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Bajali in Misc S.C. Case No.11/2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Moupiya Choudhury vs Usharani Das on 4 June, 2024",
+  "case_name": "Moupiya Choudhury vs Usharani Das",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Moupiya Choudhury, second wife",
+    "respondent_defendant": "Usharani Das, first wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Pranab Dutta had two wives; Moupiya Choudhury is the second wife. Usharani Das filed an application for monthly maintenance under Section 125 CrPC and was granted. Pranab Dutta expired, and Usharani Das sought a succession certificate. Moupiya Choudhury contested this application. The trial court held that the second marriage is void ab initio and dismissed Moupiya's petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The second marriage is void ab initio and the second wife is not entitled to inherit the properties of the deceased husband.",
+      "held": "According to Section 5 of the Hindu Marriage Act, 1955, the second marriage is void ab initio and the second wife is not entitled to inherit the properties of the deceased husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "inheritance rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases",
+        "succession disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court's decision on maintenance is binding and cannot be challenged.",
+      "held": "The order dated 08.02.2023 passed by the learned Additional District Judge, Bajali in Misc S.C. Case No.11/2018 is not challengeable.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Article 227"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance orders",
+        "challengeability"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases",
+        "criminal proceedings"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order was not specified in the excerpt, but it appears that the appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "maintenance",
+    "alimony",
+    "wife's maintenance",
+    "husband's maintenance",
+    "Section 125 CrPC",
+    "Section 18 HMA",
+    "Article 227 Constitution",
+    "Additional District Judge",
+    "Misc S.C. Case No.",
+    "family law",
+    "marriage",
+    "divorce",
+    "child custody",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting maintenance applications",
+    "advising on alimony disputes",
+    "assisting with divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:01:37.504353"
 }

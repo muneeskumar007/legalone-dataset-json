@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:01:00.886598",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of the District Judge, Kanpur",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Paras Ram vs Janki Bai on 9 February, 1961",
+  "case_name": "Paras Ram vs Janki Bai",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Paras Ram, husband",
+    "respondent_defendant": "Janki Bai, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "A petition under Section 10 of the Hindu Marriage Act, 1955 was filed by Paras Ram against Janki Bai. An application for relief under Section 24 of the Act was made before the learned Civil Judge by Janki Bai and he passed an order to stay further proceedings on the petition until Paras Ram paid Rs. 250/- to Janki Bai as ordered.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An appeal from an order of a civil judge passed in a proceeding under Section 10 of the Hindu Marriage Act lies to the District Judge if a certain condition is fulfilled and to the High Court if it is not.",
+      "held": "The residuary power is thus vested in the High Court and an appeal lies to the District Judge only if the condition is fulfilled.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 28"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appeal",
+        "District Judge",
+        "High Court",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "When no value was fixed on the petition and when there is no law also under which a certain value or a value not below or not exceeding a certain sum ought to have been fixed, it cannot be said that the value of the petition did not exceed Rs. 10,000/-.",
+      "held": "When no value was fixed on the petition and when there was no law also under which a certain value or a value not below or not exceeding a certain sum ought to have been fixed, it cannot be said that the value of the petition did not exceed Rs. 10,000/-.",
+      "applicable_acts_sections": [
+        "Bengal, Agra and Assam Civil Courts Act, 1887 — Section 21"
+      ],
+      "cited_cases": [
+        "Paras Ram vs Janki Bai, (1961) X SCC Y"
+      ],
+      "keywords": [
+        "value",
+        "petition",
+        "Rs. 10,000/-"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The question of whether the appeal lies to this Court or to the Court of the District Judge, Kanpur was decided in favor of the appellant.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 10",
+    "Section 24",
+    "divorce",
+    "cost of defending",
+    "stay proceedings",
+    "valuation",
+    "appeal",
+    "District Judge",
+    "First Civil Judge",
+    "Kanpur",
+    "wife's cost",
+    "Rs. 250",
+    "Latin maxim",
+    "actus curiae juris"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against stay order",
+    "guidelines for filing divorce petition",
+    "practical tips for advocates in Hindu Marriage Act cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T22:00:39.015850"
 }

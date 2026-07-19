@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T20:31:06.310281",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "custody": 3,
@@ -22,13 +22,13 @@
     "M.S. Sahoo J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Dhenkanal, C.P. No.67 of 2020 and C.P. No.29 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "984 vs Byomakesh Biswal on 23 September, 2022",
+  "case_name": "984 vs Byomakesh Biswal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Satabdi Pradhan, wife",
+    "respondent_defendant": "Byomakesh Biswal, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial suit filed by the appellant was dismissed observing that the suit is collusive one. The respondent was reluctant to bring out the truth by way of cross-examination.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,108 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The requirement of leave to dispense with joinder must be observed in a suit for restitution of conjugal rights.",
+      "held": "The Judge, Family Court has also observed that such rule is required to be observed in the proceeding under Section-9 of the Hindu Marriage Act, mutatis mutandis.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "joinder",
+        "restitution",
+        "conjugal rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The custody of a child should be decided based on the best interests of the child.",
+      "held": "We had interaction with the parties being parents of the child and also with the child, Shaunak to understand the elements of comfort, assurance of proper care and bringing him up in a manner so that he can meet the challenges of life.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "child custody",
+        "best interests"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The parties should have no claim whatsoever nature against each other in future.",
+      "held": "i. It is mutually decided that the appellant will have no claim whatsoever nature, in future, against the respondent. Similarly the respondent shall have no claim whatsoever nature against the appellant in future.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "claims",
+        "future"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The parties should not take any legal action against each other or their family members, relating to their marital life, after passing of the decree of divorce.",
+      "held": "ii. Both the parties undertake that in view of this compromise they will not take any legal action against either party or their family members, relating to their marital life, after passing of the decree of divorce.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "legal actions",
+        "marital life"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The matrimonial suit stood dismissed on contest.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19",
+    "collusive suit",
+    "matrimonial dispute",
+    "Orissa High Court",
+    "Cuttack",
+    "MATA No.31",
+    "CP Case No.67",
+    "CP Case No.29",
+    "cross-examination",
+    "truth",
+    "reluctance",
+    "appreciation of evidence",
+    "dismissal",
+    "appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "matrimonial dispute resolution",
+    "Orissa High Court procedure"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T16:46:47.616568"
 }

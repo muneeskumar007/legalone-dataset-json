@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:00:54.933320",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 4,
@@ -26,13 +26,13 @@
     "F.A.No.1985/2006",
     "O.S.No.93/2002"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Civil Judge (Sr. DN), Chitradurga, O.S.No.93/2002",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Pandurangappa S/O Patel Rangappa vs N B Dodda Rangappa S/O Patel Rangappa on 28 February, 2023",
+  "case_name": "Pandurangappa S/O Patel Rangappa vs N B Dodda Rangappa S/O Patel Rangappa",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Pandurangappa, S/O Patel Rangappa, and others (A-1(a TO e), A-2 & A-3; SRI.CHITHAPPA, ADVOCATE FOR A-1(a TO e), A-2 & A-3;",
+    "respondent_defendant": "N.B.Dodda Rangappa, S/O Patel Rangappa, and others (R-1(a TO f); BY SRI. SRUTI CHAGANTI, ADVOCATE FOR R-1(a TO f))",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit for declaration, partition and separate possession.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,113 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu male to have more than one wife, it could not be contended that the alleged marriage of Patel Rangappa with Sannamma was void.",
+      "held": "He submitted that this argument was being advanced on the assumption that the averments made in the plaint were true, though that they were in fact not true.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "multiple wives",
+        "void marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The legitimacy of the children was on the premise that they were born out of a marriage which was not considered as a marriage in the eye of law.",
+      "held": "He submitted that since prior to 1955, a Hindu male could have multiple wives, the children born through such multiple wives would have to be considered legitimate.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "legitimacy",
+        "multiple marriages"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The children born to them would be entitled to succeed to the properties in equal shares.",
+      "held": "He submitted that as a consequence, since both marriages were valid, the children born to them would be entitled to succeed to the properties in equal shares.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "equal shares",
+        "property inheritance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The legitimacy of the children was only on the basis that the marriage between a man and woman was void or voidable.",
+      "held": "He submitted that the legitimacy of the children was only on the premise that they were born out of a marriage which was not considered as a marriage in the eye of law.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "legitimacy",
+        "void or voidable marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Modified",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "RFA",
+    "Nandihalli",
+    "Chitradurga",
+    "Agriculturist",
+    "Family members",
+    "Inheritance",
+    "Succession",
+    "Partition of property",
+    "Joint family",
+    "Marriage",
+    "Widow's rights",
+    "Legal heirs",
+    "Heirs-at-law",
+    "Testamentary succession"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition petitions",
+    "advising on Hindu Marriage Act implications",
+    "representing family members in inheritance disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:52:18.336556"
 }

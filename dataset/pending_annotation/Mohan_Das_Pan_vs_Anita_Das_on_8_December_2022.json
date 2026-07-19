@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:56:27.079435",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "partition": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mohan Das Pan vs Anita Das on 8 December, 2022",
+  "case_name": "Mohan Das Pan vs Anita Das",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mohan Das Pan, husband",
+    "respondent_defendant": "Anita Das, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant's marriage was solemnized with respondent in 2007. Respondent left home without informing him and went to her parental house. Appellant challenged the judgment and decree in Original Suit No. 46 of 2014 (divorce case).",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A plaintiff who levels unfounded allegations of unchastity against their spouse is guilty of matrimonial misconduct.",
+      "held": "The Family Court has further held that the appellant who levelled unfounded allegations of unchastity against his wife is guilty of matrimonial misconduct.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial misconduct",
+        "unchastity",
+        "allegations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A plaintiff's claim of cruelty must be established to the required standard under the Hindu Marriage Act.",
+      "held": "The Family Court has held that the appellant failed to establish cruelty of such nature as envisaged under clause (i-a) to sub-section (1) to Section 13 of the Hindu Marriage Act so as to make him entitled for a decree of divorce.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "establishment",
+        "required standard"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The divorce case was dismissed by the trial court on December 22, 2018.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "desertion",
+    "Specific Relief Act",
+    "marriage solemnized",
+    "Rourkela",
+    "Odisha",
+    "Hindu customs",
+    "practices",
+    "judgment dated",
+    "decree in Original Suit",
+    "dismissed",
+    "appellant pleaded",
+    "respondent",
+    "divorce case",
+    "ground of cruelty",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on grounds for divorce",
+    "preparing appeal against dismissal of divorce suit"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:48:52.722652"
 }

@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-07-15T20:31:07.744291",
   "domain": "property_dispute",
-  "sub_domain": "partition",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "partition": 3,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Aabira Mukherjee vs Swapna Roy & Ors on 13 November, 2024",
+  "case_name": "Aabira Mukherjee vs Swapna Roy & Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Aabira Mukherjee, plaintiff",
+    "respondent_defendant": "Swapna Roy & Ors, defendants",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff claims that the deed of settlement by trust dated October 6, 1993 is null and void. The plaintiff also seeks a decree declaring itself as the sole and absolute owner of premises No. 46, Mahendra Sarkar Street, Kolkata 700012.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,106 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The right of maintenance is a pre-existing right.",
+      "held": "He submits that before the Hindu Succession Act, 1956 came into force, the Hindu Married Women's Right to Separate Maintenance and Residence Act, 1946 was enacted to give statutory recognition of such right and therefore, there can be no doubt that the right of maintenance is a pre-existing right.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956 — Section 14(1)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "V. Tulasamma & Ors. Vs. Sesha Reddy (Dead) by L.Rs., (1977) 3 SCC 99",
+        "Jupudy Pardha Sarathy Vs. Pentapati Rama Krishna & Ors., (2016) 2 SCC 56"
+      ],
       "keywords": [
-        "TODO"
+        "right of maintenance",
+        "pre-existing right",
+        "Hindu Married Women's Right to Separate Maintenance and Residence Act, 1946"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property disputes",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — significance in understanding the legal status of a Hindu widow",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A Hindu female acquiring property at partition or in lieu of right of maintenance has a pre-existing right.",
+      "held": "He submits that sub-section (2) of Section 14 is applicable only to cases where acquisition of property is made by a Hindu female for the first time without any pre-existing right. He further submitted that the property is acquired by a Hindu female at the partition or in lieu of right of maintenance, it is in virtue of a pre-existing right and such an acquisition would not be within the scope and ambit of sub-section (2), even if the instrument, decree, order or award allotting the property prescribes a restricted estate in the property.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956 — Section 14"
+      ],
+      "cited_cases": [
+        "V. Tulasamma & Ors. Vs. Sesha Reddy (Dead) by L.Rs., (1977) 3 SCC 99"
+      ],
+      "keywords": [
+        "partition",
+        "right of maintenance",
+        "pre-existing right"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes",
+        "family law cases"
+      ],
+      "significance": "MEDIUM — significance in understanding the legal implications of a Hindu female acquiring property",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A Hindu widow has a valuable, spiritual and moral right to maintenance out of her husband's properties.",
+      "held": "He submits that under the Hindu Law, the husband has got a personal obligation to maintain his wife and if he is possessed of properties then his wife is entitled to a right to be maintained out of such properties. It is equally well settled law that the claim of the Hindu widow to be maintained is not a mere formality which is to be exercised as a matter of concession, grace or gratis but is a valuable, spiritual and moral right.",
+      "cited_cases": [
+        "Jupudy Pardha Sarathy Vs. Pentapati Rama Krishna & Ors., (2016) 2 SCC 56"
+      ],
+      "keywords": [
+        "Hindu widow",
+        "right to maintenance",
+        "valuable, spiritual and moral right"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases",
+        "property disputes"
+      ],
+      "significance": "HIGH — significance in understanding the legal status of a Hindu widow",
+      "principle_id": "LP_003",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted the plaintiff's relief claims, including declaring the deed null and void and granting vacant and peaceful possession of the premises.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Succession Act",
+    "1956",
+    "property dispute",
+    "deed of settlement",
+    "null and void",
+    "sole owner",
+    "premises",
+    "Mahendra Sarkar Street",
+    "Kolkata",
+    "Schedule annexed",
+    "Annexure C",
+    "trust",
+    "settlement by trust",
+    "declaration",
+    "void deed",
+    "property rights",
+    "title to property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for declaration of nullity of a deed",
+    "advising on property rights and title",
+    "assisting in a property dispute case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T16:47:57.431086"
 }

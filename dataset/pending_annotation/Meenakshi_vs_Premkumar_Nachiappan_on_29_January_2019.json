@@ -7,7 +7,7 @@
   "total_pages": 21,
   "extracted_at": "2026-07-15T10:56:16.998163",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "cheque_bounce": 1,
@@ -26,13 +26,13 @@
     "C. Saravanan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "I Additional Family Court Judge, Chennai (FCOP Nos. 440 of 2005 and 910 of 2006)",
   "reserved_on": "01.11.2018",
   "delivered_on": "29-01-2019",
-  "case_name": "Meenakshi vs Premkumar Nachiappan on 29 January, 2019",
+  "case_name": "Meenakshi vs Premkumar Nachiappan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Meenakshi (wife)",
+    "respondent_defendant": "Premkumar Nachiappan (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1999. The husband filed for divorce under FCOP No. 440 of 2005, while the wife sought restitution of conjugal rights under FCOP No. 910 of 2006. The trial court granted a decree of divorce to the husband and dismissed the wife's petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -88,39 +88,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The conduct of the parties can affect the normal marital life.",
+      "held": "The Family Court observed that the conduct of the appellant had affected the normal marital life and inspite of persuasion by the respondent, she did not change her behavioural pattern.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Meenakshi vs Premkumar Nachiappan on 29 January, 2019"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial cruelty",
+        "marital life"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Matrimonial cruelty can be inferred from the conduct of the parties.",
+      "held": "The Family Court further held that the relationship between the appellant and the respondent was not normal and cordial and that the respondent was subjected to matrimonial cruelty by the appellant.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Meenakshi vs Premkumar Nachiappan on 29 January, 2019"
+      ],
+      "keywords": [
+        "matrimonial cruelty",
+        "conduct of parties"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order is not specified in this excerpt, but it appears that the appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Family Courts Act",
+    "Section 19",
+    "Indian Penal Code",
+    "1860",
+    "Protection of Women from DV Act",
+    "2005",
+    "Code of Criminal Procedure",
+    "1973",
+    "judgment",
+    "decree",
+    "appeal",
+    "family court",
+    "Chennai",
+    "Madras High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "preparing family court judgment",
+    "responding to DV Act allegations"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:35:37.181673"
 }

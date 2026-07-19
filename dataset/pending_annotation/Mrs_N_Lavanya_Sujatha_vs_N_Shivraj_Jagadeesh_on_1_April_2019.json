@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T10:57:04.722504",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -22,13 +22,13 @@
     "O.P.No.1360 of 2017",
     "O.P.No.159 of 2018"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Secunderabad; O.P.No.159 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs. N Lavanya Sujatha vs N Shivraj Jagadeesh on 1 April, 2019",
+  "case_name": "Mrs. N Lavanya Sujatha vs N Shivraj Jagadeesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (wife)",
+    "respondent_defendant": "Respondent (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife filed OP No.1360 of 2017 seeking dissolution of marriage against husband, while husband filed OP No.159 of 2018 for restitution of conjugal rights.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,71 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "When common issues of law and fact arise in multiple cases, it is desirable that all cases are tried by the same Court.",
+      "held": "Since there is a likelihood of passing of conflicting judgments if both the OPs are tried by different Courts, and since common issues of law and fact would arise in both the OPs, it is desirable that both the OPs are tried by the same Court.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "common issues",
+        "conflicting judgments"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In case of multiple overlapping petitions, it is desirable to try all petitions by the same Court.",
+      "held": "Since there is a likelihood of passing of conflicting judgments if both the OPs are tried by different Courts, and since common issues of law and fact would arise in both the OPs, it is desirable that both the OPs are tried by the same Court.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "overlapping petitions",
+        "conflicting judgments"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "OP No.1360 of 2017 transferred to the Court of the Judge, Family court, Secunderabad to be tried along with OP No.159 of 2018 pending before the said Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "Section 9 Hindu Marriage Act",
+    "conjugal rights",
+    "dissolution of marriage",
+    "restoration of conjugal rights",
+    "family court",
+    "transfer of case",
+    "conflicting judgments",
+    "common issues",
+    "law and fact"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family law matters",
+    "preparing for family court hearings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:39:29.311611"
 }

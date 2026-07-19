@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T20:32:16.635778",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "Rajiv Sahai Endlaw J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Principal Judge, Family Court (Central), HMA No.206/10/08 (New No.61747/2016)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amitabh Bhasin vs Hemlata Bhasin on 6 August, 2018",
+  "case_name": "Amitabh Bhasin vs Hemlata Bhasin",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amitabh Bhasin, husband",
+    "respondent_defendant": "Hemlata Bhasin, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -71,7 +71,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Amitabh and Hemlata Bhasin. The respondent/wife filed an application under Section 26 of the Hindu Marriage Act, 1955 for enhancement of maintenance from Rs.12,000/- to Rs.18,000/- per month. The trial court allowed the application. The petitioner/husband then filed applications for review and dissolution of marriage. These were dismissed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -81,39 +81,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Orders passed in pending proceedings prior to the transfer of jurisdiction are deemed to be orders of the Family Court.",
+      "held": "Once the Statute has provided for pending proceedings to stand transferred to the Family Court constituted under the Family Courts Act and to be continued in the Family Court, the orders passed in the said proceedings of a date prior to the date of transfer and against which no remedies have been availed of till that date, are to be deemed to be orders of the Family court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Family Courts Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer of jurisdiction",
+        "Family Court",
+        "orders"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The remedies against orders passed in pending proceedings prior to the transfer of jurisdiction are governed by the law applicable after the transfer.",
+      "held": "If the latter were to be the correct position, the appeal would lie under Section 19(1) & (6) of the Family Courts Act to be heard by a Division Bench of this Court.",
+      "applicable_acts_sections": [
+        "Family Courts Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "remedies",
+        "transfer of jurisdiction",
+        "law applicable after transfer"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final order was that the petition under Article 227 of the Constitution of India impugning three orders of the trial court was dismissed. The appeal against the order dismissing the application for review and the order adjourning the proceeding sine die till payment of maintenance were also dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "maintenance",
+    "Section 26",
+    "Section 13(1)(a)",
+    "review",
+    "dismissal",
+    "adjournment",
+    "family court",
+    "petition under Article 227",
+    "Constitution of India",
+    "Code of Civil Procedure",
+    "Code of Criminal Procedure",
+    "HMA No.206/10/08",
+    "New No.61747/2016"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance orders",
+    "appealing against family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:40:55.645758"
 }

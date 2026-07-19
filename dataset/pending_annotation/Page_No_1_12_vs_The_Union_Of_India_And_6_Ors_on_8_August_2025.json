@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:00:50.073735",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "pension",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Page No.# 1/12 vs The Union Of India And 6 Ors on 8 August, 2025",
+  "case_name": "SMT. ANANYA DEY and ANR. v. The Union Of India And 6 Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SMT. ANANYA DEY and ANR., wife and daughter of late Kajal Chandra Dey@Kajal Dey",
+    "respondent_defendant": "The Union Of India, Ministry of Home Affairs, and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners prayed for authorization of family pension and other pensionery benefits in respect of services rendered by their father/husband, late Kajal Chandra Dey@Kajal Dey, with Indian Air Force and Punjab National Bank.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A child born out of a void and voidable marriage is considered a legitimate child.",
+      "held": "Further, he has placed reliance on the decision of the Hon'ble Supreme Court rendered in the case of Rameshwari Devi Vs. State of Bihar and Others, reported in AIR (2000) SC 735.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [
+        "Rameshwari Devi Vs. State of Bihar and Others, (2000) SC 735"
+      ],
+      "keywords": [
+        "legitimate child",
+        "voidable marriage",
+        "Hindu Marriage Act"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases",
+        "inheritance disputes"
+      ],
+      "significance": "MEDIUM — one reason why",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A declaratory decree can be used to draw a presumption about the death of an individual.",
+      "held": "It was further projected that basing on the said declaratory decree, Shila Dey had drawn the pension and pensionery benefits available on account of the services rendered by Kajal Chandra Dey.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act — Section 108"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "declaratory decree",
+        "presumption",
+        "death"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "pension disputes",
+        "inheritance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM — one reason why",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Authorization of family pension and other pensionery benefits in respect of services rendered by their father/husband, late Kajal Chandra Dey@Kajal Dey.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Indian Evidence Act",
+    "marriage",
+    "spouse",
+    "property",
+    "maintenance",
+    "alimony",
+    "custody",
+    "child",
+    "parent",
+    "family",
+    "law",
+    "court",
+    "judgment",
+    "order",
+    "appeal",
+    "review"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal maintenance",
+    "assisting with child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:45:57.788992"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:58:02.259545",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -20,13 +20,13 @@
     "Prasanna B. Varale J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bandra - Case No. A-640 of 2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Vishwajeet Gaurishankar Roy vs Mrs. Varsha Yadav on 12 October, 2022",
+  "case_name": "Mr. Vishwajeet Gaurishankar Roy vs Mrs. Varsha Yadav",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vishwajeet Gaurishankar Roy (husband)",
+    "respondent_defendant": "Varsha Yadav (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a petition under Section 13(1)(ia) & (ib) of the Hindu Marriage Act, 1955, which was dismissed by the Family Court. The husband appealed to this court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle their disputes through mutual consent.",
+      "held": "Both the parties have agreed to resolve all their disputes and put an end to the matter through decree of divorce as well as consequent litigations between the parties pending before different Courts including the present appeal & case no. RCC/1101552/2012 lodged by Nerul Police Station against the Appellant and his parents.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "divorce",
+        "litigations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can agree to a one-time settlement in lieu of ongoing litigation.",
+      "held": "Pursuant to the protracted mutual discussions between the parties held in the presence of the Mediator on 01.10.2022, both the parties have agreed to resolve all their disputes and put an end to the matter through decree of divorce as well as consequent litigations between the parties pending before different Courts including the present appeal & case no. RCC/1101552/2012 lodged by Nerul Police Station against the Appellant and his parents.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "one-time settlement",
+        "litigation",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Parties can agree to modify a decree of the Family Court.",
+      "held": "The parties have agreed that the Appellant would pay an amount of Rs.11,00,000/- as one time permanent settlement towards the alimony to the Respondent - wife and expenses for the education, maintenance and marriage of the daughter Ashita.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "decree modification",
+        "Family Court",
+        "alimony"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties agreed for divorce by mutual consent on terms and conditions settled between them.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Family Court",
+    "Bandra",
+    "mediation",
+    "report of mediator",
+    "Latin maxim: 'amicus curiae'",
+    "appeal",
+    "petition",
+    "judgment",
+    "order",
+    "family law",
+    "marriage dissolution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce by mutual consent",
+    "advising on mediation in family disputes",
+    "preparing an appeal against a Family Court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:23:55.871923"
 }

@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T20:31:45.807044",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Alokam Sudhakar Babu, vs His Excellency The Governor Of State Of ... on 30 December, 2020",
+  "case_name": "Alokam Sudhakar Babu vs His Excellency The Governor Of State Of ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Alokam Sudhakar Babu, Agriculturist & Social Worker",
+    "respondent_defendant": "The State of Andhra Pradesh, rep. by its Chief Secretary to Government, Secretariat, Amaravati/Velagapudi, Guntur District and others",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -39,7 +39,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a writ petition under Article 226 of the Constitution of India, praying to issue a Writ, Order or direction more in the nature of Quo-Warranto against Respondent Nos. 5 to 9.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A public servant cannot continue in office if he has violated the provisions of law and constitution.",
+      "held": "Learned counsel would contend that whoever he may be and whatever higher post he is holding, cannot continue in that post, if he either violated the provisions of the law and constitution or he is allowing anybody to violate the provisions of law and constitutional provisions.",
       "applicable_acts_sections": [
-        "TODO"
+        "Andhra Pradesh Charitable and Hindu Religious Institutions and Endowments Act, 1987 — Section 97 r/w Section 153"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "public servant",
+        "law violation",
+        "constitutional provision"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A public officer has a responsibility to protect the law and institutions.",
+      "held": "As per the posts which they are holding, they have to protect the law and institutions as it is their responsibility and they are not supposed to act against the posts which they are holding and they have to obey the law.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "public officer",
+        "responsibility",
+        "law protection"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "This Court took a view that impleading 'His Excellency the Governor of State of Andhra Pradesh' as respondent No.1 in this Writ Petition is unwarranted and deleted it from the array of respondents.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "land_title",
+    "transfer_of_property",
+    "governor's_power",
+    "state_government",
+    "chief_secretary",
+    "secretariat",
+    "amaravati",
+    "velagapudi",
+    "guntur_district",
+    "andhra_pradesh",
+    "petitioner",
+    "respondents",
+    "counsel_for_petitioner",
+    "advocate_general",
+    "judgment_copy",
+    "law_reporters",
+    "journals"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for property dispute",
+    "guidance on state government's role in land transfer",
+    "practical tips for counsel representing respondents"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:25:28.280440"
 }

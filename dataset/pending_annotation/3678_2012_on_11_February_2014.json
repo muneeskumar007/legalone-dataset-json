@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T20:31:04.742546",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "MAT Suit No. 200 of 2011 by learned Additional District Judge, 5th Court, Barasat, 24-Parganas (North)",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "3678 2012 on 11 February 2014",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband and for opposite party in C.O. 457/13",
+    "respondent_defendant": "wife and for opposite party in C.O. 3678/12",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife took out an application under Section 24 of the Hindu Marriage Act and prayed for alimony pendente lite. The court passed the impugned order in favour of the wife. Both sides have come before the court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking alimony to prove their income and expenses.",
+      "held": "There is no specific document to show wife's income. There is no document to show that she is collecting Rs. 10,000/- per month from any person, her alleged tenant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "alimony",
+        "income",
+        "expenses"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may enhance or reduce alimony pendente lite based on the changed circumstances.",
+      "held": "It may be enhanced. It may be reduced.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "alimony",
+        "pendente lite",
+        "changed circumstances"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "The husband to pay a sum of Rs. 10,000/- per month towards alimony pendente lite of the wife from the date of filing the application, i.e. from 06-07-2012.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "alimony pendente lite",
+    "Hindu Marriage Act",
+    "Section 24",
+    "MAT Suit",
+    "revisional application",
+    "family court",
+    "marriage dissolution",
+    "spousal support",
+    "pendente lite",
+    "maintenance",
+    "wife's rights",
+    "husband's obligations",
+    "property settlement",
+    "joint family",
+    "separation",
+    "custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal support",
+    "representing clients in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T16:43:43.325716"
 }

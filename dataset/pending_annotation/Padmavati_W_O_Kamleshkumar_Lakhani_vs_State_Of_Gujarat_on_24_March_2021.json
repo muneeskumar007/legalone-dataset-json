@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:00:45.067279",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Padmavati W/O Kamleshkumar Lakhani vs State Of Gujarat on 24 March, 2021",
+  "case_name": "Padmavati W/O Kamleshkumar Lakhani vs State Of Gujarat",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Padmavati W/O Kamleshkumar Lakhani",
+    "respondent_defendant": "State Of Gujarat",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties entered into an agreement dated 09th December, 2020, to settle disputes. Certain dispute with regard to interest remains.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Registry shall intimate to the Court about the status of deposit and necessary order for release on apportionment of this amount towards maintenance shall be passed.",
+      "held": "Once the amount is deposited, the Registry shall intimate to this Court about the status of such deposit and necessary order for release on apportionment of this amount towards the maintenance shall be passed by this Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Registry",
+        "deposit",
+        "maintenance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The concerned Family Court shall be requested for expeditious hearing of the matter without waiting for the period of six months.",
+      "held": "Any such application is filed, the concerned Family Court shall be requested for expeditious hearing of the matter without waiting for the period of six month",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Family Court",
+        "expeditious hearing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Modified",
+    "final_order": "Amount of Rs.23.00 lakhs shall be deposited within a week. Registry shall intimate about deposit and necessary order for release on apportionment shall be passed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "compromise",
+    "deed of compromise",
+    "mutual agreement",
+    "dispute resolution",
+    "interest",
+    "Rs.23.00 lakhs",
+    "valuables",
+    "family law",
+    "marriage dissolution",
+    "property settlement",
+    "alimony",
+    "maintenance",
+    "matrimonial disputes",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "negotiating compromise agreements",
+    "advising on property settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:42:05.350606"
 }

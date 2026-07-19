@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T20:32:34.220070",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "cheque_bounce": 2,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No. 1, Pune",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anita Krishnakumar Kachba vs Krishnakumar Ramchandra Kachba on 20 December, 2002",
+  "case_name": "Anita Krishnakumar Kachba vs Krishnakumar Ramchandra Kachba",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anita Krishnakumar Kachba (wife)",
+    "respondent_defendant": "Krishnakumar Ramchandra Kachba (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 1991 and have two sons. The husband suspected the wife's character and made enquiries about her lifestyle prior to their marriage. He filed a petition for divorce on grounds of cruelty under Section 13(1)(ia) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A mother is entitled to the custody of her minor children, considering their welfare.",
+      "held": "She being the mother, was entitled to a custody of the minor children considering their welfare.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "minor children",
+        "custody",
+        "welfare"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A subsequent event during the pendency of an appeal can affect the outcome.",
+      "held": "In her submission, order of restoration of appeal will relate back to the date of presentation of the petition as such the marriage of the respondent with Ms. Sheetal being during the pendency of the appeal cannot be said to be legal and valid in the eye of law.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "pendency",
+        "appeal",
+        "subsequent event"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's decree dissolving the marriage and directing the husband to pay permanent alimony was set aside. The custody of both minor sons was granted to the father with right of access to the mother.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Section 13(1)(ia)",
+    "permanent alimony",
+    "Section 25",
+    "maintenance",
+    "Section 125",
+    "Criminal Procedure Code",
+    "Cri.P.C.",
+    "family court",
+    "marriage dissolution",
+    "alimony",
+    "custody",
+    "minor sons",
+    "access",
+    "Hindu religion",
+    "Kirkee"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on alimony and maintenance",
+    "representing clients in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:58:40.788057"
 }

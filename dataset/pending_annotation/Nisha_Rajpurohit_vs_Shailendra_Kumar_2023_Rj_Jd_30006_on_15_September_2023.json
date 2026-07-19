@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:59:56.547088",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Nisha Rajpurohit vs Shailendra Kumar (2023:Rj-Jd:30006) on 15 September, 2023",
+  "case_name": "Nisha Rajpurohit vs Shailendra Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Nisha Rajpurohit, wife",
+    "respondent_defendant": "Shailendra Kumar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks to transfer case No. 217/2022 from Addl. District Judge No.1, Barmer to Family Court, Bikaner.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,61 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The convenience of the wife has to be considered for contesting a suit, and accordingly matrimonial proceedings ought to be transferred where the wife is residing.",
+      "held": "The Hon'ble Supreme Court in the case of Vinisha Jitesh Tolani @ Manmeet Laghmani vs Jitesh Kishore Tolani 2010(1) WLC (SC) 705 has observed that",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Vinisha Jitesh Tolani @ Manmeet Laghmani vs Jitesh Kishore Tolani, 2010(1) WLC (SC) 705"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial proceedings",
+        "wife's convenience",
+        "suit",
+        "residency"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Application under Section 9 of the Hindu Marriage Act transferred to Family Court, Bikaner.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 9",
+    "Section 24",
+    "CPC",
+    "Family Court",
+    "Barmer",
+    "Bikaner",
+    "transfer petition",
+    "petitioner-wife",
+    "respondent",
+    "Addl. District Judge",
+    "Section 13(1)",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition under Section 24 of CPC",
+    "advising on divorce proceedings under Hindu Marriage Act",
+    "assisting with family court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:12:31.490472"
 }

@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:56:47.929144",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "13th Court, Alipore, Matrimonial Suit No. 19 of 1988",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mousumi Chakraborty vs Subrata Guha Roy on 7 February, 1991",
+  "case_name": "Mousumi Chakraborty vs Subrata Guha Roy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mousumi Chakraborty, wife",
+    "respondent_defendant": "Subrata Guha Roy, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant was a student who developed a friendly relation with the respondent. The respondent's parents arranged her marriage, but he confined her against her will and got her to sign a false registration form.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Marriage under the Hindu Marriage Act must be solemnised in accordance with customary rites and ceremonies.",
+      "held": "Marriage under the Act, must be solemnised in accordance with the customary rites and ceremonies.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 7"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "customary rites",
+        "ceremonies"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Conclusivity of proof requires performance of essential rites and ceremonies.",
+      "held": "If the ceremonies for Hindu Marriage Act laid down in Section 7 of the Act had not been performed, mere registration, exchange of love letters and producing of photograph are not conclusive proof for holding that a valid marriage took place under the law.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 7"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "conclusivity",
+        "proof",
+        "essential rites",
+        "ceremonies"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "marriage validity cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 12",
+    "Section 8",
+    "nullity",
+    "matrimonial suit",
+    "friendly relation",
+    "marriage ceremony",
+    "Ashirbad",
+    "petition under Section 12",
+    "declaration of nullity",
+    "student life",
+    "Vidyasagar College",
+    "Calcutta",
+    "B.A. Class",
+    "B.Sc Class",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition under Section 12 of the Hindu Marriage Act",
+    "responding to a nullity plea in a matrimonial suit",
+    "advising on the validity of a marriage ceremony"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:02:19.824857"
 }

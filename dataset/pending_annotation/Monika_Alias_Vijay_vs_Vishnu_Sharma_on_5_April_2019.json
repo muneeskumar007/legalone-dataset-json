@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:56:34.034765",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Pankaj Bhandari J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bharatpur - Case No.220/2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Monika Alias Vijay vs Vishnu Sharma on 5 April, 2019",
+  "case_name": "Monika Alias Vijay vs Vishnu Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Monika @ Vijay W/o Shri Vishnu Sharma D/o Shri Ramesh Waka, By Caste Brahmin, R/o At Present Village Baswa, Police Station Baswa, Disict Dausa Raj. (wife)",
+    "respondent_defendant": "Vishnu Sharma S/o Shri Radharman Sharma, By Caste Brahmin, R/o Village Akhegarh, Tehsil And Police Station Nadabai, District Bharatpur Raj. (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner wife has filed case under Section 498-A I.P.C. before the Court at Dausa. An application under Section 125 (3) Cr.P.C. is pending before the Family Court, Dausa.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Proceedings should be transferred to a court where other related proceedings are pending.",
+      "held": "In view of the fact that proceedings under Section 498-A I.P.C. & 125 (3) of Cr.P.C. is pending at Dausa, it would be proper to transfer the Case No.220/2015 pending before District Judge, Bharatpur to Family Court, Dausa.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 498-A",
+        "Cr.P.C. — Section 125 (3)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer of proceedings",
+        "related cases",
+        "convenience of parties"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "It is in the interest of both parties to have related applications heard together.",
+      "held": "",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "convenience of parties",
+        "related applications",
+        "joint hearing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Transfer application allowed",
+    "final_order": "Application No.220/2015 pending before District Judge, Bharatpur is transferred to Family Court, Dausa. Both parties shall remain present before the Family Court, Dausa on 18.04.2019.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13A",
+    "Section 125",
+    "CrPC",
+    "IPC",
+    "498-A",
+    "Family Court",
+    "Dausa",
+    "Bharatpur",
+    "transfer application",
+    "matrimonial dispute",
+    "wife's case",
+    "husband's application",
+    "joint family",
+    "separation",
+    "maintenance",
+    "alimony"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer application under Section 13A of the Hindu Marriage Act",
+    "advising on matrimonial disputes involving joint families",
+    "assisting with maintenance and alimony claims in divorce cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:56:13.311856"
 }

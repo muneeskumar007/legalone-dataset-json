@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T10:58:25.103175",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 3,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Muralidhar Ghadei vs Smt. Sumitra Ghadei And Anr. on 15 July, 1993",
+  "case_name": "Muralidhar Ghadei vs Smt. Sumitra Ghadei And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Muralidhar Ghadei, husband",
+    "respondent_defendant": "Smt. Sumitra Ghadei and another (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner married respondent in 1964, but they separated. Petitioner later married again. Respondent claimed maintenance from petitioner due to his second marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife is entitled to be maintained with dignity of a wife and as Justice Fazl Ali said, the salutory provisions of the Code are not merely meant to provide a wife with food, clothing and lodging as if she is only a chattel.",
+      "held": "The immortal bird of India. Kalidass brought out through the lips of king Aja in Raghubansam the concept of a wife as 'GRUHINI SACHIBA SAKHl MITTHAH, PRIYA SHISYA......', i.e. that the wife is a partner to the husband and is his advisor, his friend and his dearest disciple",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "AIR 1974 SC 1488",
+        "AIR 1987 SC 1103"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "dignity",
+        "wife",
+        "husband",
+        "Code of Criminal Procedure"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The right of the wife to refuse to live with the husband in case of his second marriage is not confined to the offer of the husband to maintain her only after an order Under Section 125(1), Cr PC has been passed.",
+      "held": "Indeed there is no reason as to why a distinction should be maintained between a wife who desires to file a petition to claim maintenance on the ground of the husband's second marriage and the wife whose husband has contracted a second marriage after an order of maintenance has been passed and makes an offer to maintain the wife but she refuses to live with him in view of a second marriage.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "AIR 1956 Calcutta 134",
+        "XXXVII (1971) CLT 954"
+      ],
+      "keywords": [
+        "second marriage",
+        "maintenance",
+        "wife",
+        "husband"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Maintenance of Rs. 300/- per month to the opposite party No. 1 and Rs. 200/- per month to the opp party No. 2, the daughter through her, was granted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Section 125",
+    "Section 13",
+    "compromise",
+    "second marriage",
+    "family law",
+    "marriage settlement",
+    "joint family",
+    "matrimonial dispute",
+    "alimony",
+    "family court",
+    "Criminal Procedure Code",
+    "Section 482"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:05:58.102141"
 }

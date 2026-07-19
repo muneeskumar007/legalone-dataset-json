@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:59:32.883679",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 11,
     "maintenance": 2,
@@ -25,13 +25,13 @@
     "Milind Ramesh Phadke J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Second Additional District Judge (Fast Track Court), Sabalgarh, District Morena in Case No.33 of 2009 (HMA)",
   "reserved_on": "15.03.2023",
   "delivered_on": "26.04.2023",
-  "case_name": "Naresh vs Smt.Geeta on 26 April, 2023",
+  "case_name": "Naresh vs Smt.Geeta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "NARESH S/O SHRI JASHWANT, AGED ABOUT 25 YEARS, STUDENT, RESIDENT OF PIPARDHAN, TEHSIL SABALGARH, DISTRICT MORENA, PRESENTLY RESIDING AT ROOM NO.6, GWALIOR, AGRICULTURE COLLEGE, GWALIOR (MADHYA PRADESH) — husband",
+    "respondent_defendant": "SMT. GEETA W/O NARESH, D/O MUNNAR ALIAS ROSHAN, AGED AROUND 27 YEARS, RESIDENT OF NANDPURA (MANGROL), TEHSIL SABALGARH, DISTRICT MORENA (MADHYA PRADESH) — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married on 21.04.1996 and the respondent/wife used to harass the appellant/husband. She left her matrimonial house and started living with her father. The appellant/husband moved an application under Section 9 of the HMA for restitution of conjugal rights which was registered at Case No.2 of 2007 (HMA).",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The entire matrimonial relationship must be considered when assessing a complaint of cruelty.",
+      "held": "The general rule in all cases of cruelty is that the entire matrimonial relationship must be considered, and that rule is of special value when the cruelty consists not of violent acts but of injurious reproaches, complaints, accusations or taunts.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Halsbury's Laws of England [Vol.13 4th Edition Para 1269]"
+      ],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "matrimonial relationship"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The effect of the conduct rather than its nature is of paramount importance in assessing a complaint of cruelty.",
+      "held": "Whether one spouse has been guilty of cruelty to the other is essentially a question of fact and previously decided cases have little, if any, value. The court should bear in mind the physical and mental condition of the parties as well as their social status, and should consider the impact of the personality and conduct of one spouse on the mind of the other.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Halsbury's Laws of England [Vol.13 4th Edition Para 1269]"
+      ],
+      "keywords": [
+        "cruelty",
+        "conduct"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's judgment and decree dated 23.02.2010 passed in Case No.33 of 2009 (HMA) was upheld, dismissing the application for divorce on the ground of cruelty and desertion.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 28",
+    "HMA",
+    "marriage",
+    "spouse",
+    "alimony",
+    "maintenance",
+    "custody",
+    "child",
+    "parent",
+    "family law",
+    "Indian Penal Code",
+    "IPC",
+    "Code of Criminal Procedure",
+    "CrPC",
+    "judgment",
+    "decree",
+    "appeal",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:38:42.508426"
 }

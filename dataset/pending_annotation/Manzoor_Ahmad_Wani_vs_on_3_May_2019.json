@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-07-15T10:56:00.558470",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 4,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "09.04.2019",
-  "case_name": "Manzoor Ahmad Wani vs . on 3 May, 2019",
+  "case_name": "Manzoor Ahmad Wani vs. State of J&K and Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manzoor Ahmad Wani",
+    "respondent_defendant": "State of J&K and Others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's false FIR registered, he arrested and in jail for over two months. Complainant lodged another FIR to pressurize petitioner.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,21 +75,49 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The failure to keep a promise at a future uncertain date does not always amount to a misconception of fact.",
+      "held": "The matter would have been different if the consent was obtained by creating a belief that they were already married. In such a case the consent could be said to result from a misconception of fact.",
       "applicable_acts_sections": [
-        "TODO"
+        "Penal Code — Section 90"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Emperor v. Soma, 36 Ind Cas 850 : 18 Cri LJ 18(Lah)"
+      ],
       "keywords": [
-        "TODO"
+        "promise",
+        "marriage",
+        "consent",
+        "misconception of fact"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving consent and promises"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A misstatement of the intention of the defendant in doing a particular act may be a misstatement of fact, if the plaintiff was misled by it.",
+      "held": "There must be a misstatement of 'an existing fact.'",
+      "applicable_acts_sections": [
+        "Negotiable Instruments Act"
+      ],
+      "cited_cases": [
+        "Edgington v. Fitzmaurice, (1885) 29 Ch. D. 459"
+      ],
+      "keywords": [
+        "misstatement",
+        "fact",
+        "intention",
+        "plaintiff",
+        "defendant"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving deceit and misrepresentation"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -99,15 +127,34 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "negotiable instruments act",
+    "code of criminal procedure",
+    "quashment",
+    "first information report",
+    "complaint",
+    "rarest of rare cases",
+    "circumspection",
+    "section 561-A Cr. PC",
+    "criminal case",
+    "petition",
+    "allegations",
+    "Indian Kanoon",
+    "Manzoor Ahmad Wani",
+    "State of J&K",
+    "Jammu and Kashmir",
+    "High Court of Jammu and Kashmir"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashment",
+    "understanding the principles of cheque bounce cases",
+    "composing a response to a complaint"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:19:36.847426"
 }

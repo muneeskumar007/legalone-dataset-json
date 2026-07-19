@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:57:31.793287",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 3,
@@ -25,13 +25,13 @@
     "M.P.No.847 of 2022",
     "M.P.No.14519 of 2022"
   ],
-  "trial_court": "",
+  "trial_court": "Sub Court at Aruppukottai, HMOP No.148 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs.Suganthi vs S.Sanganasamy on 21 December, 2022",
+  "case_name": "Mrs.Suganthi vs S.Sanganasamy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (wife)",
+    "respondent_defendant": "Respondent (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2011 and have a 10-year-old daughter. The husband filed for dissolution of marriage on grounds of desertion, while the wife filed for maintenance. The husband is willing to pay interim maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,113 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parents are duty bound to maintain their minor children.",
+      "held": "The 10 year old child has to be taken care of by the father, who is the natural guardian and an earning member.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "minor children",
+        "maintenance",
+        "natural guardian"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Courts are bound to consider grant of Interim Maintenance in the interest of minor children and to protect their livelihood.",
+      "held": "Even in the absence of any application, the Courts are bound to consider grant of Interim Maintenance in the interest of the minor children and to protect their livelihood.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Interim Maintenance",
+        "minor children",
+        "livelihood"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The father being the natural guardian under the Guardian and Wards Act, is bound to maintain his minor daughter or son by paying maintenance.",
+      "held": "The father being the natural guardian under the Guardian and Wards Act, is bound to maintain his minor daughter or son by paying maintenance even in such circumstances, where there is a matrimonial dispute or for visitation right.",
+      "applicable_acts_sections": [
+        "Guardian and Wards Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "natural guardian",
+        "maintenance",
+        "matrimonial dispute"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Courts must act as a custodian of minor children when such children are neglected by either of the parents.",
+      "held": "Court must act as a custodian of minor children, when such children are neglected by either of the parents.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "minor children",
+        "neglect",
+        "custodianship"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The husband is directed to pay Rs.3,000/- per month as interim maintenance from December 2022 onwards.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Transfer Civil Miscellaneous Petition",
+    "HMOP No.148 of 2021",
+    "Mahila Court at Alandur",
+    "MC No.38 of 2022",
+    "marriage",
+    "Hindu Rites and Customs",
+    "female child",
+    "school going child",
+    "understanding",
+    "misunderstandings"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "transferring case to Mahila Court",
+    "petition for custody of minor child"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:48:33.146565"
 }

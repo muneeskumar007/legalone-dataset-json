@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:59:02.126293",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -19,13 +19,13 @@
     "M.Venkata Ramana J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned Senior Civil Judge, Mangalagiri (HMOP No.46 of 2020)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Nadella Bhargavi Rachapudi Bhargavi., vs Rachapudi Arun Babu, on 24 February, 2021",
+  "case_name": "Nadella Bhargavi Rachapudi Bhargavi. v. Rachapudi Arun Babu",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, requesting transfer of divorce petition",
+    "respondent_defendant": "husband, respondent in divorce petition",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is wife of respondent; they married in 2019 and have been living separately; petitioner requests transfer of divorce petition from Mangalagiri to Nellore due to distance and personal reasons",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,70 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A party's residence does not necessarily determine the jurisdiction of a court.",
+      "held": "When these circumstances are considered, it is apparent that the respondent shall necessarily appear in one of the Courts at Nellore.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "jurisdiction",
+        "residence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's ability to attend a court is not necessarily hindered by the distance.",
+      "held": "According to the petitioner, the respondent would not find it hard to attend the Court at Nellore, once the above divorce petition is transferred as requested by her.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "attendance",
+        "distance"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Transfer allowed",
+    "final_order": "Petition is transferred to Family Court, Nellore, for disposal in accordance with law",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 24 C.P.C",
+    "transfer of HMOP",
+    "family court",
+    "Nellore",
+    "Mangalagiri",
+    "Guntur District",
+    "Public Health Department",
+    "Assistant Engineer",
+    "498-A I.P.C",
+    "323 r/w 34 I.P.C",
+    "Sections 3 and 4",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on transfer of proceedings",
+    "assisting with family court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:20:11.521545"
 }

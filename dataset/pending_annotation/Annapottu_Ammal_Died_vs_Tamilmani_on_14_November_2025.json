@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T20:32:45.114878",
   "domain": "partition",
-  "sub_domain": "divorce",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 8,
@@ -27,13 +27,13 @@
   "case_numbers": [
     "O.S.No.20 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "I Additional District and Sessions Judge (PCR), Thanjavur - O.S.No.20 of 2009",
   "reserved_on": "13.10.2025",
   "delivered_on": "14.11.2025",
   "case_name": "Annapottu Ammal (Died) vs Tamilmani on 14 November, 2025",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Annapottu Ammal (died)",
+    "respondent_defendant": "Tamilmani",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The first defendant in a suit for partition has preferred the present appeal challenging the judgment and decree of the trial Court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person who is not entitled to seek partition of residential houses is not entitled to seek partition.",
+      "held": "The plaintiffs are not entitled to seek partition of residential houses since they are residing separately.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955",
+        "Hindu Succession Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "partition",
+        "residential houses",
+        "separate residence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who has not received any share from the suit schedule property is not entitled to seek partition.",
+      "held": "The plaintiffs have never received any share from the suit schedule property. Therefore, proper Court fee has not been paid.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955",
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "partition",
+        "suit schedule property",
+        "Court fee"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family property disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Modified shares of all parties as per points raised in grounds.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "joint family",
+    "coparcenary",
+    "undivided interest",
+    "family settlement",
+    "agreement",
+    "partition suit",
+    " Hindu law",
+    "section 43",
+    "section 45",
+    "section 47",
+    "section 49",
+    "section 50",
+    "section 52",
+    "section 53",
+    "section 54",
+    "section 55"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on Hindu law and succession",
+    "representing clients in family settlement disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:12:14.429089"
 }

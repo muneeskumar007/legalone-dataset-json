@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:59:54.711316",
   "domain": "divorce",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "cheque_bounce": 2,
@@ -24,13 +24,13 @@
     "Nisha M. Thakore J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Family Suit No.08 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Niravkumar S/O Champaklal Vallabhdas ... vs Khushbuben D/O Nareshbhai Amrutlal ... on 28 September, 2022",
+  "case_name": "Niravkumar S/O Champaklal Vallabhdas v. Khushbuben D/O Nareshbhai Amrutlal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Niravkumar S/O Champaklal Vallabhdas (husband)",
+    "respondent_defendant": "Khushbuben D/O Nareshbhai Amrutlal (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2001 and had a daughter born out of the wedlock. Matrimonial disputes arose, and the wife filed a suit for divorce under Section 13(1) of the Hindu Marriage Act. The trial court allowed the suit and passed a decree for dissolution of marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A decree of divorce dissolving a marriage shall be lawful for either party to remarry.",
+      "held": "it shall be lawful for either party to the marriage to remarry.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 15"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "remarriage",
+        "divorce decree"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The time for filing an appeal has expired or an appeal has been presented and dismissed, it shall be lawful for either party to the marriage to remarry.",
+      "held": "it shall be lawful for either party to the marriage to remarry.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 15"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "appeal",
+        "remarriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The language of S.15 means where the relationship of marriage has been brought to an end by intervention of court by a decree.",
+      "held": "It only means where the relationship of marriage has be en brought to an end by intervention of court by a decree, this decree will include a decree under Ss. 11, 12 or 13",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 15"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "decree",
+        "marriage relationship"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal was dismissed, and the judgment and decree dated 10.01.2019 passed by the Family Court were upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Limitation Act",
+    "1963",
+    "Family Suit",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "family court",
+    "judgment and decree",
+    "appeal",
+    "Family Court No.08 of 2017",
+    "suit filed by respondent-wife",
+    "divorce granted",
+    "marriage solemnized in year 2001",
+    "daughter born",
+    "Chitra",
+    "eighteen years age",
+    "studying in first year college"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "matrimonial dispute resolution",
+    "family court litigation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:10:03.670189"
 }

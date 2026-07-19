@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T20:31:42.023590",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "murder",
   "domain_scores": {
     "divorce": 3,
     "land_acquisition": 1,
@@ -20,13 +20,13 @@
     "C.Pratheep Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judicial Magistrate of First Class-1, Pathanamthitta, CP No. 25 of 2025",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Akash Ravi vs State Of Kerala on 27 November, 2025",
+  "case_name": "Akash Ravi vs State Of Kerala",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Akash Ravi, accused",
+    "respondent_defendant": "State Of Kerala, represented by Public Prosecutor",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner is the sole accused in a case arising out of Crime No. 1465 of 2024 of Pathanamthitta police station. The offences alleged against the petitioner are under Section 354 and 376(2)(n) IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,99 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "During the pendency of an appeal challenging a divorce, one cannot contract another valid marriage.",
+      "held": "Relaying upon Section 15 of the Hindu Marriage Act, the learned counsel for the petitioner would argue that during the pendency of the appeal challenging the divorce, one cannot contract another valid marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 15"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "appeal",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Consent must involve an active and reasoned deliberation towards the proposed act.",
+      "held": "To establish whether the 'consent' was vitiated by a 'misconception of fact' arising out of a promise to marry, two propositions must be established. The promise of marriage must have been a false promise, given in bad faith and with no intention of being adhered to at the time it was given.",
+      "applicable_acts_sections": [
+        "Section 375"
+      ],
+      "cited_cases": [
+        "Prashant v. State of NCT of Delhi, (2025) 5 SCC 764",
+        "Pramod Suryabhan Pawar v. State of Maharashtra, (2019) 9 SCC 608"
+      ],
+      "keywords": [
+        "consent",
+        "promise",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "rape cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Any physical relationship must be traceable directly to the false promise made and not qualified by other circumstances or consideration.",
+      "held": "A woman may have reasons to have physical relationship other than the promise of marriage made by the man, such as personal liking for the male party.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Mahesh Damu Khare v. The State of Maharashtra and Another, (2024) 11 SCC 398"
+      ],
+      "keywords": [
+        "physical relationship",
+        "false promise",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "rape cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The petition was strongly opposed by the learned Public Prosecutor.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "Bharatiya Nyaya Sanhita",
+    "Section 354",
+    "Section 376(2)(n)",
+    "Crl.M.C.",
+    "CP No. 25 of 2025",
+    "Crime No. 1465 of 2024",
+    "Pathanamthitta police station",
+    "judicial magistrate of first class-1",
+    "Pathanamthitta",
+    "Kerala",
+    "High Court",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to domestic violence charges",
+    "appealing against criminal charges"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:18:38.731384"
 }

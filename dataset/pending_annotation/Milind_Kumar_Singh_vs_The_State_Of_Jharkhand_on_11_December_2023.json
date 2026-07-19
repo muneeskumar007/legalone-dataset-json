@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:56:20.999070",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Sanjay Kumar Dwivedi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Dumka, Criminal Execution Case No.12/2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Milind Kumar Singh vs The State Of Jharkhand on 11 December, 2023",
+  "case_name": "Milind Kumar Singh vs The State Of Jharkhand",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Milind Kumar Singh, husband",
+    "respondent_defendant": "The State of Jharkhand, Sheela Devi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed for quashing of order rejecting petition under Section 127 of Cr.P.C. for alteration of permanent maintenance granted to opposite party no.2.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnized in contravention of Section 5(1)(i) of the Hindu Marriage Act, 1956 is void ab initio.",
+      "held": "It is held that a marriage solemnized in contravention of Section 5(1)(i) of the Hindu Marriage Act, 1956 is void ab initio.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1956 — Section 5(1)(i)",
+        "Hindu Marriage Act, 1956 — Section 11"
+      ],
+      "cited_cases": [
+        "Yamunabai Anantrao Adhav v. Anantrao Shivram Adhav and another , (1988) 1 SCC 530"
+      ],
+      "keywords": [
+        "void marriage",
+        "contravention of law",
+        "Hindu Marriage Act"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "divorce cases",
+        "nullity suits"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party seeking to alter a maintenance order must show bona fide towards settlement.",
+      "held": "It is held that a party seeking to alter a maintenance order must show bona fide towards settlement.",
+      "applicable_acts_sections": [
+        "Cr.P.C. — Section 127"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance order",
+        "alteration of order",
+        "bona fide"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases",
+        "alimony disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "this petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final court order did not provide any specific details.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 127 CrPC",
+    "permanent maintenance",
+    "alteration of order",
+    "Family Court",
+    "Dumka",
+    "Criminal Execution Case",
+    "quashing",
+    "petition",
+    "opposite party",
+    "maintenance",
+    "seizure",
+    "Cr.M.P.",
+    "High Court of Jharkhand",
+    "Ranchi",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing orders of Family Courts",
+    "seeking alteration of maintenance orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:41:31.275639"
 }

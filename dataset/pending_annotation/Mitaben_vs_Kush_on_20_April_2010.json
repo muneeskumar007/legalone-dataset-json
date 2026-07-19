@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:56:25.034007",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1,
@@ -25,8 +25,8 @@
   "delivered_on": "",
   "case_name": "Mitaben vs Kush on 20 April, 2010",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mitaben - Applicant(s)",
+    "respondent_defendant": "Kush - Opponent(s)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant's marriage with the opponent took place in 2004. The applicant was forcibly driven out by the opponent and his family members. The applicant lodged a complaint on or around 6th October 2009, in connection with an incident which occurred on 29th September 2009.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to pursue the objection about maintainability of the H.M.P. proceedings at Ahmedabad.",
+      "held": "Having raised the said objection the applicant, on one hand, does not appear to have pursued the said objection whereas on the other hand applicant has now preferred present application seeking transfer of the proceedings of H.M.P. No. 1004 of 2009 to Surendranagar without pursuing the objection about maintainability of the H.M.P. proceedings at Ahmedabad.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 19"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintainability",
+        "objection",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot seek transfer of proceedings to another court without pursuing the objection about maintainability of the H.M.P. proceedings at Ahmedabad.",
+      "held": "Thus, present case is not the case in which transfer of proceeding from one Court to another court is prayed for on the ground that some other proceeding is pending in another Court and that it would be convenient and practicable if both the proceedings are tried at the same place/in the same Court.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "transfer",
+        "maintainability",
+        "objection"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "The Court did not transfer the proceeding of Hindu Marriage Petition No. 1004 of 2009 from the Family Court, Ahmedabad to the District Court, Surendranagar.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "transfer",
+    "petition",
+    "family court",
+    "district court",
+    "Surendranagar",
+    "Ahmedabad",
+    "forced divorce",
+    "domestic violence",
+    "complaint",
+    "marriage petition",
+    "2009",
+    "2004",
+    "October",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer application for a family court case",
+    "advising on divorce proceedings in Gujarat",
+    "assisting with a domestic violence complaint"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:46:35.567261"
 }

@@ -7,7 +7,7 @@
   "total_pages": 36,
   "extracted_at": "2026-07-15T10:59:43.202972",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 11,
     "partition": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Nayanaben Ratilal Gohel vs State Of Gujarat & on 5 May, 2017",
+  "case_name": "Nayanaben Ratilal Gohel vs State Of Gujarat &",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Nayanaben Ratilal Gohel — wife",
+    "respondent_defendant": "State Of Gujarat & — respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant got married to the respondent No.2 on 15th May 2005. Matrimonial disputes cropped up soon after marriage. The respondent No.2 filed a Hindu Marriage Petition for divorce, which was allowed by the trial court. The applicant claimed that the order of maintenance be restored.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -83,39 +83,128 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A woman has two distinct rights for maintenance: as a wife and as a divorced woman.",
+      "held": "As a wife, she is entitled to maintenance unless she suffers from any of the disabilities indicated in Section 125(4). In another capacity, namely, as a divorced woman, she is again entitled to claim maintenance from the person of whom she was once the wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13",
+        "Code of Criminal Procedure — Section 125"
+      ],
+      "cited_cases": [
+        "Sukumar Dhibar v. Smt. Anjali Dasi, (1983) Cri LJ 36"
+      ],
+      "keywords": [
+        "maintenance",
+        "divorce",
+        "wife",
+        "divorced woman"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A decree for divorce does not automatically terminate the obligation of a husband to maintain his divorced wife.",
+      "held": "Once a decree for divorce was passed against the respondent and marital relations between the petitioner and the respondent came to an end, the mutual rights, duties and obligations should also come to an end. This plea cannot be accepted as a woman has two distinct rights for maintenance.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 125"
+      ],
+      "cited_cases": [
+        "Sukumar Dhibar v. Smt. Anjali Dasi, (1983) Cri LJ 36"
+      ],
+      "keywords": [
+        "divorce",
+        "maintenance",
+        "obligation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A woman's entitlement to maintenance is not affected by the fact that she deserted her husband and a decree for divorce was passed against her.",
+      "held": "The fact that she had deserted her husband and on that basis a decree for divorce was passed against her was not treated as a bar to her claim for maintenance as a divorced wife.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 125"
+      ],
+      "cited_cases": [
+        "Sukumar Dhibar v. Smt. Anjali Dasi, (1983) Cri LJ 36"
+      ],
+      "keywords": [
+        "maintenance",
+        "desertion",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A woman's entitlement to maintenance is not affected by the fact that she was once her husband's wife.",
+      "held": "If a woman after divorce becomes a destitute. If she cannot maintain herself or remains unmarried, the man who was, once, her husband continues to be under a statutory duty and obligation to provide maintenance to her.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 125"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "divorce",
+        "wife"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order of maintenance of the petitioner wife be restore.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Section 125 CrPC",
+    "Section 7 HMA",
+    "Section 12 HMA",
+    "Domestic Violence",
+    "DV Act",
+    "Custody",
+    "Alimony",
+    "Maintenance Petition",
+    "Divorce Proceedings",
+    "Family Court",
+    "Single Judge Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "preparing maintenance applications",
+    "advising on domestic violence cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:49:21.047607"
 }

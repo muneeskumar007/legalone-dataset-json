@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:59:03.692352",
   "domain": "partition",
-  "sub_domain": "divorce",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 4,
     "partition": 5,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Junior Civil Judge, Nandaloor, O.S.No. 81/96",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Nallagondla Kanthamma vs Nallagondala Rajyam And Ors. on 19 September, 2003",
+  "case_name": "Nallagondla Kanthamma vs Nallagondala Rajyam And Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Nallagondla Kanthamma, wife",
+    "respondent_defendant": "Nallagondala Rajyam and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff claimed to be the legally wedded wife of Nallagondla Penchalaiah who died while working in Integral Coach Factory, Madras. She sought declaration that she is entitled to receive benefits due to her husband's death and also for permanent injunction and mandatory injunction.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party's failure to receive notices does not necessarily mean they are unaware of the proceedings.",
+      "held": "Though he did not express his willingness, the plaintiff went to him at Madras hoping that her destiny is with him only as a dutiful Indian wife. She soon found that her husband is having illicit intimacy with one married woman viz., Rajyam who was already big with four children through her husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "notice",
+        "awareness",
+        "proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's admission to a fact does not necessarily mean they are aware of all related facts.",
+      "held": "An admission was made that as per the records in Crl.M.P. No. 72/88, these defendants paid Rs. 367/- per month to the plaintiff towards her maintenance, but however, they are not aware of the proceedings M.C. No. 3/95.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "admission",
+        "awareness",
+        "facts"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The plaintiff and the third defendant are equally entitled to receive the benefits due to the deceased Penchalaiah from the office of Integral Coach Factory, Perambur, Madras. The widows are entitled to receive in equal shares.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Code of Criminal Procedure",
+    "1973",
+    "legally wedded wife",
+    "Provident Fund",
+    "Gratuity",
+    "Pension",
+    "Leave Salary",
+    "privileges",
+    "injunction",
+    "mandatory injunction",
+    "deceased Penchalaiah",
+    "Integral Coach Factory",
+    "Madras"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on Hindu succession rights",
+    "guiding on Provident Fund claims"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:21:54.826899"
 }

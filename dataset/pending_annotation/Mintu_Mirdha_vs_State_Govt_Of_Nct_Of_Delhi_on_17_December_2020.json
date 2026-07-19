@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:56:23.797389",
   "domain": "murder_criminal",
-  "sub_domain": "maintenance",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "maintenance": 1,
     "murder_criminal": 2
@@ -21,17 +21,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mintu Mirdha vs State (Govt. Of Nct Of Delhi) on 17 December, 2020",
+  "case_name": "Mintu Mirdha vs State (Govt. Of Nct Of Delhi)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mintu Mirdha, applicant",
+    "respondent_defendant": "State (Govt. Of NCT Of Delhi), respondent",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "FIR registered under Sections 363/366/366A/370A/406/120B of the IPC read with Sections 6 and 17 of the Protection of Children from Sexual Offences Act, 2012. Applicant seeks bail.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -41,21 +41,41 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to show that there are material inconsistencies in the statements of the victims.",
+      "held": "The contentions advanced by Mr Kinger are unpersuasive. First of all, there are two victims in this case and their statements recorded under Section 164 Cr.PC clearly indicate that there are serious allegations against the applicant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.PC — Section 164"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "material inconsistencies",
+        "victims' statements"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "rape cases",
+        "murder cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court should not treat accused at parity with co-accused who have been released on bail without considering the specific allegations against each accused.",
+      "held": "The contention that the applicant ought to be treated at parity with the other co-accused who have been released on bail is also unpersuasive.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "parity",
+        "co-accused",
+        "released on bail"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "bail cases",
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -65,15 +85,36 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "bail",
+    "IPC",
+    "POCSO Act",
+    "Section 363",
+    "Section 366",
+    "Section 370A",
+    "Section 406",
+    "Section 120B",
+    "Section 6",
+    "Section 17",
+    "Protection of Children from Sexual Offences Act",
+    "FIR",
+    "videoconferencing",
+    "missing person",
+    "abduction",
+    "mobile number",
+    "section 164 Cr.PC"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail application",
+    "seeking bail in criminal cases",
+    "criminal procedure code"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:45:03.447154"
 }

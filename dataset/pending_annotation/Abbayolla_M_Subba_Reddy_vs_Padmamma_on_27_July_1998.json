@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Abbayolla M. Subba Reddy vs Padmamma on 27 July, 1998",
+  "case_name": "Abbayolla M. Subba Reddy vs Padmamma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Abbayolla M. Subba Reddy (husband)",
+    "respondent_defendant": "Padmamma (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent-wife filed a suit for maintenance from the petitioner-husband, claiming Rs.1,000/- per month and Rs.13,000/- towards the cost of gold chain and other ornaments gifted to her by her father.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Legislature intended to confer statutory right for maintenance and alimony even in cases where her marriage contravenes the conditions prescribed under Section 5 and is declared to be null and void under Section 11 of that Act.",
+      "held": "It has to be inferred that the Legislature intended to confer statutory right for maintenance and alimony even in cases where her marriage contravenes the conditions prescribed under Section 5 and is declared to be null and void under Section 11 of that Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5",
+        "Hindu Marriage Act, 1955 — Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "alimony",
+        "null and void"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Parliament codified the personal law relating to Hindus and enacted the Hindu Marriage Act, 1955, The Hindu Adoption and Maintenance Act, 1956, The Hindu Minority and Guardianship Act, 1956 and the The Hindu Succession Act, 1956.",
+      "held": "In view of the divergent schools governing the personal laws of the Hindus, the Parliament codified the personal law relating to the Hindus and enacted the said four Acts.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955",
+        "Hindu Adoption and Maintenance Act, 1956",
+        "Hindu Minority and Guardianship Act, 1956",
+        "The Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "personal law",
+        "codified"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court held that a Hindu woman who is married after the Hindu Marriage Act, 1955 comes into force cannot maintain a claim for maintenance under Section 18 of the Hindu Adoption and Maintenance Act, 1956.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Hindu Adoption and Maintenance Act",
+    "Section 18",
+    "maintenance",
+    "void marriage",
+    "lawfully wedded wife",
+    "Hindu wife",
+    "divorce",
+    "marriage",
+    "family law",
+    "Indian court judgments",
+    "judicial precedent",
+    "C. Obuta Konda Reddy v. Pedda Venkala Lakshmamma",
+    "Ramesh Madhav Bapat-i",
+    "Full Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "researching family law precedents"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T16:51:28.968841"
 }

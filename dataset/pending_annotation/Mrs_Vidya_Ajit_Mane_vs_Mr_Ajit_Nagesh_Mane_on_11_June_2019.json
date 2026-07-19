@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:57:33.274904",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -17,20 +17,20 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court at Solapur, Divorce Petition No.251/2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs. Vidya Ajit Mane vs Mr. Ajit Nagesh Mane on 11 June, 2019",
+  "case_name": "Mrs. Vidya Ajit Mane vs Mr. Ajit Nagesh Mane",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Wife (applicant)",
+    "respondent_defendant": "Husband (respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife is seeking transfer of divorce petition filed by husband pending before Family Court at Solapur to Joint Civil Judge, Senior Division at Baramati, District- Pune.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -40,28 +40,43 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "In the interest of justice, a court may transfer a petition to another court.",
+      "held": "It is very difficult for applicant to travel alone from Baramati to Solapur. Hence, in the interest of justice, this Court be pleased to transfer the divorce petition filed by respondent/husband at Solapur to the Court at Baramati for hearing and final disposal on merits.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "justice",
+        "transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court should not transfer a petition solely for the convenience of one party.",
+      "held": "Therefore, there is no question of travelling said petition from Solapur to Baramati just for the convenience of wife.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "convenience",
+        "transfer"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court transferred the divorce petition from Solapur to Baramati for hearing and final disposal on merits.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
     "TODO — add 15+ keywords after reading"
@@ -72,7 +87,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:51:17.365983"
 }

@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T10:57:53.087955",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 3,
@@ -28,13 +28,13 @@
     "W.P.No.32015/2019",
     "W.P.No.36543/2019"
   ],
-  "trial_court": "",
+  "trial_court": "V Additional Principal Judge, Family Court, Bengaluru - M.C.No.2533/2016",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Mr Shrikant Saboo vs Mrs Meghna Saboo on 16 February, 2023",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "MR. SHRIKANT SABOO (husband)",
+    "respondent_defendant": "MRS. MEGHNA SABOO (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-husband filed a petition under Section 13(1)(ia)&(ib) of the Hindu Marriage Act. Respondent-wife filed a petition for maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,105 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking interim maintenance to establish that they are in need of such relief.",
+      "held": "It is stated that the children are studying in school and respondent is paying the school fees by raising loan from her relatives. Hence, the petitioner is liable to pay the interim maintenance as sought by the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "interim maintenance",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "respondent",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's luxurious lifestyle and ability to pay can be considered while determining the amount of interim maintenance.",
+      "held": "He is leading a luxurious life, such as, every year he used to go to foreign countries on trips...",
+      "cited_cases": [],
+      "keywords": [
+        "luxurious lifestyle",
+        "ability to pay"
+      ],
+      "favours": "respondent",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
+    },
+    {
+      "principle": "A party's income and expenses should be considered while determining the amount of interim maintenance.",
+      "held": "The Family Court has not taken into consideration the annual income of the petitioner and has awarded lesser maintenance amount.",
+      "cited_cases": [],
+      "keywords": [
+        "income",
+        "expenses"
+      ],
+      "favours": "respondent",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "applicable_acts_sections": []
+    },
+    {
+      "principle": "A party's failure to pay towards the maintenance of their children can be considered while determining the amount of interim maintenance.",
+      "held": "The petitioner has not paid a single pie towards the maintenance of the children.",
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "children"
+      ],
+      "favours": "respondent",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court modified the impugned order and enhanced the interim maintenance.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "interim order",
+    "maintenance",
+    "Family Court",
+    "education expenses",
+    "school authority",
+    "academic year",
+    "petitioner",
+    "respondent",
+    "quash",
+    "Article 226",
+    "Constitution of India",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing interim orders",
+    "seeking maintenance for education expenses"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:20:01.120378"
 }

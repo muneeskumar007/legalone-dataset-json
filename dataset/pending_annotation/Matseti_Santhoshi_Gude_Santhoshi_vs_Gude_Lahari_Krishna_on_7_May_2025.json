@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:56:08.054481",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Matseti Santhoshi Gude Santhoshi, vs Gude Lahari Krishna, on 7 May, 2025",
+  "case_name": "Matseti Santhoshi Gude Santhoshi v. Gude Lahari Krishna",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (wife) seeking maintenance and interim stay",
+    "respondent_defendant": "Respondent (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife seeks maintenance, interim stay due to matrimonial disputes, harassment, and pending cases.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to nullify a marriage to prove its invalidity.",
+      "held": "He would further contend that to cause unnecessary inconvenience to the petitioner, the respondent/husband had filed F.C.O.P.No.335 of 2025, on the file of the Additional Family Judge Court, Visakhapatnam, under Section 12(1)(c) of the Hindu Marriage Act, 1955, to declare the marriage of the petitioner with the respondent as null and void.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 12(1)(c)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "nullification",
+        "marriage",
+        "invalidity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The distance between two places is a relevant factor in determining the feasibility of attending court proceedings.",
+      "held": "He would further contend that the distance between Rajahmundry and Visakhapatnam, is more than 200 Kms, it is very difficult for the petitioner/wife to attend the divorce case proceedings before the Additional Family Judge Court, Visakhapatnam, on each and every day.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Matseti Santhoshi Gude Santhoshi, vs Gude Lahari Krishna, (2025)"
+      ],
+      "keywords": [
+        "distance",
+        "feasibility",
+        "court proceedings"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases involving distant locations"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Interim Stay of all further proceedings including the appearance of the petitioner herein i.e., the respondent in F.C.O.P.No.335 of 2025.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "matrimonial disputes",
+    "harassment",
+    "maintenance",
+    "domestic violence",
+    "Section 125 Cr.P.C.",
+    "Section 3(5) B.N.S. Act",
+    "Section 85",
+    "Section 351(2)",
+    "Dowry Prohibition Act",
+    "Mahila Police Station",
+    "Judicial Magistrate of First Class",
+    "Rajahmundry",
+    "East Godavari District"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on domestic violence cases",
+    "assisting with maintenance applications"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:31:01.779572"
 }

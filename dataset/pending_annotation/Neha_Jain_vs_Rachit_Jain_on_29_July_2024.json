@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:59:46.647080",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -23,17 +23,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Neha Jain vs Rachit Jain on 29 July, 2024",
+  "case_name": "Neha Jain vs Rachit Jain",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Neha Jain, wife",
+    "respondent_defendant": "Rachit Jain, husband",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Neha Jain and Rachit Jain. The appellant's application under Section 24 of Hindu Marriage Act, 1955 was disposed of by the trial court. Maintenance was granted to the child but not to the appellant.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -43,39 +43,69 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Delay in filing and re-filing an appeal can be condoned.",
+      "held": "Having regard to the delay involved, we are inclined to condone the same.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "delay",
+        "condonation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "appeal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can be referred to mediation and conciliation in family matters.",
+      "held": "we are inclined to refer the parties to the Delhi High Court Mediation and Conciliation Centre.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "mediation",
+        "conciliation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The applications for condonation of delay in filing and re-filing the appeal were allowed, subject to just exceptions. The parties are referred to the Delhi High Court Mediation and Conciliation Centre to settle the matter.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "matrimonial",
+    "appeal",
+    "condonation of delay",
+    "family court",
+    "judgment",
+    "order",
+    "delayed filing",
+    "re-filing",
+    "just exceptions",
+    "High Court",
+    "Delhi High Court",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "condoning delay in family court",
+    "practical use of just exceptions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:55:52.862516"
 }

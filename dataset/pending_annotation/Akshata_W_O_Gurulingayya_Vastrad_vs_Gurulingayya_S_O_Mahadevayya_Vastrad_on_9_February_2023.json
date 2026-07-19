@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T20:31:42.576041",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 3,
@@ -24,13 +24,13 @@
     "M.C.No.217/2021",
     "sc.No.31/2018"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Vijayapura — MC No. 217/2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Akshata W/O Gurulingayya Vastrad vs Gurulingayya S/O Mahadevayya Vastrad on 9 February, 2023",
+  "case_name": "Akshata W/O Gurulingayya Vastrad vs Gurulingayya S/O Mahadevayya Vastrad",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Akshata W/O Gurulingayya Vastrad (wife)",
+    "respondent_defendant": "Gurulingayya S/O Mahadevayya Vastrad (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is wife of respondent. Marriage solemnized on 27.02.2015. Petitioner subjected to harassment and thrown out of matrimonial home. She is residing in parental home with baby girl. Respondent neglected them. Petitioner initiated proceedings under Section 125 of Cr.P.C. for maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "Inconvenience of parties cannot be the sole criteria for dismissing a petition.",
+      "held": "It is further emphasized that the respondent/husband has obtained employment on compassionate ground and would apprehend losing of the job as he has already exhausted all available leaves. It is further emphasized that the inconvenience of parties cannot be the sole criteria unless it is shown that injustice would be caused to the parties.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "SMT.H.K.SUMA & ANOTHER Vs. M.SANTOSH, (Year) X SCC Y"
       ],
+      "keywords": [
+        "inconvenience",
+        "employment",
+        "compassionate ground",
+        "justice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's inability to attend proceedings does not necessarily mean the petition should be dismissed.",
+      "held": "The travelling from Bagalkot to Vijayapura apart from involving expenditure also would cause hardship as she would not be able to attend the case effectively.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "attendance",
+        "proceedings",
+        "hardship"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition allowed and case transferred to Principal Judge, Family Court, Bagalkot.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "Section 24 CPC",
+    "family court",
+    "transfer of case",
+    "justice",
+    "equity",
+    "matrimonial dispute",
+    "marriage",
+    "spouse",
+    "petitioner",
+    "respondent",
+    "wife",
+    "husband",
+    "bank employee",
+    "house wife",
+    "Bagalkot",
+    "Vijayapura"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for transfer of case in family court",
+    "advising on matrimonial disputes",
+    "assisting with divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:22:06.731673"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T20:32:16.996527",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amitava Chandra vs Snigdha Chandra (Chakraborty) on 1 March, 2021",
+  "case_name": "Amitava Chandra vs Snigdha Chandra (Chakraborty)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amitava Chandra — husband",
+    "respondent_defendant": "Snigdha Chandra (Chakraborty) — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit was decreed ordering dissolution of marriage. Appellant/husband wants his wife back.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A respondent who has notice of an appeal does not require a stay of operation of the judgment.",
+      "held": "There is no need to pass order for stay of operation of the judgment since section 15 in Hindu Marriage Act, 1955 stands attracted as a bar to her remarriage on the appeal pending.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 15"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appeal",
+        "stay of operation",
+        "remarriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A respondent who has re-married cannot remarry until the appeal is disposed of.",
+      "held": "Section 15 in Hindu Marriage Act, 1955 stands attracted as a bar to her remarriage on the appeal pending.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 15"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "remarriage",
+        "appeal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order for stay of operation of impugned judgment and decree, notice of appeal to respondent, cost to be put in by special messenger.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "section 15",
+    "remarriage",
+    "bar",
+    "appeal pending",
+    "stay of operation",
+    "judgment and decree",
+    "dissolution of marriage",
+    "marital status",
+    "wife's remarriage",
+    "husband's appeal",
+    "Indian Kanoon",
+    "family law",
+    "matrimonial disputes"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on marital status",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:42:11.288474"
 }

@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T20:32:29.915900",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Biswanath Rath J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Sambalpur (Case No.87 of 2020)",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Anisha Jain vs Sandeep Jain : Opp. Party on 10 March, 2021",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anisha Jain - wife",
+    "respondent_defendant": "Sandeep Jain - husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife deserted and unemployed seeks transfer of divorce case from Family Court, Sambalpur to Family Court, Bhawanipatna at Kalahandi.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A deserted wife's inability to conduct her case due to distance and lack of income is a valid ground for transfer of the civil proceeding.",
+      "held": "The Petitioner-Wife is also having no income to conduct the case at Sambalpur, which is 300 kilometers away from Kesinga, the parental residence of the Petitioner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "distance",
+        "lack of income",
+        "deserted wife"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's ability to attend court proceedings at a distant location is not guaranteed, and the court may consider transferring the case if necessary.",
+      "held": "It is impossible on the part of the Wife to attend the Court at Sambalpur at the distance of 300 kilometers...",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "distance",
+        "attendance",
+        "court proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Transfer of the case is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24",
+    "Civil Procedure Code",
+    "151",
+    "transfer of case",
+    "Family Court",
+    "Sambalpur",
+    "Bhawanipatna",
+    "Kalahandi",
+    "dowry",
+    "principal dowry",
+    "marriage",
+    "Hindu Rites and Customs",
+    "Indian Kanoon",
+    "petition",
+    "application under Articles 226 & 227 of the Constitution",
+    "unemployment",
+    "desertion",
+    "Section 24 read with 151 of the Civil Procedure Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on transfer of case",
+    "assisting in family court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:56:19.890181"
 }

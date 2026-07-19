@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T20:32:20.857822",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Smt. Nilu Agrawal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Jamui (Matrimonial Case No. 110/2010)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Amrita Kumar @ Amrita Devi vs Jyotish Kumar Rajak on 22 September, 2016",
+  "case_name": "Amrita Kumar @ Amrita Devi vs Jyotish Kumar Rajak",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Amrita Kumar @ Amrita Devi (wife)",
+    "respondent_defendant": "Jyotish Kumar Rajak (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant was married to respondent in 2007. Disputes started from the beginning. Appellant gave birth to a baby boy in 2008 but respondent refused to take her back. Appellant filed complaint against respondent for maintenance and also filed matrimonial case. Respondent filed counter-case alleging that appellant's family members took away her and jewelry.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A stay order operates only if it is communicated either directly or constructively.",
+      "held": "Thus, we do not find any fault in the Family Court, Jamui, in proceeding with ex parte.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section X"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "stay order",
+        "communication",
+        "ex parte"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The period of limitation for filing an appeal is 30 days, as provided by the Family Courts Act.",
+      "held": "Even if we take the period to appeal, as provided by the Hindu Marriage Act to be 90 days...",
+      "applicable_acts_sections": [
+        "Family Courts Act — Section X",
+        "Hindu Marriage Act — Section Y"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "appeal",
+        "limitation",
+        "period"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is being disposed of at this stage itself.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "desertion",
+    "cruelty",
+    "Section 19",
+    "Family Courts Act",
+    "Matrimonial Case",
+    "dissolution of marriage",
+    "marriage",
+    "spouse",
+    "abandonment",
+    "mental cruelty",
+    "physical cruelty",
+    "matrimonial dispute",
+    "family court jurisdiction"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:43:49.754971"
 }

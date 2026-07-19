@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:00:52.104874",
   "domain": "divorce",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Judicial Magistrate-IInd, Agra, Case No. 5086 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Pallav Goyal And 2 Others vs State Of U.P. And Another on 5 December, 2019",
+  "case_name": "Pallav Goyal And 2 Others vs State Of U.P. And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Pallav Goyal and 2 others (husband, wife, plaintiff)",
+    "respondent_defendant": "State of U.P. and another (wife's side, respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties entered into a compromise and settled their disputes to maintain harmonious relations. The applicant agreed to pay Rs.10,00,000/- to the Opposite Party No.3 in full settlement of her claims.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A compromise can be made between parties even in respect of certain criminal proceedings.",
+      "held": "Wherein the Apex Court has categorically held that compromise can be made between the parties even in respect of certain criminal proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "B.S. Joshi and others Vs. State of Haryana and another (2003)4 SCC 675",
+        "Nikhil Merchant Vs. Central Bureau of Investigation [2008)9 SCC 677]",
+        "Manoj Sharma Vs. State and others ( 2008) 16 SCC 1",
+        "Gian Singh Vs. State of Punjab (2012) 10 SCC 303",
+        "Narindra Singh and others Vs. State of Punjab ( 2014) 6 SCC 466"
+      ],
       "keywords": [
-        "TODO"
+        "compromise",
+        "criminal proceedings",
+        "Apex Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the party seeking to quash criminal proceedings.",
+      "held": "This Court is not unmindful of the judgements of the Apex Court...",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "B.S. Joshi and others Vs. State of Haryana and another (2003)4 SCC 675",
+        "Nikhil Merchant Vs. Central Bureau of Investigation [2008)9 SCC 677]",
+        "Manoj Sharma Vs. State and others ( 2008) 16 SCC 1",
+        "Gian Singh Vs. State of Punjab (2012) 10 SCC 303",
+        "Narindra Singh and others Vs. State of Punjab ( 2014) 6 SCC 466"
+      ],
+      "keywords": [
+        "quash",
+        "criminal proceedings",
+        "burden"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "criminal cases",
+        "quashing petitions"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The criminal proceedings were quashed as per the settlement deed dated 17.10.2019.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498-A IPC",
+    "Dowry Prohibition Act",
+    "Criminal Complaint Case",
+    "summoning order",
+    "quash",
+    "Section 482 Cr.P.C.",
+    "Sections 323",
+    "504 IPC",
+    "Ravindra Mohan Bansal",
+    "Pallav Goyal",
+    "Agra",
+    "Judicial Magistrate-IInd",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing criminal complaint",
+    "appealing summoning order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:50:35.198943"
 }

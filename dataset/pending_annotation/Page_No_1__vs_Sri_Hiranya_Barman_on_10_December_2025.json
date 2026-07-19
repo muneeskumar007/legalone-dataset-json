@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:00:51.376615",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "partition": 1,
@@ -24,13 +24,13 @@
     "Kaushik J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Cachar, Silchar, FC (Civil) case No. 347/2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Page No.# 1/ vs Sri Hiranya Barman on 10 December, 2025",
+  "case_name": "Smt. Shyamala Barman v. Sri Hiranya Barman",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shyamala Barman, wife",
+    "respondent_defendant": "Sri Hiranya Barman, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties were married in 1987. Appellant-wife filed DV Case No. 146/2017 alleging domestic violence by respondent-husband. Trial court allowed the DV case and directed relief.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Desertion requires a continuous period of not less than two years immediately preceding the presentation of the petition.",
+      "held": "As desertion in terms of section 13(ib) requires desertion for a continuous period of not less than two years immediately preceding the presentation of the petition, we are of the view that no case of desertion by the appellant has been made out by the respondent-husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(ib)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "continuous period",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Renunciation of the world by entering a religious order is a ground for dissolution of marriage.",
+      "held": "The evidence of PW-2 and PW-3 adduced before the learned Family Court, prove the fact that the appellant had joined Prajapita Brahmakumari Ishwaria Vishwavidyalaya.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "renunciation",
+        "religious order",
+        "dissolution of marriage"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Trial court's judgment and decree dated 13/09/2023 stood, allowing dissolution of marriage between parties by way of divorce decree.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial dispute",
+    "cruelty",
+    "desertion",
+    "separation",
+    "irretrievable breakdown",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Section 27",
+    "grounds for divorce",
+    "marital status",
+    "family law",
+    "Indian Penal Code",
+    "IPC Section 498A",
+    "alimony",
+    "maintenance",
+    "property settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on grounds for divorce",
+    "assisting in property settlement negotiations"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T21:48:13.641996"
 }

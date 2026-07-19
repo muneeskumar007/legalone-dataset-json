@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:59:35.096729",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "murder",
   "domain_scores": {
     "divorce": 2,
     "land_acquisition": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Naval Singh Maurya vs The State Of Madhya Pradesh on 21 June, 2022",
+  "case_name": "Naval Singh Maurya vs The State Of Madhya Pradesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Nabal Singh Morya, Government Servant",
+    "respondent_defendant": "The State Of Madhya Pradesh through Incharge Officer, Police Station Kotwali (District Shivpuri)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Arrested on 05.03.2021 in connection with Crime No.105/2021 registered at Police Station Kotwali District Shivpuri for offence under Sections 376, 323, 506 of IPC. Fifth application under Section 439 of Cr.P.C. filed for grant of bail.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Even if the second marriage is performed without waiting for the outcome of an appeal, it cannot be held to be void.",
+      "held": "It is well established principle of law that even if the second marriage is performed without waiting the outcome of the appeal, then still the second marriage cannot be held to be void.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 15"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Anurag Mittal Vs. Shaily Mishra Mittal, (2018) 9 SCC 691",
+        "Lila Gupta v. Laxmi Narain, (1978) 3 SCC 258"
+      ],
       "keywords": [
-        "TODO"
+        "second marriage",
+        "appeal outcome",
+        "voidness"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The incapacity to marry imposed by the proviso does not lead to an inference of nullity.",
+      "held": "This Court held that the incapacity to marry imposed by the proviso did not lead to an inference of nullity, vide para 9 of Lila Gupta [Lila Gupta v. Laxmi Narain, (1978) 3 SCC 258].",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 15"
+      ],
+      "cited_cases": [
+        "Lila Gupta v. Laxmi Narain, (1978) 3 SCC 258"
+      ],
+      "keywords": [
+        "marriage capacity",
+        "nullity",
+        "proviso"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Case diary is available. Bail application dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 439 Cr.P.C.",
+    "bail",
+    "arrest",
+    "Crime No.105/2021",
+    "Police Station Kotwali",
+    "District Shivpuri",
+    "Madhya Pradesh",
+    "M.Cr.C. No.13375/2022",
+    "Naval Singh Maurya",
+    "The State Of Madhya Pradesh"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail application",
+    "seeking divorce under Hindu Marriage Act",
+    "arrest and bail procedures in MP"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:41:10.910669"
 }

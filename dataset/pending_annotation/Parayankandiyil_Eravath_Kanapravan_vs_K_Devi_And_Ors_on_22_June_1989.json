@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:01:01.370677",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Parayankandiyil Eravath Kanapravan ... vs K. Devi And Ors. on 22 June, 1989",
+  "case_name": "Parayankandiyil Eravath Kanapravan ... vs K. Devi And Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Parayankandiyil Eravath Kanapravan, children of Raman Nair from his first wife Ammu Amma",
+    "respondent_defendant": "K. Devi and others, second wife and children of Raman Nair",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Three connected suits tried together by the lower Court. The suits relate to assets left behind by Parayankandiyil Kanhi-rakunnath Kurungodan Raman Nair. The contention is about the legal heirs of Raman Nair.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,99 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnized prior to the commencement of the Hindu Marriage Act is governed by the law in force at that time.",
+      "held": "The second marriage of Raman Nair was at a time when the Madras Marumakkathayam Act, 1933 was in force. Section 5 of the said Act provided that during the continuance of a prior marriage which is valid under Section 4, any marriage contracted by either of the parties thereto on or after the date on which the said Act came into force shall be void.",
       "applicable_acts_sections": [
-        "TODO"
+        "Madras Marumakkathayam Act — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "Hindu Marriage Act",
+        "Madras Marumakkathayam Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Hindu Marriage Act does not purport to confer legitimacy on children born of a marriage invalid under the law in force prior to its commencement.",
+      "held": "Section 16 of the Hindu Marriage Act does not purport to confer legitimacy on children born of a marriage invalid under the law in force prior to the commencement of the Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 16"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "legitimacy",
+        "children",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The overriding effect of any law in force immediately before the commencement of the Hindu Marriage Act ceases to have effect in so far as it is inconsistent with any of its provisions.",
+      "held": "According to learned counsel, the subsistance of a valid marriage at the time of the second marriage invalidates the second marriage both under the Mammakkathayam law as well as under the Hindu Marriage Act. The invalidity of the marriage under Section 5 of the Madras Marumakkathayam Act is not for the reason of Section 11 which would apply only to marriages solemnized after the commencement of the Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 4"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "overriding effect",
+        "law in force"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "joint family",
+    "coparcenary",
+    "Nair",
+    "Kerala",
+    "Tamil Nadu",
+    "tenancy-in-common",
+    "movables",
+    "immovables",
+    "schedule properties",
+    "plaintiff's title",
+    "defendant's interest",
+    "partition suit",
+    "recovery of possession",
+    " Hindu law",
+    "family property",
+    "joint family property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on joint family property disputes",
+    "representing clients in recovery of possession cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T22:01:35.675827"
 }

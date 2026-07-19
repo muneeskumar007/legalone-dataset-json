@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T10:59:33.567469",
   "domain": "land_acquisition",
-  "sub_domain": "maintenance",
+  "sub_domain": "land_acquisition",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 2,
@@ -22,20 +22,20 @@
     "Ali Mohammad Magrey J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Motor Accident Claims Tribunal, Kargil (MACT)",
   "reserved_on": "30.09.2021",
   "delivered_on": "",
-  "case_name": "National Insurance Company Limited vs Tsering Smanla on 7 October, 2021",
+  "case_name": "National Insurance Company Limited vs Tsering Smanla",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "National Insurance Company Limited — Appellant",
+    "respondent_defendant": "Tsering Stanzin and Anr. — Respondents",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "the appeal is allowed",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "A claim petition was filed by the respondent-claimant seeking compensation for an accident on 11.10.2013. The appellant had appeared and resisted the claim.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -45,39 +45,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the claimant to establish a valid adoption.",
+      "held": "Learned senior counsel submits that no adoption can be made after the commencement of the Act by or to a Hindu except in accordance with the provisions contained in Chapter II of the J&K Hindu Adoptions and Maintenance Act, 1960 now repealed.",
       "applicable_acts_sections": [
-        "TODO"
+        "J&K Hindu Adoptions and Maintenance Act, 1960 — Chapter II"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "M. Gurudas v. Rasaranjan, (2006) AIR 3275"
+      ],
       "keywords": [
-        "TODO"
+        "adoption",
+        "validity",
+        "Hindu law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "inheritance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Tribunals have no power to award a panel rate of interest.",
+      "held": "It has been held that the Tribunals have no power of awarding panel rate of interest.",
+      "cited_cases": [
+        "Supreme Court judgment (no specific citation)"
+      ],
+      "keywords": [
+        "interest rates",
+        "tribunal powers"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "compensation claims",
+        "debt recovery cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": [],
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned award dated 09.10.2018 was set aside, and the claim petition was rejected.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "National Insurance Company",
+    "Tsering Smanla",
+    "Motor Accident Claims Tribunal",
+    "land acquisition",
+    "compensation",
+    "claim petition",
+    "rashly and negligently",
+    "accident",
+    "injuries",
+    "deceased",
+    "JK10-4452",
+    "Fokarfo",
+    "MACT Kargil",
+    "Tsering Stanzin",
+    "High Court of Jammu & Kashmir and Ladakh",
+    "Srinagar",
+    "landmark judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a claim petition for motor accident compensation",
+    "understanding the role of Motor Accident Claims Tribunal in India",
+    "guidelines for insurance companies in India"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:39:31.630808"
 }

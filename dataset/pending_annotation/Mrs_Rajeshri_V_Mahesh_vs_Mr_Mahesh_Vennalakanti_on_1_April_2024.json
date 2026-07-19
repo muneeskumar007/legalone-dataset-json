@@ -7,7 +7,7 @@
   "total_pages": 41,
   "extracted_at": "2026-07-15T10:57:17.975612",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "cheque_bounce": 1,
@@ -23,13 +23,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court at Bandra, Petition No. A-480 of 2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs. Rajeshri V. Mahesh vs Mr. Mahesh Vennalakanti on 1 April, 2024",
+  "case_name": "Mrs. Rajeshri V. Mahesh vs Mr. Mahesh Vennalakanti",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rajeev Ruia (son of Mrs. Rajeshri V. Mahesh)",
+    "respondent_defendant": "Mahesh Vennalakanti",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -106,7 +106,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The Original Appellant, Mrs. Rajeshri V. Mahesh, filed a petition for judicial separation against the Respondent, which was dismissed by the Family Court. The Respondent then filed a counterclaim for divorce under Sections 13(1)(i-a) and 13(1)(i-b) of the Hindu Marriage Act, 1955, which was decreed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -116,39 +116,66 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party claiming that a property was bought in benami transactions to prove that the consideration for such property has been provided or paid out of known sources.",
+      "held": "He submitted that, in fact, the Act itself provides in Section 1(3) that the provisions of Section 3, 5 and 8 shall come into force at once, and the remaining provisions of this Act shall be deemed to have come into force on 19th May 1988.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 1(3)",
+        "Hindu Succession Act, 1956 — Section 2(9)(A)(b)(iii)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "benami transactions",
+        "known sources",
+        "consideration"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The impugned Judgment and Decree dated 11th March 2013 passed by the Family Court at Bandra was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Cruelty",
+    "Desertion",
+    "Adultery",
+    "Separation",
+    "Maintenance",
+    "Alimony",
+    "Family Court",
+    "Appeal",
+    "Judgment",
+    "Decree",
+    "Code of Criminal Procedure",
+    "1872",
+    "Indian Evidence Act",
+    "1950",
+    "Section 112",
+    "Section 114"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:44:18.543143"
 }

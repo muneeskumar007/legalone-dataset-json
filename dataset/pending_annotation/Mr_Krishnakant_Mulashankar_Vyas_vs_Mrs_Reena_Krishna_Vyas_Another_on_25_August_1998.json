@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T10:57:45.102281",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 13,
     "maintenance": 3,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bombay, A-2082 of 1996",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mr. Krishnakant Mulashankar Vyas vs Mrs. Reena Krishna Vyas & Another on 25 August, 1998",
+  "case_name": "Mr. Krishnakant Mulashankar Vyas vs Mrs. Reena Krishna Vyas & Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Krishnakant Mulashankar Vyas (husband)",
+    "respondent_defendant": "Mrs. Reena Krishna Vyas & Another (wife and daughter)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a matrimonial petition under section 11 of the Hindu Marriage Act for declaration that her marriage with the husband is void. She also filed a maintenance petition under section 18 of the Hindu Adoption and Maintenance Act, claiming maintenance for herself and their minor daughter.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,96 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The respondent may claim any relief available to him under the Act in a proceeding instituted by one spouse.",
+      "held": "Under section 23-A of the Act, in a proceeding instituted by one spouse the other spouse as respondent can claim any of the reliefs available to him under the Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 23-A"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "judicial separation",
+        "restitution of conjugal rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court may give to the respondent any relief under this Act if the petitioner's adultery, cruelty or desertion is proved.",
+      "held": "If the petitioner's adultery, cruelty or desertion is proved, the Court may give to the respondent any relief under this Act to which he or she would have been entitled if he or she had presented any petition seeking such relief on that ground.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 23-A"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petitioner's adultery",
+        "petitioner's cruelty",
+        "petitioner's desertion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Court can fix interim maintenance for payment to the one spouse by other where one of them is unable to maintain him or her and the other has means to do so.",
+      "held": "Where in any proceeding under this Act it appears to the Court that either the wife or the husband, as the case may be, has no independent income sufficient for her or his support and the necessary expenses of the proceeding, it may, on the application of the wife or the husband, order the respondent to pay to the petitioner the expenses of the proceeding and monthly during the proceeding such sum as, having regard to the petitioner's own income and the income of the respondent, it may seem to the Court to be reasonable.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "petitioner's support"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Family Court awarded interim maintenance of Rs. 5000.00 and Rs. 2500.00 per month to the respondent Nos. 1 and 2 respectively.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "maintenance pendente lite",
+    "void marriage",
+    "section 11",
+    "section 5(i)",
+    "interim maintenance",
+    "section 18",
+    "Hindu Adoption and Maintenance Act",
+    "divorce",
+    "marriage",
+    "second marriage",
+    "first marriage",
+    "substantive jurisdiction",
+    "pendente lite",
+    " Hindu law",
+    "vedic rites"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:11:34.035701"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T10:56:54.710125",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Mrs. Beejal Siddharth Ruparel vs Mr. Siddharth Harshad Ruparel on 27 June, 2019",
+  "case_name": "Mrs. Beejal Siddharth Ruparel vs Mr. Siddharth Harshad Ruparel",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Beejel S. Ruparel (wife)",
+    "respondent_defendant": "Siddharth H. Ruparel (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant/wife is seeking transfer of Marriage Petition no.454/2019 filed by respondent no.1, u/s 13(1) (ia)(ib) of the Hindu Marriage Act, for divorce before Civil Judge, Senior Division, Pune to learned Civil Judge, Senior Division, Kalyan.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may grant an application for transfer of a case to a more convenient forum.",
+      "held": "Considering the submissions made by the learned counsel for applicant and the averments made in application, I am satisfied that applicant has made out a case for following order.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "convenient forum",
+        "transfer of case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "applicant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "In exceptional circumstances, the court may permit alternative modes of service.",
+      "held": "In addition to usual mode of service, the appellant is permitted to serve the respondents by private notice alongwith entire proceeding",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "alternative modes of service",
+        "exceptional circumstances"
+      ],
+      "favors": "applicant",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Registry is directed to issue notice for final disposal to the respondent returnable on 26.7.2019.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "CPC",
+    "section 24",
+    "section 13(1)(ia)(ib)",
+    "transfer of petition",
+    "urgent orders",
+    "minor child",
+    "travel difficulties",
+    "notice for final disposal",
+    "returnable date",
+    "registry notice"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "requesting transfer of cases",
+    "handling urgent matters",
+    "representing clients with minor children"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:28:57.512603"
 }

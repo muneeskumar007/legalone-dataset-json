@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T10:56:27.962990",
   "domain": "maintenance",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 4,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "01.07.2024",
   "delivered_on": "24.07.2019",
-  "case_name": "Mohan Singh vs Savitri Negi on 16 July, 2024",
+  "case_name": "Mohan Singh vs Savitri Negi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mohan Singh, husband",
+    "respondent_defendant": "Savitri Negi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife and children filed petition under Section 125 of Cr.P.C. for grant of maintenance. Husband demanded ₹5,00,000/- from wife, turned her out of home when she couldn't meet demand. Trial court allowed application for maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A legally wedded wife is entitled to be maintained by her husband.",
+      "held": "The petitioner No.1 being the legally wedded wife was entitled to be maintained by her husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "wife",
+        "husband"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The income of the husband should be considered while awarding maintenance.",
+      "held": "The income of the respondent was proved to be (cid:128)34,625/-. The Dearness Allowance had increased and his salary could not be less than (cid:128)50,000/- per month, hence, the respondent-husband was ordered to pay maintenance @ (cid:128)5,000 per month to the petitioner-wife.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "income",
+        "husband"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Husband directed to pay maintenance @ ₹5,000/- per month to wife from date of filing of petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "maintenance",
+    "Section 125 CrPC",
+    "Code of Criminal Procedure",
+    "Cr. Revision No.",
+    "High Court of Himachal Pradesh",
+    "Shimla",
+    "petition under Section 125",
+    "grant of maintenance",
+    "marriage solemnized in 1987",
+    "children born to parties",
+    "application for maintenance",
+    "order dated 01.09.2021",
+    "maintenance @ (cid:128)5,000/- per month"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting petition under Section 125 CrPC",
+    "guidelines for maintenance applications",
+    "practical tips for family law advocates"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T18:49:34.648599"
 }

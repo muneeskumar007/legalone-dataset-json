@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-07-15T11:00:07.703924",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "partition": 1,
@@ -34,13 +34,13 @@
     "t.A.No. 653/2007",
     "Mat.Appeal.No.681 of 2007"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Kottayam at Ettumannor (OP No.613/2003)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "N.P.Leelamma vs M.A.Moni on 29 September, 2007",
+  "case_name": "N.P.Leelamma vs M.A.Moni",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M.A.MonI, wife",
+    "respondent_defendant": "N.P.Leelamma, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -80,7 +80,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent wife filed for dissolution of marriage under Section 13(1)(ia) and (ib) of Hindu Marriage Act on the ground of cruelty and desertion.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -90,39 +90,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person who has no right over a property is not entitled to get any compensation for breach of contract.",
+      "held": "In fact she is residing separately and she had no intention to come and reside with him. In fact he is entitled to get compensation from the petitioner for not discharging her obligation as a dutiful wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "breach of contract",
+        "compensation",
+        "property rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who has purchased a property for valuable consideration is entitled to possession and enjoyment of the same.",
+      "held": "She had spent huge amount for completing the building and making improvements in the property. She purchased the property 14 months prior to the date of institution of the petition.",
+      "applicable_acts_sections": [
+        "Specific Relief Act, 1963"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "property rights",
+        "possession",
+        "valuable consideration"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the appeal and set aside the judgment of the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Penal Code",
+    "1860",
+    "Specific Relief Act",
+    "1963",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "separation",
+    "annulment",
+    "nullity",
+    "judicial separation",
+    "family court",
+    "appeal",
+    "matrimony",
+    "marriage",
+    "spouse",
+    "wife",
+    "husband"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "assisting with property division in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T20:11:16.094894"
 }

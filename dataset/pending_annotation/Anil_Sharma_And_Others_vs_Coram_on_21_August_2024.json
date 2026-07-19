@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-07-15T20:32:29.066477",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "Rakesh Kainthla J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Chief Judicial Magistrate exercising the powers of Special Judicial Magistrate for CBI, Shimla (Cr. Revision No. 186 of 2020)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anil Sharma And Others vs Coram on 21 August, 2024",
+  "case_name": "Anil Sharma And Others vs Coram",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anil Sharma and others (Petitioners)",
+    "respondent_defendant": "Coram, Central Bureau of Investigation and another (Respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -77,7 +77,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Jitender Kumar was married to Poonam. He died after his vehicle fell into a gorge. The informant reported the matter to the police and FIR No. 150 of 2014 was registered.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -87,39 +87,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "To convict a person under Section 306 IPC, there must be a clear mens rea to commit the offence.",
+      "held": "The Court is clear that in order to convict a person under Section 306 IPC there has to be a clear mens rea to commit the offence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 306"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mens rea",
+        "Section 306 IPC"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "murder cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The High Court has jurisdiction to quash the investigation and may pass appropriate interim orders as thought apposite in law.",
+      "held": "Clearly, therefore, the High Court in the present case has misdirected itself in declining to enquire prima facie on a petition for quashing whether the parameters in the exercise of that jurisdiction have been duly established and if so whether a case for the grant of interim bail has been made out.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 482"
+      ],
+      "cited_cases": [
+        "State of Haryana v. Bhajan Lal",
+        "Kamal Shivaji Pokarnekar v. State of Maharashtra"
+      ],
+      "keywords": [
+        "quashing investigation",
+        "interim orders"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "quashment cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The allegations in the FIR, taken as they stand, must prima facie constitute an offence or make out a case against the accused.",
+      "held": "This legal position was recently reiterated in a decision by a two-judge Bench of this Court in Kamal Shivaji Pokarnekar v. State of Maharashtra.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "Kamal Shivaji Pokarnekar v. State of Maharashtra",
+        "State of Haryana v. Bhajan Lal"
+      ],
+      "keywords": [
+        "FIR allegations",
+        "prima facie case"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "quashment cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The objections/protest petition filed by the petitioners were dismissed and cancellation report filed by the CBI was accepted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Code of Criminal Procedure",
+    "1973",
+    "Specific Relief Act",
+    "1963",
+    "CBI",
+    "Central Bureau of Investigation",
+    "High Court",
+    "Himachal Pradesh",
+    "Shimla",
+    "Cr. Revision",
+    "Neutral Citation",
+    "Chief Judicial Magistrate",
+    "Special Judicial Magistrate",
+    "Trial Court",
+    "Cancellation Report",
+    "Objections/Protest Petition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a revision petition against an order of a Chief Judicial Magistrate",
+    "drafting a protest petition against a cancellation report",
+    "drafting a response to a Cr. Revision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:54:46.139509"
 }

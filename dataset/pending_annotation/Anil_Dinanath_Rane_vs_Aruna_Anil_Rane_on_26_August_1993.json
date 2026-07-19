@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T20:32:25.871456",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Anil Dinanath Rane vs Aruna Anil Rane on 26 August, 1993",
+  "case_name": "Anil Dinanath Rane vs Aruna Anil Rane",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anil Dinanath Rane, husband",
+    "respondent_defendant": "Aruna Anil Rane, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1985. The respondent lost her job and quarrels started between them. The respondent filed a complaint to the police after an incident on May 10, 1987. The petitioner claimed dissolution of marriage on the ground of mental cruelty under Section 13(1)(ia) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging mental cruelty to prove that such conduct has caused harm.",
+      "held": "The Family Court disbelieved the appellant's story that the respondent started quarrelling with him and his mother as she wanted to stay separately.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mental cruelty",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not accept exaggerated or untruthful allegations as evidence of mental cruelty.",
+      "held": "The Family Court found that the alleged incident at the naming ceremony was highly exaggerated and all that happened was a petty quarrel between the respondent and her mother-in-law on account of purchasing a new saree.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "exaggeration",
+        "truthfulness"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "mental cruelty",
+    "quarrels",
+    "marriage dissolution",
+    "family law",
+    "Indian court judgment",
+    "Hindu vedic rites",
+    "Clerk-cum-Typist",
+    "television mechanic",
+    "job loss",
+    "complaint to police",
+    "Latin maxim",
+    "factual terms"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on family law matters",
+    "representing client in court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:49:55.477676"
 }

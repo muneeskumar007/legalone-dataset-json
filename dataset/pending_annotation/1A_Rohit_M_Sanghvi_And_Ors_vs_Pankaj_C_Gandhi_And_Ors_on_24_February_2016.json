@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T20:31:01.658813",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "partition": 5,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "1A) Rohit M. Sanghvi And Ors vs Pankaj C. Gandhi And Ors on 24 February, 2016",
+  "case_name": "Rohit M. Sanghvi And Ors vs Pankaj C. Gandhi And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mrs.Ila Rohit Sanghvi & Ors, Plaintiffs/Applicants",
+    "respondent_defendant": "Dr. Pankaj Champaklal Gandhi & Anr., Defendants; Mrs Jyoti Pankaj Gandhi, Obstructionist",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Two Chamber Summonses concern the right of an obstructionist to a property attached in execution. The obstructionist is the wife of the original Defendant and judgment debtor.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A deed of rectification and a deed of confirmation-cum-declaration can be executed to transfer property after the decree has been passed.",
+      "held": "Though, by virtue of a deed of confirmation-cum-declaration and deed of rectification read with the agreement for sale, the HUF is the transferee of the suit flat and also a share holder of the society in respect of the same...",
       "applicable_acts_sections": [
-        "TODO"
+        "Specific Relief Act, 1963"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "deed",
+        "rectification",
+        "confirmation-cum-declaration",
+        "transfer",
+        "property"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the party seeking to defeat the rights of a judgment debtor's creditors to prove that the transfer was not done with an intention to defraud.",
+      "held": "It is submitted by learned counsel for the Plaintiff that these documents have been executed and transfer of the suit flat in the name of HUF has been obtained only with a view to defeat the rights of the Defendant's creditors including the Plaintiff...",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "intention",
+        "defraud",
+        "judgment debtor",
+        "creditors"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "execution cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The two chamber summonses involve essentially the right of the obstructionist to raise an obstruction to the attachment.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Code of Civil Procedure",
+    "Specific Relief Act",
+    "execution application",
+    "chamber summons",
+    "obstructionist",
+    "property attached",
+    "right to property",
+    "attached in execution",
+    "judgment debt",
+    "creditors",
+    "insolvent",
+    "summary suit",
+    "summons for judgment",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "guidelines for creditors",
+    "practical tips for obstructionists"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T16:40:20.087474"
 }

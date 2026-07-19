@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T10:57:49.773131",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -20,13 +20,13 @@
     "Najmi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, case no. MAT.APP. (F.C.) 27/2013",
   "reserved_on": "",
   "delivered_on": "21.10.2013",
-  "case_name": "Mr Rohit Sharma vs Mrs Sonia Sharma on 21 October, 2013",
+  "case_name": "Mr Rohit Sharma vs Mrs Sonia Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr Rohit Sharma (husband)",
+    "respondent_defendant": "Mrs Sonia Sharma (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties married in 2008 and the wife moved for maintenance pendente lite under Section 24 of the Hindu Marriage Act after the husband preferred a petition for divorce. The trial court granted maintenance @ `5,000/- per month.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,116 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove that he is unable to maintain himself and his dependents.",
+      "held": "Whether she has herself left the job or due to circumstances created by non-applicant/husband she had to resign is the question which needs trial and cannot be decided at this stage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's income and expenses should be considered while determining maintenance.",
+      "held": "Non-applicant/husband is earning Rs.23,000/- per month as per his affidavit of income. So far as liability is concerned he himself has stated that there is no one dependent upon him which means that he has no other liability accept to maintain the applicant/wife.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "income",
+        "expenses",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person's ability to maintain themselves and their dependents should be considered while determining maintenance.",
+      "held": "The fact remains that applicant/wife at present is not working anywhere.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "ability to maintain"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A person's past income and employment should be considered while determining maintenance.",
+      "held": "Respondent wife had earlier been employed and that the documents pertaining to those facts and the bank account statements produced in those proceedings persuaded the learned Judge to dismiss the application under Section 125.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "past income",
+        "employment",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final order was that the respondent wife would continue to receive maintenance pendente lite @ `5,000/- per month.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Protection of Women from DV Act",
+    "maintenance pendente lite",
+    "Section 24",
+    "Section 125 Cr.P.C.",
+    "Section 12",
+    "domestic violence",
+    "divorce petition",
+    "family court",
+    "matrimonial dispute",
+    "alimony",
+    "pendente lite",
+    "marriage settlement",
+    "property division",
+    "joint family property",
+    "wife's maintenance",
+    "husband's income"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T19:16:13.121582"
 }

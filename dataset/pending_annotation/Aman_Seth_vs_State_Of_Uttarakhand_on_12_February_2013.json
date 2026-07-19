@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T20:32:12.231492",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "land_acquisition": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Aman Seth vs State Of Uttarakhand on 12 February, 2013",
+  "case_name": "Aman Seth vs State Of Uttarakhand",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Aman Seth, Sanjay Kumar Seth, Arti Seth and Abhimanu Seth (husband, father, wife and son)",
+    "respondent_defendant": "State of Uttarakhand, Home Secretary, Station House Officer Police Station Raipur, Smt. Neha Seth (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners sought quashing of First Information Report dated 28.11.2012, registered as Crime No. 155 of 2012, relating to offences punishable under section 498A, 323 and 504 of I.P.C., and one punishable under section 3/4 of Dowry Prohibition Act, 1961.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Abuse of process of law is not permitted.",
+      "held": "It is contended that after filing the joint divorce petition under section 13B of Hindu Marriage Act, the respondent no. 3 has got lodged the First Information Report only to pressurize the petitioner no.1, against him and his family members, which is abuse of process of law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "abuse",
+        "process",
+        "law",
+        "pressure"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A First Information Report should mention the demand of dowry and when it was made.",
+      "held": "It is contended that there is no mention whatsoever in the First Information Report as to what was the demand of dowry and when it was made.",
+      "applicable_acts_sections": [
+        "Indian Penal Code"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "dowry",
+        "demand",
+        "report"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "dowry cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Urgency Application No. 783 of 2013 is allowed. Interim relief granted to petitioners not to be arrested in connection with Crime No. 155 of 2012, during investigation.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "498A",
+    "IPC",
+    "Indian Penal Code",
+    "First Information Report",
+    "quashing",
+    "Article 226",
+    "Constitution of India",
+    "Uttarakhand",
+    "Dehradun",
+    "Raipur",
+    "Selaqui",
+    "Gorkha Basti",
+    "Nainital",
+    "High Court",
+    "Criminal Writ Petition",
+    "Interim Relief Application",
+    "Urgency Application",
+    "Latin Maxim: Actus Reus",
+    "Legal Principle: Mens Rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "quashing a FIR in a domestic violence case",
+    "seeking interim relief in a criminal writ petition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-19T17:29:55.981895"
 }
