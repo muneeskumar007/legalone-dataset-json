@@ -108,7 +108,7 @@ python3 run_pipeline.py --step 1 --input ./pdfs
 python3 run_pipeline.py --step 2
 
 # 5. Auto-annotate ALL 30 at once (30-45 min, Ollama must be running)
-python3 auto_annotator.py --mode hybrid --input ./dataset/pending_annotation
+python auto_annotator.py --mode ollama --input ./dataset/pending_annotation
 
 # 6. Store annotations in database
 python run_pipeline.py --step 2
@@ -192,7 +192,7 @@ After auto-annotation, your records will have different quality levels:
 
 ```bash
 # CHECK STATUS
-python3 run_pipeline.py --step status
+python run_pipeline.py --step status
 
 # PROCESS NEW PDFs (first time or adding more)
 python3 run_pipeline.py --step 1 --input ./pdfs     # extract
@@ -212,12 +212,12 @@ python3 dataset_store.py --action export --domain divorce --output divorce.json
 python3 dataset_store.py --action stats
 
 # SEARCH
-python3 run_pipeline.py --step search --query "divorce cruelty"
-python3 dataset_store.py --action search --keyword "mental cruelty"
-python3 dataset_store.py --action search --act "Hindu Marriage Act"
+python run_pipeline.py --step search --query "divorce cruelty"
+python dataset_store.py --action search --keyword "mental cruelty"
+python dataset_store.py --action search --act "Hindu Marriage Act"
 
 # BUILD FAISS (run after annotation)
-python3 run_pipeline.py --step 5
+python run_pipeline.py --step 5
 
 # VALIDATE DIVORCE CASES
 python3 run_pipeline.py --step 4
