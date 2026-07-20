@@ -128,7 +128,7 @@ python run_pipeline.py --step search --query "divorce mental cruelty"
 ```bash
 # Just copy 60 new PDFs into ./pdfs folder
 # Then run ONE command — it handles everything:
-python3 add_more_pdfs.py --input ./pdfs --mode hybrid
+python3 add_more_pdfs.py --input ./pdfs --mode ollama
 
 # Then rebuild FAISS index with new data
 python3 run_pipeline.py --step 5

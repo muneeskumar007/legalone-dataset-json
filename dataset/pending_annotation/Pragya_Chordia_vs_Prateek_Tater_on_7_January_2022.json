@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:01:29.785248",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Pragya Chordia vs Prateek Tater on 7 January, 2022",
+  "case_name": "Smt. Sunita v. Shri Rajesh Kumar — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, mother of two minor children",
+    "respondent_defendant": "husband, father of two minor children",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -33,7 +33,7 @@
   ],
   "outcome_detected": "writ petition is allowed",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2005 and have two minor children. The wife claimed that the husband had deserted her and was not providing maintenance to her or their children. She sought divorce and custody of the children. The trial court allowed the petition for divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -43,39 +43,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage is a sacred institution and the parties to it have a duty to maintain its sanctity.",
+      "held": "It is settled law that a marriage is a sacred institution and the parties to it have a duty to maintain its sanctity.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "sanctity",
+        "duty",
+        "institution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking divorce to prove that the other party has been guilty of cruelty.",
+      "held": "It is held that the burden lies on the party seeking divorce to prove that the other party has been guilty of cruelty.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "cruelty",
+        "divorce"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The final order granted divorce to the wife, awarded her custody of the two minor children, and directed the husband to pay maintenance to them.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Section 125 CrPC",
+    "Section 24 Hindu Marriage Act",
+    "custody",
+    "child support",
+    "alimony",
+    "matrimonial dispute",
+    "irretrievable breakdown",
+    "no fault divorce",
+    "Indian Divorce Act",
+    "Hindu Marriage Act",
+    "Family Court",
+    "maintenance proceedings",
+    "interim maintenance",
+    "permanent alimony"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on child custody disputes",
+    "assisting with maintenance proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T21:54:02.657507"
 }

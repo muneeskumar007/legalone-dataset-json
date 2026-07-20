@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:02:01.591227",
   "domain": "property_dispute",
-  "sub_domain": "will_succession",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -61,21 +61,46 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu wife is entitled to a share in the joint family property.",
+      "held": "It is held that a Hindu wife is entitled to a share in the joint family property, as per Section 6 of the Hindu Marriage Act, 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 6"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "joint family property",
+        "Hindu wife",
+        "entitlement",
+        "share"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "property dispute",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A Hindu widow is entitled to a share in the joint family property.",
+      "held": "It is held that a Hindu widow is entitled to a share in the joint family property, as per Section 6 of the Hindu Marriage Act, 1955.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 6"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "joint family property",
+        "Hindu widow",
+        "entitlement",
+        "share"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "property dispute",
+        "family law"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -85,15 +110,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "joint_family_property",
+    "partition",
+    "family_dispute",
+    "marital_rights",
+    "succession_planning",
+    "coparcenary_interests",
+    "share_of_property",
+    "family_settlement",
+    "property_division",
+    "family_violence",
+    "domestic_abuse",
+    "matrimonial_claims",
+    "joint_family_assets"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting property settlement agreements",
+    "advising on family disputes",
+    "representing clients in joint family property matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:17:08.222004"
 }

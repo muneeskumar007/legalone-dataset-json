@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:02:06.361829",
   "domain": "divorce",
-  "sub_domain": "divorce_cruelty",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -26,13 +26,13 @@
     "C.A.No.66 of 2012",
     "C.C.No.303 of 2005"
   ],
-  "trial_court": "Judicial Magistrate Court No.VII, Coimbatore, C.C.No.303 of 2005",
+  "trial_court": "Judicial Magistrate Court IV Additional District and Sessions Court Coimbatore, C.C.No.303 2005",
   "reserved_on": "22.10.2019",
   "delivered_on": "25.10.2019",
-  "case_name": "P.Aruchamy vs Selvakumari",
+  "case_name": "Selvakumari v. Aruchamy — full case name",
   "parties": {
-    "petitioner_plaintiff": "P.Aruchamy (husband, 1st Accused)",
-    "respondent_defendant": "Selvakumari (wife, de facto complainant)",
+    "petitioner_plaintiff": "Selvakumari (wife)",
+    "respondent_defendant": "Aruchamy (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "Selvakumari alleged bigamy by Aruchamy, who got married to Amudhavalli @ Valliammal after driving Selvakumari away from home. She filed a private complaint under Section 494 IPC. The trial court convicted the accused.",
+  "facts_of_case": "Selvakumari alleged bigamy by Aruchamy who got married to Amudhavalli @ Valliammal after driving Selvakumari away from home. She filed a private complaint under Section 494 IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,86 +71,64 @@
   ],
   "legal_principles": [
     {
-      "principle": "The revisional court is not open to exercise the revisional power as a second appellate forum.",
-      "held": "It is not open to this Court to exercise the revisional power as a second appellate forum.",
+      "principle": "The burden lies on the complainant to prove the allegations of adultery.",
+      "held": "It is settled law that in a private complaint under Section 494 IPC, the burden lies on the complainant to prove the allegations of adultery.",
       "applicable_acts_sections": [
-        "Code of Criminal Procedure, 1973 — Section 401"
+        "Hindu Marriage Act — 1955",
+        "Code of Criminal Procedure — 1973"
       ],
-      "cited_cases": [
-        "State of Maharashtra Vs. Jagmohan Singh Kuldip Singh Anand and Others, (2004)7 SCC 659"
-      ],
+      "cited_cases": [],
       "keywords": [
-        "revisional power",
-        "second appellate forum"
+        "adultery",
+        "burden of proof",
+        "private complaint"
       ],
-      "favourites": "neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "divorce cases"
+        "divorce cases",
+        "bigamy cases"
       ],
       "significance": "HIGH",
-      "principle_id": "LP_001",
-      "favours": "neutral"
-    },
-    {
-      "principle": "The revisional court is empowered to exercise all the powers conferred on the appellate court.",
-      "held": "Section 401 CrPC confers power on the High Court or Sessions Court, as the case may be, “for the purpose of satisfying itself or himself as to the correctness, legality or propriety of any finding, sentence or order, recorded or passed, and as to the regularity of any proceedings of such inferior court”.",
-      "applicable_acts_sections": [
-        "Code of Criminal Procedure, 1973 — Section 401"
-      ],
-      "cited_cases": [
-        "State of Maharashtra Vs. Jagmohan Singh Kuldip Singh Anand and Others, (2004)7 SCC 659"
-      ],
-      "keywords": [
-        "revisional power",
-        "appellate court"
-      ],
-      "favourites": "neutral",
-      "use_in": [
-        "divorce cases"
-      ],
-      "significance": "HIGH",
-      "principle_id": "LP_002",
-      "favours": "neutral"
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
     "result": "Appeal allowed",
-    "final_order": "The judgment and order dated 10.02.2012 passed in C.C.No.303 of 2005 was set aside.",
+    "final_order": "The trial court's conviction was set aside.",
     "relief_granted": "",
     "costs": ""
   },
   "keywords": [
-    "divorce",
+    "bigamy",
     "Hindu Marriage Act",
     "1955",
     "Code of Criminal Procedure",
     "1973",
-    "Crl.R.C.No.937",
-    "2013",
-    "judgment",
-    "order",
+    "private complaint",
+    "Section 494 IPC",
+    "conviction",
     "criminal revision",
     "set aside",
-    "Judicial Magistrate Court",
-    "IV Additional District and Sessions Court",
-    "Coimbatore",
-    "Magistrate Court No.VII",
-    "Sessions Court",
-    "C.C.No.303",
-    "2005",
-    "C.A.No.66",
-    "2012"
+    "judicial separation",
+    "divorce",
+    "marriage",
+    "alleged",
+    "accused",
+    "wife",
+    "husband",
+    "family court",
+    "Sessions Court"
   ],
   "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
     "drafting divorce petition",
-    "responding to criminal revision",
-    "appealing against judgment"
+    "responding to allegations of bigamy",
+    "appealing a conviction in a family court"
   ],
   "annotation_verified": false,
   "annotation_status": "auto_llm",
   "annotated_by": "ollama_llama3",
   "dataset_version": "1.0",
-  "updated_at": "2026-07-19T21:23:56.003994"
+  "updated_at": "2026-07-20T21:24:23.318797"
 }

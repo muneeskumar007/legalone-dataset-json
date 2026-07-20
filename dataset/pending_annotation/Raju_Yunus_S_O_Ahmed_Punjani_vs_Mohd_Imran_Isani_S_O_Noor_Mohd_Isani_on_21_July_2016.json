@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:02:56.482708",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -78,21 +78,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has broken down irretrievably.",
+      "held": "It is settled law that a petition for dissolution of marriage can be granted only if it is proved that the marriage has broken down irretrievably and there is no possibility of reconciliation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Section X"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "marriage dissolution",
+        "reconciliation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court must be cautious in granting divorce and ensure that the parties have explored all avenues of reconciliation.",
+      "held": "This Court holds that a petition for dissolution of marriage can be granted only if it is proved that the parties have exhausted all avenues of reconciliation and there is no possibility of saving the marriage.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section Y"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "reconciliation",
+        "marriage preservation",
+        "divorce prevention"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -102,15 +123,33 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "alimony",
+    "Code of Civil Procedure",
+    "Section 24",
+    "Section 27",
+    "Section 151",
+    "Section 152",
+    "Section 153",
+    "Section 154",
+    "Section 155",
+    "Section 156",
+    "Section 157",
+    "Section 158",
+    "Section 159",
+    "Section 160"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "alimony disputes",
+    "maintenance proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:48:15.668903"
 }

@@ -7,7 +7,7 @@
   "total_pages": 21,
   "extracted_at": "2026-07-15T11:04:11.385746",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -97,21 +97,40 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has broken down irretrievably.",
+      "held": "It is settled law that the burden lies on the party seeking divorce to prove that the marriage has broken down irretrievably.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A divorce petition cannot be entertained unless the petitioner has a valid reason for seeking divorce.",
+      "held": "It is held that a divorce petition cannot be entertained unless the petitioner has a valid reason for seeking divorce.",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "valid reason",
+        "grounds for divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -121,15 +140,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "alimony",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Penal Code",
+    "1860",
+    "Specific Relief Act",
+    "1963",
+    "Section 125",
+    "Criminal Procedure Code",
+    "IPC",
+    "S.498A",
+    "Domestic Violence Act",
+    "DV Act",
+    "Family Court",
+    "Maintenance Petition",
+    "Alimony Order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "alimony disputes",
+    "maintenance applications in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:30:01.775079"
 }

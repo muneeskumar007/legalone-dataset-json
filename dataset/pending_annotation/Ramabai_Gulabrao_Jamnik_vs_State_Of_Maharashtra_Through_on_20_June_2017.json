@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:03:04.325264",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "partition": 2,
@@ -25,8 +25,8 @@
   "delivered_on": "",
   "case_name": "Ramabai Gulabrao Jamnik vs State Of Maharashtra, Through ... on 20 June, 2017",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner",
+    "respondent_defendant": "Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife. The relief claimed is divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,21 +69,45 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for divorce under Section 13 of the Hindu Marriage Act, 1955 is maintainable only if there has been a breakdown of marriage.",
+      "held": "It is held that a petition for divorce under Section 13 of the Hindu Marriage Act, 1955 is maintainable only if there has been a breakdown of marriage. The burden lies on the petitioner to prove that the marriage has broken down irretrievably.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "breakdown",
+        "irretrievable",
+        "petition",
+        "divorce",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the petitioner to prove that there has been a breakdown of marriage.",
+      "held": "It is held that the burden lies on the petitioner to prove that there has been a breakdown of marriage. The court will not intervene in a marriage unless it is proved that the marriage has broken down irretrievably.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "petitioner",
+        "breakdown",
+        "marriage"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -93,15 +117,38 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 27",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "separation",
+    "joint family",
+    "matrimonial home",
+    "maintenance",
+    "alimony",
+    "Hindu Succession Act",
+    "1956",
+    "Section 6",
+    "Section 8",
+    "coparcenary",
+    "share of property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance claims",
+    "assisting in property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:57:38.015174"
 }

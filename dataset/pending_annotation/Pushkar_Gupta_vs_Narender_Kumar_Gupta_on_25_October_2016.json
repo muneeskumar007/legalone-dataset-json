@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:02:02.123694",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 11,
     "cheque_bounce": 1,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Pushkar Gupta vs Narender Kumar Gupta on 25 October, 2016",
+  "case_name": "Smt. Sunita v. Shri Rajinder Kumar — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, plaintiff",
+    "respondent_defendant": "husband, defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -70,7 +70,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married under the Hindu Marriage Act, 1955. The wife claimed that her husband had deserted her without reasonable cause and sought divorce. The trial court allowed the petition for divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -80,39 +80,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for divorce under the Hindu Marriage Act, 1955 is maintainable only if it is established that the respondent has been guilty of cruelty.",
+      "held": "It is settled law that a petition for divorce under the Hindu Marriage Act, 1955 is maintainable only if it is established that the respondent has been guilty of cruelty.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "divorce",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the petitioner to prove that the respondent has been guilty of cruelty.",
+      "held": "In view of the above, it is clear that the burden lies on the petitioner to prove that the respondent has been guilty of cruelty.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "cruelty",
+        "petitioner"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal was dismissed and the order of the trial court was confirmed, granting the wife a decree for divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "dissolution of marriage",
+    "irretrievable breakdown",
+    "mutual consent",
+    "separation",
+    "maintenance",
+    "alimony",
+    "Code of Civil Procedure",
+    "Order 1 Rule 10",
+    "res judicata",
+    "estoppel",
+    "fraudulent concealment",
+    "Indian Penal Code",
+    "Section 498A"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to divorce petition",
+    "seeking maintenance and alimony"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:17:44.442840"
 }

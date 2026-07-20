@@ -7,7 +7,7 @@
   "total_pages": 25,
   "extracted_at": "2026-07-15T11:02:25.231042",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 2,
@@ -94,21 +94,40 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has been broken down irretrievably.",
+      "held": "It is settled law that the burden lies on the party seeking divorce to prove that the marriage has been broken down irretrievably.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Protection of Women from DV Act, 2005 is a beneficial legislation and its provisions are to be liberally construed.",
+      "held": "In view of the above, it is held that the Protection of Women from DV Act, 2005 is a beneficial legislation and its provisions are to be liberally construed.",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act, 2005"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "beneficial legislation",
+        "liberal construction"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "DV cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -118,15 +137,36 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "cruelty",
+    "irretrievable breakdown",
+    "separation",
+    "joint family",
+    "matrimonial home",
+    "maintenance",
+    "alimony",
+    "custody",
+    "minor child",
+    "DV Act",
+    "Protection of Women from DV Act",
+    "Indian Evidence Act",
+    "burden of proof",
+    "onus of proof",
+    "residence order",
+    "access rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and custody",
+    "representing in DV cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:27:20.074324"
 }

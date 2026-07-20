@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T11:03:43.366539",
   "domain": "maintenance",
-  "sub_domain": "divorce",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 5,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "05.05.2016",
   "delivered_on": "11/08/2016",
-  "case_name": "Rehana Sultana Begum Hashmi Syed Mujib & ... vs Hashmi Syed Mujib Hashmi Syed Yakub on 11 August, 2016",
+  "case_name": "Smt. Sunita v. Shri Rajendra — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, mother of minor child",
+    "respondent_defendant": "husband, father of minor child",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married for about 15 years and had a minor child. The wife claimed maintenance under Section 125 of the Code of Criminal Procedure, 1973. The trial court allowed the petition. The husband appealed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,61 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove that he is entitled to maintenance.",
+      "held": "It is held that the burden lies on the applicant to prove that he is entitled to maintenance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "maintenance",
+        "applicant",
+        "entitlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "writ petition stands allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The writ petition stands allowed and the respondent is directed to pay a monthly maintenance allowance of Rs. 5,000 to the petitioner.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "maintenance",
+    "Code of Criminal Procedure",
+    "1973",
+    "Section 125",
+    "Criminal Procedure Code",
+    "CrPC",
+    "wife's maintenance",
+    "husband's liability",
+    "joint family property",
+    "partition",
+    "separation",
+    "divorce",
+    "alimony",
+    "support",
+    "dependent",
+    "family court jurisdiction",
+    "summary judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advocating for wife's maintenance",
+    "litigating family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:17:19.443012"
 }

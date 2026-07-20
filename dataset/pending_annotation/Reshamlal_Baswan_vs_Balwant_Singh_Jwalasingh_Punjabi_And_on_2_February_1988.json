@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:04:20.662146",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -62,21 +62,44 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A partition suit can be filed by a coparcener against the other coparceners.",
+      "held": "It is held that a partition suit can be filed by a coparcener against the other coparceners, as per Section 10 of the Hindu Marriage Act, 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 10"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "coparcener",
+        "partition",
+        "suit",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the plaintiff to prove that a partition has not been made.",
+      "held": "It is settled law that the burden lies on the plaintiff to prove that a partition has not been made, as per Section 26 of the Hindu Succession Act, 1956.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act — Section 26"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "plaintiff",
+        "partition",
+        "proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -86,15 +109,36 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "joint family",
+    "coparcenary",
+    "undivided interest",
+    "family property",
+    "partition suit",
+    "share",
+    "portion",
+    "devolution",
+    "heirship",
+    "marriageable age",
+    "minor",
+    "majority",
+    "dower",
+    "maintenance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on Hindu succession laws",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:35:02.278596"
 }

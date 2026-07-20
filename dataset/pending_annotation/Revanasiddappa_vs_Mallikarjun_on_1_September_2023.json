@@ -7,7 +7,7 @@
   "total_pages": 36,
   "extracted_at": "2026-07-15T11:04:25.600770",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 8,
@@ -87,21 +87,44 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A partition suit can be filed by a coparcener against the other coparceners.",
+      "held": "It is held that a partition suit can be filed by a coparcener against the other coparceners in accordance with Section 6 of the Hindu Succession Act, 1956.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956 — Section 6"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "partition",
+        "coparcener",
+        "Hindu Succession Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A partition suit can be filed by a coparcener against the other coparceners for their share in the joint family property.",
+      "held": "It is held that a partition suit can be filed by a coparcener against the other coparceners for their share in the joint family property, as per the Hindu Succession Act, 1956.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "partition",
+        "coparcener",
+        "joint family property"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
@@ -111,15 +134,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "S.6",
+    "joint family",
+    "coparcenary",
+    "undivided interest",
+    "family property",
+    "share",
+    "partition suit",
+    " Hindu law",
+    " coparceners",
+    "heirs",
+    "devolution",
+    " intestate succession",
+    "testamentary disposition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on joint family property disputes",
+    "guiding on Hindu succession laws"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:36:51.598687"
 }

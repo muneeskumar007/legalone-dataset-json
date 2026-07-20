@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:01:14.888350",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 4,
@@ -61,21 +61,48 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the plaintiff to prove that the property is joint",
+      "held": "It is held that the burden lies on the plaintiff to prove that the property is joint.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Section 54"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "partition",
+        "burden of proof",
+        "joint property",
+        "plaintiff's burden",
+        "property rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases",
+        "property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A plaintiff seeking partition must establish the joint nature of the property",
+      "held": "It is held that a plaintiff seeking partition must establish the joint nature of the property.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 54"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "partition",
+        "joint property",
+        "plaintiff's burden",
+        "property rights",
+        "establishment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases",
+        "property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -93,7 +120,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T21:33:20.686190"
 }

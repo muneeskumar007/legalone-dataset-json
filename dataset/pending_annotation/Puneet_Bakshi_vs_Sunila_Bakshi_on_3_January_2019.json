@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:02:00.093262",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "cheque_bounce": 1,
@@ -68,21 +68,43 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has been broken down irretrievably.",
+      "held": "It is held that the burden lies on the party seeking divorce to prove that the marriage has been broken down irretrievably.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "burden of proof",
+        "divorce",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Protection of Women from Domestic Violence Act, 2005 is a beneficial legislation and its provisions are to be liberally construed.",
+      "held": "It is held that the Protection of Women from Domestic Violence Act, 2005 is a beneficial legislation and its provisions are to be liberally construed.",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act, 2005"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "domestic violence",
+        "beneficial legislation",
+        "liberal construction"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "DV cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -92,15 +114,37 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "dissolution of marriage",
+    "irretrievable breakdown",
+    "no reconciliation",
+    "mutual consent",
+    "separation",
+    "maintenance",
+    "alimony",
+    "Code of Criminal Procedure",
+    "1973",
+    "Protection of Women from DV Act",
+    "2005",
+    "DV",
+    "domestic violence",
+    "quash",
+    "petition",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to DV petition",
+    "negotiating settlement in matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:16:03.998983"
 }

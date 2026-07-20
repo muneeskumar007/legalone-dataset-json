@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:03:55.836013",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -54,21 +54,46 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage is a sacred institution and the parties to it have a duty to maintain its sanctity.",
+      "held": "It is held that a marriage is a sacred institution and the parties to it have a duty to maintain its sanctity. This court has consistently held that a spouse who wilfully abandons his or her partner without reasonable justification is guilty of cruelty.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code, 1860"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "sacred institution",
+        "cruelty",
+        "abandonment",
+        "sanctity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking divorce to prove that the other spouse has committed cruelty.",
+      "held": "It is settled law that the burden lies on the party seeking divorce to prove that the other spouse has committed cruelty. The court must be satisfied that the respondent has wilfully abandoned the appellant without reasonable justification.",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "cruelty",
+        "divorce",
+        "abandonment",
+        "wilful abandonment"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -78,15 +103,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "alimony",
+    "maintenance",
+    "Indian Penal Code",
+    "1860",
+    "Section 498A",
+    "cruelty",
+    "harassment",
+    "domestic violence",
+    "marital rights",
+    "spousal abuse",
+    "wife's rights",
+    "husband's obligations",
+    "family law",
+    "personal laws",
+    "Hindu Marriage Act",
+    "Section 13",
+    "dissolution of marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal abuse cases",
+    "representing clients in domestic violence matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:25:03.640758"
 }

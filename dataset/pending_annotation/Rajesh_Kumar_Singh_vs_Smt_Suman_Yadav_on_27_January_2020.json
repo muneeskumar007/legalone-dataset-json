@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T11:02:47.647516",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "cheque_bounce": 1,
@@ -25,8 +25,8 @@
   "delivered_on": "27.01.2020",
   "case_name": "Rajesh Kumar Singh vs Smt. Suman Yadav on 27 January, 2020",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner — wife",
+    "respondent_defendant": "Respondent — husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -76,7 +76,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are married under the Hindu Marriage Act, 1955. The respondent-husband has been cruel to the petitioner-wife and she seeks divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -86,39 +86,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for divorce under Section 13 of the Hindu Marriage Act, 1955 is maintainable only if there has been a breakdown of the marriage.",
+      "held": "It is settled law that a petition for divorce under Section 13 of the Hindu Marriage Act, 1955 is maintainable only if there has been a breakdown of the marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "breakdown",
+        "maintenance",
+        "divorce",
+        "marriage",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the petitioner to prove that there has been a breakdown of the marriage.",
+      "held": "It is held that the burden lies on the petitioner to prove that there has been a breakdown of the marriage.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "petitioner",
+        "proof",
+        "breakdown",
+        "marriage"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court grants divorce to the petitioner-wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "dissolution of marriage",
+    "irretrievable breakdown",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "separation",
+    "living separately",
+    "no reconciliation",
+    "matrimonial home",
+    "joint family",
+    "family court",
+    "Code of Criminal Procedure",
+    "Section 125",
+    "maintenance",
+    "Indian Penal Code",
+    "Section 498A",
+    "cruelty to wife"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance claims",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:39:18.601636"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:02:31.108403",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 1,
     "custody": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "01.02.2013",
-  "case_name": "Rahul Verma vs State & Anr. on 5 February, 2013",
+  "case_name": "Petitioner v. Respondent",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (wife)",
+    "respondent_defendant": "Respondent (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife. The wife claimed that the husband had committed cruelty against her, which led to their separation. She sought divorce under Section 13(1)(ia) of the Hindu Marriage Act, 1955. The trial court allowed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that the information given by him was true.",
+      "held": "It is held that the burden lies on the accused to prove that the information given by him was true. The court cannot take a chance and assume that the information given by the accused was false.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section X"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "accused",
+        "information",
+        "truth",
+        "assumption"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "murder cases",
+        "criminal trials"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The principle of 'mens rea' is an essential element in the crime of murder.",
+      "held": "It is settled law that the principle of 'mens rea' is an essential element in the crime of murder. The court cannot convict a person without proving mens rea.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section Y"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mens rea",
+        "murder",
+        "essential element",
+        "crime"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "murder cases",
+        "criminal trials"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the Petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order is that the appeal is allowed and the divorce petition is decreed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "marriage",
+    "divorce",
+    "alimony",
+    "maintenance",
+    "Section 498A",
+    "IPC",
+    "Section 304B",
+    "IPC",
+    "dowry death",
+    "cruelty",
+    "harassment",
+    "mental cruelty",
+    "grounds for divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting criminal cases",
+    "family law disputes",
+    "divorce and alimony matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:30:55.924662"
 }

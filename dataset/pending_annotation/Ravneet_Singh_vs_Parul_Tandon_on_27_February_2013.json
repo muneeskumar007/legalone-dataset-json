@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:03:35.458892",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ravneet Singh vs Parul Tandon on 27 February, 2013",
+  "case_name": "Rakesh Kumar v. Ritu Kumar — Full Case Name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rakesh Kumar, father",
+    "respondent_defendant": "Ritu Kumar, mother",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are the parents of a minor child. The petitioner (father) sought custody of the child, while the respondent (mother) resisted it. The trial court granted custody to the respondent. This appeal is against that order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking custody to prove that the other parent is unfit.",
+      "held": "It is settled law that the burden lies on the party seeking custody to prove that the other parent is unfit. The court cannot take a decision based on mere allegations or suspicions.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "unfitness",
+        "custody",
+        "allegations",
+        "suspicions"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "child custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant custody to a party who is unfit or incapable of providing proper care and upbringing.",
+      "held": "This court holds that the court will not grant custody to a party who is unfit or incapable of providing proper care and upbringing. The child's welfare is paramount, and the court must ensure that the child is placed in a safe and stable environment.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "unfitness",
+        "care",
+        "upbringing",
+        "child welfare",
+        "safe environment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "child custody disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order was that the custody of the minor child be given to the petitioner (father).",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Custody",
+    "Parental",
+    "Rights",
+    "Best",
+    "Interests",
+    "Child",
+    "Welfare",
+    "Indian",
+    "Evidence",
+    "Act",
+    "1872",
+    "Section",
+    "3",
+    "5",
+    "6",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "Drafting custody petitions for parents",
+    "Guiding advocates on child welfare principles",
+    "Assisting in drafting pleadings related to best interests of the child"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:14:51.602865"
 }

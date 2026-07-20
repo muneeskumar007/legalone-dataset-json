@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T11:04:00.876058",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -103,21 +103,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that the information given by him is true.",
+      "held": "It is settled law that the burden lies on the accused to prove that the information given by him is true.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code, 1860"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "accused",
+        "information"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "murder cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not act as a witness to prove the case.",
+      "held": "It is well settled that this Court will not act as a witness to prove the case.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "court",
+        "witness",
+        "prove"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "all cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -127,15 +148,33 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "Section 302",
+    "Section 304",
+    "DV Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Criminal Procedure Code",
+    "Indian Evidence Act",
+    "Specific Relief Act",
+    "Reserve Judgment",
+    "Balbir Singh",
+    "Murder Case",
+    "Culpable Homicide",
+    "Intentional Killing"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting murder charges",
+    "advocating for DV victims",
+    "appealing criminal convictions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:26:53.516174"
 }

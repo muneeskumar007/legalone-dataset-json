@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:03:14.043265",
   "domain": "land_acquisition",
-  "sub_domain": "will_succession",
+  "sub_domain": "land_acquisition",
   "domain_scores": {
     "land_acquisition": 1,
     "will_succession": 1
@@ -50,39 +50,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The principle of proportionality is applicable in cases of land acquisition.",
+      "held": "It is settled law that the principle of proportionality has to be applied while considering the question of public interest and private interest.",
       "applicable_acts_sections": [
-        "TODO"
+        "Land Acquisition Act, 1894 — Section 3"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rajasthan State Industrial Development & Investment Corporation Ltd. v. Union of India, (2007) 1 SCC 418"
+      ],
       "keywords": [
-        "TODO"
+        "land acquisition",
+        "proportionality principle",
+        "public interest",
+        "private interest"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land acquisition cases",
+        "public interest litigation"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the acquiring authority to establish that the land is being acquired for a public purpose.",
+      "held": "It is held that the burden lies on the acquiring authority to establish that the land is being acquired for a public purpose and not for private gain.",
+      "applicable_acts_sections": [
+        "Land Acquisition Act, 1894 — Section 3"
+      ],
+      "cited_cases": [
+        "Bhagwandas v. State of Gujarat, (1975) 2 SCC 816"
+      ],
+      "keywords": [
+        "land acquisition",
+        "public purpose",
+        "burden of proof"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "land acquisition cases",
+        "public interest litigation"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
     "result": "writ petition stands dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Madhya Pradesh",
+    "Section 126",
+    "Land Acquisition Act",
+    "compensation",
+    "fair_market_value",
+    "market_rate",
+    "public_interest",
+    "eminent_domain",
+    "just_compensation",
+    "due_process",
+    "procedural_fairness",
+    "judicial_review",
+    "statutory_compliance",
+    "land_owner_rights",
+    "acquisition_procedure",
+    "Section 4",
+    "Section 17"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting land acquisition notices",
+    "advising on compensation disputes",
+    "assisting with public interest acquisitions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:55:14.305011"
 }

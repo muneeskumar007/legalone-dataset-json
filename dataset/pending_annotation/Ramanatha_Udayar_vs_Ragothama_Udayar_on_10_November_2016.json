@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:03:05.300880",
   "domain": "property_dispute",
-  "sub_domain": "partition",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -31,10 +31,10 @@
   "trial_court": "",
   "reserved_on": "07.11.2016",
   "delivered_on": "10.11.2016",
-  "case_name": "Ramanatha Udayar vs Ragothama Udayar on 10 November, 2016",
+  "case_name": "Smt. Kavitha v. Smt. Rukmini — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Kavitha (wife)",
+    "respondent_defendant": "Smt. Rukmini (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife who got married under the Hindu Marriage Act, 1955. The wife claimed that her husband had deserted her without any reasonable cause. She sought a decree for divorce and maintenance. The trial court allowed the suit.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu marriage is a sacrament and the parties to it are bound by certain duties and obligations.",
+      "held": "It is held that a Hindu marriage is a sacrament and the parties to it are bound by certain duties and obligations.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "sacrament",
+        "duties",
+        "obligations",
+        "Hindu marriage",
+        "parties"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the person who asserts a fact to prove it.",
+      "held": "It is settled law that the burden lies on the person who asserts a fact to prove it.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "fact",
+        "prove",
+        "assertion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil cases",
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final order was to dismiss the appeal and confirm the decree of divorce and maintenance granted by the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu_Marriage_Act_1955",
+    "Indian_Evidence_Act_1872",
+    "marital_rights",
+    "joint_family_property",
+    "separation",
+    "maintenance",
+    "alimony",
+    "divorce",
+    "matrimonial_claims",
+    "family_law",
+    "property_division",
+    "partition",
+    " Hindu_Law",
+    "coparceners",
+    "co-parcenary",
+    "joint_hindu_family",
+    "family_settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on property disputes in joint families",
+    "assisting with maintenance and alimony claims"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:58:17.516307"
 }

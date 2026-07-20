@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:03:05.790344",
   "domain": "maintenance",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "maintenance": 1,
     "domestic_violence": 1
@@ -23,15 +23,15 @@
   "delivered_on": "",
   "case_name": "Rameshwar vs Neelam on 24 February, 2012",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner",
+    "respondent_defendant": "Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are in a marriage. The Petitioner seeks maintenance from the Respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -41,39 +41,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person who has the means to maintain himself is not entitled to maintenance.",
+      "held": "It is settled law that a person who has the means to maintain himself is not entitled to maintenance. The burden lies on the applicant to show that he is unable to maintain himself and his dependents.",
       "applicable_acts_sections": [
-        "TODO"
+        "Section 125 of the Code of Criminal Procedure"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "means",
+        "entitlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the applicant to show that he is unable to maintain himself and his dependents.",
+      "held": "The burden lies on the applicant to show that he is unable to maintain himself and his dependents. It is not for the respondent to prove that the applicant has the means to maintain himself.",
+      "applicable_acts_sections": [
+        "Section 125 of the Code of Criminal Procedure"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "maintenance",
+        "applicant"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted the Petitioner's claim for maintenance.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "maintenance",
+    "Section 125",
+    "CrPC",
+    "wife's maintenance",
+    "husband's liability",
+    "joint family",
+    "separation",
+    "divorce",
+    "alimony",
+    "support",
+    "dependent",
+    "minor children",
+    "family court jurisdiction",
+    "summary judgment",
+    "interim relief"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting maintenance petition",
+    "advocating for wife's rights",
+    "negotiating settlement agreements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:00:49.813842"
 }

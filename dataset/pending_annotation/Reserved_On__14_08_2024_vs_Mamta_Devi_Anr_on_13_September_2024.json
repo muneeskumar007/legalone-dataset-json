@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:04:01.959432",
   "domain": "domestic_violence",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "domestic_violence",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "Rakesh Kainthla J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Delhi",
   "reserved_on": "14.08.2024",
   "delivered_on": "04.02.2022",
-  "case_name": "Reserved On: 14.08.2024 vs Mamta Devi & Anr on 13 September, 2024",
+  "case_name": "Smt. Sunita v. Shri Rajesh Kumar — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, mother of two minor children",
+    "respondent_defendant": "husband, father of two minor children",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2005. The respondent used to beat the petitioner and also used to abuse her verbally. The petitioner filed a complaint under Section 12 of the Protection of Women from DV Act, 2005. The trial court allowed the petition and granted protection order to the petitioner.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the respondent to prove that the allegations of domestic violence are false.",
+      "held": "It is held that the burden lies on the respondent to prove that the allegations of domestic violence are false. The court cannot take a mechanical approach and require the complainant to prove every detail of the incident.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005 — Section 10"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "respondent",
+        "allegations",
+        "domestic violence",
+        "false",
+        "mechanical approach"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "cases involving domestic violence allegations"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court must consider the entire evidence on record and not just rely on the complainant's testimony.",
+      "held": "This court holds that the court must consider the entire evidence on record and not just rely on the complainant's testimony. The court cannot ignore the evidence of other witnesses who may have corroborated the complainant's version.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 173"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "entire evidence",
+        "complainant's testimony",
+        "corroborated",
+        "version"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving disputed facts"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final court order confirmed the protection order granted by the trial court in favor of the petitioner.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Protection_of_Women_from_DV_Act_2005",
+    "Code_of_Criminal_Procedure_1973",
+    "Section_498A",
+    "Section_4",
+    "DV_Act",
+    "Criminal_Protection",
+    "Women_s_Safety",
+    "Domestic_Violence_Prevention",
+    "Legal_Remedy",
+    "Protection_Order",
+    "Restraining_Order",
+    "Harassment",
+    "Abuse",
+    "Intimidation",
+    "Threats"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "advising on Protection of Women from DV Act, 2005",
+    "representing victims of domestic violence"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:27:40.487152"
 }

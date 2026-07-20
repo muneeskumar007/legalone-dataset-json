@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:01:43.101520",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "partition": 2,
     "property_dispute": 2,
@@ -63,39 +63,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A partition suit can be filed by a coparcener against the other coparceners.",
+      "held": "It is held that a partition suit can be filed by a coparcener against the other coparceners, as per Section 10 of the Hindu Succession Act, 1956.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956 — Section 10"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "partition",
+        "coparcener",
+        "Hindu Succession Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A partition deed is a conclusive evidence of the partition.",
+      "held": "It is held that a partition deed is a conclusive evidence of the partition, as per Section 53 of the Transfer of Property Act, 1882.",
+      "applicable_acts_sections": [
+        "Transfer of Property Act, 1882 — Section 53"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "partition",
+        "deed",
+        "conclusive evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
     "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Succession Act",
+    "1956",
+    "Specific Relief Act",
+    "1963",
+    "Transfer of Property Act",
+    "1882",
+    "joint family",
+    "coparceners",
+    "share",
+    "interest",
+    "property",
+    "family settlement",
+    "agreement",
+    "mutuality",
+    "consent",
+    "partition suit",
+    " Hindu law",
+    "Mitakshara School"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition agreements",
+    "advising on family settlements",
+    "representing clients in property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:05:06.729115"
 }

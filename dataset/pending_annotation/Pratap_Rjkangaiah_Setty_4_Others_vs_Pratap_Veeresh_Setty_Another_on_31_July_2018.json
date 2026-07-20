@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:01:40.431825",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 6,
@@ -70,21 +70,45 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A joint Hindu family governed by the Mitakshara school of Hindu law is a single undivided estate.",
+      "held": "It is held that a joint Hindu family governed by the Mitakshara school of Hindu law is a single undivided estate. The burden lies on the person seeking partition to prove that the property is not joint but separate.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Mitakshara",
+        "joint Hindu family",
+        "undivided estate",
+        "partition",
+        "Hindu law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the person seeking partition to prove that the property is not joint but separate.",
+      "held": "The burden lies on the person seeking partition to prove that the property is not joint but separate.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "partition",
+        "burden of proof",
+        "joint property",
+        "separate property"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -94,15 +118,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "section 9",
+    "section 10",
+    "joint family",
+    "coparcenary",
+    "undivided interest",
+    "family settlement",
+    "agreement to partition",
+    "mutual consent",
+    "amicable settlement",
+    "family court",
+    "maintenance",
+    "alimony",
+    "property rights",
+    "partition suit",
+    " Hindu law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition agreement",
+    "advising on family settlements",
+    "representing clients in joint family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:02:14.076978"
 }

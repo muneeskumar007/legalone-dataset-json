@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:04:11.819869",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "Sanjay Dhar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court",
   "reserved_on": "23.04.2024",
   "delivered_on": "",
-  "case_name": "Reserved On: 23.04.2024 vs Ut Of Jammu And Kashmir Th. ... on 3 May, 2024",
+  "case_name": "Petitioner v. Respondent",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (wife)",
+    "respondent_defendant": "Respondent (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife claimed custody of minor child, alleging husband's neglect and failure to provide for the child's needs. Trial court granted wife's application for custody.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The welfare of the child is the paramount consideration in matters of custody.",
+      "held": "It is settled law that the welfare of the child is the paramount consideration in matters of custody.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Minority and Guardianship Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "welfare",
+        "paramount",
+        "consideration",
+        "custody"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "child custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court must consider the best interests of the child while deciding on custody.",
+      "held": "In view of the above, it is clear that this court must consider the best interests of the child while deciding on custody.",
+      "applicable_acts_sections": [
+        "Hindu Minority and Guardianship Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "best",
+        "interests",
+        "child",
+        "custody"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "child custody disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Custody of the minor child was granted to the wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "custody",
+    "joint custody",
+    "Hindu Marriage Act",
+    "1955",
+    "minor child",
+    "guardianship",
+    "DV",
+    "Protection of Women from DV Act",
+    "2005",
+    "matrimonial dispute",
+    "shared parenting",
+    "best interests of the child",
+    "residual jurisdiction",
+    "Section 7 Hindu Minority and Guardianship Act",
+    "Section 125 CrPC",
+    "Latin maxim: In loco parentis",
+    "parental rights",
+    "child's welfare"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting custody agreements",
+    "advising on joint custody arrangements",
+    "representing clients in DV cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:30:39.601263"
 }

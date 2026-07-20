@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:01:17.712671",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -58,21 +58,44 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for divorce under the Hindu Marriage Act, 1955 is maintainable only if it is proved that the respondent has been guilty of adultery.",
+      "held": "It is held that a petition for divorce under the Hindu Marriage Act, 1955 is maintainable only if it is proved that the respondent has been guilty of adultery. The burden lies on the petitioner to prove this fact beyond reasonable doubt.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "adultery",
+        "burden of proof",
+        "divorce petition",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases under Hindu Marriage Act"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the petitioner to prove that the respondent has been guilty of cruelty.",
+      "held": "It is settled law that the burden lies on the petitioner to prove that the respondent has been guilty of cruelty. The court will not take a lenient view and infer cruelty from mere allegations.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden of proof",
+        "cruelty",
+        "divorce petition",
+        "Hindu Marriage Act"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases under Hindu Marriage Act"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -82,15 +105,36 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "separation",
+    "maintenance",
+    "alimony",
+    "matrimonial home",
+    "joint family",
+    "partition",
+    "Hindu law",
+    "marriage nullity",
+    "voidable marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "assisting in partition of joint family property"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T21:38:10.462973"
 }

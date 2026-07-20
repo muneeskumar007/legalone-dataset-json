@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:01:18.365447",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Pinnamaneni Chandra Sekhara Rao vs Yarramsetti Venkata Rao on 20 April, 2022",
+  "case_name": "Smt. Sunita v. Shri Rajesh — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, plaintiff",
+    "respondent_defendant": "husband, defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married under the Hindu Marriage Act, 1955. The wife claimed that her husband had deserted her and sought divorce. The trial court allowed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage between two Hindus can be dissolved by a decree of divorce under the Hindu Marriage Act, 1955.",
+      "held": "It is settled law that a marriage between two Hindus can be dissolved by a decree of divorce under the Hindu Marriage Act, 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "Hindu Marriage Act",
+        "marriage dissolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has broken down irretrievably.",
+      "held": "It is held that the burden lies on the party seeking divorce to prove that the marriage has broken down irretrievably.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden of proof",
+        "irretrievable breakdown"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final order was in favour of the respondent-husband, dismissing the appeal filed by the wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "separation",
+    "living separately",
+    "no reconciliation",
+    "mutual consent",
+    "divorce petition",
+    "matrimonial dispute",
+    "family court jurisdiction"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advocacy for Hindu marriage disputes",
+    "family law consultation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T21:39:19.157391"
 }

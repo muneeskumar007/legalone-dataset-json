@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:01:16.711161",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 5,
@@ -79,21 +79,45 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A joint Hindu family governed by the Mitakshara school of Hindu law is a single undivided estate.",
+      "held": "It is held that a joint Hindu family governed by the Mitakshara school of Hindu law is a single undivided estate. The burden lies on the person seeking partition to prove that the property is not joint but separate.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Mitakshara",
+        "joint Hindu family",
+        "undivided estate",
+        "partition",
+        "separate property"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the person seeking partition to prove that the property is not joint but separate.",
+      "held": "The burden lies on the person seeking partition to prove that the property is not joint but separate.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "partition",
+        "burden of proof",
+        "joint property",
+        "separate property"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -111,7 +135,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T21:36:00.568621"
 }

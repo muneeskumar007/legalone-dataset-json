@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T11:04:13.772802",
   "domain": "property_dispute",
-  "sub_domain": "partition",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "partition": 3,
@@ -66,21 +66,47 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu undivided family (HUF) is a separate entity for the purpose of succession.",
+      "held": "It is held that a HUF is a juristic person and has a distinct existence, which can be proved by adducing evidence to show its existence, character and incidents.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Hindu undivided family",
+        "juristic person",
+        "separate entity",
+        "succession",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute",
+        "family property"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the plaintiff to prove that a property is ancestral.",
+      "held": "It is settled law that the burden lies on the plaintiff to prove that a particular property is an ancestral property and not a self-acquired property.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "plaintiff",
+        "ancestral property",
+        "self-acquired property"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "property dispute",
+        "family property"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -90,15 +116,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu_Succession_Act_1956",
+    "Code_of_Civil_Procedure_1908",
+    "inheritance",
+    "succession",
+    "family_property",
+    "joint_family_members",
+    "coparceners",
+    "partition",
+    "share",
+    "interest",
+    "heir",
+    "devolution",
+    "testamentary_disposition",
+    "intestate",
+    "probate",
+    "will",
+    "property_division"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting wills and testaments",
+    "resolving property disputes between family members",
+    "advising on inheritance and succession matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:31:16.570946"
 }

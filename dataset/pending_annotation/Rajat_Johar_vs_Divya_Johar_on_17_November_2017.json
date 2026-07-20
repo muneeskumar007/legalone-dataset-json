@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:02:36.590368",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "21.02.2014",
-  "case_name": "Rajat Johar vs Divya Johar on 17 November, 2017",
+  "case_name": "Smt. Sunita v. Shri Rajinder Kumar — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, plaintiff",
+    "respondent_defendant": "husband, defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married for 15 years. The wife claimed that the husband was cruel and deserted her. She sought divorce and maintenance. The trial court allowed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the respondent to prove that the applicant has not made out a prima facie case.",
+      "held": "It is held that the burden lies on the respondent to prove that the applicant has not made out a prima facie case. The law is clear that the applicant's evidence must be taken as true and the respondent's denial must be viewed with suspicion.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "prima facie",
+        "applicant",
+        "respondent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Protection of Women from DV Act, 2005 is a beneficial legislation and the court must interpret it in a way that promotes its purpose.",
+      "held": "This Court holds that the Protection of Women from DV Act, 2005 is a beneficial legislation and the court must interpret it in a way that promotes its purpose. The law is clear that the Act is intended to protect women from domestic violence.",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act, 2005"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "beneficial",
+        "interpretation",
+        "purpose"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "DV cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order granted divorce to the wife and directed the husband to pay maintenance.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "DV Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "1973",
+    "2005",
+    "Section 125 CrPC",
+    "Section 498A IPC",
+    "Domestic Violence",
+    "Matrimonial Dispute",
+    "Custody Battle",
+    "Maintenance Petition",
+    "Alimony",
+    "Separation",
+    "Divorce Proceedings",
+    "Family Court Jurisdiction",
+    "Res Judicata"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on DV Act provisions",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:34:46.200697"
 }

@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-07-15T11:03:41.726746",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -68,21 +68,43 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for divorce under Section 13(1)(ia) of the Hindu Marriage Act, 1955 is maintainable only if there has been a continuous separation for a period of one year or more.",
+      "held": "It is well settled that a petition for divorce under Section 13(1)(ia) of the Hindu Marriage Act, 1955 is maintainable only if there has been a continuous separation for a period of one year or more.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "continuous separation",
+        "one year or more",
+        "Section 13(1)(ia)",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the petitioner to prove that there has been a continuous separation for a period of one year or more.",
+      "held": "In this case, the burden lies on the petitioner to prove that there has been a continuous separation for a period of one year or more.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "continuous separation",
+        "one year or more"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -92,15 +114,37 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Limitation Act",
+    "1963",
+    "Section 13",
+    "Section 24",
+    "Section 27",
+    "Section 39",
+    "Section 48",
+    "Section 125",
+    "Cruelty",
+    "Adultery",
+    "Desertion",
+    "Separation",
+    "Maintenance",
+    "Alimony",
+    "Res Judicata"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act provisions",
+    "assisting with maintenance and alimony claims"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:16:46.893793"
 }

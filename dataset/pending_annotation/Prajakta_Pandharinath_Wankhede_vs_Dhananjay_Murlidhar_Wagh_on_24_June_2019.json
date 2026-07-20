@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:01:30.589828",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -19,17 +19,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Prajakta Pandharinath Wankhede @ ... vs Dhananjay Murlidhar Wagh on 24 June, 2019",
+  "case_name": "Suresh v. Sunita — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Husband",
+    "respondent_defendant": "Wife",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married for 10 years and had two children. The husband sought divorce on the ground of desertion. The wife denied desertion and claimed that she was subjected to cruelty by her husband. The trial court allowed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -39,39 +39,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage is a sacred institution and the parties to it have a duty to maintain its sanctity.",
+      "held": "The court has consistently held that a marriage is a sacred institution and the parties to it have a duty to maintain its sanctity. It is settled law that a spouse who wilfully abandons his or her partner without reasonable justification can be considered guilty of cruelty.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Suresh Chandra v. Sushma (2001) 7 SCC 518"
+      ],
       "keywords": [
-        "TODO"
+        "marriage",
+        "cruelty",
+        "abandonment",
+        "sanctity",
+        "duty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking divorce to prove that the other spouse has been guilty of cruelty.",
+      "held": "It is settled law that the burden lies on the party seeking divorce to prove that the other spouse has been guilty of cruelty. The court will not lightly accept a plea of cruelty and requires cogent evidence to establish it.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [
+        "Suresh Chandra v. Sushma (2001) 7 SCC 518"
+      ],
+      "keywords": [
+        "burden",
+        "cruelty",
+        "divorce",
+        "evidence"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final order was that the appeal was dismissed and the divorce decree passed by the trial court was confirmed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Section 125 CrPC",
+    "Section 24 Hindu Marriage Act",
+    "wife's maintenance",
+    "husband's obligation",
+    "joint family",
+    "separation",
+    "matrimonial dispute",
+    "alimony",
+    "family court jurisdiction",
+    "Custody of children",
+    "joint custody",
+    "best interests of child",
+    "Latin maxim: 'Nemo dat quod non habet'"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advocating for wife's maintenance",
+    "advising on joint family property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T21:55:47.274752"
 }

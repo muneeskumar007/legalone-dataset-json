@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:01:53.372874",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -78,21 +78,40 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for divorce under Section 13(1)(ia) of the Hindu Marriage Act, 1955 is maintainable only if there has been a breakdown of marriage.",
+      "held": "It is settled law that a petition for divorce under Section 13(1)(ia) of the Hindu Marriage Act, 1955 is maintainable only if there has been a breakdown of marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "breakdown of marriage",
+        "divorce petition",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the petitioner to prove that there has been a breakdown of marriage.",
+      "held": "In view of the above, it is clear that the burden lies on the petitioner to prove that there has been a breakdown of marriage.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "petitioner",
+        "breakdown of marriage"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -102,15 +121,36 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "DV",
+    "Protection of Women from DV Act",
+    "Indian Penal Code",
+    "Section 498A",
+    "Section 304B",
+    "matrimonial dispute",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "separation",
+    "alimony",
+    "maintenance",
+    "custody",
+    "joint family",
+    "partition",
+    "family law",
+    "property settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on DV matters",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:09:13.557114"
 }

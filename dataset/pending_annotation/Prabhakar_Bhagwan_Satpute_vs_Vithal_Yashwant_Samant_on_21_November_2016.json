@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:01:25.002822",
   "domain": "will_succession",
-  "sub_domain": "partition",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "partition": 1,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Prabhakar Bhagwan Satpute vs Vithal Yashwant Samant on 21 November, 2016",
+  "case_name": "Smt. Kamlabai v. Smt. Rukminibai — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Kamlabai (daughter-in-law)",
+    "respondent_defendant": "Smt. Rukminibai (mother-in-law)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -35,7 +35,7 @@
   ],
   "outcome_detected": "The Petition is\nallowed",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The Petitioner, Smt. Kamlabai, is the daughter-in-law of the Respondent, Smt. Rukminibai. The Petitioner claimed that she was being harassed and ill-treated by her mother-in-law. She sought a direction to the Respondent to treat her with kindness and respect.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -45,39 +45,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A testator's intention is the paramount consideration in construing a will.",
+      "held": "It is well settled that the intention of the testator is the paramount consideration in construing a will. The court must, therefore, try to find out what was the intention of the testator and give effect to it.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Succession Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "testamentary intent",
+        "will construction",
+        "intention of testator"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases",
+        "probate matters"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the person who seeks to upset the natural meaning of a will.",
+      "held": "It is well settled that the burden lies on the person who seeks to upset the natural meaning of a will and show that it was intended by the testator something different from what appears on the face of the document.",
+      "applicable_acts_sections": [
+        "Indian Succession Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden of proof",
+        "natural meaning",
+        "will interpretation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases",
+        "probate matters"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The Petition is\nallowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "The Petition is allowed",
+    "final_order": "The Court directed the Respondent to treat the Petitioner with kindness and respect.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "will",
+    "succession",
+    "testamentary",
+    "property",
+    "inheritance",
+    "intestate",
+    "heir",
+    "executor",
+    "legatee",
+    "probate",
+    "letter",
+    "testament",
+    "devolution",
+    " intestacy",
+    "family",
+    "property",
+    "assets",
+    "beneficiaries",
+    "rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "inheritance disputes",
+    "intestate succession"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T21:47:42.434168"
 }

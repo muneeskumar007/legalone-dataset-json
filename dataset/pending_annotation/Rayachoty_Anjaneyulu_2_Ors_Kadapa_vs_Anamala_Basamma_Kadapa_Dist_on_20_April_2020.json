@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-07-15T11:03:37.779905",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 1,
@@ -79,21 +79,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking partition to prove their claim.",
+      "held": "It is held that the burden lies on the plaintiff to prove his case and not on the defendant to disprove it.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "partition",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court will not intervene in a partition dispute unless the parties are unable to settle their differences.",
+      "held": "This Court will not interfere with the partition settlement unless it is found that the parties are unable to settle their differences and the settlement is unfair or unreasonable.",
+      "applicable_acts_sections": [
+        "Registration Act, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "partition dispute",
+        "settlement"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
@@ -103,15 +124,37 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Code of Criminal Procedure",
+    "Indian Evidence Act",
+    "Registration Act",
+    "Rayachoty Anjaneyulu",
+    "Anamala Basamma",
+    "Kadapa Dist",
+    "family dispute",
+    "property division",
+    "joint family",
+    "coparcenary",
+    "Hindu law",
+    "Mitakshara",
+    "partition suit",
+    "evidence",
+    "burden of proof",
+    "onus",
+    "presumption",
+    "rebuttable",
+    "civil procedure"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on family disputes",
+    "guiding on property division"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:15:26.572914"
 }

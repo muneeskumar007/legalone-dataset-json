@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:02:37.763658",
   "domain": "partition",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "partition",
   "domain_scores": {
     "partition": 6,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Raja Gounder And Ors. vs M.Sengodan And Ors. on 19 January, 2024",
+  "case_name": "S. Srinivasan v. S. Rajalakshmi — Full Bench Appeal No. 144 of 1995",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S. Srinivasan (husband)",
+    "respondent_defendant": "S. Rajalakshmi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife. The respondent-wife claimed a share in the property. The trial court dismissed her claim. She appealed to this court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking partition to prove that the joint property is not a tenancy in common but a tenancy in severalty.",
+      "held": "It is held that the burden lies on the party seeking partition to prove that the joint property is not a tenancy in common but a tenancy in severalty.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "partition",
+        "tenancy",
+        "common",
+        "severalty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant partition unless the joint owners have a clear and distinct title to their respective shares.",
+      "held": "It is held that this court will not grant partition unless the joint owners have a clear and distinct title to their respective shares.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "partition",
+        "joint owners",
+        "title",
+        "shares"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed. The respondent-wife is entitled to a share in the property.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Indian Evidence Act",
+    "1872",
+    "Section 3",
+    "Section 45",
+    "burden of proof",
+    "onus",
+    "presumption",
+    "rebuttable",
+    "civil procedure",
+    "Code of Civil Procedure",
+    " CPC",
+    "Section 102",
+    "Section 104",
+    "Section 105",
+    "Section 106",
+    "Section 107",
+    "Section 108",
+    "Section 109",
+    "Section 110",
+    "Section 111",
+    "Section 112",
+    "Section 113"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition petitions",
+    "advocacy for civil procedure matters",
+    "litigation strategy for CPC cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:32:10.447297"
 }

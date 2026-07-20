@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:01:13.274356",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -30,8 +30,8 @@
   "delivered_on": "",
   "case_name": "Pavitra W/O Anil Raj vs Anil Raj S/O Late Hanumantharaya on 7 February, 2023",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner — wife",
+    "respondent_defendant": "Respondent — husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are the Petitioner-wife and Respondent-husband. The Petitioner-wife claimed that her marriage was voidable under Section 16 of the Hindu Marriage Act, 1955, as it was solemnized without her consent. She sought a decree of divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has broken down irretrievably.",
+      "held": "It is settled law that a petition for dissolution of marriage can be granted only if it is proved that the marriage has broken down irretrievably and there is no possibility of reconciliation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "no possibility of reconciliation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant divorce unless it is satisfied that the marriage has irretrievably broken down.",
+      "held": "This Court holds that a petition for dissolution of marriage can be granted only if the Court is satisfied that the marriage has irretrievably broken down and there is no possibility of reconciliation.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "irretrievable breakdown",
+        "no possibility of reconciliation"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
     "result": "The petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "final_order": "A decree of divorce is granted to the Petitioner-wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "cruelty",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "separation",
+    "living separately",
+    "no reconciliation",
+    "Protection of Women from DV Act",
+    "DV",
+    "domestic violence",
+    "harassment",
+    "intimidation",
+    "emotional distress",
+    "Section 498A IPC",
+    "matrimonial dispute",
+    "marital discord"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "representing in DV cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T21:29:33.255198"
 }

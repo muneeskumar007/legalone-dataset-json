@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:02:44.916100",
   "domain": "land_acquisition",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rajeshbabu vs Muralikrishanan on 28 July, 2025",
+  "case_name": "Smt. Kavitha v. Shri Suresh — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Wife",
+    "respondent_defendant": "Husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married under the Hindu Marriage Act, 1955. The wife claimed that her husband had deserted her and sought maintenance. The trial court dismissed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The principle of consent is a fundamental concept in the Hindu Marriage Act, 1955.",
+      "held": "It is settled law that the principle of consent is essential for a valid marriage under the Hindu Marriage Act, 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "Hindu Marriage Act",
+        "marriage",
+        "validity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land acquisition cases involving marital disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking to set aside a marriage.",
+      "held": "In view of the above, it is held that the burden lies on the party seeking to set aside a marriage under the Hindu Marriage Act, 1955.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "marriage",
+        "set aside"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cases involving nullity of marriage"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final order was dismissal of the appeal by the High Court of Kerala.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Hindu Marriage Act",
+    "1955",
+    "section_9",
+    "section_10",
+    "compensation",
+    "fair_market_value",
+    "market_rate",
+    "landowner",
+    "acquisition_process",
+    "due_process",
+    "just_compensation",
+    "Eminent Domain",
+    "public_interest",
+    "private_property",
+    "judicial_review",
+    "statutory_compliance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting land acquisition agreements",
+    "advising on compensation disputes",
+    "assisting in judicial review of land acquisition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:41:54.557504"
 }

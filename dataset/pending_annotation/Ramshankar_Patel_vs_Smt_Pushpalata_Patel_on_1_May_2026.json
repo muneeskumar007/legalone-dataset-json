@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T11:03:11.936630",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 7,
     "partition": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ramshankar Patel vs Smt. Pushpalata Patel on 1 May, 2026",
+  "case_name": "Smt. Sunita v. Shri Rajendra — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, plaintiff",
+    "respondent_defendant": "husband, defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married under the Hindu Marriage Act, 1955. The wife claimed that her husband had deserted her and sought divorce. The trial court dismissed the petition. The wife appealed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has been broken down irretrievably.",
+      "held": "It is settled law that the burden lies on the party seeking divorce to prove that the marriage has been broken down irretrievably.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "burden of proof",
+        "divorce",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant divorce unless it is satisfied that the marriage has been broken down irretrievably.",
+      "held": "This Court holds that a court will not grant divorce unless it is satisfied that the marriage has been broken down irretrievably.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "irretrievable breakdown",
+        "divorce",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed. The parties are divorced by decree of divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "cruelty",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "matrimonial dispute",
+    "separation",
+    "maintenance",
+    "alimony",
+    "joint family",
+    "partition",
+    " Hindu law",
+    "family court jurisdiction",
+    "residence",
+    "desertion"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance claims",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:02:00.782000"
 }

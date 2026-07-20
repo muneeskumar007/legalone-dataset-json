@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:01:20.179223",
   "domain": "will_succession",
-  "sub_domain": "maintenance",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "maintenance": 1,
     "property_dispute": 1,
@@ -47,39 +47,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A will is a testamentary disposition of property.",
+      "held": "It is settled law that a will is a testamentary disposition of property, and it is the testator's intention which governs its interpretation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Succession Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "will",
+        "testamentary",
+        "disposition",
+        "property"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The testator's intention is the governing factor in interpreting a will.",
+      "held": "This court holds that the testator's intention is the governing factor in interpreting a will, and it is the courts' duty to give effect to that intention.",
+      "applicable_acts_sections": [
+        "Indian Succession Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "testator",
+        "intention",
+        "interpretation",
+        "will"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
     "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Succession Act",
+    "Will",
+    "Testamentary Capacity",
+    "Mental Health",
+    "Section 63 of the Indian Succession Act",
+    "Probate",
+    "Letters Testamentary",
+    "Intestate",
+    "Heir",
+    "Legal Heir",
+    "Inheritance",
+    "Property Rights",
+    "Civil Procedure Code",
+    "Section 151 of the Civil Procedure Code",
+    "Res Judicata"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "probate proceedings",
+    "intestate succession"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T21:40:24.648936"
 }

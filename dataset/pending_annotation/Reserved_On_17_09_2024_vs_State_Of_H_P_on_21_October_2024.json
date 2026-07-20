@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:03:59.194267",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -109,21 +109,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for divorce under the Hindu Marriage Act, 1955 is maintainable only if it is established that there has been no reasonable cohabitation between the parties for a period of at least one year.",
+      "held": "It is settled law that a petition for divorce under the Hindu Marriage Act, 1955 is maintainable only if it is established that there has been no reasonable cohabitation between the parties for a period of at least one year.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "reasonable cohabitation",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the petitioner to prove that there has been no reasonable cohabitation between the parties for a period of at least one year.",
+      "held": "The burden lies on the petitioner to prove that there has been no reasonable cohabitation between the parties for a period of at least one year.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "reasonable cohabitation",
+        "petitioner"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -133,15 +154,37 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "cruelty",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "separation",
+    "desertion",
+    "wilful neglect",
+    "reasonable apprehension",
+    "reservations",
+    "conciliation",
+    "mediation",
+    "amicable settlement",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Section 27",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "Indian Evidence Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act",
+    "mediation in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:26:20.825416"
 }

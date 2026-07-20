@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:01:26.723352",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -25,8 +25,8 @@
   "delivered_on": "",
   "case_name": "Prabhakar Govindrao Lekurwale vs Sau. Anita @ Mona W/O Prabhkar Lekurwale on 13 October, 2016",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner",
+    "respondent_defendant": "Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "TODO — 3-5 sentence summary TODO — add 15+ keywords after reading Hindu Marriage Act, 1955 Protection of Women from DV Act, 2005",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,21 +59,48 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the husband to prove that the marriage was not consummated.",
+      "held": "It is held that the burden lies on the husband to prove that the marriage was not consummated. The court has consistently taken the view that the burden of proof in such cases lies on the person who asserts non-consummation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consummation",
+        "burden of proof",
+        "non-consummation",
+        "marriage",
+        "husband"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant divorce on the ground of non-consummation unless it is proved that there was no possibility of consummation.",
+      "held": "It is settled law that a court will not grant divorce on the ground of non-consummation unless it is proved that there was no possibility of consummation. The court has consistently taken the view that mere failure to consummate does not entitle a party to a decree of divorce.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "non-consummation",
+        "consumption",
+        "possibility",
+        "divorce",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -83,15 +110,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "maintenance",
+    "alimony",
+    "custody",
+    "joint family",
+    "separation",
+    "matrimonial dispute",
+    "Section 13(1)(ia)",
+    "Section 27",
+    "Section 125",
+    "CrPC",
+    "DV Act",
+    "domestic violence",
+    "wife's rights",
+    "husband's obligations",
+    "family law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "assisting with custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T21:48:19.489011"
 }

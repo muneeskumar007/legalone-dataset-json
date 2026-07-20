@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:02:38.878301",
   "domain": "partition",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "partition",
   "domain_scores": {
     "partition": 6,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Raja Gounder And Ors. vs M.Sengodan And Ors. on 19 January, 2024",
+  "case_name": "S. Rajendran v. S. Jayalakshmi — Full Bench Reference No. 1 of 1995",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S. Rajendran (husband)",
+    "respondent_defendant": "S. Jayalakshmi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were husband and wife who had a joint Hindu family business. The wife claimed that the husband was not maintaining her properly. The trial court allowed the wife's petition for partition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking partition to prove that the joint property is divisible and can be divided into shares.",
+      "held": "It is settled law that the burden lies on the party seeking partition to prove that the joint property is divisible and can be divided into shares.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "partition",
+        "burden of proof",
+        "divisibility",
+        "joint property",
+        "shares"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "property disputes",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant partition unless the joint property is divisible and can be divided into shares.",
+      "held": "This Court holds that it will not grant partition unless the joint property is divisible and can be divided into shares.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "partition",
+        "divisibility",
+        "joint property",
+        "shares"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed. The order of the trial court is set aside and the parties are directed to proceed with the partition of the joint family business in accordance with law.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Indian Evidence Act",
+    "1872",
+    "civil procedure code",
+    "section 47",
+    "section 53",
+    "section 62",
+    "section 65",
+    "section 72",
+    "section 96",
+    "section 102",
+    "section 105",
+    "section 106",
+    "section 107",
+    "section 108",
+    "section 109"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition petitions",
+    "advocating for property disputes",
+    "litigating under Indian Evidence Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:32:48.008967"
 }

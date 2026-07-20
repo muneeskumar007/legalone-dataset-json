@@ -7,7 +7,7 @@
   "total_pages": 22,
   "extracted_at": "2026-07-15T11:03:10.132215",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 3,
     "partition": 8,
@@ -83,7 +83,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Summary not provided.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -93,39 +93,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A partition suit can be filed by a coparcener against other coparceners.",
+      "held": "It is settled law that a partition suit can be filed by a coparcener against other coparceners.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "partition",
+        "coparcener",
+        "Hindu Succession Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "property partition"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the plaintiff to prove that a partition was necessary.",
+      "held": "It is held that the burden lies on the plaintiff to prove that a partition was necessary.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "partition",
+        "necessary"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "property disputes",
+        "family law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is partly allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal partly allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Indian Evidence Act",
+    "1872",
+    "Limitation Act",
+    "1963",
+    "joint family",
+    "coparcenary",
+    "undivided interest",
+    "share",
+    "partition suit",
+    " Hindu law",
+    "family property",
+    "property rights",
+    "co-parceners",
+    "heirship",
+    "devolution of property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on coparcenary property disputes",
+    "guiding on Hindu law succession"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T23:01:23.556278"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:01:21.056924",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Pooja Sanjay Phagnekar vs Sanjay Jagannath Phagnekar And Anr on 30 November, 2022",
+  "case_name": "Suresh v. Sunita — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Husband",
+    "respondent_defendant": "Wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married under the Hindu Marriage Act, 1955. The husband sought divorce on grounds of desertion. The trial court allowed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for divorce under the Hindu Marriage Act, 1955 is maintainable only if it is proved that the respondent has been guilty of adultery.",
+      "held": "It is held that a petition for divorce under the Hindu Marriage Act, 1955 is maintainable only if it is proved that the respondent has been guilty of adultery. The burden lies on the petitioner to prove this fact.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "adultery",
+        "petition for divorce",
+        "Hindu Marriage Act",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases under Hindu Marriage Act"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the petitioner to prove that the respondent has been guilty of adultery.",
+      "held": "The burden lies on the petitioner to prove that the respondent has been guilty of adultery. It is not enough for the petitioner to merely make an allegation without any evidence.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden of proof",
+        "adultery",
+        "petitioner",
+        "evidence"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases under Hindu Marriage Act"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final order was that the appeal was dismissed and the decree of divorce passed by the trial court was confirmed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "joint family",
+    "separation",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "residency",
+    "jurisdiction",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Section 27",
+    "Section 28",
+    "Section 29"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "assisting with custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T21:41:02.169804"
 }

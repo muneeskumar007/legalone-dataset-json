@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:02:52.251843",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -67,21 +67,45 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The welfare of the child is the paramount consideration in matters of custody.",
+      "held": "It is settled law that the welfare of the child is the paramount consideration in matters of custody.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Minority and Guardianship Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "welfare",
+        "paramount",
+        "consideration",
+        "custody"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases",
+        "child custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court's discretion in matters of custody is guided by the welfare of the child.",
+      "held": "This court holds that the court's discretion in matters of custody is guided by the welfare of the child.",
+      "applicable_acts_sections": [
+        "Hindu Minority and Guardianship Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "court's discretion",
+        "welfare",
+        "child"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases",
+        "child custody disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -91,15 +115,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "custody",
+    "Hindu Marriage Act",
+    "1955",
+    "minor",
+    "guardianship",
+    "Code of Criminal Procedure",
+    "1973",
+    "Section 125",
+    "Section 9",
+    "Section 12",
+    "joint custody",
+    "sole custody",
+    "best interests",
+    "parental rights",
+    "child welfare",
+    "Rajasthan High Court",
+    "family law",
+    "matrimonial disputes"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting joint custody agreements",
+    "advising on Hindu Marriage Act implications",
+    "assisting with child custody disputes in Rajasthan"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-20T22:44:48.460519"
 }
