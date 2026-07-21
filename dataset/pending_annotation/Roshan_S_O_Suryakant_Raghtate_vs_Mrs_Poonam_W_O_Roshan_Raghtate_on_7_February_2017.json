@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:04:39.373619",
   "domain": "divorce",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "cheque_bounce": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Nagpur - FCA No. 89/2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Roshan S/O Suryakant Raghtate vs Mrs. Poonam W/O Roshan Raghtate on 7 February, 2017",
+  "case_name": "Roshan S/O Suryakant Raghtate vs Mrs. Poonam W/O Roshan Raghtate",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Roshan S/o Suryakant Raghtate (husband)",
+    "respondent_defendant": "Mrs. Poonam W/o Roshan Raghtate (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a petition for divorce on grounds of cruelty and desertion. The wife left the matrimonial home within 15 days of marriage and started residing with her mother. The husband served notices to the wife but she did not reply.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A complaint filed after a long delay may raise doubts about its genuineness.",
+      "held": "It is submitted that the wife not only filed the complaint for an offence punishable under the provisions of Section 498-A of the Penal Code read with Section 3 and 4 of the Dowry Prohibition Act against the husband and his family members but she filed the complaint at the time when the brother of the husband was getting married.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code, 1860 — Section 498-A",
+        "Dowry Prohibition Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "delayed complaint",
+        "genuineness",
+        "doubts"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where delay in filing complaint is an issue"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to file a reply to notices may be considered as desertion.",
+      "held": "It is submitted that the wife had not filed the reply to the notices sent by the husband dated 09.09.2008 and 21.01.2009.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "failure to file reply",
+        "desertion"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases where failure to file reply is an issue"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's decision dismissing the petition for divorce was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "cruelty",
+    "desertion",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Indian Penal Code",
+    "family court appeal",
+    "Nagpur Bench",
+    "Bombay High Court",
+    "judgment of divorce",
+    "petition for divorce",
+    "grounds for divorce",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "family law",
+    "personal laws"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on grounds for divorce in Indian courts",
+    "assisting with family court appeals"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:07:19.260103"
 }

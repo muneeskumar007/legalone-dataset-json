@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:04:44.262752",
   "domain": "property_dispute",
-  "sub_domain": "will_succession",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -29,10 +29,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rukmani Ammal vs Pem Muthayee on 29 April, 2022",
+  "case_name": "Rukmani Ammal vs Pem Muthayee",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rukmani Ammal, Petitioner",
+    "respondent_defendant": "Pem Muthayee, Saravanan, Respondents",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -47,7 +47,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The appellant Rukmani Ammal is the plaintiff in O.S.No.331 of 1999. She filed a suit for declaration and injunction regarding properties admeasuring 10 Acres 13 Cents. The defendants Pemuthayee and Saravanan made counter claims.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party claiming a Will to prove its execution and attestation substantially.",
+      "held": "The evidence of the attesting witnesses is also contradictory with each other and does not inspire confidence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Succession Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Will",
+        "execution",
+        "attestation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "probate disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage between a person and their junior wife is void if the first wife is still alive.",
+      "held": "The marriage between the first defendant and Periya Perumal @ Kodumudi Naicker is void.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "bigamy",
+        "void marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The concurrent findings of the Courts below are set aside, and the impugned order is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "second_appeal",
+    "civil_procedure_code",
+    "section_100",
+    "judgment_and_decree",
+    "district_court",
+    "principal_district_munsif_court",
+    "os_no",
+    "as_no",
+    "land_title",
+    "family_property",
+    "partition_dispute",
+    "family_law",
+    "property_rights",
+    "family_violence",
+    "domestic_violence"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a second appeal in property dispute cases",
+    "advising on family law and property rights",
+    "representing clients in partition disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:16:07.636189"
 }

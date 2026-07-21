@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:04:53.532951",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge Senior Division, Warora, Case No. unknown",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sachinsingh Baldeosingh Chauhan vs Sau. Rajeshwari W/O. Sachinsingh ... on 26 February, 2016",
+  "case_name": "Sachinsingh Baldeosingh Chauhan vs Sau. Rajeshwari W/O. Sachinsingh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sachinsingh Baldeosingh Chauhan, husband, lecturer",
+    "respondent_defendant": "Sau. Rajeshwari w/o Sachinsingh Chauhan, wife, service",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent are well-qualified persons who got married in 2008 but couldn't live together peacefully. Respondent left the matrimonial home and started residing with her parents. Petitioner challenges the trial court's order allowing maintenance pendente lite and litigation expenses.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The amount of maintenance awarded should not be exorbitant and heavily burdensome.",
+      "held": "a of Rs. 6,000/- per month is the amount in exorbitant and heavily burdensome amount on the petitioner",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "exorbitance",
+        "burdensomeness"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A well-qualified lady is expected to support herself and her family.",
+      "held": "the respondent-wife was unable to continue with the work of Lecturer because of the family responsibilities",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "family responsibilities",
+        "self-sufficiency"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The status of the parties and their living standards should be considered while determining maintenance.",
+      "held": "considering the status of the parties and more particularly, the respondent-wife's status being a well qualified lady",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "status",
+        "living standards"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order modified the trial court's decision, directing the husband to pay a different amount of maintenance pendente lite and litigation charges.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "maintenance pendente lite",
+    "litigation expenses",
+    "civil judge senior division",
+    "Warora",
+    "petitioner",
+    "respondent",
+    "learned counsel",
+    "oral judgment",
+    "returnable forthwith",
+    "partly allowing application",
+    "application seeking maintenance",
+    "pendente lite",
+    "litigation expenses",
+    "family court",
+    "district court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to family court proceedings",
+    "seeking maintenance pendente lite"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:54:51.257391"
 }

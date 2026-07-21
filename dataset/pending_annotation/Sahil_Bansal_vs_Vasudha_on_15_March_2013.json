@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:05:01.506658",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -22,13 +22,13 @@
     "V.K. Shali J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge (West) by virtue of which the petition filed",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sahil Bansal vs Vasudha on 15 March, 2013",
+  "case_name": "Sahil Bansal vs Vasudha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SAHIL BANSAL (husband, appellant)",
+    "respondent_defendant": "VASUDHA (wife, respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant got married to respondent on 16.7.2011 and marriage was registered with Registrar, Hindu Marriage, U.P. on 18.7.2011. Appellant claimed that marriage has not been consummated due to impotence of respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,116 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Court would be justified in annulling a marriage if it is found that the marriage had not been and could not be consummated by the parties thereto, though no reason for non-consummation was manifest or apparent.",
+      "held": "In G vs. G., 1912 P. 173, it was held that",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 12(a)"
+      ],
+      "cited_cases": [
+        "G vs. G., (1912) P. 173"
+      ],
+      "keywords": [
+        "consummation",
+        "marriage",
+        "non-consummation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party is impotent if his or her mental or physical condition makes consummation of the marriage a practical impossibility.",
+      "held": "Halsbury-P. 228",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 12(a)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "impotency",
+        "consummation",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person can take advantage of Section 12 (1) (a) of the Act for non-consummation of marriage on account of impotence.",
+      "held": "In all such contingencies, I feel",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 12(1)(a)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "impotency",
+        "non-consummation",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Even when an individual is generally potent but is impotent with respect to his or her own spouse and is unable to consummate marriage, he has to be regarded as impotent for the purposes of Section 12(a) of the Act.",
+      "held": "I, therefore, come to the conclusion",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 12(a)"
+      ],
+      "cited_cases": [
+        "Sucharita Kalsie vs. Rajinder Kishore Kalsie; 1975 Rajdhani Law Reporter 52"
+      ],
+      "keywords": [
+        "impotency",
+        "consummation",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Petition filed by the appellant under Section 12 (1) (a) of the Hindu Marriage Act for annulment of marriage was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 12(1)(a)",
+    "non-consummation",
+    "annulment",
+    "matrimonial appeal",
+    "Section 28",
+    "Hindu rites and ceremonies",
+    "marriage registration",
+    "Scientology",
+    "family law",
+    "Indian court judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "responding to an annulment plea based on non-consummation",
+    "advising clients on marriage registration and its implications"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T10:00:32.111201"
 }

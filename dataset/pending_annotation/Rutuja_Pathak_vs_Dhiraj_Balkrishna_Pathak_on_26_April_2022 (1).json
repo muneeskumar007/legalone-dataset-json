@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:04:47.277588",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3
   },
@@ -18,10 +18,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rutuja Pathak vs Dhiraj Balkrishna Pathak on 26 April, 2022",
+  "case_name": "Rutuja Pathak vs Dhiraj Balkrishna Pathak",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rutuja Pathak — wife",
+    "respondent_defendant": "Dhiraj Balkrishna Pathak — husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties to the present Application are physically present in the Court and are identified by their respective counsel. Jointly through their counsel, duly signed consent terms are tendered by parties in the present Application which are also countersigned by their respective lawyers.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties to a dispute can settle their differences through consent terms.",
+      "held": "Jointly through their counsel, duly signed consent terms are tendered by parties in the present Application which are also countersigned by their respective lawyers.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent terms",
+        "matrimonial discord"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Consent terms can be used to settle disputes arising out of matrimonial discord.",
+      "held": "It is claimed that dispute arising out of matrimonial discord is settled and Consent terms dated 26/04/2022 are drawn to that effect.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "matrimonial discord",
+        "consent terms"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal disposed of",
+    "final_order": "Present Application stands disposed of in view of terms of consent dated 26/04/2022. Prayer of the respective parties for expediting the issuance of certified copy of consent terms with present order is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "consent terms",
+    "matrimonial discord",
+    "settlement",
+    "conciliation",
+    "family court",
+    "single judge",
+    "HC",
+    "Bombay High Court",
+    "civil application",
+    "miscellaneous",
+    "application",
+    "jointly",
+    "counsel",
+    "lawyers",
+    "countersigned",
+    "recorded",
+    "assurance",
+    "conducting",
+    "accordance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting consent terms for divorce settlement",
+    "preparing joint application for family court",
+    "representing client in HC single judge bench"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:20:59.384797"
 }

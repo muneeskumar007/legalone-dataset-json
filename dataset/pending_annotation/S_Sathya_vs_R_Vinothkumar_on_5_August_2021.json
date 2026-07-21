@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:15:27.020362",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 1
@@ -18,13 +18,13 @@
     "A.D.Jagadish Chandira J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Thanjavur - HMOP No.143 of 2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S.Sathya vs R.Vinothkumar on 5 August, 2021",
+  "case_name": "S.Sathya vs R.Vinothkumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S.Sathya (wife)",
+    "respondent_defendant": "R.Vinothkumar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner is the wife who was married to the respondent in 2018. The respondent allegedly harassed her and drove her out of the matrimonial home when she was seven months pregnant. She has a one-month-old child and is seeking to transfer the case from Thanjavur to Chidambaram.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,92 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "While deciding the transfer petition of matrimonial proceedings, comparative hardship faced by the wife has to be taken into account.",
+      "held": "The Hon'ble Apex Court in the case of Vaishali Shridhar Jagtap.vs. Shridhar Vishwanath Jagtap reported in (2016)14 SCC 356 has held that",
       "applicable_acts_sections": [
-        "TODO"
+        "Civil Procedure — Section 25"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Vaishali Shridhar Jagtap, (2016)14 SCC 356"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial proceedings",
+        "transfer petition",
+        "hardship",
+        "wife"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "wife",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The convenience of the wife and more so of the child has to be considered while deciding a transfer petition.",
+      "held": "Further in the case of Amitha Shah vs- Virendar Lal Shah, the Hon'ble Supreme Court reported in (2003)10 SCC 609 has held that",
+      "applicable_acts_sections": [
+        "Civil Procedure — Section 25"
+      ],
+      "cited_cases": [
+        "Amitha Shah, (2003)10 SCC 609"
+      ],
+      "keywords": [
+        "convenience",
+        "wife",
+        "child",
+        "transfer petition"
+      ],
+      "favors": "wife and child",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The present Transfer Civil Miscellaneous Petition is filed to withdraw the case in HMOP No.143 of 2020 on the file of the Family Court, Thanjavur and transfer the same to the file of Sub Court, Chidambaram.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Transfer Civil Miscellaneous Petition",
+    "Section 24",
+    "Code of Civil Procedure",
+    "Family Court",
+    "Sub Court",
+    "Chidambaram",
+    "Thanjavur",
+    "Indian Army",
+    "Sepoy",
+    "marriage",
+    "rites and customs",
+    "V.S. Mahal",
+    "Kamarajar Market",
+    "petitioner",
+    "respondent",
+    "wife",
+    "husband"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "transferring case to another court",
+    "family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:41:12.623252"
 }

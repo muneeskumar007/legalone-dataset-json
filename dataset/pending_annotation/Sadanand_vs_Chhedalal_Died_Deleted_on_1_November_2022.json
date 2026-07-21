@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:04:57.819216",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 7,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "30.03.2006",
-  "case_name": "Sadanand vs Chhedalal (Died) (Deleted) on 1 November, 2022",
+  "case_name": "Sadanand vs Chhedalal (Died) (Deleted)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sadanand S/o Shri Chheda Lal Dewangan, Bhikhi Bai W/o Shri Chhedalal Dewangan",
+    "respondent_defendant": "Chhedalal (Died), Rukhmani Devi (Died), Gajanand, Narendra Kumar, Punit Ram, Churaman (Died) Through Lrs., Kartik (Died) through Lrs.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -79,21 +79,40 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party claiming ancestral property to prove it by leading cogent evidence.",
+      "held": "The Plaintiffs could not prove by leading cogent evidence establishing that it was an ancestral property.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "ancestral property",
+        "cogent evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party claiming a share in ancestral property must establish that the property is ancestral.",
+      "held": "The Plaintiffs could not prove by leading cogent evidence establishing that it was an ancestral property.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "ancestral property",
+        "share"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -103,15 +122,34 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Protection of Women from DV Act",
+    "DV",
+    "family law",
+    "property division",
+    "joint family",
+    "coparcenary",
+    " Hindu undivided family",
+    "HUF",
+    "family settlement",
+    "agreement",
+    "partition suit",
+    "family dispute",
+    "Chhattisgarh High Court",
+    "Bilaspur"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition agreement",
+    "advising on family property division",
+    "representing clients in Hindu undivided family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:55:37.743656"
 }

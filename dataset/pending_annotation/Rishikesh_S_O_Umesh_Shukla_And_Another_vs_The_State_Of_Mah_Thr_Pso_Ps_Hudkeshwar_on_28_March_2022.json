@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:04:28.204446",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "criminal_procedure",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rishikesh S/O Umesh Shukla And Another vs The State Of Mah.Thr. Pso Ps Hudkeshwar ... on 28 March, 2022",
+  "case_name": "Rishikesh S/O Umesh Shukla And Another vs The State Of Mah.Thr. Pso Ps Hudkeshwar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rishikesh S/o Umesh Shukla, Vandana W/o Umesh Shukla (husband and wife)",
+    "respondent_defendant": "The State of Maharashtra, Ankita W/o Rishikesh Shukla (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Applicants challenging registration of FIR vide Crime No. 464/2019 filed against them by non-applicant no.2 with non-applicant no.1 - Police Station, Hudkeshwar, Nagpur for the offence punishable under Sections 498-A, 337 read with Section 34 of the Indian Penal Code.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Court cannot decline to quash a criminal case where the first information report incorporates a serious offence.",
+      "held": "The Hon'ble Apex Court has observed that the Court cannot decline to quash criminal case in which the first information report incorporates a particular provision, which is a serious offence or an offence against the society.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure"
+      ],
+      "cited_cases": [
+        "Narinder Singh vs. State of Punjab, (2014) AIR SCW 2065"
+      ],
+      "keywords": [
+        "quashing",
+        "serious offence",
+        "first information report"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the prosecution to prove the ingredients of the offence.",
+      "held": "After going through the allegations made in the first information report along with the material produced in the form of charge-sheet, we are satisfied that the ingredients of the offence alleged against the applicants are not satisfied even if the allegations in the first information report along with the material in the form of charge-sheet is taken on its face value.",
+      "applicable_acts_sections": [
+        "Indian Penal Code"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "prosecution",
+        "ingredients of offence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Rule made returnable forthwith. Heard finally by consent of the parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Penal Code",
+    "1860",
+    "Specific Relief Act",
+    "1963",
+    "marriage",
+    "spouse",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property",
+    "partition",
+    "matrimonial",
+    "dispute",
+    "conciliation",
+    "mediation",
+    "family law",
+    "civil procedure",
+    "criminal procedure"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T08:51:17.224482"
 }

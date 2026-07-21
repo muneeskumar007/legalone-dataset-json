@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:04:42.197304",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Subramonium Prasad J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Saket (MAT.APP.(F.C.) 149/2020)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ruchika Mazumdar vs Himanshu Mitra on 8 December, 2020",
+  "case_name": "Ruchika Mazumdar vs Himanshu Mitra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ruchika Mazumdar, wife and mother",
+    "respondent_defendant": "Himanshu Mitra, father",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2015. They had a son born in 2016. The wife moved to her parental home with the child in 2017 and filed for divorce in 2019. The husband sought custody of the child under Section 26 of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The welfare of the child is paramount.",
+      "held": "The child is too small for overnight custody to be granted in favour of the respondent/father and the mother is very anxious about the child's welfare.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "child welfare",
+        "minor child",
+        "custody"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases",
+        "child custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Visitation rights should be confined to half a day on every Saturday.",
+      "held": "Accordingly, till further orders, it is directed that the respondent shall pick up the child from the residence of the appellant at Dwarka at 10 A.M. on every Saturday and take the child to his residence at C.R. Park.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "visitation rights",
+        "Saturday visits",
+        "child custody"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases",
+        "child custody disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The delay in filing the appeal was condoned, and the impugned order granting custody to the father was stayed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "custody",
+    "Section 26 HMA",
+    "family court",
+    "minor son",
+    "Saturday and Sunday",
+    "condonation of delay",
+    "appeal filing",
+    "stay of proceedings",
+    "Family Court Saket",
+    "learned judge",
+    "aggrieved party",
+    "matrimonial dispute",
+    "child custody battle"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal for condoning delay in filing",
+    "seeking stay of proceedings in family court",
+    "guidelines for matrimonial disputes involving child custody"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:13:16.284239"
 }

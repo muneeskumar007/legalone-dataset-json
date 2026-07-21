@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:04:54.846005",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 3,
     "partition": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "03.07.2013",
   "delivered_on": "12.07.2013",
-  "case_name": "Sachin And Ors vs Krishna Kumari Nangia And Ors on 12 July, 2013",
+  "case_name": "Sachin And Ors vs Krishna Kumari Nangia And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sachin And Ors (Plaintiffs)",
+    "respondent_defendant": "Krishna Kumari Nangia And Ors (Defendants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiffs seek a decree of partition by metes and bounds, possession of property AB-14, Safdarjung Enclave, Community Centre, New Delhi. The plaintiffs claim that their mother purchased the property during her husband's lifetime and constructed various shops and rooms from his own funds.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Any child of a void and voidable marriage shall be legitimate, whether born before or after the commencement of the Marriage Laws (Amendment) Act, 1976.",
+      "held": "Notwithstanding that marriage is null and void under section 11, any child of such marriage who would have been legitimate if the marriage had been valid, shall be legitimate",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Shree Bhagwan and Ors v. Suraj Bhan and Ors (2006 VIII AD (Del) 380)",
+        "Bharatha Matha and Anr v. R. Vijaya Renganathan and Ors (AIR 2010 SC 2685)"
+      ],
       "keywords": [
-        "TODO"
+        "legitimacy",
+        "voidable marriage",
+        "Marriage Laws (Amendment) Act, 1976"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "property dispute cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The mere fact that the plaintiffs are the children of late Shri Pran Nath Nangia would itself give rights to the plaintiffs in the suit property.",
+      "held": "The mere fact that the plaintiffs are the children of late Shri Pran Nath Nangia, would itself in view of the provisions of Section 16 of the 1955 Act give rights to the plaintiffs",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [
+        "Shree Bhagwan and Ors v. Suraj Bhan and Ors (2006 VIII AD (Del) 380)",
+        "Bharatha Matha and Anr v. R. Vijaya Renganathan and Ors (AIR 2010 SC 2685)"
+      ],
+      "keywords": [
+        "rights",
+        "children",
+        "suit property"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "property dispute cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The Suit is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit dismissed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "metes and bounds",
+    "possession",
+    "property",
+    "Hindu Marriage Act",
+    "1955",
+    "family property",
+    "joint family",
+    "coparcenary",
+    " Hindu Rites and Customs",
+    "matrimonial property",
+    "community centre",
+    "Safdarjung Enclave",
+    "New Delhi",
+    "partition suit",
+    "declaration",
+    "rendition of accounts",
+    "reliefs"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "seeking possession of family property",
+    "claiming declaration and rendition of accounts in a joint family dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:51:30.754455"
 }

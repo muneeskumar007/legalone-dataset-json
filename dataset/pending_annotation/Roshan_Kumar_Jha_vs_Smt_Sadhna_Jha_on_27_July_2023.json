@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:04:36.089793",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Raipur Court (cases No. 976/2022 and No. 149/2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Roshan Kumar Jha vs Smt. Sadhna Jha on 27 July, 2023",
+  "case_name": "Roshan Kumar Jha vs Smt. Sadhna Jha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Roshan Kumar Jha, husband",
+    "respondent_defendant": "Smt. Sadhna Jha, wife and minor Sourya Jha, child",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner-husband filed applications under Section 9 of the Hindu Marriage Act, 1955 and Section 7 read with Section 8 of Guardians of Ward Act, 1890, which were dismissed by the trial court for want of jurisdiction.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition under the Hindu Marriage Act, 1955 shall be presented to the District Court within the local limits of whose ordinary original jurisdiction the marriage was solemnized.",
+      "held": "Perusal of both the appeals would show that the application preferred by the appellant-husband under Section 9 of the Hindu Marriage Act, 1955 in case No. 976/2022 and application under Section 7 read with Section 8 of Guardians of Ward Act, 1890 in case No. 149/2022, have been dismissed for want of jurisdiction.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 19"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "jurisdiction",
+        "petition",
+        "marriage",
+        "District Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A respondent's lack of knowledge about a petition being filed does not necessarily mean the court lacks jurisdiction.",
+      "held": "However, it has been stated that wife was not in know about filing of the petition but after they came to know that such proceedings have been filed at Raipur, they apprised the Family Court about lack of jurisdiction.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "jurisdiction",
+        "petition",
+        "knowledge",
+        "respondent"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned orders are set aside and the matter is remanded to the Family Court, Raipur Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "minor child",
+    "joint family",
+    "separation",
+    "irreconcilable differences",
+    "no fault divorce",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Section 23",
+    "Section 25",
+    "Section 27"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on alimony and maintenance",
+    "representing in a custody dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:04:01.247451"
 }

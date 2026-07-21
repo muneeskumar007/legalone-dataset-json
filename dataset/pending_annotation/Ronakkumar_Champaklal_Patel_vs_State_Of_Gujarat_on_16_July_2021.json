@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:04:35.568009",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ronakkumar Champaklal Patel vs State Of Gujarat on 16 July, 2021",
+  "case_name": "Ronakkumar Champaklal Patel vs State Of Gujarat",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ronakkumar Champaklal Patel (husband)",
+    "respondent_defendant": "State Of Gujarat",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage span of respondent no.2- complainant with applicant no.1-husband is more than 20 years. Applicant no.1-husband has filed Hindu Marriage Petition No.4 of 2021 under Section 13 of the Hindu Marriage Act against respondent no.2-wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish that the respondent has failed to perform her conjugal obligations.",
+      "held": "It is submitted that marriage span of the respondent no.2- complainant with the applicant no.1-husband is more than 20 years.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "conjugal obligations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A respondent's failure to perform conjugal obligations can be a ground for divorce.",
+      "held": "It is submitted that the applicant no.1-husband has filed Hindu Marriage Petition No.4 of 2021 under Section 13 of the Hindu Marriage Act against respondent no.2-wife.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "conjugal obligations",
+        "divorce"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Notice returnable on 11.10.2021",
+    "final_order": "Chargesheet shall not be filed without prior permission of this Court against applicants.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "marriage span",
+    "20 years",
+    "abuse of process",
+    "FIR",
+    "implication",
+    "family members",
+    "petition",
+    "complaint",
+    "respondent",
+    "applicant",
+    "husband",
+    "wife",
+    "father-in-law",
+    "gross abuse"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "defending against FIR",
+    "seeking relief from abuse"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:03:04.525558"
 }

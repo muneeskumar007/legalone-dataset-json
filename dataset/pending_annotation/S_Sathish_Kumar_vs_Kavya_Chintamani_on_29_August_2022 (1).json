@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:15:26.223884",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "O.P.No.618 of 2015",
     "O.P.No.2274 of 2016"
   ],
-  "trial_court": "",
+  "trial_court": "III Additional Principal Judge, Family Court, Chennai, O.P.Nos.618 of 2015 & 2274 of 2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S.Sathish Kumar vs Kavya Chintamani on 29 August, 2022",
+  "case_name": "S.Sathish Kumar vs Kavya Chintamani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S.Sathish Kumar, husband",
+    "respondent_defendant": "Kavya Chintamani, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2013. The husband filed for divorce citing non-consummation due to impotency. The wife filed for restitution of conjugal rights. The trial court dismissed the divorce petition and allowed the wife's petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,71 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Parties can settle their disputes and seek a decree by mutual consent.",
+      "held": "Both the appellant and respondent mutually agree and prayed for dissolution of marriage conducted between them on 20.11.2013.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A Joint Memo of Compromise can be used to settle disputes and seek a decree.",
+      "held": "The said Joint Memo of Compromise dated 11.08.2022, duly signed by both the appellant as well as respondent and their respective counsel is taken on file and the same is recorded.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "Joint Memo",
+        "compromise"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage was dissolved by mutual consent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "non-consummation",
+    "impotency",
+    "restitution of conjugal rights",
+    "Section 12(1)(c)",
+    "Section 9",
+    "Family Courts Act",
+    "Section 19",
+    "III Additional Principal Judge",
+    "Family Court Chennai",
+    "Chennai",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "advising on restitution of conjugal rights",
+    "appealing against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:38:23.869712"
 }

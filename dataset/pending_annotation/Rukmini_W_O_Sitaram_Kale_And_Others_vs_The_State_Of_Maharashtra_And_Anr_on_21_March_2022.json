@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:04:45.629300",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "murder_criminal": 3,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rukmini W/O. Sitaram Kale And Others vs The State Of Maharashtra And Anr on 21 March, 2022",
+  "case_name": "Rukmini W/O. Sitaram Kale And Others vs The State Of Maharashtra And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rukmini W/O. Sitaram Kale And Others (wife, applicants)",
+    "respondent_defendant": "The State of Maharashtra and Jayashri (husband's wife, respondent no.2)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties arrived at amicable settlement; FIR bearing crime No.173 of 2017 registered with Sengaon Police Station, District Hingoli for the offence punishable under sections 498-A, 323, 504, 506, 34 of the Indian Penal Code.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power to quash a criminal proceeding or complaint or FIR may be exercised where the offender and victim have settled their dispute.",
+      "held": "However, before exercise of such power, the High Court must have due regard to the nature and gravity of the crime.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gian Singh Vs. State of Punjab and others, (2012) 10 SCC 303"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceeding",
+        "settlement",
+        "offender",
+        "victim"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Heinous and serious offences of mental depravity or offences like murder, rape, dacoity, etc. cannot be fittingly quashed even though the victim or victim's family and the offender have settled the dispute.",
+      "held": "Such offences are not private in nature and have serious impact on society.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Gian Singh Vs. State of Punjab and others, (2012) 10 SCC 303"
+      ],
+      "keywords": [
+        "heinous",
+        "serious",
+        "offences",
+        "settlement",
+        "victim"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR quashed; parties have arrived at amicable settlement and thus filed a joint settlement purshis in HMP No.A-340 of 2020 before the Family Court, Aurangabad.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "quashing FIR",
+    "amicable settlement",
+    "498-A IPC",
+    "323 IPC",
+    "504 IPC",
+    "506 IPC",
+    "34 IPC",
+    "Indian Penal Code",
+    "FIR quashing",
+    "criminal application",
+    "High Court of Judicature at Bombay",
+    "Bench at Aurangabad",
+    "family dispute resolution",
+    "conciliation",
+    "amicable agreement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing FIR in family disputes",
+    "negotiating amicable settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:17:50.614235"
 }

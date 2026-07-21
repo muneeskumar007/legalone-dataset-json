@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:15:13.038989",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -24,20 +24,20 @@
   "case_numbers": [
     "O.P.No.2 of 2022"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Srivilliputhur, H.M.O.P.No.2 of 2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S.Hemachandran vs Jeyapriya on 19 October, 2022",
+  "case_name": "S.Hemachandran vs Jeyapriya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S.Hemachandran (husband)",
+    "respondent_defendant": "Jeyapriya (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2017 and the husband filed a divorce petition alleging cruelty. The wife contested the petition and it was dismissed by the Family Court. The husband has appealed to this court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A person cannot take advantage of their own fault and seek dissolution of the marriage.",
+      "held": "After causing cruelty to the respondent and forcing her to leave the matrimonial home, the appellant cannot take advantage of his own fault and seek dissolution of the marriage.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "None"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "marriage",
+        "dissolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the person seeking dissolution of the marriage to prove that the other party has been guilty of cruelty.",
+      "held": "However, the trial Court has failed to take note of these facts and has pedantically dismissed the divorce petition without proper appreciation of the material evidence.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "None"
+      ],
+      "keywords": [
+        "cruelty",
+        "marriage",
+        "dissolution"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order is not mentioned in the provided judgment excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i-a)",
+    "cruelty",
+    "Family Courts Act",
+    "Section 19",
+    "civil miscellaneous appeal",
+    "family court",
+    "Sriviliputhur",
+    "Indian Kanoon",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing family court order",
+    "advising client on divorce options"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:25:09.797651"
 }

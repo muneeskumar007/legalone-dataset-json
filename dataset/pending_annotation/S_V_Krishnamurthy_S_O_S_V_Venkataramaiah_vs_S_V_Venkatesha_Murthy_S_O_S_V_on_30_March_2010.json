@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:15:34.122258",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 6,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S V Krishnamurthy S/O S V Venkataramaiah vs S V Venkatesha Murthy S/O S V ... on 30 March, 2010",
+  "case_name": "S V Krishnamurthy S/O S V Venkataramaiah vs S V Venkatesha Murthy S/O S V ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri S V Krishnamurthy, husband, plaintiff",
+    "respondent_defendant": "Smt Puttarnma, wife, defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are referred to as in the Original suit. Sri S V Venkataramaiah had two wives Smt Nacharamma and Smt Puttarnma. Plaintiffs are the Children of ISL plaintiff Venkataramaiah. Suit for partition and separate possession was dismissed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person who comes to the court with unclean hands is not entitled to any share.",
+      "held": "Therefore, they are not entitled to any share. Suit items 'a', 'b' and 'c' of 'A' schedule inamthi lands.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "unclean hands",
+        "partition",
+        "share"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Joint family properties are the joint family properties and co-parcenary properties.",
+      "held": "Therefore, 'A' and 'B' schedule properties are the joint family properties and co-parcenary properties.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "joint family",
+        "co-parcenary",
+        "partition"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "family law",
+    "property division",
+    "joint family",
+    "coparcenary",
+    "partition suit",
+    " Hindu undivided family",
+    "HUF",
+    "family settlement",
+    "agreement",
+    "consent decree",
+    "judgment",
+    "decree",
+    "appeal",
+    "revision",
+    "High Court of Karnataka",
+    "Bangalore"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on family settlement agreements",
+    "representing clients in property division disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:46:59.697633"
 }

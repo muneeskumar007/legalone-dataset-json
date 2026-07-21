@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:04:33.937406",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.4, Mumbai, A- No.630 of 2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Roma Rajesh Tiwari vs Rajesh Dinanath Tiwari on 12 October, 2017",
+  "case_name": "Roma Rajesh Tiwari vs Rajesh Dinanath Tiwari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Roma Rajesh Tiwari, wife",
+    "respondent_defendant": "Rajesh Dinanath Tiwari, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife's marriage with respondent-husband was solemnized on 27th April 2009. She has a daughter 'Aarna' born out of wedlock and is seeking interim maintenance as she has no source of income to maintain herself and her daughter.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,112 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The right of a wife for maintenance is an incident of the status or estate of matrimony.",
+      "held": "That the Family Court had proceeded on an erroneous assumption that the wife was not entitled to interim alimony because the husband had sued for nullity of marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Sushila Viresh Chhadva Vs. Viresh Nagshi Chhadva, (1996) 1 Mh.L.J. 288"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "matrimony",
+        "nullity of marriage",
+        "interim alimony",
+        "pendente lite"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "nullity of marriage cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "An order for maintenance pendente lite and costs of the proceedings can be made in any proceeding under the Act.",
+      "held": "When a fact of marriage is acknowledged or proved alimony follows subject of course to the discretion of the Court in the matter having regard to the means of the parties",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [
+        "Sushila Viresh Chhadva Vs. Viresh Nagshi Chhadva, (1996) 1 Mh.L.J. 288"
+      ],
+      "keywords": [
+        "maintenance",
+        "pendente lite",
+        "proceedings under the Act"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "nullity of marriage cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The Trial Court cannot postpone its decision on the application for interim maintenance and costs till the disposal of the main issue in the substantive matter.",
+      "held": "The very purpose of an order under Section 24 would be frustrated if the matter of granting interim maintenance and of providing the requisite expenses for the conduct of the proceedings itself is deferred till the final stage of the proceeding",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [
+        "Sushila Viresh Chhadva Vs. Viresh Nagshi Chhadva, (1996) 1 Mh.L.J. 288"
+      ],
+      "keywords": [
+        "interim maintenance",
+        "pendente lite",
+        "proceedings under the Act"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "nullity of marriage cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "Writ Petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Rule made returnable forthwith. Respondent bound to bear expenses of maintenance of the Petitioner and their daughter.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "interim maintenance",
+    "Family Court",
+    "Mumbai",
+    "petition",
+    "wife's prayer",
+    "maintenance",
+    "judgment",
+    "oral judgment",
+    "consent",
+    "learned counsel",
+    "Petitioner",
+    "Respondent",
+    "Rule",
+    "returnable forthwith",
+    "heard finally"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "seeking interim maintenance in Family Court",
+    "responding to wife's prayer for maintenance"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:01:27.447164"
 }

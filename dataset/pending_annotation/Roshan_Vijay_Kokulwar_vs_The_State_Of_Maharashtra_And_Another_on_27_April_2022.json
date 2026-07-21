@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:04:39.951471",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Chief Judicial Magistrate, Nanded, R.C.C. No. 65 of 2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Roshan Vijay Kokulwar vs The State Of Maharashtra And Another on 27 April, 2022",
+  "case_name": "Roshan Vijay Kokulwar vs The State Of Maharashtra And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sunita W/O. Late Vijay Kokulwar and others / Roshan S/O Vijay Kokulwar",
+    "respondent_defendant": "The State of Maharashtra and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties have arrived at amicable settlement; parties have realized that there is no possibility of reconciliation and because of intervention by the elderly persons and relatives, the parties have settled the dispute amicably.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power of the High Court in quashing a criminal proceeding or FIR or complaint in exercise of its inherent jurisdiction is distinct and different from the power given to a criminal court for compounding the offences under Section 320 of the Code.",
+      "held": "The Supreme Court has made the following observations: The position that emerges from the above discussion can be summarised thus :-",
       "applicable_acts_sections": [
-        "TODO"
+        "Code"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gian Singh Vs. State of Punjab and others, (2012) 10 SCC 303"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceeding",
+        "inherent jurisdiction",
+        "compounding offences"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type 1: matrimonial disputes",
+        "case type 2: criminal proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — for understanding the scope of High Court's inherent power",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The High Court must have due regard to the nature and gravity of the crime before exercising its power to quash a criminal proceeding or complaint.",
+      "held": "However, before exercise of such power, the High Court must have due regard to the nature and gravity of the crime.",
+      "applicable_acts_sections": [
+        "Code"
+      ],
+      "cited_cases": [
+        "Gian Singh Vs. State of Punjab and others, (2012) 10 SCC 303"
+      ],
+      "keywords": [
+        "quashing",
+        "criminal proceeding",
+        "nature and gravity of the crime"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type 1: criminal proceedings",
+        "case type 2: matrimonial disputes"
+      ],
+      "significance": "MEDIUM — for understanding the factors to consider before quashing a case",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Quashing of F.I.R. bearing crime No.238 of 2019 registered with Vimantal Police Station, Nanded.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "498-A IPC",
+    "323 IPC",
+    "504 IPC",
+    "506 IPC",
+    "34 IPC",
+    "quashing F.I.R.",
+    "FIR quashing",
+    "DV Act",
+    "domestic violence",
+    "marriage dissolution",
+    "matrimonial disputes",
+    "criminal proceedings",
+    "IPC sections",
+    "Indian Penal Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs in domestic violence cases",
+    "advising on matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:08:19.956556"
 }

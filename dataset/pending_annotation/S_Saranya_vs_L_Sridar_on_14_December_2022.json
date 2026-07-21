@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:15:25.993895",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "partition": 1,
@@ -27,13 +27,13 @@
     "O.P.No.280 of 2021",
     "O.P.No.248 of 2022"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Subordinate Court, Mayiladuthurai (H.M.O.P.No.280 of 2021) and Principal Subordinate Court, Tiruchirappalli (H.M.O.P.No.248 of 2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S.Saranya vs L.Sridar on 14 December, 2022",
+  "case_name": "S.Saranya vs L.Sridar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S.Saranya, wife",
+    "respondent_defendant": "L.Sridar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent were married in 2018. Respondent filed for dissolution of marriage, while petitioner filed for restitution of conjugal rights. Petitioner has to travel from Mangalore to Tiruchirappalli to contest the case.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,117 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance being the livelihood of a child and Right to Life being an integral part of Article 21 and a Fundamental Right, the Courts are bound to interfere in such circumstances and ensure that the maintenance of the children are protected at all circumstances.",
+      "held": "The agony of the child and its mental condition during the period of dispute between father and mother, all to be taken note of and the interim maintenance is to be ordered by the Courts even if there is no application or otherwise.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "child",
+        "Right to Life",
+        "Article 21",
+        "Fundamental Right"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Remedy of maintenance is a social justice as envisaged under the Constitution to prevent the child from falling into destitution or vagrant.",
+      "held": "Therefore, even in the absence of application seeking maintenance, the Courts are bound to consider the grant of interim maintenance whenever a child is residing with the mother, who is not employed.",
+      "applicable_acts_sections": [
+        "Constitution"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "social justice",
+        "Constitution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Courts are bound to protect the interest of the minor children at all circumstances.",
+      "held": "However, the interest of the minor child is of paramount importance and the Courts are bound to protect the interest of the minor children at all circumstances.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "minor children",
+        "interest protection"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Courts are bound to consider the grant of interim maintenance even in the absence of any application from the mother till such time the final maintenance is to be determined after adjudication.",
+      "held": "Thus, the Family Courts or the Courts dealing with the matrimonial cases are bound to consider the grant of interim maintenance even in the absence of any application from the mother till such time the final maintenance is to be determined after adjudication.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "final maintenance",
+        "adjudication"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Case transferred to Principal Subordinate Court, Tiruchirappalli to be tried along with H.M.O.P.No.248 of 2022.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "transfer petition",
+    "Section 24",
+    "Civil Procedure Code",
+    "Principal Subordinate Court",
+    "Tiruchirappalli",
+    "Mayiladuthurai",
+    "marriage",
+    "custody",
+    "child",
+    "Central Government",
+    "Hindu Rites and Customs"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting transfer petition",
+    "advocating divorce case",
+    "petition for custody"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:37:38.950697"
 }

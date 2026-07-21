@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:04:42.947295",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Ruchika Watta vs State & Ors on 7 September, 2017",
+  "case_name": "Ruchika Watta vs State & Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ruchika Watts, aged about 26 years, R/o House No. 6, Ward No. 13, Srikaranpur, District Sri Ganganagar — Petitioner",
+    "respondent_defendant": "State of Rajasthan Through the Secretary, Primary Education, Government of Rajasthan, Jaipur; The Director, Primary Education, Bikaner; Zila Parishad, Sri Ganganagar Through Chief Executive Officer — Respondents",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner had submitted her form on 20.08.2013 for appointment on the post of Teacher Grade-III, whereas her marriage stood dissolved on 18.12.2015. She claims that since she was granted decree of divorce before finalisation of the Select List, her candidature should be considered as a 'Divorcee'.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,120 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person cannot be treated as a divorcee until a decree of divorce has been issued.",
+      "held": "As per Section 13-B of the Hindu Marriage Act, a marriage shall stand dissolved only with effect from the date of decree. It will not be out of place to reproduce sub-section (2) of Section 13-B of the Hindu Marriage Act, which reads thus :-",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "decree",
+        "marriage dissolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The incidence of divorce or status of divorcee is attained on the dissolution of marriage.",
+      "held": "A person would continue to belong to a particular caste or class, notwithstanding a caste certificate, but a person cannot be called a divorcee, unless a decree of divorce has been issued.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "marriage dissolution",
+        "status"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The matrimony comes to an end only on the issuance of a decree of divorce and till then, husband and wife continue to remain in the wedlock.",
+      "held": "The matrimony comes to an end only on the issuance of a decree of divorce and till then, husband and wife continues to remain in the wedlock, despite all the differences and disputes.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage dissolution",
+        "matrimony",
+        "wedlock"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A person cannot be called a divorcee, unless a decree of divorce has been issued.",
+      "held": "A person cannot be called a divorcee, unless a decree of divorce has been issued.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "decree",
+        "status"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The respondents may kindly be directed to consider the case of the petitioner under the general woman divorced category candidate in Teacher Grade III Recruitment 2013 for Level-I and consequently after considering the case of the petitioner as general woman divorced category candidate, the petitioner may be given appointment on the post of Teacher Grade III Level-I as per her merit with all consequential benefits.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "irretrievable breakdown",
+    "marriage",
+    "spouse",
+    "separation",
+    "cohabitation",
+    "living separately",
+    "no reconciliation",
+    "mutual consent",
+    "consent divorce",
+    "petition for divorce",
+    "grounds for divorce",
+    "cruelty",
+    "desertion",
+    "renunciation",
+    "wilful neglect"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act, 1955",
+    "advising on grounds for divorce",
+    "assisting in a contested divorce case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:14:23.617348"
 }

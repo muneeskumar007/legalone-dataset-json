@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:04:38.033399",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Roshan Lal vs Veena Rani on 23 February, 2023",
+  "case_name": "Roshan Lal vs Veena Rani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Roshan Lal, husband",
+    "respondent_defendant": "Veena Rani, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent-wife performed second marriage during pendency of FAO No.290-M-2008. The petitioner-husband challenged the judgment and decree dated 19.8.2008 granting decree of divorce in favour of respondent-wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse cannot remarry during the pendency of an appeal.",
+      "held": "Even if no stay is granted against a decree of divorce, the respondent cannot remarry during the pendency of the appeal.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 15"
+      ],
+      "cited_cases": [
+        "Savitri Pandey Vs. Prem Chandra Pandey, 2002(1) RCR (Civil) 719"
+      ],
+      "keywords": [
+        "remarriage",
+        "pendency of appeal",
+        "decree of divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party to a dissolved marriage can marry again if the period for filing an appeal has expired or the appeal has been dismissed.",
+      "held": "It necessarily implies that the decree holder has to make inquiries that no appeal has been filed within the period of limitation or that the appeal has been dismissed.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 15"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "dissolved marriage",
+        "period for filing an appeal",
+        "dismissed appeal"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Appellate Court is enjoined to perform functions required by the trial court.",
+      "held": "Although no such express provision has been made imposing similar obligation on the first Appellate Court by Section 28 of the 1955 Act, yet the Appellate Court is enjoined upon performing such functions which are required to be performed by the trial Court that has passed the decree and statutory guidance is available under Section 96 of the Civil Procedure Code.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 28",
+        "Civil Procedure Code — Section 96"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Appellate Court",
+        "trial court",
+        "functions"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted a decree of divorce on the ground of cruelty in favour of respondent-wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "contempt petition",
+    "second marriage",
+    "alleged cruelty",
+    "desertion",
+    "IPC",
+    "Section 13",
+    "Section 406",
+    "Section 498-A",
+    "FIR",
+    "girl child",
+    "wedlock",
+    "marriage",
+    "petition",
+    "judgment",
+    "decree",
+    "divorce decree"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "responding to allegations of cruelty and desertion",
+    "contesting a contempt petition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:06:21.208673"
 }

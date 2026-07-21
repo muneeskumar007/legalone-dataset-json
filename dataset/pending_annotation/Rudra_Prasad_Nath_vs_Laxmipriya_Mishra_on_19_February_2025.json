@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:04:43.112632",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Chittaranjan Dash J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Dhenkanal in C.P. No.97 of 2023",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rudra Prasad Nath vs Laxmipriya Mishra on 19 February, 2025",
+  "case_name": "Rudra Prasad Nath vs Laxmipriya Mishra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rudra Prasad Nath — husband",
+    "respondent_defendant": "Laxmipriya Mishra — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage was solemnized at Ashirbad Mandap, Station Bazar, Dhenkanal Town and the parties last resided together at village- Gobindpur under Sadar Police Station, Dhenkanal. The trial court returned the plaint to the Petitioner-Appellant on the ground of lack of territorial jurisdiction.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court where the parties last resided together or the marriage was solemnized has jurisdiction to entertain a petition under Section 9 or other provisions of the Hindu Marriage Act.",
+      "held": "So as per the contingencies prescribed above under Section 19 of the Hindu Marriage Act, the court where the parties last resided together or the marriage was solemnized has also the jurisdiction to entertain the petition under Section 9 or other provisions of the Hindu Marriage Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 19"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "jurisdiction",
+        "Hindu Marriage Act",
+        "Section 19"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A petition under the Hindu Marriage Act must be presented to the district court within the local limits of whose ordinary original civil jurisdiction—marriage was solemnized, respondent resides, parties last resided together, or petitioner is residing.",
+      "held": "Section 19 of the Hindu Marriage Act speaks as follows: '19. Court to which petition shall be presented.—Every petition under this Act shall be presented to the district Court within the local limits of whose ordinary original civil jurisdiction—(i) the marriage was solemnized, or (ii) the respondent, at the time of the presentation of the petition, resides, or (iii) the parties to the marriage last resided together, or [(iii-a) in case of the wife is the petitioner, where she is residing on the date of presentation of the petition, or] (iv) the petitioner is residing at the time of the presentation of the petition, in a case where the respondent is, at that time, residing outside the territories to which this Act extends, or has not been heard of as being alive for a period of seven years or more by those persons who would naturally have heard of him if he were alive.'",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition",
+        "Hindu Marriage Act",
+        "Section 19"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "lack of territorial jurisdiction",
+    "Family Court",
+    "Dhenkanal",
+    "plaint",
+    "Appellant-Husband",
+    "Respondent-Wife",
+    "Angul",
+    "Ashirbad Mandap",
+    "Station Bazar",
+    "Dhenkanal Town",
+    "Gobi",
+    "marriage solemnized",
+    "last resided together",
+    "territorial jurisdiction"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing family court order",
+    "litigating territorial jurisdiction"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:15:21.341049"
 }

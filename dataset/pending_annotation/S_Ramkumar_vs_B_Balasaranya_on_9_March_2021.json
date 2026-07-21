@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:15:25.091456",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "Sr.No.3788 of 2020",
     "SR.No.3788/2020"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Family Court, Chennai - H.M.O.P.Sr.No.3788 of 2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S.Ramkumar vs B.Balasaranya on 9 March, 2021",
+  "case_name": "S.Ramkumar vs B.Balasaranya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S.Ramkumar (husband)",
+    "respondent_defendant": "B.Balasaranya (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent were married on 01.11.2019. The marriage was not consummated due to the respondent's unwillingness. Petitioner sought a decree declaring the marriage null and void or divorce on grounds of non-consummation and cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Divorce can be filed on any of the grounds stated in the Hindu Marriage Act.",
+      "held": "According to the petitioner herein, it is under the provisions of Section 12(1)(c) of the Hindu Marriage Act, seeking for annulment of the marriage on the ground that there was no consummation of marriage and the provisions of Section 13(1)(ia) of the Hindu Marriage Act seeking divorce on the grounds of cruelty.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 12(1)(c)",
+        "Hindu Marriage Act — Section 13(1)(ia)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "Hindu Marriage Act",
+        "consummation",
+        "cruelty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The cruelty has to be decided by the Court below.",
+      "held": "The cruelty has to be decided by the Court below and the marriage has not been viewed to the un-consummation of the marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13(1)(ia)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "Court's decision"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order passed by the trial court was set aside, and the petition was directed to be numbered and disposed of on merits.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "nullity",
+    "Hindu Marriage Act",
+    "Section 12(1)(c)",
+    "Section 13(1) (i) (a)",
+    "non-consummation",
+    "marriage nullification",
+    "family court",
+    "civil revision petition",
+    "Article 227",
+    "Constitution of India",
+    "Indian Kanoon",
+    "null and void",
+    "decree of divorce",
+    "consummation",
+    "marital status"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a nullity petition under Hindu Marriage Act",
+    "advising on non-consummation grounds for divorce",
+    "preparing a civil revision petition against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:36:28.499485"
 }

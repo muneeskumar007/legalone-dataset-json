@@ -7,7 +7,7 @@
   "total_pages": 18,
   "extracted_at": "2026-07-15T11:15:12.257801",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 3,
@@ -25,13 +25,13 @@
   "case_numbers": [
     "O.P.No.211 of 2017"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Tirunelveli, H.M.O.P.No.211 of 2017",
   "reserved_on": "29.10.2025",
   "delivered_on": "09.01.2026",
-  "case_name": "S.Gandhimathi vs M.Senthilkumar on 9 January, 2026",
+  "case_name": "S.Gandhimathi vs M.Senthilkumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "M.Senthilkumar, husband",
+    "respondent_defendant": "S.Gandhimathi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2013. The wife filed a petition for divorce under Section 13(1)(i-a) of the Hindu Marriage Act, 1955, alleging cruelty. The trial court granted the husband's petition for divorce. The wife appealed to this court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,98 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse has a right to emotional support and care during pregnancy.",
+      "held": "When the wife later conceived, instead of expressing joy or providing care, the husband and his mother allegedly ill-treated her both physically and mentally.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "emotional support",
+        "pregnancy",
+        "spousal duties"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "matrimonial disputes",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A spouse's family members cannot drive away the other spouse from the matrimonial home.",
+      "held": "By picking unnecessary quarrels, the husband and his mother allegedly drove her out while she was pregnant, without giving her any money.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "matrimonial home",
+        "spousal rights",
+        "family interference"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "matrimonial disputes",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A spouse has a right to access their belongings and medical records during a crisis.",
+      "held": "When the wife requested permission to take her clothes and medical records from the house, she was not permitted to enter.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "spousal rights",
+        "access to belongings",
+        "medical records"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "matrimonial disputes",
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage was dissolved under Section 13(1)(i-a) of the Hindu Marriage Act, 1955.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "matrimonial litigation",
+    "marriage dissolution",
+    "Section 13(1)(i-a)",
+    "Family Court Act",
+    "Civil Miscellaneous Appeal",
+    "judgment and decree",
+    "matrimonial dispute",
+    "family law",
+    "Indian Kanoon",
+    "Latin maxim",
+    "mosaic of grievances"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family disputes",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:24:27.921390"
 }

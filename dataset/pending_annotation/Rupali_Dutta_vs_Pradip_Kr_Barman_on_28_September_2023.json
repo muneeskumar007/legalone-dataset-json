@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:04:46.817169",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "partition": 1,
@@ -25,13 +25,13 @@
     "Mitali Thakuria J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court-II, Kamrup (Metro), Guwahati, FC(Civil) Case No. 693/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rupali Dutta vs Pradip Kr. Barman on 28 September, 2023",
+  "case_name": "Rupali Dutta vs Pradip Kr. Barman",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rupali Dutta, wife",
+    "respondent_defendant": "Pradip Kr. Barman, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant wife filed appeal against divorce decree granted to respondent husband in 2013. Appellant was a teacher and respondent an engineer who retired from service. Respondent alleged illicit relationship with someone from Milanpur, Chandmari.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court's jurisdiction must be vested in it under the law.",
+      "held": "The respondent Commission while passing the impugned order dated 19.07.2014, had assumed jurisdiction which was not vested in it under the law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "jurisdiction",
+        "vested",
+        "law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "DV cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A divorce decree should be granted only when there is an irretrievable break down of marriage.",
+      "held": "The fact that there has been an irretrievable break down of marriage is proved from the evidence recorded by the learned Family Court.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "irretrievable",
+        "breakdown",
+        "marriage"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Marriage dissolved by granting divorce decree.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "Protection of Women from DV Act",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "cruelty",
+    "adultery",
+    "desertion",
+    "separation",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "null and void",
+    "voidable marriage",
+    "judicial separation",
+    "divorce petition",
+    "family court",
+    "civil case",
+    "matrimonial appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "advising on alimony and maintenance in a matrimonial dispute",
+    "assisting with a Protection of Women from DV Act case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:19:23.911341"
 }

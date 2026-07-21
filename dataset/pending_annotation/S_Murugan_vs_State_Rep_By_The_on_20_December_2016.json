@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:15:22.446044",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 2,
     "land_acquisition": 1,
@@ -21,13 +21,13 @@
   "case_numbers": [
     "C.C.No.9 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "Judicial Magistrate Court, Paramakudi, C.C.No.9 of 2009",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S.Murugan vs State Rep. By The on 20 December, 2016",
+  "case_name": "S.Murugan vs State Rep. By The",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S.Murugan, Kaliammal, Jayakodi, Santhanam (husband, wife, accused)",
+    "respondent_defendant": "State rep. by the Sub Inspector of Police, All Women Police Station, Paramakudi, Ramanathapuram District (complainant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are accused and charge sheeted for offence under Sections 498(A) and 506(i) of I.P.C. Defacto complainant is first petitioner's maternal uncle's daughter. She preferred complaint alleging cruelty and threat.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The petitioners cannot take advantage of the fact that they were below marriageable age at the time of alleged marriage and claim that the marriage itself was not solemnized.",
+      "held": "No doubt, 14 years is not marriageable age as per Section 5 of Hindu Marriage Act, 1955. The petitioners cannot take advantage of that, and claim that marriage itself was not solemnized between the first petitioner and the defacto complainant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriageable age",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the petitioners to prove that the alleged marriage was not solemnized.",
+      "held": "Therefore, at the time of marriage, the fist petitioner might be only 14 years. No doubt, 14 years is not marriageable age as per Section 5 of Hindu Marriage Act, 1955.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 5"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden of proof",
+        "marriage solemnization"
+      ],
+      "favours": "petitioners",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceeding in C.C.No.9 of 2009 against petitioners is liable to be quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 498A",
+    "Section 506i",
+    "IPC",
+    "Criminal Original Petition",
+    "CrPC",
+    "Judicial Magistrate Court",
+    "Paramakudi",
+    "Madras High Court",
+    "Matrimonial Dispute",
+    "Domestic Violence",
+    "Quash Charge Sheet",
+    "Call Records"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing charge sheets in domestic violence cases",
+    "appealing against judicial magistrate court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:32:52.299358"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:04:31.045343",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4
   },
@@ -18,10 +18,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rohitkumar Mahavirprasad Sharma And ... vs The State Of Maharashtra And Anr on 25 November, 2022",
+  "case_name": "Rohitkumar Mahavirprasad Sharma And ... vs The State Of Maharashtra And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rohitkumar Mahavirprasad Sharma, Sarla Pareshkumar Trivedi, Pareshkumar Rajkishor Trivedi (husband, wife, in-laws)",
+    "respondent_defendant": "The State of Maharashtra, Rekha Rohitkumar Sharma (wife, state)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners seek quashing of FIR bearing C.R. No. I-65 of 2019 registered with the Valiv Police Station, Palghar, for alleged offences punishable under Sections 498A, 406, 323, 504, 506 of the Indian Penal Code. Parties have amicably settled their dispute.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A divorce by mutual consent under Section 13-B of the Hindu Marriage Act is allowed.",
+      "held": "Learned Counsel relied on the judgment and order passed by the learned Judge, Family Court, Mumbai, dated 2nd July, 2021, evidencing the same.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
+      ],
+      "cited_cases": [
+        "judgment and order passed by the learned Judge, Family Court, Mumbai, (Year)"
+      ],
+      "keywords": [
+        "divorce",
+        "mutual consent",
+        "Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking quashing of a FIR to establish that there is no further need for investigation.",
+      "held": "Not applicable in this case, as the parties have amicably settled their dispute.",
+      "applicable_acts_sections": [
+        "Indian Penal Code"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "FIR",
+        "investigation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Quashing of FIR sought is allowed as parties have amicably settled their dispute.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "quashing",
+    "FIR",
+    "C.R. No. I-65 of 2019",
+    "Valiv Police Station",
+    "Palghar",
+    "consent",
+    "final disposal",
+    "A.P.P",
+    "notice",
+    "waives",
+    "Latin maxim: Nemo judex in causa sua",
+    "Section 13(1) Hindu Marriage Act, 1955"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs",
+    "seeking final disposal of cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:00:09.633280"
 }

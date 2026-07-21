@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T11:05:00.041692",
   "domain": "partition",
-  "sub_domain": "custody",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 7,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "XVI ADDL. CITY CIVIL AND SESSIONS JUDGE (CCH 12) AT BENGALURU",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Sahana vs The State Of Karnataka, Reptd. By Chief ... on 24 April, 2024",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sahana, D/O. Chandrashekar, aged about 11 years, represented by Smt/Sri M.K.N., Advocate",
+    "respondent_defendant": "The State Of Karnataka, reptd. by Chief Secretary; Karnataka Secondary Education Examination Board; Cordial High School; Register of Births and Deaths; The Secretary, Union of India; UIDAI Regional Office",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff's natural guardian, the mother, seeks a judgment and decree to declare the name of the father as Sri Raghu N., and for an order of mandatory injunction directing the defendants to enter the plaintiff's father's name in her birth certificate, Aadhaar Card, and school records.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The birth certificate is the first authenticated document recorded in the name of a new born child.",
+      "held": "It is undisputed one that the biological father of the plaintiff is Chandrashekar. Only, the question is whether in the birth certificate the name of the second husband of the mother of a child can be inserted as father in the place of the name of biological father in the birth certificate of a child.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act — Section X"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "birth certificate",
+        "authenticated document",
+        "new born child"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The rules for correction in Aadhaar Card are different from correction in other authenticated documents.",
+      "held": "It is well known that a person has two opportunities to correct mistakes/entries in adhaar card by way of self-application through online facility in UIDAI website.",
+      "applicable_acts_sections": [
+        "UIDAI — Section X"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Aadhaar Card",
+        "authenticated documents",
+        "correction rules"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "identity verification cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court declared the name of the father as Sri Raghu N., and directed the defendants to enter the same in the plaintiff's birth certificate, Aadhaar Card, and school records.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Succession Act",
+    "1956",
+    "partition",
+    "minor",
+    "guardianship",
+    "natural guardian",
+    "mother",
+    "Karnataka",
+    "education",
+    "examination board",
+    "births and deaths",
+    "UIDAI",
+    "Latin maxim",
+    "nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for partition of property under Hindu Succession Act",
+    "advising on guardianship rights of a minor's mother",
+    "assisting in a case involving the Karnataka Secondary Education Examination Board"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:58:29.466751"
 }

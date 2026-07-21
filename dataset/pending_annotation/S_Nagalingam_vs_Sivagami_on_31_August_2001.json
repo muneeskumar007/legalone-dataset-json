@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:15:24.039255",
   "domain": "land_acquisition",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Metropolitan Magistrate, Madras (Criminal Appeal No. 486 of 1999)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S. Nagalingam vs Sivagami on 31 August, 2001",
+  "case_name": "S. Nagalingam vs Sivagami",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S. Nagalingam (husband)",
+    "respondent_defendant": "Sivagami (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1970 and had three children. The wife alleged that the husband started ill-treating her and physically torturing her. She left her marital home and filed a complaint against the husband and others, which was initially dismissed but later appealed to the High Court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The second marriage should be proved to be a valid marriage according to the personal law of the parties.",
+      "held": "Though such second marriage is void under Section 17 of the Hindu Marriage Act having been performed when the earlier marriage is subsisting. The validity of the second marriage is to be proved by the prosecution by satisfactory evidence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 17"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Kanwal Ram and Ors. v. H.P. Administration, AIR (1966) SC 614"
+      ],
       "keywords": [
-        "TODO"
+        "bigamy",
+        "valid marriage",
+        "personal law",
+        "void marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "bigamy cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The essential ceremony required for a valid marriage should have been performed in a bigamy case.",
+      "held": "It was held that the second marriage should be a valid one according to the law applicable to the parties.",
+      "cited_cases": [
+        "Smt. Priya Bala Ghosh v. Suresh Chandra Ghosh, [1971] 1 SCC 864"
+      ],
+      "keywords": [
+        "bigamy",
+        "valid marriage",
+        "essential ceremony"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "bigamy cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
+    },
+    {
+      "principle": "The burden lies on the prosecution to prove that the second marriage was a valid one according to the personal law of the parties.",
+      "held": "The validity of the second marriage is to be proved by the prosecution by satisfactory evidence.",
+      "cited_cases": [
+        "Kanwal Ram and Ors. v. H.P. Administration, AIR (1966) SC 614"
+      ],
+      "keywords": [
+        "burden",
+        "prosecution",
+        "valid marriage",
+        "personal law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "bigamy cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court found the husband guilty of the offence under Section 494 IPC and set aside his acquittal by the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Hindu Marriage Act",
+    "Section 494 IPC",
+    "marriage",
+    "bigamy",
+    "acquittal",
+    "reversal",
+    "judgment",
+    "appeal",
+    "criminal",
+    "offence",
+    "punishment",
+    "family",
+    "law",
+    "court",
+    "judicial",
+    "procedure"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against acquittal",
+    "advising on criminal procedure",
+    "assisting in family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:33:52.216082"
 }

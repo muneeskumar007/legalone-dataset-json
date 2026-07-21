@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:04:35.783579",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Roshanlal @ Raunk vs Smt. Anjali on 13 December, 2023",
+  "case_name": "Roshanlal @ Raunk vs Smt. Anjali",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Roshanlal @ Raunk, husband",
+    "respondent_defendant": "Smt. Anjali, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial strife between the parties; dispute resolved through mediation.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can resolve their disputes amicably and seek a decree of divorce through mutual consent.",
+      "held": "Both the parties have resolved their dispute through amicable settlement.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "mutual consent",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A compromise deed can be a valid basis for disposing of a revision petition.",
+      "held": "In view of the terms and conditions mentioned above and the fact that both the parties have resolved the dispute amicably, the instant revision petition is disposed of.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compromise deed",
+        "revision petition"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal disposed of",
+    "final_order": "Petitioner to withdraw revision petition and application under Section 9 of Hindu Marriage Act; parties to file joint application for decree of divorce under Section 13 of Hindu Marriage Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "matrimonial strife",
+    "mediation",
+    "amicable settlement",
+    "Rajasthan High Court",
+    "Jodhpur",
+    "Mediation Center",
+    "family law",
+    "marriage dissolution",
+    "spousal rights",
+    "property division",
+    "custody disputes",
+    "maintenance claims",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on mediation options",
+    "assisting with property settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:09:41.321122"
 }

@@ -64,21 +64,39 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When parties settle their dispute amicably, the court may exercise its inherent powers to quash proceedings.",
+      "held": "Since the First Information Report as well as the proceedings were arising out of the matrimonial dispute and the husband and the wife have settled their dispute amicably, case is made out for exercise of inherent powers of this Court under Section 482 of the Code of Criminal Procedure.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "inherent powers",
+        "quash proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In matrimonial disputes, the court may consider the parties' amicable settlement as a reason to quash proceedings.",
+      "held": "",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "matrimonial disputes",
+        "amicable settlement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -88,15 +106,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Specific Relief Act",
+    "Criminal Application",
+    "High Court of Judicature at Bombay",
+    "Bench at Aurangabad",
+    "Criminal Proceedings",
+    "Offence punishable under Section 498A",
+    "Domestic Violence",
+    "Matrimonial Dispute",
+    "Family Law",
+    "Marriage Dissolution",
+    "Alimony",
+    "Maintenance",
+    "Custody",
+    "Legal Separation",
+    "Annulment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:53:06.757969"
 }

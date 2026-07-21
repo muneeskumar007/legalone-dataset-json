@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:00.262600",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4
   },
@@ -17,13 +17,13 @@
     "Sanjay Dhar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Principal Judge, Family Court, Jammu (MA No. 8/2025)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sahib Singh vs Neha Kumari on 20 March, 2025",
+  "case_name": "Sahib Singh vs Neha Kumari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sahib Singh, husband",
+    "respondent_defendant": "Neha Kumari, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant challenged order dismissing his application under Section 14(1) of Hindu Marriage Act, seeking permission to file petition for divorce before expiry of one year from marriage date.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court's order should provide clear reasons for its decision.",
+      "held": "The impugned order is cryptic in nature in as-much-as the learned trial Court has not assigned any reasons for rejecting the prayer of the appellant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 14(1)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "clear reasons",
+        "cryptic order"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking permission to file a petition before the statutory period has the burden of demonstrating exceptional hardship.",
+      "held": "It was further pleaded that the extreme mental torture, emotional distress, insult and the embarrassment endured by the petitioner cannot be countenanced by any measures, as such, the same tantamount to exceptional hardship to him owing to the acts of extreme depravity on the part of respondent No.1.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 14(1)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "exceptional hardship",
+        "burden of proof"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Section 14(1)",
+    "exparte",
+    "petition",
+    "marriage dissolution",
+    "solemnization",
+    "one year rule",
+    "family court",
+    "Jammu and Kashmir",
+    "High Court of Jammu and Kashmir and Ladakh",
+    "Sanjay Dhar",
+    "Additional Principal Judge",
+    "Family Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to exparte proceedings",
+    "appealing family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:59:18.658343"
 }

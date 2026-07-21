@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:04:33.132343",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rohit S/O Subhash Tantrapale And ... vs State Of Mah. Thr. Pso M.I.D.C., Nagpur on 24 November, 2022",
+  "case_name": "Rohit S/O Subhash Tantrapale And ... v. State Of Mah. Thr. Pso M.I.D.C., Nagpur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rohit S/o Subhash Tantrapale and another (husband, wife)",
+    "respondent_defendant": "State of Maharashtra, through PSO M.I.D.C., Nagpur",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Applicants filed a petition for divorce under Section 13(b) of the Hindu Marriage Act, 1955. Applicant No.2 lodged a report against applicant No.1 alleging commission of repeated acts of rape and attempt of sodomy.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,64 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A civil dispute can be treated as purely of private nature if the offences registered against an applicant have their roots in that dispute.",
+      "held": "If this is so, this case would be squarely covered by the various judgments of the Apex Court including the cases of Narinder Singh V/s. State of Punjab reported in (2104) 6 SCC 466 and Parbatbhai Aahir alias Parbatbhai Bhimsinhbhai Karmur and others V/s. State of Gujarat and another reported in (2017) 9 SCC 641.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Narinder Singh V/s. State of Punjab, (2104) 6 SCC 466",
+        "Parbatbhai Aahir alias Parbatbhai Bhimsinhbhai Karmur and others V/s. State of Gujarat and another, (2017) 9 SCC 641"
+      ],
       "keywords": [
-        "TODO"
+        "civil dispute",
+        "private nature",
+        "offences",
+        "roots",
+        "Apex Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Leave to amend the application is granted by adding additional prayer regarding quashing of the chargesheet.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(b)",
+    "mutual consent",
+    "Family Court",
+    "quashing chargesheet",
+    "criminal application",
+    "A.P.P.",
+    "Advocate",
+    "Registrar's orders",
+    "Court's Orders",
+    "Office Memoranda",
+    "Office notes",
+    "Nagpur Bench",
+    "Bombay High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing chargesheet in criminal application",
+    "appealing to Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T08:58:15.289223"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:04:47.106972",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -22,8 +22,8 @@
   "delivered_on": "",
   "case_name": "Rupesh Babnrao Kapse vs State Of Mah. Thr. Pso Ps Hudkeshwar ... on 23 January, 2023",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mr. Rupesh Babanrao Kapse (husband), Sameer S/o Motiram Pakhare, Ramchandra S/o Sampatrao Dandekar, Smt. Roshni W/o Rupesh Kapse, Dhiraj S/o Sunil Uikey, Suraj S/o Bharat Kawade",
+    "respondent_defendant": "The State of Maharashtra Through P. S. O. Police Station Hudkeshwar, Nagpur, Mrs. Roshni Rupesh Kapse (wife), Rupesh S/o Babanrao Kapse",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Dispute between husband and wife; FIRs filed by both parties against each other.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle disputes amicably and withdraw criminal cases.",
+      "held": "They decided to severe the matrimonial ties and jointly applied for mutual divorce in terms of Section 13-B of the Hindu Marriage Act, 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "criminal cases",
+        "mutual divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "matrimonial cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can withdraw criminal cases if they settle the dispute amicably.",
+      "held": "As per the agreed terms, the parties do not wish to prosecute the respective criminal cases.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "amicable settlement",
+        "criminal cases",
+        "withdrawal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "matrimonial cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Matter is taken up for final hearing with the consent of both sides.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "irretrievable breakdown",
+    "matrimonial home",
+    "maintenance",
+    "alimony",
+    "custody",
+    "child support",
+    "property settlement",
+    "separation",
+    "nullity"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "assisting with property settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:20:11.842936"
 }

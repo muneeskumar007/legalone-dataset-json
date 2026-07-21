@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T11:15:36.175869",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 8,
     "cheque_bounce": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Subordinate Judge, Madanapalle - O.S. No.168 of 1981",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S. Yellamma And Ors. vs S. Anjaneyulu And Anr. on 10 January, 2003",
+  "case_name": "S. Yellamma And Ors. vs S. Anjaneyulu And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S. Yellamma And Ors. (wife and daughters)",
+    "respondent_defendant": "S. Anjaneyulu And Anr. (husband and another person)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The first plaintiff and the first defendant lived together with their children until two months prior to filing the suit. The first defendant joined hands with the second defendant, who poisoned the mind of the first plaintiff. The first plaintiff filed a suit for maintenance at Rs.300/-per month and marriage expenses for plaintiffs 2 and 3 at Rs.30,000/-each. The trial court dismissed the suit on the ground that the first defendant is not guilty of desertion or abandonment of the first plaintiff.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu wife is entitled to maintenance whether or not the husband possesses property.",
+      "held": "As per Hindu customary law as well as Statute law, maintenance of wife by her husband is a matter of personal obligation arising from the very existence of the relationship.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "Hindu wife",
+        "husband's property"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A statement made by a party having proprietary interest in the subject-matter of appeal is an admission which suggests an inference to the fact in issue.",
+      "held": "As per Section 18 of the Indian Evidence Act, 1872, a statement made by a party having proprietary interest in the subject-matter of appeal is an admission which suggests an inference to the fact in issue.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "admission",
+        "proprietary interest",
+        "subject-matter of appeal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order was in favor of the petitioners, allowing their appeal against the trial court's decision to dismiss the suit.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Indian Evidence Act",
+    "Transfer of Property Act",
+    "desertion",
+    "abandonment",
+    "separate maintenance",
+    "marriage expenses",
+    "family law",
+    "matrimonial disputes",
+    "alimony",
+    "custody",
+    "child support",
+    "judicial separation",
+    "divorce proceedings"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "representing clients in family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:49:13.801716"
 }

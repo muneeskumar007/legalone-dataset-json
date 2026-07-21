@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:15:10.358742",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3
   },
@@ -19,13 +19,13 @@
   "case_numbers": [
     "O.P.No.587 of 2019"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Salem, H.M.O.P.No.587 of 2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S.Divya vs P.S.Narayanan on 10 August, 2021",
+  "case_name": "S.Divya vs P.S.Narayanan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S.Divya, wife",
+    "respondent_defendant": "P.S.Narayanan, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties had entered a Dissolution of Marriage Deed dated 23.12.2018 but did not file for divorce by mutual consent. The respondent filed a petition under Section 13(1)(ia & ib) of the Hindu Marriage Act, 1955 seeking divorce from the petitioner.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,72 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "No time frame can be fixed for disposing of cases due to heavy pendency.",
+      "held": "Due to heavy pendency of cases, especially the matters related to marital dispute, no time frame can be fixed.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "heavy pendency",
+        "marital disputes"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases with heavy pendency"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Courts should dispose of cases as early as possible.",
+      "held": "This Court directs the learned Family Judge, Salem, to dispose of H.M.O.P.No.587 of 2019, as early as possible.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "early disposal",
+        "court directions"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "cases where early disposal is important"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The learned Family Judge, Salem, is directed to dispose of H.M.O.P.No.587 of 2019 as early as possible.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(ia & ib)",
+    "mutual consent",
+    "Dissolution of Marriage Deed",
+    "Indian Kanoon",
+    "Family Court",
+    "Salem",
+    "Article 227",
+    "Constitution of India",
+    "Civil Revision Petition",
+    "H.M.O.P.No.587",
+    "2019"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act",
+    "appealing Family Court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:23:36.805288"
 }

@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:04:45.291512",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "succession",
   "domain_scores": {
     "divorce": 4,
     "partition": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of SHRI SANJEEV KUMAR SINGH : ADMINISTRATIVE CIVIL JUDGE (CENTRAL) : DELHI - Petition No.: 682/1998, Unique ID No: 02401C0007731998",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rukmani Devi vs The State on 28 May, 2011",
+  "case_name": "Rukmani Devi vs The State",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rukmani Devi, widow of Late Sh. Janak Raj",
+    "respondent_defendant": "The State",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner Rukmani Devi seeks succession certificate for debts and securities of deceased Janak Raj. Objections filed by Smt. Chandra claiming herself as legally wedded wife of the deceased.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the person who asserts a fact to prove it.",
+      "held": "She further deposed that she did not know whether case under Section 2/3/4/5/6/7 SIT Act in the year 1987 vide FIR No. 131/1987 of PS Kamla Market, Delhi was registered against her or not.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The principle of 'clean antecedents' is relevant in determining the legitimacy of a marriage.",
+      "held": "She further deposed that petitioner Smt. Rukmani Devi was concubine of Late Janak Raj and she is not a lady of clean antecedents as she had been involved in cases of immoral trafficking",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "clean antecedents",
+        "marriage legitimacy"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted the petition seeking succession certificate to Rukmani Devi.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "succession certificate",
+    "deceased spouse",
+    "legally wedded wife",
+    "twins",
+    "major sons",
+    "family court",
+    "divorce",
+    "property rights",
+    "joint family",
+    " Hindu Succession Act",
+    "1956",
+    "section 8",
+    "section 16",
+    "section 26",
+    "section 27"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for succession certificate",
+    "advising on property rights in joint family",
+    "assisting with divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:16:57.213244"
 }

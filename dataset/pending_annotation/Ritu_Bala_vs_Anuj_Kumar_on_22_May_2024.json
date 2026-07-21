@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:04:29.669277",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "cheque_bounce": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "24.10.2019",
-  "case_name": "Ritu Bala vs Anuj Kumar on 22 May, 2024",
+  "case_name": "Ritu Bala vs Anuj Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Ritu Bala (wife)",
+    "respondent_defendant": "Shri Anuj Kumar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties have been living separately for over 12 years and have not resumed any matrimonial relations during this period.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party may withdraw an appeal if the dispute between them has been settled.",
+      "held": "Both the parties have agreed that now there is no dispute between them in lieu of matrimonial ties in future.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "dispute resolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party may not alienate or create a charge on the share of another family member in ancestral property.",
+      "held": "The respondent has agreed that he will not alienate or create any charge qua the share of Master Prahav Bardi in the ancestral property.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "alienation",
+        "ancestral property"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal withdrawn",
+    "final_order": "Appellant Smt. Ritu Bala shall withdraw her appeal, and the respondent Shri Anuj Kumar will pay a total sum of Rs.7,50,000/- as permanent alimony.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "alimony",
+    "permanent alimony",
+    "amicable settlement",
+    "mediation",
+    "family court",
+    "Section 13(1)(i) Hindu Marriage Act",
+    "irretrievable breakdown",
+    "marriage dissolution",
+    "spousal support",
+    "maintenance",
+    "Cheque",
+    "Bank Draft",
+    "full and final settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "negotiating spousal support agreements",
+    "mediating family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T08:53:24.444968"
 }

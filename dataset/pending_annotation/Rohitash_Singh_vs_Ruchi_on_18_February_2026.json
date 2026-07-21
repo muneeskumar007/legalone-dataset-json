@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:04:30.818013",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rohitash Singh vs Ruchi on 18 February, 2026",
+  "case_name": "Rohitash Singh vs Ruchi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rohitash Singh, husband",
+    "respondent_defendant": "Ruchi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Joint petition for divorce by mutual consent rejected by Family Court due to delay in second motion. Parties want to go their separate ways on mutually agreed terms.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,129 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may exercise its discretion to waive the statutory waiting period under section 13-B(2) if all conditions are fulfilled.",
+      "held": "If all the four conditions mentioned above are fulfilled, the court would necessarily have to exercise its discretion to waive the statutory waiting period under Section 13-B(2) of the Marriage Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — section 13-B"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Amardeep Singh vs. Harveen Kaur, (2023) 17 SCC 648",
+        "Amit Kumar vs. Suman Beniwal, (2023) 17 SCC 648"
+      ],
       "keywords": [
-        "TODO"
+        "mutual consent divorce",
+        "statutory waiting period",
+        "directory provision"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving mutual consent"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court is obliged to take note of factors mentioned in Amardeep Singh vs. Harveen Kaur, (2023) 17 SCC 648.",
+      "held": "These are factors which the court is obliged to take note of.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — section 13-B"
+      ],
+      "cited_cases": [
+        "Amardeep Singh vs. Harveen Kaur, (2023) 17 SCC 648",
+        "Amit Kumar vs. Suman Beniwal, (2023) 17 SCC 648"
+      ],
+      "keywords": [
+        "factors to consider",
+        "directory provision",
+        "mutual consent divorce"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases involving mutual consent"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court may grant a decree of divorce by mutual consent on a joint application when the substantive conditions of section 13-B are fulfilled.",
+      "held": "When the second motion is filed, the court is to make an inquiry, and on satisfaction that the averments made in the petition are true, a decree of divorce is granted.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — section 13-B"
+      ],
+      "cited_cases": [
+        "Shilpa Sailesh vs. Varun Sreenivasan, (2023) 14 SCC 231"
+      ],
+      "keywords": [
+        "mutual consent divorce",
+        "joint application",
+        "substantive conditions"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases involving mutual consent"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court's power to grant a decree of divorce by mutual consent is not fettered by section 13-B(2) of the Hindu Marriage Act.",
+      "held": "Section 13-B of the Hindu Marriage Act does not impose any fetters on the powers of this Court to grant a decree of divorce by mutual consent on a joint application, when the substantive conditions of the Section are fulfilled and the Court, after referring to the factors mentioned above, is convinced and of the opinion that the decree of divorce should be granted.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — section 13-B"
+      ],
+      "cited_cases": [
+        "Shilpa Sailesh vs. Varun Sreenivasan, (2023) 14 SCC 231"
+      ],
+      "keywords": [
+        "court's power",
+        "mutual consent divorce",
+        "joint application"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases involving mutual consent"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court allows appeal and grants decree of divorce declaring the marriage dissolved with effect from the date of the decree.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "Family Court",
+    "joint petition",
+    "second motion",
+    "18 months",
+    "agreement",
+    "separate ways",
+    "technicality",
+    "delay",
+    "condoned delay",
+    "defective appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a joint petition for divorce",
+    "advising on condoning delays in appeals",
+    "representing clients in Family Court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T08:59:21.025655"
 }

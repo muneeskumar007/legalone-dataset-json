@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:04:32.254270",
   "domain": "custody",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rohit Kaushal & Anr. vs State & Ors. on 9 February, 2010",
+  "case_name": "Rohit Kaushal & Anr. vs State & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rohit Kaushal & Anr. (husband, wife)",
+    "respondent_defendant": "State & Ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner No.2 left her parents' house without pressure or coercion from Petitioner No.1. She claims to have married him and saptpadi was performed. FIR registered under Section 363 of IPC by father of Petitioner No.2.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "If a minor does not raise an alarm or put up a struggle when leaving her guardian's custody, it is difficult to accept that she did so voluntarily.",
+      "held": "The Hon'ble Supreme Court noted that it was not unknown to her with whom she was going and therefore, it was expected of her then to jump down from the bicycle or put up the struggle and in any case raise an alarm to protect herself.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955",
+        "Code of Criminal Procedure, 1973"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Shyam & Another Vs. State of Maharashtra, (1995) Criminal Law General 3974"
+      ],
       "keywords": [
-        "TODO"
+        "minor",
+        "voluntary",
+        "custody",
+        "guardian",
+        "alarm",
+        "struggle"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving minor's consent",
+        "cases involving custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — highlights the importance of a minor's actions in determining their voluntary departure from custody",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In cases where a minor goes with someone voluntarily, it is difficult to hold that the accused took her away from the keeping of her lawful guardian.",
+      "held": "It was held by the Hon'ble Supreme Court that the requirement of Section 366 of IPC is that taking or enticing away a minor out of the keeping of the lawful guardianship was an essential ingredient of the offence of kidnapping.",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860 — Section 366"
+      ],
+      "cited_cases": [
+        "State of Karnataka vs. Sureshbabu, (1994) Crl.L.J.1216(1)"
+      ],
+      "keywords": [
+        "minor",
+        "voluntary",
+        "custody",
+        "guardian",
+        "kidnapping"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving minor's consent",
+        "cases involving custody disputes"
+      ],
+      "significance": "HIGH — highlights the importance of a minor's actions in determining whether an accused has taken them away from their lawful guardian",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "No offence punishable under Section 363 of IPC will be made out when the girl is aged more than 16 years and is mature enough to understand what she is doing.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "custody",
+    "marriage",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Section 363 IPC",
+    "FIR",
+    "petitioners",
+    "respondents",
+    "parents",
+    "coercion",
+    "inducement",
+    "pressure",
+    "saptpadi",
+    "oral statement",
+    "HC Single Judge",
+    "Delhi High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting custody petitions",
+    "advising on marriage and family law",
+    "representing clients in Delhi HC"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T08:55:56.820636"
 }

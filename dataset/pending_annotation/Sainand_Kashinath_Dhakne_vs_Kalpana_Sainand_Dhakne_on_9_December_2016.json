@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:05:02.921281",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Aurangabad in Petition No.A-67/2010 and Petition No.A-81/2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sainand Kashinath Dhakne vs Kalpana Sainand Dhakne on 9 December, 2016",
+  "case_name": "Sainand Kashinath Dhakne vs Kalpana Sainand Dhakne",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sainand s/o Kashinath Dhakne (husband)",
+    "respondent_defendant": "Kalpana w/o Sainand Dhakne (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a petition for dissolution of marriage or judicial separation under the Hindu Marriage Act. The wife filed a petition for restitution of conjugal rights. Both parties led evidence, and the trial court passed a common judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may grant divorce if the respondent's behavior is such that it endangers the life of the appellant and his family members.",
+      "held": "There is also danger to the life of the appellant and his family members due to the acts of the respondent and they are living under fear and threats.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "danger",
+        "life",
+        "fear",
+        "threats"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where there is a threat to the life of the parties involved"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may grant divorce if the respondent has caused physical and mental cruelty to the appellant.",
+      "held": "Physical and mental cruelty was caused to her.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "physical",
+        "mental",
+        "cruelty"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases where there is physical and mental cruelty involved"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeals are taken up for final disposal, and the Family Court's common judgment is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Specific Relief Act",
+    "Family Court",
+    "Appeal",
+    "Maintenance",
+    "Custody",
+    "Alimony",
+    "Domestic Violence",
+    "DV Act",
+    "Matrimonial Dispute",
+    "Marriage Dissolution",
+    "Joint Family",
+    "Separation",
+    "Legal Separation",
+    "Divorce Petition",
+    "Judgment",
+    "Order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing appeal against family court order",
+    "advising client on maintenance and alimony"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T10:02:29.441668"
 }

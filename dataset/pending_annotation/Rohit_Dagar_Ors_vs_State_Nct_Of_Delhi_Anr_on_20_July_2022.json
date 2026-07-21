@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:04:31.957786",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Rohit Dagar & Ors vs State (Nct Of Delhi) & Anr on 20 July, 2022",
+  "case_name": "Rohit Dagar & Ors vs State (Nct Of Delhi) & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rohit Dagar & Ors — husband, wife, and others",
+    "respondent_defendant": "State (NCT of Delhi) & Anr — government and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners seek quashing of FIR No. 433/2019 registered under Sections 498A/406/34 IPC, submitting settlement between parties vide settlement document dated 7.9.2021 and settlement deed dated 14.7.2022.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Criminal cases having overwhelmingly and predominantly civil character, particularly those arising out of commercial transactions or arising out of matrimonial relationship or family disputes should be quashed when the parties have resolved their entire disputes among themselves.",
+      "held": "On the other, those criminal cases having overwhelmingly and pre-dominantly civil character, particularly those arising out of commercial transactions or arising out of matrimonial relationship or family disputes should be quashed when the parties have resolved their entire disputes among themselves.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code — Section 482"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Narender Singh &Ors. V. State of Punjab; (2014) 6 SCC 466"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal cases",
+        "civil character",
+        "matrimonial relationship",
+        "family disputes"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "It is not safe to leave the crime-doer only because he and the victim have settled the dispute amicably or that the victim has been paid compensation.",
+      "held": "No doubt, crimes are acts which have harmful effect on the public and consist in wrongdoing that seriously endangers and threatens the well-being of the society and it is not safe to leave the crime-doer only because he and the victim have settled the dispute amicably or that the victim has been paid compensation.",
+      "applicable_acts_sections": [
+        "Code — Section 482"
+      ],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab & Another, (2012) 10 SCC 303"
+      ],
+      "keywords": [
+        "crime-doer",
+        "victim",
+        "amicable settlement",
+        "compensation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases",
+        "civil disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR No. 433/2019 quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498A",
+    "406",
+    "34",
+    "Indian Penal Code",
+    "mutual consent",
+    "Section 13B(2)",
+    "Family Courts",
+    "North Signature Not Verified Digitally Signed By",
+    "SUMIT GHAI",
+    "Signing Date:22.07.2022 16:21:17",
+    "Rs.22,50,000",
+    "petitioners",
+    "respondents",
+    "FIR No.433/2019",
+    "Police Station Alipur",
+    "settlement document dated 7.9.2021",
+    "settlement deed dated 14.7.2022",
+    "decree of divorce through mutual consent under Section 13B(2) of the Hindu Marriage Act, 1955"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing FIR",
+    "advising on settlement agreements in divorce cases",
+    "representing clients in Family Courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T08:55:04.330214"
 }

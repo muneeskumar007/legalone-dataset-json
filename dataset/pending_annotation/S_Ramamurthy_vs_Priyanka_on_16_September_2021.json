@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:15:24.778938",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3
   },
@@ -20,13 +20,13 @@
     "O.P.No.136 of\n2018",
     "O.P.No.136 of 2018"
   ],
-  "trial_court": "",
+  "trial_court": "Sub Court, Thirupathur, Vellore - H.M.O.P. No. 136/2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "S. Ramamurthy vs Priyanka on 16 September, 2021",
+  "case_name": "S. Ramamurthy vs Priyanka",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S. Ramamurthy (husband)",
+    "respondent_defendant": "Priyanka (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed divorce petition against respondent vide H.M.O.P.No.136 of 2018 on the ground of cruelty under Sections 13(1)(ia) and (ib) of Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,60 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court may direct a subordinate court to expedite the trial and dispose of a case within a time frame.",
+      "held": "Considering the fact that this H.M.O.P. was filed in the 2018 and the fact that the petitioner's side evidence is completed and the case is pending for the respondent's side evidence,",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — not specified"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "S. Ramamurthy vs Priyanka, (2021) X SCC Y — not specified"
+      ],
       "keywords": [
-        "TODO"
+        "expediting trial",
+        "disposal of case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The learned Sub Judge, Sub Court, Tirupathur is directed to dispose of this H.M.O.P.No.136 of 2018 as expeditiously as possible.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Sections 13(1)(ia)",
+    "Sections 13(1)(ib)",
+    "expediting trial",
+    "civil revision petition",
+    "Article 227",
+    "Constitution of India",
+    "Sub Court",
+    "Thirupathur",
+    "Vellore",
+    "H.M.O.P.",
+    "petition",
+    "respondent's evidence"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "expediting a trial in Sub Court",
+    "filing a civil revision petition under Article 227"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:35:34.704509"
 }

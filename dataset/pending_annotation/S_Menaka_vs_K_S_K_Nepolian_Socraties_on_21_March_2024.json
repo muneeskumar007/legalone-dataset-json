@@ -7,7 +7,7 @@
   "total_pages": 44,
   "extracted_at": "2026-07-15T11:15:22.249443",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 2,
@@ -36,10 +36,10 @@
   "trial_court": "",
   "reserved_on": "27.02.2024",
   "delivered_on": "",
-  "case_name": "S.Menaka vs K.S.K.Nepolian Socraties on 21 March, 2024",
+  "case_name": "S.Menaka vs K.S.K.Nepolian Socraties",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "S.Menaka, Petitioner",
+    "respondent_defendant": "K.S.K.Nepolian Socraties, Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -109,7 +109,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a civil miscellaneous petition seeking to dismiss the appeal on the ground of maintainability of appeal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -119,39 +119,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A statutory appeal under Section 19 of FC Act is not maintainable against a pendente lite maintenance order under Section 24 of HM Act.",
+      "held": "Though in the previous listing, it was submitted that no party is taking the position that a statutory appeal under Section 19 of FC Act is not maintainable against a pendente lite maintenance order under Section 24 of HM Act, today in C.M.A. No.1914 of 2021, Mr.N.Jothi, learned senior counsel appearing on behalf of Mr.G.Mohana Krishnan, counsel on record for appellant pointed out that C.M.P.No.18729 of 2023 with a prayer to dismiss the statutory appeal on the ground that it is not maintainable has been taken out.",
       "applicable_acts_sections": [
-        "TODO"
+        "FC Act — Section 19",
+        "HM Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "statutory appeal",
+        "pendente lite maintenance order",
+        "Section 19 of FC Act",
+        "Section 24 of HM Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family court cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The question as to whether a reference would be necessary if a view sustaining 'not maintainable' argument is taken arises.",
+      "held": "In the light of Dr.Rajiv Verghese case (Dr.Rajiv Verghese Vs. Rosy Chakkrammakkil Francis) reported in 2023 (1) Law Weekly 278, the question whether a reference would be necessary if a view sustaining 'not maintainable' argument is taken arises.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Dr.Rajiv Verghese Vs. Rosy Chakkrammakkil Francis, (2023) X Law Weekly Y"
+      ],
+      "keywords": [
+        "reference",
+        "maintainability",
+        "statutory appeal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final court order was that the appeal is dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Code of Criminal Procedure",
+    "1973",
+    "Specific Relief Act",
+    "1963",
+    "maintenance",
+    "alimony",
+    "custody",
+    "property division",
+    "matrimonial dispute",
+    "family law",
+    "marriage dissolution",
+    "judicial separation",
+    "nullity of marriage",
+    "voidable marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "assisting in property division disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-21T09:31:56.401813"
 }
