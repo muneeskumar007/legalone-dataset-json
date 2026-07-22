@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:05:56.315541",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sau. Pranali W/O Rohit Wanjari vs Rohit @ Lakhan S/O Ashokrao Wanjari on 1 March, 2019",
+  "case_name": "Sau. Pranali W/O Rohit Wanjari vs Rohit @ Lakhan S/O Ashokrao Wanjari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sau. Pranali w/o Rohit Wanjari, applicant",
+    "respondent_defendant": "Rohit @ Lakhan s/o Ashokrao Wanjari, non-applicant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant has filed proceedings for restitution of conjugal rights and maintenance before the Civil Judge, Senior Division, Hinganghat. The non-applicant has filed a petition for divorce before the Family Court, Nagpur.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may transfer a petition to another court if the applicant has made out a case for it.",
+      "held": "Considering the above facts and circumstances of the case, I am of the considered view that the applicant - wife has made out a case for transfer of Petition No.A-192/2018 filed under Section 13(1)(i-a) of the Hindu Marriage Act, filed by non-applicant pending before the Family Court, Nagpur to the Court of Civil Judge, Senior Division, Hinganghat.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 21-A"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "petition transfer",
+        "applicant's case",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may not apply Section 21-A of the Hindu Marriage Act in all cases.",
+      "held": "From perusal of the provisions of Section 21-A, I am of the considered view that the said provision is not made applicable in the present case.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 21-A"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Section 21-A",
+        "Hindu Marriage Act",
+        "petition transfer"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i-a)",
+    "Family Court",
+    "Nagpur",
+    "restitution",
+    "petition",
+    "non-applicant",
+    "applicant",
+    "household",
+    "service",
+    "occ",
+    "age",
+    "marriage",
+    "judgment",
+    "oral",
+    "hearing",
+    "consent",
+    "learned counsel",
+    "advocate"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to non-applicant's petition for divorce",
+    "seeking restitution in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:48:32.549233"
 }

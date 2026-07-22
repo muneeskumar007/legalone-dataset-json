@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:05:38.832875",
   "domain": "maintenance",
-  "sub_domain": "divorce",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 4,
@@ -23,13 +23,13 @@
     "Rakesh Kainthla J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Shimla, Cr. Revision No.266 of 2023 & Cr. Revision No. 562 of 2023",
   "reserved_on": "03.01.2024",
   "delivered_on": "12.12.2016",
-  "case_name": "Sarita Shah And Ors vs Rajesh Chauhan on 26 February, 2024",
+  "case_name": "Sarita Shah And Ors vs Rajesh Chauhan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sarita Shah and Ors (husband, wife, petitioners)",
+    "respondent_defendant": "Rajesh Chauhan (wife's husband, respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners filed a petition under Section 125 of Cr.P.C. seeking maintenance @ ₹50,000/- per month. Petitioner No.1 was married to the respondent on 18.11.1996 and they resided together as husband and wife. The respondent used to abuse the petitioners after getting intoxicated.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The mere fact that the wife is earning will not disentitle her from claiming maintenance.",
+      "held": "The mere fact that the wife is earning will not disentitle her from claiming the maintenance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "wife's earnings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A father is bound to maintain his major children only if they are unable to maintain themselves due to some disability.",
+      "held": "It is undisputed that they have become major and a father is bound to maintain his major children only if they are unable to maintain themselves due to some disability.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "Abhilasha v. Parkash (2021) 13 SCC 99: 2020 SCC OnLine SC 736"
+      ],
+      "keywords": [
+        "maintenance",
+        "major children",
+        "disability"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "maintenance cases involving major children"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Maintenance @ ₹7,000/- was awarded to Devanshi Chauhan and Himanshu Chauhan",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "maintenance",
+    "Section 125 CrPC",
+    "Family Court",
+    "Principal Judge",
+    "Cr. Revision No.",
+    "High Court of Himachal Pradesh",
+    "Shimla",
+    "Devanshi Chauhan",
+    "Himanshu Chauhan",
+    "petition under Section 125",
+    "Cr.P.C.",
+    "maintenance award",
+    "family law",
+    "Indian Penal Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for maintenance under Section 125 CrPC",
+    "appealing an order of the Family Court",
+    "seeking revision of a maintenance award"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:23:00.255532"
 }

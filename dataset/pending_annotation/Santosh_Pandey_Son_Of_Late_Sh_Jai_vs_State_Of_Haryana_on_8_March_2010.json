@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:30.255042",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Sham Sunder J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Judicial Magistrate 1st Class, Hisar, Criminal Case No. 1067-1 of 03.09.08",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Santosh Pandey Son Of Late Sh. Jai ... vs State Of Haryana on 8 March, 2010",
+  "case_name": "Santosh Pandey Son Of Late Sh. Jai ... vs State Of Haryana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Santosh Pandey son of Late Sh. Jai Parkash; Smt. Bindevasini Devi, wd/o late Sh. Jai Parkash; Vijay Pandey son of Sh. Jai Parkash; Smt. Mala Devi wife of Sh. Vijay Pandey",
+    "respondent_defendant": "State of Haryana; Smt. Babita, d/o Sh. Ganesh Mishra, r/o Gali No. 25, Surya Nagar, Hisar",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The marriage of Babita was solemnized with Santosh Pandey on 28.01.07. The petitioners started teasing and harassing the complainant for bringing less dowry. They pressurized her to bring more dowry, but when she showed inability, she was given severe beatings.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "At the time of deciding a petition under Section 482 Cr.P.C., the Court is not required to go into the probable defence of the accused.",
+      "held": "The Court is only required to take consideration as to whether the allegations contained in the complaint were sufficient to constitute the offences or not.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "petition",
+        "complaint",
+        "allegations",
+        "offences"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court is not required to go into the probable defence of the accused when deciding a petition under Section 482 Cr.P.C.",
+      "held": "At that time, the Court is only required to take consideration as to whether the allegations contained in the complaint were sufficient to constitute the offences or not.",
+      "applicable_acts_sections": [
+        "Cr.P.C. — Section 482"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition",
+        "complaint",
+        "allegations",
+        "offences"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition under Section 482 Cr.P.C., for quashing the complaint, is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 482 Cr.P.C.",
+    "quashing",
+    "complaint",
+    "Criminal Case No. 1067-1",
+    "Sections 120-B",
+    "307",
+    "323",
+    "406",
+    "498-A",
+    "506",
+    "511 IPC",
+    "Indian Kanoon",
+    "judicial magistrate",
+    "Hisar",
+    "summoning order",
+    "marriage",
+    "Babita",
+    "complainant",
+    "respondent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing complaint in criminal case",
+    "appealing judicial magistrate's decision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:13:32.447894"
 }

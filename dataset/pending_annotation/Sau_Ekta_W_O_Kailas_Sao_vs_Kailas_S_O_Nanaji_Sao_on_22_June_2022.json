@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:51.073107",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sessions Judge, Gadchiroli (Case No. not mentioned)",
   "reserved_on": "",
   "delivered_on": "23.10.2018",
-  "case_name": "Sau Ekta W/O Kailas Sao vs Kailas S/O Nanaji Sao on 22 June, 2022",
+  "case_name": "Sau Ekta W/O Kailas Sao vs Kailas S/O Nanaji Sao",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sau Ekta W/O Kailas Sao (wife)",
+    "respondent_defendant": "Kailas S/O Nanaji Sao (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed an application under the Protection of Women from Domestic Violence Act, which was allowed by the Magistrate. The husband appealed against this order and it was set aside. The wife now seeks to quash this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove domestic violence.",
+      "held": "Over and above that there was not a single complaint by the applicant wife regarding the alleged harassment claimed by her, either during the time of approximately three months for which she resided with the respondent-husband or even thereafter.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005 — Section 12"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "domestic violence",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "DV cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A decree for restitution of conjugal rights becomes final if not challenged or complied with.",
+      "held": "Neither the said judgment dated 23.8.2016 was challenged by the applicant wife, nor was any restitution attempted, considering which the decree dated 23.8.2016 became final including the findings rendered therein.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 9"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "conjugal rights",
+        "decree"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "marriage dissolution cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The original order of the Magistrate allowing the application under the Protection of Women from Domestic Violence Act is restored.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "domestic violence",
+    "Section 12",
+    "DV Act",
+    "Magistrate",
+    "Sessions Judge",
+    "Gadchiroli",
+    "complainant",
+    "applicant",
+    "respondent",
+    "judgment",
+    "appeal",
+    "revision",
+    "family court",
+    "marriage",
+    "wife's rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "preparing DV Act applications",
+    "advising clients on marital disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:40:46.622040"
 }

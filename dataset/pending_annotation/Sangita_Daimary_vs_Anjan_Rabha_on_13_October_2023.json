@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:09.302606",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1
@@ -18,13 +18,13 @@
     "Kalyan Rai Surana J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned Principal Judge, Family Court no.2, Kamrup Metro, Guwahati (FC (Civil) case no.169/2023)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sangita Daimary vs Anjan Rabha on 13 October, 2023",
+  "case_name": "Sangita Daimary vs Anjan Rabha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sangita Daimary, estranged wife",
+    "respondent_defendant": "Anjan Rabha, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks transfer of matrimonial proceedings from Guwahati to Tezpur due to inconvenience and expense.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Sufficient cause for inconvenience may be a ground for transfer of proceedings.",
+      "held": "The reasons assigned by the petitioner as referred hereinbefore is found to be sufficient cause for inconvenience the petitioner to travel for the matrimonial proceedings from Guwahati to Tezpur.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "inconvenience",
+        "matrimonial proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may transfer proceedings to a more convenient forum.",
+      "held": "Accordingly, this application for transfer which is filed under section 24 CPC stands allowed.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "transfer",
+        "forum",
+        "convenience"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings transferred from Court of learned Principal Judge, Family Court no.2, Kamrup Metro, Guwahati to the Court of learned District Judge, Sonitpur, Tezpur.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "matrimonial proceedings",
+    "transfer petition",
+    "estranged wife",
+    "conjugal rights",
+    "Family Court",
+    "District Judge",
+    "Sonitpur",
+    "Guwahati",
+    "Kamrup Metro",
+    "Tezpur",
+    "restitution",
+    "petitioner",
+    "respondent",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition in a divorce case",
+    "advising on jurisdictional issues in family courts",
+    "preparing an application for restitution of conjugal rights"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:53:21.051599"
 }

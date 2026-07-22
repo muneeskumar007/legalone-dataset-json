@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:37.566037",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sarita Bai Manikpuri vs State Of Chhattisgarh on 8 September, 2023",
+  "case_name": "Sarita Bai Manikpuri vs State Of Chhattisgarh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sarita Bai Manikpuri and others (husband, wife, etc.)",
+    "respondent_defendant": "State Of Chhattisgarh Through The S. H. O. Mahila Thana Bilaspur, Tahsil And District- Bilaspur Pin. 495001, District : Bilaspur, Chhattisgarh and others (Superintendent Of Police Bilaspur)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant/petitioner No.1 Sarita Bai Manikpuri is the wife of petitioner N. FIR dated 15.7.2019 bearing Crime No.26 of 2019, charge-sheet and the proceedings of Criminal Case No.3269 of 2019 pending before the Judicial Magistrate First Class, Bilaspur.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to quash a criminal proceeding to demonstrate that there is no reasonable likelihood of the prosecution succeeding.",
+      "held": "Learned counsel appearing for the petitioners would submit that as the petitioners have settled their dispute, therefore, petitioner No.1 does not want to pursue this criminal case furthermore against petitioners No.2 to 7 and thus, the order for quashment of FIR in Crime No.26 of 2019, final report bearing No.27 of 2019 dated 3.8.2019 and the proceedings of Criminal Case No.3269 of 2019 pending before the Judicial Magistrate First Class, Bilaspur, District-Bilaspur (CG) may be passed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C."
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashment",
+        "criminal proceeding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A settlement between parties can be a valid reason to quash a criminal proceeding.",
+      "held": "He further submits that the statement of the petitioners regarding the settlement of dispute has been recorded before the learned Registrar (Judicial) of this Court on 31.08.2023 wherein they have categorically stated that they have settled the dispute and arrived at a settlement without any coercion, greed, or pressure.",
+      "applicable_acts_sections": [
+        "Cr.P.C."
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "quashment"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Penal Code",
+    "1860",
+    "Specific Relief Act",
+    "1963",
+    "maintenance",
+    "alimony",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "matrimonial",
+    "dispute",
+    "family",
+    "law",
+    "marriage",
+    "property",
+    "assets",
+    "joint family",
+    "partition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to divorce petition",
+    "negotiating settlement in matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:21:25.863488"
 }

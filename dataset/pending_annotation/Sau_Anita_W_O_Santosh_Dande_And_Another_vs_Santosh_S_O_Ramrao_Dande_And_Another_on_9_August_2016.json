@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:05:50.527973",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sau. Anita W/O Santosh Dande And Another vs Santosh S/O Ramrao Dande And Another on 9 August, 2016",
+  "case_name": "Sau. Anita W/O Santosh Dande And Another vs Santosh S/O Ramrao Dande And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Priti w/o Ravindra Bhange, Mukund s/o Pundlikrao Mahale (sister and brother)",
+    "respondent_defendant": "State of Maharashtra through the Police Station Officer, Shankarrao s/o Gunnaji Bhange",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Priti lodged report with Police Station against her husband Ravindra. She was treated nicely for first 20 days after marriage, then there was a demand of Rs.5,00,000/- to her by the accused persons. The ill treatment became unbearable and Priti called her brother Mukund and was driven out of her matrimonial house.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove that the allegations made in the complaint are without any substance.",
+      "held": "According to the learned counsel for the applicants, even taking the allegations in the complaint lodged by non applicant no.2, no case is made out for the offence under section 306 of the IPC.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "substance",
+        "complaint"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court should exercise its powers under Section 482 of the Cr.P.C. to quash a FIR if no case is made out for the offence.",
+      "held": "He, therefore, submitted that this Court should exercise the powers under Section 482 of the Cr.P.C. and prayed for quashing of the FIR.",
+      "applicable_acts_sections": [
+        "Cr.P.C."
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "quash",
+        "FIR",
+        "Section 482"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the appeal and granted relief to the applicants.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Penal Code",
+    "1860",
+    "Specific Relief Act",
+    "1963",
+    "marriage",
+    "spouse",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "maintenance",
+    "alimony",
+    "property",
+    "assets",
+    "joint family",
+    "matrimonial home"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing for divorce hearing",
+    "negotiating settlement agreement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:40:00.665404"
 }

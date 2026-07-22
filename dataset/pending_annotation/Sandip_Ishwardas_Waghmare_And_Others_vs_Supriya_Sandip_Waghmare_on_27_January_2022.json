@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:05:08.361964",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2
   },
@@ -15,13 +15,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "learned Judicial Magistrate, First Class, Rahata bearing Criminal M.A. No.227/2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sandip Ishwardas Waghmare And Others vs Supriya Sandip Waghmare on 27 January, 2022",
+  "case_name": "Sandip Ishwardas Waghmare And Others vs Supriya Sandip Waghmare",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sandip Ishwardas Waghmare And Others (husband, wife, applicants)",
+    "respondent_defendant": "Supriya Sandip Waghmare (wife, respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant No.1 and the respondent No.1 had moved a joint petition for dissolution of their marriage under Section 13(b) of the Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,70 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A joint petition for dissolution of marriage under Section 13(b) of the Hindu Marriage Act can be filed.",
+      "held": "It appears that, the applicant No.1 and the respondent No.1 had moved a joint petition for dissolution of their marriage under Section 13(b) of the Hindu Marriage Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13(b)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "joint petition",
+        "dissolution of marriage",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Notice should be issued to the respondent in a joint petition for dissolution of marriage.",
+      "held": "Issue notice to respondent returnable on 24th February 2022.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "notice",
+        "joint petition",
+        "dissolution of marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Pendency of this proceedings shall not be treated as stay to the proceedings pending before the learned Judicial Magistrate, First Class, Rahata bearing Criminal M.A. No.227/2020.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(b)",
+    "joint petition",
+    "marriage dissolution",
+    "stay of proceedings",
+    "Criminal M.A.",
+    "Judicial Magistrate",
+    "Rahata",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "understanding joint petitions",
+    "strategies for stay of proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:50:22.594741"
 }

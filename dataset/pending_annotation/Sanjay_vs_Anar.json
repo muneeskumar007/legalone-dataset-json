@@ -7,7 +7,7 @@
   "total_pages": 67,
   "extracted_at": "2026-07-15T11:05:20.048201",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "partition": 2,
@@ -27,13 +27,13 @@
     "Mr.Bhaskar Bhattacharya J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.4, Ahmedabad, Family Suit No. 448 of 2005",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Sanjay vs Anar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjay, husband",
+    "respondent_defendant": "Anar, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1985 and had a son. The husband sought divorce on grounds of cruelty. The trial court dismissed the application.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The thread ceremony is considered to be a very auspicious and an important ceremony.",
+      "held": "The thread ceremony is usually performed on a very large scale. All the friends, relatives, acquaintances etc. are invited on the occasion of such ceremony and therefore, the same is undoubtedly quite a big occasion and function in the family.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sanjay vs Anar"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "thread ceremony",
+        "auspicious",
+        "important"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party who seeks to establish a fact or circumstance.",
+      "held": "Gradually the appellant realized that the respondent had adopted such an approach only as a means of getting the things done in her way by picking up quarrels and raising disputes with the appellant, as she very well knew that the appellant was always keen to avoid any kind of conflicts and quarrels which might disturb the family tranquility and the matrimonial life of the two.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sanjay vs Anar"
+      ],
+      "keywords": [
+        "burden",
+        "fact",
+        "circumstance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed, and the judgment and decree passed by the trial court were set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Penal Code",
+    "1860",
+    "alimony",
+    "maintenance",
+    "custody",
+    "joint family",
+    "separation",
+    "matrimonial dispute",
+    "marriage dissolution",
+    "spousal rights",
+    "property division",
+    "family law",
+    "civil procedure code",
+    "Section 13",
+    "Section 23",
+    "Section 25"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on alimony and maintenance",
+    "representing clients in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:00:03.043330"
 }

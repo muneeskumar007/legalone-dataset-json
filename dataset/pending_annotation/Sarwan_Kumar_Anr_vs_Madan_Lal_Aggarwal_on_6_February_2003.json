@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:05:44.986951",
   "domain": "will_succession",
-  "sub_domain": "property_dispute",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "maintenance": 1,
     "land_acquisition": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sarwan Kumar & Anr vs Madan Lal Aggarwal on 6 February, 2003",
+  "case_name": "Sarwan Kumar & Anr vs Madan Lal Aggarwal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sarwan Kumar & Anr.",
+    "respondent_defendant": "Madan Lal Aggarwal",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent-landlord's wife let out a property to the judgment-debtors. The decree-holder served a notice to quit, and the judgment-debtors claimed they were not tenants in their personal capacity. A suit for possession was filed against them.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The heirs of the deceased tenant will step into the position of the deceased tenant and all the rights and obligations of the deceased tenant, including the protection afforded to the deceased tenant under the Act, will devolve on the heirs of the deceased tenant.",
+      "held": "In the absence of any provision regulating the right of inheritance, and the manner and extent thereof, and in the absence of any condition being stipulated with regard to the devolution of tenancy rights on the heirs on the death of the tenant, the devolution of tenancy rights must necessarily be in accordance with the ordinary law of succession.",
       "applicable_acts_sections": [
-        "TODO"
+        "Delhi Rent Control Act, 1958"
+      ],
+      "cited_cases": [
+        "Gian Devi Anand's case (supra)"
+      ],
+      "keywords": [
+        "inheritance",
+        "tenancy rights",
+        "ordinary law of succession"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The landlord can seek the eviction of tenants only on the grounds specified in the Rent Act.",
+      "held": "It is not in dispute before us that to a premises to which the Rent Act applies, eviction can only be ordered by the authorities/rent controller constituted under the Rent Act and the civil courts have no jurisdiction to entertain suits for eviction of the tenants from the premises to which the Rent Act applies.",
+      "applicable_acts_sections": [
+        "Rent Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "eviction",
+        "grounds",
+        "Rent Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "eviction cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Supreme Court held that a decree for ejectment passed by a civil court before the declaration of law by the Supreme Court is executable.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "will",
+    "succession",
+    "Code of Civil Procedure",
+    "1908",
+    "decree",
+    "ejectment",
+    "commercial tenancy",
+    "State of Delhi",
+    "Gian Devi Anand",
+    "Jeevan Kumar",
+    "heritable",
+    "executable",
+    "judgment-debtors",
+    "execution",
+    "civil court",
+    "Supreme Court",
+    "landmark",
+    "Latin maxim",
+    "actus curiae neminem adducit",
+    "res judicata"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "handling succession disputes",
+    "executing a decree"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:28:35.207096"
 }

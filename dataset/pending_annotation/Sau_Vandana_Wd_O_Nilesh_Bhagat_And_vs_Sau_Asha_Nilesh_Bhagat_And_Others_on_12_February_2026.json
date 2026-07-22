@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:06:02.903597",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "25.11.2025",
   "delivered_on": "12.02.2026",
-  "case_name": "Sau. Vandana Wd/O Nilesh Bhagat, And ... vs Sau. Asha Nilesh Bhagat, And Others on 12 February, 2026",
+  "case_name": "Sau. Vandana Wd/O Nilesh Bhagat, And ... vs Sau. Asha Nilesh Bhagat, And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sau. Vandana Wd/O Nilesh Bhagat, And ... (wife)",
+    "respondent_defendant": "Sau. Asha Nilesh Bhagat, And Others (husband and others)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife who filed a Hindu Marriage Petition seeking divorce. The trial court granted the decree for divorce, which was reversed by the first appellate court. This appeal is to challenge that reversal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging cruelty to prove that the other party has treated them with cruelty.",
+      "held": "The evidence of plaintiff's witnesses was more probable and a case was made out for grant of divorce on the ground of cruelty as also on the ground of desertion.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where cruelty is alleged"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's written statement must be consistent with their oral evidence, and if it is silent on a particular issue, the oral evidence on that issue may not be admissible.",
+      "held": "The written statement was silent with respect to demand of motorcycle and, therefore, the oral evidence with respect to the alleged demand was not admissible.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "written statement",
+        "oral evidence",
+        "consistency"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases where written statements and oral evidence are used"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is partly allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal partly allowed",
+    "final_order": "The final court order partly allows the appeal and sets aside the previous judgment.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "maintenance",
+    "alimony",
+    "custody",
+    "minor children",
+    "natural guardian",
+    "family court",
+    "Section 125 CrPC",
+    "Section 9 HMA",
+    "Section 13 HMA",
+    "Section 23 HMA",
+    "Latin maxim: Nemo dat quod non habet",
+    "Nagpur Bench",
+    "Bombay High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "representing clients in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:53:40.811525"
 }

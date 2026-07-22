@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:05:11.349760",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -25,13 +25,13 @@
     "B.N. Karia J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court NO.3, Ahmedabad in Family suit NO.894/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sanjay Bachubhai Sharma vs Pranalinaben W/O Sanjaybhai Sharma on 5 May, 2022",
+  "case_name": "Sanjay Bachubhai Sharma vs Pranalinaben W/O Sanjaybhai Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjay Bachubhai Sharma (husband)",
+    "respondent_defendant": "Pranalinaben W/O Sanjaybhai Sharma (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is an advocate at the Metro Court and since 2005, he is residing in Canada and doing job. He has obtained divorce through court from his earlier wife and as he was in need of a partner, he had given an advertisement for marriage in newspaper.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The principle of res-judicata applies to prevent multiplicity of proceedings in civil and criminal courts.",
+      "held": "Had it been the case that the respondent had not preferred Family Suit No.2446 of 2018, then her application under Section 19 read with Section 26 of the Act in petitioner's Family Suit No.894 of 2019 could have been entertained, but in the present case the very same court has rejected the Exh.5 application of the respondent in Family Suit No.2446 of 2018 and the suit itself is dismissed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005 — Section 19",
+        "Protection of Women from DV Act, 2005 — Section 26"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "res-judicata",
+        "multiplicity of proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family suits",
+        "civil and criminal courts"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "To invoke section 19 of the Act, there should be prima facie occurrence of Domestic Violence and the subject matter property should be shared-household.",
+      "held": "Two basic criteria for invoking section 19 of the Act are (a) There should be prima facie occurrence of Domestic Violence Act and (b) The subject matter property should be shared-household.",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act, 2005 — Section 19"
+      ],
+      "cited_cases": [
+        "Satish Chander Ahuja Vs. Sneha Ahuja",
+        "Vibhuti Wadhwa Sharma Vs. Krishna Sharma and Anr."
+      ],
+      "keywords": [
+        "Domestic Violence",
+        "shared-household"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family suits",
+        "DV cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The judgment and order passed by the learned Family Court no.3, Ahmedabad in Family suit NO.894/2019 was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Protection of Women from DV Act",
+    "2005",
+    "Section 12",
+    "Section 13",
+    "Section 14",
+    "Section 15",
+    "Section 16",
+    "Section 17",
+    "Section 18",
+    "Section 19",
+    "Section 20",
+    "Section 21",
+    "Section 22",
+    "Section 23",
+    "Section 24",
+    "Section 25"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "advising on Protection of Women from DV Act, 2005",
+    "assisting in Section 12-25 applications"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:55:50.389488"
 }

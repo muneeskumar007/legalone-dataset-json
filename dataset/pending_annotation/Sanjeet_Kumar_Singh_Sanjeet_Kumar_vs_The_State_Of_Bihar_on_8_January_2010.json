@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:20.539383",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "custody": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Vaishali at Hajipur (Cr.Misc. No.38035 of 2009)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sanjeet Kumar Singh @ Sanjeet Kumar vs The State Of Bihar on 8 January, 2010",
+  "case_name": "Sanjeet Kumar Singh @ Sanjeet Kumar v. The State Of Bihar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjeet Kumar Singh @ Sanjeet Kumar (husband)",
+    "respondent_defendant": "The State Of Bihar",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife was suffering from some sort of mental disability or insanity; petitioner sought dissolution of marriage on this ground.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court cannot act upon a submission without acceptable material, especially when the draft of the Matrimonial Petition brands the lady as a person suffering from psychopathic disorder.",
+      "held": "It is very difficult to act upon the submission of the petitioner made before the Principal Judge in absence of any acceptable material, specially, when the draft of the Matrimonial Petition brands the lady as a person suffering from psychopathic disorder which, to me, is a very serious mental disorder.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "psychopathic disorder",
+        "mental disorder",
+        "acceptable material"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court cannot accept a serious mental disorder without valid medical check up by some organized institutions or experts.",
+      "held": "Whether it is a truth or it is simply a ploy to crate a ground for dissolving the marriage is not yet known to the courts inasmuch as there is no order placed before me that indeed the lady suffers from any of the disabilities or mental illness.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 5"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "valid medical check up",
+        "organized institutions",
+        "experts"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court directed the trial court to secure the appearance of the lady and verify the factual correctness of the averment of the petitioner in his Matrimonial Petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 5",
+    "matrimonial petition",
+    "insanity",
+    "psychopathic disorder",
+    "mental disability",
+    "dissolution of marriage",
+    "Family Court",
+    "Vaishali",
+    "Principal Judge",
+    "marriage dissolution",
+    "mental health",
+    "medical check up",
+    "organized institutions",
+    "experts",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for dissolution of marriage",
+    "advising on mental health issues in family law cases",
+    "conducting research on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:02:17.502551"
 }

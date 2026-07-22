@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:05:35.058988",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "13.09.2022",
   "delivered_on": "21-10-2022",
-  "case_name": "Sarang Diwakar Amle And Others vs The State Of Maharashtra And Another on 21 October, 2022",
+  "case_name": "Sarang Diwakar Amle And Others vs The State Of Maharashtra And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sarang Diwakar Amle, Saroj Diwakar Amle, Dipti Ashutosh Athalye (husband, mother, sister-in-law)",
+    "respondent_defendant": "The State of Maharashtra, Shruti Sarang Amle alias Shruti Shantaram Palnitkar (state, wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage expenses were borne by respondent No.2's father; applicants treated her poorly after a month; FIR lodged for offences punishable under Sections 498-A, 323, 504, 506 read with Section 34 of IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the person making allegations to prove them.",
+      "held": "After dissolution of marriage on 11.04.2019, present applicant No.1 has performed marriage with respondent No.2 on 12.12.2019. Her stay with the applicants was very much short.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sarang Diwakar Amle And Others vs The State Of Maharashtra And Another, (2022)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "allegations",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's past behavior can be considered in determining the credibility of their allegations.",
+      "held": "Respondent No.2 is in habit of making such allegations.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sarang Diwakar Amle And Others vs The State Of Maharashtra And Another, (2022)"
+      ],
+      "keywords": [
+        "credibility",
+        "allegations"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR bearing Crime No.341 of 2020 registered with Bhagyanagar Police Station, Dist. Nanded is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Protection of Women from DV Act",
+    "Specific Relief Act",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "domestic violence",
+    "DV",
+    "alimony",
+    "maintenance",
+    "custody",
+    "matrimonial dispute",
+    "family law",
+    "marriage",
+    "separation",
+    "divorce proceedings",
+    "judgment",
+    "order",
+    "appeal",
+    "review"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing DV case",
+    "composing alimony order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:18:48.665220"
 }

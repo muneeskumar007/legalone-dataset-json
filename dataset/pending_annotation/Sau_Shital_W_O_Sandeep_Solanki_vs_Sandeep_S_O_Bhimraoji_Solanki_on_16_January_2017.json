@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:59.394621",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sau. Shital W/O Sandeep Solanki vs Sandeep S/O Bhimraoji Solanki on 16 January, 2017",
+  "case_name": "Sau. Shital W/O Sandeep Solanki vs Sandeep S/O Bhimraoji Solanki",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sau. Shital W/O Sandeep Solanki (wife)",
+    "respondent_defendant": "Sandeep s/o Bhimraoji Solanki (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife has approached the court under Section 24 of the Code of Civil Procedure, praying that the proceedings of a petition filed by her husband against her under Section 13(1)(i-a) of the Hindu Marriage Act, 1955 before the Family Court, Nagpur be transferred to the Court of Civil Judge, Senior Division, Darwha.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish that the transfer of proceedings is necessary.",
+      "held": "It is not disputed that the wife has approached this Court under Section 24 of the Code of Civil Procedure, praying for transfer of the proceedings. The burden lies on the applicant to establish that the transfer of proceedings is necessary.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "proceedings",
+        "burden",
+        "applicant"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The financial condition of the wife is a relevant factor in considering the transfer of proceedings.",
+      "held": "It is stated that the financial condition of the wife is not such that she can afford to attend the proceedings at Nagpur.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "financial",
+        "condition",
+        "wife",
+        "proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The miscellaneous civil application is dismissed with liberty to the applicant to file fresh proper application, if so advised. The parties are directed to bear their own costs.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i-a)",
+    "Code of Civil Procedure",
+    "Section 24",
+    "Indian Penal Code",
+    "Criminal Procedure",
+    "Family Court",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "joint family",
+    "separation",
+    "annulment",
+    "nullity"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in matrimonial disputes",
+    "assisting with property division"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:51:45.508956"
 }

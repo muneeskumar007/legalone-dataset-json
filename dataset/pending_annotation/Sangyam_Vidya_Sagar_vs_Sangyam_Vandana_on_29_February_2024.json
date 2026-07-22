@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:09.546701",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -27,13 +27,13 @@
     "O.P.No.907 of 2017",
     "O.P.No.374 of 2014"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court-cum-Additional Chief Judge, City Civil Court, Hyderabad, O.P.No.907 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sangyam Vidya Sagar vs Sangyam Vandana on 29 February, 2024",
+  "case_name": "Sangyam Vidya Sagar vs Sangyam Vandana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sangyam Vidya Sagar, husband",
+    "respondent_defendant": "Sangyam Vandana, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married on 12.02.2017. The husband filed a petition under Section 12 (2) (b) (i) of Hindu Marriage Act to annul the marriage on grounds of cheating with dishonest intention and fraud played by the wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage can be annulled if the consent of the petitioner was obtained by fraud.",
+      "held": "Therefore, by virtue of amendment dated 01.10.1978, or 'fraud' as to the nature of the ceremony or as to any material fact or circumstance concerning the respondent was included in Section 12 (1) (c) of the Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "fraud",
+        "marriage annulment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's willingness to lead a marital life with the other party is relevant in determining the validity of the marriage.",
+      "held": "I want to lead marital life with the appellant, for the sake of society to maintain respect in the society.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "marital life",
+        "willingness"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "This appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's order and decree dated 13.03.2020 were set aside, and the appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "annulment of marriage",
+    "cheating with dishonest intention",
+    "fraud",
+    "suppressed earlier marriage",
+    "decree of divorce",
+    "O.P.No.374 of 2014",
+    "O.P.No.907 of 2017",
+    "Sections 12 (2) (b) (i)",
+    "Latin maxim: Falsus in uno, falsus in omnibus",
+    "divorce by fraud",
+    "marriage annulment",
+    "family court",
+    "civil court",
+    "Hyderabad"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for annulment of marriage due to fraud",
+    "advising client on grounds for divorce by fraud",
+    "researching case law on suppressed earlier marriages"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:54:09.581498"
 }

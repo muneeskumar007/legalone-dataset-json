@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Satish Kumar vs State Of Haryana And Others on 1 April, 2009",
+  "case_name": "Satish Kumar vs State Of Haryana And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Satish Kumar, father and natural guardian",
+    "respondent_defendant": "State of Haryana and others (including Ramesh Kumar)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's daughter Mamta Rani is missing since 4/5.3.2009 and allegedly abducted by Ramesh Kumar, who has been charged with offences under Sections 363 and 366 IPC. Petitioner seeks a writ in the nature of Habeas Corpus to recover his daughter.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The age of the bride would be a relevant factor for consideration of initiation of action against the respondent under Section 18 of the Act or under the provisions of the Child Marriage Restraint Act.",
+      "held": "The age of Mamta Rani would be a relevant factor for consideration of initiation of action against respondent No.4 under Section 18 of the Act or under the provisions of the Child Marriage Restraint Act and for the said purpose it would be required to establish that Mamta Rani is less than 18 years of age.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5"
+      ],
+      "cited_cases": [
+        "S. Varadarajan v. State of Madras, AIR 1965 SC 942"
+      ],
+      "keywords": [
+        "age",
+        "marriage",
+        "child marriage",
+        "kidnapping"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The question whether the marriage between two parties is valid or not in view of a dispute in age of one party is not to be gone into in exercise of the writ jurisdiction of this Court.",
+      "held": "The question whether the marriage between Mamta Rani (detenue) and Ramesh Kumar (respondent No.4) is valid or not in view of the dispute in age of Mamta Rani is not to be gone into in exercise of the writ jurisdiction of this Court under Articles 226/227 of the Constitution of India.",
+      "applicable_acts_sections": [
+        "Constitution of India — Articles 226/227"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "writ jurisdiction",
+        "marriage validity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "writ petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ dismissed",
+    "final_order": "The petition is dismissed. The detenue has stated that she has solemnized her marriage with Ramesh Kumar (respondent No.4) of her own free will and desire, and wants to live with him.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "divorce",
+    "marriage",
+    "free will",
+    "desire",
+    "Habeas Corpus",
+    "custody",
+    "alleged",
+    "petitioner",
+    "respondents",
+    "detenue",
+    "statement",
+    "Articles 226/227",
+    "Constitution of India",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on custody disputes",
+    "representing clients in habeas corpus cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:35:30.685468"
 }

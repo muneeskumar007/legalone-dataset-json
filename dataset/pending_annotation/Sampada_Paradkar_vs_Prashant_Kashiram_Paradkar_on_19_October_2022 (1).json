@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:06.504305",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "custody": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bandra, Mumbai (FCA No.65 of 2021)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sampada Paradkar vs Prashant Kashiram Paradkar on 19 October, 2022",
+  "case_name": "Sampada Paradkar vs Prashant Kashiram Paradkar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sampada Paradkar (wife)",
+    "respondent_defendant": "Prashant K. Paradkar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife challenged the order granting divorce and custody to respondent-husband. The trial court allowed the petition and granted decree of divorce under Section 13(1)(ia)(ib) of Hindu Marriage Act. The appeal was filed against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may grant decree of divorce under Section 13(1)(ia)(ib) of the Hindu Marriage Act.",
+      "held": "By this order, the Petition was allowed and decree of divorce was granted under Section 13(1)(ia)(ib) of the Hindu Marriage Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "Hindu Marriage Act",
+        "Section 13"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may direct custody of the child to be handed over forthwith or in a phase-wise manner.",
+      "held": "However, instead of directing the custody of the child to be handed over forthwith, it was directed that it would be shifted in a phase-wise manner.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "child custody",
+        "phase-wise manner"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "custody disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal was dismissed as no orders could be passed in the applications filed by both parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "irretrievable breakdown",
+    "marital status",
+    "separation",
+    "maintenance",
+    "custody",
+    "joint family",
+    "matrimonial home",
+    "family court",
+    "Bandra",
+    "Mumbai",
+    "petition",
+    "appeal",
+    "interim application",
+    "interim order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to interim application",
+    "appealing family court decision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:43:49.145352"
 }

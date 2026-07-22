@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:31.263369",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "murder_criminal": 1,
@@ -19,13 +19,13 @@
     "Gurvinder Singh Gill J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Chief Judicial Magistrate, Ludhiana, CRM-M-11517-2018 (O&M)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sarabjit Kaur vs Kultar Singh on 15 October, 2019",
+  "case_name": "Sarabjit Kaur vs Kultar Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sarabjit Kaur, wife",
+    "respondent_defendant": "Kultar Singh, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial discord between the parties. One FIR was registered against Kultar Singh for offences under Sections 406, 498-A, 323 IPC. He was acquitted. An application under Section 340 Cr.P.C. was filed by Kultar Singh seeking initiation of proceedings against Sarabjit Kaur on the ground that false evidence had been furnished by her.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties are at liberty to move a fresh petition under Section 13-B of Hindu Marriage Act seeking dissolution of marriage by decree of divorce by mutual consent.",
+      "held": "In view of the aforesaid statement made by petitioner's counsel, who is accompanied by the petitioner, the matter is adjourned to 15.10.2019.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "mutual consent",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties would be at liberty to move application under Section 13-B(2) of Hindu Marriage Act for waiving of the mandatory cooling off period.",
+      "held": "The parties would be at liberty to move application under Section 13-B(2) of Hindu Marriage Act for waiving of the mandatory cooling off period which shall be considered sympathetically by the Trial Court keeping in view the checkered history of the case.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B(2)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cooling off period",
+        "waiving",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage is dissolved by way of a decree of divorce by mutual consent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Specific Relief Act",
+    "matrimonial discord",
+    "FIR",
+    "IPC",
+    "Sections 193 and 195",
+    "Sections 406, 498-A, 323",
+    "Chief Judicial Magistrate",
+    "Ludhiana",
+    "Police Station Focal Point",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to FIR",
+    "appealing against Chief Judicial Magistrate's order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:16:49.653492"
 }

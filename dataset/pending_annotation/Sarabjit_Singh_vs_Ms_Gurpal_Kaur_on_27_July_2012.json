@@ -7,7 +7,7 @@
   "total_pages": 22,
   "extracted_at": "2026-07-15T11:05:33.996689",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "cheque_bounce": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "27.07.2012",
-  "case_name": "Sarabjit Singh vs Ms. Gurpal Kaur on 27 July, 2012",
+  "case_name": "Sarabjit Singh vs Ms. Gurpal Kaur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sarabjit Singh, husband",
+    "respondent_defendant": "Ms. Gurpal Kaur, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -85,7 +85,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2002 and had a child. They filed for divorce by mutual consent under Section 13(B)(1) of the Hindu Marriage Act, 1955. The trial court recalled its earlier judgment and decree dated 22.4.2008 on an application moved by the respondent wife under Section 151 CPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -95,39 +95,116 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Fraud vitiates everything and any benefit or advantage acquired by any party through fraudulent acts cannot be allowed to be retained by such party.",
+      "held": "The counsel argued that the law in this regard is well established that fraud vitiates everything and any benefit or advantage acquired by any party through fraudulent acts cannot be allowed to be retained by such party.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "fraud",
+        "benefit",
+        "advantage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The judgment of the Court is final and conclusive as to what was argued before it and not what could be argued before it.",
+      "held": "The counsel thus submitted that it is trite that the judgment of the Court is final and conclusive as to what was argued before it and not what could be argued before it.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "judgment",
+        "conclusive"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The opinion of the expert is straightway admissible even in the absence of examination of such expert witness in the witness box.",
+      "held": "Counsel also submitted that the arguments raised by the counsel for the appellant husband that the report of the handwriting expert could not have been used without corroboration is completely misplaced as the opinion of the expert is straightway admissible even in the absence of examination of such expert witness in the witness box.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "expert",
+        "opinion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The Court has ample powers to compare the admitted writings and signatures with the disputed signatures and handwritings of any party to the suit or witness.",
+      "held": "Counsel further submitted that by virtue of Section 73 of the Evidence Act, 1872 the Courts have ample powers to compare the admitted writings and signatures with the disputed signatures and handwritings of any party to the suit or witness and while doing so, the court can also take the help of any other corroborative evidence including the opinion of handwriting expert and then form its own opinion.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Court",
+        "powers",
+        "writings",
+        "signatures"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the impugned order dated 22.7.2009 passed by the learned Additional District Judge is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13(B)(1)",
+    "mutual consent divorce",
+    "recalling judgment",
+    "judgment and decree",
+    "Section 28",
+    "CPC",
+    "Code of Civil Procedure",
+    "Indian Evidence Act",
+    "divorce by mutual consent",
+    "solemnization of marriage",
+    "living together",
+    "last residence",
+    "DDA Flats Kalkaji",
+    "New Delhi",
+    "Gurgaon",
+    "Hindu rites and ceremonies"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce by mutual consent",
+    "recalling judgment in family court",
+    "appealing against judgment and decree"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:17:59.939593"
 }

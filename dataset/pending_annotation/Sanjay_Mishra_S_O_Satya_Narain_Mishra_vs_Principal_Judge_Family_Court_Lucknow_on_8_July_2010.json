@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:05:12.118195",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2
   },
@@ -17,13 +17,13 @@
     "Would J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Lucknow — Case No. - 2189 of 2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sanjay Mishra S/O Satya Narain Mishra vs Principal Judge, Family Court, Lucknow on 8 July, 2010",
+  "case_name": "Sanjay Mishra S/O Satya Narain Mishra v. Principal Judge, Family Court, Lucknow",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjay Mishra S/O Satya Narain Mishra (husband)",
+    "respondent_defendant": "Principal Judge, Family Court, Lucknow",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife filed an application under Section 151 CPC before the Family Court to set aside a judgment and decree dated 22.10.2008. A restraint order was passed on 13.1.2010 without notice or hearing to the petitioner.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,56 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A party seeking vacation of an order must be given a hearing.",
+      "held": "Counsel for the petitioner submitted that the interest of justice would suffice if the hearing of the Misc. Case No. 21 of 2009 is expedited and the application for vacation is heard on the date fixed i.e. 9.7.2010.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "vacation",
+        "hearing"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The Family Court is directed to make earnest endeavour to dispose of the application by 9.7.2010 and in case, the same is not disposed of on that date, it shall be disposed of by 31st July, 2010.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "ex-parte order",
+    "restraint order",
+    "vacation of order",
+    "notice",
+    "hearing",
+    "infirmities",
+    "interest of justice",
+    "Family Court",
+    "Code of Civil Procedure",
+    "Section 151 CPC",
+    "Misc. Case No.",
+    "regular suit",
+    "judgment and decree"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to ex-parte orders",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:58:12.965869"
 }

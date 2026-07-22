@@ -44,21 +44,48 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The degree of proof required in matrimonial cases arising out of the matrimonial proceedings in the Civil cases and in respect of criminal offences would defer from each other.",
+      "held": "Mr. Sapkal seeks to rely on 'Bhaurao Bhaurao Shankar Lokhande and another v. The State of Maharashtra and another', (AIR 1965 S.C. 1564).",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 494"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Bhaurao Bhaurao Shankar Lokhande and another v. The State of Maharashtra and another, (AIR 1965 S.C. 1564)"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial cases",
+        "civil cases",
+        "criminal offences"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce case",
+        "family law dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM — one reason why",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The proof of a marriage must have faded due to passage of such long drawn period.",
+      "held": "The marriage under the Hindu law is sacred ceremony. The averments in the present case would show that the marriage was allegedly performed somewhere in the year 1957.",
+      "applicable_acts_sections": [
+        "Hindu law"
+      ],
+      "cited_cases": [
+        "Ranganath Ranganath Parmeshwar Panditrao Mali and other v. Eknath Gajanan Kulkarni and another, AIR 1996 S.C. 1290"
+      ],
+      "keywords": [
+        "marriage",
+        "proof",
+        "passage of time"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce case",
+        "family law dispute"
+      ],
+      "significance": "MEDIUM — one reason why",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -68,15 +95,36 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "separate maintenance allowance",
+    "charge of maintenance",
+    "adoption",
+    "family court",
+    "civil suit",
+    "special civil suit",
+    "judgment",
+    "appeal",
+    "high court",
+    "bombay high court",
+    "aurangabad bench",
+    "family law",
+    "marriage",
+    "property rights",
+    "maintenance allowance",
+    "separation",
+    "family disputes"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "preparing a maintenance application",
+    "advising on family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:42:19.976120"
 }

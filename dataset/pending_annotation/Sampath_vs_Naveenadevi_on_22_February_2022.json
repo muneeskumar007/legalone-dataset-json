@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:06.879593",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -31,10 +31,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sampath vs Naveenadevi on 22 February, 2022",
+  "case_name": "Sampath vs Naveenadevi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sampath (husband)",
+    "respondent_defendant": "Naveenadevi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent/wife filed FCOP.No.107 of 2016 before the Family Court seeking divorce under Section 12(1)(c) of the Hindu Marriage Act. The marriage performed between the petitioner and the respondent was declared null and void by the Family Court. The petitioner filed an appeal against the order, which was admitted on 28.11.2019.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to establish wilful disobedience of a court order.",
+      "held": "It is the case of the petitioner/husband that he filed an appeal against the order of the Family Court and the same was admitted on 28.11.2019 and an interim stay was granted.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "wilful disobedience",
+        "court order",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party must establish that the order of stay granted in CMP.No.25485 of 2019 was communicated to the respondent.",
+      "held": "However, in the affidavit, there is no averment that the order of stay granted in CMP.No.25485 of 2019 was communicated to the respondent and there is material to establish the same.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "order of stay",
+        "communication"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Contempt petition closed",
+    "final_order": "There is no wilful disobedience of the order dated 28.11.2019 passed in CMP.No.25485 of 2019 in CMA.No.4508 of 2019.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "contempt of court",
+    "wilful disobedience",
+    "null and void",
+    "marriage nullity",
+    "family court",
+    "Section 12(1)(c)",
+    "FCOP",
+    "CMA",
+    "CMP",
+    "Contempt Petition",
+    "Indian Kanoon",
+    "Family Court judgment",
+    "marriage performed",
+    "petition filed"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "contempt of court proceedings",
+    "family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:46:00.924211"
 }

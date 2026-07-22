@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:20.433181",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Neena Bansal Krishna J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, South-West District, Family Court, Dwarka, New Delhi (HMA No. 1496/2017)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sanjeet Kharb vs Rekha on 20 July, 2023",
+  "case_name": "Sanjeet Kharb vs Rekha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjeet Kharb, husband",
+    "respondent_defendant": "Rekha, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2009 but had no child. The husband worked with SSB and the wife refused to accompany him. They separated in 2011 after the wife lodged an FIR against the husband and his family members.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse's failure to join the other at their place of postings can be considered a ground for divorce.",
+      "held": "The respondent has failed to join the appellant at his place of postings, and this is a ground for divorce.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "spouse",
+        "place of postings",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A respondent's admission to an adulterous relationship during the subsistence of their marriage can be considered a ground for divorce.",
+      "held": "The respondent has admitted that she is in an adulterous relationship with Mr. Rakesh Singh, and this is a ground for divorce.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "adultery",
+        "marriage",
+        "divorce"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's order dismissing the petition for divorce was upheld, and the respondent's petition for restitution of conjugal rights was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "Section 13(1)(ia)",
+    "conjugal rights",
+    "restitution",
+    "SSB",
+    "Head Constable",
+    "Protection of Women from DV Act",
+    "Code of Civil Procedure",
+    "Section 19",
+    "Section 151",
+    "Family Court",
+    "Dwarka",
+    "New Delhi",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on conjugal rights",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:01:32.806488"
 }

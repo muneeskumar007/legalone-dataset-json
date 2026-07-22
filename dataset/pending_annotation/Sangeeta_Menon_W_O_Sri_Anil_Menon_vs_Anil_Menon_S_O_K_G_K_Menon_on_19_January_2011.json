@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:09.147683",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sangeeta Menon W/O Sri. Anil Menon vs Anil Menon S/O K.G.K. Menon on 19 January, 2011",
+  "case_name": "Sangeeta Menon W/O Sri. Anil Menon vs Anil Menon S/O K.G.K. Menon",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sangeeta Menon, wife",
+    "respondent_defendant": "Sri Anil Menon, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks to set aside order dated 14.12.09 passed by Family Court, Bangalore, in M.C. No.2068/2007. Petitioner claims monthly maintenance and litigation expenses from respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the wife to prove that she is unable to maintain herself and her child.",
+      "held": "The Court has proceeded to hold that the wife was left with no source of maintenance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "wife",
+        "child"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A wife's salary is not sufficient to maintain herself and her child if she has to pay rent for the house.",
+      "held": "The amount earned by the wife was no longer sufficient to maintain herself and to take care of the child.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "salary",
+        "maintenance",
+        "house"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Court directed respondent to pay Rs.25,000/- towards monthly maintenance and Rs.15,000/- towards litigation expenses.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 24",
+    "maintenance",
+    "litigation expenses",
+    "monthly allowance",
+    "marriage dissolution",
+    "spousal support",
+    "family law",
+    "Indian Kanoon",
+    "Articles 226 and 227",
+    "petition for maintenance",
+    "matrimonial dispute",
+    "judicial separation",
+    "property settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on spousal support",
+    "assisting with property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:52:36.920568"
 }

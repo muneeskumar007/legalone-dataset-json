@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:12.026626",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Principal Judge, Family Court, Mathura in Matrimonial Case No. 1127 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sanjay Kumar vs Smt. Reeta Gautam on 24 May, 2023",
+  "case_name": "Sanjay Kumar vs Smt. Reeta Gautam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjay Kumar (husband)",
+    "respondent_defendant": "Smt. Reeta Gautam (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent wife claimed lack of means to survive and applied for interim maintenance. The trial court awarded monthly maintenance to the respondent @ Rs. 5,000/- per month and to three minor daughters @ Rs. 2,000/- each, per month. The appellant husband appealed against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,116 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Some money is necessary to be provided in such circumstances to ensure that human dignity and life are preserved.",
+      "held": "No human-being may survive in the modern times except on the minimal financial support/means.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "human dignity",
+        "financial support",
+        "minimum needs"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court must ensure that the minimum amount may be delivered to the respondent from the date of her application.",
+      "held": "How the respondent may have survived against loans or money given out of love and affection in the dire circumstances.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "date of application"
+      ],
+      "favours": "respondent",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Court should not dictate how the appellant may arrange his affairs and how he may choose to spend his salary.",
+      "held": "How the appellant may arrange his affairs and how he may chose to spend his salary is not for the Court to dictate.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "salary",
+        "personal finance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The award of monthly maintenance should be reasonable and sufficient for the dependents' minimum needs.",
+      "held": "One-fourth of that amount has deservedly been awarded to those dependents.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "monthly maintenance",
+        "minimum needs"
+      ],
+      "favours": "respondent",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order modified the trial court's award of monthly maintenance from Rs. 11,000/- to a lower amount.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19",
+    "Section 24",
+    "monthly maintenance",
+    "matrimonial case",
+    "maintenance allowance",
+    "legal fee",
+    "expense",
+    "appellant",
+    "respondent",
+    "wife",
+    "minor daughters",
+    "salary",
+    "judgment",
+    "appeal",
+    "first appeal",
+    "High Court of Judicature at Allahabad"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce appeal",
+    "guidelines for calculating maintenance allowance",
+    "practical tips for family court cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:57:32.883322"
 }

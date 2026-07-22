@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:05:03.508533",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "murder_criminal": 3,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sairaj Bhanudas Gade And Others vs The State Of Maharashtra And Another on 12 April, 2022",
+  "case_name": "Sairaj Bhanudas Gade And Others vs The State Of Maharashtra And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sairaj S/O Bhanudas Gade and others (husband, wife, etc.)",
+    "respondent_defendant": "The State of Maharashtra and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties arrived at an amicable settlement to end marital ties. Husband filed a petition for divorce in Family Court, Aurangabad. Parties agreed on terms including permanent alimony.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,94 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power of the High Court in quashing a criminal proceeding is distinct and different from the power given to a criminal court for compounding the offences.",
+      "held": "The position that emerges from the above discussion can be summarised thus: The power of the High Court in quashing a criminal proceeding or FIR or complaint in exercise of its inherent jurisdiction is distinct and different from the power given to a criminal court for compounding the offences under Section 320 of the Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab and others, (2007) 4 CTC 769",
+        "Sairaj Bhanudas Gade And Others vs The State Of Maharashtra And Another on 12 April, 2022"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceeding",
+        "High Court",
+        "compounding",
+        "offences"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type 1: matrimonial disputes",
+        "case type 2: family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — significance in quashing criminal proceedings",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Heinous and serious offences of mental depravity or offences like murder, rape, dacoity, etc. cannot be fittingly quashed even though the victim or victim's family and the offender have settled the dispute.",
+      "held": "Such offences are not private in nature and have serious impact on society.",
+      "applicable_acts_sections": [
+        "Code"
+      ],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab and others, (2007) 4 CTC 769",
+        "Sairaj Bhanudas Gade And Others vs The State Of Maharashtra And Another on 12 April, 2022"
+      ],
+      "keywords": [
+        "heinous",
+        "serious",
+        "offences",
+        "quashing",
+        "settlement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type 1: serious criminal cases",
+        "case type 2: heinous crimes"
+      ],
+      "significance": "HIGH — significance in quashing criminal proceedings",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Quashing of FIR and proceedings sought and granted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "amicable settlement",
+    "Hindu Marriage Act",
+    "quashing of FIR",
+    "Sections 323",
+    "498-A",
+    "504",
+    "r.w. 34 I.P.C.",
+    "Judicial Magistrate",
+    "First Class",
+    "Aurangabad",
+    "Indian Penal Code",
+    "IPC",
+    "Magistrate's Court",
+    "Criminal Application",
+    "High Court",
+    "Bombay Bench",
+    "Aurangabad",
+    "Family Dispute",
+    "Marriage Dissolution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce settlement agreement",
+    "quashing FIR in family dispute",
+    "appealing Magistrate's court decision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:37:59.270308"
 }

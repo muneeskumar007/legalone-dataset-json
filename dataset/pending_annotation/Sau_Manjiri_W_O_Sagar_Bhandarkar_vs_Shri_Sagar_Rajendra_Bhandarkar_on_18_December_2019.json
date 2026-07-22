@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:54.169879",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1
   },
@@ -18,10 +18,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sau. Manjiri W/O Sagar Bhandarkar vs Shri Sagar Rajendra Bhandarkar on 18 December, 2019",
+  "case_name": "Sau. Manjiri W/O Sagar Bhandarkar vs Shri Sagar Rajendra Bhandarkar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sau. Manjiri W/O Sagar Bhandarkar (wife)",
+    "respondent_defendant": "Shri Sagar Rajendra Bhandarkar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are the wife and husband, who have a dispute related to divorce. The matter is before the High Court of Judicature at Bombay.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Notice of appeal is not required to be sent to the respondent when the respondent has put in appearance through an advocate.",
+      "held": "As the respondent is served and has put in appearance through advocate, hence, notice of this appeal is not required to be sent to the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appeal",
+        "notice",
+        "respondent",
+        "advocate"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce appeal"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Advocate for the appellant shall send a copy of this order to the respondent.",
+      "held": "Advocate for the appellant shall send copy of this order to the respondent and his advocate.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "order",
+        "respondent",
+        "advocate"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce appeal"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal admitted",
+    "final_order": "Notice was put to the respondent that he cannot re-marry till disposal of this appeal, and the advocate for the appellant shall send a copy of this order to the respondent and his advocate by Speed Post.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "irretrievable breakdown",
+    "marriage",
+    "spouse",
+    "separation",
+    "maintenance",
+    "alimony",
+    "custody",
+    "child",
+    "parent",
+    "family court",
+    "appeal",
+    "judgment",
+    "decree",
+    "nullity",
+    "voidable",
+    "void"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "preparing family court judgment",
+    "advising on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:45:28.254074"
 }

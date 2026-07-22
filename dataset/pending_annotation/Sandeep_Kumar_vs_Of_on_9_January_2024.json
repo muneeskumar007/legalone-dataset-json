@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:05:07.806195",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 3,
@@ -23,13 +23,13 @@
     "Rakesh Kainthla J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bilaspur, H.P.",
   "reserved_on": "13.12.2023",
   "delivered_on": "",
   "case_name": "Sandeep Kumar vs Of on 9 January, 2024",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sandeep Kumar — husband",
+    "respondent_defendant": "Smt. Rajni Kumari & another — wife and another person",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife started beating him, demanding money to purchase a car. He gave beatings to her on 23.11.2020 in the presence of her mother. Petitioner filed a complaint before SHO, Women Police Station and a case under Section 12 of the Protection of Women from Domestic Violence Act was registered.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife has a reasonable cause to reside separately from her husband and claim maintenance where there is a reasonable apprehension in the mind of the wife that she would be physically harmed.",
+      "held": "It was observed: A clear perusal of this provision manifestly shows that it was meant to give a clear instance of circumstances which may be treated as a just ground for the refusal of the wife to live with her husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005"
+      ],
+      "cited_cases": [
+        "Sirajmohmedkhan Versus Hafizunnisa Yasinkhan AIR 1981 Supreme Court 1972"
+      ],
+      "keywords": [
+        "domestic violence",
+        "physical harm",
+        "reasonable apprehension"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "DV cases",
+        "maintenance claims"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court must consider the plea taken by a respondent that the petitioner is residing separately without any reasonable cause and there is no justification for granting maintenance.",
+      "held": "The learned Principal Judge, Family Court did not of consider the plea taken by the respondent that petitioner no.1 is residing separately from the respondent without any reasonable cause and there is no justification for grating the maintenance.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "reasonable cause",
+        "maintenance claims"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases",
+        "separation disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Interim maintenance of ₹5000/- was granted to respondent no. 1 (petitioner's wife) and ₹1500/- to respondent no. 2 from the date of filing of the application.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Section 125 CrPC",
+    "Protection of Women from DV Act",
+    "domestic violence",
+    "interim maintenance",
+    "Family Court",
+    "Hindu rites and customs",
+    "marriage",
+    "beating",
+    "demanding money",
+    "car purchase",
+    "CrPC",
+    "DV Act",
+    "High Court",
+    "revision petition",
+    "petition under Section 125 CrPC"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for maintenance under Section 125 CrPC",
+    "responding to a revision petition in a Family Court",
+    "advising on interim maintenance orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:48:54.194290"
 }

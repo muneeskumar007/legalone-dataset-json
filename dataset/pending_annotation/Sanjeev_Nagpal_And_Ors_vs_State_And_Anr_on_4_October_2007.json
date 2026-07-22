@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:05:23.743084",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sanjeev Nagpal And Ors. vs State And Anr. on 4 October, 2007",
+  "case_name": "Sanjeev Nagpal And Ors. vs State And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjeev Nagpal, husband, and others",
+    "respondent_defendant": "Sonia Nagpal, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Sanjeev Nagpal and Sonia Nagpal turned sour. They started living separately since June 2001. A complaint was filed by Sonia against Sanjeev and his family under Sections 498A/406/34 IPC. FIR No. 16/03 was registered. Parties entered into a written agreement to settle disputes.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Where a compromise is arrived at between the parties, and they have performed their obligations under it, the court may quash the complaint.",
+      "held": "We find it extremely difficult to accept this argument in the background of the fact that pursuant to the compromise deed the respondent-husband has given her a consent divorce which she wanted and thus had performed his part of obligation under the compromise deed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(B)(1)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Ruchi Agarwal v. Amit Kumar Agarwal and Ors., (2007)"
+      ],
       "keywords": [
-        "TODO"
+        "compromise",
+        "obligations",
+        "quash",
+        "complaint"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party who has received the relief they wanted without contest cannot now accept an argument that the compromise was obtained under coercion.",
+      "held": "We are of the opinion that appellant having received the relief she wanted without contest on the basis of the terms of the compromise, we cannot now accept the argument of the learned Counsel for the appellant.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(B)(1)"
+      ],
+      "cited_cases": [
+        "Ruchi Agarwal v. Amit Kumar Agarwal and Ors., (2007)"
+      ],
+      "keywords": [
+        "compromise",
+        "coercion",
+        "relief",
+        "contest"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Crl. M.C. 914/03 is restored.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "dowry",
+    "harassment",
+    "Hindu Marriage Act",
+    "498A IPC",
+    "FIR",
+    "quashing",
+    "Section 482 CrPC",
+    "Crl M.C.",
+    "Crl M.A.",
+    "istridhan",
+    "written agreement",
+    "separation",
+    "marriage",
+    "family law",
+    "criminal procedure"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs in domestic violence cases",
+    "advising on family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:05:28.983919"
 }

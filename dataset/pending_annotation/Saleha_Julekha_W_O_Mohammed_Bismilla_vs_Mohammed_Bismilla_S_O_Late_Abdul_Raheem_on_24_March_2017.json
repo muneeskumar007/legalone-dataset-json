@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:05:04.394796",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 3,
@@ -25,13 +25,13 @@
   "case_numbers": [
     "O.S.No.30/2013"
   ],
-  "trial_court": "",
+  "trial_court": "Dist. Judge Family Court Gulbarga, O.S. No.30/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Saleha Julekha W/O. Mohammed Bismilla vs Mohammed Bismilla S/O Late Abdul Raheem on 24 March, 2017",
+  "case_name": "Saleha Julekha W/O. Mohammed Bismilla vs Mohammed Bismilla S/O Late Abdul Raheem",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Suleha Julekha, wife",
+    "respondent_defendant": "Mohammed Bismilla, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiff and defendant got married in 2002, had two children, but defendant started quarreling without cause, neglected plaintiff and children, and went to her parents' house.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Hindu Marriage Act and its provisions are applicable only to Hindus and not to Muslims, Christians, Parsis, or Jews.",
+      "held": "On going through the above provision of law it indicates that the Hindu Marriage Act and its provisions are applicable only to Hindus and it is not applicable to Muslim, Christian, Parsi or Jew's.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 2"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Hindu",
+        "Marriage",
+        "Act",
+        "Applicability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving Hindu couples"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage celebrated under the personal law cannot be set right or restored by the law belonging to other religion.",
+      "held": "The parties will be governed by their personal law.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "personal law",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving interfaith marriages"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The judgment and decree passed in O.S. No.30/2013 dated 30.04.2014 were set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 9",
+    "Family Court Act",
+    "Section 19",
+    "Miscellaneous First Appeal",
+    "Gulbarga",
+    "Karnataka",
+    "High Court",
+    "Justice Aravind Kumar",
+    "Justice B.A. Patil",
+    "Mason Work",
+    "Masjid Saleheen Muslim Chowk",
+    "Ring Road",
+    "Mecca Colony"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "appealing against family court judgment in Karnataka",
+    "using Section 19 of Family Court Act for appeal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:39:36.012234"
 }

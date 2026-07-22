@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:48.869336",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Satya Veer Singh vs State Of Uttarakhand on 12 February, 2013",
+  "case_name": "Satya Veer Singh vs State Of Uttarakhand",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Satya Veer Singh, Ghasitu Singh, Attari Devi, Reena, Neetu (husband, father, mother, daughters)",
+    "respondent_defendant": "State of Uttarakhand, Anju (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners sought quashing of FIR registered under IPC sections 498A, 323, 504 and 506, and Dowry Prohibition Act. Petitioner's wife slapped him in court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to quash a criminal proceeding to demonstrate that the prosecution is malicious or that there are no reasonable grounds for the same.",
+      "held": "By means of this writ petition moved under Article 226 of Constitution of India, the petitioners have sought quashing of the First Information Report registered as Crime No. 08 of 2013, relating to offences punishable under section 498A, 323, 504 and 506 of I.P.C., and one punishable under section 3/4 of Dowry Prohibition Act, 1961, at Police Station Vikas Nagar, District Dehradun.",
       "applicable_acts_sections": [
-        "TODO"
+        "Constitution of India — Article 226"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceeding",
+        "malicious",
+        "reasonable grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking to quash a criminal proceeding must demonstrate that the prosecution is malicious or that there are no reasonable grounds for the same.",
+      "held": "The petitioners have sought quashing of the First Information Report registered as Crime No. 08 of 2013, relating to offences punishable under section 498A, 323, 504 and 506 of I.P.C., and one punishable under section 3/4 of Dowry Prohibition Act, 1961, at Police Station Vikas Nagar, District Dehradun.",
+      "applicable_acts_sections": [
+        "Constitution of India — Article 226"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "quashing",
+        "criminal proceeding",
+        "malicious",
+        "reasonable grounds"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Urgency Application No. 768 of 2013 is allowed. Interim measure: petitioners' relatives (petitioner no.2 to 5) shall not be arrested.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "498A IPC",
+    "323 IPC",
+    "504 IPC",
+    "506 IPC",
+    "quashing FIR",
+    "Article 226 Constitution",
+    "First Information Report",
+    "domestic violence",
+    "DV Act",
+    "marriage dissolution",
+    "matrimonial disputes",
+    "family law",
+    "Indian Penal Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs for domestic violence",
+    "advising on family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:38:28.157113"
 }

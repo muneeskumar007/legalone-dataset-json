@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:24.124556",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "murder_criminal": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sanju vs State Of U.P. And 2 Others on 16 March, 2023",
+  "case_name": "Sanju vs State Of U.P. And 2 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanju (husband?)",
+    "respondent_defendant": "State Of U.P. And 2 Others (wife? and others)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a writ petition to quash the impugned First Information Report dated 24.11.2022 in Case Crime No. 613 of 2022, under various IPC sections and Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the petitioner to establish that the impugned FIR is malafide.",
+      "held": "It is settled law that the court cannot quash a complaint or an FIR merely because it is alleged that the police officer has acted in a biased manner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section X"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "malafide",
+        "biased",
+        "petitioner",
+        "FIR"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court cannot quash a complaint or an FIR merely because it is alleged that the police officer has acted in a biased manner.",
+      "held": "",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "biased",
+        "FIR"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "domestic violence cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "writ petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ dismissed",
+    "final_order": "The writ petition is dismissed as having become infructuous.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498A",
+    "323",
+    "506",
+    "IPC",
+    "quashing",
+    "First Information Report",
+    "charge-sheet",
+    "infructuous",
+    "writ petition",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for quashing an FIR",
+    "advising on the implications of filing a charge-sheet",
+    "understanding the concept of infructuousness in Indian law"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:07:35.455962"
 }

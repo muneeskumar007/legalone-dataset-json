@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:05:37.845091",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Jyotsna J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Hamirpur, H.P. (HMA Petition no.51/2018 RBT 37 of 2020)",
   "reserved_on": "",
   "delivered_on": "27.03.2024",
-  "case_name": "Sarita Kapil vs Rajesh Kumar Kapil on 27 March, 2024",
+  "case_name": "Sarita Kapil vs Rajesh Kumar Kapil",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sarita Kapil (wife)",
+    "respondent_defendant": "Rajesh Kumar Kapil (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2006 and have a son. The husband filed for restitution of conjugal rights under Section 9 of the Hindu Marriage Act, 1955. The trial court allowed the application. The wife appealed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party alleging cruelty to prove specific instances of physical and verbal abuse.",
+      "held": "Though the appellant contended that she had stayed away from the respondent on account of physical and mental abuse meted out to her by the respondent, no specific instances of any physical violence and verbal abuse by the respondent had been put to her in her cross-examination.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "abuse"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's attitude towards their child can be an indicator of their commitment to the family.",
+      "held": "Her attitude was indifferent not only towards the respondent but also to her child.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "family",
+        "commitment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "child custody cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is preferred by the appellant challenging the judgment allowing the respondent's application for restitution of conjugal rights. The application for condonation of delay is allowed, and the appeal is disposed of.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "condonation of delay",
+    "bona-fide mistake",
+    "limitation period",
+    "appeal",
+    "family court",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "spousal rights",
+    "property division",
+    "maintenance",
+    "custody",
+    "joint family",
+    "separation",
+    "judicial separation",
+    "divorce proceedings"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:22:11.460811"
 }

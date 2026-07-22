@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:06:10.870999",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 4,
     "partition": 2,
@@ -23,13 +23,13 @@
     "O.S.No.90/2006",
     "sc.No.81/2016"
   ],
-  "trial_court": "",
+  "trial_court": "VIII Additional City Civil and Sessions Judge (CCH-15) at Bengaluru - O.S. No.6787/2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Savithramma G Alias P Savithri vs Lakshmi Devi P on 15 December, 2025",
+  "case_name": "Savithramma G Alias P Savithri vs Lakshmi Devi P",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt.G.Savithramma @ P.Savithri, W/o. Late P.Venkateswarulu, and Sri.P.V.Srinivas @ Srinivasa.V, S/o. Late P.Venkateswarulu",
+    "respondent_defendant": "Smt.P.Lakshmi Devi, Major, Sri.P.V.Sathish Kumar, Major, Sri.P.Subramanyam @ P.Subbarao, Major, and The Senior Divisional Security Commissioner, Railway Protection Force, South Western Railway",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiffs filed a suit against the defendants for declaration to declare that the plaintiff No.1 is the legally wedded wife and the plaintiff No.2 is the son of deceased P.Venkateshwarulu who was employee of the defendant No.4, and for permanent injunction restraining the defendant No.4 to disburse any amount to any person including the defendant Nos.1 to 3.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party seeking to establish a fact to prove it.",
+      "held": "Therefore, the documentary evidence and oral testimony available before the Court is sufficient to establish that P.Venkateshwarulu married the defendant No.1 on 7.8.1987 and from that wedlock, the defendant Nos.2 and 3 were born.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Savithramma G Alias P Savithri vs Lakshmi Devi P (2025)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "documentary evidence",
+        "oral testimony"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A subsequent development can affect the validity of a marriage.",
+      "held": "In view of this subsequent development, the parties are in dispute with regard to the validity of the marriage.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Savithramma G Alias P Savithri vs Lakshmi Devi P (2025)"
+      ],
+      "keywords": [
+        "subsequent development",
+        "marriage validity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The suit is decreed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The suit is decreed in favour of the plaintiffs.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "irretrievable breakdown",
+    "marriage",
+    "voidable",
+    "void",
+    "separation",
+    "cohabitation",
+    "residency",
+    "Andhra Pradesh",
+    "Bengaluru",
+    "Tumkur Road",
+    "Nagasandra",
+    "Dasarahalli",
+    "Railway Protection Force",
+    "South Western Railway",
+    "Kranthiveera Sangolli Rayanna Railway Station"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:59:06.395193"
 }

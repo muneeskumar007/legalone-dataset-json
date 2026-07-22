@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:05:29.651297",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge (J.D.), Kushinagar, Case No. 236 of 2017",
   "reserved_on": "",
   "delivered_on": "04.11.2020",
-  "case_name": "Santosh Kumar Jaiswal vs State Of U.P. And Another on 12 March, 2024",
+  "case_name": "Santosh Kumar Jaiswal vs State Of U.P. And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Santosh Kumar Jaiswal (husband)",
+    "respondent_defendant": "Vineeta Jaiswal (wife), State of U.P. and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -75,7 +75,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife moved an application under Section 12 of the Protection of Women from Domestic Violence Act, 2005, alleging domestic violence by her husband and in-laws. She claimed that she was subjected to physical and mental harassment, leading to a miscarriage and mental stress.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -85,39 +85,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance awarded under Section 12 of the D.V. Act is independent of other proceedings.",
+      "held": "There is no express or implied bar in the statute that once an order for maintenance under Section 125 of Cr.P.C is passed, no order under Section 12 of D.V. Act can be passed.",
       "applicable_acts_sections": [
-        "TODO"
+        "D.V. Act — Section 12",
+        "Cr.P.C — Section 125"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rajnesh Vs. Neha (supra)"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "independent proceedings",
+        "Section 12 D.V. Act",
+        "Section 125 Cr.P.C"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance applications"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Maintenance should be awarded from the date of filing of the application.",
+      "held": "It was made clear that maintenance in all cases shall be awarded from the date of filing the application.",
+      "applicable_acts_sections": [
+        "D.V. Act — Section 20"
+      ],
+      "cited_cases": [
+        "Rajnesh Vs. Neha (supra)"
+      ],
+      "keywords": [
+        "maintenance",
+        "date of filing",
+        "Section 20 D.V. Act"
+      ],
+      "favors": "aggrieved person",
+      "use_in": [
+        "domestic violence cases",
+        "maintenance applications"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order dated 11.04.2023 passed in Criminal Appeal No. 60 of 2019 was quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Section 482 Cr.P.C.",
+    "quashing",
+    "Criminal Appeal No. 60 of 2019",
+    "Vineeta Jaiswal",
+    "Santosh Kumar Jaiswal",
+    "domestic violence",
+    "Section 12 D.V. Act",
+    "marriage",
+    "DV Act",
+    "Indian Penal Code",
+    "Code of Criminal Procedure",
+    "Hindu Marriage Act, 1955",
+    "Section 3 Hindu Marriage Act",
+    "matrimonial dispute",
+    "family law",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing criminal proceedings",
+    "advising on domestic violence cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:11:53.868705"
 }

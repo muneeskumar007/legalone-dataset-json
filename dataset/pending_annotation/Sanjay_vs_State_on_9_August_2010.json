@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:05:20.174593",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -25,8 +25,8 @@
   "delivered_on": "",
   "case_name": "Sanjay vs State on 9 August, 2010",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjay Anand Jadav - husband",
+    "respondent_defendant": "State of Gujarat & 1 - wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-husband filed a petition to quash an order for interim maintenance in pendente lite. The respondent-wife had been awarded Rs.4,000/- p.m. towards interim alimony. The petitioner claimed that the impugned order was contrary to law and evidence on record.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish a prima facie case for interim alimony.",
+      "held": "Having heard learned advocate for the petitioner and on perusal of the record, it is revealed that...",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "interim alimony",
+        "prima facie case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court cannot award interim alimony without considering the source of income of the applicant.",
+      "held": "The learned Judge has even considered monthly income of the petitioner on the basis of his service...",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "source of income",
+        "interim alimony"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order set aside the impugned order of awarding interim alimony under section 24 of the Hindu Marriage Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 24",
+    "interim maintenance",
+    "pendente lite",
+    "alimony",
+    "maintenance",
+    "H.M.P.",
+    "Nadiad",
+    "Chief Senior Civil Judge",
+    "Articles 226 and 227",
+    "Constitution of India",
+    "oral order",
+    "quash",
+    "set aside",
+    "interim application",
+    " Hindu Marriage Petition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to interim maintenance applications",
+    "appealing against orders on alimony"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:00:47.835326"
 }

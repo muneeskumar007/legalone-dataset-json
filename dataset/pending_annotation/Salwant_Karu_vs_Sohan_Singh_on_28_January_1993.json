@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:05.305141",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Barnala",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Salwant Karu vs Sohan Singh on 28 January, 1993",
+  "case_name": "Salwant Karu vs Sohan Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sohan Singh, husband",
+    "respondent_defendant": "Salwant Karu, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife's appeal against the judgment of Additional District Judge, Barnala, dated 22.10.1991, who had allowed the petition filed by her husband for dissolution of marriage and granted a decree of divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that there has been no resumption of cohabitation for a period of more than one year.",
+      "held": "It was under the circumstances that the respondent filed a petition for dissolution of marriage by a decree of divorce.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "cohabitation",
+        "conjugal rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to resume cohabitation after a decree for restitution of conjugal rights can be considered in determining the grounds for divorce.",
+      "held": "The appellant had failed to resume cohabitation even after the passing of decree for restitution of conjugal rights for a period of more than one year before the filing of the petition.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "conjugal rights",
+        "cohabitation",
+        "divorce"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "A decree for divorce was granted to the husband.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "dissolution of marriage",
+    "decree of divorce",
+    "Section 9 Hindu Marriage Act",
+    "conjugal rights",
+    "restitution",
+    "Section 125 Cr.P.C.",
+    "maintenance",
+    "dowry",
+    "domestic violence",
+    "Latin maxim: 'Nemo dat quod non habet'",
+    "marital status",
+    "family law",
+    "Indian court judgments"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for dissolution of marriage",
+    "advising on maintenance rights under Section 125 Cr.P.C.",
+    "representing a client in a divorce case involving allegations of domestic violence"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:41:18.779162"
 }

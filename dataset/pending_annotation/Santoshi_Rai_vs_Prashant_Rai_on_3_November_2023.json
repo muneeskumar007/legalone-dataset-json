@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:28.202781",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "Dwarka Dhish Bansal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of 1st Addl. Distt. Judge, Lakhnadon, District Seoni (Case No.RCS HM No.48/2022)",
   "reserved_on": "",
   "delivered_on": "26.05.2022",
-  "case_name": "Santoshi Rai vs Prashant Rai on 3 November, 2023",
+  "case_name": "Santoshi Rai vs Prashant Rai",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Santoshi Rai, wife/applicant",
+    "respondent_defendant": "Prashant Rai, husband/respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife/applicant prayed for transfer of petition under Section 24 of the Code of Civil Procedure from the Court of 1st Addl. Distt. Judge to Family Court, Seoni.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -79,39 +79,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may transfer a petition to another court if the applicant is facing difficulty in participating in the proceedings.",
+      "held": "It would be convenient for her to attend proceedings in the Family Court at Seoni.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Santoshi Rai vs Prashant Rai, (2023) X SCC Y",
+        "Tejalben v. Mihirbhai Bharatbhai Kothari, (2016) 3 SCC 69"
+      ],
       "keywords": [
-        "TODO"
+        "convenience",
+        "difficulty",
+        "petition transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court may consider the convenience of the applicant in deciding a petition transfer.",
+      "held": "It would be convenient for her to attend proceedings in the Family Court at Seoni.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Ruchi Rawat v. Principal Judge, Family Court, Etah and another, (2022) SCC Online SC 2036",
+        "Manjula Singh Chouhan v. Vishal Singh Chouhan, (2019) 13 SCC 660"
+      ],
+      "keywords": [
+        "convenience",
+        "petition transfer"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition transferred from the Court of 1st Addl. Distt. Judge, Lakhnadon, District Seoni to Family Court, Seoni.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Section 24",
+    "Code of Civil Procedure",
+    "Family Court",
+    "Seoni",
+    "Madhya Pradesh",
+    "High Court",
+    "Jabalpur",
+    "Misc. Civil Case",
+    "Transfer Petition",
+    "Participation Difficulty",
+    "Convenience",
+    "Legal Proceedings",
+    "Court Attendance",
+    "Marriage Dissolution",
+    "Matrimonial Dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition for divorce proceedings",
+    "advising on court attendance and participation in matrimonial disputes",
+    "assisting with legal proceedings in Family Courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:15:08.855078"
 }

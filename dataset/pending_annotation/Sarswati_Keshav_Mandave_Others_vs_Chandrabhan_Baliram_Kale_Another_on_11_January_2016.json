@@ -60,21 +60,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The onus of proving the factum of adoption is on the party relying on it.",
+      "held": "Their Lordships' Board think it would be impossible to rely on this piece of evidence and this piece of evidence alone for the purpose of satisfying the very grave and serious onus that rests upon any person who seeks to displace the natural succession of property by the act of an adoption.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Dal Bahadur v. Bijay Bahadur",
+        "Padmalav v. Fakira Debya",
+        "Muthuswami v. Chidambara"
+      ],
       "keywords": [
-        "TODO"
+        "onus of proof",
+        "factum of adoption",
+        "natural succession",
+        "property"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property disputes",
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Proof of adoption must be free from all suspicion of fraud and so consistent and probable as to leave no occasion for doubt of its truth.",
+      "held": "The proof requires strict and almost severe scrutiny, and the longer the time goes back from the date when the power was given to the time when it comes to be examined, the more necessary it is, having regard to the fallibility of human memory and the uncertainty of evidence given after the lapse of such time, to see that the evidence is sufficient and strong.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [
+        "Dal Bahadur v. Bijay Bahadur",
+        "Padmalav v. Fakira Debya"
+      ],
+      "keywords": [
+        "proof of adoption",
+        "fraud",
+        "consistency",
+        "probability"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "property disputes",
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The evidence in support of the adoption must be of 'unimpeachable character'.",
+      "held": "The evidence in support of the same should be of 'unimpeachable character'.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [
+        "Padmalav v. Fakira Debya"
+      ],
+      "keywords": [
+        "evidence",
+        "adoption",
+        "unimpeachable character"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "property disputes",
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
@@ -84,15 +141,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "second_appeal",
+    "agriculture",
+    "power_of_attorney",
+    "dead_gpa",
+    "Indian_Evidence_Act_1872",
+    "Section_3",
+    "Section_45",
+    "Section_65",
+    "Section_112",
+    "residuary_claim",
+    "title_deed",
+    "possession",
+    "adverse_possession",
+    "prescription",
+    "limitation",
+    "equitable_rectification",
+    "specific_performance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "property_dispute_resolution",
+    "agriculture_land_disputes",
+    "power_of_attorney_issues"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:27:42.857689"
 }

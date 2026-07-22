@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:06:09.428318",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "partition": 1,
@@ -29,13 +29,13 @@
     "M.C.NO.539/2007",
     "M.C.No.539/2007"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Bengaluru (M.C.No.539/2007)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Savitha vs Sri. M. Manjunath on 9 January, 2023",
+  "case_name": "Savitha vs Sri. M. Manjunath",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Savitha, wife",
+    "respondent_defendant": "Sri. M. Manjunath, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2006 but lived together only for a short period. The relationship became strained and the wife left her husband's company. The husband filed a petition under Section 13(1)(ia) & (ib) of the Hindu Marriage Act, 1955, which was dismissed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The prayer for restitution of conjugal rights cannot be granted if the parties have been living separately for a long time.",
+      "held": "Undisputably, after the Family Court had passed the ex-parte judgment against the appellant-wife in M.C.No.539/2007, the respondent-husband had remarried on 28.10.2009 and from the said wedlock a girl child is born. It is also not in dispute the parties are residing separately for the last more than 15 years and they have no issue from this wedlock.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "separation",
+        "long time",
+        "restitution of conjugal rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant restitution of conjugal rights if the parties have no issue from their marriage.",
+      "held": "It is also not in dispute the parties are residing separately for the last more than 15 years and they have no issue from this wedlock.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "no issue",
+        "restitution of conjugal rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the judgment and decree passed by the trial court are set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Family Courts Act",
+    "19(1)",
+    "M.C.NO.539/2007",
+    "M.F.A.NO.1016/2014",
+    "M.F.A.CROB.NO.17/2015",
+    "Reddanahalli village",
+    "Bangalore Rural",
+    "Domlur Layout",
+    "Swamy Temple Street"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions under Hindu Marriage Act",
+    "advising on Family Courts Act procedures",
+    "assisting with cross-objections in divorce cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:58:06.534147"
 }

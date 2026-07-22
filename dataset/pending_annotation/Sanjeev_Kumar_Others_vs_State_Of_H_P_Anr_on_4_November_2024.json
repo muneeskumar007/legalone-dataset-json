@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:20.769442",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "murder_criminal": 1,
@@ -19,13 +19,13 @@
     "Virender Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned Judicial Magistrate First Class, Kangra, Cr. MMO No. 715 of 2024",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sanjeev Kumar & Others vs State Of H.P. & Anr on 4 November, 2024",
+  "case_name": "Sanjeev Kumar & Others v. State Of H.P. & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjeev Kumar & Others (husband, wife, etc.)",
+    "respondent_defendant": "State of H.P. & anr (wife's side)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner No. 1 and respondent No. 2 were married in 2010. They have a daughter together. Due to incompatibility, they started living separately. Respondent No. 2 lodged FIR against petitioners. Petitioners claim that the matter has been settled between them and respondent No. 2, including dissolution of marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When parties settle their disputes, the court may quash pending proceedings.",
+      "held": "Keeping in view the pleadings as well as the stand taken by respondent No. 2, this Court is of the view that petitioner No. 1 and respondent No. 2 though married each other, but, compelled by the circumstances, both of them were litigating with each other.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "quash",
+        "pending proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The primary purpose of law is to maintain peace and harmony.",
+      "held": "The primary purpose of law is to maintain pea",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "peace",
+        "harmony",
+        "primary purpose"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The FIR in question and consequential proceedings are quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 528",
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "FIR No. 140",
+    "Indian Penal Code",
+    "Sections 498-A",
+    "323",
+    "504",
+    "quashing",
+    "judicial magistrate",
+    "Kangra",
+    "marriage",
+    "petition",
+    "Himachal Pradesh",
+    "High Court",
+    "Shimla"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing FIR in Himachal Pradesh",
+    "appealing to High Court Shimla"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:03:01.096484"
 }

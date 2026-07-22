@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:05:50.150867",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "domestic_violence",
   "domain_scores": {
     "divorce": 2,
     "partition": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sessions Judge, Buldhana (case no. not mentioned)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sau. Anita Ambadas @ Ambu Shivarkar, ... vs Ambadas @ Ambu Mallu Shivarkar on 19 October, 2023",
+  "case_name": "Sau. Anita Ambadas @ Ambu Shivarkar, ... vs Ambadas @ Ambu Mallu Shivarkar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sau. Anita Ambadas @ Ambu Shivarkar, aged 38 years, household",
+    "respondent_defendant": "Ambadas @ Ambu Mallu Shivarkar, aged 56 years, business, and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of the applicant was solemnized with non-applicant no.1 as per the custom of sate-lote in 1998. The applicant filed an application under Section 12 of the Protection of Women from Domestic Violence Act, 2005, which was dismissed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove that the custom of sate-lote marriage exists.",
+      "held": "It is denied that there was any custom or usage of sate-lote, as alleged.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005 — Section 2(f)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "custom",
+        "sate-lote",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "domestic violence cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not reject evidence solely on the basis of photographs being taken by a brother.",
+      "held": "Learned advocate submitted that the photographs were taken by brother of the applicant, who has been examined as AW-2.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "photographs",
+        "evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving oral evidence"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The judgment and order dated 17.08.2018 passed by the learned Sessions Judge, Buldhana were upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Protection of Women from DV Act",
+    "Indian Penal Code",
+    "Section 498A",
+    "Section 304B",
+    "Section 377",
+    "Section 354",
+    "Section 509",
+    "Section 506",
+    "Section 107",
+    "Section 151",
+    "Section 125",
+    "Section 127",
+    "Section 128",
+    "Section 129",
+    "Section 130"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "drafting DV Act cases",
+    "drafting IPC cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:39:12.951441"
 }

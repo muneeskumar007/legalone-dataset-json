@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:54.275209",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3
   },
@@ -15,13 +15,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court Mumbai at Bandra, Marriage Petition No. A 264 of 2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sau Maya Jagdish Dambal vs Shri. Jagdish Bhalchandra Bambal on 5 July, 2019",
+  "case_name": "Sau Maya Jagdish Dambal vs Shri. Jagdish Bhalchandra Bambal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sau Maya Jagdish Dambal (wife)",
+    "respondent_defendant": "Shri. Jagdish Bhalchandra Bambal (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent husband filed a marriage petition for divorce under Section 13(1) (ia) and (ib) of Hindu Marriage Act, 1955 in the Family Court Mumbai at Bandra. The petitioner wife sought transfer of this petition to the Family Court at Solapur.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,61 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can agree to transfer a petition to another court.",
+      "held": "They tendered Consent Terms dated 05.07.2019 duly signed by the Respondent and his advocate as well as advocate for the Applicant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "transfer",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage petition was transferred to the Family Court at Solapur for hearing and final disposal on or before 30.06.2020 after hearing both parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "transfer of marriage petition",
+    "Family Court",
+    "Solapur",
+    "Mumbai",
+    "Bandra",
+    "consent terms",
+    "marriage petition",
+    "petition transfer",
+    "family law",
+    "Indian Kanoon",
+    "judicial separation",
+    "matrimonial dispute",
+    "civil application",
+    "miscellaneous civil application"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting consent terms for divorce",
+    "petition transfer in family court",
+    "marriage petition transfer between courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:46:07.568024"
 }

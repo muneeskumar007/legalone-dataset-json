@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:53.458349",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Nagpur vide Petition-A No.1174/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sau. Kavita Krunal Gawande vs Krunal S/O Jitnish Gawande on 12 January, 2021",
+  "case_name": "Sau. Kavita Krunal Gawande vs Krunal S/O Jitnish Gawande",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sau. Kavita Krunal Gawande (wife)",
+    "respondent_defendant": "Krunal S/O Jitnish Gawande (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are married and the wife filed an application under Section 12 of the Protection of Women from Domestic Violence Act for grant of maintenance, right of residence and protection. The trial court granted maintenance to the wife. The husband has preferred an appeal against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,61 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "Wife's convenience must be considered in matrimonial proceedings, particularly when the husband has filed a petition against her.",
+      "held": "The Hon'ble Apex Court in the matter of Sumita Singh V/s Kumar Sanjay & Anr. Reported in AIR 2002 SC 396 has observed that wife's convenience must be considered in matrimonial proceedings, particularly when the husband has filed the petition against her.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sumita Singh V/s Kumar Sanjay & Anr., (2002) AIR 2002 SC 396"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial proceedings",
+        "wife's convenience",
+        "husband's petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court transferred the matrimonial proceedings pending on the file of Family Court, Nagpur to the file of Family Court, Chandrapur or Civil Judge Senior Division, Chandrapur.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "matrimonial proceedings",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Family Court",
+    "Chandrapur",
+    "Nagpur",
+    "marriage",
+    "residency",
+    "petition",
+    "transfer",
+    "consent",
+    "learned counsel",
+    "judgment",
+    "rule",
+    "returnable forthwith",
+    "hearing"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "guidelines for transfer of matrimonial proceedings",
+    "practical tips for advocates in Family Court cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:43:55.897348"
 }

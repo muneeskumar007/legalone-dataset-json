@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:05:12.414398",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -21,13 +21,13 @@
     "Narendra Singh Dhaddha J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.1, Kota (Raj.), CMA-1837/2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sanjay Sharma vs Smt Rajni Alias Nirmala on 21 January, 2020",
+  "case_name": "Sanjay Sharma vs Smt Rajni Alias Nirmala",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjay Sharma, husband",
+    "respondent_defendant": "Smt. Rajni @ Nirmala, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant Sanjay Sharma filed a petition under Section 13 of the Hindu Marriage Act, 1955 against his wife seeking divorce due to her cruel behavior and desertion.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging cruelty to prove that the other party has been treated with such cruelty as to render the continued cohabitation intolerable.",
+      "held": "It is settled law that the behaviour of the respondent towards the appellant was very cruel and the respondent had lodged false cases against the appellant which were ultimately dismissed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "false cases",
+        "intolerable cohabitation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to maintain the other party, especially when the latter is in a vulnerable state, can be considered as desertion.",
+      "held": "The respondent had left the appellant alone when he was ill and had not fulfilled her matrimonial obligation.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "vulnerable state",
+        "matrimonial obligation"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The Family Court rejected the petition for divorce. The appellant's appeal was also dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Family Court",
+    "Kota",
+    "Rajasthan",
+    "High Court",
+    "Jaipur",
+    "Bench",
+    "Appeal",
+    "Petition",
+    "Marriage",
+    "Divorce Petition",
+    "Custody",
+    "Maintenance",
+    "Alimony",
+    "Matrimonial Dispute",
+    "Hindu Rites and Rituals"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "advising on maintenance and alimony in a matrimonial dispute",
+    "appealing a family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:59:02.874187"
 }

@@ -7,7 +7,7 @@
   "total_pages": 21,
   "extracted_at": "2026-07-15T11:05:26.575253",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty_desertion",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 3,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge (Family Court), Gautam Buddh Nagar, Original Suit No. 69 of 2011",
   "reserved_on": "10.02.2020",
   "delivered_on": "22.04.2020",
-  "case_name": "Sanket Mishra vs Smt. Urvashi on 22 April, 2020",
+  "case_name": "Sanket Mishra vs Smt. Urvashi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanket Misra, husband",
+    "respondent_defendant": "Smt. Urvashi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -75,7 +75,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage was solemnized in 2004 but ended in marital discord after six years. Appellant filed suit for divorce on grounds of cruelty and desertion. Trial court dismissed the suit.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -85,39 +85,117 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Findings of fact cannot be disturbed once recorded.",
+      "held": "Once findings cannot be disturbed, conclusion cannot be interfered with.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "findings",
+        "fact",
+        "disturbed"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party must plead specific instances of cruelty to prove it.",
+      "held": "Appellant did not plead specific instances of cruelty alleged to have been committed by respondent.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "plead",
+        "specific",
+        "cruelty"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party must prove the grounds of divorce pleaded.",
+      "held": "Appellant could not prove the grounds of divorce pleaded by him namely cruelty and desertion.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "prove",
+        "grounds",
+        "divorce"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A party must establish the mandatory requirement of Section 13(1-b) of the Hindu Marriage Act.",
+      "held": "Appellant failed to place and proved mandatory requirement of Section 13(1-b) of Act, 1955 i.e. two years continuous desertion on the part of respondent before institution of suit.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "establish",
+        "mandatory",
+        "Section 13(1-b)"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed, and the decree passed by the trial court was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "desertion",
+    "Family Courts Act",
+    "Section 19",
+    "marriage solemnised",
+    "spouse's conduct",
+    "mental cruelty",
+    "emotional distress",
+    "separation",
+    "irretrievable breakdown",
+    "no reconciliation",
+    "matrimonial home",
+    "joint family",
+    "family court jurisdiction",
+    "plea of desertion"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on grounds for divorce",
+    "preparing appeal against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:08:33.732316"
 }

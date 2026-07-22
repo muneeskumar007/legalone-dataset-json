@@ -7,7 +7,7 @@
   "total_pages": 22,
   "extracted_at": "2026-07-15T11:06:15.329288",
   "domain": "partition",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 6,
@@ -23,13 +23,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Ankit Mittal: Civil Judge-01, South West District: Dwarka Court: New Delhi (Case No. 93/2016)",
   "reserved_on": "",
   "delivered_on": "17.11.2015",
-  "case_name": "Savitri Devi vs Kavita on 30 January, 2025",
+  "case_name": "Savitri Devi vs Kavita",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Savitri Devi, wife and plaintiff",
+    "respondent_defendant": "Smt. Kavita, daughter-in-law and defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff is the actual and rightful owner of a property in Najafgarh, New Delhi. She purchased it from Sher Ratan Singh in 1997. The defendant is her daughter-in-law who has been residing in the property with her minor son on license basis.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -89,39 +89,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A suit without a cause of action is liable to be rejected.",
+      "held": "Hence, no cause of action has ever arisen in favour of the plaintiff and against the defendant for filing the instant suit.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Order 7 Rule 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cause of action",
+        "suit without a cause"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition suits"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A plaintiff must pay court fee ad-valorem on the market value of the property.",
+      "held": "The plaintiff is liable to pay the court fee ad-valorem on Rs.2,50,00,000/- as the plaintiff is seeking the relief of possession in the garb of present suit for mandatory injunction.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "court fee",
+        "ad-valorem"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "property suits"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court disposed of a suit for recovery of possession and mesne profits.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Succession Act",
+    "Code of Civil Procedure",
+    "Protection of Women from DV Act",
+    "Indian Evidence Act",
+    "possession",
+    "mesne profits",
+    "built up property",
+    "khasra No.32/11",
+    "Todarmal Colony",
+    "Najafgarh",
+    "New Delhi",
+    "sher ratan singh",
+    "basanta ram",
+    "rohtak",
+    "haryana",
+    "valuation",
+    "purchase",
+    "transfer of property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on property transfer",
+    "assisting in disputes over possession"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T15:01:05.634882"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:05:08.056882",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -22,20 +22,20 @@
     "Narendra Singh Dhaddha J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Jhunjhunu, Civil Misc. Case No.431/2017 and another Civil Misc. Case No.429/2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sandeep vs Smt Sanju And Anr on 8 January, 2020",
+  "case_name": "Sandeep vs Smt Sanju And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sandeep, husband",
+    "respondent_defendant": "Smt Sanju and Dimpi (minor), wife and child",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of Sandeep and Suresh with respondents Sanju and Anita respectively. Matrimonial obligations performed. Appellants started mentally torturing their wives for dowry and car. Appellants left their wives and children along with 'Stridhan' at parental home.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -45,39 +45,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove that he is entitled to maintenance.",
+      "held": "In view of the above, it is clear that the respondent wives have failed to establish any entitlement to maintenance from the appellants.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "entitlement",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A wife's right to maintenance is not dependent on her husband's income.",
+      "held": "The respondent wives are trained teachers and each of them is earning Rs.15,000/- per month, but this does not affect their entitlement to pendente lite maintenance.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "wife's right",
+        "husband's income"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Appellants to pay Rs.8,000/- per month as pendente lite maintenance to the each of the wives from date of submission of application to final decision of both main petitions.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "alimony",
+    "custody",
+    "minor",
+    "natural guardian",
+    "Family Court",
+    "Section 125",
+    "CrPC",
+    "Code of Civil Procedure",
+    "Hindu Marriage Act",
+    "HMA",
+    "Section 13",
+    "Section 27",
+    "matrimonial dispute",
+    "property settlement",
+    "joint family",
+    "separation",
+    "dissolution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "assisting with child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:49:41.222702"
 }

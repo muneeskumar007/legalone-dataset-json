@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:06:15.368413",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Court",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Section 9 in The Hindu Marriage Act 1955",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "aggrieved party (husband or wife)",
+    "respondent_defendant": "other party (husband or wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Either the husband or the wife has, without reasonable excuse, withdrawn from the society of the other. The aggrieved party may apply for restitution of conjugal rights.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,21 +48,23 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may decree restitution of conjugal rights if the statements made in the petition are true and there is no legal ground why the application should not be granted.",
+      "held": "the court, on being satisfied of the truth of the statements made in such petition and that there is no legal ground why the application should not be granted, may decree restitution of conjugal rights accordingly.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conjugal rights",
+        "petition",
+        "restitution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
@@ -72,15 +74,34 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "conjugal rights",
+    "withdrawal from society",
+    "reasonable excuse",
+    "petition to district court",
+    "restitution of conjugal rights",
+    "burden of proof",
+    "Indian Kanoon",
+    "Section 9",
+    "The Hindu Marriage Act 1955",
+    "divorce",
+    "marriage",
+    "family law",
+    "matrimonial disputes",
+    "spousal separation",
+    "legal grounds",
+    "petition for restitution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting petition for restitution of conjugal rights",
+    "advising on spousal separation and divorce",
+    "representing clients in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T15:01:40.892737"
 }

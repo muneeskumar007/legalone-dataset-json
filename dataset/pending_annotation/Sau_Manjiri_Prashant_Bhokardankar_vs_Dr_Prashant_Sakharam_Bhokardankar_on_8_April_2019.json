@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:54.051326",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sau. Manjiri Prashant Bhokardankar ... vs Dr. Prashant Sakharam Bhokardankar ... on 8 April, 2019",
+  "case_name": "Sau. Manjiri Prashant Bhokardankar v. Dr. Prashant Sakharam Bhokardankar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sau. Manjiri Prashant Bhokardankar (wife)",
+    "respondent_defendant": "Dr. Prashant Sakharam Bhokardankar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage solemnized in 2005, dispute arose, wife started residing with mother at Amravati, husband filed for divorce under Hindu Marriage Act, wife also filed domestic violence and maintenance proceedings.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the applicant to establish that it is difficult for her to attend the proceedings at Sangamner.",
+      "held": "After hearing learned counsel for the applicant, I have perused the application as well as documents filed on record. It appears that due to dispute with her husband started residing with her mother at Amravati.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "applicant",
+        "difficulty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where parties are physically far apart"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may consider the practical difficulties faced by a party in attending proceedings at a distant location.",
+      "held": "It is difficult for applicant to attend the proceedings at Sangamner which is more than 500 Km.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "practical difficulties",
+        "distance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving distant locations or logistical challenges"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Application allowed due to difficulty in attending proceedings at Sangamner which is more than 500 km away from Amravati.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "domestic violence",
+    "alimony",
+    "maintenance",
+    "custody",
+    "matrimonial dispute",
+    "marriage dissolution",
+    "separation",
+    "joint family",
+    "family law",
+    "Indian Penal Code",
+    "Section 498A",
+    "Section 125",
+    "Section 3",
+    "Section 4",
+    "Section 5",
+    "Section 6",
+    "Section 7",
+    "Section 8",
+    "Section 9",
+    "Section 10"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in matrimonial disputes",
+    "assisting with family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:44:42.534655"
 }

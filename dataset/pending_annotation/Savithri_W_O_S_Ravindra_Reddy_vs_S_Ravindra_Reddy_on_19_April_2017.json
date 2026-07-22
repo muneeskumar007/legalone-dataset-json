@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:06:12.606174",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 12,
     "partition": 3,
@@ -28,13 +28,13 @@
     "F.A.NO.100682/2014",
     "M.C.No.42/2013"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Bellary, M.C.No.42/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Savithri W/O. S Ravindra Reddy vs S.Ravindra Reddy on 19 April, 2017",
+  "case_name": "Savithri W/O. S Ravindra Reddy vs S.Ravindra Reddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Savithri W/o. S.Ravindra Reddy (wife)",
+    "respondent_defendant": "S. Ravindra Reddy (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married under the Hindu Marriage Act, 1955. The wife filed a petition for divorce under Section 13 of the Hindu Marriage Act, which was allowed by the trial court. The husband appealed against the judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -79,39 +79,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Cruelty can be physical or mental.",
+      "held": "Cruelty for the purpose of Section 13(1)(i-a) is to be taken as a behavior by one spouse towards the other, which causes a reasonable apprehension in the mind of the latter that it is not safe for him or her to continue the matrimonial relationship with the other.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(i-a)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Ramchander Vs. Ananta, (2015) 11 SCC 539"
+      ],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "matrimonial relationship"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The instances of cruelty are not to be taken in isolation but to take the cumulative effect of the facts and circumstances emerging from the evidence on record.",
+      "held": "It is settled law that the instances of cruelty are not to be taken in isolation but to take the cumulative effect of the facts and circumstances emerging from the evidence on record and then draw a fair inference whether the plaintiff has been subjected to mental cruelty due to conduct of the other spouse.",
+      "cited_cases": [
+        "Ramchander Vs. Ananta, (2015) 11 SCC 539"
+      ],
+      "keywords": [
+        "cumulative effect",
+        "evidence on record"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": [],
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court should not search for standard in life when a spouse makes complaint about the treatment of cruelty by the partner.",
+      "held": "Therefore, when a spouse makes complaint about the treatment of cruelty by the partner in life or relations, the Court should not search for standard in life. A set of facts stigmatised as cruelty in one case may not be so in another case.",
+      "cited_cases": [
+        "Ramchander Vs. Ananta, (2015) 11 SCC 539"
+      ],
+      "keywords": [
+        "standard in life",
+        "complaint about treatment"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "applicable_acts_sections": [],
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The appeal is partly allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal partly allowed",
+    "final_order": "The appeal is partly allowed. The decree of divorce passed by the trial court is set aside and the matter is remanded to the trial court for fresh consideration.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "matrimonial dispute",
+    "irretrievable breakdown",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "maintenance",
+    "alimony",
+    "family court",
+    "Section 19(1) of the Family Courts Act",
+    "judgment and decree",
+    "matrimony",
+    "marriage",
+    "spouse",
+    "husband",
+    "wife"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "preparing for family court hearings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T15:00:14.272405"
 }

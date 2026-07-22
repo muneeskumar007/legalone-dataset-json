@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:05:05.152850",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -24,13 +24,13 @@
     "Rajani Dubey J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Surajpur, Civil Suit No.30A/2020",
   "reserved_on": "04.07.2024",
   "delivered_on": "09.08.2024",
-  "case_name": "Salendra @ Sumit Soni vs Surendra Kumar Soni on 9 August, 2024",
+  "case_name": "Salendra @ Sumit Soni vs Surendra Kumar Soni",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Salendra @ Sumit Soni, plaintiff",
+    "respondent_defendant": "Surendra Kumar Soni and Sangeeta Soni, defendants",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -70,7 +70,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff filed a civil suit for declaration of son and property rights. The Family Court dismissed the application under Section 34 of Specific Relief Act, 1963.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -80,39 +80,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A suit cannot be dismissed on account of misjoinder of parties.",
+      "held": "Hon'ble Supreme Court in catena of decisions held that the suit cannot be dismissed on account of misjoinder of party and the plaintiff cannot be deprived of justice, as such, it is incumbent upon the Court to get the mistake rectified directing the plaintiff to make the correction.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Union of India Vs. V.R. Tripathi, (2019) 14 SCC 646",
+        "Revanasiddappa & Anr. v. Mallikarjun & Ors., (2011) 11 SCC 1",
+        "Bharatha Matha & Anr. v. R. Vijaya Renganathan & Ors., (2010) 4 AIR SCW 3503"
+      ],
+      "keywords": [
+        "misjoinder of parties",
+        "suit dismissal",
+        "plaintiff's justice"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH — to ensure plaintiff's right to justice",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A suit is not barred by limitation if it was earlier filed before the regular Civil Court and later referred to the Family Court.",
+      "held": "Learned counsel for the appellant submits that the suit was earlier filed before the regular Civil Court on 25.02.2017 but on account of establishment of Family Court the matter was referred to the Family Court returning the plaint on 03.02.2020 to the plaintiff, as such, it cannot be held that the suit was barred by limitation and there is no fault on the part of the appellant/plaintiff.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "suit filing",
+        "limitation",
+        "Family Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "family law cases",
+        "property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM — to clarify the timeline for suit filing",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19(1)",
+    "Code of Criminal Procedure",
+    "Specific Relief Act",
+    "Limitation Act",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "joint family",
+    "separation",
+    "nullity",
+    "voidable marriage",
+    "judgment reserved",
+    "judgment delivered"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:40:30.287995"
 }

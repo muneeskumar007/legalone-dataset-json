@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:05:36.610022",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -27,13 +27,13 @@
     "C.C.No.1123 of 1997",
     "C.A.No.48 of\n2002"
   ],
-  "trial_court": "",
+  "trial_court": "Court of Judicial Magistrate No.II, Madurai - C.C.No.1123 of 1997",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Saraswathi vs Thirupathi on 24 September, 2014",
+  "case_name": "Saraswathi vs Thirupathi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Saraswathi (wife)",
+    "respondent_defendant": "Thirupathi and Dhanalakshmi (husband and second wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The appellant was the complainant who alleged that the respondents committed an offence punishable under Section 494 of the Indian Penal Code. The trial ended in conviction of both respondents, but on appeal, the conviction was set aside and they were acquitted.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -83,39 +83,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An appeal against an order of acquittal can be entertained only with the leave of the High Court.",
+      "held": "No appeal to the High Court shall be entertained except with the leave of the High Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section X"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appeal",
+        "acquittal",
+        "High Court",
+        "leave"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type 1: appeal against acquittal"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A special leave to appeal from an order of acquittal can be granted only within the time stipulated.",
+      "held": "No application under sub-section (4) for the grant of special leave to appeal from an order of acquittal shall be entertained by the High Court after the expiry of six months, where the complainant is a public servant, and sixty days in every other case, computed from the date of that order of acquittal.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section X"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "special leave",
+        "acquittal",
+        "time limit"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type 2: appeal against acquittal"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Code of Criminal Procedure",
+    "Registration Act",
+    "bigamy",
+    "Indian Penal Code",
+    "Section 494 IPC",
+    "judicial magistrate",
+    "Sessions Court",
+    "Criminal Appeal",
+    "Madras High Court",
+    "Madurai Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against conviction",
+    "drafting appeal against sentence",
+    "drafting complaint under Section 494 IPC"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:19:37.903803"
 }

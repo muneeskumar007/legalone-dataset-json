@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:05:47.579237",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 3,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Satish Dhudku Halnor vs Sau Yogta Satish Halnor Through Hiraman ... on 22 April, 2019",
+  "case_name": "Satish Dhudku Halnor vs Sau Yogta Satish Halnor Through Hiraman",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Satish Dhudku Halnor, husband",
+    "respondent_defendant": "Sau. Yogita Satish Halnor, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent are husband and wife. Marriage was solemnized on 11.12.2001. Petitioner filed Hindu Marriage Petition No.327/2010 for dissolution of marriage. Respondent lodged First Information Report against petitioner and his family members, which was compromised. Another criminal proceeding was filed by respondent's father under Section 97 of Cr.P.C. for custody of the respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Filing of multiple litigations can amount to cruelty.",
+      "held": "Filing of so much of litigations itself amounts to cruelty.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code, 1860 — Section 498-A"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "litigation",
+        "multiple"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's failure to resume cohabitation can be considered desertion.",
+      "held": "Therefore, it appears that she is happy to reside separately.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [
+        "A. Jayachandra vs. Aneel Kaur, AIR 2005 Supreme Court, 534"
+      ],
+      "keywords": [
+        "cohabitation",
+        "desertion",
+        "reside separately"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed. The judgment and decree passed by the trial court are set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "cruelty",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "joint family",
+    "separation",
+    "cohabitation",
+    "family court",
+    "appeal",
+    "second appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to alimony claims",
+    "appealing a family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:33:57.114765"
 }

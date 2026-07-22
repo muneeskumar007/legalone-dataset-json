@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:46.330824",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "will_succession": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Satishchandra Purshottam Kale vs Anjusha Satishchandra Kale And Anr on 2 August, 2022",
+  "case_name": "Satishchandra Purshottam Kale vs Anjusha Satishchandra Kale And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Satishchandra Purshottam Kale (husband)",
+    "respondent_defendant": "Anjusha Satishchandra Kale And Anr (wife and another)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties agreed to settlement and executed consent terms. Petitioner has produced demand draft in the sum of Rs.10,00,000/- and agreed to deposit further amount of Rs.15,00,000/- by 10th August, 2022.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The terms of agreement between the parties should be fulfilled within a specified period.",
+      "held": "The terms stipulated in the consent terms are to be fulfilled by both the sides within period of three months from today.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent terms",
+        "agreement",
+        "period"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party may withdraw an amount as part payment towards permanent alimony after the amount is deposited by the other party.",
+      "held": "The aforesaid amount of Rs.25,00,000/- is permitted to be withdrawn by the Respondent Anjusha Satishchandra Kale after the said amount is deposited by the petitioner as and by way of part payment towards the permanent alimony.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "permanent alimony",
+        "part payment"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "alimony cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner permitted to deposit demand draft in the registry of this Court along with this order. Petitioner agreed to deposit further amount of Rs.15,00,000/- by 10th August, 2022.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "consent terms",
+    "settlement",
+    "demand draft",
+    "Registry Appellate Side",
+    "High Court",
+    "Mumbai",
+    "maintenance",
+    "alimony",
+    "Section 24",
+    "Section 25",
+    "Section 27",
+    "Latin Maxim: 'Nemo dat quod non habet'",
+    "contempt petition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting consent terms for divorce settlement",
+    "guidelines for maintenance and alimony in Hindu Marriage Act cases",
+    "practical tips for filing contempt petitions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:36:14.612641"
 }

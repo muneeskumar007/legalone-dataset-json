@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:05:53.197509",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "cheque_bounce": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sau. Jyotsnamala Ulhas Tawade vs State Of Maharashtra on 15 September, 2022",
+  "case_name": "Sau. Jyotsnamala Ulhas Tawade vs State Of Maharashtra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sau.Jyotsnamala Ulhas Tawade (wife)",
+    "respondent_defendant": "The State of Maharashtra, Ulhas Ashraf Tawade (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner was married to respondent on 12.07.2009. Petitioner filed Criminal Application No.22/2010 in the Court of Judicial Magistrate First Class under Section 12 of the Protection of Women from Domestic Violence Act. The learned Magistrate directed the respondent / husband to pay maintenance @ Rs.5678/- per month along with compensation to the tune of Rs.2 lakhs.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A compromise agreement entered into before a Lok Adalat is binding and enforceable.",
+      "held": "She herself has agreed for all the terms and conditions before the Lok Adalat, on which the Panel Members have verified the contents and passed the award.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Lok Adalat",
+        "compromise agreement",
+        "binding",
+        "enforceable"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot unilaterally challenge the award passed by a Lok Adalat.",
+      "held": "The petitioner-lady has voluntarily entered into the compromise before the panel of Lok Adalat. She herself has agreed for all the terms and conditions before the Lok Adalat, on which the Panel Members have verified the contents and passed the award.",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act, 2005"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Lok Adalat",
+        "award",
+        "challenge",
+        "unilateral"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "maintenance proceedings"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The petitioner has claimed for recovery of arrears of maintenance amount.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Lok Adalat",
+    "award",
+    "set aside",
+    "consent",
+    "final disposal",
+    "Rule",
+    "returnable forthwith",
+    "unusual challenge",
+    "judgment",
+    "writ petition",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for divorce",
+    "understanding the role of Lok Adalat in family disputes",
+    "advising on the process of setting aside an award"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:43:09.991392"
 }

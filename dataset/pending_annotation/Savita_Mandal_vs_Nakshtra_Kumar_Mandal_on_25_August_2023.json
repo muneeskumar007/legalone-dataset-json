@@ -7,7 +7,7 @@
   "total_pages": 56,
   "extracted_at": "2026-07-15T11:06:08.180315",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 3,
@@ -25,13 +25,13 @@
     "Jitendra Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Matrimonial (Divorce) Case No. 413 of 2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Savita Mandal vs Nakshtra Kumar Mandal on 25 August, 2023",
+  "case_name": "Savita Mandal vs Nakshtra Kumar Mandal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Savita Mandal, wife",
+    "respondent_defendant": "Nakshtra Kumar Mandal, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -86,7 +86,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1998 and had two children. The petitioner claimed divorce and custody due to the respondent's adulterous life and physical/mental cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -96,39 +96,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A real cause of action must be set out in the plaint, and clever drafting creating illusions of a cause of action are not permitted.",
+      "held": "The question is whether a real cause of action has been set out in the plaint or something purely illusory has been stated with a view to get out of Order 7 Rule 11 Civil Procedure Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Order 7 Rule 11"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "I.T.C. Limited Vs. Debts Recovery Appellate Tribunal, (1998) 2 SCC 70",
+        "T. Arvindandam case"
+      ],
       "keywords": [
-        "TODO"
+        "cause of action",
+        "plaint",
+        "Order 7 Rule 11"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A plaint must disclose a clear right to sue, and if it does not, the court should exercise its power under Order VII, Rule 11 Civil Procedure Code.",
+      "held": "A clear right to sue should be shown in the plaint.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Order VII, Rule 11"
+      ],
+      "cited_cases": [
+        "T. Arvindandam case"
+      ],
+      "keywords": [
+        "clear right to sue",
+        "plaint",
+        "Order VII, Rule 11"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's decision was upheld, dismissing the petition for divorce.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13 (1)(I-B)",
+    "Divorce",
+    "Custody",
+    "Matrimonial",
+    "Family Court",
+    "Katihar",
+    "Additional Principal Judge",
+    "Judgment",
+    "Impugning",
+    "Petition",
+    "Praying",
+    "Dismissed on contest",
+    "Minor children",
+    "Born out of wedlock",
+    "Pleadings",
+    "Latin Maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "responding to a dismissal of a divorce petition",
+    "advising on custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T14:56:23.518124"
 }

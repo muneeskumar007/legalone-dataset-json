@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:05:11.478919",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Patna, Cr.Misc. No.24671 of 2008",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sanjay Gupta & Ors vs The State Of Bihar & Anr on 16 July, 2010",
+  "case_name": "Sanjay Gupta & Ors vs The State Of Bihar & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sanjay Gupta, Prem Chand Agarwal, Uma Agarwal, Shekhar Gupta, Smt. Lata Gupta — husband, father, mother, son, wife",
+    "respondent_defendant": "The State of Bihar, Smt. Manjusha Gupta — government, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Manjusha Gupta married Sanjay Gupta in 1996. They lived together till October, 2004. However, relationships deteriorated and they agreed to divorce by mutual consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In cases where parties have lived apart for a long time, it is proper to grant a decree of divorce.",
+      "held": "In view of the fact that both the parties have lived apart for fourteen years and have not been able to reconcile to live with each other, it is proper that the decree of divorce should be granted to them so that they can have a brighter future.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13(B)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "separation",
+        "mutual consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases with long-term separation"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can agree to settle their disputes through a one-time settlement.",
+      "held": "The parties agreed to the following terms: ... Sanjay Gupta would pay a sum of Rs. 5 lacs as one time settlement to Manjusha Gupta.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13(B)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "one-time payment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases with financial settlements"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Decree of divorce granted to the parties so that they can have a brighter future.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "dowry",
+    "quashing",
+    "complaint case",
+    "divorce",
+    "marriage",
+    "separation",
+    "amicable settlement",
+    "family court",
+    "section 9",
+    "section 10",
+    "section 13",
+    "section 23",
+    "section 24",
+    "section 25",
+    "section 26",
+    "section 27"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing complaint case",
+    "amicable settlement in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-22T13:56:36.504614"
 }
