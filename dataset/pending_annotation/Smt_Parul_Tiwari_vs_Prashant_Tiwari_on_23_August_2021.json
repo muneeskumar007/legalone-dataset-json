@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:10:39.172620",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Parul Tiwari vs Prashant Tiwari on 23 August, 2021",
+  "case_name": "Smt. Parul Tiwari vs Prashant Tiwari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Parul Tiwari, wife",
+    "respondent_defendant": "Prashant Tiwari and others (husband and family members)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's marriage was solemnised with respondent No.1 in 2009. Two daughters were born out of their wedlock. Respondents used to harass the petitioner for demand of dowry. Petitioner lodged a report at Mahila Police Station and FIR was registered against respondents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power to quash criminal proceedings can be exercised when the parties have resolved the entire dispute amongst themselves.",
+      "held": "Having overwhelmingly and predominantly the civil character, particularly those arising out of commercial transactions or arising out of matrimonial relationship or family disputes.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C — Section 482"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "State of Madhya Pradesh Vs. Laxmi Narayan & others, (2019) 5 SCC 688"
+      ],
       "keywords": [
-        "TODO"
+        "quashment",
+        "criminal proceedings",
+        "civil character",
+        "matrimonial relationship",
+        "family disputes"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type: matrimonial dispute",
+        "case type: family dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — when parties resolve their dispute",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "While exercising the power to quash criminal proceedings, the High Court must consider the antecedents of the accused and the conduct of the accused.",
+      "held": "The High Court is required to consider the antecedents of the accused; the conduct of the accused, namely, whether the accused was absconding and why he was",
+      "applicable_acts_sections": [
+        "Cr.P.C — Section 482"
+      ],
+      "cited_cases": [
+        "State of Madhya Pradesh Vs. Laxmi Narayan & others, (2019) 5 SCC 688"
+      ],
+      "keywords": [
+        "quashment",
+        "criminal proceedings",
+        "antecedents",
+        "conduct",
+        "accused"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type: criminal case",
+        "case type: quashment"
+      ],
+      "significance": "MEDIUM — to ensure fairness in quashment",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR No. 25 of 2021 is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "1860",
+    "Section 302",
+    "culpable homicide",
+    "manslaughter",
+    "intentional killing",
+    "actus reus",
+    "mens rea",
+    "homicide",
+    "killing",
+    "murder investigation",
+    "forensic evidence",
+    "circumstantial evidence"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting murder charges",
+    "defending against murder allegations",
+    "investigating a murder case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:36:11.937979"
 }

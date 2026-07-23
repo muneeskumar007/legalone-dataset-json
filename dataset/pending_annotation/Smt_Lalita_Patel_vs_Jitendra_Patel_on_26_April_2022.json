@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:09:57.292935",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Janjgir, District: Janjgir-Champa Chhattisgarh (Civil Suit No. 52-A/2021)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Lalita Patel vs Jitendra Patel on 26 April, 2022",
+  "case_name": "Smt. Lalita Patel vs Jitendra Patel",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Lalita Patel, wife",
+    "respondent_defendant": "Jitendra Patel, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of the petitioner and respondent solemnized on 06.05.2017. Dispute took place between them, and after the dispute the petitioner started to reside at Bilaspur in her parental house. Respondent filed an application under Section 13 of the Hindu Marriage Act before the Family Court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may transfer a case to another forum if the applicant is unable to attend proceedings due to financial constraints.",
+      "held": "Considering the facts and circumstances of the case, considering the fact that the applicant is a lady, looking to her health condition and also considering the fact that she is residing in her parental house at District: Bilaspur (C.G.) which is 50 kms far away from the Family Court, Janjgir-Champa, Chhattisgarh.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "financial constraints",
+        "distance",
+        "family court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may consider the health condition of an applicant when deciding whether to transfer a case.",
+      "held": "looking to her health condition",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "health condition",
+        "applicant's well-being"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "matrimonial disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The case filed by the respondent/husband pending before Family Court, Janjgir-Champa, Chhattisgarh may be transferred to Family Court, Bilaspur, Chhattisgarh.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 24",
+    "Code of Civil Procedure",
+    "1908",
+    "matrimonial proceedings",
+    "Family Court",
+    "Janjgir-Champa",
+    "Chhattisgarh",
+    "marriage",
+    "dispute",
+    "residence",
+    "Bilaspur",
+    "C.G.",
+    "petitioner",
+    "respondent",
+    "transfer petition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial proceedings",
+    "representing clients in Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:16:42.611381"
 }

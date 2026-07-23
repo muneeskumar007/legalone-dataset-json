@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:11:06.037939",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -19,13 +19,13 @@
     "Dwarka Dhish Bansal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Katni, case no. RCSHM53/2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Reena @ Pinkey Rai vs Pradeep Rai on 31 March, 2023",
+  "case_name": "Smt. Reena @ Pinkey Rai vs Pradeep Rai",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Reena @ Pinkey Rai, wife",
+    "respondent_defendant": "Pradeep Rai, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner filed an application under Section 24 of the CPC for transfer of a divorce petition from Family Court Seoni to Family Court Katni.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may transfer a case to another court if the convenience of the parties and the ends of justice would be served.",
+      "held": "He further submits that Seoni is about 225 Kms far from Katni and the applicant being lady is not in a position to go and appear before the Court at Seoni.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "convenience",
+        "ends of justice",
+        "party convenience",
+        "justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may consider the practical difficulties faced by a party in appearing before it.",
+      "held": "He also submits that Seoni is about 225 Kms far from Katni and the applicant being lady is not in a position to go and appear before the Court at Seoni.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "practical difficulties",
+        "party convenience",
+        "justice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Case no. RCSHM53/2020 deserves to be transferred from the Family Court, Seoni to Family Court, Katni.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Protection of Women from DV Act",
+    "Section 24 CPC",
+    "Family Court Seoni",
+    "Family Court Katni",
+    "Section 125 Cr.PC",
+    "Section 9 Hindu Marriage Act",
+    "Section 12 Domestic Violence Act",
+    "DV Act",
+    "Domestic Violence",
+    "Divorce Petition",
+    "Maintenance Petition",
+    "Custody Battle",
+    "Matrimonial Dispute",
+    "Marriage Dissolution",
+    "Alimony Claim"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on domestic violence cases",
+    "assisting with maintenance claims"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:10:01.170448"
 }

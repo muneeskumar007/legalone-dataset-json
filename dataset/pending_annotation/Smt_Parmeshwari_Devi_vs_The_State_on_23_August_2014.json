@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:10:38.971154",
   "domain": "will_succession",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Shri Sandeep Garg: Administrative Civil Judge− Cum− Additional Rent Controller (Central) : Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Parmeshwari Devi vs The State on 23 August, 2014",
+  "case_name": "Smt. Parmeshwari Devi vs The State",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Parmeshwari Devi, wife and successor of Sh. Ram Chander",
+    "respondent_defendant": "The State",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Smt. Parmeshwari Devi filed a succession petition for the grant of Succession Certificate in her favour qua the debts and securities left by Sh. Ram Chander, who expired on 29.07.1995 at Delhi.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Succession petitions are to be decided summarily.",
+      "held": "It is well settled proposition of law that succession petitions are to be decided in a summary manner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Succession Act — Section 373"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smt. Parmeshwari Devi vs The State, (2014) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "succession",
+        "petition",
+        "summary"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "inheritance disputes",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Only prima facie case is to be seen in succession petitions.",
+      "held": "Thus U/s. 373 of Indian Succession Act, only prima facie case is to be seen and other questions of law and fact which may be complicated are to be decided in regular civil court.",
+      "applicable_acts_sections": [
+        "Indian Succession Act — Section 373"
+      ],
+      "cited_cases": [
+        "Madhvi Amma Bhawani Amma and others Vs. Kunjikutty Pillai, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "prima facie",
+        "succession",
+        "petition"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "inheritance disputes",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted the succession certificate to Smt. Parmeshwari Devi.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "succession",
+    "petition",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Section 151 CPC",
+    "will",
+    "inheritance",
+    "debt",
+    "security",
+    "probate",
+    "intestate",
+    "testamentary",
+    "family court",
+    "civil judge",
+    "rent controller",
+    "Delhi",
+    "Shakurpur",
+    "Ram Chander",
+    "Parmeshwari Devi",
+    "Reshma",
+    "Mohit",
+    "Kamla Devi",
+    "Jagram"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "filing a succession petition",
+    "obtaining probate"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:35:24.761291"
 }

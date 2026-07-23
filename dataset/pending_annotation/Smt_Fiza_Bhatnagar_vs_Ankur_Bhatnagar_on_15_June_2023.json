@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:09:17.198724",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Hirdesh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Indore (H.M.A. No. 114/2007)",
   "reserved_on": "",
   "delivered_on": "20.10.2011",
-  "case_name": "Smt.Fiza Bhatnagar vs Ankur Bhatnagar on 15 June, 2023",
+  "case_name": "Smt.Fiza Bhatnagar vs Ankur Bhatnagar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt.Fiza Bhatnagar, wife",
+    "respondent_defendant": "Ankur Bhatnagar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized on 07.05.2001. Appellant left respondent in 2006 due to physical assault and desertion. Respondent filed application under Section 13-B of Hindu Marriage Act, which was dismissed. Appellant then filed application under Section 13(1) of Hindu Marriage Act for divorce and alimony.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A long period of continuous separation can conclude that the matrimonial bond is beyond repair and marriage becomes fixation only supported by a legal tie.",
+      "held": "In another case Samir Gosh Vs. Jaya Gosh reported in the year 2007 (4) SCC 511 in para 101 the Apex Court has enumerated some instances of human behaviour which may be relevant in dealing with the case of mental cruelty and a long period of continuous separation conclude that the matrimonial bond is beyond repair and marriage becomes fixation only supported by a legal tie.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Samir Gosh Vs. Jaya Gosh, (2007) 4 SCC 511"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial bond",
+        "continuous separation",
+        "mental cruelty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The fact that parties have not been able to sub-serve the very object of the marriage of companionship of each other from the very inception and have been living apart for more than 19 years can be a ground for divorce.",
+      "held": "The Apex Court in the case of Poonam Vs. Surendra Kumar in civil appeal no.9545/2010 dated 29.09.2021 has granted the decree of divorce in the exercise of power under Article 142 of the Constitution of India mainly on the ground that parties have not been able to sub-serve the very object of the marriage of companionship of each other from the very inception and have been living apart for more than 19 years.",
+      "applicable_acts_sections": [
+        "Constitution of India — Article 142"
+      ],
+      "cited_cases": [
+        "Poonam Vs. Surendra Kumar, (2021) Civil Appeal No.9545/2010"
+      ],
+      "keywords": [
+        "marriage object",
+        "companionship",
+        "living apart"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties agreed to live together for a month, but they continued to live separately. Hence, this case is taken up for final hearing.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)",
+    "Family Courts Act",
+    "Section 19",
+    "marriage dissolution",
+    "mediation",
+    "settlement",
+    "Indian law",
+    "family court",
+    "judgment decree",
+    "appeal",
+    "first appeal",
+    "Madhya Pradesh High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on mediation options",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:22:25.099759"
 }

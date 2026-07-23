@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:09.902006",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -18,20 +18,20 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "The III Addl. PRL. Judge, Family Court, Bangalore, MC No. 2229/2004",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Dr P V Lakshmidevi vs Sri Srihari S/O T.Ananthramaiah on 21 June, 2010",
+  "case_name": "Smt Dr P V Lakshmidevi vs Sri Srihari S/O T.Ananthramaiah",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Dr P V Lakshmidevi, wife",
+    "respondent_defendant": "Sri Srihari S/O T.Ananthramaiah, husband",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized on 2-12-2004 and wife stayed in her parents' house after leaving husband. Petition was filed on 29-12-2004 seeking dissolution of marriage and decree of divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -41,39 +41,72 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party making allegations of cruelty to prove them.",
+      "held": "On perusal of file, we find that the husband has made frivolous allegations that the marriage was not consummated due to irresponsible behaviour of wife's family members, and not due to irreconcilability of the wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's vague and irresponsible allegations are not sufficient to justify a decree of divorce.",
+      "held": "The husband has made vague and irresponsible allegations that his wife was guilty of cruelty, which is far fetched.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "vague allegations",
+        "irresponsible behaviour"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Decree of divorce dissolved by the trial court was set aside and marriage was dissolved.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "dissolution of marriage",
+    "family court",
+    "Bangalore",
+    "High Court of Karnataka",
+    "Miscellaneous First Appeal",
+    "Section 28(1)",
+    "marriage act",
+    "petition filed",
+    "reconciliation efforts"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for dissolution of marriage",
+    "appealing a family court order",
+    "advising on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:15:20.948839"
 }

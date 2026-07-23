@@ -7,7 +7,7 @@
   "total_pages": 20,
   "extracted_at": "2026-07-15T11:11:09.143533",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "Harish Vaidyanathan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Courts, Tis Hazari Courts (West), Delhi 2, MAT.APP.(F.C.) 49/2024",
   "reserved_on": "19.08.2025",
   "delivered_on": "27.08.2025",
-  "case_name": "Smt Reeta Jha vs Sh Mukund Kumar Jha on 27 August, 2025",
+  "case_name": "Smt Reeta Jha vs Sh Mukund Kumar Jha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Reeta Jha (wife)",
+    "respondent_defendant": "Sh Mukund Kumar Jha (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in an arranged marriage. The respondent had no uterus and could not conceive. The petitioner wanted to have children but the respondent avoided discussing it. The trial court declared the marriage as null and void under Section 12(1)(c) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -83,39 +83,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Concealment of a material fact or circumstance concerning the respondent can be a ground for annulment of marriage.",
+      "held": "The concealment, of the fact of not having a uterus by the petitioner, amounted to concealment of a material fact or circumstance concerning the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 12(1)(c)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Vandana J Kasliwal V. jitendra N. Kasliwal (2006)",
+        "Smt Reeta Jha vs Sh Mukund Kumar Jha (2025)"
+      ],
       "keywords": [
-        "TODO"
+        "marriage annulment",
+        "material fact",
+        "concealment",
+        "fraud",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "matrimonial disputes",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A material fact or circumstance concerning the respondent must be something which goes to the root of the matter, which would weigh with any prudent person to change his mind.",
+      "held": "It most not be easily detectable. The Court would be very circumspect, cautious and pragmatic in identifying such fact or circumstance.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 12(1)(c)"
+      ],
+      "cited_cases": [
+        "Vandana J Kasliwal V. jitendra N. Kasliwal (2006)",
+        "Smt Reeta Jha vs Sh Mukund Kumar Jha (2025)"
+      ],
+      "keywords": [
+        "material fact",
+        "circumstance",
+        "root of the matter",
+        "prudent person"
+      ],
+      "favourites": "plaintiff",
+      "use_in": [
+        "matrimonial disputes",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal preferred against the Judgment and Decree dated 05.11.2024",
+    "final_order": "The appeal was allowed and the marriage was declared null and void under Section 12(1)(c) of the Hindu Marriage Act, 1955.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Protection of Women from DV Act",
+    "Specific Relief Act",
+    "Family Courts Act",
+    "Section 12(1)(c)",
+    "Section 19(1)(4)",
+    "null and void",
+    "marriage nullity",
+    "concealment of material fact",
+    "DV Act",
+    "HMA",
+    "CPC",
+    "SRA",
+    "FCA",
+    "judgment reserved",
+    "judgment delivered"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "advising on Hindu Marriage Act nullity",
+    "preparing for Family Court appeals"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:11:48.189293"
 }

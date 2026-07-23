@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:10:29.972363",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Khetri",
   "reserved_on": "",
   "delivered_on": "19.11.2014",
-  "case_name": "Smt Neetu Sharma W/O Krishan Kumar ... vs Krishan Kumar Sharma S/O Shri Niranjan ... on 13 February, 2020",
+  "case_name": "Smt Neetu Sharma W/O Krishan Kumar ... vs Krishan Kumar Sharma S/O Shri Niranjan ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner wife (Smt Neetu Sharma) and Petitioner husband (Krishan Kumar Sharma)",
+    "respondent_defendant": "Respondent husband (Krishan Kumar Sharma) and Respondent wife (Smt Neetu Sharma)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Husband filed application for divorce under Section 13 of Hindu Marriage Act,1955. Wife submitted application for monthly maintenance under Section 24 of the same act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance should be awarded from the date of filing of the application, not from the date of the order.",
+      "held": "We are of the view that the circumstances eminently justified grant of maintenance with effect from the date of the application in view of the finding that the appellant had worked before marriage and had not done so during her marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Jaiminiben Hirenbhai Vyas & Anr. Vs. Hirenbhai Rameshchandra Vyas & Anr., (2014)"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "application",
+        "order",
+        "circumstances",
+        "finding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The amount of maintenance awarded should be reasonable and not excessive.",
+      "held": "As far as maintenance granted under Section 24 of the H.M. Act by the Courts below is concerned, it shall remain in unaltered.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [
+        "Jaiminiben Hirenbhai Vyas & Anr. Vs. Hirenbhai Rameshchandra Vyas & Anr., (2014)"
+      ],
+      "keywords": [
+        "maintenance",
+        "reasonable",
+        "excessive"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court awarded monthly maintenance to the wife in the tune of Rs.5,000/- per month from the date of filing of the application i.e. 22.05.2015.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "Section 25",
+    "irretrievable breakdown",
+    "marital harmony",
+    "separation",
+    "maintenance",
+    "custody",
+    "joint family",
+    "Brahmin",
+    "Rajasthan",
+    "Jhunjhunu",
+    "Khetri",
+    "Chirawa",
+    "Bigodna"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "assisting with maintenance and custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:24:35.099820"
 }

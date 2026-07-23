@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Jitendra Kumar Mishra, Additional District Judge -III, Rohini Courts, Delhi. Civil Suit no. 426/11",
   "reserved_on": "",
   "delivered_on": "09/08/2011",
-  "case_name": "Smt. Man Bhavti vs Smt. Durgawati on 20 October, 2011",
+  "case_name": "Smt. Man Bhavti vs Smt. Durgawati",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Man Bhavti, Sh. Ram Ujagir, Sh. Ram Millan (plaintiffs)",
+    "respondent_defendant": "Smt. Durgawati, Sh. Sanjay, Ms. Archana, Ms. Vandana (defendants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiffs are legal heirs of late Sh. Ram Nath who died intestate and left behind suit property. Defendant no. 1 started to live as a concubine of late Sh. Ram Nath. Plaintiffs filed a suit for possession and permanent injunction.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the plaintiff to prove her case.",
+      "held": "It is admitted case of the plaintiff that she did not have any proof of marriage because she got married with late Sh. Ram Nath in her childhood.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "plaintiff"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court will consider the facts and circumstances of each case to determine the legal rights of the parties.",
+      "held": "Prior to that she was at Nehru Nagar. It is further admitted case of the plaintiff that when she started to live with her husband then defendant no. 1 also resided with her husband at that time.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "facts",
+        "circumstances"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Plaintiffs are in occupation and in possession of one room on the second floor and are using latrine and bath room commonly.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "divorce",
+    "possession",
+    "permanent injunction",
+    "intestate",
+    "concubinage",
+    "family property",
+    "joint family",
+    "partition",
+    "suit property",
+    "occupation",
+    "possession",
+    "common latrine",
+    "bath room",
+    "room on second floor",
+    "Latin maxim",
+    "nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on property rights in joint family",
+    "representing clients in disputes over shared assets"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:03:40.441863"
 }

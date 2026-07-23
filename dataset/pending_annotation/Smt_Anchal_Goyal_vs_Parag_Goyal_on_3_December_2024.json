@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-07-15T11:08:45.508725",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 2,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Saharanpur in Original Suit No. 323 of 2022",
   "reserved_on": "",
   "delivered_on": "25.07.2019",
-  "case_name": "Smt Anchal Goyal vs Parag Goyal on 3 December, 2024",
+  "case_name": "Smt Anchal Goyal vs Parag Goyal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Anchal Goyal (wife)",
+    "respondent_defendant": "Parag Goyal (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -71,7 +71,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed an amendment application to introduce two paragraphs as paragraph nos. 54(cid:128) and 54(cid:129), to her written statement. The trial court dismissed the application.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -81,39 +81,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An order allowing or disallowing an application to amend a pleading will be a case decided and revisable if the amendment sought has a direct bearing on the rights of the parties and affects their obligations.",
+      "held": "The key to the solution in determining whether an order allowing or disallowing an application for amendment of a pleading will be a case decided is to be sought in the nature of the amendment sought, its direct or likely impact on the rights and obligations of the parties concerned and its immediate or potential effect on the Court's jurisdiction.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 115"
+      ],
+      "cited_cases": [
+        "Shankerlal Aggarwal and Others Vs. Shankerlal Poddar and Others, AIR 1965 SC 507",
+        "The Central Bank of India Ltd. v. Gokul Chand AIR 1967 SC 79 at 800"
+      ],
+      "keywords": [
+        "amendment",
+        "pleading",
+        "rights",
+        "obligations",
+        "jurisdiction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "An order passed under Order VI, Rule 17 of the Code of Civil Procedure, either allowing an amendment or refusing to allow an amendment, is a 'case decided' within the meaning of that expression in Section 115, Code of Civil Procedure.",
+      "held": "",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Order VI, Rule 17"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amendment",
+        "pleading",
+        "jurisdiction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The amendment application filed by the wife was dismissed by the trial court, which decision is upheld on appeal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Court Act",
+    "Code of Civil Procedure",
+    "Order VI Rule 17",
+    "Section 19",
+    "amendment application",
+    "written statement",
+    "paragraphs",
+    "Indian Kanoon",
+    "Saharanpur",
+    "Parag Goyal",
+    "Anchal Goyal",
+    "Allahabad High Court",
+    "Family Court",
+    "CPC",
+    "HC Single Judge"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family court procedures",
+    "appealing against family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:31:43.220536"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:09:22.166965",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -22,13 +22,13 @@
   "case_numbers": [
     "M.C.NO.119 OF 2015"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Tumakuru, M.C.No.119 of 2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. G.S.Rashmi vs Sri. Manjunath M S on 23 March, 2023",
+  "case_name": "Smt. G.S.Rashmi vs Sri. Manjunath M S",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. G.S.Rashmi, wife",
+    "respondent_defendant": "Sri. Manjunath M S, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties was solemnized on 28.04.2011. Respondent filed petition seeking dissolution of marriage due to cruelty and desertion.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "Desertion means the intentional abandonment of the spouse by the other without consent and without a reasonable cause.",
+      "held": "A Five Judge Bench of the Supreme Court in LACHMAN UTAMCHAND KIRIPALANI Vs. MEENA @ MOTA has held that desertion means the intentional abandonment of the spouse by the other without the consent of the other and without a reasonable cause.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "LACHMAN UTAMCHAND KIRIPALANI Vs. MEENA @ MOTA"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "intentional abandonment",
+        "consent",
+        "reasonable cause"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In a petition seeking decree of divorce on the ground of cruelty, specific instances have to be pleaded and proved.",
+      "held": "Similarly, in a petition seeking decree of divorce on the ground of cruelty, specific instances have to be pleaded and proved.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "NEELAM KUMAR VS. DAYA RANI"
+      ],
+      "keywords": [
+        "cruelty",
+        "pleaded",
+        "proved"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i-a)",
+    "Section 19(1)",
+    "Family courts Act",
+    "M.C.No.119 of 2015",
+    "MFA No.2287 of 2017",
+    "Tumakuru",
+    "Jayanagara West",
+    "Shetti Halli Road",
+    "Gubbi",
+    "Mahalakshmi Nagar",
+    "Vigneshwara Nilaya",
+    "Ranganatha Nilaya",
+    "Rupa V",
+    "Manjunath M S",
+    "Smt. G.S.Rashmi"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "appealing family court judgment on divorce",
+    "advising client on grounds for divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:24:12.059761"
 }

@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:09:57.053229",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Lajya Devi vs Smt. Kamla Devi on 21 May, 1992",
+  "case_name": "Smt. Lajya Devi vs Smt. Kamla Devi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Lajya Devi (wife)",
+    "respondent_defendant": "Smt. Kamla Devi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Kamla Devi filed a suit for declaration that she was the only legal heir entitled to inherit Inder Parkash's estate, claiming he had divorced her according to custom prevalent in Rajouri district. Appellant claimed to be the only legally wedded wife of the deceased.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,120 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A void marriage can be declared as such by the second wife and by no other person or party.",
+      "held": "Marriages under the Act can be declared void or voidable or a decree of divorce and judicial separation can be passed only at the instance of a party to the marriage who is aggrieved within the meaning of the provisions of Sections 10, 11, 12 and 13 of the Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section X"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void",
+        "marriage",
+        "second wife"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A void marriage cannot create a legal status of husband and wife between the parties.",
+      "held": "A marriage in contravention of Section 5(1), Hindu Marriage Act, is null and void and it cannot create a legal status of husband and wife between the parties, though the necessary ceremonies may have been gone through.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 5"
+      ],
+      "cited_cases": [
+        "Bajirao Raghoba Tambare v. Tolanbai Bhagwan Tonga, (1980) Cri LJ 473"
+      ],
+      "keywords": [
+        "void",
+        "marriage",
+        "husband and wife"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A voidable marriage can be treated as non-existent in the eye of law.",
+      "held": "The innocent party can treat the marriage nullity and ignore it because the erring party is presumed to be aware of the position of law and treat such second marriage to be non-existent in the eye of law.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "voidable",
+        "marriage",
+        "non-existent"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A declaration of nullity can be granted only by the District Court and in the manner prescribed by it.",
+      "held": "The Hindu Marriage Act having conferred exclusive jurisdiction on a District Court, and prescribed null and void, which is void according to Section 11 thereof, such declaration could be granted only by the District Court and in the manner prescribed by it.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 11"
+      ],
+      "cited_cases": [
+        "Sheelawati v. Ram Nandani, AIR 1981 All 42"
+      ],
+      "keywords": [
+        "nullity",
+        "District Court",
+        "prescribed manner"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "null and void",
+    "custom",
+    "oral evidence",
+    "documentary evidence",
+    "Evidence Act",
+    "Sections 91 and 92",
+    "declaration of marriage",
+    "lis invalid",
+    "specific issues",
+    "cause of action",
+    "accrual of cause",
+    "divorce",
+    "marriage nullity",
+    "recent origin",
+    "ancient custom"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for declaration of marriage nullity",
+    "advising on the admissibility of oral evidence in a divorce case",
+    "arguing a point of law regarding the accrual of cause of action"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:14:57.111865"
 }

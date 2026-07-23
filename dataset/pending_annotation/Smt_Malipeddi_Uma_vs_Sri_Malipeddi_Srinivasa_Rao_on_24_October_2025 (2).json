@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:10:03.889742",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2
@@ -21,13 +21,13 @@
     "S.R.No.117270 of 2025",
     "O.P.No.1550 of 2024"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court-cum-V Additional District Judge at Visakhapatnam (FCOP No. 1550 of 2024)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Malipeddi Uma vs Sri Malipeddi Srinivasa Rao on 24 October, 2025",
+  "case_name": "Smt Malipeddi Uma vs Sri Malipeddi Srinivasa Rao",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Mallpeddi Uma, wife",
+    "respondent_defendant": "Sri Malipeddi Srinivasa Rao, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed petition under Section 24 of the C.P.C. seeking withdrawal of FCOP No. 1550 of 2024 and transfer to Vizianagaram.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking withdrawal of a petition to establish sufficient grounds for such withdrawal.",
+      "held": "Though registered notice sent to the respondent and the same was served on him. none appeared for the respondent. Therefore, 'service held sufficient'.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "withdrawal",
+        "petition",
+        "grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's inability to attend court proceedings due to lack of male assistance does not necessarily warrant a withdrawal of the petition.",
+      "held": "The material on record prima facie goes to shows that, in view of the matrimonial disputes, the petitioner/wife has been residing separately along with her children in her parents' house at Vizianagaram and she has instituted two (02) cases against the respondent/husband herein i.e., a Criminal Case which was registered as F.I.R.No.76 of 2024, for the offence punishable under Section 85 of B.N.S. and under Sections 3 & 4 of the Dowry Prohibition Act, 1961, before the Disha Police Station, Vizianagaram, the same is pending",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition",
+        "withdrawal",
+        "inability",
+        "male assistance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Service held sufficient; petition allowed, FCOP No. 1550 of 2024 withdrawn and transferred to the file of the Judge, Family Court at Vizianagaram.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Section 24 CPC",
+    "Section 151 CPC",
+    "Family Court",
+    "Visakhapatnam",
+    "Vizianagaram",
+    "Judge, Family Court-cum-V Additional District Judge",
+    "FCOP.1550 of 2024",
+    "petition for withdrawal",
+    "transfer of petition",
+    "affidavit",
+    "withdrawal of petition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "seeking transfer of a family court case",
+    "withdrawing a petition in a family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:26:22.301323"
 }

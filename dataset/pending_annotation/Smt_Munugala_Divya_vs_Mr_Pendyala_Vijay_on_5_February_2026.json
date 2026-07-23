@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:10:21.826234",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Munugala Divya vs Mr Pendyala Vijay on 5 February, 2026",
+  "case_name": "Smt Munugala Divya vs Mr Pendyala Vijay",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Munugala Divya (wife)",
+    "respondent_defendant": "Mr Pendyala Vijay (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant is the wife and respondent is the husband. She has filed a divorce petition seeking dissolution of marriage on grounds of cruelty and unsound suffering from mental disorder. The trial court dismissed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties seeking mutual consent divorce must file an application under Section 13(B) of the Hindu Marriage Act, 1955 before the jurisdictional Family Court.",
+      "held": "The parties have to file an application under Section 13(B) of the Hindu Marriage Act, 1955 before the jurisdictional Family Court seeking dissolution of marriage with mutual consent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(B)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "divorce",
+        "Family Court",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Conversion of a divorce petition into a mutual consent divorce petition is impermissible.",
+      "held": "Conversion of the aforesaid FCOP.No.1224 of 2021 into mutual consent divorce petition in the present case is impermissible.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(B)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "conversion",
+        "divorce petition",
+        "mutual consent"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal disposed of",
+    "final_order": "Parties granted liberty to file an application under Section 13(B) of the Hindu Marriage Act, 1955 before the jurisdictional Family Court seeking dissolution of marriage with mutual consent. Liberty is also granted to parties to file an application seeking waiving of the six month period.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "cruelty",
+    "unsound suffering",
+    "mental disorder",
+    "Section 13(1)(i-a)",
+    "Section 13(1)(iii)",
+    "FCOP",
+    "Family Court",
+    "appeal",
+    "dissolution of marriage",
+    "marriage settlement",
+    "interlocutory application",
+    "I.A.No.1",
+    "FCOP.No.1224",
+    "Ranga Reddy District",
+    "L.B.Nagar"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on mutual consent divorce",
+    "appealing family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:19:42.458399"
 }

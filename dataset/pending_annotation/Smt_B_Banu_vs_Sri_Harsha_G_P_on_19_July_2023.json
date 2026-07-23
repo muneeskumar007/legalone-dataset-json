@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:01.931065",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty_desertion",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "M.C.NO.2270 OF 2013",
     "M.C.No.2270/2013"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Bengaluru, M.C.No.2270/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt B Banu vs Sri Harsha G P on 19 July, 2023",
+  "case_name": "Smt B Banu vs Sri Harsha G P",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. B. Banu (wife)",
+    "respondent_defendant": "Sri. Harsha G.P. (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a petition under Section 13 of the Hindu Marriage Act, 1955 seeking dissolution of marriage on grounds of cruelty and desertion. The trial court allowed the petition. This appeal is against that judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The family court has a duty to decide all pending applications before pronouncing judgment.",
+      "held": "However, the family court has not decided the aforesaid applications preferred by the appellant under Section 25 of the Act for interim maintenance as well as the application under Section 151 of Code of Civil Procedure seeking to return the belongings of the appellant / wife while pronouncing the judgment dated 03.01.2018.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Section 151"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "family court",
+        "pending applications",
+        "judgment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's application under Section 25 of the Hindu Marriage Act, 1955 should be decided before a judgment is pronounced.",
+      "held": "However, the family court has not decided the application under Section 25 of the Act for interim maintenance preferred by the appellant / wife while pronouncing the judgment dated 03.01.2018.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 25"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "Section 25"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The family court is directed to decide the applications filed by the wife under Section 25 of the Hindu Marriage Act, 1955 and Section 151 of Code of Civil Procedure.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Section 19(1)",
+    "M.C.No.2270 of 2013",
+    "MFA No.2706 of 2018",
+    "High Court of Karnataka",
+    "Bengaluru",
+    "Karnataka",
+    "Jayanagar",
+    "Bangalore",
+    "Rupavati",
+    "Kurubarahalli",
+    "JC Nagar",
+    "Hindu Marriage",
+    "Divorce Petition",
+    "Family Court Act",
+    "Appeal under Section 19(1)",
+    "Section 7 of the Hindu Marriage Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "appealing a family court decision",
+    "advising on Hindu marriage law"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:46:12.388029"
 }

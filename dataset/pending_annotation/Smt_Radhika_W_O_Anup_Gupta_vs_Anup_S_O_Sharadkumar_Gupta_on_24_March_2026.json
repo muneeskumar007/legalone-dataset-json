@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:11:00.192090",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Nagpur",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Radhika W/O. Anup Gupta vs Anup S/O. Sharadkumar Gupta on 24 March, 2026",
+  "case_name": "Smt. Radhika W/O. Anup Gupta vs Anup S/O. Sharadkumar Gupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anup S/O. Sharadkumar Gupta (husband) and Radhika Anup Gupta (wife)",
+    "respondent_defendant": "Radhika Anup Gupta (wife) and Anup S/O. Sharadkumar Gupta (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a petition for divorce under Section 13(1)(ia) and (ib) of the Hindu Marriage Act, 1955. The wife filed an application under Section 24 of the Act seeking maintenance pendente lite. The Family Court allowed the application and granted Rs.25,000/- per month to the wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The quantum of maintenance should be commensurate to the standard of living and status of the parties.",
+      "held": "This Court had earlier remanded the matter for deciding the application for grant of maintenance pendente lite afresh by observing that the quantum of maintenance should be commensurate to the standard of living and status of the parties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [
+        "Smt. Radhika W/O. Anup Gupta vs Anup S/O. Sharadkumar Gupta, (2026) X SCC Y"
+      ],
+      "keywords": [
+        "maintenance pendente lite",
+        "standard of living",
+        "status of parties"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH — for determining the amount of maintenance",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The wife is entitled to a life with the same standard of living as that of her husband.",
+      "held": "She submitted that the wife is entitled for a life with the same standard of living as that of her husband and considering the solid financial position of the husband, grant of amount of Rs.25,000/- per month towards maintenance pendente lite is very meagre.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "standard of living",
+        "wife's entitlements"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — for determining the wife's maintenance rights",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's order granting maintenance pendente lite to the wife was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "irretrievable breakdown",
+    "marital discord",
+    "separation",
+    "cohabitation",
+    "joint family",
+    "matrimonial home",
+    "custody",
+    "maintenance",
+    "alimony",
+    "property settlement",
+    "equitable distribution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on property settlement",
+    "assisting with maintenance and alimony disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:59:06.651837"
 }

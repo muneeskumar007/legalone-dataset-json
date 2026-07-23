@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:08:36.381257",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Sameer Jain J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No. 2, Jaipur (Case No. 374/2020)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Aarti Dhomoniya W/O Deepak Goyar ... vs Deepak Goyar S/O Shri Premprakash Goyar ... on 20 March, 2023",
+  "case_name": "Smt. Aarti Dhomoniya W/O Deepak Goyar vs Deepak Goyar S/O Shri Premprakash Goyar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Aarti Dhomoniya, wife",
+    "respondent_defendant": "Deepak Goyar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute; applicant-wife seeks transfer of case from Family Court No. 2, Jaipur to Family Court Ajmer.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may transfer a case to another court if the applicant is financially deprived and lacks infrastructural support.",
+      "held": "Considering that the applicant is presently residing with her aged parents in Ajmer; that the applicant does not have the infrastructural support, in terms of family members, who can accompany her to court proceedings pending in District Jaipur;",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "N.C.V. Aishwarya vs. A.S. Saravana Karthik Sha: Civil Appeal No. 4894/2022",
+        "Sumita Singh Vs. Kumar Sanjay & Ors.: AIR 2002 SC 396",
+        "Rajni Kishor Pardeshi Vs. Kishor Babulal Pardeshi: (2005) 12 SCC 237",
+        "Vaishali Shridhar Jagtap Vs. Shridhar Vishwanath Jagtap: AIR 2016 SC 3584"
+      ],
       "keywords": [
-        "TODO"
+        "financially deprived",
+        "infrastructural support",
+        "transfer case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may transfer a case to another court if the applicant apprehends threat to their life and liberty.",
+      "held": "that the applicant apprehends threat to her life and liberty at Jaipur;",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya vs. A.S. Saravana Karthik Sha: Civil Appeal No. 4894/2022",
+        "Sumita Singh Vs. Kumar Sanjay & Ors.: AIR 2002 SC 396",
+        "Rajni Kishor Pardeshi Vs. Kishor Babulal Pardeshi: (2005) 12 SCC 237",
+        "Vaishali Shridhar Jagtap Vs. Shridhar Vishwanath Jagtap: AIR 2016 SC 3584"
+      ],
+      "keywords": [
+        "threat to life and liberty",
+        "transfer case"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Case transferred from Family Court No. 2, Jaipur to Family Court Ajmer.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial dispute",
+    "time bound manner",
+    "lawyers strike",
+    "Harish Uppal Vs. Union of India",
+    "Code of Civil Procedure",
+    "Section 24",
+    "Section [2023/RJJP/00",
+    "Deepak Goyar Vs. Aarti Dhamoniya",
+    "transfer application",
+    "final disposal",
+    "pleadings",
+    "service in the matter"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to transfer application",
+    "handling lawyers strike impact on court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:25:38.943370"
 }

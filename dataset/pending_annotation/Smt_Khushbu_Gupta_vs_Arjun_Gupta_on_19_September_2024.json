@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:48.604684",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Korba, District Korba (TPC No. 46 of 2024)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Khushbu Gupta vs Arjun Gupta on 19 September, 2024",
+  "case_name": "Smt. Khushbu Gupta vs Arjun Gupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner/wife",
+    "respondent_defendant": "Respondent/husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between petitioner/wife and respondent/husband was solemnized on 19.05.2024. Petitioner/wife has filed an application under Section 125 of the Cr.P.C. seeking maintenance, which is pending as MJC Case No. 1043 / 2023 before the Family Court Durg.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The cardinal principle for exercise of power under section is that the ends of justice should demand the transfer of the suit.",
+      "held": "Their Lordships of the Supreme Court has held as under: 'The cardinal principle for exercise of power under section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.'",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "N.C.V. Aishwarya Vs. A.S. Saravana Karthik, (2022) SCC Online SC 1199"
+      ],
       "keywords": [
-        "TODO"
+        "transfer",
+        "ends of justice",
+        "suit",
+        "appeal",
+        "proceeding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "In matrimonial matters, Courts have to take into consideration the economic soundness of both parties, their social strata, behavioural pattern, standard of life prior to and subsequent to marriage.",
+      "held": "Their Lordships of the Supreme Court has held as under: 'In matrimonial matters, wherever Courts are called upon to consider the plea of transfer, the Courts have to take into consideration the economic soundness of both the parties, the social strata of the spouses and their behavioural pattern, their standard of life prior to the marriage and subsequent thereto and the circumstances of both the parties in eking out their livelihood and under whose protective umbrella they are seeking their sustenance to life.'",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 5",
+        "Hindu Marriage Act — Section 12"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya Vs. A.S. Saravana Karthik, (2022) SCC Online SC 1199"
+      ],
+      "keywords": [
+        "matrimonial matters",
+        "economic soundness",
+        "social strata",
+        "behavioural pattern",
+        "standard of life"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Civil Suit No.2-A /2024 filed by respondent/husband in the Family Court, Korba may be transferred to Family Court, Durg.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "Civil Procedure Code",
+    "Family Court",
+    "Korba",
+    "Durg",
+    "marriage",
+    "children",
+    "ill relation",
+    "maternal uncle",
+    "aunt",
+    "residence",
+    "transfer petition",
+    "petitioner",
+    "respondent",
+    "wife",
+    "husband",
+    "CPC 1908",
+    "Hindu rites",
+    "rituals"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family court procedures",
+    "assisting with transfer of cases between courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:02:27.876923"
 }

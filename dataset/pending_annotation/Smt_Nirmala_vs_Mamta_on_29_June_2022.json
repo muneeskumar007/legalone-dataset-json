@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:10:34.358239",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "Rajani Dubey J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court Manendragarh, Civil Suit No.36-A/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Nirmala vs Mamta on 29 June, 2022",
+  "case_name": "Smt. Nirmala vs Mamta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Nirmala, wife and mother",
+    "respondent_defendant": "Mamta, widow and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiff Mamta along with her children claimed relief against defendant Nirmala and others. The suit was decreed in favour of the plaintiffs. Defendant Nirmala appealed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,115 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A customary divorce in accordance with the caste custom can be a valid ground for declaring a marriage null and void.",
+      "held": "The Court further held that according to the caste custom (Chod Chhutti) of Satnami community which was pleaded and proved, Nirmala had divorced Rajkumar on account of her elopement with another person.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 29"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "customary divorce",
+        "caste custom",
+        "Satnami community"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving customary law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage between a person belonging to one caste and another person belonging to a different caste can be invalid if it is not in accordance with the customs of either community.",
+      "held": "It was stated that the plaintiff Mamta belonged to Kesar caste and according to the Satnami caste customs, she could not have married Rajkumar who belonged to Satnami community.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "inter-caste marriage",
+        "customs of a community"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving inter-caste marriages"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person's marital status can be determined by the customs and traditions of their community, even if it is not in accordance with statutory law.",
+      "held": "The Court further held that plaintiff no.1 Mamta is married wife and plaintiff No.5 is mother of late Rajkumar.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marital status",
+        "community customs",
+        "statutory law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving disputes over marital status"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A court can declare a person's parentage or family relationships based on the evidence presented, even if it is not in accordance with statutory law.",
+      "held": "The Court further declared that plaintiffs 2, 3 & 4 are children of Rajkumar whereas in respect of defendants 2 & 3 Vicky and Geeta, they were also held to be son and daughter of Rajkumar.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "parentage",
+        "family relationships",
+        "statutory law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving disputes over parentage or family relationships"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal preferred",
+    "final_order": "The appeal is filed by defendant Nirmala along with others claiming herself to be the wife of Raj Kumar along- with two children born out of the first marriage performed with late Raj Kumar.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1875",
+    "Section 13",
+    "Section 23",
+    "Section 24",
+    "Section 25",
+    "Section 26",
+    "Section 27",
+    "Section 28",
+    "Section 29",
+    "Section 30",
+    "Section 31",
+    "Section 32",
+    "Section 33",
+    "Section 34"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on grounds for divorce",
+    "responding to divorce petition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:29:48.827744"
 }

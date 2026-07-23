@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:08:29.201677",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 2,
     "land_acquisition": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judicial Magistrate, First Class, Jalgaon (CRIMINAL REVISION APPLICATION NO. 369 OF 2003)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sk Rauf Sk Usman & Anr vs State Of Maha on 7 April, 2016",
+  "case_name": "Sk Rauf Sk Usman & Anr vs State Of Maha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sk. Rauf Sk. Usman, Labour; Masum Ali Sk. Buchanu, Labour",
+    "respondent_defendant": "State of Maharashtra",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "After marriage, family members used to beat and illtreat prosecutrix and subjected her to cruelty on the ground of demand of Rs.10,000/- from her parents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court's inherent powers cannot be used to quash proceedings in a case where the parties are governed by Muslim law and the offence is not compoundable.",
+      "held": "Thus, this Court has no inherent powers to quash and set aside the proceedings as it is not compoundable under Section 320 Cr.P.Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.Code — Section 320"
+      ],
+      "cited_cases": [
+        "Vasudeo K. Dalal Vs. State of Maharashtra, (2003) 2 B.Cr.C. 558"
+      ],
+      "keywords": [
+        "inherent powers",
+        "Muslim law",
+        "compoundable offence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving Muslim law and compoundable offences"
+      ],
+      "significance": "MEDIUM — one reason why the court's inherent powers are limited",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A compromise in a criminal case can be allowed if the parties agree to settle their dispute, but only for offences that are compoundable.",
+      "held": "However, offence punishable under Sec. 323 I.P. Code is compoundable.",
+      "applicable_acts_sections": [
+        "Cr.P.Code — Section 320",
+        "I.P. Code — Section 323"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "compoundable offence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "cases involving minor offences and willing parties"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — one reason why compromise is allowed in certain cases",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Conviction under Section 498A read with Section 34 of the Indian Penal Code against the applicants is maintained.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "cruelty",
+    "498-A",
+    "Indian Penal Code",
+    "Specific Relief Act",
+    "marriage",
+    "family members",
+    "illtreatment",
+    "demand",
+    "Rs.10,000/-",
+    "parents",
+    "prosecution story",
+    "charge sheet",
+    "investigation",
+    "judgment",
+    "Section 34",
+    "Sections 498-A",
+    "323",
+    "504",
+    "506"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on domestic violence cases",
+    "preparing for Section 498-A trial"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:23:54.157293"
 }

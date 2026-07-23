@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-07-15T11:08:42.417149",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Second Additional Judge to the Court of District Judge, Raipur",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Alka Sharma vs Abhinesh Chandra Sharma on 4 February, 1991",
+  "case_name": "Smt. Alka Sharma vs Abhinesh Chandra Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Abhinesh Chandra Sharma, husband",
+    "respondent_defendant": "Alka Sharma, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married on 22-5-1986. They lived together for about 19 days. The husband filed a petition under Section 12 of the Hindu Marriage Act, 1955, within one year of the marriage, seeking to declare the marriage as nullity.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,101 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Court cannot substitute words of its own in a statute, but should interpret it to make it meaningful and practicable.",
+      "held": "With without the interpreter's awareness, some degree of creativity and discretion is inherent in any kind of interpretation -- be it interpretation of the law or of any other product of human civilization.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "interpretation",
+        "creativity",
+        "discretion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "When there is doubt, the simple tool of logic does not suffice, and even it is disguised and unconscious, the judges are called on to exercise the sovereign prerogative of choice.",
+      "held": "Indeed, the interpreter has to give new life to a text which, per se, dead -- mere symbol of another person's act of life.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "logic",
+        "doubt",
+        "judges' prerogative"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A Judge must not alter the material of which a law or an instrument is woven, but can and should iron out the creases and make articulate the inarticulate premise.",
+      "held": "Lord Denning would invite the Judge then to set to work on the construction task of finding the intention of the Parliament or the law making body.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "judges' role",
+        "construction",
+        "intention"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial Court's decree declaring the wife's marriage with the husband as nullity under Section 12(1)(b) and (c) of the Hindu Marriage Act, 1955, was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 12(1)(b)",
+    "Section 28",
+    "nullity",
+    "mental disorder",
+    "schizophrenia",
+    "marriage nullity",
+    "divorce",
+    "Indian law",
+    "family court",
+    "judicial separation",
+    "matrimonial dispute",
+    "marital status",
+    "spousal relationship",
+    "cohabitation",
+    "separation",
+    "annulment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on marital disputes",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:29:07.300490"
 }

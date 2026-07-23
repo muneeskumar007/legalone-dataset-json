@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:08:43.281501",
   "domain": "partition",
-  "sub_domain": "divorce",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 5,
@@ -25,13 +25,13 @@
   "case_numbers": [
     "R.A.No.12/2006"
   ],
-  "trial_court": "",
+  "trial_court": "Civil Judge (Sr. Dn.), Hiriyur, R.A.No.12/2006",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Anasuyamma vs Shivamma on 12 October, 2023",
+  "case_name": "Smt Anasuyamma vs Shivamma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Anasuyamma, Smt Nagamani, Sri Nataraja, Smt Rajamma",
+    "respondent_defendant": "Shivamma, Pushpalatha, Vijayakumar",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiffs filed a suit for partition and separate possession in respect of suit schedule properties. The appellants are defendant Nos.2 to 5.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person's status as an illegitimate child does not necessarily disentitle them to a share in their father's property.",
+      "held": "Though dubbed as illegitimate children, the factum of H.M. Kariyanna having married plaintiff No.1 on a subsequent date would enable plaintiffs 2 and 3 to draw sustenance from Section 16 of the Hindu Marriage Act, 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "illegitimate child",
+        "father's property",
+        "Section 16"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The fact that a person is living with another as husband and wife for a long period can be taken into account while determining their rights.",
+      "held": "The First Appellate Court has erred in drawing inference that plaintiff No.1 lived with H.M.Kariyanna as husband and wife for a long period.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Smt Anasuyamma vs Shivamma, (2023) X SCC Y"
+      ],
+      "keywords": [
+        "living together",
+        "husband and wife",
+        "rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 10",
+    "Section 11",
+    "Section 12",
+    "Section 13",
+    "Section 14",
+    "Section 15",
+    "Section 16",
+    "Section 17",
+    "Section 18",
+    "Section 19",
+    "Section 20",
+    "Section 21",
+    "Section 22",
+    "Section 23",
+    "Section 24",
+    "Section 25",
+    "RSA No. 670 of 2008",
+    "Regular Second Appeal",
+    "CPC",
+    "Judgement & Decree",
+    "Appeal",
+    "Setting aside"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition appeal under Hindu Marriage Act, 1955",
+    "guiding principles for setting aside a judgement and decree in a partition case",
+    "practical tips for filing a regular second appeal under CPC"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:30:49.057503"
 }

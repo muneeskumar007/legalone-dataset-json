@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:10:56.660343",
   "domain": "will_succession",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 3,
     "partition": 3,
@@ -25,13 +25,13 @@
   "case_numbers": [
     "O.S.No.39 of 2000"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court at Secunderabad, O.S. No. 39 of 2000",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. P. Kalavathi vs Smt. P. Lakshmi And Anr on 16 April, 2026",
+  "case_name": "Smt. P. Kalavathi vs Smt. P. Lakshmi And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P. Kalavathi and two others (Appellants/Defendants)",
+    "respondent_defendant": "Smt. P. Lakshmi and another (Respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff's husband died intestate, leaving behind a residential house. The defendants trespassed into the property claiming to be the second wife. The plaintiffs filed a suit for declaration and recovery of possession.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage is void ab initio if it is performed during the subsistence of a valid marriage.",
+      "held": "It was submitted that during the subsistence of the said valid marriage, late P. Venkat Swamy could not have performed a second marriage and, therefore, any alleged marriage set up by defendant No.1 is void ab initio under Sections 5(1) and 11 of the Hindu Marriage Act, 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5(1), Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "valid marriage",
+        "subsistence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "marriage disputes",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who enters into possession of property without any lawful right, title, or interest is not entitled to retain it.",
+      "held": "It was urged that the defendant No.1 entered into possession of the suit schedule property only after the death of late P. Venkat Swamy, without any lawful right, title, or interest, and that the plaintiffs, being the lawful heirs, were entitled to seek recovery of possession.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "possession",
+        "lawful right",
+        "title",
+        "interest"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "property disputes",
+        "inheritance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal Suit decreed in favour of the respondents",
+    "final_order": "The trial court's judgment and decree dated 04.06.2002 were upheld, declaring the suit filed by the plaintiffs against the defendants for declaration and recovery of possession.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Appeal Suit",
+    "Family Court",
+    "Will Deed",
+    "Succession",
+    "Inheritance",
+    "Declaration",
+    "Recovery of possession",
+    "Plaint Schedule Property",
+    "Trial Court",
+    "Order XLI Rule 27",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "challenging a family court judgment",
+    "seeking permission to adduce additional evidence"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:31:23.441517"
 }

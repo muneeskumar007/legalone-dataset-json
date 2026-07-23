@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:11:25.669777",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2
   },
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Saroj vs Sarwan Singh on 15 December, 2017",
+  "case_name": "Smt. Saroj vs Sarwan Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Saroj Singh (wife)",
+    "respondent_defendant": "Sarwan Singh and others (husband and others)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent solemnized the second marriage inspite of the interim order passed by this court. The Division Bench of this court passed an interim order restraining the respondent from contracting a second marriage during the pendency of the appeal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,60 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When a marriage has been dissolved by a decree of divorce and either there is no right of appeal against the decree or, if there is such a right of appeal, the time for appealing has expired without an appeal having been presented, or an appeal has been presented but has been dismissed, it shall be lawful for either party to the marriage to marry again.",
+      "held": "Section 15 of Hindu Marriage Act prescribes when a person can remarry after passing a decree of divorce.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 15"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smt. Saroj vs Sarwan Singh, (2017)"
+      ],
       "keywords": [
-        "TODO"
+        "remarriage",
+        "divorce",
+        "decree",
+        "appeal"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Contempt petition dismissed",
+    "final_order": "The contempt petition is disposed of. No order as to costs.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 15",
+    "contempt petition",
+    "interim order",
+    "second marriage",
+    "restrained from contracting second marriage",
+    "pendency of appeal",
+    "right of appeal",
+    "decree of divorce",
+    "remarry",
+    "dissolved by decree",
+    "no right of appeal",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for contempt of court",
+    "advising on the implications of an interim order",
+    "assisting with a divorce case involving remarriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:33:33.311705"
 }

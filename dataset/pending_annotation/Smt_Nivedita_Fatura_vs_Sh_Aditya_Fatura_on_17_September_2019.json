@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:10:34.523344",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "custody": 1,
@@ -22,13 +22,13 @@
     "And Both J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned Additional District Judge (2), Kangra at Dharamshala, District Kangra, HP (HMA No. 27-D/III/2015)",
   "reserved_on": "",
   "delivered_on": "17.09.2019",
-  "case_name": "Smt. Nivedita Fatura vs Sh. Aditya Fatura on 17 September, 2019",
+  "case_name": "Smt. Nivedita Fatura vs Sh. Aditya Fatura",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Nivedita Fatura (wife)",
+    "respondent_defendant": "Sh. Aditya Fatura (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's husband filed a divorce petition against her under Section 13 of the Hindu Marriage Act. She is unemployed and has a minor child to take care of, making it difficult for her to defend herself in Dharamshala.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may transfer a case to ensure the petitioner's ability to defend herself.",
+      "held": "Presently, she is residing at Mandi with her parents and is dependent upon them, not only for her upkeep but probably for the upkeep of her minor child also.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "petitioner's ability to defend",
+        "dependent on others"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may consider the convenience of both parties when deciding whether to transfer a case.",
+      "held": "it is also not in dispute that proceedings which have been initiated by the petitioner against the respondent under the Protection of Women from Domestic Violence Act, 2005, are pending at Mandi and the respondent is defending himself in the said proceedings at Mandi",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act, 2005"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "convenience",
+        "both parties"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "DV cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The case was transferred from the Court of learned Additional District Judge (2), Kangra at Dharamshala, District Kangra, HP to the Court of learned District Judge, Mandi, District Mandi, HP.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Section 13",
+    "unemployment",
+    "minor child",
+    "custody",
+    "residence",
+    "Mandi town",
+    "Dharamshala",
+    "Article 227",
+    "Civil Procedure Code",
+    "Section 24",
+    "transfer petition",
+    "family court",
+    "judicial transfer"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on judicial transfers",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:30:33.143910"
 }

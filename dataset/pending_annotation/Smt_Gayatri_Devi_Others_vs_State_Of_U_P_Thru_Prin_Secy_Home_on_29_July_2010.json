@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:09:19.021874",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "will_succession": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Unknown Court, Writ Petition No. 7127 (M/B) of 2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Gayatri Devi & Others vs State Of U.P., Thru. Prin. Secy.,Home & ... on 29 July, 2010",
+  "case_name": "Smt. Gayatri Devi & Others v. State Of U.P., Thru. Prin. Secy.,Home & ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Gayatri Devi and others (mother-in-law, etc.)",
+    "respondent_defendant": "State of U.P and others (opposite parties)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of Renuka Saini was solemnised with Manoj Kumar Saini in 2000. Husband and family members demanded Rs.50,000/- but she never moved any complaint. She lodged FIR against petitioners for harassment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person who lodges a false FIR can be held liable for harassment and pressure.",
+      "held": "The submission of learned counsel for the petitioners is that the marriage of opposite party No.4 Renuka Saini was solemnised with Manoj Kumar Saini in the year 2000. Since then her husband and his family members were demanding Rs.50,000/- but she never moved any complaint either to Police or any Officer.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "false FIR",
+        "harassment",
+        "pressure"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who files a petition for dissolution of marriage cannot be allowed to file a false FIR against the other party.",
+      "held": "The husband of opposite party No.4 has already filed a petition under Section 13 of the Hindu marriage Act, 1955 against her for dissolution of marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "false FIR",
+        "petition for dissolution of marriage"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Petitioners will not be arrested till next date of listing, subject to their cooperation in the investigation.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498-A IPC",
+    "Section 13 Hindu Marriage Act",
+    "quashing FIR",
+    "Article 226 Constitution India",
+    "Latin Maxim",
+    "marriage dissolution",
+    "domestic violence",
+    "family law",
+    "Indian Penal Code",
+    "Dowry Prohibition Act",
+    "Manak Nagar Police Station",
+    "Lucknow District",
+    "Raj Mani Chauhan",
+    "Virendra Kumar Dixit"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing FIR in domestic violence cases",
+    "advising on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:27:19.842720"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:10:02.759902",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "domestic_violence": 1
@@ -18,13 +18,13 @@
     "Pankaj Bhandari J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Barmer",
   "reserved_on": "",
   "delivered_on": "05.04.2012",
-  "case_name": "Smt. Madan Kumari @ Madan Devi vs Magaram on 21 April, 2017",
+  "case_name": "Smt. Madan Kumari @ Madan Devi vs Magaram",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Madan Kumari @ Madan Devi, wife",
+    "respondent_defendant": "Magaram, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is a lady who has filed applications under Section 125 Cr. P.C and Section 9 of the Hindu Marriage Act at Jodhpur, wherein respondent is not appearing.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "Transfer applications are to be decided on the facts of a particular case.",
+      "held": "I have considered the contentions.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Smt. Manju Vs. Ishwar Dan, (2012) X SCC Y",
+        "Smt. Pratigya Singh Vs. Shri Jaiprakash Bagotia, (2017) X SCC Y"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer application",
+        "particular case",
+        "contentions"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will consider the contentions of both parties before deciding a transfer application.",
+      "held": "I have considered the contentions.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Smt. Manju Vs. Ishwar Dan, (2012) X SCC Y",
+        "Smt. Pratigya Singh Vs. Shri Jaiprakash Bagotia, (2017) X SCC Y"
+      ],
+      "keywords": [
+        "contentions",
+        "parties",
+        "transfer application"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The transfer application was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 125 Cr. P.C",
+    "Section 9 Hindu Marriage Act",
+    "family court",
+    "transfer of case",
+    "petitioner's convenience",
+    "respondent's non-appearance",
+    "wife's difficulties",
+    "distance between courts",
+    "judicial transfer",
+    "stay petition",
+    "civil misc stay petition",
+    "family law",
+    "marriage dissolution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "requesting a case transfer",
+    "arguing respondent's non-appearance"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:24:23.634129"
 }

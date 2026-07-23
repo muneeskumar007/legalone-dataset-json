@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:06.250120",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Reena W/O S C Tejes And vs S C Tejes S/O. S.R. Chandrashekar on 13 July, 2023",
+  "case_name": "Smt. Reena W/O S C Tejes And vs S C Tejes S/O. S.R. Chandrashekar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Reena W/O S.C.TEJES AND (wife)",
+    "respondent_defendant": "S.C.TEJES S/O S.R. CHANDRASHEKAR (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is wife of respondent, their marriage was solemnized on 27.02.2020 and they have a daughter. Petitioner was subjected to ill-treatment and driven out of the house by respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking transfer of a case to establish sufficient reasons for such transfer.",
+      "held": "Having heard the arguments and perusing the records, it is evident that the marriage was solemnised on 27.02.2020 in Belagavi.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "burden",
+        "party seeking transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's inability to travel a certain distance is a sufficient reason for transferring a case.",
+      "held": "She has also contended that she does not have any means and she is incapable of travelling 500 kmrs from Belagavi to Bangaluru to prosecute the matter.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "inability",
+        "travel",
+        "distance"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition is filed under Section 24 of CPC, praying for withdrawal of matrimony case in M.C. No. 3647/2021 and transfer to another court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "CPC",
+    "Section 24",
+    "matrimonial case",
+    "family court",
+    "withdrawal",
+    "transfer",
+    "justice",
+    "equity",
+    "marriage",
+    "spouse",
+    "petitioner",
+    "respondent",
+    "advocate",
+    "Indian Penal Code",
+    "Specific Relief Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial case withdrawal",
+    "assisting with family court transfer"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:10:47.219338"
 }

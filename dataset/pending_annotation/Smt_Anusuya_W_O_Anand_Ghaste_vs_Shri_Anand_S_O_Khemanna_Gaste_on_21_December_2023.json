@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:08:51.026497",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1
@@ -21,13 +21,13 @@
   "case_numbers": [
     "M.C.No.68/2021"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Senior Civil Judge, Chikkodi, M.C.No.68/2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Anusuya W/O Anand Ghaste vs Shri Anand S/O Khemanna Gaste on 21 December, 2023",
+  "case_name": "Smt. Anusuya W/O Anand Ghaste vs Shri Anand S/O Khemanna Gaste",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Anusuya W/O Anand Ghaste, wife",
+    "respondent_defendant": "Shri Anand S/O Khemanna Gaste, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife who got married in 2012. Due to uncordial relationship, they are living separately. The husband filed a divorce petition under Section 13(1)(ia)(ib) of the Hindu Marriage Act, 1955. The wife seeks to withdraw the petition and transfer it to the Principal Judge, Family Court at Hubballi.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The convenience of the wife must be looked into.",
+      "held": "Usually when a transfer petition is filed by the wife, the convenience of the wife is to be looked into rather than inconvenience that would be caused to the husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Sumita Singh Vs. Kumar Sanjay and another (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "convenience",
+        "wife",
+        "husband",
+        "transfer",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The cardinal principle for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.",
+      "held": "At paragraph No.9, which reads as under: '9. The cardinal principle for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.'",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Section 24"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya vs. A.S.Saravana Karthik (Year) X SCC Y"
+      ],
+      "keywords": [
+        "ends of justice",
+        "transfer",
+        "suit",
+        "appeal",
+        "proceeding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases",
+        "civil disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allows the wife's petition to withdraw the divorce petition and transfer it to the Principal Judge, Family Court at Hubballi.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "matrimonial case",
+    "transfer petition",
+    "Section 24",
+    "family court",
+    "Hubballi",
+    "Chikkodi",
+    "principal senior civil judge",
+    "justice and equity",
+    "lawful separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition for a matrimonial case",
+    "advising on jurisdictional issues in family courts",
+    "assisting with divorce proceedings under Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:40:09.079686"
 }

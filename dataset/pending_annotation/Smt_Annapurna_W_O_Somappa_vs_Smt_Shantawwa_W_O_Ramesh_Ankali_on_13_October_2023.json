@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T11:08:49.912079",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 5,
@@ -26,13 +26,13 @@
     "OB.NO.102/2013",
     "O.S.NO. 52/2006"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge and Assistant Sessions Judge, Bailhongal (O.S.No. 52/2006)",
   "reserved_on": "22.09.2023",
   "delivered_on": "",
-  "case_name": "Smt. Annapurna W/O Somappa ... vs Smt. Shantawwa W/O Ramesh Ankali on 13 October, 2023",
+  "case_name": "Smt. Annapurna W/O Somappa vs Smt. Shantawwa W/O Ramesh Ankali",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Annapurna W/O Somappa, Ayub, Deshnur, Sridevi @ Irawwa, Virupaxappa, Shivabasappa, Shekar @ Somasekhar",
+    "respondent_defendant": "Smt. Shantawwa W/O Ramesh Ankali, Savitri W/O Shivnanand Yalavatti, Dr. Kasturi B. Hunashikatti, Savitri W/O Shankar Hunshikatti",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties are co-owners of property. Suit was filed to partition the property. Trial court dismissed the suit.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party alleging illegitimacy to prove it.",
+      "held": "It is alleged by the plaintiffs that, despite their status as illegitimate children of Bhagavantappa, these defendant Nos.2 to 4, 6 and 7 without having any right in the suit properties behind the back of the plaintiffs and defendant No.1 and got entered their names in the revenue records to grab the same.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "illegitimacy",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court fee paid by the plaintiff must be sufficient to maintain a suit.",
+      "held": "Whether the plaintiffs prove that they have paid sufficient court fee?",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "court fee",
+        "sufficiency"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "civil suits"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order is to set aside the judgment and decree passed by the trial court and dismiss the suit.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "family property",
+    "joint family",
+    "coparcenary",
+    "co-parcener",
+    "share",
+    "partition suit",
+    "family settlement",
+    "agriculturist",
+    "household work",
+    "RFA",
+    "CROB",
+    "Karnataka High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on family property disputes",
+    "assisting in coparcenary matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:36:59.803445"
 }

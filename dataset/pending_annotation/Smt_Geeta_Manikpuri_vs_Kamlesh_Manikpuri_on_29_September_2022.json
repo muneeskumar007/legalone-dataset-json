@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:09:20.367703",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "cheque_bounce": 1,
@@ -24,13 +24,13 @@
     "Radhakishan Agrawal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court Bilaspur in Civil Suit No.208A/2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Geeta Manikpuri vs Kamlesh Manikpuri on 29 September, 2022",
+  "case_name": "Smt. Geeta Manikpuri vs Kamlesh Manikpuri",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kamlesh Manikpuri, husband",
+    "respondent_defendant": "Smt. Geeta Manikpuri, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties took place on 22.05.2002. Husband sought divorce due to cruelty and desertion. Wife filed appeal against divorce. Husband also appealed against order granting Rs.1 lakh under section 27 of Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -83,39 +83,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Mental cruelty can be inferred when a prosecution is launched against the husband on a complaint made by the wife, making serious allegations in which the husband and his family members are constrained to undergo trial, which ultimately ends with acquittal.",
+      "held": "When a prosecution was launched against the husband on a complaint made by the wife u/s 498-A of IPC, making serious allegations in which the husband and his family members were constrained to undergo trial, which ultimately ended with acquittal, then in such a case, it cannot be accepted that no cruelty was meted out to the husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 498-A"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rani Narasimha Sastry vs. Rani Suneela Rani, (2019) SCC OnLine SC 1595"
+      ],
       "keywords": [
-        "TODO"
+        "mental cruelty",
+        "prosecution",
+        "complaint",
+        "serious allegations",
+        "trial",
+        "acquittal"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where prosecution is launched against the husband"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — one reason why: it highlights the importance of considering the impact of a criminal trial on the husband's mental well-being",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Mental cruelty can be inferred when a party cannot reasonably be expected to live with the other due to the conduct of the other party.",
+      "held": "Mental cruelty must be of such a nature that the parties cannot reasonably be expected to live together. The situation must be such that the wronged party cannot reasonably asked to put up with such conduct and continue to live with the other party.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13(1)(i-a)"
+      ],
+      "cited_cases": [
+        "V. Bhagat v. D. Bhagat (Mrs.) (1994) 1 SCC 33"
+      ],
+      "keywords": [
+        "mental cruelty",
+        "reasonable expectation",
+        "conduct",
+        "living together"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases where mental cruelty is alleged"
+      ],
+      "significance": "HIGH — one reason why: it provides a clear standard for determining whether mental cruelty has occurred",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Divorce granted to the husband on ground of cruelty and desertion. Amount of Rs.1 lakh ordered under section 27 was confirmed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "alimony",
+    "maintenance",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "matrimonial",
+    "property",
+    "assets",
+    "joint family",
+    "separate property",
+    "family court",
+    "appeal",
+    "judgment",
+    "decree",
+    "nullity",
+    "voidable marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:29:17.751482"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:10:32.712473",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Ahanthem Bimol Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bishnupur, Matrimonial (Divorce) Suit No. 65 of 2016/20/2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Ningthoujam Ningol Ngasepam Ongbi ... vs Shri Ngasepam Hemchandra Singh on 13 June, 2022",
+  "case_name": "Smt. Ningthoujam Ningol Ngasepam Ongbi Kamala @ Ashangbi Devi v. Shri Ngasepam Hemchandra Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Ningthoujam Ningol Ngasepam Ongbi Kamala @ Ashangbi Devi (wife)",
+    "respondent_defendant": "Shri Ngasepam Hemchandra Singh (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a divorce suit against the husband on grounds of cruelty under Section 13 of the Hindu Marriage Act, 1955. The trial court decreed the suit and ordered the husband to pay permanent alimony of ₹7,00,000 within three months. The wife appealed against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the husband to justify non-payment of permanent alimony.",
+      "held": "This Court finds merit in the submission of Mr. T. Rajendra, learned counsel. It appears that Mat. Judl. Misc. Case No. 49 of 2019 was filed by the wife in February, 2019, before the Family Court, Bishnupur, seeking amendment of the judgment under appeal.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "permanent alimony",
+        "non-payment",
+        "justification"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "wife",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to file an application seeking extension of time to pay permanent alimony is a relevant factor in determining non-compliance.",
+      "held": "He would however argue that the husband did not make the payment owing to the amendment application filed by the wife in relation to the judgment under appeal. [5] Countering this argument, Mr. T. Rajendra, learned counsel, would point out that relevant documents in that regard have already been brought on record and contend that the filing of an amendment application had no role to play in the matter.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "extension",
+        "permanent alimony",
+        "non-compliance"
+      ],
+      "favours": "wife",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order modified the original judgment by allowing the wife's appeal and directing the husband to pay the outstanding permanent alimony amount along with interest.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Section 13",
+    "matrimonial suit",
+    "family court",
+    "Bishnupur",
+    "Manipur",
+    "High Court of Manipur",
+    "Imphal",
+    "Mat. App. No.",
+    "Ngasepam Hemchandra Singh",
+    "Ningthoujam Ningol Ngasepam Ongbi Kamala @ Ashangbi Devi",
+    "Joypur Khunou",
+    "Bishnupur Ward No. 10",
+    "P.O. & P.S. Bishnupur",
+    "795126",
+    "Ngakchroupokpi Maning Leikai"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:28:44.972517"
 }

@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:10:10.747401",
   "domain": "property_dispute",
-  "sub_domain": "will_succession",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "partition": 1,
     "maintenance": 1,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Manne Amareswari vs The State Of Andhra Pradesh, on 25 August, 2020",
+  "case_name": "Smt Manne Amareswari vs The State Of Andhra Pradesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Manne Amareswari, seeking police protection and declaring inaction as illegal",
+    "respondent_defendant": "The State Of Andhra Pradesh, official respondents",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's mother executed a registered Settlement Deed in her favor. Her brother ill-treated their mother and detained her without providing food and raiment. Petitioner filed Crl.MP.No.816 of 2017 and got custody of her mother.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party seeking to set aside a registered document to prove its nullity.",
+      "held": "It is further contended that the petitioner in her turn filed O.S.No.252/2017 on the file of I Additional Junior Civil Judge, Tenali against the 5th respondent, his wife and daughter seeking perpetual injunction in respect of the subject land and sought for temporary injunction in I.A.No.505/2017.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Smt Manne Amareswari vs The State Of Andhra Pradesh, (2020)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "registered document",
+        "nullity",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's possession of property can be a strong evidence in support of their title.",
+      "held": "After the death of his mother, the 5th respondent has been continuing in possession and enjoyment of the said land with absolute title and interest in exclusion of one and all.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Smt Manne Amareswari vs The State Of Andhra Pradesh, (2020)"
+      ],
+      "keywords": [
+        "possession",
+        "title",
+        "property"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
     "result": "Writ Petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Succession Act",
+    "mandamus",
+    "writ petition",
+    "police protection",
+    "property dispute",
+    "settlement deed",
+    "registered settlement",
+    "Pattadar Pass Book",
+    "Title Deeds",
+    "family property",
+    "mother's property",
+    "father's property",
+    "illegality",
+    "arbitrariness",
+    "custody",
+    "ill-treatment",
+    "family feud"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for police protection",
+    "advising on family property disputes",
+    "representing clients in property settlement cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:07:17.139375"
 }

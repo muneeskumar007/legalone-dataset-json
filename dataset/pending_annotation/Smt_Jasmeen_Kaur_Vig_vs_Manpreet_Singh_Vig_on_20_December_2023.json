@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:29.886973",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Maninder S. Bhatti J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Additional District Judge, Parasia, District Chhindwara (RCSHM/8/2023)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Jasmeen Kaur Vig vs Manpreet Singh Vig on 20 December, 2023",
+  "case_name": "Smt. Jasmeen Kaur Vig vs Manpreet Singh Vig",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Jasmeen Kaur Vig, wife",
+    "respondent_defendant": "Manpreet Singh Vig, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant/wife seeks transfer of the case filed by the respondent/husband under Section 11 of the Hindu Marriage Act from the Court of Additional District Judge, Parasia to the Family Court at Indore. The applicant/wife was subjected to cruelty and various litigation is pending at Indore.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The factum of inconvenience as well as hardship to the applicant/wife cannot be ruled out.",
+      "held": "Taking into the consideration the grounds as narrated in Paragraphs 9 and 10 of the application under Section 11 of the Hindu Marriage Act before the Court at Parasia as well as the grounds as incorporated by the applicant/wife in the present application,",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "inconvenience",
+        "hardship",
+        "marriage annulment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the concerned Court to sift the evidence and consider the stand of the respondent.",
+      "held": "The said stand of the respondent is required to be considered by the concerned Court after sifting the evidence, which is to be adduced by the parties.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 11"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "burden",
+        "marriage annulment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Case No. RCSHM/8/2023 be transferred from the Court of Additional District Judge, Parasia, District Chhindwara to the Family Court at Indore.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 11",
+    "Section 24",
+    "CPC",
+    "annulment",
+    "marriage annulment",
+    "cruelty",
+    "family court",
+    "transfer of case",
+    "Indore",
+    "Chhindwara",
+    "Parasia",
+    "Madhya Pradesh",
+    "High Court",
+    "Jabalpur"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on annulment proceedings",
+    "guidance on transfer of case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:42:21.541981"
 }

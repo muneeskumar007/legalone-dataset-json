@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:08:54.878037",
   "domain": "maintenance",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 2,
     "partition": 2,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "sc.No.21/2021"
   ],
-  "trial_court": "",
+  "trial_court": "Metropolitan Magistrate, Traffic Court - II, Bengaluru (Crl.Misc.No.21/2021)",
   "reserved_on": "",
   "delivered_on": "10-04-2023",
-  "case_name": "Smt. Ayeshah Parveen Soudagar vs Farooq Soudagar Mohammad on 10 April, 2023",
+  "case_name": "Smt. Ayeshah Parveen Soudagar vs Farooq Soudagar Mohammad",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Ayeshah Parveen Soudagar, wife",
+    "respondent_defendant": "Farooq Soudagar Mohammad, husband; Smt. Akbari Taj Sultana, mother-in-law; Naseer Khan, father-in-law; Firdous Mohammed, brother-in-law",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the legally wedded wife of respondent seeking relief under Protection of Women from Domestic Violence Act, 2005.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "To prove domestic relationship under the Protection of Women from Domestic Violence Act, 2005, the petitioner must establish that she and the respondent lived together in a relationship of marriage or in a relationship in the nature of marriage or related by consanguinity or adoption or as family members living together as a joint family.",
+      "held": "To prove the domestic relationship the petitioner is required to prove that she and the respondent have lived together in a relationship of marriage or in a relationship in the nature of marriage or related by consanguinity or adoption or as family members living together as a joint family.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from Domestic Violence Act, 2005 — Section 12"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "domestic violence",
+        "Protection of Women from Domestic Violence Act, 2005",
+        "domestic relationship"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "To prove domestic violence under the Protection of Women from Domestic Violence Act, 2005, the petitioner must establish that the respondent has subjected her to acts of domestic violence as contemplated under section 3 of the Act.",
+      "held": "To prove the act of domestic violence the petitioner is required to prove any one or more of the acts committed by the respondent as contemplated under section 3 of the Act.",
+      "applicable_acts_sections": [
+        "Protection of Women from Domestic Violence Act, 2005 — Section 3"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "domestic violence",
+        "Protection of Women from Domestic Violence Act, 2005"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition was filed under Section 12 of the Protection of Women from Domestic Violence Act, 2005 and the court granted the relief sought by the petitioner.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Protection of Women from DV Act",
+    "2005",
+    "Domestic Violence",
+    "Maintenance",
+    "Relief's",
+    "Section 12",
+    "Section 18",
+    "Section 19",
+    "Section 20",
+    "Section 22",
+    "Wife",
+    "Husband",
+    "DV Act",
+    "Legal Separation",
+    "Custody",
+    "Visitation",
+    "Alimony",
+    "Family Court",
+    "Maintenance Order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting DV petitions",
+    "advising on maintenance orders",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:44:40.097579"
 }

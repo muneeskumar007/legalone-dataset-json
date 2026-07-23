@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:11:14.411211",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 11,
     "maintenance": 3,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Rohini Kumari vs Narendra Singh on 5 October, 1968",
+  "case_name": "Smt. Rohini Kumari vs Narendra Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Narendra Singh, husband",
+    "respondent_defendant": "Rohini Kumari, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in January 1945. The wife left her husband's place in February 1947 and refused to return. The husband claimed judicial separation under Section 10 of the Hindu Marriage Act, 1955. The trial court decided issues 1-3.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "If a wife has just cause to remain apart, she would not be in desertion.",
+      "held": "It was observed that if during the required period of two years, the wife had a just cause to remain apart, she would not be in desertion and the petition for judicial separation would fail.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 10(1)(a)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Lachman Utamchand v. Meena, (1964) SC 40"
+      ],
       "keywords": [
-        "TODO"
+        "desertion",
+        "just cause",
+        "judicial separation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A wife can resist a petition for restitution of conjugal rights on the ground that the husband had married another wife before the Act.",
+      "held": "It was also observed that under the Hindu Marriage Act a wife can resist a petition for restitution of conjugal rights on the ground that the husband had married another wife before the Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 29(3)"
+      ],
+      "cited_cases": [
+        "Thenku Verriah v. Tamisetti Nagiah, (1959) Andh Pra 547"
+      ],
+      "keywords": [
+        "restitution of conjugal rights",
+        "wife's right to resist"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal was dismissed and the order of the lower court was confirmed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 10",
+    "divorce",
+    "marriage",
+    "matrimonial",
+    "separation",
+    "property",
+    "jewelleries",
+    "belongings",
+    "marital obligations",
+    "alimony",
+    "maintenance",
+    "custody",
+    "child",
+    "parent",
+    "family law",
+    "Indian law",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:21:57.821613"
 }

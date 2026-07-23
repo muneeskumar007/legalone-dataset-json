@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T11:11:12.559709",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "custody": 1,
@@ -24,13 +24,13 @@
     "Puneet Gupta J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Jammu (File No. 354/H.M. Act)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Renu Sharma Age 61 Years vs Sh. Anan Sharma on 21 February, 2024",
+  "case_name": "Smt. Renu Sharma Age 61 Years vs Sh. Anan Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Renu Sharma, wife",
+    "respondent_defendant": "Sh. Anan Sharma, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -76,7 +76,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties has been dissolved by the Family Court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -86,39 +86,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Where any special law prescribes for any suit, appeal or application a period of limitation different from the period prescribed by the Schedule, the provisions of section 3 shall apply as if such period were the period prescribed by the Schedule.",
+      "held": "Section 29 of the Limitation Act reads thus: -",
       "applicable_acts_sections": [
-        "TODO"
+        "Limitation Act — Section 29"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "limitation",
+        "period",
+        "Schedule"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The provisions of the Limitation Act shall not apply to any suit or other proceedings in respect of marriage and divorce.",
+      "held": "Sub-section (3) of Section 29, which makes limited applicability of the provisions of the Limitation Act, are applicable not only to a suit or original proceedings but also to appeal and other applications.",
+      "applicable_acts_sections": [
+        "Limitation Act — Section 29"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "divorce",
+        "Limitation Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Caveat stands discharged; appeal is directed against the judgment and decree dated 30-10-2023 passed on File No. 354/H.M. Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19",
+    "marriage dissolution",
+    "caveat",
+    "appeal",
+    "judgment and decree",
+    "Family Court",
+    "Additional Principal Judge",
+    "Jammu",
+    "Indian law",
+    "family law",
+    "matrimonial disputes",
+    "separation",
+    "maintenance",
+    "property settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "preparing family court judgment",
+    "advising on matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:16:46.227940"
 }

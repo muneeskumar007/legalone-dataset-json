@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:10:59.350419",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "partition": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of the Principal Civil Judge, Senior Division and CJM, Shimoga (G and WC No. 5 of 2000)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Radha Alias Parimala vs N. Rangappa on 3 March, 2004",
+  "case_name": "Smt. Radha Alias Parimala vs N. Rangappa",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Radha Alias Parimala (mother)",
+    "respondent_defendant": "N. Rangappa (father)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent father filed a petition under Section 25 of the Hindu Minority and Guardianship Act, alleging that he married the appellant on 29-1-1993 and the minor was born out of wedlock. The appellant left the matrimonial home without justification and consent in November 1999. The respondent found her living with her paramour. He filed a divorce petition under Section 13(i) of the Hindu Marriage Act, 1955, which was granted ex parte.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The welfare of the minor must be the paramount consideration for the Court.",
+      "held": "It is a well-known principle of law governing the custody and guardianship of minors that it is the prime duty of the Court to do all acts and things necessary for the protection of minors for they cannot take care of themselves.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 25"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "minor",
+        "welfare",
+        "custody",
+        "guardianship"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "child custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court being an organ of the State should act as pater patriae for sustenance and protection of minors by doing of necessary acts and things.",
+      "held": "The Court being an organ of the State should act as pater patriae for sustenance and protection of minors by doing of necessary acts and things.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 25"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "minor",
+        "welfare",
+        "custody",
+        "guardianship"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "child custody disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The primary and paramount consideration for the Court must be the welfare of the minor.",
+      "held": "In all matters relating to the custody and upbringing of the minor as well as the administration and management of the minor's property, the primary and paramount consideration for the Court must be the welfare of the minor.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 25"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "minor",
+        "welfare",
+        "custody",
+        "guardianship"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "child custody disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's order allowing the respondent to have custody of the minor is set aside. The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Guardians and Wards Act",
+    "Section 25",
+    "Section 47CC",
+    "custody",
+    "minor child",
+    "matrimonial dispute",
+    "family law",
+    "Indian court judgments",
+    "judicial custody",
+    "parental rights",
+    "child welfare",
+    "marriage customs",
+    "community norms"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on child custody disputes",
+    "representing clients in family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:57:25.330083"
 }

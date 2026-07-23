@@ -7,7 +7,7 @@
   "total_pages": 21,
   "extracted_at": "2026-07-15T11:09:34.528024",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 5,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Jayasri Guha Nee Ghosh vs Smt. Shukla Ghosh & Another on 30 April, 2008",
+  "case_name": "Smt. Jayasri Guha Nee Ghosh vs Smt. Shukla Ghosh & Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Jayasri Guha Nee Ghosh (daughter of brother of first defendant's father-in-law)",
+    "respondent_defendant": "Smt. Shukla Ghosh & Another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff is the daughter of the brother of the first defendant's father-in-law and claims to be the only relevant heir of the first defendant's father-in-law. The parties are jointly interested in three immovable properties.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,98 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The word 'inherit' is a word of known import and ordinarily cannot give any difficulty in understanding its content.",
+      "held": "To inherit is to receive property as heir, that is succession by descent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act — Section 15"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "inheritance",
+        "succession",
+        "descent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The word 'inherited' has been used with precision having in view the legal significance of the word.",
+      "held": "There is nothing in the Act to suggest that the word 'inherited' has been used in a loose way and would include also receipt of property from the father or mother during their lifetime.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act — Section 14",
+        "Hindu Succession Act — Section 15"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "precision",
+        "legal significance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The devolution of property acquired by the Hindu female is provided for under Section 15 in a case where a female Hindu dies intestate.",
+      "held": "It is devolution of the property thus acquired that is provided for under S. 15 in a case where a female Hindu dies intestate.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act — Section 15"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "devolution",
+        "intestate"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Succession Act",
+    "Section 14",
+    "Section 15(2)",
+    "absolute right to property",
+    "property rights",
+    "women's property rights",
+    " Hindu woman's absolute right",
+    "judicial partition",
+    "family property",
+    "joint family",
+    "coparcenary",
+    "mitakshara",
+    "Dayabhaga",
+    "Hindu law",
+    "partition suit",
+    "interlocutory application",
+    "subsequent application"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on property rights in a joint family",
+    "representing a plaintiff in a Hindu succession dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:46:46.470113"
 }

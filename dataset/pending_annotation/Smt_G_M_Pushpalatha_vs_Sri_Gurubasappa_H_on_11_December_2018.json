@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:09:21.849187",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 3,
@@ -22,13 +22,13 @@
     "M.C.No.145/2017",
     "M.C.No. 145/2017"
   ],
-  "trial_court": "",
+  "trial_court": "Prl. Judge, Family Court, Tumakuru, M.C.No. 145/2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. G. M. Pushpalatha vs Sri. Gurubasappa. H on 11 December, 2018",
+  "case_name": "Smt. G. M. Pushpalatha vs Sri. Gurubasappa. H",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. G. M. Pushpalatha, wife",
+    "respondent_defendant": "Sri. Gurubasappa. H, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife filed writ petition against order allowing respondent-husband's application under Section 24 of Hindu Marriage Act, awarding interim maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may grant interim maintenance to a spouse who has not proved capacity to earn livelihood.",
+      "held": "The husband is educated, he is hale and healthy and he is having all opportunity to earn his livelihood.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "interim maintenance",
+        "capacity to earn livelihood"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court should not pass a mechanical order without giving sound and justifiable reasoning.",
+      "held": "The Family Court has passed a mechanical order, without giving sound and justifiable reasoning to allow the application.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mechanical order",
+        "sound and justifiable reasoning"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "Writ Petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ dismissed",
+    "final_order": "Court dismissed the writ petition and upheld the trial court's order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 24",
+    "Section 227",
+    "Article 227",
+    "Family Court",
+    "Tumakuru District",
+    "Chikkkanayakanahalli",
+    "Cottonpet",
+    "Basavannna Temple",
+    "Indian Kanoon",
+    "M.C. No. 145/2017",
+    "Annexure-E",
+    "Annexure-C",
+    "PRL. CIVIL JUDGE",
+    "F.D.A.",
+    "WRIT PETITION"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to Section 24 application",
+    "appealing Family Court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:23:18.191142"
 }

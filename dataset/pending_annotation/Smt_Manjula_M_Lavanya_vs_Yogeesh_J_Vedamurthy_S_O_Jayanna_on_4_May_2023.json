@@ -7,7 +7,7 @@
   "total_pages": 19,
   "extracted_at": "2026-07-15T11:10:09.906179",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Metropolitan Magistrate, Traffic Court-III, Bengaluru. Crl. Misc. No.25/2019",
   "reserved_on": "",
   "delivered_on": "04-05-2023",
-  "case_name": "Smt. Manjula. M @ Lavanya vs Yogeesh. J @ Vedamurthy S/O Jayanna on 4 May, 2023",
+  "case_name": "Smt. Manjula. M @ Lavanya vs Yogeesh. J @ Vedamurthy S/O Jayanna",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Manjula. M @ Lavanya, wife",
+    "respondent_defendant": "Yogeesh. J @ Vedamurthy S/o Jayanna, husband; Jayanna. B.M., father-in-law (ex-parte)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent got married in 2015. Petitioner claims domestic violence and seeks various reliefs under Protection of Women from Domestic Violence Act, 2005.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,21 +54,40 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person who is innocent and has taken utmost care of the other party can seek protection under the Protection of Women from DV Act, 2005.",
+      "held": "The respondent being husband of the petitioner and being responsible to take care of his wife and children, he is always depends on the money of the petitioner and her parents.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "protection",
+        "DV",
+        "innocence",
+        "care"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "domestic violence cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who has been deserted by their spouse without valid reason can seek restitution of conjugal rights.",
+      "held": "The petitioner has deserted the respondent with out having any valid reason.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "desertion",
+        "conjugal rights"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -78,15 +97,37 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Protection of Women from DV Act",
+    "2005",
+    "Sec. 12",
+    "Sec. 18",
+    "Sec. 19",
+    "Sec. 20",
+    "Sec. 22",
+    "domestic violence",
+    "DV Act",
+    "petition",
+    "reliefs",
+    "format",
+    "DV",
+    "family court",
+    "district court",
+    "HC Single Judge",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under the Protection of Women from DV Act, 2005",
+    "advising on reliefs available under Sec. 18-22 of the PWDV Act",
+    "assisting in filing a petition for domestic violence"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:06:25.090559"
 }

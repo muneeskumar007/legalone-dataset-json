@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:08:07.105615",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "domestic_violence": 1,
@@ -20,13 +20,13 @@
     "Subramonium Prasad J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Rohini, MAT.APP.(F.C.) 113/2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shweta Pareek Nee Bhatt vs Sameer Pareek on 20 October, 2020",
+  "case_name": "Shweta Pareek Nee Bhatt vs Sameer Pareek",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shweta Pareek Nee Bhatt, wife",
+    "respondent_defendant": "Sameer Pareek, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage was solemnised in Delhi on 23.11.2014. Though consummated, there is no issue and parties are living separately since 05.26.2015.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties are directed to appear before a mediator to settle their disputes.",
+      "held": "With the consent of the parties and without prejudice to their respective rights and contentions, they are directed to appear before the Mediator, to be appointed by the Delhi High Court Mediation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mediation",
+        "conciliation",
+        "family court",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Consent of parties is necessary for a negotiated settlement.",
+      "held": "With the consent of the parties and without prejudice to their respective rights and contentions, they are directed to appear before the Mediator, to be appointed by the Delhi High Court Mediation.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent",
+        "negotiated settlement",
+        "family court",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Parties directed to appear before Mediator on 05.11.2020 for online mediation; report to be submitted before next date of hearing.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "annulment of marriage",
+    "Order XII Rule 6 CPC",
+    "judgment on admission",
+    "Section 12 Hindu Marriage Act",
+    "consummation",
+    "separation",
+    "living separately",
+    "California USA",
+    "Delhi",
+    "Family Court Rohini",
+    "petition for annulment",
+    "Latin maxim",
+    "Facts of the case"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on annulment of marriage",
+    "representing client in Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:07:14.559997"
 }

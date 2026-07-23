@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Lucknow (Principal Judge) - CRIMINAL REVISION No. - 623 of 2007",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Kiran Dhar vs Alok Berman on 14 May, 2014",
+  "case_name": "Smt.Kiran Dhar vs Alok Berman",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Kiran Dhar (wife)",
+    "respondent_defendant": "Alok Berman (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Application under Section 125 Cr.P.C. filed by Smt. Kiran Dhar challenging the order rejecting her claim for maintenance from Alok Berman. She claimed Rs.5000/- per month for maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The principle of estoppel cannot be pressed into service to defeat the provision of Section 125 of the Code.",
+      "held": "The principle of estoppel cannot be pressed into service to defeat the provision of Section 125 of the Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 125"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smt. Yamunabai's case (supra)"
+      ],
       "keywords": [
-        "TODO"
+        "estoppel",
+        "Section 125 Cr.P.C."
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The expression 'wife' as per Section 125 of the Code refers to only legally married wife.",
+      "held": "This may be an inadequacy in law, which only the legislature can undo. But as the position in law stands presently there is no escape from the conclusion that the expression 'wife' as per Section 125 of the Code refers to only legally married wife.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 125"
+      ],
+      "cited_cases": [
+        "Savitaben Somabhai Bhatiya v. State of Gujarat and others (supra)"
+      ],
+      "keywords": [
+        "Section 125 Cr.P.C.",
+        "legally married wife"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the appeal and granted maintenance to Smt. Kiran Dhar.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 125 Cr.P.C.",
+    "dowry",
+    "torture",
+    "family court",
+    "criminal revision",
+    "marriage",
+    "alimony",
+    "maintenance",
+    "wife's rights",
+    "husband's obligations",
+    "Family Judge",
+    "Principal Judge",
+    "High Court",
+    "Lucknow Bench",
+    "Allahabad High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on alimony and maintenance",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:05:52.547484"
 }

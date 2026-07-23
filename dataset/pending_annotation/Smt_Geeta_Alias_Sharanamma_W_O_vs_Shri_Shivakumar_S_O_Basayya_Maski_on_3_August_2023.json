@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:19.204942",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Geeta Alias Sharanamma W/O ... vs Shri. Shivakumar S/O Basayya Maski on 3 August, 2023",
+  "case_name": "Smt. Geeta Alias Sharanamma W/O ... vs Shri. Shivakumar S/O Basayya Maski",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Geeta Alias Sharanamma W/O ... (wife)",
+    "respondent_defendant": "Shri. Shivakumar S/O Basayya Maski (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2009 and have a child. The petitioner is seeking transfer of the husband's petition for divorce from Bengaluru to Kushtagi due to various disputes and lack of maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party seeking transfer of proceedings has to demonstrate that the transfer would be in the ends of justice.",
+      "held": "It is the case of the petitioner that she is residing along with her parents and she has no independent source of income and that it will cause extreme hardship to contest the legal proceedings initiated by the husband before the Family Court at Bengaluru.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "ends of justice",
+        "hardship"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's inability to contest legal proceedings due to financial constraints can be a ground for transfer.",
+      "held": "It is further the case of the petitioner that she has initiated proceedings under Section 125 of Code of Criminal Procedure, 1973 in Crl.Misc.469/2017 in the Court of Prl. Civil Judge and JMFC, Kushtagi wherein vide order dated 29.01.2018, the respondent has been directed to pay a maintenance of Rs.1,000/- each to the petitioner and their minor child.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "financial constraints",
+        "maintenance",
+        "transfer"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family disputes",
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The present petition is allowed, and the matrimony case pending on the file of VI Additional Principal Judge Family Court, Bengaluru be transferred to Senior Civil Judge, Kushtagi for disposal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "matrimonial case",
+    "Section 24 CPC",
+    "family court",
+    "civil petition",
+    "petitioner",
+    "respondent",
+    "marriage",
+    "separation",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "joint family",
+    " Hindu law",
+    "CPC",
+    "HMA"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "assisting in property division"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:28:13.785364"
 }

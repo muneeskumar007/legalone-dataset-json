@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:10:41.861855",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -21,13 +21,13 @@
     "Prem Narayan Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Indore in MJCR/506/2023",
   "reserved_on": "10.09.2024",
   "delivered_on": "01.10.2024",
-  "case_name": "Smt. Pooja Kariya vs Deepak Kariya on 1 October, 2024",
+  "case_name": "Smt. Pooja Kariya vs Deepak Kariya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Pooja Kariya and others (wife, daughter)",
+    "respondent_defendant": "Deepak Kariya (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner wife and daughter claimed maintenance from husband. Trial court rejected application under Section 125 of Cr.P.C. Petitioners appealed saying trial court didn't consider law laid down in Rajnesh vs. Neha & Anr.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,100 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Interim maintenance is awarded based on the inability of the petitioner for their maintenance.",
+      "held": "Hence the findings of trial Court on the basis of the provisions of Section 41 of Evidence Act is not correct in accordance with law, therefore, it is required to be modified.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 125"
+      ],
+      "cited_cases": [
+        "Rajnesh vs. Neha & Anr., (2021)2 SCC 324"
+      ],
+      "keywords": [
+        "interim maintenance",
+        "petitioner's inability",
+        "Section 41 Evidence Act"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A well-educated lady taking tuitions can still be entitled to maintenance from her husband.",
+      "held": "The petitioner no.1 has no earning capacity and only on the basis that she is doing something and taking tuition classes for her livelihood cannot devoid her from getting maintenance from her husband.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "well-educated lady",
+        "tuitions",
+        "maintenance entitlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Every husband is liable to maintain his child, even if he is a labourer or unemployed.",
+      "held": "So far as the law in this regard is concerned every husband is liable to main his child even he is a labourer or unemployed.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 125"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "husband's liability",
+        "child maintenance",
+        "labourer or unemployed"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Interim maintenance to be granted to the petitioners.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Court Act",
+    "Code of Criminal Procedure",
+    "Section 19(4)",
+    "Section 125",
+    "Section 24",
+    "Section 397/401",
+    "maintenance",
+    "alimony",
+    "family law",
+    "marriage",
+    "separation",
+    "custody",
+    "child support",
+    "matrimonial dispute",
+    "Indian divorce laws"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for maintenance under Section 125 Cr.P.C.",
+    "advising on Hindu Marriage Act and Family Court Act provisions",
+    "assisting in matrimonial disputes involving child custody"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:40:10.604728"
 }

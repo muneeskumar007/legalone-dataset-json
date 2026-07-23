@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:09:52.525564",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Krishna Veni vs The Union Of India And Others on 18 February 2021",
+  "case_name": "Smt. Krishna Veni v. The Union of India and others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Krishna Veni, second wife of Sardar Natha Singh (since deceased)",
+    "respondent_defendant": "The Union of India and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner claimed widow pension under the Swatantra Sainik Samman Pension Scheme, 1980. Refused by Assistant Secretary to the Government of West Bengal on ground that deed of divorce was not acceptable under Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,121 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A custom, to be upheld, is to be pleaded and proved by the party relying on it.",
+      "held": "Learned counsel relies on Subramani and others vs. M. Chandralekha, reported at (2005) 9 SCC 407, for the proposition that a custom, to be upheld, is to be pleaded and proved by the party relying on the same.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 29(2)"
+      ],
+      "cited_cases": [
+        "Subramani and others vs. M. Chandralekha, (2005) 9 SCC 407"
+      ],
+      "keywords": [
+        "custom",
+        "pleaded",
+        "proved"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden and initial onus lies on the party to prove the existence of a custom having the force of law.",
+      "held": "The burden and initial onus lies on the petitioner to prove the existence of a custom having the force of law, to be proved by evidence - oral or documentary - in order to attract the benefit of Section 29(2) of the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 29(2)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "onus",
+        "custom"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A decree of divorce can only be passed by a competent court on any of the grounds as mentioned in Section 13 of the Act.",
+      "held": "The marriage between the respondent no.11 and her deceased husband could only be dissolved by a decree of divorce passed by a competent court on any of the grounds as mentioned in Section 13 of the Act, unless the existence of any contrary custom was proved by evidence.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "competent court",
+        "Section 13"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The respondent-authorities do not have the jurisdiction in law to decide the matrimonial status of private parties.",
+      "held": "Unfortunately, neither does the writ court, with its constraints in taking evidence on disputed questions of fact, has the scope to decide such issue.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Gurdit Singh"
+      ],
+      "keywords": [
+        "jurisdiction",
+        "matrimonial status"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner is entitled to widow pension under the Swatantra Sainik Samman Pension Scheme, 1980.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "deed of declaration",
+    "Swatantra Sainik Samman Pension Scheme",
+    "pension",
+    "widow pension",
+    "Assistant Secretary to the Government of West Bengal",
+    "competent court",
+    "Jat Sikhs",
+    "customs",
+    "Section 29(2)",
+    "Latin maxim",
+    "actus reus",
+    "mens rea",
+    "divorce decree",
+    "Hindu law",
+    "marriage",
+    "family law",
+    "Indian law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce pension",
+    "advising on Hindu marriage laws",
+    "assisting in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:08:50.416688"
 }

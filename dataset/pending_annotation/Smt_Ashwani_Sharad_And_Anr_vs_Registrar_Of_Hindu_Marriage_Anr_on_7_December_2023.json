@@ -7,7 +7,7 @@
   "total_pages": 19,
   "extracted_at": "2026-07-15T11:08:53.794317",
   "domain": "custody",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "23.11.2023",
   "delivered_on": "",
-  "case_name": "Smt Ashwani Sharad And Anr vs Registrar Of Hindu Marriage Anr on 7 December, 2023",
+  "case_name": "Smt Ashwani Sharad And Anr vs Registrar Of Hindu Marriage Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Ashwani Sharad Pendese W/o Shri Manohar Tej, and Shri Singh Manohar Tej",
+    "respondent_defendant": "Registrar of Hindu Marriage, Nagar Nigam, District Ajmer (Raj.), and State of Rajasthan through District Collector, District Ajmer (Raj.)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are a Hindu married couple seeking direction to register their marriage and issue a marriage certificate. The Registrar has refused registration due to the foreign national's residency.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Act of 1955 applies to Hindus who solemnize their marriage in India, regardless of their domicile.",
+      "held": "Interpreting Sections 2 and 5 of the Act of 1955, the Kerala High Court held that the idea of domicile can never be imported into the marriage of two Hindus married in India according to Hindu rites.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 1",
+        "Hindu Marriage Act, 1955 — Section 2"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Organo Chemical Industries Ltd. Vs. Union of India, (1979) AIR 1803 SC"
+      ],
       "keywords": [
-        "TODO"
+        "Hindu marriage",
+        "domicile",
+        "India",
+        "marriage solemnization"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "marriage disputes",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Act of 1955 applies to Hindus who are outside the territories to which the Act extends, as long as they solemnize their marriage in India.",
+      "held": "Giving interpretation about applicability of Section 1 of the Act of 1955, the Hon'ble Supreme Court has held that where two persons who are Hindu by religion and professes Hinduism, comes to a place where the Act of 1955 is applicable and solemnize their marriage, as per the conditions of Section 5 and 7 of the Act of 1955, their marriage is treated as valid marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 1"
+      ],
+      "cited_cases": [
+        "Organo Chemical Industries Ltd. Vs. Union of India, (1979) AIR 1803 SC"
+      ],
+      "keywords": [
+        "Hindu marriage",
+        "marriage solemnization",
+        "India",
+        "territories"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "marriage disputes",
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "custody",
+    "joint custody",
+    "sole custody",
+    "parental rights",
+    "minor child",
+    "family court",
+    "Rajasthan High Court",
+    " Hindu Succession Act",
+    "1956",
+    "marriage",
+    "divorce",
+    "matrimonial dispute",
+    "ancillary relief",
+    "maintenance",
+    "property settlement",
+    "child's welfare"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for joint custody",
+    "advising on sole custody",
+    "assisting in a matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:43:11.206720"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:09:30.343230",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -22,13 +22,13 @@
   "case_numbers": [
     "M.C.NO.18/2011"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge, Khanapur, M.C.No.18/2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Jayashree @ Sunita W/O Suresh Sutar vs Shri. Suresh S/O Pandurang Sutar on 23 October, 2018",
+  "case_name": "Smt. Jayashree @ Sunita W/O Suresh Sutar vs Shri. Suresh S/O Pandurang Sutar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Jayashree @ Sunita W/O Suresh Sutar (wife)",
+    "respondent_defendant": "Shri. Suresh S/O Pandurang Sutar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1999 and had three children. The husband filed for divorce under Section 13(1)(a) and (b) of the Hindu Marriage Act, citing the wife's unreasonable behavior. The trial court granted the petition. This appeal is against that judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party's failure to obey a court order can lead to the grant of a decree.",
+      "held": "Inspite of repeated requests made by the husband, she did not return back. Therefore, the husband was constrained to file petition under Section 9 of the Hindu Marriage Act for restitution of conjugal rights.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "court order",
+        "decree",
+        "obedience"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A delay in filing an appeal can be condoned if a reasonable cause is shown.",
+      "held": "This Court by accepting the cause shown in the application that she was not residing at the address shown in the cause title of the divorce petition, has condoned the delay.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "delay",
+        "appeal",
+        "reasonable cause"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "appeals cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage was dissolved, and the parties were separated.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(a)",
+    "Section 13(1)(b)",
+    "M.C. No.18/2011",
+    "Senior Civil Judge",
+    "Khanapur",
+    "Household work",
+    "Carpenter",
+    "Belagavi",
+    "Khnapur",
+    "TQ:KHANAPUR",
+    "DIST:BELAGAVI"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "appealing against divorce decree in HC",
+    "family law matters in Belagavi"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:44:02.250948"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:22.646743",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1
@@ -23,13 +23,13 @@
     "M.C.No.4158/2020",
     "MC.No.163/2019"
   ],
-  "trial_court": "",
+  "trial_court": "III Additional Principal Judge, Family Court, Bengaluru (M.C.No. 4158/2020)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Hemalatha vs Sunil Kumar on 31 July, 2023",
+  "case_name": "Smt Hemalatha vs Sunil Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Hemalatha, wife",
+    "respondent_defendant": "Sri Sunil Kumar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks transfer of M.C.No.4158/2020 from III Additional Principal Judge, Family Court, Bengaluru to Civil Judge (Sr.Div) and JMFC at Kolar Gold Fields.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking transfer of a case to establish sufficient grounds for such transfer.",
+      "held": "Perused the petition papers. This petition is filed under Section 24 of CPC with a prayer to transfer M.C.No.4158/2020 filed under Section 13(1)(ia) and (ib) of the Hindu Marriage Act, 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24",
+        "Hindu Marriage Act, 1955 — Section 13(1)(ia) and (ib)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "case transfer",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family court cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A respondent's no objection to a petition for case transfer is sufficient grounds for the court to consider the prayer.",
+      "held": "The Advocate for respondent humbly submits that the petitioner has filed this case seeking transfer of case from Bengaluru in M.C.No.4158/2020 before the Principal Judge Family Court at Bengaluru. It is further submitted that the respondent has no objection to the prayer of the petitioner.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "case transfer",
+        "no objection",
+        "petition"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family court cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The Petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition is allowed; proceedings in M.C.No.4158/2020 are transferred from Principal Judge, Family Court at Bengaluru to Civil Judge (Sr.Div) and JMFC at Kolar Gold Fields.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "family court",
+    "civil judge",
+    "JMFC",
+    "Kolar Gold Fields",
+    "Bengaluru",
+    "High Court of Karnataka",
+    "CPC",
+    "petition",
+    "admission",
+    "order",
+    "justice",
+    "equity",
+    "marriage",
+    "spouse",
+    "wife",
+    "husband",
+    "maintenance",
+    "property",
+    "assets"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "guidelines for family court proceedings",
+    "practical tips for advocates in Karnataka"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:34:51.996554"
 }

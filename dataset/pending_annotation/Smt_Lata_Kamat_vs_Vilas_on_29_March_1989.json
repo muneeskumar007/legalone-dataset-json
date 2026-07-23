@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T11:09:59.151455",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Lata Kamat vs Vilas on 29 March, 1989",
+  "case_name": "Smt. Lata Kamat vs Vilas",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Lata Kamat (wife)",
+    "respondent_defendant": "Vilas (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage declared nullity by Trial Court on ground of wife's pregnancy at time of marriage. Husband re-married before filing appeal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The language of Sec. 15 refers to a marriage which has been dissolved, and it also talks of fight of appeal against the decree.",
+      "held": "It was contended that the word 'divorce' has been used in this provision in a broader sense indicating that where the marriage is dissolved or the relationship is brought to an end by decree of court, whether it is by declaring the marriage invalid or dissolving it by a decree but result is the same.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Sec. 15"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "marriage",
+        "dissolved",
+        "decree"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The provisions of the Act have to be interpreted broadly.",
+      "held": "Although on the basis of these decisions what was contended was that the provisions of the Act have to be interpreted broadly.",
+      "cited_cases": [
+        "Chandra Mohini Srivastava v. Avinash Prasad Srivastava & another, [1967] 1 SCR 864",
+        "Tejinder Kaur v. Gurmit Singh, AIR 1988 SC 839"
+      ],
+      "keywords": [
+        "interpretation",
+        "broadly",
+        "Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Decree in favour of respondent-husband set aside, appeal allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "nullity",
+    "Hindu Marriage Act",
+    "1955",
+    "Limitation Act",
+    "1963",
+    "Section 11",
+    "Section 12",
+    "Section 13",
+    "Section 28",
+    "marriage",
+    "appeal",
+    "infructuous",
+    "Indian Kanoon",
+    "judgment",
+    "copies",
+    "obtaining"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "advising on Hindu Marriage Act implications",
+    "assisting with obtaining copies of judgment"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:17:39.980951"
 }

@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:08:57.182636",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Joint Civil Judge Senior Division, Gondia (Case No. not mentioned)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Baynabai W/O Balakdas Choure vs Balakdas S/O Prabhudas Choure on 10 October, 2016",
+  "case_name": "Smt. Baynabai W/O Balakdas Choure vs Balakdas S/O Prabhudas Choure",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner-wife, a/a 38 yrs., Occ. - Service",
+    "respondent_defendant": "Respondent-husband, a/a 48 yrs., Occ. - Tailor Shop Owner",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the couple was solemnized on 2-5-1999. The petitioner suffered a paralytic attack in 2010 resulting in partial physical disablement.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse's income from a business can be considered while determining maintenance pendente lite.",
+      "held": "The respondent though is suffering physical disability to the extent of 50%, his tailoring shop is still being operated with help of two labours and the major sons.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance pendente lite",
+        "spouse's income",
+        "business"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A spouse's natural guardianship responsibilities can be considered while determining maintenance.",
+      "held": "The wife being natural guardian of daughter Priyanka is required to look after basic needs of daughter Priyanka as well as her education expenses.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "natural guardianship",
+        "maintenance",
+        "spouse's responsibilities"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's order directing the petitioner to pay maintenance pendente lite at Rs. 2,500/- per month was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "Section 27",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "separation",
+    "maintenance",
+    "alimony",
+    "joint family",
+    "matrimonial home",
+    "cohabitation",
+    "illegality"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:51:49.782655"
 }

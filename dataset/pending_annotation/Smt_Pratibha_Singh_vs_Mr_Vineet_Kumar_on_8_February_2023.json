@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:10:48.595964",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 5,
@@ -26,13 +26,13 @@
     "M.C.NO.3726/2019",
     "M.C.No.3726 of 2019"
   ],
-  "trial_court": "",
+  "trial_court": "I Additional Family Judge, Family Court, Bangalore, M.C.No.3726/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Pratibha Singh vs Mr. Vineet Kumar on 8 February, 2023",
+  "case_name": "Smt. Pratibha Singh vs Mr. Vineet Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Pratibha Singh, wife",
+    "respondent_defendant": "Mr. Vineet Kumar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -88,7 +88,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner is the wife and respondent is her husband. They got married on 22-04-2016. The wife left the matrimonial house after about six months of marriage and began residing in her parental house. The husband registered a petition seeking annulment of marriage under Section 13(1)(ia) & (ib) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -98,39 +98,119 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife is entitled to maintenance if she is receiving sufficient income.",
+      "held": "On the other hand, during the pendency of the petition, if the wife is receiving sufficient income, then she is entitled to get the maintenance from the husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "income",
+        "sufficient"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "wife",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's own statement cannot be believable if not supported by material evidence.",
+      "held": "Therefore, her own statement could not be believable. Also, the respondent could not deny that he is having income of `3,50,000/-.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "statement",
+        "material evidence",
+        "believable"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving conflicting testimony"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person's income is sufficient to lead a happy life if it equals the status of their spouse.",
+      "held": "The said salary is totally sufficient to lead the happy life equal to the status of the petitioner?",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "income",
+        "sufficient",
+        "happy life",
+        "status"
+      ],
+      "favours": "wife",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A person's expenses include conveyance charges and day-to-day expenses.",
+      "held": "On the other hand, the respondent out of that salary amount she has to meet the conveyance charges and that contention of the respondent could not be ignored.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "expenses",
+        "conveyance charges",
+        "day-to-day expenses"
+      ],
+      "favours": "wife",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "Writ Petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The court granted interim maintenance to the petitioner/wife at `15,000/- and litigation expenses at `50,000/-. The court also enhanced the same to `1,50,000/- per month as interim maintenance and `2,00,000/- as one time litigation expenses.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Family Court",
+    "Article 227",
+    "Constitution of India",
+    "Hindu Minority and Guardianship Act",
+    "custody",
+    "maintenance",
+    "alimony",
+    "separation",
+    "matrimonial dispute",
+    "property settlement",
+    "joint family",
+    "family law",
+    "marriage dissolution",
+    "spousal rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal rights and obligations",
+    "assisting with property settlements in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:44:57.601431"
 }

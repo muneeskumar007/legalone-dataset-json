@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:11:18.554271",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1
   },
@@ -18,10 +18,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Sangeeta Gautam vs Shri Arun Gautam on 6 December, 2018",
+  "case_name": "Smt Sangeeta Gautam vs Shri Arun Gautam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Sangeeta Gautam — wife",
+    "respondent_defendant": "Shri Arun Gautam — husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties are Smt Sangeeta Gautam and Shri Arun Gautam. Typographical mistake in petition regarding section of Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,21 +47,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove that there is a typographical mistake in the petition.",
+      "held": "Learned counsel for the applicant submits that there is typographical mistake in para 5 & 6 of the petition regarding section of the Hindu Marriage Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "typographical mistake",
+        "petition",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant divorce on a mere typographical mistake in the petition.",
+      "held": "Learned counsel for the applicant submits that there is typographical mistake in para 5 & 6 of the petition regarding section of the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "typographical mistake",
+        "petition",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -71,15 +92,30 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "typographical mistake",
+    "petition",
+    "section",
+    "MCC-2826-2018",
+    "Jabalpur",
+    "High Court Of Madhya Pradesh",
+    "Manish Upadhyay",
+    "Subodh Abhyankar",
+    "Judge",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "correcting typographical errors in court documents",
+    "appealing to High Court Of Madhya Pradesh"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:27:49.961415"
 }

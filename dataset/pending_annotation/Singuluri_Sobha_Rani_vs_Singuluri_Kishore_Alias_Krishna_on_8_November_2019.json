@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:08:25.674605",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -19,13 +19,13 @@
     "C. Praveen Kumar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "XIV Additional District Judge-cum-Additional Family Judge, Krishna, Vijayawada",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Singuluri Sobha Rani vs Singuluri Kishore Alias Krishna on 8 November, 2019",
+  "case_name": "Singuluri Sobha Rani vs Singuluri Kishore Alias Krishna",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner-wife seeking maintenance",
+    "respondent_defendant": "Respondent-husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner-wife filed O.P. seeking maintenance under Section 25 of the Hindu Marriage Act; Section 18 of the Hindu Adoptions and Maintenance Act and Section 7 of the Family Courts Act. The trial court rejected the applications to recall, re-open and receive documents for marking.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to recall, re-open and receive documents for the purpose of marking the same.",
+      "held": "Taking into consideration the facts in issue, the Trial Court rejected the said applications mainly on the ground that the documents, which were in existence at the time of filing of the O.P., came to be filed now only to fill up lacunas in the case of the petitioner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "documents",
+        "marking"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Xerox copies are inadmissible in evidence unless the foundation for marking of these documents is laid.",
+      "held": "According to him, the documents, which are sought to be marked, are xerox copies, which are inadmissible in evidence. Since the foundation for marking of these documents is not laid, counsel pleads that the order under challenge warrants no interference.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "xerox",
+        "evidence",
+        "foundation"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's order dismissing the applications was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "reopening",
+    "recalling witness",
+    "marking documents",
+    "family court",
+    "additional district judge",
+    "Krishna",
+    "Vijayawada",
+    "I.A. No.",
+    "F.C.O.P.",
+    "P.W.1",
+    "common order",
+    "civil revision petition",
+    "petitioner-wife",
+    "application dismissed"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to family court orders",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:18:12.886412"
 }

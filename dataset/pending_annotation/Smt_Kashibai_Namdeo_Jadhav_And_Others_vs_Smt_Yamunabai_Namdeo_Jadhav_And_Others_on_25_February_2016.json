@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-07-15T11:09:46.464963",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 3,
     "partition": 3,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Kashibai Namdeo Jadhav And Others vs Smt. Yamunabai Namdeo Jadhav And Others on 25 February, 2016",
+  "case_name": "Smt. Kashibai Namdeo Jadhav And Others vs Smt. Yamunabai Namdeo Jadhav And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kashibai Namdeo Jadhav & ors (since deceased through her LRs.)",
+    "respondent_defendant": "Yamunabai w/o Namdeo Jadhav & ors",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The appellants (original defendants) have impugned the order and judgment dated 3rd September 1992 passed by the III Additional District Judge, Solapur allowing the appeal filed by the original plaintiffs.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A decree of a competent Court is necessary to prove divorce, unless the customary divorce is proved.",
+      "held": "d only by a decree of a competent Court unless the customary divorce is proved.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Yamunaji H. Jadhav Vs. Nirmala, (2002) 2 SCC 637"
+      ],
+      "keywords": [
+        "customary divorce",
+        "competent Court",
+        "decree"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "property_dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The onus lies on the plaintiffs to prove that there was a divorce between Namdeo and Kashibai.",
+      "held": "The onus was thus on the plaintiffs to prove that there was a divorce between Namdeo and the defendant no.1 before the plaintiff no.1 had alleged to have married with Namdeo Jadhav.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "onus",
+        "plaintiffs",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "property_dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is not mentioned in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Indian Evidence Act",
+    "family_law",
+    "inheritance",
+    "partition",
+    "joint_family_members",
+    "agriculture",
+    "land_dispute",
+    "family_violence",
+    "domestic_violence",
+    "marital_rights",
+    "maintenance",
+    "custody",
+    "property_division",
+    "family_settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting family settlement agreements",
+    "advising on property division in joint families",
+    "representing clients in inheritance disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:58:51.060414"
 }

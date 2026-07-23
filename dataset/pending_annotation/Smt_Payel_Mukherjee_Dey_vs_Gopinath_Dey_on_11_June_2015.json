@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:10:40.713482",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Payel Mukherjee (Dey) vs Gopinath Dey on 11 June, 2015",
+  "case_name": "Smt. Payel Mukherjee (Dey) vs Gopinath Dey",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Payel Mukherjee (Dey), wife/appellant",
+    "respondent_defendant": "Gopinath Dey, husband/respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial appeal filed by the wife/appellant challenging the decree of dismissal of the suit for divorce. The wife/appellant has filed an application under Section 5 of the Limitation Act praying for condonation of delay.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The appeal was filed within the prescribed period of limitation.",
+      "held": "According to her, the instant appeal was filed beyond the prescribed period of limitation. However, it is reported by the Additional Stamp Reporter that the appeal was filed within the prescribed period of time.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 28",
+        "Limitation Act — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appeal",
+        "limitation",
+        "prescribed period"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The application under Section 5 of the Limitation Act filed by the appellant/applicant is redundant.",
+      "held": "The said application being CAN 2581 of 2015 is thus dismissed by treating the same as withdrawn.",
+      "applicable_acts_sections": [
+        "Limitation Act — Section 5"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "application",
+        "dismissal",
+        "withdrawal"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application under Section 5 of the Limitation Act filed by the appellant/applicant is dismissed. The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Limitation Act",
+    "condonation of delay",
+    "Section 5",
+    "Section 28",
+    "matrimonial appeal",
+    "suit for divorce",
+    "dismissal of suit",
+    "stay",
+    "family court",
+    "Indian Kanoon",
+    "judicial review"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for condonation of delay in a family court",
+    "advising on the limitation period for filing an appeal against a divorce decree",
+    "preparing a response to an application for stay of proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:37:40.864677"
 }

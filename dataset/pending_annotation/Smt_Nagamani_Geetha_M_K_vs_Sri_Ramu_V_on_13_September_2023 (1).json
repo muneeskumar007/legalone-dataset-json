@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:10:23.247045",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "M.C.No.6475/2019"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Bengaluru, MC No.6475/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Nagamani @ Geetha M.K vs Sri. Ramu V on 13 September, 2023",
+  "case_name": "Smt. Nagamani @ Geetha M.K vs Sri. Ramu V",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Nagamani @ Geetha M.K (wife)",
+    "respondent_defendant": "Sri. Ramu V (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife filed a petition under Section 13(1)(ia) & (ib) of the Hindu Marriage Act, 1955 seeking dissolution of marriage on grounds of cruelty and desertion. The trial court allowed the petition. This appeal is against that judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Parties can settle disputes amicably and withdraw allegations.",
+      "held": "At the intervention of elders and well-wishers, the appellant-wife and the respondent-husband have arrived at an amicable settlement of the dispute and accordingly they have filed a joint memo.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conciliation",
+        "amicable settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can agree to withdraw pending cases in the context of a settlement.",
+      "held": "The appellant agreed to withdraw the said case by the appellant while withdrawing the said case, the respondent agreed to give Rs.5,00,000/- in favour of the appellant.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "case withdrawal",
+        "settlement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties arrived at an amicable settlement and the divorce judgment was passed with a condition that the respondent-husband pays total permanent alimony of Rs.11,00,000/- to the appellant-wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Family Courts Act",
+    "19(1)",
+    "petition",
+    "judgment",
+    "decree",
+    "marriage",
+    "spouse",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property",
+    "partition",
+    "separation",
+    "annulment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act provisions",
+    "assisting with family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:20:28.591639"
 }

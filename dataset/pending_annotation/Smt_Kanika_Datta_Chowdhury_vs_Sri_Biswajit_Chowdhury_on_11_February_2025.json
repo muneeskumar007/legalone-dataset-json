@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:09:43.818880",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Biswajit Palit J U D J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Belonia, South Tripura, T.S(Div) No. 136/2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Kanika Datta Chowdhury vs Sri Biswajit Chowdhury on 11 February, 2025",
+  "case_name": "Smt. Kanika Datta Chowdhury vs Sri Biswajit Chowdhury",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Kanika Datta Chowdhury (wife)",
+    "respondent_defendant": "Sri Biswajit Chowdhury (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant-wife married respondent-husband in 2011 and had a child. Husband started physically assaulting her from 2020. She filed suit for dissolution of marriage under Section 13(i-a) of the Hindu Marriage Act, 1955. Suit was dismissed by trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,103 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The entire matrimonial relationship must be considered to determine cruelty.",
+      "held": "What has to be examined here is the entire matrimonial relationship, as cruelty may not be in a violent act or acts but in a given case has to be gathered from injurious reproaches, complaints, accusations, taunts, etc.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13(1)(ia)"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Samar Ghosh v. Jaya Ghosh, (2007) 4 SCC 511"
+      ],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "matrimonial relationship",
+        "injurious reproaches"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The effect of the conduct rather than its nature is of paramount importance in assessing a complaint of cruelty.",
+      "held": "It is the effect of the conduct rather than its nature which is of paramount importance in assessing a complaint of cruelty.",
+      "cited_cases": [
+        "Samar Ghosh v. Jaya Ghosh, (2007) 4 SCC 511"
+      ],
+      "keywords": [
+        "cruelty",
+        "conduct",
+        "effect"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
+    },
+    {
+      "principle": "Cruelty may not be in a violent act or acts but in injurious reproaches, complaints, accusations, taunts, etc.",
+      "held": "What has to be examined here is the entire matrimonial relationship, as cruelty may not be in a violent act or acts but in a given case has to be gathered from injurious reproaches, complaints, accusations, taunts, etc.",
+      "cited_cases": [
+        "Samar Ghosh v. Jaya Ghosh, (2007) 4 SCC 511"
+      ],
+      "keywords": [
+        "cruelty",
+        "injurious reproaches",
+        "complaints",
+        "accusations",
+        "taunts"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the judgment and order dated 06.04.2024 passed by the learned Court below are set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13(i-a)",
+    "Family Courts Act",
+    "Section 19(1)",
+    "Section 28",
+    "divorce",
+    "dissolution of marriage",
+    "physical assault",
+    "marital violence",
+    "matrimonial dispute",
+    "judicial separation",
+    "alimony",
+    "maintenance",
+    "custody",
+    "child custody",
+    "family court",
+    "high court",
+    "Tripura"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:57:56.241650"
 }

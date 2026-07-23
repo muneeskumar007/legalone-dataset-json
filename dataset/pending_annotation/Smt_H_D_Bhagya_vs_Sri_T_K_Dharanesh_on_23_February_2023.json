@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:09:24.185397",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "partition": 3,
@@ -27,13 +27,13 @@
     "F.A.No.8567 of 2015",
     "M.C.No.230/2013"
   ],
-  "trial_court": "",
+  "trial_court": "Principal District Judge, Family Court at Hassan, M.C.No.230/2013",
   "reserved_on": "13.02.2023",
   "delivered_on": "",
-  "case_name": "Smt H D Bhagya vs Sri T K Dharanesh on 23 February, 2023",
+  "case_name": "Smt H D Bhagya vs Sri T K Dharanesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. H.D. Bhagya, wife",
+    "respondent_defendant": "Sri. T.K. Dharanesh, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent-husband filed a petition under Section 13(1)(ia)(ib)(vii) of the Hindu Marriage Act, 1955, which was allowed by the trial court. The petitioner-wife has appealed against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the respondent to prove that the appellant has voluntarily deserted him.",
+      "held": "Since she averred that the appellant wife and the respondent husband were living in Hassan City, their common relatives and friends were knowing each other.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "voluntary desertion",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's whereabouts being unknown to the other for a period does not necessarily mean that the marriage is broken.",
+      "held": "When the appellant's wife's brother tried to hold a panchayat for amicable settlement, the respondent-husband has assaulted him and filed a criminal case, which is registered as C.C.No.442/1995.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage status",
+        "unknown whereabouts"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is dismissed and the judgment and decree passed by the trial court are upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Family Courts Act",
+    "Section 19(1)",
+    "maintenance",
+    "alimony",
+    "custody",
+    "property division",
+    "matrimonial dispute",
+    "marriage dissolution",
+    "spousal rights",
+    "family law",
+    "Indian court judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal rights",
+    "assisting with property division"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:33:01.964686"
 }

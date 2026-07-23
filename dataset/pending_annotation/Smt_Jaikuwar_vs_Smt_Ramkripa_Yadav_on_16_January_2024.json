@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:09:29.381231",
   "domain": "partition",
-  "sub_domain": "divorce",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "High Court of Madhya Pradesh at Jabalpur, SA No. 134 of 2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Jaikuwar vs Smt. Ramkripa Yadav on 16 January, 2024",
+  "case_name": "Smt. Jaikuwar vs Smt. Ramkripa Yadav",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Jaikuwar and others",
+    "respondent_defendant": "Smt. Ramkripa Yadav and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,39 +56,71 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party to plead and prove its case.",
+      "held": "Heard on admission. The appeal is admitted on the following substantial questions of law",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "plead",
+        "prove"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "appeal"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's written statement can be used to deny or contradict the opponent's case.",
+      "held": "In absence of any plea in the written statement that Munni Devi was alive when Mangal kept Kuvarbai",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "written statement",
+        "plea"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "defamation",
+        "libel"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal admitted",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Section 14",
+    "Section 16",
+    "kuvarbai",
+    "Mangal Singh",
+    "Munni Devi",
+    "void marriage",
+    "pleadings",
+    "decreeing suit",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition petitions",
+    "advising on Hindu succession matters",
+    "assisting in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:40:06.308938"
 }

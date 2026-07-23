@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:09:26.288013",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "M.C.No.226/2020",
     "M.C.No.4173/2019"
   ],
-  "trial_court": "",
+  "trial_court": "I Additional Principal Judge, Family Court, Hubballi (M.C.No.226/2020)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Indumathi Alias Rajeshwari W/O ... vs Shri Prabhu S/O Basavaraj ... on 15 March, 2023",
+  "case_name": "Smt. Indumathi Alias Rajeshwari W/O ... vs Shri Prabhu S/O Basavaraj ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner-wife",
+    "respondent_defendant": "Respondent-husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner-wife seeks to withdraw M.C.No.226/2020 pending on the file of the I Additional Principal Judge, Family Court, Hubballi and transfer to the Principal Family Court, Bangalore. The parties are living separately due to un-cordial relation.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The convenience of the wife takes a paramount concern while transferring the petition from one place to another.",
+      "held": "It is also stated that since the petitioner wife is residing at Bangalore, the convenience of the wife takes a paramount concern while transferring the petition from one place to another and sought to allow the petition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "convenience",
+        "wife",
+        "petition",
+        "transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party who is placed ex-parte in a proceeding has an opportunity to contest the same.",
+      "held": "In view of setting aside of the exparte order, petitioner was provided with an opportunity to contest MC No.226/2020.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "ex-parte",
+        "opportunity",
+        "contest"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allows the petition seeking to withdraw M.C.No.226/2020 and transfer it to the Principal Family Court, Bangalore.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "matrimonial case",
+    "transfer petition",
+    "CPC",
+    "Section 24",
+    "marriage",
+    "spouse",
+    "alimony",
+    "maintenance",
+    "property",
+    "assets",
+    "joint family",
+    "separation",
+    "irretrievable breakdown",
+    "irreconcilable differences"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on transfer of matrimonial case",
+    "assisting in property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:39:26.844777"
 }

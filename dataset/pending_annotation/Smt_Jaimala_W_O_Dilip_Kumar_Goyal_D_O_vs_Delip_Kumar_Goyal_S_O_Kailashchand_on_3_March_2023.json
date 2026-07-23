@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:29.598801",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Jaimala W/O Dilip Kumar Goyal, D/O ... vs Delip Kumar Goyal S/O Kailashchand ... on 3 March, 2023",
+  "case_name": "Smt. Jaimala W/O Dilip Kumar Goyal, D/O ... vs Delip Kumar Goyal S/O Kailashchand ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Jaimala W/o Dilip Kumar Goyal, D/o Sitaram Ji (wife)",
+    "respondent_defendant": "Delip Kumar Goyal S/o Kailashchand Goyal (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute; applicant-wife seeks transfer of petition from Family Court, Bundi to Family Court, Kota.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,118 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A case should be disposed of in a time-bound manner.",
+      "held": "The law mandates that such cases should be disposed in a time bound manner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Harish Uppal Vs. Union of India (UOI) and Ors., (2003) 2 SCC 45"
+      ],
       "keywords": [
-        "TODO"
+        "time-bound",
+        "disposal"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's presence is required in a case where their attendance is necessary.",
+      "held": "That the non-applicant-husband's presence is required on every date of hearing in the matter.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya vs. A.S. Saravana Karthik Sha: [2023/RJJP/003670] (3 of 3) [CTA-103/2020] Civil Appeal No. 4894/2022"
+      ],
+      "keywords": [
+        "party presence",
+        "attendance"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's responsibility to look after their minor child should be considered.",
+      "held": "That the applicant has the responsibility to look after her minor daughter;",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya vs. A.S. Saravana Karthik Sha: [2023/RJJP/003670] (3 of 3) [CTA-103/2020] Civil Appeal No. 4894/2022"
+      ],
+      "keywords": [
+        "minor child",
+        "responsibility"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court should consider the practical difficulties faced by a party in attending court proceedings.",
+      "held": "That the applicant does not have the infrastructural support, in terms of family members, who can accompany her to court proceedings, pending in Bundi;",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya vs. A.S. Saravana Karthik Sha: [2023/RJJP/003670] (3 of 3) [CTA-103/2020] Civil Appeal No. 4894/2022"
+      ],
+      "keywords": [
+        "practical difficulties",
+        "court proceedings"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The matter pertains to a matrimonial dispute and the law mandates that such cases should be disposed in a time bound manner.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial dispute",
+    "time bound manner",
+    "lawyers strike",
+    "Harish Uppal Vs. Union of India",
+    "SCC 45",
+    "Single Judge Order",
+    "RJJP/003670",
+    "S.B. Civil Transfer Application No. 103/2020"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to lawyers strike",
+    "matrimonial dispute resolution"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:41:23.129561"
 }

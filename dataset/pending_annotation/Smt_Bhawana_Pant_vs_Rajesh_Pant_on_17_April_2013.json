@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:09:00.762676",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Nainital (Case No.217 of 2011)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Bhawana Pant vs Rajesh Pant on 17 April, 2013",
+  "case_name": "Smt. Bhawana Pant vs Rajesh Pant",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Bhawana Pant — wife",
+    "respondent_defendant": "Rajesh Pant — husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife seeks transfer of divorce case to a court closer to her residence due to ill health and financial crisis.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,63 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish that the transfer of case is necessary.",
+      "held": "In the facts and circumstances of the case, it would be difficult for her to travel from Tehsil Garur, District Bageshwar to attend the court proceedings at Nainital.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Supreme Court (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "transfer of case",
+        "burden of proof",
+        "ill health",
+        "financial crisis"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "applicant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family court proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Case transferred to Family Court at Bageshwar.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "transfer application",
+    "family court",
+    "Nainital",
+    "Bageshwar",
+    "Garur",
+    "ill health",
+    "financial crisis",
+    "Section 9",
+    "Section 13",
+    "wife's rights",
+    "husband's rights",
+    "court proceedings",
+    "travel difficulties"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting transfer application for wife seeking to attend court in a different location due to ill health and financial crisis",
+    "advising client on options for resolving disputes in family courts",
+    "assisting with drafting pleadings for divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:55:51.951341"
 }

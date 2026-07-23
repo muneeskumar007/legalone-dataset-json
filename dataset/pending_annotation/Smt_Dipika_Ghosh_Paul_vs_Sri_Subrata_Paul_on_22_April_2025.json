@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:09:09.736856",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -25,13 +25,13 @@
     "Biswajit Palit J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Belonia, South Tripura District, Tripura in case No. TS (RCR) 5 of 2021 and TS (Divorce) 43 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Dipika Ghosh (Paul) vs Sri Subrata Paul on 22 April, 2025",
+  "case_name": "Smt. Dipika Ghosh (Paul) vs Sri Subrata Paul",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant-wife, Smt. Dipika Ghosh (Paul)",
+    "respondent_defendant": "Respondent-husband, Sri Subrata Paul",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The appellant-wife filed an application under Section 9 of the Hindu Marriage Act, 1955 for restitution of conjugal rights which was dismissed by the trial court. The marital tie between the respondent-husband and the appellant-wife was dissolved by a decree of divorce under Section 13(1)(ia) & (ib) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has broken down irretrievably.",
+      "held": "It is hereby ordered that the petition filed U/S-13(1)(ia) &(ib) of the Hindu Marriage Act, 1955 by the husband-petitioner for dissolution of marriage between himself and the wife-respondent is allowed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievably",
+        "burden",
+        "divorce",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking alimony is entitled to receive a reasonable amount as maintenance and alimony.",
+      "held": "It is also ordered that the husband shall pay further Rs. 3000.00(Three Thousand) per month to the wife, in addition to Rs. 5000.00 (Five Thousand)) which he has to pay every month...",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 125"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "alimony",
+        "maintenance",
+        "reasonable amount"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "alimony cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeals are taken together for disposal in a common order. The petition filed U/S-13(1)(ia) &(ib) of the Hindu Marriage Act, 1955 is hereby dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 28",
+    "Family Courts Act",
+    "Section 19(3)",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "joint family",
+    "separation",
+    "irretrievable breakdown",
+    "no fault divorce",
+    "equitable distribution",
+    "property settlement",
+    "matrimonial property",
+    "family court jurisdiction"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on alimony and maintenance in a matrimonial dispute",
+    "assisting with custody matters in a joint family"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:14:26.976362"
 }

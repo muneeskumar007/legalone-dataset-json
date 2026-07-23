@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:48.362022",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -25,13 +25,13 @@
     "FA.NO.5586/2016",
     "M.C.No.394/2015"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, D.K., Mangaluru, M.C.No.394/2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Kavitha vs Sri. Krishnamoorthy on 30 January, 2023",
+  "case_name": "Smt. Kavitha vs Sri. Krishnamoorthy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Kavitha, divorced wife",
+    "respondent_defendant": "Sri. Krishnamoorthy, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized on 30.11.2013. The couple have a son and the child is in the custody of the cross-objector. The couple lived together for a short period before developing misunderstandings and ultimately, the respondent neglected the cross-objector.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The quantum of permanent alimony should be reasonable and justifiable.",
+      "held": "Learned Counsel for the Cross-Objector submits that the permanent alimony awarded by the Family Court is very meager compared to the assets of the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "permanent alimony",
+        "reasonable",
+        "justifiable"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court should consider the income and assets of both parties while awarding permanent alimony.",
+      "held": "She submits that the cross-objector is taking care of the minor child who is presently studying, and therefore, the amount of Rs.5 lakhs awarded as permanent alimony needs to be enhanced.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "income",
+        "assets",
+        "permanent alimony"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The court should consider the needs of the child while awarding permanent alimony.",
+      "held": "She submits that the cross-objector is taking care of the minor child who is presently studying, and therefore, the amount of Rs.5 lakhs awarded as permanent alimony needs to be enhanced.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "child",
+        "needs",
+        "permanent alimony"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The judgment and decree dated 16/02/2016 passed by the Family Court was set aside and the petition filed under Section 13(1)(ia) & (ib) of the Hindu Marriage Act, 1955 was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Family Courts Act",
+    "Section 13(1)(ia)(ib)",
+    "MFA.CROB",
+    "CPC Rule 22",
+    "Rule 19(1) of Family Courts Act",
+    "Principles of Natural Justice",
+    "Res Judicata",
+    "Equitable Relief",
+    "Maintenance",
+    "Alimony",
+    "Property Settlement",
+    "Custody",
+    "Child Support"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "assisting with property settlement disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:01:27.011553"
 }

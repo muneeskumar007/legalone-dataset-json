@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:10:26.352531",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 2,
     "custody": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judicial Magistrate of First Class, Gudur - C.C. No. 365 of 1995",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Natari Parvati vs State Of A.P. And Ors. on 22 August, 2003",
+  "case_name": "Smt. Natari Parvati vs State Of A.P. And Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Natari Parvati (wife)",
+    "respondent_defendant": "State Of A.P. And Ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Paravathi and A-1 took place about 11 years prior to 13.5.1995. After the death of their child, A-1 started harassing P.W. 1 as she did not beget further children and started ill-treating her that he would marry second time.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Cruelty under Section 498-A, IPC means any wilful conduct that is likely to drive a woman to commit suicide or cause grave injury or danger to life, limb or health.",
+      "held": "Explanation (a) provides that 'cruelty' means any wilful conduct, which is of such a nature as, is likely to drive a woman to commit suicide or to cause grave injury or danger to life, limb or health (whether mental or physical) of the woman.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 498-A"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "Section 498-A",
+        "IPC"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "domestic violence cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Harassment of a woman under Section 498-A, IPC means coercion to meet an unlawful demand for property or valuable security.",
+      "held": "Clause (b) provides that 'cruelty' means harassment of the woman where such harassment is with a view to coercing her or any person related to her to meet any unlawful demand for any property or valuable security or is on account of failure by her or any person related to her to meet such demand.",
+      "applicable_acts_sections": [
+        "Indian Penal Code — Section 498-A"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "harassment",
+        "coercion",
+        "unlawful demand"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "domestic violence cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal filed by the appellant questioning the legality and correctness of the judgment.",
+    "final_order": "The lower Court acquitted the accused, but the appeal was filed to challenge this decision.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "dowry",
+    "harassment",
+    "ill-treatment",
+    "second marriage",
+    "dowry demand",
+    "complaint",
+    "police investigation",
+    "charge sheet",
+    "acquittal",
+    "criminal appeal",
+    "judicial magistrate",
+    "first class",
+    "Gudur",
+    "Kodandaramaswamy Temple",
+    "Hindu customs"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on dowry-related issues",
+    "representing in a criminal appeal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:22:56.604804"
 }

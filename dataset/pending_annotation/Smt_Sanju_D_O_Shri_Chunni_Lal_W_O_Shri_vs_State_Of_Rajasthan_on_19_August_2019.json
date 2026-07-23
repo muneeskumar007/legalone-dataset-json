@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:11:19.241239",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "domestic_violence": 1
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Sanju D/O Shri Chunni Lal,W/O-Shri ... vs State Of Rajasthan on 19 August, 2019",
+  "case_name": "Smt Sanju D/O Shri Chunni Lal,W/O-Shri ... vs State Of Rajasthan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Sanju D/o Shri Chunni Lal,w/o-Shri Baldev Saini, and Baldev Saini S/o Shri Mula Ram Saini",
+    "respondent_defendant": "State Of Rajasthan, Through Principal Secretary, Home Department, Secretariat, Jaipur, Superintendent Of Police, Jhunjhunu, Raj., S.H.O, Police Station, Udaipurwati, District-Jhunjhunu, and Shri Chunni Lal,s/o-Shri Rameshwar Lal",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners have preferred this Criminal Miscellaneous Petition seeking protection of life and liberty. Certificate of registration of marriage is annexed with the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court cannot perpetuate illegality by giving protection to the petitioners.",
+      "held": "It is contended that the marriage performed by petitioners being in contravention of Sub Clause (IV) of Clause II of Section 5 of the Hindu Marriage Act, the same is punishable under Clause (B) of Section 18 of the Hindu Marriage, hence, Court cannot perpetuate illegality by giving protection to the petitioners.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 5",
+        "Hindu Marriage Act — Section 18"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "illegality",
+        "perpetuation",
+        "protection",
+        "marriage",
+        "contravention"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court cannot grant protection to petitioners who fall within the prohibited degrees under the Hindu Marriage Act.",
+      "held": "It is contended that petitioners falls within the prohibited degrees under Sub Clause (IV) of Clause II of Section 5 of the Hindu Marriage Act. The marriage is void, hence, the Court cannot grant protection to the petitioners.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 5"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "prohibited degrees",
+        "void marriage",
+        "protection",
+        "petitioners"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Court cannot grant protection to the petitioners as they fall within prohibited degrees under Sub Clause (IV) of Clause II of Section 5 of the Hindu Marriage Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "marriage registration",
+    "protection of life and liberty",
+    "stay order",
+    "vacation of stay",
+    "Criminal Miscellaneous Petition",
+    "petition",
+    "respondent",
+    "petitioner",
+    "family court",
+    "district court",
+    "liberty",
+    "life",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "seeking protection from domestic violence",
+    "appealing a stay order in a family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:28:41.264403"
 }

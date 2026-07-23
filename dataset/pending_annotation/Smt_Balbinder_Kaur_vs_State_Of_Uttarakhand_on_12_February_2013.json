@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:08:55.352171",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "land_acquisition": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Balbinder Kaur vs State Of Uttarakhand on 12 February, 2013",
+  "case_name": "Smt. Balbinder Kaur vs State Of Uttarakhand",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Balbinder Kaur, Jagdev Singh (mother-in-law and father-in-law)",
+    "respondent_defendant": "State of Uttarakhand, Avneet Kaur",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are mother-in-law and father-in-law of respondent no. 2. They sought quashing of First Information Report registered at Police Station Bazpur, District Udham Singh Nagar.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Abuse of process of law is not permitted.",
+      "held": "It is argued that it is abuse of process of law on the part of the respondent no.2 to get lodged First Information Report by resorting to section 156 (3) of Cr.P.C.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C."
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "abuse",
+        "process",
+        "law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A petition filed under Article 226 of the Constitution is a valuable right and should not be used as a counterblast to another proceeding.",
+      "held": "It is contended that impugned First Information Report is counter blast to the petition filed by husband to the respondent no.3 against her under section 9 of Hindu Marriage Act, 1955.",
+      "applicable_acts_sections": [
+        "Constitution",
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition",
+        "Article 226",
+        "counterblast"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce",
+        "family law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The petitioners shall not be arrested in connection with F.I.R No. 25 of 2013 during investigation, provided they cooperate with the investigating agency.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "IPC",
+    "498A",
+    "323",
+    "504",
+    "Dowry Prohibition Act",
+    "Article 226",
+    "Constitution of India",
+    "First Information Report",
+    "quashing",
+    "writ petition",
+    "section 3/4",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for quashing an FIR",
+    "advising on the application of IPC sections in divorce cases",
+    "assisting with drafting a response to a First Information Report"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:49:23.501414"
 }

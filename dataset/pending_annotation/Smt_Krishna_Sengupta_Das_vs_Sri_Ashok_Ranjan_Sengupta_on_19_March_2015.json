@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:51.661555",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "R. K. Bag. J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Learned Additional District Judge, 2nd Court, Barasat, North 24-Parganas, Mat Suit No.57 of 2000",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Krishna Sengupta (Das) vs Sri Ashok Ranjan Sengupta on 19 March, 2015",
+  "case_name": "Smt. Krishna Sengupta (Das) vs Sri Ashok Ranjan Sengupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Krishna Sengupta (Das), wife",
+    "respondent_defendant": "Sri Ashok Ranjan Sengupta, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant/wife married respondent/husband in 1985 and two daughters were born. Appellant used to leave residence without consent and stay outside for days. Respondent came to know about appellant's previous marriage with Swapan Roy Chowdhury and started criminal case against her.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A certified copy of a public document is admissible in evidence and presumed to be correct unless contrary is proved.",
+      "held": "Learned Counsel for the respondent has pointed out from the evidence on record that the appellant admitted the fact of giving evidence in the maintenance proceeding where she admitted her first marriage with Swapan Kumar Roy Chowdhury on 19.07.1983.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code, 1860"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "public document",
+        "admissible evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The marital tie between the parties subsisting at the time of second marriage makes the second marriage void.",
+      "held": "The marriage between the appellant and the respondent on 10th May, 1985 was declared as nullity on the ground that the marital tie of the appellant with Swapan Roy Chowdhury was subsisting at the time of her second marriage with the respondent on 10th May, 1985.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "void marriage",
+        "subsisting marital tie"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is preferred by the appellant/wife against judgement and decree passed by Learned Additional District Judge, 2nd Court, Barasat, North 24-Parganas on 11.01.2008.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "separation",
+    "marital rights",
+    "spousal abuse",
+    "domestic violence",
+    "family law",
+    "Indian Penal Code",
+    "Code of Criminal Procedure",
+    "judicial separation",
+    "divorce decree",
+    "mat suit",
+    "civil appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on alimony and maintenance",
+    "representing in a matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:07:29.391402"
 }

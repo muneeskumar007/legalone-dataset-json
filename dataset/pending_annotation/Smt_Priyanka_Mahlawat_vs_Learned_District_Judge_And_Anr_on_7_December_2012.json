@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:10:51.585846",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -19,13 +19,13 @@
     "Mohammad Rafiq J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Learned District Judge Bharatpur",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Priyanka Mahlawat vs Learned District Judge And Anr on 7 December, 2012",
+  "case_name": "Smt Priyanka Mahlawat vs Learned District Judge And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt.Priyanka (wife)",
+    "respondent_defendant": "The learned District Judge Bharatpur & Ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife and respondent-wife jointly filed an application under Section 13B of the Hindu Marriage Act. The matter was deferred to 11/12/2012, and the petitioner apprehends that the matter may be again adjourned.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may defer a matter to another date.",
+      "held": "It is impressed upon both the parties to appear before the court below on 11/12/2012.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "deferment",
+        "adjournment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's apprehension or concern may be considered by the court.",
+      "held": "It is contended that petitioner's parents have found suitable match for her for re-marriage and if decree of mutual divorce is not passed on that date, there will be difficulty in remarriage of petitioner.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "party's concern",
+        "petitioner's apprehension"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The writ petition is disposed of with direction to both parties to appear before the court below on 11/12/2012, and an effort to decide the matter in accordance with law.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13B",
+    "mutual divorce",
+    "re-marriage",
+    "petitioner's parents",
+    "suitable match",
+    "decree of divorce",
+    "petitioner-wife",
+    "respondent-wife",
+    "joint application",
+    "presiding officer",
+    "leave",
+    "adjournment",
+    "remarriage difficulty",
+    "direction to decide",
+    "effort to decide",
+    "in accordance with law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for mutual divorce under Hindu Marriage Act",
+    "advising on the implications of re-marriage after divorce",
+    "assisting in drafting an application for joint divorce"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:51:10.072206"
 }

@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:09:56.100926",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2
   },
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt K S Lakshmi (Suma) vs Dr Chandra Mouli on 1 September, 2010",
+  "case_name": "Smt K S Lakshmi (Suma) vs Dr Chandra Mouli",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "K.S.Lakshmi (wife)",
+    "respondent_defendant": "Dr.Chandra Mouli (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant wife filed a petition for divorce, which was allowed by the trial court. This appeal is to set aside the judgment and decree.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A decree of divorce can be set aside if it is obtained by fraud, misrepresentation or coercion.",
+      "held": "It is held that a decree of divorce can be set aside if it is obtained by fraud, misrepresentation or coercion.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 28(1)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "set aside",
+        "fraud",
+        "misrepresentation",
+        "coercion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking to set aside a decree of divorce to prove that it was obtained by fraud, misrepresentation or coercion.",
+      "held": "The burden lies on the party seeking to set aside a decree of divorce to prove that it was obtained by fraud, misrepresentation or coercion.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 28(1)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "set aside",
+        "fraud",
+        "misrepresentation",
+        "coercion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is dismissed as compliance with the order is not done.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "Misc. First Appeal",
+    "Family Courts Act",
+    "Sec.19",
+    "28(1)",
+    "Principle of No Fault Divorce",
+    "Custody Battle",
+    "Maintenance",
+    "Alimony",
+    "Property Division",
+    "Matrimonial Dispute",
+    "Marriage Dissolution",
+    "Separation",
+    "Annulment",
+    "Voidable Marriage",
+    "Void Marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on maintenance and alimony in a divorce case",
+    "assisting with property division in a matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:51:14.567643"
 }

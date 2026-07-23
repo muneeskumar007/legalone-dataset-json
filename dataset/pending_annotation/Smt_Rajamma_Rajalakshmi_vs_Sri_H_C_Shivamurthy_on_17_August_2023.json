@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:00.732380",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -22,13 +22,13 @@
   "case_numbers": [
     "M.C.No.196/2013"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Chikmagalur, M.C.No.196/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Rajamma @ Rajalakshmi vs Sri. H C Shivamurthy on 17 August, 2023",
+  "case_name": "Smt. Rajamma @ Rajalakshmi vs Sri. H C Shivamurthy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Rajamma @ Rajalakshmi (wife)",
+    "respondent_defendant": "Sri. H C Shivamurthy (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife sought dissolution of marriage under Section 13(1)(ia)(ib) of the Hindu Marriage Act, 1955 on grounds of cruelty and desertion. Trial court dismissed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,119 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle their disputes through conciliation and compromise.",
+      "held": "At the intervention of elders and well-wishers, the appellant-wife and the respondent-husband, in the conciliation, have arrived at an amicable settlement of the dispute.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Order XXIII Rule 3"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conciliation",
+        "compromise",
+        "amicable settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can withdraw all allegations and cases made against each other as part of a compromise.",
+      "held": "Both the parties shall withdraw all the allegations and cases made against each other and shall not institute any fresh proceedings hereinafter.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Order XXIII Rule 3"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "withdrawal",
+        "compromise",
+        "fresh proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Parties can agree not to claim maintenance or alimony against each other as part of a compromise.",
+      "held": "Neither the appellant nor Respondent shall claim any maintenance or alimony against each other and the present compromise petition shall be treated as final and full settlement of all their claims.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Order XXIII Rule 3"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "alimony",
+        "compromise"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Parties can agree not to interfere with each other's personal lives as part of a compromise.",
+      "held": "Both the parties shall not interfere with personal lives of each other hereinafter. They shall not create any situations which may defame or lower the reputation of parties or their family members in the society.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Order XXIII Rule 3"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "personal lives",
+        "compromise",
+        "reputation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Marriage dissolved as prayed for; parties agreed to withdraw all allegations and cases against each other, not institute any fresh proceedings, and not claim maintenance or alimony against each other.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i-a)",
+    "Section 13(1)(i-b)",
+    "Family Courts Act",
+    "Section 19(1)",
+    "MFA No.3055 of 2020",
+    "MC. NO.196/2013",
+    "Principal Judge, Family Court",
+    "Chikkamagaluru",
+    "Hiregadda Village",
+    "Jayapura Koppa Taluk",
+    "Pura Jenagadde Post",
+    "Digitally Chikmagalur Taluk",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "preparing an appeal against a family court judgment",
+    "advising on grounds for divorce in Karnataka"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:01:06.134082"
 }

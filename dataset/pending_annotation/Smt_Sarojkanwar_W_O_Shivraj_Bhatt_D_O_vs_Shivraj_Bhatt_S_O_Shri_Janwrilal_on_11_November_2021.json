@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:11:24.588854",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Chandra Kumar Songara J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Additional District Judge, No.1, Nagaur",
   "reserved_on": "",
   "delivered_on": "03.02.2014",
-  "case_name": "Smt. Sarojkanwar W/O Shivraj Bhatt D/O ... vs Shivraj Bhatt S/O Shri Janwrilal @ ... on 11 November, 2021",
+  "case_name": "Smt. Sarojkanwar W/O Shivraj Bhatt D/O ... vs Shivraj Bhatt S/O Shri Janwrilal @ ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner-wife, Smt. Saroj kanwar W/o Shivraj Bhatt D/o Shri Harisingh",
+    "respondent_defendant": "Respondent-husband, Shivraj Bhatt S/o Shri Janwrilal @ Joharilal Bhatt",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks transfer of divorce petition from Court of Additional District Judge, No.1, Nagaur to the Family Court situated at Alwar due to hardship in traveling and lack of male member in her family.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The purpose of the Presidential Order is to carve out and define territorial jurisdiction between the principal seat at Jodhpur and the permanent bench seat at Jaipur.",
+      "held": "The purpose of the Presidential Order is to carve out and define territorial jurisdiction between the principal seat at Jodhpur and the permanent bench seat at Jaipur. The cases are to be heard accordingly unless the Chief Justice may exercise in his discretion the power vested in him by the proviso to para 2 of the Presidential order.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rajasthan High Court Advocates Association Vs. Union of India, reported in 2001 (2) SCC 294"
+      ],
       "keywords": [
-        "TODO"
+        "territorial jurisdiction",
+        "principal seat",
+        "permanent bench",
+        "Presidential Order"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family court cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In case of a dispute arising whether an individual case or cases should be filed and heard at Jodhpur or Jaipur, the same has to be found out by applying the test-from which district the case arises.",
+      "held": "In case of a dispute arising whether an individual case or cases should be filed and heard at Jodhpur or Jaipur, the same has to be found out by applying the test-from which district the case arises, that is, in which district the cause of action can be said to have arisen and then exercising the jurisdiction under Article 226 of the Constitution.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [
+        "Rajasthan High Court Advocates Association Vs. Union of India, reported in 2001 (2) SCC 294",
+        "Nasiruddin Vs. State Transport Appellate Tribunal reported in AIR 1976"
+      ],
+      "keywords": [
+        "dispute resolution",
+        "case filing",
+        "jurisdiction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family court cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Transfer of Divorce Petition bearing No.24/2019 from the Court of Additional District Judge, No.1, Nagaur to the Family Court situated at Alwar.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "transfer application",
+    "Code of Civil Procedure",
+    "Section 24",
+    "Section 151",
+    "Hindu Marriage Act",
+    "Section 13-A",
+    "Family Court",
+    "Alwar",
+    "Nagaur",
+    "Additional District Judge",
+    "petition",
+    "marriage",
+    "wife",
+    "husband",
+    "transfer",
+    "petitioner",
+    "respondent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce transfer applications",
+    "advising on family court jurisdiction",
+    "representing clients in Hindu marriage disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:36:29.549045"
 }

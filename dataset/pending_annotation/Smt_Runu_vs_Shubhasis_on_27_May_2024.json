@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:16.170513",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -20,13 +20,13 @@
     "Pranay Verma J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "IIIrd Additional Principal Judge, Family Court, Indore (HMA No.9/2019)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Runu vs Shubhasis on 27 May, 2024",
+  "case_name": "Smt. Runu vs Shubhasis",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Runu, wife",
+    "respondent_defendant": "Shubhasis, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner/wife challenged the order rejecting her application for maintenance under Section 24 of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,95 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The income of the wife cannot operate as a bar for awarding maintenance to her from her husband.",
+      "held": "It has been held that the income of the wife cannot operate as a bar for awarding maintenance to her from her husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rajnesh Vs. Neha and Ors., (2020) Cri.A No.730/2020",
+        "Sunita Kachwaha and Ors. Vs. Anil Kachwaha, AIR 2015 SC 554",
+        "M.P. Singh Bargoti Vs. State of M.P. & Anr., AIR 2015 SC 556",
+        "Chaturbhuj Vs. Sita Bai, AIR 2008 SC 530",
+        "Kapildeo Mandal & Ors. Vs. State of Bihar, AIR 2008 SC 533"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "income",
+        "wife",
+        "husband"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court has to determine whether income of wife is sufficient to enable her to maintain herself in accordance with life style of her husband in the matrimonial house.",
+      "held": "The Court has to determine whether income of wife is sufficient to enable her to maintain herself in accordance with life style of her husband in the matrimonial house.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Rajnesh Vs. Neha and Ors., (2020) Cri.A No.730/2020",
+        "Sunita Kachwaha and Ors. Vs. Anil Kachwaha, AIR 2015 SC 554",
+        "M.P. Singh Bargoti Vs. State of M.P. & Anr., AIR 2015 SC 556",
+        "Chaturbhuj Vs. Sita Bai, AIR 2008 SC 530",
+        "Kapildeo Mandal & Ors. Vs. State of Bihar, AIR 2008 SC 533"
+      ],
+      "keywords": [
+        "maintenance",
+        "income",
+        "wife",
+        "husband",
+        "life style"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court held that the trial court's decision was incorrect and that the respondent/husband should pay maintenance to the petitioner/wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 24",
+    "maintenance",
+    "Section 13",
+    "decree of divorce",
+    "Family Court",
+    "Article 227",
+    "Constitution of India",
+    "private job",
+    "wife",
+    "husband",
+    "petition",
+    "application",
+    "rejection",
+    "grant",
+    "income",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on maintenance claims in family court proceedings",
+    "assisting with applications under Section 24 of the Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:24:37.736560"
 }

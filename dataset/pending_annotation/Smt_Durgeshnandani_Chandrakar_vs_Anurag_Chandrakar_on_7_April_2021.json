@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:11.165356",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Dhamtari, District- Dhamtari (C.G.) - Civil Suit No. 45-A/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Durgeshnandani Chandrakar vs Anurag Chandrakar on 7 April, 2021",
+  "case_name": "Smt. Durgeshnandani Chandrakar vs Anurag Chandrakar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Durgeshnandani Chandrakar, wife",
+    "respondent_defendant": "Anurag Chandrakar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of Durgeshnandani Chandrakar with Anurag Chandrakar in 2010; birth of child in 2011; respondent's family harassment and cruelty against petitioner; petition for divorce filed by respondent; petitioner seeks transfer of civil suit to Family Court, Mahasamund.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The convenience of the wife is a relevant factor in determining the transfer of proceedings.",
+      "held": "It is settled position of law that the convenience of wife is relevant factor over the convenience of the husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Rajani Kishore Pardeshi Vs. Kishor Babulal Pardeshi, (2005) 12 SCC 237",
+        "Bhartiben Ravibhai Rav Vs. Ravibhai Govindbhai Rav, (2017) 6 SCC 785"
+      ],
+      "keywords": [
+        "wife's convenience",
+        "husband's convenience",
+        "transfer of proceedings"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "family court proceedings"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the party seeking transfer to show that it is inconvenient for them.",
+      "held": "None mentioned in this judgment, but implied from the discussion.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "inconvenience",
+        "transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "all types of cases where transfer is sought"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Civil Suit No. 45-A/2019 pending before the Family Court, Dhamtari, District- Dhamtari (C.G.) be transferred to Family Court, Mahasamund, District- Mahasamund (C.G.) for hearing and disposal in accordance with law.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Section 24 CPC",
+    "Family Court",
+    "transfer petition",
+    "marriage solemnized",
+    "Hindu custom",
+    "child born",
+    "matrimonial dispute",
+    "petition under Section 24",
+    "CPC seeking transfer",
+    "Civil Suit No. 45-A/2019",
+    "Anurag Chandrakar Vs. Smt. Durgeshnandani Chandrakar"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "guidelines for filing a transfer petition in Family Court",
+    "practical tips for handling matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:18:04.767419"
 }

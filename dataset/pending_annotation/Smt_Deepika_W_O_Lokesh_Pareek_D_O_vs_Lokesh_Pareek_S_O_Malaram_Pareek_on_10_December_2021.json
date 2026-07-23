@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:09:07.524922",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -20,13 +20,13 @@
     "Sudesh Bansal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Additional District & Sessions Judge, Bansur, District Alwar",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Deepika W/O Lokesh Pareek D/O ... vs Lokesh Pareek S/O Malaram Pareek on 10 December, 2021",
+  "case_name": "Smt. Deepika W/O Lokesh Pareek D/O ... vs Lokesh Pareek S/O Malaram Pareek",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Deepika W/O Lokesh Pareek D/O ... (wife)",
+    "respondent_defendant": "Lokesh Pareek S/O Malaram Pareek (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties entered into marriage on 19.02.2011. Respondent-husband filed application under Section 9 of Hindu Marriage Act, 1955. Applicant-wife seeks transfer to Family Court, Jhunjhunu.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Transfer of application for restitution of conjugal rights should be to the place where the wife is residing at least at the time of presentation of the application.",
+      "held": "Looking to the nature of application filed by the respondent-husband particularly for restitution of conjugal rights, this Court is of opinion that the same may be transferred at the place where wife is residing at least at the time of presentation of this application.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conjugal rights",
+        "residency",
+        "transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Family Court has jurisdiction to entertain an application for restitution of conjugal rights.",
+      "held": "Moreover, the Family Court, Jhunjhunu is also having jurisdiction to entertain",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 9"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Family Court",
+        "jurisdiction",
+        "conjugal rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Application transferred to Family Court, Jhunjhunu.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Section 24 CPC",
+    "Section 9 Hindu Marriage Act",
+    "Family Court",
+    "Jhunjhunu",
+    "Alwar",
+    "Bansur",
+    "marriage",
+    "DV",
+    "domestic violence",
+    "transfer application",
+    "CPC",
+    "Hindu law",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "preparing transfer applications"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:09:19.316309"
 }

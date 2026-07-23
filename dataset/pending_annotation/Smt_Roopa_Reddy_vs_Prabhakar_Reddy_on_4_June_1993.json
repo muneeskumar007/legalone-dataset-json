@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:11:15.942800",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Bangalore, M.C. No. 1019 of 1987",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Roopa Reddy vs Prabhakar Reddy on 4 June, 1993",
+  "case_name": "Smt. Roopa Reddy vs Prabhakar Reddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Roopa Reddy (wife)",
+    "respondent_defendant": "Prabhakar Reddy (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1974 and had two sons. The wife left the husband's company in 1983 due to ill-treatment and cruelty. She filed a petition for divorce in 1987, which was rejected by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The object of introducing S. 13B is to avoid prolongation of separation and misery to the parties.",
+      "held": "The object of introducing, S. 13B is obviously to avoid prolongation of separation and misery to the parties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — S. 13B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "divorce by consent",
+        "separation",
+        "misery"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The relationship between wife and husband concerned was one of a sacrament before the Hindu Marriage (Amendment) Act, 1976.",
+      "held": "Before the Hindu Marriage (Amendment) Act, 1976, the relationship between wife and husband concerned was one of a sacrament.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — S. 13B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "sacrament",
+        "amendment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the decree of divorce is granted to the wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "S.13(1)(1-a)",
+    "S.13(1)(1-b)",
+    "divorce",
+    "marriage",
+    "custody",
+    "library science",
+    "B.Lib. Science",
+    "Thirupathi",
+    "Wardha",
+    "Maharashtra",
+    "Bangalore",
+    "Karnataka"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu marriage laws",
+    "assisting in family court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:23:38.511003"
 }

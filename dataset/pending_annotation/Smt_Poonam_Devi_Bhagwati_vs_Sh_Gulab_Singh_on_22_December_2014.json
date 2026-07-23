@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:10:45.667238",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "succession",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Poonam Devi @ Bhagwati vs Sh. Gulab Singh on 22 December, 2014",
+  "case_name": "Smt. Poonam Devi @ Bhagwati vs Sh. Gulab Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Poonam Devi @ Bhagwati, Vikram Singh (minor through his mother)",
+    "respondent_defendant": "Sh. Gulab Singh, The State",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner Smt. Poonam Devi @ Bhagwati filed a succession petition for grant of Succession Certificate in her favour and on behalf of Vikram Singh, being his mother. Respondent Sh. Gulab Singh claimed to be the son of the deceased Lachhman Dass and the only legal heir.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A divorce once granted is final and binding.",
+      "held": "Vide order dated 31.01.1987, divorce was granted in favour of Sh. Lachhman Dass.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "binding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's marital status is determined by the law of the land.",
+      "held": "At the time of her alleged marriage, Sh. Lachhman Dass was already married with Smt. Kashmiri, who was alive at that time.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marital status",
+        "law of the land"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted the Succession Certificate in favour of the petitioners.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "succession petition",
+    "grant of Succession Certificate",
+    "debts and securities",
+    "natural guardian",
+    "next friend",
+    "minor",
+    "petitioners",
+    "respondents",
+    "date of institution",
+    "date of order when reserved",
+    "date of order when announced",
+    "judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "understanding Hindu Marriage Act provisions",
+    "preparing a succession certificate application"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:41:40.194884"
 }

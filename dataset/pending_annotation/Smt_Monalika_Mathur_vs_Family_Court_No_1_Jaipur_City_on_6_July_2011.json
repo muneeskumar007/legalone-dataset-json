@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:10:16.328557",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "property_dispute": 1,
@@ -19,13 +19,13 @@
     "Narendra Kumar Jain J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No. 1, Jaipur City, Jaipur (Divorce Petition No. 450/2010)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Monalika Mathur vs Family Court No-1 Jaipur City on 6 July, 2011",
+  "case_name": "Smt Monalika Mathur vs Family Court No-1 Jaipur City",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Monalika Mathur",
+    "respondent_defendant": "Family Court, No. 1, Jaipur City, Jaipur & Another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant has instituted two petitions under the Hindu Marriage Act against Respondent No. 2; a divorce petition has been instituted by Respondent No. 2 at Jaipur.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Since there is no dispute between the parties, it will be appropriate that present case, relating to matrimonial dispute, pending at Jaipur between the parties",
+      "held": "Since there is no dispute between the parties that two cases, first under Section 9 and another under Section 24 of the Hindu Marriage Act, are pending between the parties in the Family Court at Ajmer, therefore, it will be appropriate that present case, relating to matrimonial dispute, pending at Jaipur between the parties",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9",
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial dispute",
+        "Family Court",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "It will be appropriate that all the cases may be consolidated and dispose off simultaneously",
+      "held": "He submitted that since Respondent No. 2 is already attending two cases at Ajmer, therefore, it will be appropriate that the case pending in Family Court No. 1, Jaipur City, Jaipur may also be transferred to Family Court at Ajmer, so all the cases may be consolidated and dispose off simultaneously",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 9",
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consolidation",
+        "simultaneous disposal"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family disputes",
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Divorce Petition No. 450/2010 is transferred to Family Court at Ajmer.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 9",
+    "Section 24",
+    "Family Court",
+    "transfer application",
+    "consolidation",
+    "simultaneous disposal",
+    "petition",
+    "respondent",
+    "applicant",
+    "Jaipur",
+    "Ajmer",
+    "Rajasthan",
+    "High Court",
+    "judicial transfer"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "requesting judicial transfer of a case",
+    "consolidating multiple cases in a single court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:14:23.216453"
 }

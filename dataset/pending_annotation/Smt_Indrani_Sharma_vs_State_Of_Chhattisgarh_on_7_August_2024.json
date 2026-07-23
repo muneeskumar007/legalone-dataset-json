@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:09:24.662817",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "Mandavi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "learned Judicial Magistrate First Class, Raipur, Criminal Case No. 11222/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Indrani Sharma vs State Of Chhattisgarh on 7 August, 2024",
+  "case_name": "Smt. Indrani Sharma vs State Of Chhattisgarh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Indrani Sharma, Parmanand Sharma, Abhishek Sharma, Ojaswini Sharma",
+    "respondent_defendant": "State Of Chhattisgarh, Smt. Saumya Sharma",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -71,7 +71,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage dispute between Abhishek Sharma and Smt. Saumya Sharma. FIR lodged against petitioners for offence under Section 498-A/34 of IPC. Charge-sheet filed before trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -81,39 +81,94 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Criminal proceedings arising out of matrimonial disputes can be quashed by the Court if the matter has been settled between the parties amicably.",
+      "held": "The Hon'ble Supreme Court held that in an identical circumstance, this Court held that the High Court in exercise of its inherent powers under Section 482 can quash criminal proceedings in matrimonial disputes where the dispute is entirely private and the parties are willing to settle their disputes amicably.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B",
+        "Code of Criminal Procedure, 1973 — Section 482"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Jitendra Raghuvanshi and others vs. Babita Raghuwanshi and another, (2013) 4 SCC 58"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial disputes",
+        "amicable settlement",
+        "quashing of criminal proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family court cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — in cases where parties have settled their disputes amicably",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "If for the purpose of securing the ends of justice, quashing of FIR becomes necessary, Section 320 would not be a bar to the exercise of power of quashing.",
+      "held": "This Court held that if for the purpose of securing the ends of justice, quashing of FIR becomes necessary, Section 320 would not be a bar to the exercise of power of quashing.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 320"
+      ],
+      "cited_cases": [
+        "State of Haryana vs. Bhajan Lal, 1992 Supp (1) SCC 335",
+        "Pepsi Foods Ltd. & Anr. vs. Special Judicial Magistrate & Ors., (1998) 5 SCC 749"
+      ],
+      "keywords": [
+        "quashing of FIR",
+        "ends of justice",
+        "Section 320"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases",
+        "FIR quashing"
+      ],
+      "significance": "MEDIUM — in cases where the FIR is unnecessary for securing the ends of justice",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Criminal proceedings quashed in pursuance of compromise between parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Penal Code",
+    "1860",
+    "alimony",
+    "maintenance",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "matrimonial",
+    "property",
+    "partition",
+    "joint family",
+    "family law",
+    "marriage",
+    "spouse",
+    "wife",
+    "husband",
+    "children",
+    "custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:37:42.437442"
 }

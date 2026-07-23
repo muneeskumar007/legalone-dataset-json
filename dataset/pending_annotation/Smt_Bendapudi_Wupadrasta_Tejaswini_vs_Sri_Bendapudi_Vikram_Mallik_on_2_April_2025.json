@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:08:57.999997",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Bendapudi Wupadrasta Tejaswini vs Sri Bendapudi Vikram Mallik on 2 April, 2025",
+  "case_name": "Smt Bendapudi Wupadrasta Tejaswini vs Sri Bendapudi Vikram Mallik",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Bendapudi Wupadrasta Tejaswini (wife)",
+    "respondent_defendant": "Sri Bendapudi Vikram Mallik (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial disputes between the parties, wife residing separately at her parents' house, complaint under Section 85 of BNS and Dowry Prohibition Act pending for investigation, husband filed F.C.O.P.No.2335 of 2024 seeking nullity of marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,61 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to transfer a case to establish that it is necessary and justifiable.",
+      "held": "Considering the submissions made by the learned counsel for the petitioner and for the reasons mentioned in the accompanying affidavit, there shall be an inter",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 12"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "petition",
+        "case",
+        "justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Interim stay on all further proceedings in F.C.O.P.No.2335 of 2024 till 08.05.2025, petitioner permitted to take out personal notice to the respondent through Registered Post with Acknowledgment Due and file proof of service before the Registry.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial disputes",
+    "separate residence",
+    "dowry prohibition",
+    "maintenance case",
+    "nullity petition",
+    "Section 85 BNS",
+    "Section 4 Dowry Prohibition Act",
+    "Section 12 Hindu Marriage Act",
+    "Section 5(ii)(b) Hindu Marriage Act",
+    "Family Judge",
+    "Vizianagaram",
+    "Visakhapatnam",
+    "High Court of Andhra Pradesh",
+    "Amaravati"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to nullity petition",
+    "seeking maintenance order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:53:28.143337"
 }

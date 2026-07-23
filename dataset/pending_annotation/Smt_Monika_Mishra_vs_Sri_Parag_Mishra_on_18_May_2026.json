@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:10:19.156045",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -19,13 +19,13 @@
     "Should Be Subserved. J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Kanpur Nagar - Case No. 932 of 2023",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Monika Mishra vs Sri Parag Mishra on 18 May, 2026",
+  "case_name": "Smt. Monika Mishra vs Sri Parag Mishra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Monika Mishra (wife)",
+    "respondent_defendant": "Sri Parag Mishra (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage solemnized on 08.09.2014; harassment for dowry and sent back to father in 07.11.2022; pending cases at Auraiya; seeking transfer from Kanpur Nagar to Auraiya.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The convenience of the wife must be looked into in matrimonial cases.",
+      "held": "This Court has observed that in matrimonial cases, the convenience of the wife must be looked into;",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smt. Akansha Saxena v. Shikhar Saxena, (2026) 3 ADJ 104",
+        "Smt. Arju @ Vimal v. Umakant Parasar, (2026) 3 ADJ 66"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial cases",
+        "wife's convenience",
+        "Section 24 CPC"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "maintenance"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The ends of justice should be subserved in exercising power under Section 24 CPC.",
+      "held": "the cardinal principle for exercise of power under Section 24 CPC being that the ends of justice should be subserved;",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Section 24"
+      ],
+      "cited_cases": [
+        "Smt. Akansha Saxena v. Shikhar Saxena, (2026) 3 ADJ 104",
+        "Smt. Arju @ Vimal v. Umakant Parasar, (2026) 3 ADJ 66"
+      ],
+      "keywords": [
+        "ends of justice",
+        "Section 24 CPC"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce",
+        "maintenance"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Transfer of case allowed from Principal Judge, Family Court, Kanpur Nagar to Principal Judge, Family Court, Auraiya.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "transfer",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Family Court",
+    "Kanpur Nagar",
+    "Auraiya",
+    "Section 24",
+    "Section 13(1) A & B",
+    "Principal Judge",
+    "notice",
+    "stay",
+    "inconvenience",
+    "submissions",
+    "applicant",
+    "opposite party",
+    "wife",
+    "husband"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting transfer application in Family Court",
+    "advising on divorce proceedings in Kanpur Nagar",
+    "assisting with notice and stay orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:16:24.963721"
 }

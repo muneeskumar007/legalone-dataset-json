@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:36.739266",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "will_succession": 1
@@ -20,13 +20,13 @@
   "case_numbers": [
     "M.P.No.475/2023"
   ],
-  "trial_court": "",
+  "trial_court": "First District Judge, Multai, RCS HM No.17-A/2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Jyoti vs Devilal on 17 October, 2023",
+  "case_name": "Smt. Jyoti vs Devilal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Jyoti, wife",
+    "respondent_defendant": "Devilal, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent belong to scheduled tribe; application filed under Section 2(2) of Hindu Marriage Act rejected by trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The applicability of the Act is comprehensive and applicable to all persons domiciled in the territory of India who are not Muslims, Christians, Parsis or Jews by religion.",
+      "held": "Section 2 of the Act specifies the persons to whom the Act is applicable. Clauses (a), (b) and (c) of sub-section (1) of Section 2 make the Act applicable to a person who is a Hindu by religion in any of its forms or developments including a Virashaiva, a Lingayat or a follower of the Brahmo, Prarthana or Arya Samaj and to a person who is a Buddhist, Jain or Sikh by religion.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 2"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Surajmani Stella Kujur (Dr) v. Durga Charan Hansdah, (2001) 3 SCC 13"
+      ],
       "keywords": [
-        "TODO"
+        "comprehensive applicability",
+        "religion",
+        "territory of India"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Even if a notification is issued under the Constitution, the Act can be applied to Scheduled Tribes as well by a further notification in terms of sub-section (2) of Section 2 of the Act.",
+      "held": "It is not disputed before us that in the Constitution (Scheduled Tribes) Order, 1950 as amended by Scheduled Castes and Scheduled Tribes Order (Amendment) Acts 63 of 1956, 108 of 1976, 18 of 1987 and 15 of 1990, both the tribes to which the parties belong are specified.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 2"
+      ],
+      "cited_cases": [
+        "Surajmani Stella Kujur (Dr) v. Durga Charan Hansdah, (2001) 3 SCC 13"
+      ],
+      "keywords": [
+        "notification",
+        "Constitution",
+        "Scheduled Tribes"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases involving Scheduled Tribes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Application filed under Section 2(2) of Hindu Marriage Act allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 2 (2)",
+    "scheduled tribe",
+    "Indian Kanoon",
+    "Article 227",
+    "Constitution of India",
+    "First District Judge",
+    "Multai",
+    "District Betul",
+    "RCS HM No.17-A/2022",
+    "petition under Section 2 (2)",
+    "Hindu Marriage Act rejection",
+    "application filed by petitioner",
+    "Section 2 (2) of Hindu Marriage Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act application",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:48:45.805656"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:36.460536",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Hamirpur - Matrimonial Petition No. 193 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Jyoti Vishwakarma vs Pushpendra Pratap Singh Vishwakarma on 2 January, 2023",
+  "case_name": "Smt. Jyoti Vishwakarma vs Pushpendra Pratap Singh Vishwakarma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Jyoti Vishwakarma (wife)",
+    "respondent_defendant": "Pushpendra Pratap Singh Vishwakarma (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute between wife and husband; wife seeks transfer of petition from Principal Judge, Family Court, Hamirpur to Principal Judge, Family Court, Banda.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Convenience of the wife is a good ground to consider while granting a transfer in matrimonial causes.",
+      "held": "In this regard, reference may be made to the decision of the Supreme Court in Anjali Ashok Sadhwani v. Ashok Kishinchand Sadhwani, AIR 2009 SC 1374, where it has been held that in matrimonial causes, convenience of the wife is a good ground to consider while granting a transfer.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Anjali Ashok Sadhwani v. Ashok Kishinchand Sadhwani, AIR 2009 SC 1374",
+        "N.C.V. Aishwarya v. A.S. Saravana Karthik Sha, 2022 SCC OnLine SC 1199"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial causes",
+        "convenience of the wife",
+        "transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "wife",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In matrimonial matters, courts should consider the economic soundness of both parties, social strata of spouses and their behavioural pattern.",
+      "held": "In this connection, reference may be made further to the recent decision of the Supreme Court in N.C.V. Aishwarya v. A.S. Saravana Karthik Sha, 2022 SCC OnLine SC 1199, where on the issue in hand, it has been held :",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya v. A.S. Saravana Karthik Sha, 2022 SCC OnLine SC 1199"
+      ],
+      "keywords": [
+        "matrimonial matters",
+        "economic soundness",
+        "social strata",
+        "behavioural pattern"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "marriage-related cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Transfer of Matrimonial Petition No. 193 of 2021 from Principal Judge, Family Court, Hamirpur to Principal Judge, Family Court, Banda.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13(1)(ib)",
+    "Matrimonial Petition",
+    "Transfer Application",
+    "Family Court",
+    "Principal Judge",
+    "Divorce",
+    "Marriage",
+    "Custody",
+    "Maintenance",
+    "Alimony",
+    "Inter partes",
+    "Single Date",
+    "Convenience",
+    "Banda",
+    "Hamirpur"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting transfer application for divorce",
+    "advising on jurisdiction in family court matters",
+    "assisting with matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:47:44.982840"
 }

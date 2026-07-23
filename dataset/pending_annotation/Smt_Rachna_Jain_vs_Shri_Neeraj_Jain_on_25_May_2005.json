@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T11:10:58.268990",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Rachna Jain vs Shri Neeraj Jain on 25 May, 2005",
+  "case_name": "Smt. Rachna Jain vs Shri Neeraj Jain",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner/wife",
+    "respondent_defendant": "Respondent/husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the petitioner/wife and respondent/husband was solemnized on 12.3.1996. The wife was subjected to cruelty and humiliation by the husband, who demanded dowry and cash. The parties have been living separately since 7th Feb.2002.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party to a petition under Section 13B of the Hindu Marriage Act can unilaterally withdraw his/her consent before the passing of the decree.",
+      "held": "Although later on in the case of Ashok Hura v. Rupa Bipin Zeveri reported as I (1997) DMC 491 (SC) = AIR 1997 SC page 1266, the Hon'ble Supreme Court observed that the decision in the case of Sureshta Devi v. Om Prakash requires reconsideration because the observations made therein about the time limit for withdrawal of the consent is too wide and that question what left open",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13B"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Sureshta Devi v. Om Prakash (1991) DMC 313 (SC) = AIR 1992 SC 1904",
+        "Ashok Hura v. Rupa Bipin Zeveri reported as I (1997) DMC 491 (SC) = AIR 1997 SC page 1266"
+      ],
       "keywords": [
-        "TODO"
+        "consent",
+        "withdrawal",
+        "decree",
+        "Hindu Marriage Act",
+        "Section 13B"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The consent given in the first motion petition under Section 13(B)(1) of the Hindu Marriage Act is irrevocable and can be unilaterally withdrawn by either party before the passing of the decree.",
+      "held": "has been held by the Hon'ble Apex Court in the case of Sureshta Devi v. Om Prakash (supra)",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(B)(1)"
+      ],
+      "cited_cases": [
+        "Sureshta Devi v. Om Prakash (1991) DMC 313 (SC) = AIR 1992 SC 1904"
+      ],
+      "keywords": [
+        "consent",
+        "irrevocable",
+        "withdrawal",
+        "decree",
+        "Hindu Marriage Act",
+        "Section 13(B)(1)"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Additional District Judge has declined to grant divorce to the petitioner/wife by permitting the unilateral withdrawal of mutual consent by the respondent/husband.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Section 13B(2)",
+    "Article 227",
+    "Constitution of India",
+    "Code of Civil Procedure",
+    "Indian Penal Code",
+    "ex parte",
+    "decree",
+    "settlement",
+    "maintenance",
+    "remarriage",
+    "unilateral withdrawal",
+    "petition",
+    "judgment",
+    "Additional District Judge"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on settlement agreements",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:56:27.118141"
 }

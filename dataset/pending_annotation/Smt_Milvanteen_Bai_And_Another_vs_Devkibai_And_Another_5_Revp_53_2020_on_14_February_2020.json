@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:10:13.734173",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Milvanteen Bai And Another vs Devkibai And Another 5 Revp/53/2020 ... on 14 February, 2020",
+  "case_name": "Smt. Milvanteen Bai And Another vs Devkibai And Another 5 Revp/53/2020",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Milvanteen Bai, Wd/o Late Gwal & Smt. Ramkumari Bai, Wd/o Rameshawar Yadav",
+    "respondent_defendant": "Devkibai, W/o Konda & State of Chhattisgarh, By Collector, Raipur",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The suit property was held by one Gwal Yadav. Plaintiff No.1 claims to be his first wife married in chudi form and plaintiff No.2 claims to be daughter out of the wedlock of Gwal with plaintiff No.1, whereas defendant No.1 claims that he is adopted daughter of Gwal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Children born to a married woman from an illicit relationship are not entitled to the benefit under Section 16 of the Hindu Succession Act, 1956.",
+      "held": "Gulab C. Gupta, J. speaking for the Madhya Pradesh High Court has clearly held that children born to married woman from illicit relationship are not entitled to the benefit under Section 16 of the Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956 — Section 16"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Reshamlal Baswan vs. Balwant Singh Jwalasingh Punjabi and Others (1)"
+      ],
       "keywords": [
-        "TODO"
+        "illicit relationship",
+        "married woman",
+        "benefit under Section 16"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "inheritance disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — applies to cases involving illegitimate children",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage must be solemnised for the benefit under Section 16 of the Hindu Succession Act, 1956 to apply.",
+      "held": "This provision has been interpreted to mean that there must be a marriage, which would be hit by the provisions of this Act and would not cover a relationship resulting from any other arrangement than the marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 5",
+        "Hindu Succession Act, 1956 — Section 16"
+      ],
+      "cited_cases": [
+        "M. Muthayya v. Kamu and Ors., AIR 1981 NOC 172"
+      ],
+      "keywords": [
+        "solemnisation of marriage",
+        "benefit under Section 16"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "inheritance disputes"
+      ],
+      "significance": "HIGH — applies to cases involving the application of Section 16",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal admitted for determination of substantial questions of law",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 100 CPC",
+    "second appeal",
+    "substantial questions of law",
+    "CPC",
+    "Indian Kanoon",
+    "judgment reserved",
+    "judgment delivered",
+    "High Court Chhattisgarh",
+    "Bilaspur",
+    "family court",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "property division",
+    "alimony",
+    "maintenance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing second appeal under CPC",
+    "advising on property division in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:10:19.440530"
 }

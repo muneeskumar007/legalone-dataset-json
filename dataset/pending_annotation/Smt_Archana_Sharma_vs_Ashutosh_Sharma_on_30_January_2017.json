@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:08:51.162090",
   "domain": "maintenance",
-  "sub_domain": "",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "maintenance": 1
   },
@@ -18,17 +18,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Archana Sharma vs Ashutosh Sharma on 30 January, 2017",
+  "case_name": "Smt. Archana Sharma vs Ashutosh Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Archana Sharma (wife)",
+    "respondent_defendant": "Ashutosh Sharma (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant wife seeks stay to prevent respondent husband from marrying again.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -38,39 +38,60 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The provision of Sec 15 of Hindu Marriage Act comes in the way of the respondent husband to marry again.",
+      "held": "There is no need to issue stay in the matter as the present appeal has been filed with the prescribed period of limitation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Sec 15"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "stay",
+        "appeal",
+        "limitation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal admitted",
+    "final_order": "No specific order mentioned",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "maintenance",
+    "Hindu Marriage Act",
+    "Sec 15",
+    "marriage again",
+    "stay",
+    "appeal",
+    "limitation period",
+    "judgment and decree",
+    "Indian Kanoon",
+    "family court",
+    "divorce",
+    "matrimonial dispute",
+    "wife's rights",
+    "husband's rights",
+    "marital property",
+    "separation",
+    "custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for maintenance",
+    "advising on divorce proceedings",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:41:26.314255"
 }

@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:09:29.307937",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. I. vs Shri B. on 1 March, 1994",
+  "case_name": "Smt. I. vs Shri B.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Indu Bharat Arora (wife)",
+    "respondent_defendant": "Bharat Yashodanandan Arora (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Two women, Indu and Reeta, were married to Bharat at different times. Ex-parte decree of divorce was passed, but later set aside. Bharat and Indu reconciled and are living together.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party aggrieved by an ex-parte decree has two concurrent remedies in law.",
+      "held": "A party aggrieved by such decree may also make an application for setting aside the ex-parte decree to the Court which passed the decree or to the transferee Court in case the jurisdiction of the Court which passed the decree originally is transferred to some other Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "ex-parte decree",
+        "remedies",
+        "setting aside"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The fact that the party to the original marriage has re-married is not decisive for determination of the proceedings adopted by the spouse against whom ex-parte decree of divorce was passed.",
+      "held": "The fact that the party to the original marriage has re-married is not decisive for determination of the proceedings adopted by the spouse against whom ex-parte decree of divorce was passed.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "re-marriage",
+        "decisive",
+        "proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage of Bharat with Reeta is alleged to be in contravention of section 15 of Hindu Marriage Act, 1955.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "ex-parte decree",
+    "section 15",
+    "marital status",
+    "educated women",
+    "expedited divorce",
+    "contravention of law",
+    "reconciliation",
+    "joint living",
+    "interest in divorce",
+    "Latin maxim: Nemo judex in causa sua",
+    "Code of Civil Procedure",
+    "Limitation Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on expedited divorce procedures",
+    "representing clients in joint living situations"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:36:36.859595"
 }

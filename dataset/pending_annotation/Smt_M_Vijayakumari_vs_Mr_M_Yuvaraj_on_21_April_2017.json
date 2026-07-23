@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:10:23.051026",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -24,13 +24,13 @@
     "M.C.No.6/2017",
     "M.C.No.7/2017"
   ],
-  "trial_court": "",
+  "trial_court": "VI Additional Principal Judge, Family Court, Bengaluru (M.C.No.5177/2016)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. M. Vijayakumari vs Mr. M. Yuvaraj on 21 April, 2017",
+  "case_name": "Smt. M. Vijayakumari vs Mr. M. Yuvaraj",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. M. Vijayakumari, wife",
+    "respondent_defendant": "Mr. M. Yuvaraj, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are married and residing separately due to disputes. The respondent filed a petition for dissolution of marriage under Section 13(1) (ia) of the Hindu Marriage Act, 1955. The petitioner has filed petitions seeking restitution of conjugal rights and maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "One Court should entertain all petitions related to a marriage.",
+      "held": "Considering the fact that the petitions are filed under Sections 13 and 9 of the Hindu Marriage Act, 1955, there cannot be conflicting judgments and the petition in any event will have to be considered in one Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13",
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "petition",
+        "conflicting judgments"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Jurisdiction of a Court is determined by the place where the marriage took place.",
+      "held": "From the petition averments, it is seen that the marriage of the parties had taken place at Sri Balaji Prarthana Mandhira, Kolar. Therefore, the Court at Kolar in any event would have the jurisdiction to entertain the petition.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "jurisdiction",
+        "marriage location"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition in M.C.No.5177/2016 was withdrawn from the file of the VI Additional Principal Judge, Family Court, Bengaluru and transferred to the learned Family Judge at Kolar.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24",
+    "CPC",
+    "withdrawal of case",
+    "transfer of case",
+    "Family Court",
+    "Kolar",
+    "Bengaluru",
+    "marital disputes",
+    "petition for divorce",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for withdrawal and transfer of a divorce case",
+    "advising on the procedure for filing a petition under Section 24 CPC",
+    "assisting in preparing a response to a petition seeking withdrawal and transfer"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:23:32.838685"
 }

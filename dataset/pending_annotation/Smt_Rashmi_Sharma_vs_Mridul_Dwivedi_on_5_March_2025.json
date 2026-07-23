@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:04.069207",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "custody": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Rashmi Sharma vs Mridul Dwivedi on 5 March, 2025",
+  "case_name": "Smt. Rashmi Sharma vs Mridul Dwivedi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Rashmi Sharma (wife)",
+    "respondent_defendant": "Mridul Dwivedi (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties jointly filed a petition under Section 13B(1) of the Hindu Marriage Act, 1955 on 19.12.2024. They moved an application to waive off the cooling off period and prayed for expeditious disposal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,106 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Language alone is not always decisive in determining whether a provision is mandatory or directory.",
+      "held": "The court has to have regard to the context, the subject-matter and the object of the provision.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [
+        "Kailash v. Nanhku, (2005) 4 SCC 480"
+      ],
+      "keywords": [
+        "statutory interpretation",
+        "mandatory or directory",
+        "context",
+        "subject-matter",
+        "object"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court may consider various factors to ascertain the real intention of the legislature, including the nature and design of the statute, consequences that would follow from construing it one way or another, etc.",
+      "held": "Points out Subbarao, J. — the court may consider inter alia, the nature and design of the statute, and the consequences which would follow from construing it the one way or the other;",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [
+        "Kailash v. Nanhku, (2005) 4 SCC 480"
+      ],
+      "keywords": [
+        "statutory interpretation",
+        "real intention of legislature",
+        "consequences"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Where the court dealing with a matter is satisfied that a case is made out to waive the statutory period, it can do so after considering certain factors.",
+      "held": "Applying the above to the present situation, we are of the view that where the court dealing with a matter is satisfied that a case is made out to waive the statutory period under Section 13-B(2), it can do so after considering the following:",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "statutory waiver",
+        "case made out",
+        "factors to consider"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal filed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13B(1)",
+    "cooling off period",
+    "amicable dissolution",
+    "marriage annulment",
+    "joint petition",
+    "waiving off",
+    "expeditious decision",
+    "Amardeep Singh Vs. Harveen Kaur",
+    "Indian Kanoon",
+    "family law",
+    "matrimonial disputes",
+    "judicial separation",
+    "nullity of marriage",
+    "voidable marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on cooling off periods",
+    "representing clients in joint petitions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:06:38.206042"
 }

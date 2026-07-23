@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:08:55.232320",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3
   },
@@ -15,13 +15,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No. 7, Lucknow (Case No. 746 of 2026)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Baby @ Bebi vs Abhay Gupta on 13 April, 2026",
+  "case_name": "Smt. Baby @ Bebi vs Abhay Gupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Baby @ Bebi (wife)",
+    "respondent_defendant": "Abhay Gupta (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent filed a petition under Section 13-B of the Hindu Marriage Act, 1955. The trial court fixed the matter for mediation and directed the parties to appear on 22.04.2026. The petitioner moved an application seeking waiver of the cooling period.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking waiver of cooling period to establish justifiable grounds.",
+      "held": "The contention that one of the parties had already resolved to re-marry fixing 15.04.2026 as the date of marriage without seeking divorce, in itself is not a valid ground and it cannot also give rise to any justifiable ground for waiving of the cooling of period.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [
+        "Amardeep Singh v. Harveen Kaur; (2017) (8) SCC 746"
+      ],
+      "keywords": [
+        "waiver",
+        "cooling period",
+        "justifiable grounds",
+        "re-marry",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not waive the cooling period unless there are justifiable grounds.",
+      "held": "There was no urgency in the matter and since the mediation was already fixed on 22.04.2026, hence, there was no justifiable ground to waive of the cooling period.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "waive",
+        "cooling period",
+        "justifiable grounds",
+        "urgency",
+        "mediation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The High Court directed the Additional Principal Judge, Family Court No. 7, Lucknow to expedite the hearing of the petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "Family Courts Act",
+    "mediation",
+    "petition",
+    "marriage",
+    "separation",
+    "expediting hearing",
+    "Additional Principal Judge",
+    "Family Court No.7",
+    "Lucknow",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on mediation options",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:48:36.582805"
 }

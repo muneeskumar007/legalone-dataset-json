@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:51.121653",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -26,13 +26,13 @@
     "M.C.No.48/2021",
     "sc.No.217/2022"
   ],
-  "trial_court": "",
+  "trial_court": "Court of the Senior Civil Judge and JMFC at Kalaghatagi, M.C.No.14/2023",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Komal Hotkar vs Sri Kirankumar Sherkhane on 17 August, 2023",
+  "case_name": "Smt Komal Hotkar vs Sri Kirankumar Sherkhane",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Komal Hotkar, wife",
+    "respondent_defendant": "Sri Kirankumar Sherkhane, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner/wife seeks transfer of proceedings in M.C.No.14/2023 from Senior Civil Judge and JMFC at Kalaghatagi to Principal Judge, Family Court at Bengaluru.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife's inability to travel for court proceedings may be a ground for transfer.",
+      "held": "It would be difficult for the petitioner/wife to travel from Bengaluru to Kalaghatagi to participate in the proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "wife",
+        "travel",
+        "court proceedings",
+        "transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family court matters"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A wife's dependence on her parents for livelihood may be a factor in considering transfer of proceedings.",
+      "held": "She is residing with her parents and depending upon her parents for her livelihood.",
+      "applicable_acts_sections": [
+        "CPC — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "wife",
+        "dependence",
+        "livelihood",
+        "transfer"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "family court matters"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition is allowed and the proceedings are transferred to the Principal Judge, Family Court at Bengaluru.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Section 24(1) CPC",
+    "transfer proceedings",
+    "family court",
+    "justice",
+    "Kalghatgi",
+    "Bangalore",
+    "Karnataka High Court",
+    "civil petition",
+    "petitioner",
+    "respondent",
+    "learned counsel",
+    "advocate",
+    "court order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on transfer of proceedings",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:06:37.171273"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:08:50.024900",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3
   },
@@ -18,10 +18,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Anokh W/O Shri Jai Prakash D/O Shri ... vs Jai Prakash S/O Shri Ramniwas on 3 December, 2020",
+  "case_name": "Smt. Anokh W/O Shri Jai Prakash D/O Shri ... vs Jai Prakash S/O Shri Ramniwas",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Anokh W/o Shri Jai Prakash D/o Shri Rameshwarlal, Aged About 42 Years",
+    "respondent_defendant": "Jai Prakash S/o Shri Ramniwas, Aged About 43 Years",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Respondent has filed the petition under Section 13 of the Hindu Marriage Act, 1955 against the applicant seeking a decree of divorce. Applicant moved an application under Order 7 Rule 11 of Code of Civil Procedure, 1908 for rejection of the divorce petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "An application seeking condonation of delay in filing an appeal is liable to be decided by adopting a liberal approach.",
+      "held": "However, in the present case, we are conscious of the fact that an application seeking condonation of delay in filing an appeal is liable to be decided by adopting a liberal approach.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "condonation",
+        "delay",
+        "appeal"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "No cogent explanation has been given for condonation of delay in filing an appeal.",
+      "held": "A perusal of the application seeking condonation of delay in filing the appeal reveals that no cogent explanation has been given for condonation of delay in filing the appeal.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "cogent",
+        "explanation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Application under Section 5 of the Limitation Act is dismissed. Consequently, appeal is dismissed being time barred.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Limitation Act",
+    "Order 7 Rule 11",
+    "Section 5",
+    "Section 13",
+    "Code of Civil Procedure",
+    "1908",
+    "Rajasthan",
+    "High Court",
+    "Jaipur",
+    "Sabina",
+    "Chandra Kumar Songara",
+    "Civil Miscellaneous Appeal",
+    "D.B. Civil Misc. Application",
+    "Uniyara",
+    "Tonk",
+    "Vijaypura",
+    "Rundiya",
+    "Thikariya",
+    "Sureli"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions in Rajasthan",
+    "appealing trial court orders in Jaipur",
+    "filing applications under Limitation Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:37:44.788214"
 }

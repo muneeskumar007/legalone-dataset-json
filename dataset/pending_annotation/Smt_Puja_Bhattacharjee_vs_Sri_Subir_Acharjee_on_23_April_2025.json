@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:10:52.741586",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -19,13 +19,13 @@
     "Mr. Aparesh Kumar Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Puja Bhattacharjee vs Sri Subir Acharjee on 23 April, 2025",
+  "case_name": "Smt. Puja Bhattacharjee vs Sri Subir Acharjee",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner-wife, Smt. Puja Bhattacharjee",
+    "respondent_defendant": "Respondent-husband, Sri Subir Acharjee",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner-wife has approached this Court against the impugned order granting visitation rights to the respondent-husband for taking safe custody and fatherly interactions of their two minor children. The learned Family Court has prescribed seven conditions for ensuring that the visitation rights are effectively exercised.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Arrangements of custody of minor children are always interim in nature.",
+      "held": "The impugned order has only conferred visitation rights on two school closure days in a month from morning till 07:00 pm and in no case later than 09:00 pm.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 26"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "custody",
+        "visitation rights",
+        "minor children"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The timing of the return has also been indicated.",
+      "held": "The mode for fixing the dates on which such visitation rights is to be exercised either by phone or by 'WhatsApp chat' on the mobile phone and email IDs exchanged between the parties is also proper.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 26"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "visitation rights",
+        "communication"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The approach of the learned Family Court cannot be faulted as the children would be free only on the days when their school is closed for going to their father's home.",
+      "held": "The timing of the return has also been indicated.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 26"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "visitation rights",
+        "minor children",
+        "school closure days"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order was set aside, and the matter was remanded to the trial court for fresh consideration.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "custody",
+    "visitation rights",
+    "Hindu Marriage Act",
+    "Section 26",
+    "minor children",
+    "school closure days",
+    "morning hours",
+    "safe custody",
+    "fatherly interactions",
+    "grandparents",
+    "relatives",
+    "normal activities",
+    "Family Court",
+    "petitioner's house",
+    "respondent's house",
+    "Indian law",
+    "judicial discretion"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting visitation rights applications",
+    "advising on child custody disputes",
+    "preparing for Family Court hearings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:53:27.503423"
 }

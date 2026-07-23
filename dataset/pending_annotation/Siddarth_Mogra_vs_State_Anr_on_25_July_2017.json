@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:08:22.777728",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "Pushpendra Singh Bhati J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Chief Judicial Magistrate No.2, Udaipur, Regular Criminal Case No.89/2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Siddarth Mogra vs State & Anr on 25 July, 2017",
+  "case_name": "Siddarth Mogra vs State & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Siddarth Mogra, husband",
+    "respondent_defendant": "State of Rajasthan and Ms. Reecha Mogra, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent were married on 13.02.2005. FIR was registered on 25.08.2010. Disputes were resolved by an agreement dated 12.04.2012.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party who obtains relief without contest cannot later challenge the same on grounds of coercion or threat.",
+      "held": "We find it extremely difficult to accept this argument in the background of the fact that pursuant to the compromise deed the respondent-husband has given her a consent divorce which she wanted thus had performed his part of the obligation under the compromise deed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "coercion",
+        "threat",
+        "relief"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's partial performance of their obligations under a compromise deed can be considered as fulfilling the terms of the agreement.",
+      "held": "Even the appellant partially performed her part of the obligations by withdrawing her criminal complaint filed under Section 125.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compromise",
+        "performance",
+        "obligations"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings pertaining to Regular Criminal Case No.89/2011 pending trial before the learned Additional Chief Judicial Magistrate No.2, Udaipur were quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498A IPC",
+    "406 IPC",
+    "quashing of proceedings",
+    "Section 482 Cr.P.C.",
+    "Regular Criminal Case No.89/2011",
+    "FIR No.79/2010",
+    "Mahila Thana",
+    "Udaipur",
+    "permanent alimony",
+    "alimony payment",
+    "marriage settlement",
+    "agreement dated 12.04.2012",
+    "Section 25 HMA",
+    "residual rights of wife"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce settlements",
+    "quashing criminal proceedings in domestic violence cases",
+    "negotiating alimony payments"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:14:31.247094"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:10:50.562803",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Premlata & Ors. vs Sonu on 14 September, 2016",
+  "case_name": "Smt. Premlata & Ors. vs Sonu",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Premlata & Ors.",
+    "respondent_defendant": "Sonu",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Sonu and his wife Premlata are aggrieved by the order dated February 20, 2014 disposing of application filed by Premlata under Section 24 of the Hindu Marriage Act, 1955. From out of the wedlock a daughter currently aged 9 years and a son currently aged 7 years were born.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,99 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse unable to maintain himself/herself is entitled to maintenance on the principle of equi-status and respect that the spouse would have enjoyed if he/she continued to live with other spouse.",
+      "held": "The object behind Section 24 of the Hindu Marriage Act, 1955 is to provide for maintenance, pendente-lite, to a spouse in matrimonial proceedings so that during the pendency of the proceedings the spouse can maintain herself/himself and also have sufficient funds to carry on the litigation so that the spouse does not unduly suffer in the conduct of the case for want of funds.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "pendente-lite",
+        "equi-status"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court while considering the merits of an application for grant of an interim maintenance under Section 24 has to necessarily arrive at prima-facie determination about the earning capacity of the rival claimants.",
+      "held": "The Court is called upon to make a summary consideration of amount which the applicant is to be awarded by way of maintenance pendente-lite and litigation expenses in accordance with the financial resources of the parties.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "earning capacity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Where there was sufficient means in the family of the husband on the strength of which the husband got married he has to share the burden to support his wife during the course of annulment of such marriage.",
+      "held": "Where the parties do not come forward with exact income they have, the Court would have no alternative but to apply its guess-work.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "140 (2007) DLT 16 Sh.Bharat Hegde Vs. Smt.Saroj Hegde"
+      ],
+      "keywords": [
+        "maintenance",
+        "support"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Premlata has been awarded maintenance in sum of `18,000/- per month from the date of the application filed by Premlata.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Section 24",
+    "family court",
+    "income tax returns",
+    "private business",
+    "gross receipts",
+    "housewife",
+    "no income",
+    "children's maintenance",
+    "matrimonial dispute",
+    "judgment and decree",
+    "residence order",
+    "custody of children",
+    "alimony",
+    "property settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "seeking maintenance for spouse",
+    "obtaining custody of child",
+    "settling property disputes in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:48:09.888547"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:09:56.043221",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 3,
@@ -27,13 +27,13 @@
     "M.C.NO543/2010",
     "M.C.No.543/2010"
   ],
-  "trial_court": "",
+  "trial_court": "III Addl. Prl. Judge, Family Court, Bengaluru, M.C.No.543/2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.K.P.Maithri vs R.B.Murali on 11 January, 2023",
+  "case_name": "Smt.K.P.Maithri vs R.B.Murali",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. K.P. Maithri, wife",
+    "respondent_defendant": "R.B. Murali, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2007 and have a son born in 2009. The respondent alleged the petitioner was unhappy with the marriage and picked quarrels for silly reasons. The petitioner left the matrimonial home voluntarily on 20.02.2007 and started living with her parents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking a decree of divorce to prove that the other party has neglected them.",
+      "held": "Under the circumstances, as rightly contended by the learned Counsel for the appellant, the question of asking the parties to this appeal to stay together and lead a married life would not arise",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "neglect",
+        "divorce",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking a decree of divorce must prove that the other party has neglected them.",
+      "held": "The respondent had approached the Family Court seeking a decree of divorce under Section 13(1)(ia) & (ib) of the Act",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "neglect",
+        "divorce",
+        "proof"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal filed",
+    "final_order": "The appeal is filed against the judgment and decree dated 07.04.2015 passed by the trial court, allowing the petition filed under Section 13(1)(ia) & (ib) of the Hindu Marriage Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "Section 19(1)",
+    "Family Courts Act",
+    "M.C.No.543/2010",
+    "III Addl. Prl. Judge",
+    "Bengaluru",
+    "Family Court",
+    "Bangalore",
+    "Karnataka High Court",
+    "MFAN",
+    "FCA",
+    "HMA",
+    "Section 28",
+    "Section 1",
+    "Latin Maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions under Hindu Marriage Act",
+    "appealing family court judgments to Karnataka High Court",
+    "advising clients on Section 19(1) of Family Courts Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:50:31.610514"
 }

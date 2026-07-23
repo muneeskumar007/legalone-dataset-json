@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:11:18.524560",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "partition": 2,
@@ -25,13 +25,13 @@
   "case_numbers": [
     "R.A.NO.16/2007"
   ],
-  "trial_court": "",
+  "trial_court": "PRL. CIVIL JUDGE (SR.DN.), BAILHONGAL in R.A.NO.16/2007",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Sangawa W/O Mallikarjun Tigadi vs Smt Savitri on 6 January, 2023",
+  "case_name": "Smt Sangawa W/O Mallikarjun Tigadi vs Smt Savitri",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Sangawa W/O Mallikarjun Tigadi (wife)",
+    "respondent_defendant": "Smt Savitri (wife) and The Life Insurance Corporation of India (R2)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff pleaded that she is the legally wedded wife of Sri.Mallikarjun Basavanneppa Tigadi, who deserted her after putting pressure on her to get more gold and silver from her parents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnized in violation of the requirement as to age laid down in Clause (iii) of Section 5 of the Hindu Marriage Act, 1955 is not void or even voidable.",
+      "held": "The first argument, in this case, centered around the marriage of the plaintiff with Mallikarjun Basavennappa Tigadi is not void as concluded by the First Appellate Court",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "age requirement",
+        "voidable",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking to establish that a marriage is null and void.",
+      "held": "The appeal of the plaintiff is pressed upon distinct grounds. Even though the appeal is argued on a wider canvas, the short and narrow question which would go to the root of the matter is; whether a marriage solemnized in violation of the requirement as to age laid down in Clause (iii) of Section 5 of the H.M Act is void.",
+      "applicable_acts_sections": [
+        "Civil Procedure Code — Section 100"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "establish",
+        "null and void",
+        "marriage"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "appeals",
+        "family law disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Court set aside the judgment and decree dated 09.06.2008 passed by the PRL. CIVIL JUDGE (SR.DN.), BAILHONGAL.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "joint family",
+    "matrimonial home",
+    "maintenance",
+    "alimony",
+    "custody",
+    "minor child",
+    "family court",
+    "regular second appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "appealing family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:27:11.960636"
 }

@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T11:09:00.694352",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Bharati W/O Suryanarayana vs Dr Suryanarayana S Kattimani on 18 October, 2011",
+  "case_name": "Smt Bharati W/O Suryanarayana vs Dr Suryanarayana S Kattimani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Bharati, wife",
+    "respondent_defendant": "Dr Suryanarayana S Kattimani, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1983. The appellant-wife led a happy life for 15 days before moving to the respondent-husband's house at Gulbarga. She stayed there for some time but then stopped showing love and affection, leading the respondent-husband to take his wife and children away.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Burden lies on the party seeking divorce to establish that efforts at reconciliation have failed.",
+      "held": "The burden lies on the party seeking divorce to establish that efforts at reconciliation have failed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "reconciliation",
+        "divorce",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking divorce must show that they have made efforts to reconcile and that such efforts have failed.",
+      "held": "The learned trial Judge proceeded to grant a decree of divorce on the ground that inspite of the Intervention and efforts of the Court to reconcile the differences, she did not show any inclination to settle the matter amicably.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "reconciliation",
+        "divorce",
+        "amicable settlement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The judgment of the trial court was set aside. The appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Section 28(1)",
+    "divorce",
+    "marriage",
+    "wife",
+    "husband",
+    "appellant",
+    "respondent",
+    "judgment",
+    "set aside",
+    "appeal",
+    "family court",
+    "Indian Kanoon",
+    "Latin maxim",
+    "nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "advising on Hindu Marriage Act",
+    "assisting with family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:55:12.918194"
 }

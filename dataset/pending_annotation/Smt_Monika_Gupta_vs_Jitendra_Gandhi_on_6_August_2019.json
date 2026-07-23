@@ -7,7 +7,7 @@
   "total_pages": 18,
   "extracted_at": "2026-07-15T11:10:18.998021",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 11,
     "partition": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Jhansi (Case No.205 of 2011 and Case No.94 of 2011)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Monika Gupta vs Jitendra Gandhi on 6 August, 2019",
+  "case_name": "Smt. Monika Gupta vs Jitendra Gandhi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Monika Gupta (wife)",
+    "respondent_defendant": "Jitendra Gandhi (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant filed cases under Section 13 of the Hindu Marriage Act for annulling marriage on grounds of constant demand for dowry by in-laws and not being treated well. Respondent filed case under Section 9 of the Hindu Marriage Act for restitution of conjugal rights.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Mental cruelty can be defined as conduct which inflicts mental pain and suffering that makes it not possible for the parties to live together.",
+      "held": "Mental cruelty must be of such a nature that the parties cannot reasonably be expected to live together. The situation must be such that the wronged party cannot reasonably be asked to put up with such conduct and continue to live with the other party.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "V. Bhagat Vs. D. Bhagat, (1994) 1 SCC 337",
+        "Sm. Pancho v. Ram Prasad"
+      ],
       "keywords": [
-        "TODO"
+        "mental cruelty",
+        "living together",
+        "reasonable expectation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Cruelty can be established without physical violence.",
+      "held": "Continuous ill-treatment, cessation of marital intercourse, studied neglect, indifference on the part of the husband, and an assertion on the part of the husband that the wife is unchaste are all factors which may undermine the health of a wife.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Sirajmohmedkhan Janmohamadkhan Vs. Hafizunnisa Yasinkhan and another, (1981) 4 SCC 250"
+      ],
+      "keywords": [
+        "cruelty",
+        "physical violence",
+        "ill-treatment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's order was set aside, and the marriage was annulled.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Section 9",
+    "annulling marriage",
+    "Family Court",
+    "Jhansi",
+    "Principal Judge",
+    "Indian Kanoon",
+    "Rohit Ranjan Agarwal",
+    "Pradeep Kumar Singh Baghel",
+    "Monika Gupta",
+    "Jitendra Gandhi",
+    "marriage annulment",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "representing client in Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:15:22.231989"
 }

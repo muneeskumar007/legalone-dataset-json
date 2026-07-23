@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:09:03.779114",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Judge, Alipore, Matrimonial Suit No. 217 of 1993",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Chandrima Guha vs Sumit Guha on 24 September, 1993",
+  "case_name": "Smt. Chandrima Guha vs Sumit Guha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sumit Guha, husband",
+    "respondent_defendant": "Smt. Chandrima Guha, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Husband filed suit for divorce on ground of exceptional hardship under Section 13(1)(ia) of Hindu Marriage Act; wife alleged to be upstart and ultra-modern lady causing mental and physical agony and torture.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The factual allegations in a particular case must make out a case of extraordinary hardship to entitle the applicant to a leave under Section 14(1) of the Act.",
+      "held": "The circumstances must be unusual. Applying the said ratio, in the instant case, we do not find that the grant of leave can be justified.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 14"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rabindra Nath Mukerjee v. Iti Mukherjee, (1991) C.L.J. 209"
+      ],
       "keywords": [
-        "TODO"
+        "exceptional hardship",
+        "unusual circumstances",
+        "matrimonial home"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The allegations in an application for leave under Section 14(1) of the Act must be tentatively sufficient to uphold a prayer for a decree for divorce.",
+      "held": "The allegations, which though tentatively sufficient for upholding a prayer for a decree for divorce, may not necessarily constitute exceptional hardship within the meaning of the said section.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 14"
+      ],
+      "cited_cases": [
+        "Rabindra Nath Mukerjee v. Iti Mukherjee, (1991) C.L.J. 209"
+      ],
+      "keywords": [
+        "tentative sufficiency",
+        "decree for divorce"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Leave under Section 14(1) of the Act granted without affording opportunity of being heard to respondent; allegations constituted exceptional hardship within meaning of section.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "matrimonial suit",
+    "exceptional hardship",
+    "Section 13(1)(ia)",
+    "Section 14(1)",
+    "upstart",
+    "ultra-modern",
+    "unfit",
+    "si",
+    "solemnisation",
+    "marriage",
+    "petition",
+    "leave to present",
+    "Revisional application",
+    "District Judge",
+    "Alipore",
+    "Matrimonial Suit No. 217 of 1993"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on exceptional hardship grounds",
+    "responding to Revisional application"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:02:42.194381"
 }

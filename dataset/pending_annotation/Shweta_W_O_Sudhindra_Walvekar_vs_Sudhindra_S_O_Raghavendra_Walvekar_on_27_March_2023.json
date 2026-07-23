@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:08:07.951296",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -22,13 +22,13 @@
   "case_numbers": [
     "M.C.No.5248/2022"
   ],
-  "trial_court": "",
+  "trial_court": "V Additional Principal Judge, Family Court, Bengaluru (MC No. 5248/2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shweta W/O Sudhindra Walvekar vs Sudhindra S/O Raghavendra Walvekar on 27 March, 2023",
+  "case_name": "Shweta W/O Sudhindra Walvekar vs Sudhindra S/O Raghavendra Walvekar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shweta W/O Sudhindra Walvekar (wife)",
+    "respondent_defendant": "Sudhindra S/O Raghavendra Walvekar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks to withdraw MC No. 5248/2022 and transfer it to Senior Civil Judge and JMFC, Hungund due to uncordial relation with respondent-husband.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The convenience of the wife needs to be considered in a transfer petition.",
+      "held": "In transfer petitions, where the transfer is sought by the wife, the convenience of the wife needs to be considered as held by Hon'ble Apex Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Shweta W/O Sudhindra Walvekar vs Sudhindra S/O Raghavendra Walvekar, (2023) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "transfer petition",
+        "wife's convenience",
+        "Section 24 CPC"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family court proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The ends of justice should demand the transfer of a suit, appeal or other proceeding.",
+      "held": "The cardinal principle for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.",
+      "applicable_acts_sections": [
+        "CPC — Section 24"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya VS. A.S.Saravana Karthik Sha, (2022) AIR SC 4318"
+      ],
+      "keywords": [
+        "ends of justice",
+        "transfer of proceedings",
+        "Section 24 CPC"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family court proceedings"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition is allowed and the case is transferred to the Senior Civil Judge and JMFC, Hungund.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "withdrawal",
+    "transfer",
+    "family court",
+    "justice",
+    "equity",
+    "marriage",
+    "spouse",
+    "housewife",
+    "pvt com in service",
+    "petition",
+    "court order",
+    "direction",
+    "justice and equity"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "seeking withdrawal of petition",
+    "transferring case to another court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:10:20.412358"
 }

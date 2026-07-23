@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:03.789270",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "M.C.No.312/2022",
     "M.C.No.312/2012"
   ],
-  "trial_court": "",
+  "trial_court": "PRL. JUDGE, I ADDL. FAMILY COURT, HASSAN (M.C.No.312/2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. S. Nuthana vs Mr. K S Chethan on 3 October, 2023",
+  "case_name": "Smt. S. Nuthana vs Mr. K S Chethan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. S. Nuthana, wife",
+    "respondent_defendant": "Mr. K S Chethan, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the wife of respondent and has prayed for transfer of M.C.No.312/2022 from Hassan to Shivamogga due to inconvenience in traveling from Shivamogga to Hassan.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,60 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In a petition filed under Section 24 of CPC for transfer of proceedings, more particularly, in matrimonial cases, the Court shall have to take note of the inconvenience or hardship that would be caused to the wife along with social and financial status of the parties.",
+      "held": "",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "matrimonial cases",
+        "inconvenience",
+        "hardship",
+        "social",
+        "financial"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The case is transferred from Hassan to Shivamogga for disposal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "transfer petition",
+    "family court",
+    "Shivamogga",
+    "Hassan",
+    "M.C.312/2022",
+    "matrimonial dispute",
+    "wife's prayer",
+    "justice and equity",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition under Section 24 CPC",
+    "advising on matrimonial disputes",
+    "preparing for a family court hearing"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:25:20.927661"
 }

@@ -41,21 +41,46 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party seeking quashing of a judicial order to demonstrate that the order is arbitrary, illegal, or has caused irreparable injury.",
+      "held": "It is settled law that the court will not lightly interfere with the orders passed by the Magistrate unless it is shown that the order is arbitrary, illegal or has caused irreparable injury.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sita Sharan Prasad & Ors vs State Of Bihar & Anr (2016)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "judicial order",
+        "arbitrary",
+        "illegal",
+        "irreparable injury"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A dispute that has been finally resolved through payment of compensation is not a matter for the court to interfere with.",
+      "held": "The dispute has now been finally resolved on payment of Rs.4,00,000/- by Demand Drafts No. 013835, 013714, and therefore, it is not a matter for this Court to interfere with.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sita Sharan Prasad & Ors vs State Of Bihar & Anr (2016)"
+      ],
+      "keywords": [
+        "dispute resolution",
+        "compensation",
+        "court interference"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -65,15 +90,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "alimony",
+    "Section 125",
+    "CrPC",
+    "Criminal Procedure Code",
+    "matrimonial dispute",
+    "domestic violence",
+    "DV Act",
+    "Protection of Women from Domestic Violence Act",
+    "custody",
+    "child custody",
+    "family law",
+    "Indian Penal Code",
+    "IPC",
+    "Section 498A",
+    "harassment",
+    "abuse"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing maintenance application",
+    "responding to domestic violence complaint"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:21:16.529603"
 }

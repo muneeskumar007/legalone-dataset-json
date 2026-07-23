@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:10:31.758782",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Nikita Rajak vs Rahul Kumar Rajak on 26 February, 2024",
+  "case_name": "Smt. Nikita Rajak vs Rahul Kumar Rajak",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Nikita Rajak (wife)",
+    "respondent_defendant": "Rahul Kumar Rajak (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife challenged the decree of divorce granted to the husband in Civil Suit No. 66-A/2021. She also challenged the restitution of conjugal rights granted to the husband under Section 9 of the Hindu Marriage Act on 21/08/2018.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Where the court is satisfied that a case is made out to waive the statutory period under Section 13-B(2), it can do so after considering certain factors.",
+      "held": "Applying the above to the present situation, we are of the view that where the court dealing with a matter is satisfied that a case is made out to waive the statutory period under Section 13-B(2), it can do so after considering the following:",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Amardeep Singh Vs. Harveen Kaur, (2017) 7 SCC page 746"
+      ],
       "keywords": [
-        "TODO"
+        "mutual consent",
+        "statutory period",
+        "reconciliation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court can grant divorce by mutual consent only if there is no chance for reconciliation.",
+      "held": "The Supreme Court has further laid down the following principles at para 19:",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [
+        "Amardeep Singh Vs. Harveen Kaur, (2017) 7 SCC page 746"
+      ],
+      "keywords": [
+        "reconciliation",
+        "mutual consent",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties agreed to divorce and the wife withdrew her maintenance case, FA (MAT) No.121 of 2023, and criminal appeal pending at District & Sessions Court, Rajnandgaon.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Penal Code",
+    "1860",
+    "Limitation Act",
+    "1963",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "joint family",
+    "separation",
+    "irretrievable breakdown",
+    "marital status",
+    "family court",
+    "civil suit",
+    "decree of divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on alimony and maintenance",
+    "representing in a family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:27:49.068461"
 }

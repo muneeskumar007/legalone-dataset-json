@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:08:53.830975",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "will_succession": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Asmeet Kaur @ Rubee vs Hardeep Singh on 8 September, 2015",
+  "case_name": "Smt. Asmeet Kaur @ Rubee vs Hardeep Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Asmeet Kaur @ Rubee (wife)",
+    "respondent_defendant": "Hardeep Singh (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties will be governed in the matter of any action taken during the pendency of the appeal by virtue of provisions of Section 15 of the Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,60 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The parties will be governed in the matter of any action taken during the pendency of the appeal by virtue of provisions of Section 15 of the Hindu Marriage Act.",
+      "held": "In view of the provisions of Section 15 of the Hindu Marriage Act, no specific orders are necessary on I.A. No.2482/2015.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 15"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "pendency",
+        "appeal",
+        "Section 15"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "No specific orders are necessary on I.A. No.2482/2015; parties will be governed in the matter of any action taken during the pendency of the appeal by virtue of provisions of Section 15 of the Hindu Marriage Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 15",
+    "appeal",
+    "pendency",
+    "family law",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "Indian court",
+    "judgment",
+    "civil procedure",
+    "family court",
+    "district court",
+    "single judge",
+    "division bench",
+    "High Court",
+    "Supreme Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "matrimonial dispute resolution",
+    "family law litigation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:43:44.325737"
 }

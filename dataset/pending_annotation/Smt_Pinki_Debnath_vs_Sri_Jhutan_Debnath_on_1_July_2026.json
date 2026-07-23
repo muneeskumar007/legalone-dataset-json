@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:10:41.631524",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -17,13 +17,13 @@
   "bench": "Division Bench",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Judge, Family Court, Agartala, West Tripura (T.S. (Divorce) 164 of 2025)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Pinki Debnath vs Sri Jhutan Debnath on 1 July, 2026",
+  "case_name": "Smt. Pinki Debnath vs Sri Jhutan Debnath",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant-wife, Smt. Pinki Debnath",
+    "respondent_defendant": "Respondent-husband, Sri Jhutan Debnath",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant-wife challenging the judgment and decree of the trial court in a divorce case. Respondent-husband had previously filed an application for restitution of conjugal rights, which was allowed by the trial court. Appellant-wife is not interested in rejoining her husband or leading a conjugal life.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court cannot pressurize parties to stay together and lead a conjugal life against their wishes.",
+      "held": "This Court disposed of Mat.App. No.33/2024 on 28.01.2025 observing that it cannot pressurize the parties to stay together and lead a conjugal life against their wishes,",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "restitution of conjugal rights",
+        "conjugal life",
+        "party consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court cannot compel a party to join the other to lead a conjugal life.",
+      "held": "despite the existence of an order for restitution of conjugal rights, its enforcement has become practically impossible, and so the said judgment granting restitution of conjugal rights to the respondent-husband shall remain for future reference, but he cannot compel the appellant-wife to join him to lead a conjugal life.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 9"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "restitution of conjugal rights",
+        "compulsion",
+        "conjugal life"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is preferred by the appellant-wife challenging the judgment and decree of the trial court. The final order grants liberty to both parties to avail remedies under the law.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "restitution of conjugal rights",
+    "Section 9",
+    "Matrimonial Dispute",
+    "Family Court",
+    "Additional Judge",
+    "Agartala",
+    "West Tripura",
+    "T.S. (Divorce)",
+    "T.S. (RCR)",
+    "Mat.App.",
+    "Appeal",
+    "Judgment",
+    "Decree",
+    "Conjugal Rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "guidelines for family court cases",
+    "practical tips for matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:39:20.156186"
 }

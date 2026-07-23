@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:11.291366",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -20,13 +20,13 @@
     "Chandra Kumar Songara J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bharatpur (Divorce Petition No.114/2019)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Renuka Yadav W/O Shri Mohan Yadav ... vs Mohan Yadav S/O Shri Ramdayal Yadav on 20 October, 2021",
+  "case_name": "Smt. Renuka Yadav v. Mohan Yadav",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Renuka Yadav, wife",
+    "respondent_defendant": "Mohan Yadav, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks transfer of divorce petition filed by respondent-husband from Family Court, Bharatpur to Family Court, Jaipur.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,95 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party's financial condition can be a relevant factor in considering an application for transfer of case.",
+      "held": "Counsel has further argued that the petitioner is not having any independent source of income and she is not in a position to spend huge travelling expenses for every date of hearing.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "financial condition",
+        "traveling expenses"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's ability to appear before the court is a relevant factor in considering an application for transfer of case.",
+      "held": "Counsel has further argued that the petitioner is not in a position to appear before the learned Family Court, Bharatpur for defending the case on each and every date.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "appearance",
+        "ability"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The distance between the parties' residences is a relevant factor in considering an application for transfer of case.",
+      "held": "Counsel has contended that the distance between Jaipur City to Bharatpur is only 183 kilometers and various transportation means are available to travel to Bhratpur for attending the case.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "distance",
+        "transportation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Transfer application under Section 24 of the Code of Civil Procedure, 1908 allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "transfer application",
+    "Code of Civil Procedure",
+    "1908",
+    "Protection of Women from DV Act",
+    "2005",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 24",
+    "DV",
+    "domestic violence",
+    "wife's rights",
+    "husband's rights",
+    "marital disputes",
+    "family law",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on transfer applications",
+    "representing clients in marital disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:17:44.957670"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:11:12.748673",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bemetara (Civil Case No.21A/2015 and Civil Suit No.1-A/2016)",
   "reserved_on": "23.11.2021",
   "delivered_on": "25.02.2022",
-  "case_name": "Smt. Richa Mishra vs Navodit Mishra on 25 February, 2022",
+  "case_name": "Smt. Richa Mishra vs Navodit Mishra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Richa Mishra, wife",
+    "respondent_defendant": "Navodit Mishra, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married under the Hindu Marriage Act, 1955. The wife filed an application for restitution of conjugal rights under Section 9 of the Act, which was dismissed by the trial court. The husband also filed an application for a decree of divorce under Section 13(1)(i-a), (i-b) and (iii) of the Act, which was also dismissed. Both parties appealed to this court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove that the respondent has wilfully neglected or refused to perform his/her conjugal obligations.",
+      "held": "It is held that the burden lies on the applicant to prove that the respondent has wilfully neglected or refused to perform his/her conjugal obligations.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conjugal rights",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not grant a decree for restitution of conjugal rights unless the applicant has made out a prima facie case.",
+      "held": "It is held that the court will not grant a decree for restitution of conjugal rights unless the applicant has made out a prima facie case.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 9"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "prima facie",
+        "conjugal rights"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal filed by the wife was dismissed, and a decree of divorce was granted in favour of the husband under Section 13(1)(i-a) of the Hindu Marriage Act, 1955.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 9",
+    "Family Court",
+    "Bemetara",
+    "Civil Suit",
+    "decree of divorce",
+    "grounds enumerated",
+    "application dismissed",
+    "appeal filed",
+    "challenge to judgment",
+    "civil case",
+    "family court jurisdiction",
+    "marriage dissolution",
+    "matrimonial dispute resolution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act, 1955",
+    "responding to an application for divorce in Family Court",
+    "appealing a judgment on a matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:20:19.810542"
 }

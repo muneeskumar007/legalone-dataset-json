@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:19.477040",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "Anjuli Palo J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Lakhnadaun, District Seoni in C.S. No.14-A/04",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Santoshi Belwanshi vs Kop Singh on 8 February, 2018",
+  "case_name": "Smt.Santoshi Belwanshi vs Kop Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Santoshi Belwanshi (wife)",
+    "respondent_defendant": "Kop Singh (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant-wife and respondent-husband are husband and wife. They have a daughter and a son. Appellant went to her maternal home but did not return back. Respondent filed application under Section 9 of Hindu Marriage Act for restitution of conjugal rights. Trial court allowed the application.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The second illegal marriage of the husband itself is a proper ground to refuse to live with the husband.",
+      "held": "In view of the above, it is clear that the respondent's second marriage is a sufficient reason for the appellant to refuse to live with him.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Smt.Santoshi Belwanshi vs Kop Singh on 8 February, 2018"
+      ],
+      "keywords": [
+        "dowry",
+        "marriage",
+        "separation"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the respondent to prove that there is a proper reason for the appellant to live with him.",
+      "held": "Therefore, it was directed to bring the documents on record along with affidavit of the appellant and it was also directed that appellant and respondent remain present before this Court on 26.04.2016",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "proof",
+        "separation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Decree under Section 9 of Hindu Marriage Act for restitution of conjugal rights has been passed against the appellant.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 9",
+    "conjugal rights",
+    "separation",
+    "matrimonial dispute",
+    "family law",
+    "marriage solemnized",
+    "living separately",
+    "restitution of conjugal rights",
+    "wife's refusal",
+    "husband's efforts",
+    "failed to bring her back",
+    "Latin maxim: 'Nemo dat quod non habet'",
+    "property settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "negotiating property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:29:28.086830"
 }

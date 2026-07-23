@@ -7,7 +7,7 @@
   "total_pages": 18,
   "extracted_at": "2026-07-15T11:10:28.949461",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 11,
     "cheque_bounce": 2,
@@ -23,13 +23,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Neelu Kohli vs Naveen Kohli on 7 July, 2003",
+  "case_name": "Smt. Neelu Kohli vs Naveen Kohli",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife, appellant",
+    "respondent_defendant": "husband, respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a suit for divorce and annulment of marriage under Section 13 of the Hindu Marriage Act. The husband claimed that the wife was a woman of hard temperament and rude behaviour, and had been picking up quarrels with him and his parents. He alleged that she was cunning and had trapped him in such a way that he was forced to live separately from her.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse's social status and acquired wealth do not justify ignoring family responsibilities.",
+      "held": "band ignoring his responsibility toward his wife and his children and social status which he had come to acquire for whatever reasons, had chosen a wrong path at that stage which did not behove well of him and was not in the interest of the family peace.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "family responsibilities",
+        "social status",
+        "acquired wealth"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A spouse's business dealings and financial situation can be considered in determining alimony.",
+      "held": "It was also alleged that out of the aforesaid 4 business concerns, the husband had unlawfully and by force and by violence had grabbed and had taken full control of three of them and only M/s. Nitin Rubber Company was the company being run in the supervision and control of the wife.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "business dealings",
+        "financial situation",
+        "alimony"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The decree of annulment of marriage will come into effect on the payment of a lump sum amount of Rs. 5 lacs to the wife towards maintenance allowance to her.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13",
+    "divorce",
+    "annulment",
+    "maintenance allowance",
+    "marriage solemnized",
+    "Family Court",
+    "First Appeal",
+    "redress",
+    "petitioner",
+    "respondent",
+    "liberty from marital ties",
+    "lump sum amount",
+    "Rs. 5 lacs"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance allowance",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:23:45.069925"
 }

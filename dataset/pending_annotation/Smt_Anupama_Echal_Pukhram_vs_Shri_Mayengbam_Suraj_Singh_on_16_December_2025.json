@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:08:50.772513",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Ahanthem Bimol Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Manipur at Lamphelpat, Matrimonial (R&C) Suit No. 8 of 2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Anupama (Echal) Pukhram vs Shri Mayengbam Suraj Singh on 16 December, 2025",
+  "case_name": "Smt. Anupama (Echal) Pukhram vs Shri Mayengbam Suraj Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Anupama (Echal) Pukhram, wife",
+    "respondent_defendant": "Shri Mayengbam Suraj Singh",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife filed a matrimonial suit for restitution of conjugal rights which was dismissed. The wife then filed an appeal against the impugned judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking condonation of delay to explain the reasons for the delay.",
+      "held": "It was also submitted that 52 days delay has not been properly explained.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "condonation",
+        "delay",
+        "explanation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The time limit for a statutory appeal under Section 19 of the Family Courts Act, 1984 is 30 days.",
+      "held": "It is in this context that there was some dilemma which led to",
+      "applicable_acts_sections": [
+        "Family Courts Act, 1984 — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "statutory appeal",
+        "time limit"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court appeals"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Delay is condoned, captioned MC is allowed and ordered as prayed for.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "conjugal rights",
+    "matrimonial suit",
+    "restitution of conjugal rights",
+    "Family Court",
+    "Manipur",
+    "Lamphelpat",
+    "condonation of delay",
+    "CoD",
+    "delay in filing appeal",
+    "knowledge of impugned judgment",
+    "application for certified copy"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing family court decision",
+    "seeking restitution of conjugal rights"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:39:15.547213"
 }

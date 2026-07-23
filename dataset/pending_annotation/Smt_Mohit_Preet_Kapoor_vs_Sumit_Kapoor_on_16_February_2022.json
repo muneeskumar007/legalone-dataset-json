@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:10:16.228423",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 3,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Principal Judge, Family Court, Bareilly — Case No. unknown",
   "reserved_on": "09.12.2021",
   "delivered_on": "16.02.2022",
-  "case_name": "Smt. Mohit Preet Kapoor vs Sumit Kapoor on 16 February, 2022",
+  "case_name": "Smt. Mohit Preet Kapoor vs Sumit Kapoor",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Mohit Preet Kapoor (wife)",
+    "respondent_defendant": "Sumit Kapoor (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2013. The husband filed a divorce petition in 2017 alleging that the wife had deserted him without reason and refused to cohabit. The trial court allowed the petition. The wife appealed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The credibility of a witness can be impeached by showing that the witness had no knowledge about certain facts.",
+      "held": "The statement of P.W-3 in this regard is not credible, in as much as, he admitted that he was not related to the family on two crucial dates.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "credibility",
+        "witness"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party who asserts a fact to prove it.",
+      "held": "At least, this can be elicited that P.W-3, P.W-4 and P.W-5 are the persons who had no knowledge as to whether the appellant had actually left her matrimonial home on 10.1.2015 with the intention to end her matrimonial relationship.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed, and the judgment of the trial court is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13",
+    "divorce petition",
+    "matrimonial home",
+    "family members",
+    "jewellery",
+    "cash",
+    "safe",
+    "relationship",
+    "absence",
+    "petition filed",
+    "grounds",
+    "Latin maxim",
+    "actus reus",
+    "mens rea",
+    "marriage",
+    "judgment",
+    "order",
+    "appeal",
+    "reserved",
+    "delivered"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on grounds for divorce",
+    "preparing appeal against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:11:54.443706"
 }

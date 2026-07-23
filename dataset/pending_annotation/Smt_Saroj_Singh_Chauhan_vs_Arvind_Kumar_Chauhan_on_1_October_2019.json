@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:11:25.327735",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Varanasi in Marriage Petition No.565 of 2007",
   "reserved_on": "02.08.2019",
   "delivered_on": "01.10.2019",
-  "case_name": "Smt. Saroj Singh Chauhan vs Arvind Kumar Chauhan on 1 October, 2019",
+  "case_name": "Smt. Saroj Singh Chauhan vs Arvind Kumar Chauhan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Saroj Singh Chauhan (wife)",
+    "respondent_defendant": "Arvind Kumar Chauhan (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized on 03.05.2004. Appellant performed her spousal obligations. Plaintiff filed a marriage petition and the court below allowed it, annulling the marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse who fails to discharge their spousal obligations and establishes no conjugal relations can be considered as having deserted the other spouse.",
+      "held": "After 10.02.2005, conduct of Appellant towards Plaintiff is full of cruelty and without any reason Appellant has deserted Plaintiff.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "cruelty",
+        "spousal obligations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party who fails to appear in a suit despite service of notice can be proceeded against ex-parte.",
+      "held": "In spite of service of notice, Appellant failed to appear in the suit.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "ex-parte",
+        "service of notice",
+        "party's absence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "all types of cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The exparte judgement dated 08.05.2008 and decree dated 04.09.2008 are set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19",
+    "judgment",
+    "decree",
+    "marriage petition",
+    "Misc. Case No.",
+    "Principal Judge",
+    "Family Court",
+    "Varanasi",
+    "Indian Penal Code",
+    "Limitation Act",
+    "Code of Civil Procedure",
+    "Allahabad High Court",
+    "Appeal",
+    "First Appeal",
+    "Defendants' First Appeal",
+    "Section 13",
+    "Section 14",
+    "Section 15",
+    "Section 16"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "guidelines for filing first appeal in family court",
+    "practical tips for advocates handling marriage petitions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:32:54.825406"
 }

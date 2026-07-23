@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:55.286514",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "property_dispute": 2,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.3, Mumbai in Petition No.A.1270/2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Kusumlata Raj Kumar Sureka vs Mr. Mahendra Sureka And Anr on 24 January, 2019",
+  "case_name": "Smt. Kusumlata Raj Kumar Sureka vs Mr. Mahendra Sureka And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Kusumlata Raj Kumar Sureka (wife)",
+    "respondent_defendant": "Mr. Mahendra Sureka (husband) and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner Kusumlata Rajkumar Sureka sought impleadment in a petition filed by her husband Mahendra Sureka against his wife Sarika under Hindu Marriage Act, 1955 for dissolution of marriage on grounds of cruelty and desertion. The trial court allowed an application by Sarika to hand over keys of the suit premises.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,28 +49,47 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A respondent's statement on instructions from the respondent, made in court, can be binding.",
+      "held": "We dispose of the Civil Application by accepting the statement made on behalf of the respondent, that would be binding on the respondent.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "binding",
+        "statement",
+        "instructions"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law",
+        "divorce proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court can restrain a party from dispossessing another party from a property till the first party makes alternate arrangements.",
+      "held": "The learned trial Judge restrained Kusumlata and Mahendra from dispossessing Sarika from the suit premises till Mahendra makes alternate arrangement for accommodation for Sarika to her satisfaction within a period of six months.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "restrain",
+        "dispossession",
+        "alternate arrangements"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property law",
+        "real estate disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order recalled the earlier order directing Mahendra Sureka to provide a set of keys of the main door of the suit premises to Sarika.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
     "TODO — add 15+ keywords after reading"
@@ -81,7 +100,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:12:46.445935"
 }

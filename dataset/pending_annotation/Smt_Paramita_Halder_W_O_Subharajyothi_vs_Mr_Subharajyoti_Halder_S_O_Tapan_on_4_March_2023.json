@@ -7,7 +7,7 @@
   "total_pages": 21,
   "extracted_at": "2026-07-15T11:10:36.323118",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "domestic_violence",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Metropolitan Magistrate, Traffic Court-III, Bengaluru. Crl. Mis. No.206/2014",
   "reserved_on": "",
   "delivered_on": "04-03-2023",
-  "case_name": "Smt. Paramita Halder W/O Subharajyothi vs Mr. Subharajyoti Halder S/O Tapan on 4 March, 2023",
+  "case_name": "Smt. Paramita Halder W/O Subharajyothi vs Mr. Subharajyoti Halder S/O Tapan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Paramita Halder W/o Subharajyothi (wife)",
+    "respondent_defendant": "Mr. Subharajyoti Halder S/o Tapan, Tapan Kumar Halder S/o Late Birendranath Halder, Bulurani Halder W/o Tapan Kumar Halder, Bebojyoti Halder S/o Tapan Kumar, Anuradha Halder W/o Debojyoti Halder (husband and family members)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner sought various reliefs under the Protection of Women from Domestic Violence Act, 2005. The case is about a marriage that took place in 2008 and the petitioner claimed that her husband and family members were not providing her with valuable things belonging to her.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the respondent to prove that the allegations of domestic violence are false.",
+      "held": "Further, the respondent no.1 had filed his objections, thereafter the respondent nos. 2 to 5 have filed petition before Hon'ble High Court of Karnataka and said application was allowed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "domestic violence",
+        "allegations",
+        "false"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "cases involving domestic violence allegations"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's indifference or lack of interest in the other party's financial status can be a factor in determining the existence of domestic violence.",
+      "held": "The respondent no.1 was shocked to see the indifferent attitude of the petitioner immediately after marriage.",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act, 2005"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "indifference",
+        "financial status",
+        "domestic violence"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases involving domestic violence and financial disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted various reliefs to the petitioner under the Protection of Women from Domestic Violence Act, 2005.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Protection of Women from DV Act",
+    "2005",
+    "Domestic Violence",
+    "DV",
+    "Magistrate's Order",
+    "Crl. Mis. No.206/2014",
+    "Section 12",
+    "Section 13",
+    "Section 14",
+    "Section 15",
+    "Section 16",
+    "Section 17",
+    "Section 18",
+    "Section 19",
+    "Section 20",
+    "Section 21",
+    "Section 22"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "responding to DV allegations",
+    "seeking protection orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:33:49.699092"
 }

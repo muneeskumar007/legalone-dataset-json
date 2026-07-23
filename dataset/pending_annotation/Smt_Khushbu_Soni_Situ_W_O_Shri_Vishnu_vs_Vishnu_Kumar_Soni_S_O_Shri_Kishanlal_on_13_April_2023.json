@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:49.132082",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Dausa, Case No.74/2020",
   "reserved_on": "27.03.2023",
   "delivered_on": "13.04.2023",
-  "case_name": "Smt. Khushbu Soni @ Situ W/O Shri Vishnu ... vs Vishnu Kumar Soni S/O Shri Kishanlal ... on 13 April, 2023",
+  "case_name": "Smt. Khushbu Soni @ Situ W/O Shri Vishnu ... vs Vishnu Kumar Soni S/O Shri Kishanlal ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Khushbu Soni @ Situ W/o Shri Vishnu, wife",
+    "respondent_defendant": "Vishnu Kumar Soni S/o Shri Kishanlal Soni, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant-wife seeks transfer of a divorce case from Family Court, Dausa to Pali due to distance and lack of support.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant seeking transfer to establish that the transfer is necessary in the interest of justice.",
+      "held": "Considering the contentions put forth by both the sides and considering the fact that the applicant-wife is presently residing in Pali; that the distance between Pali and Dausa is over 370 Km;",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 19"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "N.C.V. Aishwarya vs. A.S. Saravana Karthik Sha: Civil Appeal No. 4894/2022",
+        "Sumita Singh Vs. Kumar Sanjay & Ors.: AIR 2002 SC 396",
+        "Rajni Kishor Pardeshi Vs. Kishor Babulal Par"
+      ],
       "keywords": [
-        "TODO"
+        "transfer",
+        "interest of justice",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court may transfer a case to another district if the applicant can demonstrate that it is necessary in the interest of justice.",
+      "held": "Considering the provisions of Section 19 of the Hindu Marriage Act and relying upon the judgments of the Apex Court",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 19"
+      ],
+      "cited_cases": [
+        "N.C.V. Aishwarya vs. A.S. Saravana Karthik Sha: Civil Appeal No. 4894/2022",
+        "Sumita Singh Vs. Kumar Sanjay & Ors.: AIR 2002 SC 396",
+        "Rajni Kishor Pardeshi Vs. Kishor Babulal Par"
+      ],
+      "keywords": [
+        "transfer",
+        "interest of justice",
+        "necessary"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Transfer of the case is granted to Family Court, Pali.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Section 24",
+    "Code of Civil Procedure",
+    "Family Court",
+    "Pali",
+    "Dausa",
+    "Rajasthan",
+    "transfer application",
+    "stay proceedings",
+    "wife's petition",
+    "husband's response",
+    "marriage dissolution",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to transfer applications",
+    "advising on matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:03:27.413479"
 }

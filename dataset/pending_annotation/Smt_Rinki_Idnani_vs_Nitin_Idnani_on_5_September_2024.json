@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:13.130263",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -20,13 +20,13 @@
     "Gajendra Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Indore (RCS-HMA 367/2022)",
   "reserved_on": "",
   "delivered_on": "05.09.2024",
-  "case_name": "Smt. Rinki Idnani vs Nitin Idnani on 5 September, 2024",
+  "case_name": "Smt. Rinki Idnani vs Nitin Idnani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Rinki Idnani (wife)",
+    "respondent_defendant": "Nitin Idnani (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner/wife and respondent/husband were married on 26.06.2010. The husband filed a petition for decree of divorce alleging continuous acts of cruelty. The wife filed an application under Section 24 of the Hindu Marriage Act, 1955 seeking interim maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The object of maintenance is to prevent vagrancy and destitution.",
+      "held": "It provides a speedy remedy for the supply of food, clothing and shelter to the deserted wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "vagrancy",
+        "destitution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may order the respondent to pay expenses of proceeding and monthly maintenance during the proceeding.",
+      "held": "It may, on the application of the wife or the husband, order the respondent to pay to the petitioner the expenses of the proceeding, and monthly during the proceeding such sum as, having regard to the petitioner's own income and the income of the respondent, it may seem to the court to be reasonable.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "expenses",
+        "proceeding",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order dated 04.03.2023 passed by the Additional Principal Judge, Family Court Indore may kindly be modified and the maintenance as prayed in the application may kindly be ordered to be passed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Article 227",
+    "Constitution of India",
+    "maintenance",
+    "costs",
+    "Family Court",
+    "Additional Principal Judge",
+    "RCS-HMA 367/2022",
+    "Section 24",
+    "petitioner",
+    "respondent",
+    "wife",
+    "husband",
+    "marriage",
+    "annulment",
+    "nullity",
+    "separation",
+    "alimony"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and costs",
+    "representing wife in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:21:08.697116"
 }

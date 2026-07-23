@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:10:52.202598",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Promila vs Ashok Kumar & Anr on 11 August, 2009",
+  "case_name": "Smt.Promila vs Ashok Kumar & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt.Promila (wife)",
+    "respondent_defendant": "Ashok Kumar & Anr. (husband and another)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife challenged the trial court's judgment accepting a petition filed under section 11 of the Hindu Marriage Act, 1955. The husband claimed that the wife was still married to her first husband when she married him. The wife denied deserting the husband and alleged that he manhandled her family members.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,125 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A custom cannot be extended by analogy nor one custom can be deduced from another.",
+      "held": "The law on the point is fairly settled. Our own Hon'ble High Court has held in Asha Rani Vs., Gulshan Kumar, AIR 1995 Punjab & Haryana 287 that custom cannot be extended by analogy nor one custom can be deduced from another.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Asha Rani Vs., Gulshan Kumar, (Year) AIR 1995 Punjab & Haryana 287"
+      ],
       "keywords": [
-        "TODO"
+        "custom",
+        "analogy",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A valid marriage can be dissolved by a decree of divorce passed by the court of competent jurisdiction and not in any proceedings before the Panchayat.",
+      "held": "It is also held by a D.B. Of our own Hon'ble High Court in Rajesh Kumar Madaan Vs. Mrs. Mamta alias Veena, (2005-2) The Punjab Law Reporter 196 that a valid marriage can be dissolved by a decree of divorce passed by the court of competent jurisdiction and not in any proceedings before the Panchayat.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 11"
+      ],
+      "cited_cases": [
+        "Rajesh Kumar Madaan Vs. Mrs. Mamta alias Veena, (2005-2) The Punjab Law Reporter 196"
+      ],
+      "keywords": [
+        "marriage",
+        "divorce",
+        "Panchayat"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Any marriage solemnized between two Hindus in contravention of the provisions of section 5(i) of the Hindu Marriage Act, 1955 is null and void.",
+      "held": "It is also held by a D.B. Of our own Hon'ble High Court in Surjit Singh Vs. Mohinder Pal Singh & Ors. Vol.XI (1987) Marriage Law Journal 206 that any marriage solemnized between two Hindus in contravention of the provisions of section 5(i) of the Hindu Marriage Act, 1955 is null and void.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 5"
+      ],
+      "cited_cases": [
+        "Surjit Singh Vs. Mohinder Pal Singh & Ors., Vol.XI (1987) Marriage Law Journal 206"
+      ],
+      "keywords": [
+        "marriage",
+        "contravention",
+        "void"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A marriage in contravention of clause (i) of Section 5 of the Hindu Marriage Act, 1955 is null and void.",
+      "held": "Clause (i) of Section 5 lays down, for a lawful marriage, the necessary condition that neither party should have a spouse living at the time of the marriage. A marriage in contravention of this condition, therefore, is null and void.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 5"
+      ],
+      "cited_cases": [
+        "Smt.Promila vs Ashok Kumar & Anr., (2009)"
+      ],
+      "keywords": [
+        "marriage",
+        "contravention",
+        "void"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed, and the trial court's judgment was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "section 11",
+    "marriage annulment",
+    "bigamy",
+    "Hindu rites and ceremonies",
+    "appellate jurisdiction",
+    "judgment and decree",
+    "District Judge",
+    "petition under section 11",
+    "Hindu law",
+    "family court",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "appealing a family court decision",
+    "advising on Hindu marriage laws"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:52:31.870962"
 }

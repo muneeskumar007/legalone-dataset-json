@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:11:03.826333",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -21,13 +21,13 @@
   "case_numbers": [
     "M.C.NO. 72/2020"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Shivamogga (M.C.No.72/2020)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Ranjitha A T vs Sri Madhu Kumar B on 20 April, 2023",
+  "case_name": "Smt. Ranjitha A T vs Sri Madhu Kumar B",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Ranjitha A T, wife",
+    "respondent_defendant": "Sri Madhu Kumar B, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks transfer of matrimonial proceedings filed by respondent-husband in MC No.72/2020 to the Court of Prl. Civil Judge & JMFC, Channagiri.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In cases of transfer petition of matrimonial proceedings, what is to be seen is the inconvenience and comparative hardship that would be caused to the parties.",
+      "held": "In General circumstances it should favour the wife as she would have to travel along with an attendant which would cause more inconvenience to her than the husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial proceedings",
+        "transfer petition",
+        "inconvenience",
+        "hardship"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "wife",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Less amount of hardship would be caused to the respondent-husband in traveling to Channagiri to attend the aforesaid cases rather than the petitioner-wife attending the case at Shivamogga preferred by the respondent-husband.",
+      "held": "It is apparently seen that less amount of hardship would be caused to the respondent-husband in traveling to Channagiri to attend the aforesaid cases rather than the petitioner-wife attending the case at Shivamogga preferred by the respondent-husband.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "hardship",
+        "traveling",
+        "petitioner",
+        "respondent"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "transfer petition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "matrimonial",
+    "petition",
+    "transfer",
+    "family court",
+    "CPC",
+    "Section 24",
+    "Karnataka",
+    "Code of Civil Procedure",
+    "High Court",
+    "civil petition",
+    "wife",
+    "husband",
+    "marriage",
+    "alimony",
+    "maintenance",
+    "property",
+    "assets",
+    "separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "assisting with family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:05:40.772387"
 }

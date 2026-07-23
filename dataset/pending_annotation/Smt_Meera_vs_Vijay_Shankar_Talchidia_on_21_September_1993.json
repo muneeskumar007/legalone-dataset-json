@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:10:13.335939",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Meera vs Vijay Shankar Talchidia on 21 September, 1993",
+  "case_name": "Smt. Meera vs Vijay Shankar Talchidia",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Meera (wife)",
+    "respondent_defendant": "Vijay Shankar Talchidia (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1976, but no child was born. The husband sought divorce alleging cruelty and adultery. The wife denied the allegations.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,117 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Cruelty as a ground of divorce under Section 13(1)(ia) is a conduct of such type that the petitioner could not reasonably be expected to live with the respondent.",
+      "held": "Now, the act or omission or conduct which constitutes cruelty need not cause any sort of apprehension in the mind of the petitioner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "divorce",
+        "Section 13"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Cruelty is a conduct of such type that the relations between the parties had deteriorated to such an extent due to the conduct of one of the spouses that it has become impossible for them to live together without mental agony, torture or distress.",
+      "held": "It has not been defined in the Act as it was not possible to do so. Section 13(1)(ia) has undergone a change by 1976 amendment made by the Parliament.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "divorce",
+        "Section 13"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "What may amount to cruelty in one case may not amount to cruelty in another case.",
+      "held": "No rigid meaning can be assigned to cruelty in order to come under Section 13. What may amount to cruelty in one case may not amount to cruelty in another case.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "divorce",
+        "Section 13"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The court dealing with a petition for divorce under Section 13 is expected to bear in mind that the problem before it is that of human beings and that all psychological changes in a man's conduct has to be borne in mind before granting or rejecting the petition.",
+      "held": "The court dealing with a petition for divorce under Section 13 is expected to bear in mind that the problem before it is that of human beings and that all psychological changes in a man's conduct has to be borne in mind before granting or rejecting the petition.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "Section 13",
+        "human beings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Section 13",
+    "Section 28",
+    "permanent alimony",
+    "alimony rate",
+    "lifetime",
+    "remarriage",
+    "marital status",
+    "spousal relationship",
+    "matrimonial dispute",
+    "family law",
+    "Indian court judgment",
+    "judicial separation",
+    "divorce decree",
+    "petition for divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on alimony and maintenance in a divorce case",
+    "representing a client seeking judicial separation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:09:21.970614"
 }

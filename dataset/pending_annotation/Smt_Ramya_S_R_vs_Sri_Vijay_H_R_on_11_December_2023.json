@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:02.835547",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -24,13 +24,13 @@
     "M.C.No.665/2023",
     "sc.No.22/2023"
   ],
-  "trial_court": "",
+  "trial_court": "III Additional Principal Family Court, Mysuru (M.C.No.665/2023)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Ramya. S. R vs Sri. Vijay. H. R on 11 December, 2023",
+  "case_name": "Smt. Ramya. S. R vs Sri. Vijay. H. R",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Ramya. S. R, wife",
+    "respondent_defendant": "Sri. Vijay. H. R, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the wife of respondent and has initiated proceedings for maintenance under Section 125 of Cr.P.C. Respondent has initiated proceedings for dissolution of marriage under Section 13(1)(ia)(ib) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In a petition under Section 24 of CPC for transfer of proceedings, more particularly in matrimonial cases, the Court shall have to take note of hardship and inconvenience that would be caused to the wife along with social and financial status of the parties.",
+      "held": "The court shall have to take note of hardship and inconvenience that would be caused to the wife along with social and financial status of the parties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial cases",
+        "hardship",
+        "inconvenience",
+        "social status",
+        "financial status"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "maintenance"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court shall have to consider the hardship and inconvenience that would be caused to the wife along with social and financial status of the parties.",
+      "held": "The court shall have to take note of hardship and inconvenience that would be caused to the wife along with social and financial status of the parties.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "hardship",
+        "inconvenience",
+        "social status",
+        "financial status"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court ordered the transfer of M.C.No.665/2023 from the III Additional Principal Family Court, Mysuru to the Principal Judge, Family Court at Sringeri for disposal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "transfer of case",
+    "family court",
+    "M.C.No.665/2023",
+    "III Addl. Principal Family Court",
+    "Principal Judge, Family Court, Sringeri",
+    "justice and equity",
+    "admission",
+    "petitioner's wife",
+    "respondent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "transferring case to family court",
+    "appealing against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:04:52.743986"
 }

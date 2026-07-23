@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:08:50.659248",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "domestic_violence": 1,
@@ -22,13 +22,13 @@
   "case_numbers": [
     "M.C.No.205/2013"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court at Chikkamagaluru, M.C.No.205/2013",
   "reserved_on": "15.03.2023",
   "delivered_on": "",
-  "case_name": "Smt Anupama @Anuroopa vs Hemaraju N on 21 March, 2023",
+  "case_name": "Smt Anupama @Anuroopa vs Hemaraju N",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Anupama @ Anuroopa, wife",
+    "respondent_defendant": "Hemaraju N., husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of the parties was solemnized on 13.03.2011. The respondent left the appellant after 45 days and she used to speak over phone with strangers. Appellant had an affair with her uncle's son Ashoka and intended to marry him.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging cruelty to prove the same.",
+      "held": "It is submitted that Family Court has not considered the oral and documentary evidence in its proper perspective, which has resulted in miscarriage of justice.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [
+        "SMT. CHANDRA MOHINI SRIVASTAVA Vs. SHRI AVINASH PRASAD SRIVASTAVA AND ANOTHER, AIR 1967 SC 581",
+        "HARSHITHA @ MANJULA Vs. HARISH LAWS(KAR)-2013-12-25"
+      ],
+      "keywords": [
+        "cruelty",
+        "burden of proof",
+        "Family Court"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court should consider the oral and documentary evidence in its proper perspective.",
+      "held": "It is submitted that Family Court has not considered the oral and documentary evidence in its proper perspective, which has resulted in miscarriage of justice.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "evidence",
+        "Family Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition filed by the respondent seeking dissolution of marriage was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(i-a)(i-b)",
+    "Family Courts Act",
+    "1984",
+    "Section 19(1)",
+    "Section 28",
+    "M.C.No.205/2013",
+    "M.C.No.20",
+    "MC No.338 of 2016",
+    "Miscellaneous First Appeal",
+    "Appeal under Section 19(1)",
+    "Hindu Marriage Act, 1955",
+    "Divorce Petition",
+    "Family Court",
+    "Chikkamagaluru",
+    "Karnataka High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing family court decision",
+    "advising on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:38:35.930543"
 }

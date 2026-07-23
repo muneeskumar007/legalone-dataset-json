@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:09:57.168594",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "domestic_violence": 1
@@ -23,13 +23,13 @@
     "F.A.NO.2016 OF 2018",
     "M.C.NO.1968/2014"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Bengaluru in M.C.NO.1968/2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Lakshmi vs Dr Hanuma Reddy B Hullatti on 20 April, 2023",
+  "case_name": "Smt Lakshmi vs Dr Hanuma Reddy B Hullatti",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Lakshmi, wife",
+    "respondent_defendant": "Dr Hanuma Reddy B Hullatti",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Smt Lakshmi and Dr Hanuma Reddy B Hullatti. The dispute between them has been amicably settled and they are residing together with their son.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court's discretion in granting a divorce should be exercised judiciously and with caution.",
+      "held": "Consequently, be pleased to dismiss the petitioner's petition i.e., M.C.NO.1968/2014 in entirety in the interest of justice and equity.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "judicial discretion",
+        "justice",
+        "equity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court should not grant a divorce unless it is satisfied that the marriage has broken down irretrievably.",
+      "held": "This appeal, coming on for orders, this day, Alok Aradhe J., delivered the following: ...",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "irretrievable breakdown",
+        "divorce",
+        "marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is disposed of.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 19(1)",
+    "Family Courts Act",
+    "M.C.NO.1968/2014",
+    "MFA No. 2016 of 2018",
+    "petitioner's petition",
+    "entirety",
+    "interest of justice",
+    "equity",
+    "Latin maxim: Nemo judex in causa sua",
+    "wife's maintenance",
+    "husband's rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to divorce petitions",
+    "advising on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T13:15:46.398168"
 }

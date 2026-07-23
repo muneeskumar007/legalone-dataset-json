@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:09:01.783488",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 7,
@@ -20,13 +20,13 @@
     "Sanjay Yadav J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "First Additional District Judge, Sidhi, Regular Civil Appeal No.3-A/2001",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Buti & Ors vs Santosh & Ors on 28 November, 2016",
+  "case_name": "Smt.Buti & Ors vs Santosh & Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Buti and others (defendants)",
+    "respondent_defendant": "Santosh and others (appellants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiffs brought an action for declaration of 19/24th share and partition and for a claim under Sections 6 and 34 of the Specific Relief Act, 1963 with regard to suit property situated at Village Parsidhi.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Illegitimate children are entitled to a share in self-acquired property, but not in ancestral coparcenary property.",
+      "held": "A child born of void or voidable marriage is not entitled to claim inheritance in ancestral coparcenery property but is entitled only to claim share in self acquired properties, if any.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [
+        "Jinia Keotin vs Kumar Sitaram Manjhi (2003) 1 SCC 730",
+        "Neelamma vs Sarojamma (2006) 9 SCC 612",
+        "Bharatha Matha vs R. Vijaya Renganathan (2010) 11 SCC 483"
+      ],
+      "keywords": [
+        "illegitimate children",
+        "self-acquired property",
+        "ancestral coparcenary property",
+        "Hindu Marriage Act",
+        "Section 16"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The share apportioned by courts must be in consonance with Section 16 of the Hindu Succession Act, 1956.",
+      "held": "Whether the share apportioned by two Courts below are in consonance to Section 16 of the Hindu Succession Act, 1956 ?",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956 — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "share apportionment",
+        "Section 16",
+        "Hindu Succession Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's judgment was confirmed, and the defendants' appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Specific Relief Act",
+    "declaration",
+    "share",
+    "suit property",
+    "Village Par",
+    "Regular Civil Appeal",
+    "First Additional District Judge",
+    "Civil Suit",
+    "First Civil Judge Class I",
+    "Second Appeal",
+    "High Court of Madhya Pradesh",
+    "Jabalpur",
+    "Sanjay Yadav",
+    "Justice Sanjay Yadav",
+    "Aditya Adhikari",
+    "Abhishek Gulati"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on Hindu succession law",
+    "preparing for second appeals in Madhya Pradesh High Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:57:46.892354"
 }

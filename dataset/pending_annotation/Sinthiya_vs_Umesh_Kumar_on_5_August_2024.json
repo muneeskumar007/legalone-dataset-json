@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:08:25.952026",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2
   },
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sinthiya vs Umesh Kumar on 5 August, 2024",
+  "case_name": "Sinthiya vs Umesh Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sinthiya — wife",
+    "respondent_defendant": "Umesh Kumar — husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife seeks direction to the learned Trial Court to take up her applications under Section 24 of Hindu Marriage Act and another under Section 91 of Cr.P.C. and dispose them expeditiously.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The petitioner would be at liberty to move an appropriate application seeking early hearing of said applications.",
+      "held": "In view of the above, present petition is disposed of with direction that the petitioner would be at liberty to move appropriate application seeking early hearing of said applications.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "expeditious disposal",
+        "early hearing"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The learned Trial Court should hear and dispose of said applications in accordance with law.",
+      "held": "The learned Trial Court, after pre-poning the date, would hear and dispose those of in accordance with law.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "expeditious disposal",
+        "in accordance with law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal disposed of",
+    "final_order": "Petitioner is at liberty to move appropriate application seeking early hearing of said applications, and the learned Trial Court would hear and dispose those of in accordance with law.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 24",
+    "Section 91",
+    "Cr.P.C",
+    "pre-ponement",
+    "expeditious disposal",
+    "Trial Court",
+    "petitioner",
+    "respondent",
+    "learned counsel",
+    "arguments",
+    "direction",
+    "application",
+    "exemption",
+    "just exceptions"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "seeking pre-ponement of hearing",
+    "guidelines for expeditious disposal of applications"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:19:33.432681"
 }

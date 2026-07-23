@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T11:11:21.757515",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sarla Mudgal, President, Kalyani & ... vs Union Of India & Ors on 10 May, 1995",
+  "case_name": "Smt. Sarla Mudgal, President, Kalyani & ... v. Union Of India & Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sarla Mudgal, President, Kalyani & ...",
+    "respondent_defendant": "Union Of India & Ors",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -64,7 +64,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners claimed that the government should endeavour to secure a uniform civil code throughout the territory of India.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -74,39 +74,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnized according to one personal law cannot be dissolved according to another personal law simply because one of the parties has changed their religion.",
+      "held": "I can find no authority for the view that a marriage solemnized according to one personal law can be dissolved according to another personal law simply because one of the two parties has changed his or her religion.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Sayeda Khatoon's case",
+        "Robasa Khanum vs. Khodadad Bomanji Irani (1946 Bombay Law Reporter 864)"
+      ],
       "keywords": [
-        "TODO"
+        "personal law",
+        "marriage dissolution",
+        "religion change"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving mixed marriages"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A spouse cannot force their newly acquired personal law on the other party to a marriage by changing their religion.",
+      "held": "Do then the authorities compel me to hold that one spouse can by changing his or her religious opinions (or purporting to do so) force his or her newly acquired personal law on a party to whom it is entirely alien and who does not want it?",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Smt. Sarla Mudgal, President, Kalyani & ... vs Union Of India & Ors (1995)"
+      ],
+      "keywords": [
+        "personal law",
+        "religion change",
+        "marriage dissolution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases involving religion conversion"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court held that the State shall endeavour to secure for the citizens a uniform civil code through-out the territory of India.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "bigamy",
+    "polygamy",
+    "marriage",
+    "voidable marriage",
+    "void marriage",
+    "Hindu Succession Act",
+    "minority",
+    "guardianship",
+    "family law",
+    "Indian Kanoon",
+    "judicial separation",
+    "separation of property",
+    "matrimonial disputes",
+    "cohabitation",
+    "illegitimate children",
+    "marital status"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on bigamy and polygamy cases",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:31:58.573647"
 }

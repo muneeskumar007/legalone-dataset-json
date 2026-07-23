@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:05.369088",
   "domain": "divorce",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "cheque_bounce": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Dehradun, O.S. No.314 of 2008",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Charanjeet Kaur vs Aminder Pal Singh on 20 May, 2019",
+  "case_name": "Smt. Charanjeet Kaur vs Aminder Pal Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Charanjeet Kaur (wife)",
+    "respondent_defendant": "Aminder Pal Singh (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2003. The wife sought restitution of conjugal rights under Section 9 of the Hindu Marriage Act, 1955. The trial court dismissed her petition and dissolved the marriage. The husband filed a counterclaim which was decreed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A settlement agreement can be reduced to writing and enforced.",
+      "held": "Both the parties have entered into mutual amicable settlement terms whereof are reduced hereunder:",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "amicable",
+        "reduced to writing"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A compromise deed can be enforced once reduced to writing.",
+      "held": "The compromise deed reads as under:",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compromise",
+        "deed",
+        "enforced"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The suit is decreed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The parties entered into a settlement where the judgment and decree dissolving their marriage would remain intact, with the husband paying Rs. 25,00,000/- in permanent alimony and Rs. 2,00,000/- per year for 7 years to his son.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 9",
+    "conjugal rights",
+    "restitution",
+    "Family Court",
+    "Dehradun",
+    "OS No.314 of 2008",
+    "first appeal",
+    "judgment and decree",
+    "marriage dissolution",
+    "counterclaim",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on conjugal rights",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:03:29.188615"
 }

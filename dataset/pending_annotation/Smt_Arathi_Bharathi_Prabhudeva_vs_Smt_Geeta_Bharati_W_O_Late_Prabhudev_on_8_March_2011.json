@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:08:51.117469",
   "domain": "custody",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "custody",
   "domain_scores": {
     "custody": 1,
     "domestic_violence": 1,
@@ -19,20 +19,20 @@
   "case_numbers": [
     "O.S.No.8/2006"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Davanagere, O.S.No.8/2006",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Arathi @ Bharathi Prabhudeva vs Smt. Geeta @ Bharati W/O Late Prabhudev on 8 March, 2011",
+  "case_name": "Smt. Arathi @ Bharathi Prabhudeva vs Smt. Geeta @ Bharati W/O Late Prabhudev",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Arathi @ Bharathi Prabhudeva (mother and natural guardian)",
+    "respondent_defendant": "Smt. Geeta @ Bharati W/O Late Prabhudev (mother) and children (Kum. Megghana, Kum. Adithya)",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are the mother and natural guardian of three minor children. The trial court partly decreed a suit filed by the respondent for declaration and to set aside an earlier judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -42,39 +42,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court's discretion in granting custody to a natural guardian is not unfettered and must be exercised judiciously.",
+      "held": "It is settled law that the court's discretion in granting custody to a natural guardian is not unfettered and must be exercised judiciously, having regard to the best interests of the child.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 28",
+        "Family Court Act — Section 19(1)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "custody",
+        "natural guardian",
+        "best interests of the child"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "child custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court's primary concern in granting custody is the best interests of the child.",
+      "held": "This Court holds that the primary concern in granting custody to a natural guardian or otherwise, is the best interests of the child.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 28",
+        "Family Court Act — Section 19(1)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "best interests of the child",
+        "child custody"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "child custody disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal was dismissed as the appellant failed to comply with an earlier order dated 15.12.2010.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "custody",
+    "minor children",
+    "natural guardian",
+    "guardian ad litem",
+    "family court",
+    "child custody dispute",
+    "joint custody",
+    "sole custody",
+    "best interests of the child",
+    "Section 7 Hindu Minority and Guardianship Act",
+    "Section 12 Hindu Minority and Guardianship Act",
+    "Latin maxim: in loco parentis",
+    "parental rights",
+    "parenting plan",
+    "co-parenting",
+    "child's welfare"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a custody petition",
+    "advising on joint vs sole custody",
+    "assisting with co-parenting arrangements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:40:56.480262"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:09.852993",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 2,
     "domestic_violence": 1,
@@ -19,13 +19,13 @@
     "Virendra Kumar Mathur J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Bandikui, District Dausa (Civil Misc. Case No.7/2016)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Reetu vs Mahendra Puri on 10 November, 2017",
+  "case_name": "Smt Reetu vs Mahendra Puri",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Reetu, wife",
+    "respondent_defendant": "Mahendra Puri, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized around 12 years ago at Sri Ganganagar and out of the wedlock, one female child born. The respondent has deserted the petitioner and she was also maltreated for demand of dowry.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party cannot harass the other party by filing multiple cases in different courts.",
+      "held": "The respondent has filed three different cases against the petitioner, out of which two are pending adjudication at Dausa. It is contended that this Court in Criminal Misc. Transfer Petition No.07/2016 vide order dated 29.09.2016 directed to send record of Criminal Case No.535/2010 {State v. Mahendra Puri} to the court of Chief Judicial Magistrate, Dausa and placed on record copy of order dated 29.09.2016 as Annex.R/1.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act",
+        "Protection of Women from Domestic Violence Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "harassment",
+        "multiple cases",
+        "different courts"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot use the court system to harass the other party by filing multiple transfer petitions.",
+      "held": "The petitioner has filed this Transfer Petition. A copy of the order dated 03.02.2015 is also placed on record as Annex.R/3.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "harassment",
+        "multiple transfer petitions"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The matter is transferred to the Family Court, Sri Ganganagar.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Transfer Application",
+    "CPC",
+    "sec.13",
+    "sec.24",
+    "Additional District Judge",
+    "District Judge",
+    "Bandikui",
+    "Sri Ganganagar",
+    "marriage",
+    "civil misc case",
+    "family law",
+    "matrimonial dispute",
+    "wife's rights",
+    "DV Act",
+    "domestic violence",
+    "alimony",
+    "maintenance",
+    "custody",
+    "child support"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "advising on domestic violence cases under DV Act",
+    "preparing a transfer application for matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:12:37.930267"
 }

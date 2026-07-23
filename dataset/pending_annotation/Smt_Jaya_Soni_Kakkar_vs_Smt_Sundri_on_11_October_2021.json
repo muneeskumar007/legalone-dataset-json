@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:09:36.213807",
   "domain": "property_dispute",
-  "sub_domain": "partition",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS. DEEKSHA RAO : CIVIL JUDGE-04: CENTRAL DISTRICT: TIS HAZARI COURT: NEW DELHI (CS No.98091/2016)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Jaya Soni Kakkar vs Smt. Sundri on 11 October, 2021",
+  "case_name": "Smt. Jaya Soni Kakkar vs Smt. Sundri",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Jaya Soni Kakkar, plaintiff",
+    "respondent_defendant": "Smt. Sundri, defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff claimed possession, recovery of damages/mesne profits and permanent injunction against the defendant over a plot measuring 400 Sq Yards in village Burari.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the plaintiff to prove their case.",
+      "held": "I have heard the arguments made by the Ld. Counsel for the Plaintiff as well as the Ld. Counsel for the defendant and have also perused the case record in detail.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "plaintiff"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "property_dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court will consider the evidence/material available on record to make findings.",
+      "held": "On the basis of the evidence/material available on record, the issue wise findings of this Court are as under:",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "record"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "property_dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court granted the relief claimed by the plaintiff.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Indian Evidence Act",
+    "Registration Act",
+    "possession",
+    "recovery of damages",
+    "mesne profits",
+    "permanent injunction",
+    "joint owners",
+    "plot",
+    "village Burari",
+    "burari property dispute",
+    "family property",
+    "partition suit",
+    " Hindu Succession Act",
+    "Section 6 Hindu Marriage Act",
+    "Section 17 Indian Evidence Act",
+    "Section 49 Registration Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on family property disputes",
+    "preparing for a property dispute hearing"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:43:11.569549"
 }

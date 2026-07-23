@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:09:07.010236",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Deepa W/O Shivayogi Paramashetti vs Sri Shivayogi S/O Ishwarappa ... on 5 October, 2023",
+  "case_name": "Smt Deepa W/O Shivayogi Paramashetti vs Sri Shivayogi S/O Ishwarappa",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Deepa W/O Shivayogi Paramashetti (wife)",
+    "respondent_defendant": "Sri. Shivayogi S/O Ishwarappa Paramasheti (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties was solemnized on 16.11.2016, but they have been living separately since then. Petitioner seeks transfer of M.C.No.41/2022 from Senior Civil Judge and JMFC, Banahatti to Senior Civil Judge and JMFC, Raibag.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking transfer of a case to establish that the transfer is necessary in the interest of justice and equity.",
+      "held": "It is not disputed that the husband is gainfully employed and has an independent source of income. The wife is admittedly living along with her parents and she has no independent source of income.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "interest of justice",
+        "equity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not transfer a case unless the transfer is necessary in the interest of justice and equity.",
+      "held": "I have considered the contentions put forth by both learned counsel and perused the material available on record.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "transfer",
+        "interest of justice",
+        "equity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The present petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "matrimonial case",
+    "transfer petition",
+    "Section 24 CPC",
+    "justice",
+    "equity",
+    "marriage",
+    "spouse",
+    "family law",
+    "Indian Kanoon",
+    "High Court",
+    "Karnataka High Court",
+    "Dharwad Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition under Section 24 CPC",
+    "advising on divorce proceedings in Karnataka High Court",
+    "assisting with family law matters in Dharwad Bench"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:07:42.915045"
 }

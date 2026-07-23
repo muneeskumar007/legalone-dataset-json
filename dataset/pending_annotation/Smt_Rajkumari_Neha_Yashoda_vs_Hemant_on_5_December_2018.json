@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:11:02.286247",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "will_succession": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Rajkumari @ Neha @ Yashoda vs Hemant on 5 December, 2018",
+  "case_name": "Smt. Rajkumari @ Neha @ Yashoda vs Hemant",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Rajkumari @ Neha @ Yashoda (wife)",
+    "respondent_defendant": "Hemant (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant and respondent are also personally present. During conciliation proceedings, the respondent is determined not to reconcile.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,57 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Where conciliation proceedings fail, the appeal must be set out for hearing.",
+      "held": "In view whereof, we have no option but to set out the present appeal for hearing, since we have already condoned the delay and admitted the appeal.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conciliation",
+        "appeal",
+        "delay"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal set out for hearing",
+    "final_order": "Respondent will not be benefitted by Section 15 of Hindu Marriage Act, 1955 and shall not remarry during pendency of this appeal. Let this appeal be set out for hearing in due course.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "conciliation proceedings",
+    "reconciliation",
+    "Section 15",
+    "remarriage",
+    "pendency of appeal",
+    "delay condoned",
+    "appeal hearing",
+    "family law",
+    "marital disputes",
+    "Indian Kanoon",
+    "judicial discretion"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeals",
+    "advising on remarriage during pendency of appeal",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T15:03:19.701209"
 }

@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-07-15T11:08:28.948039",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 3,
@@ -24,13 +24,13 @@
     "O.P.No.10 of 2005",
     "O.P.No.33 of 2002"
   ],
-  "trial_court": "",
+  "trial_court": "Sub-Judge, Pudukottai (H.M.O.P.Nos.10 of 2005 and 33 of 2002)",
   "reserved_on": "19.07.2018",
   "delivered_on": "14.09.2018",
-  "case_name": "Sivasankaran vs Santhimeenal on 14 September, 2018",
+  "case_name": "Sivasankaran vs Santhimeenal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sivasankaran, husband",
+    "respondent_defendant": "Santhimeenal, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -72,7 +72,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2002. The respondent suddenly left the wedding ceremony without a reason, causing mental cruelty to the petitioner. The trial court granted restitution of conjugal rights to the respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -82,39 +82,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party seeking divorce must establish the ground for which they are asking for divorce.",
+      "held": "The first appellate Court, after appreciating the oral and documentary evidence, rightly set aside the order of the trial Court and dismissed the petition filed by the appellant for divorce by observing that the appellant has failed to establish the ground for which he asked for divorce.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section X"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Vishnu Dutt Sharma v. Manju Sharma, (2009) 6 SCC 379",
+        "Veerasamy v. Jayanthi @ Jayalakshmi, 2018(2) MWN (Civil) 357"
+      ],
       "keywords": [
-        "TODO"
+        "divorce",
+        "establish ground",
+        "failed to establish"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking restitution of conjugal rights must show a sincere interest in living with the other party.",
+      "held": "The learned counsel would submit that the appellant has not taken interest in living with the respondent. In fact, in his cross-examination, the appellant himself admitted that two days after the marriage, he tried for living with the respondent and on the third day, he decided for divorce, which would clearly show that the appellant has not shown sincere interest in living with the respondent.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section X"
+      ],
+      "cited_cases": [
+        "Savitri Pandey v. Porem Chandra Pandey, (2002) 2 SCC 73",
+        "Prakash Chand Sharma v. Vimlesh, 1995 Supp (4) SCC 642"
+      ],
+      "keywords": [
+        "restitution of conjugal rights",
+        "sincere interest",
+        "living together"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "conjugal rights cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed and the order granting restitution of conjugal rights was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Indian Evidence Act",
+    "1872",
+    "Section 28",
+    "Section 100",
+    "CMSA",
+    "Additional District Judge",
+    "Sub-Judge",
+    "Pudukottai",
+    "marriage",
+    "separation",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on alimony and maintenance",
+    "assisting with property division in divorce cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:23:04.378326"
 }

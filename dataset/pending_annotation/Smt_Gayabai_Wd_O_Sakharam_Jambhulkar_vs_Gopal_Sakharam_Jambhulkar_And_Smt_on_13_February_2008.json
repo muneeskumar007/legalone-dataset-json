@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:09:18.913766",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 8,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Gayabai Wd/O Sakharam Jambhulkar ... vs Gopal Sakharam Jambhulkar And Smt. ... on 13 February, 2008",
+  "case_name": "Smt. Gayabai Wd/O Sakharam Jambhulkar vs Gopal Sakharam Jambhulkar And Smt.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Gayabai Wd/O Sakharam Jambhulkar",
+    "respondent_defendant": "Gopal Sakharam Jambhulkar And Smt.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Gayabai claimed to be second wife of Sakharam and plaintiff Nos. 2-6 claimed to be children born to Gayabai from Sakharam. Suit filed for declaration, partition and separate possession. Trial Court decreed the suit partly.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Daughters are coparceners and entitled to a share equal to a son.",
+      "held": "Section 29 of Hindu Succession Act treats daughters as coparceners and gives them share equal to a son.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956 — Section 29"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "coparceners",
+        "share",
+        "daughters",
+        "sons"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "partition cases involving Hindu coparcenary property"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Illegitimate sons of Hindus are entitled to equal share with natural sons and can be treated as coparceners.",
+      "held": "Illegitimate sons of Hindu are entitled to equal share with natural son, and therefore, can be treated as coparceners.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [
+        "Rasala Surya Prakasarao and Ors. v. Rasala Venkateshwararao and Ors."
+      ],
+      "keywords": [
+        "illegitimate sons",
+        "natural sons",
+        "coparceners"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "partition cases involving Hindu illegitimate sons"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Second appeal No. 558 of 2004 has been disposed of.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Code of Civil Procedure",
+    "Will",
+    "joint undivided family property",
+    "Section 30",
+    "regular civil suit",
+    "declaration",
+    "separate possession",
+    "ad hoc Additional District Judge",
+    "Bhandara",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "guidelines for executing wills in joint family property",
+    "practical tips for advocates handling regular civil suits"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:26:31.774196"
 }

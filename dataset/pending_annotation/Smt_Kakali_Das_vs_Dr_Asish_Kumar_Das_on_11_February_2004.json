@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:09:40.440588",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "cheque_bounce": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Judge at Port Blair, District Andaman in Matrimonial Suit No. 5 of 1998",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Kakali Das vs Dr. Asish Kumar Das on 11 February, 2004",
+  "case_name": "Smt. Kakali Das vs Dr. Asish Kumar Das",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. Asish Kumar Das (husband)",
+    "respondent_defendant": "Smt. Kakali Das (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnised according to Hindu rites and customs. The couple had a male child. The husband filed an application under Section 9 of the Hindu Marriage Act, 1955 for a decree for restitution of conjugal rights against the wife. The trial court decreed the suit on contest and granted the husband a decree for divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A husband is entitled to get a decree for divorce on the ground of cruelty if he establishes his case by sufficient and cogent evidence.",
+      "held": "The husband, therefore, established his case of mental cruelty by sufficient and cogent evidence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(i-a)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mental cruelty",
+        "sufficient evidence",
+        "cogent evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A wife's allegations touching the character of her husband, made in response to his similar allegations against her, can be considered as sufficient ground for a decree of divorce.",
+      "held": "It was palpably clear that making allegation of illicit relationship without any basis or foundation was itself sufficient ground to pass a decree of divorce.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(i-a)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "allegations",
+        "character",
+        "illicit relationship"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage between the parties stood dissolved.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "matrimonial suit",
+    "marriage dissolution",
+    "custody",
+    "child born in wedlock",
+    "family law",
+    "Indian court judgment",
+    "Calcutta High Court",
+    "Port Blair",
+    "District Judge",
+    "Andaman",
+    "Nikah",
+    "Hindu rites and customs",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu marriage law",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T12:53:09.540305"
 }

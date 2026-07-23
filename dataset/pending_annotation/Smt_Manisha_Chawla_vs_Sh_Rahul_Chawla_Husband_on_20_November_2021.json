@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:10:08.056208",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Ms. Deepti Devesh, Ld. MM (Mahila Court− No.1), Shahdara, KKD Courts, Delhi, Crl. (A) No. 64/2019, New Crl. (A) No. 229/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Manisha Chawla vs Sh. Rahul Chawla (Husband) on 20 November, 2021",
+  "case_name": "Smt. Manisha Chawla vs Sh. Rahul Chawla (Husband)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Manisha Chawla, wife",
+    "respondent_defendant": "Sh. Rahul Chawla (husband), S/o. Sh. Rajesh Chawla, Father in-law, Smt. Sneha Chawla, W/o. Sh. Rajesh Chawla, Sh. Gaurav Chawla, S/o. Sh. Rajesh Chawla, Ms. Avneet Chawla, Sister in-law/Jethani, Ms. Richa Chawla, sister in-law/Nanad",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant wife tried to find a suitable accommodation but could not succeed. She is entitled for same level of accommodation as enjoyed by respondents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking condonation of delay to show sufficient cause for the delay.",
+      "held": "I have considered the submissions made in application u/s. 5 of Limitation Act for condonation of delay of 7 days in filing the appeal and in view of reasons mentioned therein, the delay of 7 days in filing the appeal is condoned.",
       "applicable_acts_sections": [
-        "TODO"
+        "Limitation Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "condonation",
+        "delay",
+        "sufficient cause"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "appeal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may condone the delay in filing an appeal if sufficient cause is shown.",
+      "held": "the delay of 7 days in filing the appeal is condoned.",
+      "applicable_acts_sections": [
+        "Limitation Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "condonation",
+        "delay",
+        "sufficient cause"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Respondent no.1 was directed to pay a sum of Rs. 2,000/− per month to the complainant/appellant no.1 towards arrangement of alternative accommodation.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "domestic violence",
+    "Protection of Women From Domestic Violence Act",
+    "2005",
+    "Limitation Act",
+    "1963",
+    "interim order",
+    "Mahila Court",
+    "Shahdara",
+    "KKD Courts",
+    "Delhi",
+    "Section 29",
+    "DV Act",
+    "family court",
+    "district court",
+    "single judge",
+    "division bench",
+    "Supreme Court",
+    "landmark"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on domestic violence cases",
+    "appealing interim orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T14:04:36.098834"
 }

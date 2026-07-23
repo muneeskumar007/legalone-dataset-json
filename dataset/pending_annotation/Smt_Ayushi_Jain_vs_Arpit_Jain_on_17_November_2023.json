@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:08:54.958002",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Principal Judge, Family Court, Court No.3, Ghaziabad, Case No.1443 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Ayushi Jain vs Arpit Jain on 17 November, 2023",
+  "case_name": "Smt. Ayushi Jain vs Arpit Jain",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Ayushi Jain (wife)",
+    "respondent_defendant": "Arpit Jain (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant-wife sought transfer of a divorce case under the Hindu Marriage Act pending in the court of Additional Principal Judge, Family Court, Court No.3, Ghaziabad to the court of Principal Judge, Family Court, Baghpat.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,63 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may transfer a case from one judge to another.",
+      "held": "In view of the consent given by the learned counsel for the opposite party, Case No.1443 of 2021 (Arpit Jain Vs. Smt. Ayushi Jain), under Section 13 (1) (ia) & 13 (1) (ib) of the Hindu Marriage Act is transferred from the court of Additional Principal Judge, Family Court, Court No.3, Ghaziabad to the court of Principal Judge, Family Court, Baghpat.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "case transfer",
+        "family court",
+        "judicial transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Transfer Application allowed",
+    "final_order": "The record was remitted to the court of Principal Judge, Family Court, Baghpat for its disposal. No order as to costs.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "transfer application",
+    "Hindu Marriage Act",
+    "Section 13",
+    "family court",
+    "Ghaziabad",
+    "Baghpat",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "spousal rights",
+    "custody",
+    "maintenance",
+    "property division",
+    "joint family",
+    "separation",
+    "annulment",
+    "nullity",
+    "voidable marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing transfer application",
+    "advising on spousal rights"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T11:45:21.109211"
 }
