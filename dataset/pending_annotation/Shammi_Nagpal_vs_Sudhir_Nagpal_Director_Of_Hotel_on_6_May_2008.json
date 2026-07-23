@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:06:42.374519",
   "domain": "property_dispute",
-  "sub_domain": "partition",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shammi Nagpal vs Sudhir Nagpal, Director Of Hotel ... on 6 May, 2008",
+  "case_name": "Shammi Nagpal vs Sudhir Nagpal, Director Of Hotel ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shammi Nagpal (wife)",
+    "respondent_defendant": "Sudhir Nagpal, Director Of Hotel (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Husband and wife got married in 1987. They resided with the husband's parents till 1993. The husband was appointed as IT Advisor of Indian Hotels Co.Ltd. The wife was dispossessed from the suit premises in March, 2008.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,119 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A party moving a civil court for possession must prove his/her legal entitlement to recover possession.",
+      "held": "Mr Chhagla submitted, a party moving a civil court for possession must prove his/her legal entitlement to recover possession and the possession cannot be granted to a stranger or trespasser.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Vinodkumar Jain v. Cox & Kings (India) Ltd and Ors., 1995 (84) Comp.Cas"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "possession",
+        "civil court",
+        "legal entitlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A licensee does not have juridical possession and on termination of his licence he becomes a trespasser.",
+      "held": "He submitted, a licensee does not have juridical possession and on termination of his licence he becomes a trespasser and, therefore, he is not entitled to relief under Section 6.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Lalita Jalan v. Bombay Gas Company Ltd"
+      ],
+      "keywords": [
+        "licensee",
+        "juridical possession",
+        "termination"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A wife of an employee, during her husband's lifetime, is permitted a right of occupancy in the property of the company only by virtue of being a family member of the employee.",
+      "held": "He submitted, assuming that the plaintiff is defendant no. 1's wife, a wife of an employee, during her husband's life time, is permitted a right of occupancy in the property of the company only by virtue of being a family member of the employee.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Shammi Nagpal vs Sudhir Nagpal, Director Of Hotel ... on 6 May, 2008"
+      ],
+      "keywords": [
+        "wife",
+        "employee",
+        "occupancy",
+        "family member"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Once the right of an employee to remain in possession of the property gets extinguished, a wife or other family members in occupation cannot claim any independent right.",
+      "held": "He submitted, once the right of an employee to remain in possession of the property gets extinguished either on account of termination of services or otherwise, a wife or other family members in occupation cannot claim any independent right and any such occupation after extinguishment of the right of an employee would in law be unlawful.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Shammi Nagpal vs Sudhir Nagpal, Director Of Hotel ... on 6 May, 2008"
+      ],
+      "keywords": [
+        "employee",
+        "right to remain",
+        "independent right"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court directed the defendants to hand over and restore the vacant and peaceful possession of the premises to the plaintiff.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "specific_relief",
+    "dv_act",
+    "possession",
+    "forcible_dispossession",
+    "movable_furniture",
+    "court_receiver",
+    "receiver_appointment",
+    "injunction",
+    "commissioner_inspection",
+    "inventory",
+    "suit_premises",
+    "flat_no_209",
+    "olympus_apartments",
+    "altamound_road",
+    "mumbai",
+    "specific_relief_act_1963",
+    "protection_of_women_from_dv_act_2005"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting for property disputes",
+    "drafting for specific relief cases",
+    "drafting for DV Act cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:36:37.818331"
 }

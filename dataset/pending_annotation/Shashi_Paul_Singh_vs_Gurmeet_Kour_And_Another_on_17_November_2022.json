@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:06:51.499522",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 4,
@@ -24,13 +24,13 @@
     "Vinod Chatterji Koul J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Chief Judicial Magistrate, Budgam (CrlM no. 885/2021)",
   "reserved_on": "28.09.2022",
   "delivered_on": "17.11.2022",
-  "case_name": "Shashi Paul Singh vs Gurmeet Kour And Another on 17 November, 2022",
+  "case_name": "Shashi Paul Singh vs Gurmeet Kour And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shashi Paul Singh — husband",
+    "respondent_defendant": "Gurmeet Kour and another — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner challenged the order upholding the maintenance amount fixed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse who leaves the other without just cause and refuses to resume matrimonial ties may not claim maintenance.",
+      "held": "The record of the Trial court and the Revisional court would show that the respondent no.1 had been subjected to cruelty by the petitioner herein and he neglected to maintain her as well as their child.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "matrimonial ties",
+        "cruelty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's refusal to resume matrimonial relations without just cause may be considered a ground for denying maintenance.",
+      "held": "The refusal of the respondent no.1 is main ground taken up to challenge the orders passed by the Trial court as well as by the Revisional court.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "matrimonial relations",
+        "maintenance",
+        "refusal"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned orders were set aside and the matter was remanded to the trial court for fresh consideration.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Section 482 Cr.PC",
+    "Section 31.01.2020",
+    "Chief Judicial Magistrate",
+    "Trial Court",
+    "Revisional Court",
+    "Principal Sessions Judge",
+    "Budgam",
+    "CrPC",
+    "family court",
+    "judicial magistrate",
+    "petitioner",
+    "respondent",
+    "advocate",
+    "loan",
+    "salary",
+    "deductions",
+    "quantum",
+    "arbitrary",
+    "mechanical",
+    "exorbitant",
+    "liabilities"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance orders",
+    "appealing court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:46:45.958680"
 }

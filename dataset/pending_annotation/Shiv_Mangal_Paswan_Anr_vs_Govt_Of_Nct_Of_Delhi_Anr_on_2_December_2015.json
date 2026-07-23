@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:07:19.444391",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shiv Mangal Paswan & Anr. vs Govt. Of Nct Of Delhi & Anr. on 2 December, 2015",
+  "case_name": "Shiv Mangal Paswan & Anr. vs Govt. Of Nct Of Delhi & Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shiv Mangal Paswan & Anr. (husband, wife)",
+    "respondent_defendant": "Govt. Of Nct Of Delhi & Anr. (government agency)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners seek mandamus to register their marriage, refused due to wife's age at time of marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A general direction from this Court would help in improving the software.",
+      "held": "",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "software",
+        "improvement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving computerized registration of marriage"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The law does not make the marriage void if the parties to the marriage or any of them have/has not completed the age prescribed in Section 5.",
+      "held": "",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 11"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "age",
+        "Section 5"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "cases involving Hindu marriage law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Notice is accepted by the counsel for the respondents. Counter affidavit be filed within two weeks.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "marriageable age",
+    "mandamus",
+    "registration of marriage",
+    "divorce",
+    "family law",
+    "Section 5 Hindu Marriage Act",
+    "Section 7 Hindu Marriage Act",
+    "Section 11 Hindu Marriage Act",
+    "Section 12 Hindu Marriage Act",
+    "Section 13 Hindu Marriage Act",
+    "Section 14 Hindu Marriage Act",
+    "Section 15 Hindu Marriage Act",
+    "Section 16 Hindu Marriage Act",
+    "Section 17 Hindu Marriage Act",
+    "Section 18 Hindu Marriage Act",
+    "Section 19 Hindu Marriage Act",
+    "Section 20 Hindu Marriage Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for mandamus to register a marriage",
+    "advising on the validity of a marriage under Hindu Marriage Act",
+    "assisting in a divorce case involving a registered marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:04:45.675166"
 }

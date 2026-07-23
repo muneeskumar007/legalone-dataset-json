@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:07:45.674122",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Thane in Petition No.A-330/2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri. Pravinkumar Diliprao Bhosale vs Mrs. Rupali Pravinkumar Bhosale on 20 December, 2019",
+  "case_name": "Shri. Pravinkumar Diliprao Bhosale vs Mrs. Rupali Pravinkumar Bhosale",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri. Pravinkumar Diliprao Bhosale (husband)",
+    "respondent_defendant": "Mrs. Rupali Pravinkumar Bhosale (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The Appellant husband challenges the judgment and decree dated 28.06.2019 passed by the Family Court, Thane dismissing his petition for divorce under Section 13(1)(ia)(ib) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the respondent to prove the allegations made in the complaint.",
+      "held": "It is settled law that the burden lies on the complainant to prove the allegations made in the complaint.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code, 1860"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "complaint",
+        "allegations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A consent term is a valid and binding agreement between the parties.",
+      "held": "The Appellant has paid a lump sum permanent alimony amounting to Rs.3,00,000/- by way of Demand Draft bearing No.013944, dated 13.12.2019, drawn on IDBI Bank, Thane-Ghodbunder Road Branch, Thane, to the Respondent herein.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent",
+        "agreement",
+        "binding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal settled out of court",
+    "final_order": "The parties entered into witness box and admitted the contents and execution of the Consent Terms. Same are taken on record and marked 'X' for identification.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(ia)(ib)",
+    "Consent Terms",
+    "Family Court",
+    "Thane",
+    "Appellant",
+    "Respondent",
+    "Petition No.A-330/2014",
+    "Praecipe",
+    "Production Board",
+    "Latin Maxim: 'actus curiae neminem addicit'",
+    "Indian Penal Code",
+    "1860"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:33:58.890922"
 }

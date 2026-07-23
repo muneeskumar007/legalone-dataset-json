@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:08:18.191884",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "domestic_violence",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of MS Neena Bansal Krishna, Principal District & Sessions Judge, South East: Saket Court, New Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sh. Hemant Chauhan S/O Sh. Rajpal Singh vs Ms. Meenu @ Anita W/O Sh. Hemant Chauhan on 26 February, 2021",
+  "case_name": "Sh. Hemant Chauhan S/O Sh. Rajpal Singh vs Ms. Meenu @ Anita W/O Sh. Hemant Chauhan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Hemant Chauhan S/o Sh. Rajpal Singh (husband)",
+    "respondent_defendant": "Ms. Meenu @ Anita W/o Sh. Hemant Chauhan (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant filed complaint under Section 12 of the Protection of Women from Domestic Violence Act, 2005. Appellant/husband allegedly gave severe beatings and made demands for Rs. 10 lacs or to leave the house. Complainant was forced to undergo abortion and was thrown out of shared household.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the complainant to prove the allegations made in the complaint.",
+      "held": "Her own depositions prove that she was never the legally wedded wife of Appellant and therefore is not entitled to any relief under the Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "complainant",
+        "allegations"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "domestic violence cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A document's authenticity can be questioned if it is not corroborated by other evidence.",
+      "held": "The entire case of the Complainant rests on her sole testimony which is not corroborated by any cogent document.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "document",
+        "authenticity",
+        "corroboration"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cases involving disputed documents"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Monetary relief, compensation, protection and residence order under Section 12 of the Act in favour of the Respondent/Complainant were granted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Protection of Women from Domestic Violence Act",
+    "Section 12",
+    "Section 29",
+    "Domestic Violence",
+    "Monetary Relief",
+    "Compensation",
+    "Residence Order",
+    "Mental Disturbance",
+    "Marriage",
+    "Divorce",
+    "Family Court",
+    "Custody",
+    "Child Welfare",
+    "Bihar",
+    "New Delhi",
+    "West Patel Nagar",
+    "Chhatarpur"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "advising on divorce and custody matters",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:22:00.425921"
 }

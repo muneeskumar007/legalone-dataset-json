@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:06:57.178854",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "JMFC, Jabalpur (Criminal Complaint Case Pr No.181/2015)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shekhar Nigam vs Smt. Ekta Nigam on 5 March, 2018",
+  "case_name": "Shekhar Nigam vs Smt. Ekta Nigam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shekhar Nigam, husband",
+    "respondent_defendant": "Smt. Ekta Nigam, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's marriage with respondent was solemnised on 20.11.2009. Respondent lodged a criminal complaint under Section 498-A of the IPC and Sections 3 and 4 of the Dowry Prohibition Act on 17.07.2012. Petitioner filed a petition for divorce under C Section 13 of the Hindu Marriage Act. Respondent also lodged an application under Section 125 of the Cr.P.C. on 06.02.2013.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,106 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife who is leading an adulterous life has no right to maintenance.",
+      "held": "Though the divorced wife is also entitled for maintenance till she enters into a second marriage, but a wife who is leading an adulterous life, has no right to maintenance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13",
+        "Cr.P.C. — Section 125"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "adultery",
+        "maintenance",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The principle of granting maintenance to the non-applicant wife is guided by the same principles provided under Section 125 of the Cr.P.C.",
+      "held": "If the Magistrate is satisfied that the application prima facie discloses that the husband is committing or has committed the act of domestic violence or there is likelihood that the husband may commit an act of domestic violence, he may grant an ex parte order on the basis of affidavit as may be prescribed in such form.",
+      "applicable_acts_sections": [
+        "Cr.P.C. — Section 125",
+        "Protection of Women from Domestic Violence Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "domestic violence",
+        "Magistrate"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases",
+        "domestic violence cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Protection of Women from Domestic Violence Act, 2005 does not create any additional right to claim maintenance on the part of the aggrieved person.",
+      "held": "It only puts the enforcement of existing right of maintenance available to an aggrieved person on fast track.",
+      "applicable_acts_sections": [
+        "Protection of Women from Domestic Violence Act"
+      ],
+      "cited_cases": [
+        "Rachna Kathuria v. Ramesh Kathuria, (2010) X SCC Y"
+      ],
+      "keywords": [
+        "maintenance",
+        "domestic violence",
+        "aggrieved person"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases",
+        "domestic violence cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "this petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order dated 13.07.2015 passed in Criminal Complaint Case Pr No.181/2015 is quashed and consequential proceeding is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from Domestic Violence Act",
+    "Section 482 Cr.P.C.",
+    "Section 31 Protection of Women from Domestic Violence Act",
+    "Section 13 Hindu Marriage Act",
+    "interim maintenance",
+    "domestic violence",
+    "marriage annulment",
+    "matrimonial dispute",
+    "family law",
+    "Indian court judgment",
+    "judicial review",
+    "quash order",
+    "criminal complaint",
+    "DV Act",
+    "Hindu marriage",
+    "divorce petition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on domestic violence cases",
+    "representing clients in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:52:10.127699"
 }

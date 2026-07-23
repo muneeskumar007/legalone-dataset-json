@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:06:51.833733",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shathya Sheela W/O Late Shivshankar ... vs Superintendent Engineer And Ors on 23 July, 2024",
+  "case_name": "Shathya Sheela W/O Late Shivshankar ... vs Superintendent Engineer And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SMT. SHATHYA SHEELA, W/O LATE SHIVSHANKAR INGANKAL",
+    "respondent_defendant": "BASALINGAPPA 1. SUPERINTENDENT ENGINEER, SHIVARAJ, DHUTTARGAON O AND M GESCOM, etc.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner seeks to set aside an order dated 11.03.2020 and quash an endorsement dated 17.03.2017. She also prays for direction to respondents to consider her application seeking compassionate appointment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A compromise decree or settlement cannot determine eligibility to be appointed on compassionate basis.",
+      "held": "It is to be held that a compromise decree or settlement arrived at cannot determine the eligibility to be appointed on compassionate basis.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compassionate appointment",
+        "compromise decree",
+        "settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The second marriage while the first spouse is living is held to be void under Section 5(1) of Hindu Marriage Act, 1955.",
+      "held": "It was further stated that the legitimacy of the children of the void marriages is only for the purpose of claiming right in the property.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "void marriage",
+        "Section 5(1)"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed. The impugned order and endorsement are set aside. Respondents are directed to consider the petitioner's application seeking compassionate appointment.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "maintenance",
+    "alimony",
+    "custody",
+    "joint family",
+    "separation",
+    "matrimonial dispute",
+    "Section 13(1)(ia)",
+    "Section 27",
+    "Section 28",
+    "Section 29",
+    "Section 30",
+    "Section 31",
+    "Section 32",
+    "Section 33",
+    "Section 34",
+    "Section 35"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:47:34.588456"
 }

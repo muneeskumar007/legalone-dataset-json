@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T11:07:34.079435",
   "domain": "partition",
-  "sub_domain": "divorce",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 8,
@@ -33,10 +33,10 @@
   "trial_court": "",
   "reserved_on": "16.02.2024",
   "delivered_on": "",
-  "case_name": "Shri Jayarama Reddy vs Shri G R Jaganna on 21 June, 2024",
+  "case_name": "Shri Jayarama Reddy vs Shri G R Jaganna",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Jayarama Reddy, S/O G R Jaganana (husband)",
+    "respondent_defendant": "Smt. Gayathri, D/O G R Jaganana (wife), and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -71,7 +71,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife, who filed a suit for partition. The trial court decided in favor of the respondent. This appeal is against the concurrent judgment and decree.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -81,39 +81,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A daughter of the first wife is entitled to a definite share in the ancestral and joint family properties.",
+      "held": "Though plaintiff Gayathri has denied that the plaintiffs of the other suit are the children of defendant No.1 S.R. Jaganna, in his written statement, he has admitted the said fact and also deposed to that effect.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 5",
+        "Hindu Succession Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "ancestral properties",
+        "joint family properties",
+        "daughter's share"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases",
+        "family property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The division of the suit properties must be in accordance with law.",
+      "held": "Whether the division of the suit properties is in accordance with law",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "RSA.No.2150/2008",
+        "RSA.No.2033/2013"
+      ],
+      "keywords": [
+        "suit properties",
+        "division",
+        "law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases",
+        "family property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeals were allowed in the interest of justice.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Code of Criminal Procedure",
+    "RSA",
+    "CPC",
+    "Section 100",
+    "judgment",
+    "decree",
+    "appeal",
+    "justice",
+    "family court",
+    "property division",
+    "joint family",
+    "coparceners",
+    "partition suit",
+    " Hindu law",
+    "family settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on property division in a joint family",
+    "representing clients in a family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:23:35.390268"
 }

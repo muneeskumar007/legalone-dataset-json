@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:07:21.446155",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1
   },
@@ -18,13 +18,13 @@
     "Vijaykumar A.Patil J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Hubli, M.C. No.180/2012",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shobha W/O Chidanand Bhagwat vs Chidanand S/O M Bhagwat on 8 June, 2023",
+  "case_name": "Shobha W/O Chidanand Bhagwat vs Chidanand S/O M Bhagwat",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shobha, wife",
+    "respondent_defendant": "Chidanand S/O M Bhagwat, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Shobha filed a petition under Sec. 13(1)(ib) of Hindu Marriage Act, 1955, which was allowed by the trial court. This appeal is against that judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition under Section 13(1)(ib) of the Hindu Marriage Act, 1955, can be allowed if the respondent has wilfully neglected his duties as a husband.",
+      "held": "The respondent has failed to discharge his marital obligations and has wilfully neglected his duties as a husband. It is held that the respondent's conduct is such that it justifies the grant of divorce.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(ib)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "wilful neglect",
+        "marital obligations",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where respondent has neglected duties"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the respondent to prove that he has not wilfully neglected his duties as a husband.",
+      "held": "The respondent has failed to discharge his marital obligations and has not been able to prove that he has not wilfully neglected his duties as a husband. The burden lies on him to prove that he has not committed any matrimonial misconduct.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden of proof",
+        "wilful neglect",
+        "matrimonial misconduct"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases where respondent has neglected duties"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is\ndismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is dismissed for non-prosecution.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 13(1)(ib)",
+    "Section 19(1)",
+    "M.C. No.180/2012",
+    "MFA No.100191 of 2015",
+    "Teacher",
+    "Railway Service",
+    "Government KANNADA BOYS AND GIRLS SCHOOL NO.15",
+    "NagashettiKoppa",
+    "Hubballi",
+    "Dharwad",
+    "Bengeri"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to divorce petition",
+    "appealing family court decision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:12:17.218122"
 }

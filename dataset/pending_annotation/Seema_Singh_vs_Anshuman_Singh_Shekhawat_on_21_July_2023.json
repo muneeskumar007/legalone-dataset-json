@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:06:17.511779",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1
@@ -18,13 +18,13 @@
     "Rekha Borana J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.3, District Bikaner (Civil Case No.385/2019)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Seema Singh vs Anshuman Singh Shekhawat ... on 21 July, 2023",
+  "case_name": "Seema Singh vs Anshuman Singh Shekhawat",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Seema Singh, wife",
+    "respondent_defendant": "Anshuman Singh Shekhawat, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,39 +50,57 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may transfer a case from one family court to another with the consent of the parties.",
+      "held": "In view of the specific consent given by learned counsel for the respondent, the present transfer petition is allowed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "family court",
+        "consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Transfer petition allowed",
+    "final_order": "The Civil Case No.385/2019 pending before Family Court No.3, Bikaner is directed to be transferred to Family Court, Jaipur.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Family Court",
+    "Jaipur",
+    "Bikaner",
+    "transfer petition",
+    "civil case",
+    "petitioner-wife",
+    "respondent",
+    "consent",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition for divorce case",
+    "advising on jurisdictional issues in family law cases",
+    "preparing a consent order for a divorce case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:14:50.818966"
 }

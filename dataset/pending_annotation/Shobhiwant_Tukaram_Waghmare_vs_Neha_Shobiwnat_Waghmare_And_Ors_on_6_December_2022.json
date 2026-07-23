@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:07:21.507162",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shobhiwant Tukaram Waghmare vs Neha Shobiwnat Waghmare And Ors on 6 December, 2022",
+  "case_name": "Shobhiwant Tukaram Waghmare vs Neha Shobiwnat Waghmare And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shobhiwant Tukaram Waghmare — applicant",
+    "respondent_defendant": "Neha Shobhiwant Waghmare & Ors. — respondents",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties amicably resolved disputes and obtained decree for divorce under Section 13-B of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,71 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties to a divorce application can amicably resolve their disputes and obtain a decree.",
+      "held": "The parties to the Application have amicably resolved their disputes and have obtained decree for divorce under Section 13-B of the Hindu Marriage Act, 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "amicable settlement",
+        "Section 13-B"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A respondent can withdraw a deposited amount in accordance with the terms of the agreement.",
+      "held": "Clause-9 of the said terms permits respondent No.1/wife to withdraw an amount of Rs.1,30,000/- (Rupees One Lakh Thirty Thousand Only) deposited in this Court.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "withdrawal",
+        "deposited amount"
+      ],
+      "favours": "respondent",
+      "use_in": [
+        "divorce cases with deposits"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal disposed of",
+    "final_order": "Respondent No.1/wife permitted to withdraw amount of Rs.1,30,000/- along with accrued interest, if any.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "amicable settlement",
+    "decree",
+    "judgment",
+    "Marriage Petition",
+    "Clause-9",
+    "withdrawal of amount",
+    "accrued interest",
+    "Revision Application",
+    "no costs"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce settlements",
+    "advising on Hindu Marriage Act",
+    "negotiating amicable resolutions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:12:57.530659"
 }

@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-07-15T11:07:40.787641",
   "domain": "partition",
-  "sub_domain": "maintenance",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 5,
@@ -28,8 +28,8 @@
   "delivered_on": "",
   "case_name": "Shri Mouli Bhusan Bhattacharjee vs Dead on 30 May, 2017",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Mouli Bhusan Bhattacharjee (son and plaintiff-appellant)",
+    "respondent_defendant": "Dead (intestate) / Shri Swarup Bhattacharjee, Shri Snehamoy Bhattacharjee, Shri Subhrangshu Sekhar Bhattacharjee, Shri Snehangshu Sekhar Bhattacharjee, Shri Subhankar Bhattacharjee, Smt. Jayankari Bhattacharjee, Shri Mrinmoy Chakraborty (defendant-respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -67,7 +67,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The late Bidhu Bushan Bhattacharjee died intestate on 26-4-1949, survived by his son Mouli Bhusan Bhattacharjee and others. The plaintiff-appellant claimed a preliminary decree for partitioning the suit land.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -77,39 +77,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking partition to establish that the property is joint and that the proposed partition is reasonable.",
+      "held": "It is settled law that in a partition suit, the burden lies on the party seeking partition to establish that the property is joint and that the proposed partition is reasonable.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act — Section X"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "partition",
+        "joint property",
+        "reasonable partition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition suits"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may grant liberty to pray for a final decree if the decretal land is not partitioned within a specified time.",
+      "held": "The trial court also gave liberty to pray for a final decree to enforce the preliminary decree if the decretal land was not partitioned within six months.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Section X"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "preliminary decree",
+        "final decree",
+        "partition time limit"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition suits"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the judgment dated 13-6-2011 passed by the learned Civil Judge (Senior Division) is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Succession Act",
+    "Partition",
+    "Code of Civil Procedure",
+    "Section 26",
+    "Section 30",
+    "Section 32",
+    "Section 33",
+    "Section 34",
+    "Section 35",
+    "Section 36",
+    "Section 37",
+    "Section 38",
+    "Section 39",
+    "Section 40",
+    "Section 41",
+    "Section 42",
+    "Section 43",
+    "Section 44",
+    "Section 45"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "Partition of ancestral property",
+    "Family disputes",
+    "Succession rights"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:28:44.713699"
 }

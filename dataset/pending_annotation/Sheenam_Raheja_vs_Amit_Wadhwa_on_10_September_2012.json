@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:06:53.080929",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sheenam Raheja vs Amit Wadhwa on 10 September, 2012",
+  "case_name": "Sheenam Raheja vs Amit Wadhwa",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sheenam Raheja, plaintiff",
+    "respondent_defendant": "Amit Wadhwa, defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiff and defendant were married in 2000. Marriage ran into troubled waters due to cruelty inflicted by the defendant's family. Plaintiff sought a decree declaring the proceedings for dissolution of marriage as illegal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The jurisdiction for the grant of decree of divorce vests with the Courts in India.",
+      "held": "It is further the contention of the learned counsel for the plaintiff that the plaintiff has till date not submitted herself to the jurisdiction of the foreign Court i.e Superior Court of California, County of Santa Clara, San Jose, USA nor was she represented through counsel",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 19"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "jurisdiction",
+        "divorce",
+        "India",
+        "foreign court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving Indian citizens"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The jurisdiction assumed by the foreign Court must be in accordance with the matrimonial law under which the parties are married.",
+      "held": "The jurisdiction assumed by the foreign Court as well as the grounds on which the relief is claimed must be in accordance with the matrimonial law under which the parties are married i.e. the Hindu Marriage Act, 1955",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "jurisdiction",
+        "matrimonial law",
+        "foreign court"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases involving international elements"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the suit stands decreed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The suit stands decreed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "irreconcilable differences",
+    "dissolution of marriage",
+    "null and void",
+    "non-est in the eyes of law",
+    "California",
+    "Santa Clara",
+    "San Jose",
+    "USA",
+    "Superior Court",
+    "marriage declaration",
+    "plaintiff",
+    "defendant",
+    "Husband",
+    "Wife",
+    "family court",
+    "judgment",
+    "decree",
+    "reconciliation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to dissolution of marriage decree",
+    "seeking nullification of foreign judgment"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:48:22.345200"
 }

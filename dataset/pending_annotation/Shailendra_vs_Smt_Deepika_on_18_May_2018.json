@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:06:39.642521",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "case_numbers": [
     "I.A.No.6480/2016"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Indore - W.P. No.6108/2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shailendra vs Smt.Deepika on 18 May, 2018",
+  "case_name": "Shailendra vs Smt.Deepika",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shailendra (husband)",
+    "respondent_defendant": "Smt. Deepika (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Application under Section 24 of the Hindu Marriage Act has been decided by the Family Court, Indore and against such an order, petitioner has remedy of filing of appeal under Section 19 of the Family Courts Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An order fixing maintenance pendente lite in divorce proceedings is a final order and therefore, an appealable judgment.",
+      "held": "This court is of a considered view that an order granted by the court below under section 24 of the Hindu marriage act fixing maintenance pendente lite in the divorce proceedings is an order having the quality of finality.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rahul Samrat Tandon V/s. Smt. Neeru Tandon, (2010) AIR Uttarakhand 67"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance pendente lite",
+        "divorce proceedings",
+        "final order",
+        "appealable judgment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "An appeal under Section 19(1) of the Family Courts Act is maintainable against an order passed under Section 24 of the Hindu Marriage Act.",
+      "held": "We are in complete agreement with the observations of the Full Bench of the Allahabad High Court, and we feel that it is necessary that a broad meaning to the word 'judgment' must be assigned.",
+      "applicable_acts_sections": [
+        "Family Courts Act, 1984 — Section 19(1)",
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [
+        "Rahul Samrat Tandon V/s. Smt. Neeru Tandon, (2010) AIR Uttarakhand 67",
+        "Full Bench judgment of Allahabad High Court"
+      ],
+      "keywords": [
+        "appeal under Section 19(1)",
+        "Family Courts Act",
+        "Hindu Marriage Act",
+        "Section 24"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Division Bench held that an order passed under Section 24 cannot be termed as interlocutory order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 24",
+    "Section 19",
+    "Family Courts Act",
+    "pendenti-lite maintenance",
+    "maintenance during pendency of suit",
+    "first appeal",
+    "Section 19 (4)",
+    "Section 5",
+    "Article 227",
+    "Constitution",
+    "Prafull Kumar Vs. Smt. Asha",
+    "Indore",
+    "Madhya Pradesh",
+    "High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance during pendency of suit",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:32:53.786635"
 }

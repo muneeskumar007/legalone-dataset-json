@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:07:42.401164",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.2, Nagpur, Petition No.A. 1087/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri. Nitin S/O. Omprakash Agrawal vs Smt. Rekha W/O. Nitin Agrawal on 31 January, 2017",
+  "case_name": "Shri. Nitin S/O. Omprakash Agrawal vs Smt. Rekha W/O. Nitin Agrawal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri. Nitin S/O. Omprakash Agrawal (husband)",
+    "respondent_defendant": "Smt. Rekha W/O. Nitin Agrawal (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent was married to Rajesh Balkrishna Deshpande in 1998 and had two children. They divorced in 2007 but continued to live together for the sake of their children. The respondent then started a love affair with the appellant, which led to their marriage in 2012.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party claiming a fact to prove it.",
+      "held": "Mr. Joshi submitted that as the appellant had admittedly handed over the amount of Rs. 5,000/-to the respondent earlier and thereafter the amount of Rs. 2 lakhs, on demand, the said fact itself shows that certainly there was existence of relations between the parties as husband and wife.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "fca.57.15"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "proof",
+        "claiming a fact"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The existence of physical relationship between parties does not necessarily establish the validity of marriage.",
+      "held": "According to Mr. Joshi, as there was continuous physical relationship between the parties, the trial Court rightly came to the conclusion that marriage was performed between the parties.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "fca.57.15"
+      ],
+      "keywords": [
+        "physical relationship",
+        "marriage validity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The Appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's order allowing the wife's petition for restitution of conjugal rights is set aside and the appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Family Court's Act",
+    "1984",
+    "section19",
+    "section28",
+    "marriage",
+    "separation",
+    "maintenance",
+    "alimony",
+    "custody",
+    "property",
+    "partition",
+    "matrimonial",
+    "dispute",
+    "conciliation",
+    "mediation",
+    "negotiation",
+    "settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "assisting in property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:29:34.480669"
 }

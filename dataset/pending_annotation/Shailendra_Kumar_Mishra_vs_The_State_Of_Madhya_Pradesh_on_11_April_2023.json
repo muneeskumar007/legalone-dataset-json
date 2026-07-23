@@ -64,21 +64,43 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the complainant to prove that the FIR was lodged under a false pretext.",
+      "held": "It is contended by Counsel for the petitioners that under the false pretext the impugned FIR has been lodged by the complainant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "false pretext",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "domestic violence cases",
+        "dowry harassment cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not interfere with the investigation process unless there is a clear abuse of power or malice.",
+      "held": "After completion of investigation, charge sheet was filed before the Court of JMFC, Gwalior by which, the Court of JMFC took cognizance against the petitioners in connection with RCT No.5005 of 2022 vide Annexure P-2.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "investigation process",
+        "abuse of power",
+        "malice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases",
+        "complaint cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -88,15 +110,37 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "alimony",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "Section 125",
+    "Section 127",
+    "Section 128",
+    "Criminal Procedure Code",
+    "IPC",
+    "Maintenance of Dependent Relatives Act",
+    "Family Court",
+    "Matrimonial Dispute",
+    "Domestic Violence",
+    "DV Act",
+    "Custody Battle",
+    "Child Custody",
+    "Joint Custody",
+    "Separation",
+    "Divorce Proceedings"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "representing clients in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:31:54.127313"
 }

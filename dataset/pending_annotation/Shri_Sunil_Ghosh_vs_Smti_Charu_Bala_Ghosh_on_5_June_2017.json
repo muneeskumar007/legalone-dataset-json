@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:07:58.539359",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "partition": 3,
     "maintenance": 1,
@@ -25,8 +25,8 @@
   "delivered_on": "",
   "case_name": "Shri Sunil Ghosh vs Smti. Charu Bala Ghosh on 5 June, 2017",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Sunil Ghosh, son of late Tarani Ghosh",
+    "respondent_defendant": "Smti. Charu Bala Ghosh, wife of late Dhirendra Ghosh, and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are family members claiming partition of ancestral property.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When a registered notice has not returned to the Registry, the court can draw a presumption of service.",
+      "held": "under Order-V Rule 9 (5) of the CPC, this Court would draw presumption of service",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Order-V Rule 9 (5)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "service",
+        "presumption",
+        "registered notice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A will executed by a testator in her lifetime is valid and can be accepted as evidence.",
+      "held": "one unregistered Will executed by Kanaki Bala Ghosh bequeathing her property in her life time",
+      "applicable_acts_sections": [
+        "Hindu Succession Act — Section-15"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "will",
+        "testator",
+        "lifetime"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the suit is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit dismissed",
+    "final_order": "The suit is dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Succession Act",
+    "partition",
+    "coparcenary",
+    "undivided interest",
+    "joint family",
+    "family property",
+    "share",
+    "devolution",
+    "heir",
+    "intestate",
+    "testamentary",
+    "will",
+    "probate",
+    "succession certificate",
+    "family settlement",
+    "agreement",
+    "partition suit",
+    "Hindu Law",
+    "Mitakshara School"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition agreement",
+    "advising on Hindu succession law",
+    "assisting in a family settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:48:33.694456"
 }

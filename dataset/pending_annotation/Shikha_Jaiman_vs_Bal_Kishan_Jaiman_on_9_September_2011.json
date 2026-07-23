@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:07:03.977904",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Bela M. Trivedi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.1, Jaipur in divorce petition No.192 of 2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shikha Jaiman vs Bal Kishan Jaiman on 9 September, 2011",
+  "case_name": "Shikha Jaiman vs Bal Kishan Jaiman",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shikha Jaiman, daughter of Shri Kalu Ram Sharma",
+    "respondent_defendant": "Bal Kishan Jaiman, son of Shri Hanuman Sahai Jaiman",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties filed a joint application under Section 13-B of the Hindu Marriage Act. A consent decree was passed by the trial court on 03.12.2010. The petitioner moved an application to withdraw the consent, but the respondent claimed that the statement recorded on 23.11.2010 showed no objection to the decree.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,72 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A consent decree cannot be withdrawn once it is passed.",
+      "held": "Submission of the learned counsel for the appellant is that though the application for dissolution of the marriage was filed under Section 13-B of the Hindu Marriage Act, the appellant had on 29.10.2010 moved an application before the learned Judge, Family Court for withdrawing the said consent on the application under Section 13-B of the Hindu Marriage Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent decree",
+        "withdrawal",
+        "dissolution of marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's statement in court can be used to determine the outcome of a case.",
+      "held": "It is not disputed that after the aforesaid statements the belongings of the appellant have also been handed over to the appellant by the respondent.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "party's statement",
+        "court proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is not maintainable as it is barred by sub-section 2 of Section 19 of the Family Court Act, and the delay in filing the appeal is condoned.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Limitation Act",
+    "Section 5",
+    "Section 13-B",
+    "Family Court's Act",
+    "Section 19",
+    "delay condoned",
+    "sufficient cause",
+    "miscellaneous appeal",
+    "judgment and decree",
+    "consent decree",
+    "joint application"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeals",
+    "condoning delay in family court matters",
+    "practical applications of Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:56:27.334879"
 }

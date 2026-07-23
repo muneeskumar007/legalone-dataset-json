@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:06:56.895444",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "domestic_violence": 2,
@@ -19,13 +19,13 @@
     "Wasim Sadiq Nargal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal District Judge, Reasi (Case No. 93/Divorce Petition)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sheetal Devi vs Sunil Kumar S/O Bihari Lal on 31 May, 2024",
+  "case_name": "Sheetal Devi vs Sunil Kumar S/O Bihari Lal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sheetal Devi, wife",
+    "respondent_defendant": "Sunil Kumar S/o Bihari Lal, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent filed a petition under Section 9 of the Hindu Marriage Act, 1980 against the petitioner and her parents. The petitioner had engaged a counsel to represent her but was set ex-parte by the trial court. She then moved an application for setting aside the ex-parte proceedings which was dismissed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power under Article 227 of the Constitution of India is to be exercised sparingly in appropriate cases.",
+      "held": "The law has been settled as naught by the Apex Court in authoritative pronouncements that the power under Article 227 of the Constitution of India is to be exercised sparingly in appropriate cases like, when there is no evidence at all to justify the finding or the finding is so perverse that no reasonable person can possibly come to such a conclusion.",
       "applicable_acts_sections": [
-        "TODO"
+        "Constitution of India — Article 227"
+      ],
+      "cited_cases": [
+        "(2010) 9 SCC 385"
+      ],
+      "keywords": [
+        "Article 227",
+        "power",
+        "exercise",
+        "sparing",
+        "appropriate cases"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce",
+        "family law"
+      ],
+      "significance": "HIGH — to ensure that there is no miscarriage of justice",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The High Court has the power and jurisdiction to ensure that subordinate courts and statutory or quasi-judicial tribunals exercise their powers within the bounds of their authority.",
+      "held": "Undoubtedly the High Court, under this Article, has the jurisdiction to ensure that all subordinate courts as well as statutory or quasi-judicial tribunals, exercise the powers vested in them, within the bounds of their authority.",
+      "applicable_acts_sections": [
+        "Constitution of India — Article 227"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "High Court",
+        "power",
+        "jurisdiction",
+        "subordinate courts",
+        "statutory or quasi-judicial tribunals"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM — to ensure that subordinate courts and tribunals act in accordance with the well-established principles of law",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The judgment and decree passed by the trial court were quashed as they were ex-parte and caused substantial prejudice to the petitioner.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "quashment",
+    "Article 227",
+    "Section 9",
+    "Hindu Marriage Act 1955",
+    "Hindu Marriage Act 1980",
+    "repealed",
+    "petition under Section 9",
+    "respondent No.1",
+    "respondent No.2",
+    "respondent No.3",
+    "Court below",
+    "instant petition",
+    "judgment and decree",
+    "Principal District Judge",
+    "Reasi",
+    "Sunil Kumar Vs Sheetal Devi"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing judgments and decrees",
+    "appealing to higher courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:51:06.654827"
 }

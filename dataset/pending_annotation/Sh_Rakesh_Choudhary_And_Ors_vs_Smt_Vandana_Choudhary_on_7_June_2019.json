@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:08:20.857216",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "domestic_violence",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -24,13 +24,13 @@
     "Sanjay Kumar Gupta J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Munsiff, Samba (case no. not mentioned)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sh. Rakesh Choudhary And Ors vs Smt. Vandana Choudhary on 7 June, 2019",
+  "case_name": "Sh. Rakesh Choudhary And Ors vs Smt. Vandana Choudhary",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Rakesh Choudhary and ors (husband, father)",
+    "respondent_defendant": "Vandana Choudhary (wife, mother)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Rakesh and Vandana was solemnized in 2004. Vandana left her husband's house without reason and is living with her parents since 2015. Petitioners seek quashment of complaint under J&K Protection of Women from Domestic Violence Act, 2010.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court must hear the parties before passing an order.",
+      "held": "heard to the petitioners before passing the impugned order, therefore, the impugned order is passed in violation of Principle of Natural Justice",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "natural justice",
+        "principle of natural justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "quashing proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot seek relief under a statute without complying with the procedural requirements.",
+      "held": "that the respondent has neither sought any relief under Section 23 of the Protection of Women from Domestic Violence Act, nor the respondent filed the affidavit to seek any interim relief of maintenance in terms of Section 23 of the Act",
+      "applicable_acts_sections": [
+        "Protection of Women from Domestic Violence Act, 2005"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "procedural requirements",
+        "statute"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "seeking relief under a statute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Quashment of complaint and ex-parte order dated 29.08.2017 granted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Protection_of_Women_from_DV_Act_2005",
+    "Code_of_Criminal_Procedure_1973",
+    "Code_of_Civil_Procedure_1908",
+    "quashment",
+    "complaint",
+    "ex-parte_order",
+    "monthly_interim_maintenance_allowances",
+    "marriage",
+    "Hindu_Rites_and_Customs",
+    "DV_Act",
+    "Jammu_and_Kashmir_High_Court",
+    "Sanjay_Kumar_Gupta",
+    "Justice",
+    "Family_Court",
+    "District_Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "quashing complaints under DV Act",
+    "obtaining interim maintenance orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:23:58.837155"
 }

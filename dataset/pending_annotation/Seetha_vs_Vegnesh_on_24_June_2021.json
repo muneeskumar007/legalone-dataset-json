@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:06:19.830750",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1
@@ -19,13 +19,13 @@
     "To Give A Fair J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sub Court, Thirupattur (HMOP No.4 of 2021)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Seetha vs Vegnesh on 24 June, 2021",
+  "case_name": "Seetha vs Vegnesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife",
+    "respondent_defendant": "husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife filed petition for divorce under Hindu Marriage Act. She claimed husband's petition was to harass her and she needed a transfer due to distance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A party's failure to appear in court despite service of notice can be taken as an admission of the averments made by the other party.",
+      "held": "Despite service of notice to the respondent on 30.04.2021, the respondent has not chosen to appear before this Court either in person or through counsel duly instructed, which shows that the respondent/husband has nothing to deny the averments stated in the affidavit filed in support of the petition filed by the petitioner/wife for transfer of HMOP No.4 of 2021.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Seetha vs Vegnesh on 24 June, 2021"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "service of notice",
+        "failure to appear",
+        "admission"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family court proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A transfer petition can be allowed in the interest of justice, considering the facts and circumstances of the case.",
+      "held": "Considering the facts and circumstances of the case, this Court is of the view that it would be in the interest of justice to give a fair opportunity to the petitioner.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Seetha vs Vegnesh on 24 June, 2021"
+      ],
+      "keywords": [
+        "transfer petition",
+        "interest of justice"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family court proceedings",
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Transfer Civil Miscellaneous petition allowed",
+    "final_order": "Petition in HMOP No.4 of 2021 withdrawn and transferred to Family Court, Cuddalore.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "transfer petition",
+    "family court",
+    "subordinate judge",
+    "inconvenience",
+    "harassment",
+    "wife's residence",
+    "distance",
+    "Section 13",
+    "Section 24",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition for divorce",
+    "advising on jurisdictional issues in family courts",
+    "assisting with petitions under Section 13 of the Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:15:39.072598"
 }

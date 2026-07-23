@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:07:54.333423",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Division Bench",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Agartala, Title Suit(Divorce) No.150 of 2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Soumitra Ghosh vs Smt Shilpi Ghosh on 10 November, 2017",
+  "case_name": "Shri Soumitra Ghosh vs Smt Shilpi Ghosh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Soumitra Ghosh, husband",
+    "respondent_defendant": "Smt Shilpi Ghosh, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties solemnised their marriage in 2002. The appellant claimed the respondent had abnormal behaviour and was unwilling to co-habit. He sought a decree of divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A case of mental cruelty is established when a criminal case was filed by the respondent against her husband and his family members, and she has been living separately from the appellant for a long time.",
+      "held": "Once it is shown that a criminal case was filed by the respondent against her husband and his family members and she has been living separately from the appellant for the last 15 long years, the inference is inevitable and the conclusion inescapable that there is no possibility of restoring normal conjugal life to the parties.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Dibyendu Das v. Nupur Deb (Das), (2014) 1 TLR 1018",
+        "Bhulu Rani Dey (Das) v. Rabi Dey, AIR 2012 Gauhati 128"
       ],
+      "keywords": [
+        "mental cruelty",
+        "criminal case",
+        "separation",
+        "long time"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot take advantage of their own wrong.",
+      "held": "She never did anything to humiliate the appellant, and he cannot take advantage of his own wrong.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "own wrong",
+        "advantage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's judgment refusing a decree of divorce was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Family Court",
+    "Agartala",
+    "Title Suit(Divorce)",
+    "No.150",
+    "2011",
+    "judgment",
+    "order",
+    "marriage",
+    "solemnised",
+    "2002",
+    "July 24",
+    "Latin maxim",
+    "nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "appealing family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:44:18.998867"
 }

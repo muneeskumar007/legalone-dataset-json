@@ -7,7 +7,7 @@
   "total_pages": 26,
   "extracted_at": "2026-07-15T11:07:27.440527",
   "domain": "property_dispute",
-  "sub_domain": "partition",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "partition": 2,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "S.R.Sen J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "HIGH COURT OF MEGHALAYA AT SHILLONG WP(C). No. 448 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri. Amon Rana vs . State Of Meghalaya & Ors. on 10 December, 2018",
+  "case_name": "Shri. Amon Rana vs . State Of Meghalaya & Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri. Amon Rana, Petitioner/Appellant(s)",
+    "respondent_defendant": "State of Meghalaya & Ors., Respondent(s)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -41,7 +41,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Refusal to grant Domicile Certificate to the petitioner.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The history of persecution and displacement must be re-examined to determine the legal status of a people.",
+      "held": "We need to re-examine the veracity and legal status of the Sylhet Referendum which took them away from India.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Shri. Amon Rana vs . State Of Meghalaya & Ors., (2018)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Sylhet Referendum",
+        "displacement",
+        "persecution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The rights of a displaced and dispossessed people must be respected.",
+      "held": "Utterly regardless of the rights of a displaced, dispossessed people called Hindu Bengalis from Sylhet...",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Shri. Amon Rana vs . State Of Meghalaya & Ors., (2018)"
+      ],
+      "keywords": [
+        "displaced",
+        "dispossessed",
+        "rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "human rights cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Not mentioned in this excerpt",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "domicile_certificate",
+    "permanent_residence_certificate",
+    "meghalaya_high_court",
+    "shillong",
+    "wp_c_no_448_of_2018",
+    "srsen_judge",
+    "r_gurung_adv",
+    "a_kumar_ag",
+    "meghalaya_state",
+    "residency_certificate",
+    "indian_kanoon",
+    "bharat_barsh"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for residency certificate in Meghalaya High Court",
+    "advising on domicile certificate refusal in Shillong",
+    "researching Indian Kanoon cases related to residency and domicile"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:15:39.226577"
 }

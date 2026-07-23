@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:07:12.683454",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shitala Sharan Nigam vs State Of U.P.And Another on 11 January, 2010",
+  "case_name": "Shitala Sharan Nigam vs State Of U.P.And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shitala Sharan Nigam (husband)",
+    "respondent_defendant": "State Of U.P.And Another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent got married. Dispute arose, leading to cases filed by respondent against petitioner. Compromise was entered into on 11.11.2009. Despite compromise, petitioner is being harassed by police.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A compromise agreement can be a binding settlement.",
+      "held": "It is understood that the cases filed by the respondent no. 2 against the petitioner shall stand withdrawn.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party to a compromise agreement must honour its terms.",
+      "held": "However, despite the compromise the petitioner is being harassed by the police in pursuance of the cases lodged by the respondent no. 2 against the petitioner prior to the filing of the application.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compromise",
+        "agreement",
+        "harassment"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Further proceedings in pending cases stayed till next date of listing.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Section 13-B",
+    "compromise",
+    "harassment",
+    "police",
+    "marriage",
+    "dispute",
+    "counter affidavit",
+    "petition",
+    "annulment",
+    "matrimonial",
+    "family law",
+    "domestic violence",
+    "DV Act",
+    "HMA",
+    "divorce petition",
+    "conciliation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "advising on domestic violence cases under Protection of Women from DV Act",
+    "assisting in conciliation and compromise agreements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:04:01.165674"
 }

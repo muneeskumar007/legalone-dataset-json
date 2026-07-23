@@ -7,7 +7,7 @@
   "total_pages": 29,
   "extracted_at": "2026-07-15T11:07:37.775096",
   "domain": "property_dispute",
-  "sub_domain": "will_succession",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "cheque_bounce": 1,
     "partition": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Kailash Varma vs Shri Dushyant Varma on 7 January, 2016",
+  "case_name": "Shri Kailash Varma vs Shri Dushyant Varma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri. Kailash Varma, S/o Ram Prasad Varma (husband)",
+    "respondent_defendant": "1. Shri.Dushyant Varma, S/o Kailash Varma, R/o 14 A Cantonment, Shillong, East Khasi Hills District, Meghalaya (son); 2. Smti. Kamla Varma, W/o Shri. Kailash Varma, R/o 14 A Cantonment, Shillong, East Khasi Hills District, Meghalaya (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -41,7 +41,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The present case is the clearest example of continuous and unending disputes between the husband on one side and wife and son on the other side.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Every company limited by shares, and every company limited by guarantee and having a share capital, shall hold a general meeting of the members of the company within a period of not less than one month nor more than six months from the date at which the company is entitled to commence business.",
+      "held": "It is the statutory requirement of Pegasus Hotels Private Limited to hold AGM of the members of the company under Sections 165 and 166 of the Companies Act, 1956.",
       "applicable_acts_sections": [
-        "TODO"
+        "Companies Act, 1956 — Section 165",
+        "Companies Act, 1956 — Section 166"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "statutory meeting",
+        "statutory report",
+        "companies act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Board of directors shall forward a report (in this Act referred to as 'the statutory report') to every member of the company at least twenty-one days before the day on which the meeting is held.",
+      "held": "",
+      "applicable_acts_sections": [
+        "Companies Act, 1956 — Section 165"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "statutory report",
+        "companies act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "These three revision petitions were jointly heard for being disposed of by a common judgment and order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "family_property",
+    "partition_suit",
+    "joint_holding",
+    "co_ownership",
+    "share_of_property",
+    "partition_deed",
+    "family_settlement",
+    "agreement_to_sell",
+    "sale_deed",
+    "transfer_of_property",
+    "title_deed",
+    "possession_of_property",
+    "dispute_resolution",
+    "mediation_process"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "resolving family property disputes through mediation",
+    "preparing a sale deed for transfer of property"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:25:23.212508"
 }

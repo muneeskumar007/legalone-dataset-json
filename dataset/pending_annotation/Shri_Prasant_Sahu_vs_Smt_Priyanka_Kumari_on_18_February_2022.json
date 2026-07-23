@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:07:44.897186",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Imphal East, Mat (Divorce) Case No. 49 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Prasant Sahu vs Smt. Priyanka Kumari on 18 February, 2022",
+  "case_name": "Shri Prasant Sahu vs Smt. Priyanka Kumari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Prasant Sahu, husband",
+    "respondent_defendant": "Priyanka Kumari, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent were married in 2016. Respondent gave birth to a child in 2016. Petitioner filed for divorce under Hindu Marriage Act, 1955. Ex parte decree was passed but set aside later.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power to order medical tests should be exercised only when it is expedient in the interest of justice.",
+      "held": "Relying on the decisions of the Supreme Court, the Family Court opined that the power to order medical tests should be exercised only when it is expedient in the interest of justice.",
       "applicable_acts_sections": [
-        "TODO"
+        "Evidence Act, 1872 — Section 112"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Banarsi Dass Vs. Teeku Dutta (Mrs.) & anr., (2005) 4 SCC 449",
+        "Sharda Vs. Dharmpal, AIR 2003 SC 3450",
+        "Kamti Devi Vs. Poshi Ram, (2001) 5 SCC 311"
+      ],
       "keywords": [
-        "TODO"
+        "DNA test",
+        "medical tests",
+        "interest of justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A DNA test cannot rebut the presumption envisaged under Section 112 of the Evidence Act, 1872.",
+      "held": "The Family Court accordingly denied the request for DNA testing to ascertain whether the petitioner-husband was the biological father of the child.",
+      "applicable_acts_sections": [
+        "Evidence Act, 1872 — Section 112"
+      ],
+      "cited_cases": [
+        "Banarsi Dass Vs. Teeku Dutta (Mrs.) & anr., (2005) 4 SCC 449",
+        "Sharda Vs. Dharmpal, AIR 2003 SC 3450",
+        "Kamti Devi Vs. Poshi Ram, (2001) 5 SCC 311"
+      ],
+      "keywords": [
+        "DNA test",
+        "presumption of legitimacy",
+        "Evidence Act"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner's appeal allowed; case restored to file.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "matrimonial dispute",
+    "ex parte decree",
+    "set aside",
+    "family court",
+    "Imphal East",
+    "Lamphelpat",
+    "Section 13(1) (ia)",
+    "Section 13(1) (ib)",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:33:09.786640"
 }

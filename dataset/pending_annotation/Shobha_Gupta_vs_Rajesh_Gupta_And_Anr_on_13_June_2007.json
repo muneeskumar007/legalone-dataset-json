@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:07:21.327166",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge (ADJ) Delhi, HMA No. 58 of 583 of 2003",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shobha Gupta vs Rajesh Gupta And Anr. on 13 June, 2007",
+  "case_name": "Shobha Gupta vs Rajesh Gupta And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shobha Gupta, wife",
+    "respondent_defendant": "Rajesh Gupta and another (driver)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -32,7 +32,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant Shobha Gupta filed for divorce against respondent Rajesh Gupta on grounds of adultery, cruelty, and desertion. Appellant claimed she was earlier married to Kailash Jain and had a daughter and son from that marriage. Trial court dismissed the petition as appellant failed to produce proof of her earlier marriage being dissolved.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -42,39 +42,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden of proof lies on the person who contests a valid marriage.",
+      "held": "It is fairly well settled now in a series of decisions that the burden of proof lies on the person who contests a valid marriage.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Lakshmamma v. Kamalamma and Ors.,",
+        "Neelavva v. The Divisional Collector, K.S.R.T.C.",
+        "S.P.S. Balasubramanyam v. Suruttayan"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "valid marriage",
+        "contest"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the person who contests a valid marriage to satisfy the court that the first marriage stood dissolved.",
+      "held": "In this case, in the first place it was the trial court itself which required the appellant (i.e. the petitioner before it), to satisfy the court that the first marriage with Shri Kailash Jain stood dissolved by a decree of divorce by mutual consent.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Lakshmamma v. Kamalamma and Ors.,",
+        "Neelavva v. The Divisional Collector, K.S.R.T.C.",
+        "S.P.S. Balasubramanyam v. Suruttayan"
+      ],
+      "keywords": [
+        "burden of proof",
+        "valid marriage",
+        "contest",
+        "dissolved"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Trial court's judgment was upheld, dismissing the divorce petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "adultery",
+    "cruelty",
+    "desertion",
+    "marriage",
+    "mutual consent",
+    "decree of divorce",
+    "family court",
+    "HMA No. 58",
+    "ADJ Delhi",
+    "Delhi High Court",
+    "Section 13",
+    "Section 10",
+    "Section 23",
+    "Section 25",
+    "Section 28",
+    "Section 29",
+    "Section 32"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "adultery as grounds for divorce",
+    "cruelty in marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:11:29.860502"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:07:15.549425",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "15.12.2023",
-  "case_name": "Shivani And Another vs State Of U.P. And Another on 15 December, 2023",
+  "case_name": "Shivani And Another vs State Of U.P. And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shivani And Another (husband and wife)",
+    "respondent_defendant": "State of U.P. and Another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are husband and wife, seeking custody of minor wife. Victim left home after scolding from mother, claimed to have married petitioner no.2 voluntarily.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,123 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The husband is the natural guardian of a married woman.",
+      "held": "As per Section 6 of the Hindu Minority and Guardianship Act, 1956, the husband is the natural guardian of a married woman.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Minority and Guardianship Act — Section 6"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "natural guardian",
+        "married woman",
+        "Hindu law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "marriage disputes",
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court shall not appoint or declare any person as a guardian against the will of a minor married girl if the marriage adheres to Clause (iii) of Section 5 of The Hindu Marriage Act.",
+      "held": "Section 17(5) of the Guardians and Wards Act, 1890 stipulates that the Court shall not appoint or declare any person as a guardian against the will of a minor married girl if the marriage adheres to Clause (iii) of Section 5 of The Hindu Marriage Act, rendering it neither void nor voidable.",
+      "applicable_acts_sections": [
+        "Guardians and Wards Act — Section 17(5)",
+        "Hindu Marriage Act — Section 5"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "minor married girl",
+        "guardian",
+        "Hindu law"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "marriage disputes",
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The natural guardian of a minor has the right to custody, and the court shall not appoint any other person as a guardian against their will.",
+      "held": "Considering Sections 19 and 21 of The Guardians and Wards Act in conjunction with Sections 6, 10, and 13 of the Hindu Minority and Guardianship Act, 1956, petitioner no.2 is the natural guardian of petitioner no.1, given their marital union.",
+      "applicable_acts_sections": [
+        "Guardians and Wards Act — Sections 19 and 21",
+        "Hindu Minority and Guardianship Act — Sections 6, 10, and 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "natural guardian",
+        "custody",
+        "minor",
+        "marital union"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "family law cases",
+        "child custody disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The court shall not appoint a guardian against the will of a minor, if the marriage is valid and solemnized with the consent of the minor.",
+      "held": "Considering Sections 19 and 21 of The Guardians and Wards Act in conjunction with Sections 6, 10, and 13 of the Hindu Minority and Guardianship Act, 1956, petitioner no.2 is the natural guardian of petitioner no.1, given their marital union.",
+      "applicable_acts_sections": [
+        "Guardians and Wards Act — Sections 19 and 21",
+        "Hindu Minority and Guardianship Act — Sections 6, 10, and 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "minor",
+        "guardian",
+        "marriage",
+        "consent"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family law cases",
+        "child custody disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order dated 11.1.2023 set aside; petitioners granted custody of minor wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Hindu Minority and Guardianship Act",
+    "custody",
+    "child welfare committee",
+    "Rajkiya Bal Grih/Balika Kendra",
+    "IPC",
+    "Sections 363",
+    "F.I.R.",
+    "Crime No.594 of 2022",
+    "P.S. Gandhi Park",
+    "District Aligarh",
+    "Child Welfare Committee",
+    "order dated 11.1.2023",
+    "petition for custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for child custody",
+    "assisting in a case involving Hindu Marriage Act and Hindu Minority and Guardianship Act",
+    "advising on the role of Child Welfare Committee"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:07:26.137941"
 }

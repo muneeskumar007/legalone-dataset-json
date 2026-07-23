@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:06:39.867557",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "succession",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shakuntala Sinha And Ors vs Manju Sinha And Ors on 5 August, 2016",
+  "case_name": "Shakuntala Sinha And Ors vs Manju Sinha And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shakuntala Sinha, Amit Kumar Sinha, Vikas Kumar Sinha (wife and sons of Late Murli Manohar Sinha)",
+    "respondent_defendant": "Manju Sinha, Rashmi Sinha, Renu Sinha, Sushiv Sinha (wife and children of Late Murli Manohar Sinha)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Late Murli Manohar Sinha died. Respondents claimed succession certificate. Petitioners also claimed succession. Trial court granted certificate to respondents. Petitioners appealed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party challenging a finding of fact to demonstrate that it is perverse and calls for interference.",
+      "held": "I have heard learned counsel for the parties and perused the impugned order as also the records of the two Courts below extensively and meticulously.",
       "applicable_acts_sections": [
-        "TODO"
+        "Succession Act, 1925"
+      ],
+      "cited_cases": [
+        "Chanmuniya v. Virendra Kumar Singh Kushwaha and another, (2011) 1 SCC 141"
+      ],
+      "keywords": [
+        "burden",
+        "finding of fact",
+        "perverse"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeal against a finding of fact"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court's findings of fact are binding on the appellate court unless they are perverse.",
+      "held": "The Succession Court has clearly recorded a finding that marriage of Late Murli Manohar Sinha was solemnized with Manju Sinha on 12/13-3-1976.",
+      "applicable_acts_sections": [
+        "Succession Act, 1925"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "findings of fact",
+        "perverse"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "appeal against a finding of fact"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal partly allowed",
+    "final_order": "Petitioners No.2 and 3 are entitled for succession certificate along with respondents No.1 to 4.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Specific Relief Act",
+    "maintenance",
+    "alimony",
+    "property division",
+    "joint family",
+    "separation",
+    "custody",
+    "minor children",
+    "family court",
+    "civil revision",
+    "Chhattisgarh High Court",
+    "ambikapur",
+    "sarguja",
+    "jashpur",
+    "forest division",
+    "collector",
+    "state of chhattisgarh"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to divorce petition",
+    "family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:33:44.900525"
 }

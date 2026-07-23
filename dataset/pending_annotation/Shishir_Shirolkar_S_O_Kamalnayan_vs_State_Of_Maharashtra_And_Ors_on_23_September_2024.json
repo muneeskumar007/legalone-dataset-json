@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shishir Shirolkar S/O Kamalnayan ... vs State Of Maharashtra And Ors on 23 September, 2024",
+  "case_name": "Shishir Shirolkar S/O Kamalnayan vs State Of Maharashtra And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shishir Shirolkar, permanent resident of United States of America (USA), father",
+    "respondent_defendant": "State Of Maharashtra And Ors, mother and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner, a US citizen, seeks return of his minor daughter 'L' born out of wedlock with respondent no.2 and transfer of her physical custody to him so she can return to USA.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The duty of the Courts is to see that a parent who removes a child out of the country without consent does not gain an advantage by their wrong doing.",
+      "held": "One Court should pay regard to the orders of the other foreign Court, unless it is satisfied beyond reasonable doubt that to do so would inflict serious harm on the child.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Mrs.Elizabeth Dinshaw Vs. Arvand M. Dinshaw & Anr (supra)"
+      ],
       "keywords": [
-        "TODO"
+        "child custody",
+        "removal of child from country",
+        "foreign court orders"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "child custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The welfare of the child is a primary and paramount consideration in all such cases.",
+      "held": "A child is definitely not a commodity or an object, who is shared amongst the parents by dividing him/her time, life and activities as doing so beyond the permissible limits would put the child in trauma and turn his whole life far from normalcy of a childhood.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Mrs.Elizabeth Dinshaw Vs. Arvand M. Dinshaw & Anr (supra)"
+      ],
+      "keywords": [
+        "child welfare",
+        "parental rights",
+        "custody disputes"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "child custody disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Petitioner's request for return of minor daughter and transfer of her physical custody to him is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Habeas Corpus",
+    "minor child",
+    "custody",
+    "matrimonial dispute",
+    "USA resident",
+    "Indian law",
+    "family court",
+    "guardianship",
+    "child custody",
+    "matrimony",
+    "marriage",
+    "divorce proceedings",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on child custody disputes",
+    "representing clients in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:03:20.211551"
 }

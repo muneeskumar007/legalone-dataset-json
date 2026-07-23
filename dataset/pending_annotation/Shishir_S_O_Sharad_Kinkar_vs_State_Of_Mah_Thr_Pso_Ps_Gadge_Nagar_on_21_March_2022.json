@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:07:12.606570",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shishir S/O Sharad Kinkar vs State Of Mah. Thr. Pso Ps Gadge Nagar ... on 21 March, 2022",
+  "case_name": "Shishir S/O Sharad Kinkar vs State Of Mah. Thr. Pso Ps Gadge Nagar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shishir S/O Sharad Kinkar (husband)",
+    "respondent_defendant": "State of Maharashtra, through the Police Station Officer, Gadge Nagar Police Station, Amravati and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant seeks quashing of the First Information Report lodged by his wife- non-applicant No.2 under Section 498-A of the Indian Penal Code. Both parties arrived at an amicable settlement and filed consent terms before the Family Court, which dissolved the marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish that the First Information Report is malicious and deserves quashing.",
+      "held": "In view of settlement of the matrimonial dispute between the parties, the applicant has failed to demonstrate any malice or harassment by non-applicant No.2.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code",
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "malicious",
+        "harassment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Consent terms and settlements between parties can lead to dissolution of marriage under Section 13-B of the Hindu Marriage Act.",
+      "held": "As per the consent terms, the applicant- Shishir deposited an amount of Rs.50,00,000/- with the Family Court, Nagpur and the non-applicant No.2 has agreed not to prosecute the criminal proceedings further.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent terms",
+        "settlements",
+        "dissolution of marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The First Information Report registered vide Crime No.2472/2021 with the Police Station Gadge Nagar, Amravati for the offence punishable under Section 498-A of the Indian Penal Code is hereby quashed and set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "498-A IPC",
+    "quashing FIR",
+    "amicable settlement",
+    "consent terms",
+    "Family Court",
+    "marriage dissolution",
+    "Indian Penal Code",
+    "IPC",
+    "First Information Report",
+    "FIR",
+    "Section 498-A",
+    "domestic violence",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs in domestic violence cases",
+    "negotiating amicable settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:02:29.044254"
 }

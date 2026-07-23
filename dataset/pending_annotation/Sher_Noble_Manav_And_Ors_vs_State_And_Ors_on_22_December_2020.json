@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:07:03.758569",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "Sanjay Dhar J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned Additional District Judge (Matrimonial Cases), Jammu",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sher Noble Manav And Ors vs State And Ors on 22 December, 2020",
+  "case_name": "Sher Noble Manav And Ors vs State And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (s) - husband, wife, parents",
+    "respondent_defendant": "State and ors - respondent(s)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are a legally wedded couple with strained relations. Petitioner No. 1 filed for divorce under Section 12 of J&K Hindu Marriage Act, while respondent No. 2 sought maintenance and restitution of conjugal rights. A compromise was reached to dissolve the marriage by mutual consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,101 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The High Court must have due regard to the nature and gravity of the crime before exercising its power to quash criminal proceedings.",
+      "held": "Heinous and serious offences of mental depravity or offences like murder, rape, dacoity, etc. cannot be fittingly quashed even though the victim or victim's family and the offender have settled the dispute.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section X"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceedings",
+        "nature of crime",
+        "gravity of crime"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type 1"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The High Court may quash criminal proceedings if in its view, because of the compromise between the offender and victim, the possibility of conviction is remote and bleak.",
+      "held": "In this category of cases, High Court may quash criminal proceedings if in its view, because of the compromise between the offender and victim, the possibility of conviction is remote and bleak",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section X"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "quashing",
+        "criminal proceedings",
+        "compromise",
+        "conviction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type 2"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The High Court must consider whether it would be unfair or contrary to the interest of justice to continue with the criminal proceeding.",
+      "held": "In other words, the High Court must consider whether it would be unfair or contrary to the interest of justice to continue with the criminal proceeding",
+      "applicable_acts_sections": [
+        "Indian Penal Code — Section X"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "unfair",
+        "interest of justice",
+        "criminal proceeding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type 1"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498-A RPC",
+    "Section 12 J&K Hindu Marriage Act",
+    "Section 488 J&K Cr.PC",
+    "quashment",
+    "challan",
+    "F.I.R",
+    "Women Cell",
+    "Jammu",
+    "matrimonial cases",
+    "null and void",
+    "separation",
+    "marriage nullity",
+    "Indian Penal Code",
+    "IPC",
+    "Section 34 RPC",
+    "Latin maxim: Actio non procedit contra debitorem"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing criminal proceedings in matrimonial disputes",
+    "advising on Hindu Marriage Act and IPC"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:55:41.362633"
 }

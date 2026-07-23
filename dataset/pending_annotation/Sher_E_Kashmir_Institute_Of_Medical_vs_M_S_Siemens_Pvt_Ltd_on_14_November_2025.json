@@ -7,7 +7,7 @@
   "total_pages": 25,
   "extracted_at": "2026-07-15T11:07:02.776280",
   "domain": "land_acquisition",
-  "sub_domain": "divorce",
+  "sub_domain": "land_acquisition",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "07.11.2025",
   "delivered_on": "14.11.2025",
-  "case_name": "Sher-E-Kashmir Institute Of Medical vs M/S Siemens Pvt. Ltd on 14 November, 2025",
+  "case_name": "Sher-E-Kashmir Institute Of Medical vs M/S Siemens Pvt. Ltd",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sher-i-Kashmir Institute of Medical Sciences, Soura, Srinagar (through its Director)",
+    "respondent_defendant": "M/S Siemens Pvt. Ltd (through Mr. Rahul Sharma, Advocate)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner invited offers for supply/installation/testing of three medical equipment; respondent submitted bids and they were accepted; petitioner released payment for the supplied equipment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An award can be set aside if it is contrary to the fundamental policy of Indian law, the interest of India, or justice or morality, or if it is patently illegal.",
+      "held": "Even prior to the incorporation of amendments in terms of the Act of 3 of 2016 in Section 34 of the Act of 1996, it was held by the Supreme Court that an award could be set aside if it is contrary to the fundamental policy of Indian law, the interest of India, or justice or morality, or if it is patently illegal.",
       "applicable_acts_sections": [
-        "TODO"
+        "Specific Relief Act, 1963"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Saw Pipes Ltd's case (supra)"
+      ],
       "keywords": [
-        "TODO"
+        "award",
+        "fundamental policy",
+        "interest of India",
+        "justice or morality",
+        "patent illegality"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land acquisition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The expressions 'public policy of State/India' would embrace within their purview the expressions 'fundamental policy of India law', 'interest of India', 'justice or morality' and 'patent illegality'.",
+      "held": "Thus, non-incorporation of the amendments made vide Act No. 03 of 2016 to the Act of 1996 in the Act of 1997, which governs the present case, would not make any difference to the scope and power of this Court to interfere in the impugned award passed by Arb P No.18/2023 c/w the learned Arbitrator.",
+      "applicable_acts_sections": [
+        "Specific Relief Act, 1963"
+      ],
+      "cited_cases": [
+        "Saw Pipes Ltd's case (supra)"
+      ],
+      "keywords": [
+        "public policy",
+        "fundamental policy",
+        "interest of India",
+        "justice or morality",
+        "patent illegality"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "land acquisition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Three petitions under Section 34 of the Jammu and Kashmir Arbitration and Conciliation Act, 1997 are allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "arbitration",
+    "specific_relief_act_1963",
+    "jammu_and_kashmir_arbitration_and_conciliation_act_1997",
+    "digital_high_frequency_x",
+    "supply_installation_testing",
+    "contract_dispute",
+    "award_challenge",
+    "section_34",
+    "section_11",
+    "offer_invitation",
+    "tender_process",
+    "court_interpretation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for challenging an arbitration award",
+    "assisting in a contract dispute involving supply and installation of equipment",
+    "advising on the tender process for government projects"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:54:47.723914"
 }

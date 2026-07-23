@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:06:39.950749",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court-4 Mumbai at Bandra, Petition A- 438/2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shalini Vinesh Gayakwad vs Vinesh Tippaya Gayakwad on 14 December, 2022",
+  "case_name": "Shalini Vinesh Gayakwad vs Vinesh Tippaya Gayakwad",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shalini Vinesh Gayakwad (wife)",
+    "respondent_defendant": "Vinesh Tippaya Gayakwad (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent/husband filed a petition under Section 13(1) (i-a) of the Hindu Marriage Act before the Family Court-4 Mumbai at Bandra. The applicant/wife seeks transfer of the petition to the Family Court at Akola, citing her permanent residence in Murtizapur.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An application for transfer of a petition can be allowed if the applicant is unable to approach the court due to their permanent residence.",
+      "held": "Considering what has been held in D. Raja Rajeswari Vs Satish Kumar (2022) 2 SCC 329, this application is allowed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13(1)(i-a)"
       ],
+      "cited_cases": [
+        "D. Raja Rajeswari Vs Satish Kumar, (2022) 2 SCC 329"
+      ],
+      "keywords": [
+        "transfer of petition",
+        "permanent residence",
+        "approach the court"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In case video conferencing facilities are available with the court, an application for appearing through video conferencing shall be taken into consideration.",
+      "held": "2. In case there is Video Conferencing facilities available with the Court at Bandra, any application filed by the non-applicant for appearing in the proceedings through video conferencing shall be taken into consideration",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "video conferencing",
+        "appearing through"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family court cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application is allowed. The parties shall put an appearance before the Family Court at Akola on 12-01-2023.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i-a)",
+    "transfer of petition",
+    "Family Court",
+    "video conferencing",
+    "personal physical presence",
+    "D. Raja Rajeswari Vs Satish Kumar",
+    "SCC",
+    "Bandra",
+    "Akola",
+    "Murtizapur",
+    "Bandra Family Court",
+    "Akola Family Court",
+    "Section 438/2020",
+    "Petition A-438/2020"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition transfer request",
+    "advising on video conferencing options in family court proceedings",
+    "assisting with Hindu Marriage Act Section 13(1)(i-a) applications"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:34:36.854647"
 }

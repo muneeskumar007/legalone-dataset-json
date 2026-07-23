@@ -7,7 +7,7 @@
   "total_pages": 18,
   "extracted_at": "2026-07-15T11:06:59.851173",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "partition": 5,
     "custody": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sheo Prakash Kajaria & Anr vs Shreelal Kajaria & on 9 September, 2010",
+  "case_name": "Sheo Prakash Kajaria & Anr vs Shreelal Kajaria &",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sheo Prakash Kajaria & Anr (defendant Nos.5 and 12)",
+    "respondent_defendant": "Shreelal Kajaria & (original plaintiff, transposed plaintiff)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit for partition; original plaintiffs filed suit No.696 of 1978; appellants were defendant Nos.5 and 12; appeal against order dismissing application for amendment of written statement",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party should not be permitted to withdraw an admission made in his pleading.",
+      "held": "The learned Single Judge rightly applied the well-settled principle that a party should not be permitted to withdraw the admission made in his pleading, the effect of which is to prejudice the interest of his clients who has acquired right, title and interest of Mahabir in the property.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Gautam Sarup vs. Leela Jetly & Ors., (2008) 7 SCC 85"
+      ],
+      "keywords": [
+        "admission",
+        "pleading",
+        "prejudice"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party should not be permitted to withdraw an admission made in other documents.",
+      "held": "According to Mitra, admission made in other documents may be explained away but there is no scope of withdrawing the admission made in his pleading before a court of law.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Gautam Sarup vs. Leela Jetly & Ors., (2008) 7 SCC 85"
+      ],
+      "keywords": [
+        "admission",
+        "documents",
+        "pleading"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party should not be permitted to file a fresh suit after an application for amendment of written statement has been dismissed.",
+      "held": "Mr. Mitra further submits that if the appellants want to file a fresh suit for declaration his right over the property on the date of filing of the application for amendment of written statement, such suit would have been barred by limitation...",
       "applicable_acts_sections": [
-        "TODO"
+        "Limitation Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "fresh suit",
+        "amendment",
+        "written statement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order allowing the appeal is passed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "limitation act",
+    "1963",
+    "suit",
+    "written statement",
+    "amendment",
+    "single judge",
+    "high court",
+    "calcutta",
+    "judgment",
+    "appeal",
+    "defendant",
+    "appellant",
+    "plaintiff",
+    "indian kanoon",
+    "bhaskar bhattacharya"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "amending written statements in Indian courts",
+    "appealing against single judge orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:53:49.031346"
 }

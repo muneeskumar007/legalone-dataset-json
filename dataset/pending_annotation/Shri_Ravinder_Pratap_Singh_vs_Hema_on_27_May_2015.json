@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:07:49.127720",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "I.S.Mehta J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Addl. Principal Judge, Rohini, Delhi in HMA No. 1320/2012",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Ravinder Pratap Singh vs Hema on 27 May, 2015",
+  "case_name": "Shri Ravinder Pratap Singh vs Hema",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Ravinder Pratap Singh, husband",
+    "respondent_defendant": "Hema, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties was solemnized on 11.05.2011. Marriage was consummated but no issue was born. Parties stayed together till August, 2011. Marital discord arose due to non-satisfaction of dowry demand.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Mere oral deposition of an interested witness making general allegations on oath does not prove the factum of cruelty.",
+      "held": "The learned Family Court further erred in concluding that cruel treatment was given to the respondent-wife at matrimonial home particularly when there is only an unmarried younger brother and an unmarried sister, no prudent person can think, that such cruel treatment could be caused to the respondent-wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "oral deposition",
+        "interested witness"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In the absence of any specific allegation of cruelty and narration of any specific instance of cruelty, granting the decree of divorce in favour of the respondent-wife was a perverse order.",
+      "held": "In absence of any specific allegation of cruelty and narration of any specific instance of cruelty, granting the decree of divorce in favour of the respondent-wife by the learned Family Court was a perverse order.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "specific allegation",
+        "decree of divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "dowry demand",
+    "marital discord",
+    "consummation",
+    "Section 19(1)",
+    "Family Courts Act",
+    "divorce",
+    "matrimonial dispute",
+    "non-satisfaction",
+    "wedlock",
+    "Rohini Court",
+    "Addl. Principal Judge",
+    "HMA No. 1320/2012",
+    "Keshav Puram",
+    "Community Centre",
+    "New Delhi"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:38:55.714781"
 }

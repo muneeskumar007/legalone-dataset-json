@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:08:19.834314",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -29,10 +29,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "11.08.2010",
-  "case_name": "Sh. Jitender Kumar Sharma vs State & Another on 11 August, 2010",
+  "case_name": "Sh. Jitender Kumar Sharma vs State & Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Jitender Kumar Sharma, husband",
+    "respondent_defendant": "State and another, parents and authorities",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Minors Jitender and Poonam eloped and got married without informing their families. Poonam's family opposed the marriage. The couple was apprehended and sent to separate facilities.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnized in contravention of clause (iii) of Section 5 of the HMA is neither void nor voidable.",
+      "held": "This view has been reinforced in Ravi Kumar v. The State: 124 (2005) DLT 1 (DB) and Manish Singh v. State Govt of NCT: AIR 2006 Del 37= 126 DLT 28 (DB).",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Neetu Singh v. State: 77 (1999) DLT 601 (DB)",
+        "Ravi Kumar v. The State: 124 (2005) DLT 1 (DB)",
+        "Manish Singh v. State Govt of NCT: AIR 2006 Del 37= 126 DLT 28 (DB)"
+      ],
       "keywords": [
-        "TODO"
+        "Hindu Marriage Act",
+        "child marriage",
+        "voidable",
+        "punishable"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — significance in determining the validity of a Hindu marriage",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The legislature's intention is crucial in determining the validity of a Hindu marriage.",
+      "held": "If the legislature had intended that such a marriage would be void or invalid, it could have easily included clause (iii) of section 5 in Section 11 itself.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Sections 5 and 11"
+      ],
+      "cited_cases": [
+        "Neetu Singh v. State: 77 (1999) DLT 601 (DB)",
+        "Ravi Kumar v. The State: 124 (2005) DLT 1 (DB)",
+        "Manish Singh v. State Govt of NCT: AIR 2006 Del 37= 126 DLT 28 (DB)"
+      ],
+      "keywords": [
+        "legislative intention",
+        "marriage validity",
+        "Hindu Marriage Act"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "HIGH — significance in determining the legislative intent behind a Hindu marriage",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the appeal and did not register a case against Jitender and Poonam.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "minor marriage",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "eloping",
+    "unlawful assembly",
+    "protection from harm",
+    "family opposition",
+    "marriage consent",
+    "juvenile justice",
+    "Section 9 Hindu Minority and Guardianship Act",
+    "Section 125 Code of Criminal Procedure",
+    "Section 13 Hindu Marriage Act",
+    "Section 6 Hindu Marriage Act",
+    "Latin Maxim: In vita et moribus, omnia sunt communia"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for protection from harm",
+    "advising on minor marriage laws",
+    "assisting in a case of family opposition to marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:23:04.027691"
 }

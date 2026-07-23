@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:06:20.049142",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 3,
@@ -30,13 +30,13 @@
     "OP.No.152 of 2015",
     "OP.No.140 of 2017"
   ],
-  "trial_court": "",
+  "trial_court": "Judicial Magistrate, Kallakurichi - MC.No.6 of 2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Selvarju vs Kiruthika on 11 March, 2019",
+  "case_name": "Selvarju vs Kiruthika",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Selvarju (husband)",
+    "respondent_defendant": "Kiruthika (wife) and minor Arjun (son)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed petition for maintenance under Section 125 Cr.PC; trial court awarded Rs.7,000/-p.m. to respondent and Rs.10,000/-p.m. towards maintenance; petitioner is before this Court seeking to set aside the order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse who leaves the matrimonial home voluntarily without any valid reasons is not entitled to claim maintenance.",
+      "held": "The wife left the matrimonial home voluntarily on her own without any valid reasons and not filed the counter in the petition for restitution of conjugal rights for a period of more than two years and refused to live together with the petitioner shows that the first respondent/wife is not entitled to claim any maintenance under Section 125(4) Cr.PC.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.PC — Section 125"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "matrimonial home",
+        "voluntary leave"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who takes effective steps to take back their spouse and child by invoking the provisions under Section 9 of the Hindu Marriage Act is not neglecting or refusing to maintain them.",
+      "held": "The revision petitioner has taken effective steps to take back the wife and child by invoking the provisions under Section 9 of the Hindu Marriage Act and Section 7 of the Guardians and Wards Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 9",
+        "Guardians and Wards Act — Section 7"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "effective steps",
+        "Hindu Marriage Act"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order of the Magistrate is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Section 125 Cr.PC",
+    "Section 397 r/w.401",
+    "Criminal revision",
+    "Magistrate's order",
+    "marriage",
+    "family law",
+    "Indian family law",
+    "matrimonial disputes",
+    "spousal maintenance",
+    "child maintenance",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal maintenance",
+    "representing clients in family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:17:18.714203"
 }

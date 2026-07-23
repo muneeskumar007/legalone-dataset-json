@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:07:39.371411",
   "domain": "murder_criminal",
-  "sub_domain": "custody",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "custody": 1,
     "land_acquisition": 1,
@@ -20,20 +20,20 @@
     "W. Diengdoh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "High Court of Meghalaya, Shillong, Crl. Petn. No. 43 of 2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri. Manik Sunar & 2 Ors. vs . State Of Meghalaya on 14 October, 2022",
+  "case_name": "Shri. Manik Sunar & 2 Ors. vs . State Of Meghalaya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Manik Sunar & 2 Ors.",
+    "respondent_defendant": "State Of Meghalaya",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's daughter was missing and later found with injuries; petitioner alleged victim's father abducted and raped her.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -43,21 +43,43 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "Prosecuting cases where the alleged aggrieved person is no longer interested in pursuing the matter and all parties involved are not keen to prosecute may be a futile exercise.",
+      "held": "In cases of this nature, since it is evident that the alleged aggrieved person has indicated that she is no longer interested in pursuing with the matter and all those who are involved are also not keen to prosecute the matter, it may perhaps be a futile exercise for the prosecution to ensure conviction of the accused under such circumstances.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Vijayalakshmi & Anr. v. State Rep. By. Inspector of Police, All Women Police Station, Erode: Crl. O.P No. 232 of 2021"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "POCSO",
+        "prosecution",
+        "conviction",
+        "aggrieved person"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving consentual relationships"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Prosecuting cases where the parties involved have entered into a valid marriage may not be in accordance with law.",
+      "held": "The relationship between the petitioner No. 1 and petitioner No. 2 has been further cemented by the fact that on attaining the legal age fit for marriage, the two have entered into a marriage covenant and the same was accordingly solemnized with the consent of all the family members.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Shri. Manik Sunar & 2 Ors. vs . State Of Meghalaya"
+      ],
+      "keywords": [
+        "marriage",
+        "consent",
+        "law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving consensual relationships"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -67,15 +89,34 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "POCSO Act",
+    "Section 363 IPC",
+    "Section 161 Cr.PC",
+    "Section 164 Cr.PC",
+    "Section 3(a)/4/9(n)/10 POCSO Act",
+    "abduction",
+    "rape",
+    "minor daughter",
+    "Lumdiengjri Police Station",
+    "FIR",
+    "Investigating Officer",
+    "chargesheet",
+    "prima facie case",
+    "Meghalaya",
+    "High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for anticipatory bail in a POCSO Act case",
+    "preparing a chargesheet under Section 363 IPC",
+    "advising on the investigation process in a minor abduction case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:27:50.984271"
 }

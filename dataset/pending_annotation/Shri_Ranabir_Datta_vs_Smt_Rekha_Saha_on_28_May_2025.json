@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:07:48.443559",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Biswajit Palit J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, West Tripura, Agartala, T.S.(DIV) 300 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Ranabir Datta vs Smt. Rekha Saha on 28 May, 2025",
+  "case_name": "Shri Ranabir Datta vs Smt. Rekha Saha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Ranabir Datta, husband",
+    "respondent_defendant": "Smt. Rekha Saha, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant-husband filed a divorce petition under Section 13(1)(i-a)(i-b) of the Hindu Marriage Act, 1955, alleging cruelty and desertion by respondent-wife. Respondent-wife contested the suit. Trial court dismissed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove cruelty and desertion.",
+      "held": "It is contended on behalf of the appellant that he is unemployed but, on the other hand, the respondent-wife is a government employee.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "cruelty",
+        "desertion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking divorce must prove that they have taken reasonable steps to reconcile the marriage.",
+      "held": "Mr. A. Sen Gupta, learned counsel for the appellant submits that reconciliation process was initiated to reconstruct the matrimonial tie but ultimately same has failed.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "reconciliation",
+        "divorce"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court set aside the trial court's judgment and passed a decree of divorce on the ground of cruelty and desertion.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19",
+    "Section 28",
+    "Matrimonial Dispute",
+    "T.S. (DIV) 300 of 2021",
+    "Additional Judge",
+    "Family Court",
+    "West Tripura",
+    "Agartala",
+    "Appellant-Husband",
+    "Respondent-Wife",
+    "Indian Kanoon",
+    "Oral Judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing family court decision",
+    "representing husband in matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:38:08.933918"
 }

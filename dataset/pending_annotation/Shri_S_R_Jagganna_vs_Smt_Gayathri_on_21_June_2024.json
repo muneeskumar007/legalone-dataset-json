@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T11:08:00.808240",
   "domain": "partition",
-  "sub_domain": "divorce",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 8,
@@ -33,10 +33,10 @@
   "trial_court": "",
   "reserved_on": "16.02.2024",
   "delivered_on": "",
-  "case_name": "Shri S R Jagganna vs Smt Gayathri on 21 June, 2024",
+  "case_name": "Shri S R Jagganna vs Smt Gayathri",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SHRI S R JAGGANNA (husband, plaintiff)",
+    "respondent_defendant": "SMT GAYATHRI (wife, defendant) and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -71,7 +71,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit filed by Smt. Gayathri, daughter of first wife, against her father Shri S R Jagganna and mother Smt. Shanthamma for partition of property.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -81,39 +81,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A daughter of the first wife is entitled to a definite share in ancestral and joint family properties.",
+      "held": "From the evidence placed on record in both suits, it is established that suit properties have fallen to the share of defendant No.1 S.R. Jaganna and therefore, as the daughter of his first wife, plaintiff Gayathri is entitled for definite share in the same along with defendant No.1 S.R. Jaganna.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 5",
+        "Hindu Succession Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "ancestral properties",
+        "joint family properties",
+        "daughter's rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "partition cases",
+        "family property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The findings of the trial Court that plaintiffs in O.S.No.188/2008 are the children of defendant No.1 through his second wife are not challenged.",
+      "held": "Though plaintiff Gayathri has denied that the plaintiffs of the other suit are the children of defendant No.1 S.R. Jaganna, in his written statement, he has admitted the said fact and also deposed to that effect.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "trial court findings",
+        "children's rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family property disputes",
+        "succession cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeals were allowed in the interest of justice.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Code of Criminal Procedure",
+    "1973",
+    "RSA",
+    "CPC",
+    "Section 100",
+    "judgment",
+    "decree",
+    "appeal",
+    "justice",
+    "interest",
+    "family",
+    "property",
+    "partition suit",
+    " Hindu law",
+    "family court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on Hindu succession laws",
+    "preparing for a family court hearing"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:39:42.182486"
 }

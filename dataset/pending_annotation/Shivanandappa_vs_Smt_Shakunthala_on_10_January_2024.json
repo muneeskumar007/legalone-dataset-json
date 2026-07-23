@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:07:14.308522",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 7,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shivanandappa vs Smt.Shakunthala on 10 January, 2024",
+  "case_name": "Shivanandappa vs Smt.Shakunthala",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shivanandappa, s/o. Somoappa Hosangadi, agriculture",
+    "respondent_defendant": "Smt. Shakunthala, w/o. Suresh Hosangadi, household work",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties are Shivanandappa and Smt. Shakunthala. Relief claimed is partition of property.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A partition deed is a conclusive evidence of the partition.",
+      "held": "From perusal of the written statement filed by the defendants, it is clear that they have denied the averments made in the plaint and contended that there was already a partition in schedule 1B item Nos.1 to 7 properties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956 — Section 6"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "partition",
+        "deed",
+        "conclusive evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A joint family is a single entity for the purpose of partition.",
+      "held": "It is contended that plaintiffs and defendants are in joint possession and enjoyment of the suit schedule properties. Plaintiffs have got 1/4th share in the suit schedule properties.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "joint family",
+        "partition"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family property disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "S.6",
+    "family property",
+    "joint family",
+    "coparcenary",
+    "marriage settlement",
+    "agriculture",
+    "housewife",
+    "student",
+    "Ranibennur",
+    "Haveri",
+    "Karnataka"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "partition disputes",
+    "family property settlements",
+    "joint family property division"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:06:15.172329"
 }

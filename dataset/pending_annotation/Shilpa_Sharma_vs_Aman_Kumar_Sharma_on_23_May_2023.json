@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:07:09.022845",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Ghaziabad (Divorce Petition No.1528 of 2020)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shilpa Sharma vs Aman Kumar Sharma on 23 May, 2023",
+  "case_name": "Shilpa Sharma vs Aman Kumar Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shilpa Sharma (wife)",
+    "respondent_defendant": "Aman Kumar Sharma (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2019. The husband and his family demanded dowry and harassed the wife, leading her to leave their home and file a maintenance petition under Section 125 Cr.P.C. The husband then filed for divorce under Section-13(1) (ia) (ib) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The court may consider a case on its merit if the respondent has no objection.",
+      "held": "In view of above, specific and categorical view expressed by the counsel for the respondent, this case is being considered on its merit on the claim raised and the reply given in open Court by the learned counsel for the respondent.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "merit",
+        "objection"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's inability to attend outstation proceedings may be considered as a hardship.",
+      "held": "She being housewife left with no source of livelihood is unable to meet expenses and to go to District - Ghaziabad. In case, the proceeding at District - Ghaziabad is allowed to go on, that would cause great hardship to the applicant.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "hardship",
+        "inability"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The case was transferred from Principal Judge, Family Court, Ghaziabad to Principal Judge, Family Court, Hapur.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "transfer application",
+    "Hindu Marriage Act",
+    "Section 13(1) (ia) (ib)",
+    "dowry",
+    "harassment",
+    "family court",
+    "Principal Judge",
+    "Ghaziabad",
+    "Hapur",
+    "Section 125 Cr.P.C.",
+    "false petition",
+    "concocted petition",
+    "pressure",
+    "applicant",
+    "respondent",
+    "counsel",
+    "Vageesh Pandey",
+    "Kamlesh Kumar Dwivedi",
+    "Arvind Kumar Mishra-I"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting transfer application for divorce",
+    "advising on Hindu Marriage Act",
+    "representing applicant in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:00:05.077822"
 }

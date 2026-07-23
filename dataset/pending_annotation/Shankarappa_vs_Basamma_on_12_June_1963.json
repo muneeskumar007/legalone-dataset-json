@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:06:43.083014",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shankarappa vs Basamma on 12 June, 1963",
+  "case_name": "Shankarappa vs Basamma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Basamma, claiming to be wife of defendant",
+    "respondent_defendant": "Defendant (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiff claimed to be second wife of defendant and sought injunction against him from contracting a third marriage. Defendant pleaded that plaintiff had been divorced by custom and suit was not maintainable.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage may be solemnized between any two Hindus if the following conditions are fulfilled.",
+      "held": "Section 5(i) of the Hindu Marriage Act provides that a marriage may be solemnized between any two Hindus, if the following conditions are fulfilled.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "Hindus",
+        "conditions"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A bigamous marriage is a void marriage.",
+      "held": "Section 11 of the Hindu Marriage Act declares that any marriage solemnized after the commencement of the Act shall be null and void if it contravenes any of the conditions specified in Clause (i) (iv) and (v) of Section 5.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 11"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "bigamy",
+        "void marriage"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A court has jurisdiction to entertain a suit seeking a perpetual injunction restraining the defendant from committing a breach of an obligation existing in favour of the plaintiff.",
+      "held": "The civil court has no jurisdiction to entertain a suit like the one brought by the plaintiff since that suit is one clearly permitted by the provisions of Section 54 of the Specific Relief Act.",
+      "applicable_acts_sections": [
+        "Specific Relief Act — Section 54"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "injunction",
+        "obligation",
+        "breach"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "injunction cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "bigamy",
+    "injunction",
+    "marriage",
+    "wife",
+    "husband",
+    "ill-treatment",
+    "third wife",
+    "bigamy",
+    "Code of Civil Procedure",
+    "Specific Relief Act",
+    "Code of Criminal Procedure",
+    "family court",
+    "civil court",
+    "Munsiff",
+    "Gulbarga"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "seeking injunction against husband's second marriage",
+    "proving bigamy in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:40:58.903278"
 }

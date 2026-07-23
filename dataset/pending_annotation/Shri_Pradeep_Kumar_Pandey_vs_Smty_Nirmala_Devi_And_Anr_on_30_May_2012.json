@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:07:44.651667",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2
@@ -19,13 +19,13 @@
     "Mahesh Bhagwati J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of District Judge, Alwar (D.B. Civil Misc. No. 12002/2012)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Pradeep Kumar Pandey vs Smty Nirmala Devi And Anr on 30 May, 2012",
+  "case_name": "Shri Pradeep Kumar Pandey vs Smty Nirmala Devi And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Pradeep Kumar Pandey (husband)",
+    "respondent_defendant": "Smt. Nirmala Devi and Another (wife and children)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant's marriage was solemnized with respondent no.1 on 20.2.1994. Differences cropped up, and respondent no.1 deserted the house. Appellant filed a divorce petition under Section 13 of Hindu Marriage Act. Respondent no.1 filed an application for maintenance allowance. Trial court allowed the application and directed Rs. 2000/- per month to be paid by appellant husband.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The amount of maintenance given by the court is within its discretion and will not be interfered with unless there are compelling reasons.",
+      "held": "the learned Single Judge did not find error in the impugned order and concurring with the same, held that the amount of maintenance was given within the given parameters.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "discretion",
+        "interference"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court's order regarding maintenance allowance will not be interfered with unless there are compelling reasons.",
+      "held": "Thus, the learned Single Judge did not find any ground to interfere with the impugned order of the District Judge, Alwar and dismissed the writ petition.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "interference",
+        "compelling reasons"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Delay of 181 days is condoned, and impugned order is maintained.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Section 24",
+    "maintenance allowance",
+    "desertion",
+    "condonation of delay",
+    "Limitation Act",
+    "Section 5",
+    "intra court appeal",
+    "Rajasthan High Court",
+    "Jaipur Bench",
+    " Hindu Rites and rituals",
+    "marriage solemnization"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "condoning delay in filing appeal",
+    "seeking maintenance allowance"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:32:19.627553"
 }

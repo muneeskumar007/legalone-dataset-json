@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-07-15T11:06:56.015277",
   "domain": "maintenance",
-  "sub_domain": "divorce",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 3,
     "partition": 2,
@@ -27,8 +27,8 @@
   "delivered_on": "25.11.2021",
   "case_name": "Sheetal Devang Shah vs Presiding Officer Of The Maintenance ... on 6 May, 2022",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sheetal Devang Shah, Fashion Designer & Teacher, currently not working, Presently residing at Saprem, Plot No.20, 3rd Juhu Scheme, Vile Parle (West), Mumbai - 400 056",
+    "respondent_defendant": "1. Presiding Officer of the Maintenance and Welfare of Parents and Senior Citizens, ADDRESS : 9th Floor, Administrative Building, Bandra East, Mumbai - 400 051; 2. Nalini Mahendra Shah, Widow, Presently residing at Saprem, Plot No.20, 3rd Juhu Scheme, Vile Parle (West), Mumbai - 400 056; 4. Devang Mahendra Shah, Businessman, Presently residing at Saprem, Plot No.20, 3rd Juhu Scheme, Vile Parle (West), Mumbai - 400 056",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a writ petition against the order passed by respondent No.1 - Presiding Officer of the Maintenance and Welfare of Parents and Senior Citizens' Tribunal.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,94 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Tribunal shall have all the powers of a civil court for the purpose of taking evidence on oath and of enforcing the attendance of witnesses.",
+      "held": "Sub-clause (2) clearly indicates that the Tribunal shall have all the powers of a civil court for the purpose of taking evidence on oath and of enforcing the attendance of witnesses.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005 — Section 8"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Tribunal",
+        "civil court",
+        "evidence",
+        "attendance of witnesses"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot evict another from a residential premises without following due process and obtaining a valid order.",
+      "held": "It is submitted that Nalini Shah was not having any right to move the Tribunal and that she was not having any right to evict Sheetal Shah from the residential premises.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "eviction",
+        "due process",
+        "valid order"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party cannot collude with another to oust a third person from their rightful possession of property.",
+      "held": "It is submitted that Nalini Shah and Devang Shah are acting in collusion with a common intention of causing and ousting Sheetal Shah from her matrimonial house.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "collusion",
+        "ouster",
+        "rightful possession"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The court called for records and proceedings from the respondent No.1 and after perusing the legality and propriety of the impugned order, issued a writ of certiorari and/or any other appropriate writ, order or direction under Article 226 of the Constitution of India.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Maintenance",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Domestic Violence",
+    "Welfare of Parents and Senior Citizens",
+    "Family Court",
+    "Section 12",
+    "Section 13",
+    "Section 14",
+    "Section 15",
+    "Section 17",
+    "Section 19",
+    "Section 21",
+    "Section 22",
+    "Section 23",
+    "Section 24"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting maintenance petitions",
+    "advising on domestic violence cases",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:50:10.986623"
 }

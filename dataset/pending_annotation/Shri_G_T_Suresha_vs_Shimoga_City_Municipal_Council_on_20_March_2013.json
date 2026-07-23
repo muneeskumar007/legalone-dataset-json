@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:07:31.964639",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "compassionate_appointment",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri G T Suresha vs Shimoga City Municipal Council on 20 March, 2013",
+  "case_name": "Shri G T Suresha vs Shimoga City Municipal Council",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri. G T Suresha, son of Late G. Thirupal",
+    "respondent_defendant": "1. Shimoga City Municipal Council; 2. Directorate of Municipal Administration",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's father was a Poura Karmika (Group-D) who died in service. Petitioner claimed appointment on compassionate grounds, which was rejected by respondents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Illegitimacy does not justify treating children as lesser",
+      "held": "There is no justification to treat illegitimate children as lesser children.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 16"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Sri. Mahaveer @ Vilas Shanthappa @ Shantagowda Patil and others Vs. Sri. Sukumar Tulajagounda patil and others, ILR 2011 Kar. 2077"
+      ],
       "keywords": [
-        "TODO"
+        "illegitimacy",
+        "children",
+        "treatment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Legitimate children of void marriages are entitled to equal treatment",
+      "held": "Any child of such marriage would have legitimate if the marriage had been valid shall be legitimage, whether such child is born before or after the commencement of the Marriage Laws (Amendment) Act, 1976.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 16"
+      ],
+      "cited_cases": [
+        "Sri. Mahaveer @ Vilas Shanthappa @ Shantagowda Patil and others Vs. Sri. Sukumar Tulajagounda patil and others, ILR 2011 Kar. 2077"
+      ],
+      "keywords": [
+        "legitimate children",
+        "void marriages",
+        "equal treatment"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The impugned order dated 14.09.2010 is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "matrimonial dispute",
+    "cruelty",
+    "desertion",
+    "reconciliation",
+    "separation",
+    "maintenance",
+    "alimony",
+    "custody",
+    "property settlement",
+    "family law",
+    "marriage dissolution",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:20:25.174237"
 }

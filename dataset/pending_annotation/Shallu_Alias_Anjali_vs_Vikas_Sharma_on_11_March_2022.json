@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:06:40.143984",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -20,13 +20,13 @@
     "Tashi Rabstan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned District Judge Kishtwar, TrP (C) No26/2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shallu Alias Anjali vs Vikas Sharma on 11 March, 2022",
+  "case_name": "Shallu Alias Anjali vs Vikas Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shallu alias Anjali (wife)",
+    "respondent_defendant": "Vikas Sharma (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized in accordance with Hindu rights and customs. The petitioner was forced to leave the matrimonial home after one and a half month after the birth of child due to harassment and torture by the respondent. The petitioner seeks transfer of the case from Kishtwar to any other competent Court at Jammu.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party seeking transfer of a case has to demonstrate sufficient grounds for the same.",
+      "held": "The burden lies on the petitioner to demonstrate sufficient grounds for transfer of the case.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "petitioner",
+        "grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's convenience or hardship is not a sufficient ground for transfer of a case.",
+      "held": "The petitioner has never been to Kishtwar in the house of respondent, as alleged in the petition. The parties have never been together or lived together at Kishtwar.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "convenience",
+        "hardship",
+        "transfer"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The present application has been allowed and the case is transferred to any other court of competent jurisdiction at Jammu.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)",
+    "J&K Hindu Marriage Act",
+    "matrimonial dispute",
+    "harassment",
+    "torture",
+    "joint family",
+    "family law",
+    "marriage solemnization",
+    "customs",
+    "rights",
+    "residence",
+    "separation",
+    "petition for divorce",
+    "transfer of case"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on transfer of matrimonial dispute cases between courts",
+    "assisting in drafting a joint family settlement agreement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:35:23.480731"
 }

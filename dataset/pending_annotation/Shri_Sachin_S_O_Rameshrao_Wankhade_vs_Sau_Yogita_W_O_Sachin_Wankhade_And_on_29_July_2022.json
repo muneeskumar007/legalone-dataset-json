@@ -62,21 +62,46 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Unless a party alleges and proves an act of domestic violence, she is not entitled for any relief as provided under the D.V. Act.",
+      "held": "The respondent heavily relied on the decision of this Court in case of Koushik S/o Anil Gharami Vs. Sau. Sangeeta Koushik Gharami and others, 2014 ALL MR (Cri) 2398 , wherein it is held that the monetary relief can be granted under the D.V. Act provided there is a domestic violence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act — Section X"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Koushik S/o Anil Gharami Vs. Sau. Sangeeta Koushik Gharami and others, 2014 ALL MR (Cri) 2398"
+      ],
       "keywords": [
-        "TODO"
+        "domestic violence",
+        "DV Act",
+        "monetary relief"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The provisions under the D.V. Act cannot be invoked unless a party alleges an act of domestic violence and approaches to the Court in the capacity of the aggrieved person.",
+      "held": "On the same line, reliance is placed on the decision of this Court in case of Prakash Kumar Singhee Vs. Amrapali Singhee, 2018(5) Mh.L.J. 665 , in which this Court has reiterated the position that the provisions under the D.V. Act cannot be invoked unless a party alleges an act of domestic violence and approach to the Court in the capacity of the aggrieved person.",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act — Section X"
+      ],
+      "cited_cases": [
+        "Prakash Kumar Singhee Vs. Amrapali Singhee, 2018(5) Mh.L.J. 665"
+      ],
+      "keywords": [
+        "domestic violence",
+        "DV Act",
+        "aggrieved person"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -86,15 +111,34 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Criminal Writ Petition",
+    "Domestic Violence",
+    "DV Act",
+    "Maintenance",
+    "Alimony",
+    "Custody",
+    "Child Custody",
+    "Joint Custody",
+    "Separation",
+    "Marital Property",
+    "Matrimonial Dispute",
+    "Family Court",
+    "High Court",
+    "Nagpur Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on domestic violence cases",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:40:38.481879"
 }

@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:07:31.398987",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -24,13 +24,13 @@
   "case_numbers": [
     "M.C.No.190/2016"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Ballari, Matrimonial Case No.190/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri. Dhanunjaya S/O D.J. Chandrappa vs Smt. Varshita @ Shantha W/O Odhanunjaya on 13 June, 2023",
+  "case_name": "Shri. Dhanunjaya S/O D.J. Chandrappa vs Smt. Varshita @ Shantha W/O Odhanunjaya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SHRI. DHANUNJAYA S/O. D. J. CHANDRAPPA (husband)",
+    "respondent_defendant": "SMT. VARSHITA @ SHANTHA W/O. DHANUNJAYA (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2016. The wife did not show interest in the marriage and started quarreling with the husband without valid reasons. She demanded money from time to time and used to send it to her parents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In a matrimonial dispute, it would be inappropriate to expect an outsider to come and speak with regard to the matrimonial discord.",
+      "held": "Hence, the Family Court has committed error in appreciating the evidence on record, resulting in dismissal of the petition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial dispute",
+        "outsider",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Family Court ought to have considered the evidence of P.W.1 as it is, as there was no cross-examination.",
+      "held": "Though the respondent has not entered the witness box, the Family Court ought to have considered the evidence of P.W.1 as it is, as there was no cross-examination.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "cross-examination"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's decision dismissing the petition for dissolution of marriage was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Family Court Act",
+    "1984",
+    "Section 13(1a)",
+    "Section 13(1b)(iii)",
+    "Section 1A",
+    "Matrimonial Case No.190/2016",
+    "MFA No.100116 of 2018",
+    "Unemployed",
+    "Landlady",
+    "Ballari District",
+    "Karnataka High Court",
+    "Dharwad Bench",
+    "Single Judge",
+    "Justice S G Pandit"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court decisions",
+    "representing clients in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:19:36.760278"
 }

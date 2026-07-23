@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:07:57.944121",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "cheque_bounce": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Sukanta Shil vs The Union Of India on 2 August, 2017",
+  "case_name": "Shri Sukanta Shil vs The Union Of India",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Sukanta Shil, son of Sri Jogesh Chandra Shil",
+    "respondent_defendant": "The Union of India, represented by the Secretary, Ministry of Communication, and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner has challenged an order issued by respondent No.2 whereby Post Master Agartala, HPO was directed to comply with judgments dated 17.03.2006 and 12.03.2012.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party who fails to comply with a court's direction may be required to pay maintenance allowance.",
+      "held": "If the respondent fails to comply with the direction of the Court, he has to pay at the rate of Rs.4,000/- per month to the petitioner and their daughter as maintenance allowance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "compliance",
+        "court direction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may request a third party to deduct maintenance allowance from the pay and allowances of the respondent.",
+      "held": "The Director of Postal Service is hereby requested to direct the Drawing and Disbursing Officer of the respondent to deduct at the rate of Rs.4,000/- per month from the pay and allowances of the respondent and to send the same to the petitioner in her below noted address by money order within the first week of every English Calendar month.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "third party",
+        "deduction"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The petitioner's prayer has been rejected.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "matrimonial dispute",
+    "Section 13(1)(ia)",
+    "Section 10A",
+    "cruelty",
+    "desertion",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "Article 226",
+    "Constitution of India",
+    "Indian Penal Code",
+    "IPC",
+    "Section 498A",
+    "Section 304B",
+    "West Tripura",
+    "Tripura"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:46:58.569713"
 }

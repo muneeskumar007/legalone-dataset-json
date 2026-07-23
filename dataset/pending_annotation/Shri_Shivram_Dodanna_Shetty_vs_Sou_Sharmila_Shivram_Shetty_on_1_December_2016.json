@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:07:53.823199",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Shivram Dodanna Shetty vs Sou. Sharmila Shivram Shetty on 1 December, 2016",
+  "case_name": "Shri Shivram Dodanna Shetty vs Sou. Sharmila Shivram Shetty",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Shivram Dodanna Shetty, husband, service, aged 54 years",
+    "respondent_defendant": "Sou. Sharmila Shivram Shetty, wife, service, aged 31 years",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are the husband and wife who were seeking divorce. The trial court decided in favor of the respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,103 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The provisions of this Act shall have effect notwithstanding anything inconsistent therewith contained in any other law for the time being in force.",
+      "held": "The provisions of this Act shall have overriding effect, not withstanding anything inconsistent therewith contained in any other law for the time being in force.",
       "applicable_acts_sections": [
-        "TODO"
+        "Act of 1984 — Section 20"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "overriding effect",
+        "notwithstanding",
+        "inconsistent laws"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "An appeal preferred under sub-section (1) of Section 19 shall be heard by a Bench consisting of two or more judges.",
+      "held": "Every appeal under this section shall be preferred within a period of thirty days from the date of the judgment or order of a Family Court.",
+      "applicable_acts_sections": [
+        "Act of 1984 — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "appeal",
+        "Bench",
+        "judges"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court appeals"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The burden lies on the party seeking to invoke non obstante provision.",
+      "held": "No question arises of invoking non obstante provision under Section 20 of the Act of 1984.",
+      "applicable_acts_sections": [
+        "Act of 1984 — Section 20"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "non obstante",
+        "burden",
+        "party"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court appeals"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed, and the matter was remanded to the trial court for fresh consideration.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Code of Criminal Procedure",
+    "1973",
+    "family court",
+    "appeal",
+    "matrimonial dispute",
+    "maintenance",
+    "custody",
+    "property settlement",
+    "joint family",
+    "separation",
+    "irretrievable breakdown",
+    "marriage",
+    "spouse",
+    "wife",
+    "husband",
+    "cohabitation",
+    "separate maintenance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "preparing appeal against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:43:32.343172"
 }

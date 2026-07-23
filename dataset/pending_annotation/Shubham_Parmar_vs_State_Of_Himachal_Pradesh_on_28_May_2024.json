@@ -7,7 +7,7 @@
   "total_pages": 21,
   "extracted_at": "2026-07-15T11:08:04.918244",
   "domain": "cheque_bounce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "cheque_bounce",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 3,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "13.05.2024",
   "delivered_on": "28.05.2024",
-  "case_name": "Shubham Parmar vs State Of Himachal Pradesh on 28 May, 2024",
+  "case_name": "Shubham Parmar vs State Of Himachal Pradesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shubham Parmar, Petitioner",
+    "respondent_defendant": "State of Himachal Pradesh, Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant-victim X made a complaint under Section 156 (3) of Cr.P.C. seeking directions to SHO, Police Station Gagret for registration of FIR on 01.11.2019. The matter was investigated by the police leading to registration of FIR No.135 of 2019 against the bail petitioner. The case set up is that the complainant-victim and the bail petitioner were in talking terms since 2018, and consensually went to McLeodganj and stayed in Hotel Naddi Hills on 10.02.2019.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,21 +73,70 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The bail should be granted where the case is frivolous or groundless and no prima facie or reasonable grounds exist which lead to believe or point out towards accusation.",
+      "held": "mandating that the bail (anticipatory or regular) is to be granted where the case is frivolous or groundless and no prima facie or reasonable grounds exists which lead to believe or point out towards accusation;",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "P. Chidambaram versus Directorate of Enforcement, (2019) 9 SCC 24",
+        "Sushila Aggarwal versus State-NCT Delhi, (2020) 5 SCC 01"
+      ],
       "keywords": [
-        "TODO"
+        "bail",
+        "frivolous",
+        "groundless",
+        "prima facie",
+        "reasonable grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "all types of cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The nature of the crime has a huge relevance while considering the claim for bail.",
+      "held": "in Para 25 that the nature of crime has a huge relevancy, while considering the claim for bail;",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure"
+      ],
+      "cited_cases": [
+        "Deepak Yadav versus State of Uttar Pradesh, (2022) 8 SCC 559"
+      ],
+      "keywords": [
+        "nature of crime",
+        "bail",
+        "relevance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "all types of cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The order granting bail should reflect the judicial application of mind taking into consideration well-known parameters.",
+      "held": "the settled proposition of law, in our considered opinion, is that the order granting bail should reflect the judicial application of mind taking into consideration the well-known parameters including:",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure"
+      ],
+      "cited_cases": [
+        "Ansar Ahmad versus State of Uttar Pradesh, 2023 SCC Online SC 974"
+      ],
+      "keywords": [
+        "bail",
+        "judicial application of mind",
+        "parameters"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "all types of cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
@@ -97,15 +146,40 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "cheque bounce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Cr.P.C.",
+    "FIR No.135",
+    "Indian Penal Code",
+    "IPC",
+    "Information Technology Act",
+    "NBW's",
+    "Section 439",
+    "Section 376",
+    "Section 354",
+    "Section 354C",
+    "Section 420",
+    "Section 506",
+    "Section 384",
+    "Section 498A",
+    "Section 120-B",
+    "Section 201",
+    "Section 66-C",
+    "Section 67-A",
+    "Regular Bail",
+    "Bail Under Section 439"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail applications",
+    "cheque bounce cases",
+    "criminal procedure matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:56:08.975997"
 }

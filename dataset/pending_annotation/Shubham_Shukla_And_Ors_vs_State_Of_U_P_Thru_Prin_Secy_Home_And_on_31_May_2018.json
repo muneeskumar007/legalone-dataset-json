@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T11:08:06.700825",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "cheque_bounce": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shubham Shukla And Ors. vs State Of U.P. Thru. Prin Secy Home And ... on 31 May, 2018",
+  "case_name": "Shubham Shukla And Ors. vs State Of U.P. Thru. Prin Secy Home And ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shubham Shukla And Ors. (husband, father-in-law, mother-in-law, son of aunt)",
+    "respondent_defendant": "State Of U.P. Thru. Prin Secy Home And Ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marital discord and bickering after marriage; prior marriage between petitioner no.1 and Vibha Pandey, followed by compromise through Talaknama and agreement to live separately",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Parties can settle disputes amicably and agree to terms.",
+      "held": "The parties hereto declare that they will not institute any criminal or civil proceedings against each other or against any of the relatives or family members of other party in future in relation to any issue arising out of their marriage or any matter incidental thereto.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "dispute resolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can agree to a one-time payment as full and final settlement.",
+      "held": "That the First Party will pay to the Second party a sum of Rs. 2,00,000/- only (Rs. Two Lacs only) towards one time full and final settlement of all her claims against the First Party in relation to all the issues which have arisen between them out of their marriage.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "one-time payment",
+        "full and final settlement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "IPC",
+    "First Information Report",
+    "Sections 494",
+    "498-A",
+    "323",
+    "506",
+    "354(A)",
+    "370",
+    "452",
+    "arrest",
+    "direction",
+    "marriage",
+    "family",
+    "relatives",
+    "complainant",
+    "petitioner",
+    "respondent",
+    "High Court",
+    "Allahabad",
+    "Lucknow Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on arrest and bail",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:56:54.734525"
 }

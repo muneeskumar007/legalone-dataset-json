@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:08:21.787777",
   "domain": "divorce",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "cheque_bounce": 2,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Rakesh Kumar Rampuri, Additional Senior Civil Judge, JSCC: Guardian Judge, Karkardooma Courts (East), C.S. No. 1170/18",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sh. Subhash Kumar vs Sh. Shiv Mohan Saini @ Sonu on 8 March, 2021",
+  "case_name": "Sh. Subhash Kumar vs Sh. Shiv Mohan Saini @ Sonu",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Subhash Kumar, plaintiff",
+    "respondent_defendant": "Sh. Shiv Mohan Saini @ Sonu, defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff sought recovery of Rs. 25,000 alongwith pendente-lite and future interest as well as litigation cost from the defendant.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the plaintiff to prove his case.",
+      "held": "The plaintiff has instituted the present suit for recovery of an amount of Rs. 25,000/- against defendant on 30.11.2018.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "plaintiff",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A plaintiff's demand for payment must be reasonable and not excessive.",
+      "held": "The plaintiff has served a legal demand notice dated 06.10.2018 to the defendant but despite being served of said legal notice, defendant failed to make the due payment to him.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "demand",
+        "payment",
+        "reasonable"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "contract disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court ordered the defendant to pay the balance amount of Rs. 25,000 to the plaintiff.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Mutual consent petition",
+    "Section 13B(2)",
+    "profession fee",
+    "pendente-lite interest",
+    "future interest",
+    "litigation cost",
+    "advocate profession",
+    "divorce petition",
+    "consent divorce",
+    "Section 13B",
+    "HMA",
+    "family court",
+    "civil suit",
+    "recovery of amount",
+    "Latin maxim",
+    "Fruit of the Poisonous Tree"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a consent divorce petition",
+    "advising on Hindu Marriage Act",
+    "preparing a civil suit for recovery of amount"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:25:45.407342"
 }

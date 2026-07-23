@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T11:07:50.872223",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge, Senior Division, Thane, Marriage Petition No. 102 of 1989",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri R. vs Smt. S. on 16 April, 1993",
+  "case_name": "Shri R. vs Smt. S.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband, Mr. R.",
+    "respondent_defendant": "wife, Smt. S.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband and wife got married in April 1986. The wife left the husband's residence on May 1, 1986, and returned a month later. She then left again in June to attend her brother's marriage and returned about a month later. The husband filed for divorce under Section 13(1)(ib) of the Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A newly married woman expects some privacy and unless there was such a privacy for a newly married couple they would not be able to properly enjoy the marital lease.",
+      "held": "It had become impossible for her to live in peace in that house since it was but natural that a newly married woman expects some privacy",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "newly married",
+        "privacy",
+        "marital lease"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A wife's mental torture can be caused by her husband's neglect of her and his presence in another woman's home.",
+      "held": "That certainly would be a case of mental torture for a newly married wife",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "mental torture",
+        "neglect",
+        "another woman"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's judgment and decree granting the husband a divorce was reversed, and the wife's appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "section 13(1)(ib)",
+    "arranged marriage",
+    "builder",
+    "business",
+    "Income-tax Office",
+    "Bombay",
+    "Thane",
+    "Marriage Petition No. 102 of 1989",
+    "Civil Appeal No. 150 of 1990",
+    "decree of divorce",
+    "petition for divorce",
+    "residency",
+    "employment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on grounds for divorce",
+    "preparing a case for appeal against dismissal of divorce petition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:34:44.297939"
 }

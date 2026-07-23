@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:07:47.909024",
   "domain": "partition",
-  "sub_domain": "maintenance",
+  "sub_domain": "partition",
   "domain_scores": {
     "partition": 1,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Ld. ACJ, Central, Tis Hazari Courts in Succession Case No. 231/2002",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Rameshwar vs Smt. Gulabi Devi on 20 December, 2018",
+  "case_name": "Shri Rameshwar vs Smt. Gulabi Devi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Gulabi Devi, Through her LRs: Sh. Tara Chand, Smt. Maya Devi, and Smt. Kamlesh",
+    "respondent_defendant": "Shri Rameshwar, s/o Late Sh. Naval Kishore",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -33,7 +33,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Smt. Gulabi sought grant of Succession Certificate in respect of debts and securities left by her alleged husband late Sh. Naval Kishore. Objector Rameshwar is son of late Sh. Naval Kishore and his wife Smt. Basanti Devi. He objected that petitioner was neither legally wedded wife nor widow of his father.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -43,39 +43,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Sub-succession petitions are to be decided summarily as per mandate of Section 373 Indian Succession Act, 1925.",
+      "held": "Succession petitions only prima facie case is to be seen, whereas, complicated questions of law and fact are to be decided by regular civil court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Succession Act, 1925 — Section 373"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Madhavi Amma Bhawaniamma & Ors. v. Kunjikutty Pillai Minakshi Pillai & Ors., (2000) AIR SC 2301"
+      ],
       "keywords": [
-        "TODO"
+        "succession",
+        "petition",
+        "summary procedure",
+        "prima facie case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The grant of certificate under Section 373 Indian Succession Act, 1925 is only a determination of prima facie title.",
+      "held": "This as a necessary corollary confirms that it is not a final decision between the parties. So, it cannot be construed that mere grant of such certificate or a decision in such proceeding would constitute to be decision on an issue finally decided between the parties.",
+      "applicable_acts_sections": [
+        "Indian Succession Act, 1925 — Section 373"
+      ],
+      "cited_cases": [
+        "Madhavi Amma Bhawaniamma & Ors. v. Kunjikutty Pillai Minakshi Pillai & Ors., (2000) AIR SC 2301"
+      ],
+      "keywords": [
+        "certificate",
+        "prima facie title",
+        "final decision"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Trial Court held that the objector, his brother Ram Dayal and three petitioners were entitled to 1/5th share each in service benefits, debts and securities of late Sh. Naval Kishore.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "succession",
+    "Indian Succession Act",
+    "1925",
+    "Section 388",
+    "illegitimate children",
+    "service benefits",
+    "debts",
+    "securities",
+    "late Sh. Naval Kishore",
+    "Rameshwar",
+    "Gulabi Devi",
+    "Tis Hazari Courts",
+    "Central",
+    "Delhi",
+    "family court",
+    "judgment",
+    "order",
+    "appeal",
+    "ACJ",
+    "Ld. ACJ"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition appeal",
+    "guidance on illegitimate children's rights in succession cases",
+    "practical tips for family court litigation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:37:25.628830"
 }

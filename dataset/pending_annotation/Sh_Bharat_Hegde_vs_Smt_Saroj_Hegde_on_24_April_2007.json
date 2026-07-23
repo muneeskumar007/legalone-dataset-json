@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:08:15.945889",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "partition": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sh. Bharat Hegde vs Smt. Saroj Hegde on 24 April, 2007",
+  "case_name": "Sh. Bharat Hegde vs Smt. Saroj Hegde",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Bharat Hegde (husband)",
+    "respondent_defendant": "Saroj Hegde (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband claimed interim maintenance from the wife under Section 24 of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,139 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance awarded cannot be punitive.",
+      "held": "It should aid the applicant to live in a similar life style she/he enjoyed in the matrimonial home. It should not expose the non-applicant to unjust contempt or other coercive proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "punitive",
+        "similar life style"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Maintenance should not be so low as to make the order meaningless.",
+      "held": "It should not be so low so as to make the order meaningless.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "meaningless",
+        "order"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "In determining interim maintenance, there cannot be mathematical exactitude.",
+      "held": "Therefore, in determining interim maintenance, there cannot be mathematical exactitude. The court has to take a general view.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "mathematical exactitude",
+        "general view"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Maintenance should aid the applicant to live in a similar life style as he/she enjoyed in the matrimonial home.",
+      "held": "It should aid the applicant to live in a similar life style she/he enjoyed in the matrimonial home.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "similar life style",
+        "matrimonial home"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
+    },
+    {
+      "principle": "The amount awarded Under Section 125 Cr.PC is adjustable against the amount awarded Under Section 24 of the Act.",
+      "held": "11. The amount awarded Under Section 125 Cr.PC is adjustable against the amount awarded Under Section 24 of the Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24",
+        "Code of Criminal Procedure, 1973 — Section 125"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Section 125 Cr.PC",
+        "Section 24",
+        "adjustable"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_005"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Interim maintenance was awarded to the applicant spouse.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 24",
+    "interim maintenance",
+    "divorce",
+    "judicial separation",
+    "matrimonial misconduct",
+    "conduct",
+    "misconduct",
+    "maintenance",
+    "entitlement",
+    "financial means",
+    "means of living",
+    "Latin maxim",
+    "nemo dat quod non habet",
+    "Hindu law",
+    "family court",
+    "district court",
+    "High Court",
+    "Code of Criminal Procedure"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on interim maintenance",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:19:21.528393"
 }

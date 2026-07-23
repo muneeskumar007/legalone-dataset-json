@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:08:21.421511",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "partition": 2,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sh. Ritesh vs Ms. Monika Sarkar on 18 April, 2017",
+  "case_name": "Sh. Ritesh vs Ms. Monika Sarkar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sh. Ritesh, husband",
+    "respondent_defendant": "Ms. Monika Sarkar, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent filed a petition under the Protection of Women from Domestic Violence Act, 2005 seeking protection order, residence order, monetary relief and compensation order. The trial court granted interim maintenance to the respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnized after the commencement of the Hindu Marriage Act, 1955 shall be null and void if it contravenes any one of the conditions specified in clauses (i), (iv) and (v) of Section 5.",
+      "held": "Section 11 of the Hindu Marriage Act makes it clear that a marriage solemnized after the commencement of the Act 'shall be null and void and may, on a petition presented by either party thereto against the other party, be so declared by a decree of nullity if it contravenes any one of the conditions so specified in clauses (i), (iv) and (v) of Section 5.'",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "Hindu Marriage Act",
+        "Section 5",
+        "Section 11"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A relationship between two persons who live or have lived together in a shared household, when they are related by consanguinity, marriage, or through a relationship in the nature of marriage, adoption or are family members living together as a joint family is considered a domestic relationship.",
+      "held": "The expression 'domestic relationship' means a relationship between two persons who live or have, at any point of time, lived together in a shared household, when they are related by consanguinity, marriage, or through a relationship in the nature of marriage, adoption or are family members living together as a joint family.",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act — Section 2(f)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "domestic relationship",
+        "shared household",
+        "consanguinity",
+        "marriage",
+        "adoption"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "DV cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was disposed of by granting the impugned order passed by the Ld. Trial Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from Domestic Violence Act",
+    "interim maintenance",
+    "maintenance",
+    "domestic violence",
+    "DV Act",
+    "Section 29",
+    "Section 125",
+    "Criminal Procedure Code",
+    "Code of Criminal Procedure",
+    "alimony",
+    "family court",
+    "matrimonial dispute",
+    "marriage",
+    "separation",
+    "divorce proceedings"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing maintenance application",
+    "responding to DV Act complaint"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:24:56.573893"
 }

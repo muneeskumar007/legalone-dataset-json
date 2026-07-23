@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:06:46.616758",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "land_acquisition": 1,
@@ -20,13 +20,13 @@
     "M.C.NO.72/2010",
     "M.C.No. 72/2010"
   ],
-  "trial_court": "",
+  "trial_court": "Family court, Belgaum, M.C.No. 72/2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sharadkumar S/O : Shivarudrappa ... vs Smt. Shaila W/O : Sharadkumar ... on 4 March, 2011",
+  "case_name": "Sharadkumar S/O : Shivarudrappa vs Smt. Shaila W/O : Sharadkumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sharadkumar S/O : Shivarudrappa, husband, practicing lawyer",
+    "respondent_defendant": "Smt. Shaila W/O : Sharadkumar, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent are married couple who sought divorce by mutual consent. Petitioner filed petition under Section 13(B) of Hindu Marriage Act to dissolve marriage. Trial court rejected application for leave to amend petition to invoke Section 13(B). This appeal is against that order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Supreme Court alone can, in exercise of its extraordinary jurisdiction under Article 142 of the Constitution, convert a proceeding under Section 43 of the Hindu Marriage Act into one under Section 13(B) and pass a decree for mutual divorce.",
+      "held": "It is the Supreme Court which can, in exercise of its extraordinary jurisdiction in the matter under Section 13 of Hindu Marriage Act, 1955, convert it into one under Section 13 B and pass a decree for mutual divorce, without waiting for the statutory period of six months.",
       "applicable_acts_sections": [
-        "TODO"
+        "Constitution — Article 142",
+        "Hindu Marriage Act — Section 13(B)",
+        "Hindu Marriage Act — Section 43"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Supreme Court",
+        "Article 142",
+        "Hindu Marriage Act",
+        "mutual divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking to invoke Section 13(B) of the Hindu Marriage Act.",
+      "held": "It appears that the parties-by consent, having come to the conclusion that the marriage was irretrievable on account of incompatibility, the petitioner filed TA No.2 under Order Vi Rule 17 r/w Sec. io! £ of CPC seeking leave of the Court to amend the petition so as to invoke Section 13(B) of the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13(B)",
+        "Code of Civil Procedure — Order Vi Rule 17"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Section 13(B)",
+        "burden",
+        "petitioner"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court set aside trial court's order and allowed the parties' application for divorce by mutual consent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Order Rule 17",
+    "Sec. 151",
+    "CPO",
+    "M.C.No.72/2010",
+    "Family Court",
+    "petition",
+    "annulment",
+    "marriage",
+    "spouse",
+    "consent",
+    "agreement",
+    "separation",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce by mutual consent",
+    "responding to an impugned order in a family court case",
+    "advising on the implications of Order Rule 17 and Sec. 151 of CPO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:42:49.877169"
 }

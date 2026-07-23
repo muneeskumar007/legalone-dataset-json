@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:06:46.409815",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "25.10.2024",
   "delivered_on": "14.11.2024",
-  "case_name": "Shanti Devi vs State Of Haryana And Others on 14 November, 2024",
+  "case_name": "Shanti Devi vs State Of Haryana And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shanti Devi — widow",
+    "respondent_defendant": "State Of Haryana And Others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner was granted widow pension in 1999. She performed a krewa marriage with her Jeth Buja Ram and had four children. A complaint was filed alleging she is not entitled to widow pension due to second marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,21 +51,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Pension shall be sanctioned for the entire life of the applicant, but the District Social Welfare Officer has the right to stop payment if it is found that it was sanctioned on mistaken ground or false information.",
+      "held": "However, the District Social Welfare Officer shall have the right to stop payment of pension, if at any stage it is found that it was sanctioned on mistaken ground or false information or the condition for which the pension was granted no longer exists.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "pension",
+        "mistaken ground",
+        "false information"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "social security cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Any benefits received under the Scheme by suppressing true information or making a wrong claim would be recovered as arrears of land revenue with 12% interest per annum.",
+      "held": "Any benefits received under the Scheme by suppressing true information or making wrong claim would be recovered as arrears of land revenue with 12% interest per annum.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "benefits",
+        "suppressing true information",
+        "wrong claim"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "social security cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -75,15 +96,35 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "widow pension",
+    "second marriage",
+    "Krewa",
+    "notice",
+    "deposit",
+    "interest",
+    "12% per annum",
+    "solemnizing",
+    "marriage",
+    "pension",
+    "refund",
+    "recovery",
+    "petitioner",
+    "respondents",
+    "Punjab and Haryana High Court",
+    "Chandigarh"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on pension recovery",
+    "representing a client in a family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:41:48.664485"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:07:52.461931",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Shri Satish Saha vs . Smti Madhabi Saha on 4 August, 2022",
+  "case_name": "Shri Satish Saha vs. Smti Madhabi Saha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Satish Saha, husband",
+    "respondent_defendant": "Madhabi Saha, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1995 but the wife left the matrimonial home after eight months. The husband filed a divorce suit which was contested by the wife who prayed for restitution of conjugal rights. The trial court dismissed the divorce suit and granted the wife's prayer.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Courts may try to reconcile parties in divorce proceedings.",
+      "held": "During the course of the entire proceedings, efforts had been made by the Courts to try to reconcile the parties, but, the same bore no fruit.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conciliation",
+        "divorce",
+        "reconciliation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties may settle divorce proceedings through mediation.",
+      "held": "The respondent is willing to accept the offer made by the appellant that had been made in the mediation proceedings for a settlement amount of Rs. 6 Lakhs and for dissolution of the marriage between the parties.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mediation",
+        "settlement",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The respondent accepted the offer made by the appellant for a settlement amount of Rs. 6 Lakhs and dissolution of the marriage between the parties, with the payment to be completed in three months.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "matrimonial dispute",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "mediation",
+    "settlement",
+    "dissolution of marriage",
+    "Rs. 6 Lakhs",
+    "living apart",
+    "1996",
+    "family court",
+    "single judge",
+    "High Court",
+    "Meghalaya",
+    "Shillong"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "negotiating settlement terms",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:42:41.531808"
 }

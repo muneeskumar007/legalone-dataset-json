@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:07:09.201079",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -21,13 +21,13 @@
     "Mohinder Pal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Civil Judge, Valsad",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Shilpa vs Kamlesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shilpa, wife",
+    "respondent_defendant": "Kamlesh Shah, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife seeks maintenance pendente lite and expenses of litigation in a pending divorce petition. Trial court partly allowed the application, directing husband to pay Rs.10,000/- towards expenses but denying any maintenance. Wife appeals against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An order under section 125 of the Cr.P.C. is in the nature of a final order.",
+      "held": "It is settled proposition of law that an order under section 125 of the Cr.P.C. is in the nature of a final order",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 125"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "pendente lite"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "An order under section 24 of the Act remains in force only during the pendency of the litigation between the parties.",
+      "held": "An order rendered under the provisions of section 24 of the Act remains in force only during the pendency of the litigation between the parties",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "pendency of litigation"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal preferred",
+    "final_order": "No final order mentioned in judgment excerpt",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "separation",
+    "cohabitation",
+    "joint family",
+    "matrimonial home",
+    "property rights",
+    "maintenance",
+    "alimony"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advocating for maintenance",
+    "advising on property division"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T10:00:48.032548"
 }

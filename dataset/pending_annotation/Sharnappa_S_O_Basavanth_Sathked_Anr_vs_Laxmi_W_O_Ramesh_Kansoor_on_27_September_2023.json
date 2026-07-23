@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:06:50.516595",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 7,
@@ -25,13 +25,13 @@
   "case_numbers": [
     "O.S.NO.37/2007"
   ],
-  "trial_court": "",
+  "trial_court": "Court of the Senior Civil Judge, Chittapur (R.A. No.71/2011) and Court of the Civil Judge (JR. DN), Chittapur (O.S.No.37/2007)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sharnappa S/O Basavanth Sathked Anr vs Laxmi W/O Ramesh Kansoor on 27 September, 2023",
+  "case_name": "Sharnappa S/O Basavanth Sathked Anr vs Laxmi W/O Ramesh Kansoor",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sharnappa S/O Basavanth Sathked, Shivalingamma W/O Shrnappa Sathked, Revansiddu, Bhimrao S/O Sharnappa Sathked",
+    "respondent_defendant": "Laxmi W/O Ramesh Kansoor",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The suit seeking for partition, separate possession and declaration came to be decreed by the Courts below.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A child of a void marriage is statutorily conferred with legitimacy.",
+      "held": "In terms of sub-section (1) of Section 16, a child of a marriage which is null and void under Section 11 is statutorily conferred with legitimacy.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Revanasiddappa and another vs. Mallikarjun and others, (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "legitimacy",
+        "void marriage",
+        "Section 11",
+        "Section 16"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A child born from a voidable marriage which has been annulled is deemed to be their legitimate child.",
+      "held": "In terms of sub-section (2) of Section 16 where a voidable marriage has been annulled by a decree of nullity under Section 12, a child begotten or conceived' before the decree has been made, is deemed to be their legitimate child notwithstanding the decree, if the child would have been legitimate to the parties to the marriage if a decree of dissolution had been passed instead of a decree of nullity;",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [
+        "Revanasiddappa and another vs. Mallikarjun and others, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "legitimacy",
+        "voidable marriage",
+        "annulled",
+        "Section 12",
+        "Section 16"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The present regular second appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Section 100 CPC",
+    "RSA No. 7129 of 2012",
+    "Regular Second Appeal",
+    "Karnataka High Court",
+    "Kalaburagi Bench",
+    "Family Law",
+    "Succession",
+    "Marriage",
+    "Inheritance",
+    "Partition Suit",
+    "Joint Family",
+    "Separate Property",
+    "Movable Property",
+    "Immovable Property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on Hindu succession law",
+    "assisting in a family dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:46:00.359024"
 }

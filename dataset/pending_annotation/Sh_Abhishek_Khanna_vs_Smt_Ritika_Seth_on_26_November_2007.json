@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:08:15.611370",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sh. Abhishek Khanna vs Smt. Ritika Seth on 26 November, 2007",
+  "case_name": "Sh. Abhishek Khanna vs Smt. Ritika Seth",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband",
+    "respondent_defendant": "wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties were married in 2004, but the marriage turned sour. The wife filed an application under Section 24 of the Hindu Marriage Act for interim maintenance, claiming she had no source of income. The husband opposed the application, stating he was unemployed and dependent on his father.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,115 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance awarded cannot be punitive.",
+      "held": "It should aid the applicant to live in a similar life style she/he enjoyed in the matrimonial home. It should not expose the non-applicant to unjust contempt or other coercive proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "punitive",
+        "matrimonial home"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Maintenance should not be so low as to make the order meaningless.",
+      "held": "It should not be so low so as to make the order meaningless.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "meaningless",
+        "order"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "In determining interim maintenance, there cannot be mathematical exactitude.",
+      "held": "The court has to take a general view.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "mathematical exactitude"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "Maintenance should be sufficient to enable the applicant to live in somewhat the same degree of comfort as in the matrimonial home.",
+      "held": "It is important to insure that the maintenance awarded to the applicant is sufficient to enable the applicant to live in somewhat the same degree of comfort as in the matrimonial home, but it should not be so exorbitant that the non-applicant is unable to pay.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "comfort",
+        "matrimonial home"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's order granting monthly maintenance to the wife in the sum of Rs. 10,000/- with effect from the date of her application is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13(1)(i-a)",
+    "interim maintenance",
+    "monthly income",
+    "Leather Factory",
+    "partnership firm",
+    "Latin maxim",
+    "mens rea",
+    "actus reus",
+    "divorce petition",
+    "matrimonial dispute",
+    "maintenance award",
+    "litigation expenses",
+    "family court",
+    "Section 24",
+    "Hindu rites and custom"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance awards",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:18:17.913691"
 }

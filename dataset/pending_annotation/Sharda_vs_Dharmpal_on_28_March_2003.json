@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-07-15T11:06:49.224662",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sharda vs Dharmpal on 28 March, 2003",
+  "case_name": "Sharda vs Dharmpal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sharda (wife)",
+    "respondent_defendant": "Dharmpal (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties were married. Husband filed for divorce. Appellant objected to medical examination. Trial court allowed husband's application. Appellant appealed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,94 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Courts can command a witness to let the jury inspect his premises, chattels, or person as to produce documents.",
+      "held": "The Courts can as well command a witness to let the jury, or qualified experts, inspect his premises, his chattels, or his person, as to produce his documents.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "witness",
+        "jury",
+        "documents"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person may be admitted to give evidence though in certain cases he will not be compelled by the court to do so.",
+      "held": "A person, however, though competent and compellable as a witness may not be competent or may not be compellable to give evidence as to particular matters.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "competence",
+        "compellability"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The court will not lightly order an examination which is unpleasant, painful or potentially dangerous.",
+      "held": "The court will not lightly order an examination which is unpleasant, painful or potentially dangerous.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "examination",
+        "unpleasant",
+        "painful"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Appellant was directed to submit herself to a medical examination.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "medical examination",
+    "unsound mind",
+    "Section 12(1)(b)",
+    "Section 13(1)(iii)",
+    "Code of Civil Procedure",
+    "Code of Criminal Procedure",
+    "Indian Evidence Act",
+    "Rajasthan High Court",
+    "Hanumangarh Camp Sangaria",
+    "Addl. District & Session Judge No. 1",
+    "Latin maxim: Ignorantia juris non excusat",
+    "Section 5(2) Hindu Marriage Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on medical examinations in family law cases",
+    "appealing against orders for medical examination"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-23T09:43:45.355990"
 }
