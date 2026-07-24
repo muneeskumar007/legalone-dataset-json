@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:21.557658",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Snandy vs (Disposed Of) on 4 August, 2015",
+  "case_name": "Snandy vs Nabaneeta Nabanita Bose (nee Sarkar)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Dr. Avijit Bose Snandy, husband",
+    "respondent_defendant": "Nabaneeta Nabanita Bose (nee Sarkar), wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial Suit stayed pending disposal of an application under Section 24 of the Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When a party files an application under Section 24 of the Hindu Marriage Act, the Court must adjudicate upon it forthwith.",
+      "held": "From the very language it appears that the purpose of Section 24 of the Hindu Marriage Act to grant necessary relief for payment of litigation costs is to provide the benefit to the concerned party who is filing the application to contest the matter properly by allowing such litigation costs.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "litigation costs",
+        "Section 24",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The Court cannot refuse to stay the main proceeding due to reason that if such stay is not granted, the party would be deprived of from contesting the matter by defending the case on its merit only for the lack of monetary capacity to contest the case.",
+      "held": "The right to defend the case having been recognized in terms of Section 24 of the Hindu Marriage Act and thereby relief having been provided in the nature of monetary relief by way of grant of litigation costs",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "stay",
+        "litigation costs",
+        "Section 24"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Matrimonial Suit is stayed pending disposal of an application under Section 24 of the Hindu Marriage Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 24",
+    "Matrimonial Suit",
+    "Divorce",
+    "Stay of proceedings",
+    "Litigation costs",
+    "Economic hardship",
+    "Social welfare legislation",
+    "Tripti Mondal Vs. Manindra Nath Mondal",
+    "Calcutta High Court",
+    "Wife's application",
+    "Petitioner's advocate",
+    "Section 5",
+    "Matrimonial proceeding",
+    "Latin maxim",
+    "Factual terms"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on stay of proceedings",
+    "representing a wife in a matrimonial suit"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:24:26.517383"
 }

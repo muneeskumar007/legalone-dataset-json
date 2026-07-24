@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:50.033154",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge (Sr.Dn.), Challakere, MC No.10/2008",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri P.M.Rajashekar @Rajashwaraiah vs Smt Neeta W/O P.M. Rajashekaraiah, on 17 August, 2010",
+  "case_name": "Sri P.M.Rajashekar @Rajashwaraiah vs Smt Neeta W/O P.M. Rajashekaraiah",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "P.M.Rajashekar, husband",
+    "respondent_defendant": "Neeta W/O P.M. Rajashekaraiah, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties filed a compromise petition under Sec.13B of the Hindu Marriage Act, settling alimony and property issues. The trial court dismissed the claim petition for dissolution of marriage. The wife did not appear before the court, leading to a complaint being lodged against the husband.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A settlement agreement between the parties is a binding contract.",
+      "held": "Parties have filed a consent petition under Sec.13B of the Hindu Marriage Act, before the Civil Judge (Sr.Dn.), Challakere in MC No.10/2008 wherein it was settled that a sum of Rs.3,25,000/-- has to be paid to the wife by the husband towards permanent alimony and it has to transfer 4 acres of land in Sy.No.21/1 of Nayakanahatti village in the name of minor daughter Nivedita.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Sec.13B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "settlement",
+        "agreement",
+        "binding contract"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A compromise petition filed by the parties is a valid way to settle disputes.",
+      "held": "Parties today filed a compromise petition stating that in addition to payment of Rs.3,25,000/- paid by the husband to transferring of 4 acres of land in Nayakanahatti village to the daughter, an amount of Rs.5 lacs has been agreed upon between the husband and wife towards the education and welfare of the minor daughter.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Sec.13B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compromise",
+        "petition",
+        "settlement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order settled alimony and property issues as agreed upon in the compromise petition.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Sec.13(B)",
+    "Sec.28",
+    "dissolution of marriage",
+    "claim petition",
+    "marriage dissolution",
+    "family law",
+    "Indian Kanoon",
+    "High Court",
+    "Misc. First Appeal",
+    "civil judge",
+    "Challakere",
+    "Neeta",
+    "P.M.Rajashekar",
+    "Rajashekaraiah"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "appealing a family court order on marriage dissolution",
+    "advising clients on Indian family law"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:10:11.661083"
 }

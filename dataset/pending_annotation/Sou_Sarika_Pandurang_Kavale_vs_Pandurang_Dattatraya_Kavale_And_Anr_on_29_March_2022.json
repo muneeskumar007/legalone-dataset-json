@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:30.550024",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sou. Sarika Pandurang Kavale vs Pandurang Dattatraya Kavale And Anr on 29 March, 2022",
+  "case_name": "Sou. Sarika Pandurang Kavale vs Pandurang Dattatraya Kavale And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sarika Pandurang Kavale (wife)",
+    "respondent_defendant": "Pandurang Dattatraya Kavale & Anr.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife, Sarika Pandurang Kavale, appealed against the decree passed by the lower Appellate Court under Section 13(1)(i) of the Hindu Marriage Act, 1955. The appeal involves substantial questions of law.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,21 +48,40 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the husband to prove adultery.",
+      "held": "The burden lies on the husband to prove adultery.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1)(i)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "adultery",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A decree passed by the lower Appellate Court under Section 13(1)(i) of the Hindu Marriage Act, 1955 is sustainable in law.",
+      "held": "The decree passed by the lower Appellate Court under Section 13(1)(i) of the Hindu Marriage Act, 1955 is sustainable in law.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(1)(i)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "decree",
+        "sustainability"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeals against divorce decrees"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -72,15 +91,34 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "adultery",
+    "Section 13(1)(i)",
+    "common roof",
+    "summons",
+    "residing",
+    "adulterous life",
+    "proof",
+    "sufficiency",
+    "evidence",
+    "Latin maxim",
+    "actus reus",
+    "mens rea",
+    "marriage",
+    "family law",
+    "Indian court judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on adultery grounds for divorce",
+    "preparing for family court hearings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:42:18.491094"
 }

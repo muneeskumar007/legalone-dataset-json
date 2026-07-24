@@ -7,7 +7,7 @@
   "total_pages": 46,
   "extracted_at": "2026-07-15T11:15:05.264784",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 10,
     "maintenance": 3,
@@ -28,13 +28,13 @@
     "M.C.No.8/2007",
     "M.C.No.29/ 2006"
   ],
-  "trial_court": "",
+  "trial_court": "Civil Judge (Sr.Dn.) Sirsi, MC No.29/2006 and M.C No.8/2007",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Suvarna vs Ratnakar Vinayak Shet on 6 July, 2011",
+  "case_name": "Suvarna vs Ratnakar Vinayak Shet",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Suvarna Kom Ratnakar Shet, wife, Bank Employee",
+    "respondent_defendant": "Ratnakar Vinayak Shet, husband, Bank Employee",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a petition for divorce and judicial separation in MC No.29/2006, which was allowed by the trial court. She also filed a petition for restitution of conjugal rights in M.C No.8/2007, which was dismissed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,106 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Desertion is a matter of inference to be drawn from the facts and circumstances of each case.",
+      "held": "The inference may be drawn from certain facts which may not in another case he capable of leading to the same inference.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "BWIN CHANDER JAISINGHBHAT SHAll VS. PRABHAWATI (AIR 1957 SC 176)"
+      ],
       "keywords": [
-        "TODO"
+        "desertion",
+        "inference",
+        "facts",
+        "circumstances"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The offence of desertion commences when the fact of separation and the animus deserendi co-exist.",
+      "held": "The de jäcto separation may have commenced without the necessary animus or it may be that the separation and the animus deserendi coincide in point of time:",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "BWIN CHANDER JAISINGHBHAT SHAll VS. PRABHAWATI (AIR 1957 SC 176)"
+      ],
+      "keywords": [
+        "desertion",
+        "separation",
+        "animus deserendi"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The petitioner for divorce bears the burden of proving those elements in the two spouses' respectivelti.",
+      "held": "The petitioner for divorce bears the burden of proving those elements in the two spouses respectivelti.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "BWIN CHANDER JAISINGHBHAT SHAll VS. PRABHAWATI (AIR 1957 SC 176)"
+      ],
+      "keywords": [
+        "burden",
+        "petitioner",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the judgment and decree passed by the trial court are set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "judicial separation",
+    "Section 28",
+    "M.C.No.29/2006",
+    "M.C.No.8/2007",
+    "MC",
+    "civil judge",
+    "senior division",
+    "Sirsi",
+    "Karnataka",
+    "High Court",
+    "family court",
+    "bank employee",
+    "marriage",
+    "separation",
+    "petitioner",
+    "respondent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing judicial separation order",
+    "seeking annulment of marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:57:43.886726"
 }

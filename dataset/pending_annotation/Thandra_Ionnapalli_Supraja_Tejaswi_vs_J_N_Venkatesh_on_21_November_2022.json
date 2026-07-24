@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:15:54.418078",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "O.P.No.317 of 2020",
     "O.P.No.90 of 2021"
   ],
-  "trial_court": "",
+  "trial_court": "TR.C.M.P.NO.213 of 2022, XVI Addl. District and Sessions Judge cum III Addl. Family Court, Ranga Reddy District at Malkajgiri",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Thandra Ionnapalli Supraja Tejaswi vs J.N.Venkatesh on 21 November, 2022",
+  "case_name": "Thandra Ionnapalli Supraja Tejaswi vs J.N.Venkatesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner/wife",
+    "respondent_defendant": "Respondent/husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's marriage with respondent was performed on 26-05-2019. Petitioner joined the respondent but her marital life was cordial for only two months. Respondent started harassing her for additional dowry and she was subjected to physical and mental harassment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking transfer to show sufficient reasons for the same.",
+      "held": "It is not appropriate to weigh the alleged whatsapp chatting or other conversations in the present transfer petition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court will not weigh the merits of a case while considering a transfer petition.",
+      "held": "It is not appropriate to weigh the alleged whatsapp chatting or other conversations in the present transfer petition.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "transfer",
+        "merits of the case"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner's prayer to transfer F.C.O.P.No.317 of 2020 to the Court of Senior Civil Judge, Peddapalli or Family Court, Karimnagar was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "dowry",
+    "harassment",
+    "Hindu Marriage Act",
+    "IPC",
+    "Section 24 CPC",
+    "transfer of case",
+    "family court",
+    "additional dowry",
+    "physical and mental harassment",
+    "complaint to police",
+    "crime number",
+    "Godavarikhani-II Town P.S.",
+    "marital life",
+    "in-laws house"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for transfer of case",
+    "advising on divorce proceedings",
+    "assisting in drafting a complaint to police"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:26:34.930716"
 }

@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:17:00.742997",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Union Of India vs Pankaj Kumar Sharma on 19 December, 2014",
+  "case_name": "Union Of India vs Pankaj Kumar Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Union Of India, Petitioner",
+    "respondent_defendant": "Pankaj Kumar Sharma, Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent's father died in harness. The respondent applied for compassionate appointment. The petitioner rejected the application on the ground that the deceased railway servant married the applicant's mother without permission.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,148 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Children of a void marriage are legitimate.",
+      "held": "Under Section 16 of this Act children of a void marriage are legitimate.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Rameshwari Devi (supra)"
+      ],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "legitimate children"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "No distinction can be made amongst the children of the first and second wife of a deceased employee.",
+      "held": "In view of the law as settled by the Supreme Court, no distinction can be made amongst the children of the first and second wife of a deceased employee.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Rameshwari Devi (supra)"
+      ],
+      "keywords": [
+        "children",
+        "first wife",
+        "second wife"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The children of the second wife cannot be treated as illegitimate.",
+      "held": "Children of a void marriage are legitimate. In view of the decision of the Apex Court in the case of Rameshwari Devi (supra), the children of the second wife cannot be treated as illegitimate.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [
+        "Rameshwari Devi (supra)"
+      ],
+      "keywords": [
+        "illegitimate",
+        "children",
+        "second wife"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The eldest son of the second wife is entitled to claim appointment on compassionate ground.",
+      "held": "Therefore, the eldest son of the second wife, namely the petitioner No.2 herein is entitled to claim appointment of compassionate ground on account of the sudden death of the employee concerned.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Rameshwari Devi (supra)"
+      ],
+      "keywords": [
+        "compassionate appointment",
+        "eldest son",
+        "second wife"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A circular preventing the children of the second wife from being considered for appointments on compassionate ground cannot be sustained in the eye of law.",
+      "held": "We are, however, of the opinion that the circular issued by the Railway Board on 2nd January, 1992 preventing the children of the second wife from being considered for appointments on compassionate ground cannot be sustained in the eye of law in view of the specific provision of the Hindu Marriage Act, 1955 and pursuant to the decision of the Hon'ble Supreme Court in the case of Rameshwari Devi (supra).",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Rameshwari Devi (supra)"
+      ],
+      "keywords": [
+        "circular",
+        "compassionate appointment",
+        "children of second wife"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_005",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The Tribunal quashed the petitioner's communication rejecting the respondents application and directed the petitioner to consider the respondent's case for grant of compassionate appointment under the scheme.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "partition",
+    "compassionate appointment",
+    "Central Administrative Tribunal",
+    "Article 226",
+    "Constitution of India",
+    "quash",
+    "review application",
+    "compassionate scheme",
+    "in harness",
+    "two wives",
+    "Latin maxim",
+    "res judicata",
+    "judicial review"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for judicial review",
+    "advising on compassionate appointment schemes",
+    "researching partition cases under Hindu law"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:58:48.955128"
 }

@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:17:01.861048",
   "domain": "partition",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Motor Accident Claims Tribunal (FTC), North Bastar Kanker in Claim Case No.13/2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "United India Insurance Company Limited vs Damyanti Keshari on 4 May, 2026",
+  "case_name": "United India Insurance Company Limited vs Damyanti Keshari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "United India Insurance Company Limited, Divisional Manager",
+    "respondent_defendant": "Damyanti Keshari, Purab Keshari, Ashok Kumar Jain, Devendra Singh Thakur, Lata Keshri",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "United India Insurance Company Limited appealed against the award passed by the Additional Motor Accident Claims Tribunal (FTC) in Claim Case No.13/2017.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "Delay in lodging FIR cannot be a ground to doubt the claimant's case.",
+      "held": "It is well settled that delay in lodging the FIR cannot be a ground to doubt the claimant's case. Knowing the Indian conditions as they are, we cannot expect a common man to first rush to the police station immediately after an accident.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "(2011) 4 SCC 693"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "delay",
+        "FIR",
+        "claimant's case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "accident cases",
+        "personal injury claims"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Courts are required to examine evidence with a closer scrutiny in cases of delay.",
+      "held": "In cases of delay, the courts are required to examine the evidence with a closer scrutiny and in doing so the contents of the FIR should also be scrutinised more carefully.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "(2011) 4 SCC 693"
+      ],
+      "keywords": [
+        "delay",
+        "evidence",
+        "scrutiny"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "accident cases",
+        "personal injury claims"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed and the award of the trial court was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Code of Civil Procedure",
+    "1908",
+    "motor accident claims",
+    "additional motor accident claims tribunal",
+    "FTC",
+    "North Bastar Kanker",
+    "Claim Case No.13/2017",
+    "Divisional Manager",
+    "Divisional Office",
+    "Krishna Complex",
+    "Jail Road",
+    "Kuctchery Chowk",
+    "Raipur",
+    "Chhattisgarh",
+    "Narharpur",
+    "Tah. Narharpur",
+    "District North Bastar Kanker",
+    "Chhattisgarh",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition petitions",
+    "advising on Hindu Marriage Act and Hindu Succession Act",
+    "preparing motor accident claims"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:59:43.738817"
 }

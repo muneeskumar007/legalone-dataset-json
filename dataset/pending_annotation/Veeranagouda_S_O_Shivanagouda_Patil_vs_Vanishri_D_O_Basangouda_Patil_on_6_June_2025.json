@@ -7,7 +7,7 @@
   "total_pages": 34,
   "extracted_at": "2026-07-15T11:17:31.484935",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 4,
@@ -26,13 +26,13 @@
   "case_numbers": [
     "O.S.NO.\n36/2009"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge and JMFC, Ron, O.S.No.36/2009",
   "reserved_on": "29.04.2025",
   "delivered_on": "",
-  "case_name": "Veeranagouda S/O Shivanagouda Patil vs Vanishri D/O Basangouda Patil on 6 June, 2025",
+  "case_name": "Veeranagouda S/O Shivanagouda Patil vs Vanishri D/O Basangouda Patil",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Annadaneshgouda, Advocate/Agri; Kumari Tejaswini, minor; Kumar Rajendragouda, minor; Smt. Shashikala @ Akkamahadevi, household",
+    "respondent_defendant": "Vanishree, private; Sulochna, deceased; Veeranagouda, agriculture; Smt. Uma, household; Nataraj, lecturer; Rajashekhara, artist",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -72,7 +72,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties are family members seeking partition of property. Trial court partly decreed the suit. This appeal is against that judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -82,39 +82,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A finding which conclusively determines the legal status of a party constitutes a decree.",
+      "held": "It is a settled principle of law that a finding which conclusively determines the legal status of a party such as marital status constitutes a decree within the meaning of Section 2(2) of the Code of Civil Procedure.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Section 2(2)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "decree",
+        "marital status",
+        "legal status",
+        "party",
+        "Code of Civil Procedure"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A finding that affects the substantive rights of parties and forms an integral part of the final adjudication is a decree.",
+      "held": "Accordingly, the finding on Issue No.1 amounts to a decree, and is not a mere observation or incidental remark.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 2(2)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "substantive rights",
+        "final adjudication",
+        "decree"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order modified the trial court's decision and granted the relief sought by the petitioners.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Code of Civil Procedure",
+    "1908",
+    "Indian Evidence Act",
+    "1872",
+    "RFA",
+    "CROB",
+    "minor",
+    "guardian",
+    "family court",
+    "partition suit",
+    "joint family",
+    "coparceners",
+    "share",
+    "property",
+    "inheritance",
+    "devolution",
+    "family settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on Hindu succession law",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:38:59.383704"
 }

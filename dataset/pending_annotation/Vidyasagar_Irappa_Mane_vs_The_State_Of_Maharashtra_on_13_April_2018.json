@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:17:36.687596",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "criminal",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Judge -9 and Additional Sessions Judge,Thane in Sessions Case No.37 of 2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vidyasagar Irappa Mane vs The State Of Maharashtra on 13 April, 2018",
+  "case_name": "Vidyasagar Irappa Mane vs The State Of Maharashtra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vidyasagar Irappa Mane, Driver, Appellant",
+    "respondent_defendant": "The State of Maharashtra, Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant was convicted for offences punishable under Section 417 and 494 IPC and sentenced to imprisonment. He was granted bail by this Court but preferred Criminal Application No.197 of 2018 for reduction of the bail amount.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,70 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the accused to prove that the information given by him was true.",
+      "held": "It is the defence of the appellant that he had informed to Mrs. Shyamal that his first wife left him and was not traceable for about two years and therefore it was construed that she died.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "accused",
+        "information"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not convict an accused solely on the basis of circumstantial evidence.",
+      "held": "The prosecution in support of its case and with a view to bring home the guilt of the appellant examined in all eight witnesses.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "circumstantial",
+        "evidence"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Appellant's sentence reduced, he is released on bail.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "Section 417 IPC",
+    "Section 494 IPC",
+    "Indian Penal Code",
+    "rigorous imprisonment",
+    "Sessions Case No.37 of 2015",
+    "bail conditions",
+    "Order dated 4.10.2016",
+    "Navi Mumbai",
+    "MIDC",
+    "Turbhe Police Station",
+    "Nashik Road Central Prison"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail applications",
+    "advising on divorce proceedings",
+    "appealing criminal convictions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:46:04.041303"
 }

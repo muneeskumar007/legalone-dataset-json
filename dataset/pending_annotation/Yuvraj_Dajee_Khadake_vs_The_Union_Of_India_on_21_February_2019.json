@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:18:27.124290",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "employment",
   "domain_scores": {
     "divorce": 2,
     "partition": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Yuvraj Dajee Khadake vs The Union Of India on 21 February, 2019",
+  "case_name": "Yuvraj Dajee Khadake vs The Union Of India",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Yuvraj Dajee Khadake, s/o. Late Shri Dajee Jawoo (Indian Inhabitant)",
+    "respondent_defendant": "The Union of India, Through The Divisional Railway Manager's Office",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's father was in the employment of the Central Railway and died in harness. Petitioner made an application for grant of employment on compassionate ground, which was rejected by the respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A child of a void marriage shall be legitimate if the marriage had been valid.",
+      "held": "Notwithstanding that marriage is null and void under section 11, any child of such marriage who would have been legitimate if the marriage had been valid, shall be legitimate.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legitimacy",
+        "void marriage",
+        "marriage laws"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A child of a voidable marriage shall be deemed to be the legitimate child of the parties if at the date of the decree it had been dissolved instead of being annulled.",
+      "held": "Where a decree of nullity is granted in respect of a voidable marriage under section 12, any child begotten or conceived before the decree is made, who would have been the legitimate child of the parties to the marriage if at the date of the decree it had been dissolved instead of being annulled, shall be deemed to be their legitimate child.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 12"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "voidable marriage",
+        "nullity",
+        "legitimacy"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The court held that the petitioner could not be denied compassionate appointment notwithstanding the provisions of section 16 of the Hindu Marriage Act, 1955.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "compassionate appointment",
+    "Central Railway",
+    "employment",
+    "marriage",
+    "subsistence of first marriage",
+    "Indian Succession Act",
+    "1956",
+    "judicial separation",
+    "matrimonial dispute",
+    "family law",
+    "property settlement",
+    "maintenance",
+    "alimony",
+    "custody",
+    "minor child",
+    " Hindu Adoption and Maintenance Act",
+    "1969"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on property settlement in a matrimonial dispute",
+    "assisting with a maintenance application"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:40:48.395084"
 }

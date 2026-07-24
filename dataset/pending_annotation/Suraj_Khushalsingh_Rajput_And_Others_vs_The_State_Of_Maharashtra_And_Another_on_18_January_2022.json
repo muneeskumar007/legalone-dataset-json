@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:14:34.982478",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Suraj Khushalsingh Rajput And Others vs The State Of Maharashtra And Another on 18 January, 2022",
+  "case_name": "Suraj Khushalsingh Rajput And Others vs The State Of Maharashtra And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Suraj Khushalsingh Rajput and others (accused)",
+    "respondent_defendant": "The State of Maharashtra and another",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -34,7 +34,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties have arrived at amicable settlement. Accused seeking quashing of FIR and proceedings.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -44,39 +44,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power to quash a criminal proceeding or FIR or complaint in exercise of its inherent jurisdiction is distinct and different from the power given to a criminal court for compounding the offences under Section 320 of the Code.",
+      "held": "The position that emerges from the above discussion can be summarised thus: the power of the High Court in quashing a criminal proceeding or FIR or complaint in exercise of its inherent jurisdiction is distinct and different from the power given to a criminal court for compounding the offences under Section 320 of the Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab and others, (2012) 10 SCC 303"
+      ],
       "keywords": [
-        "TODO"
+        "quashing",
+        "inherent jurisdiction",
+        "compounding",
+        "Section 320"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The power to quash a criminal proceeding or complaint or FIR may be exercised where the offender and victim have settled their dispute, but this depends on the facts and circumstances of each case.",
+      "held": "However, before exercise of such power, the High Court must have due regard to the facts and circumstances of each case and no category can be prescribed.",
+      "applicable_acts_sections": [
+        "Code"
+      ],
+      "cited_cases": [
+        "Gian Singh vs. State of Punjab and others, (2012) 10 SCC 303"
+      ],
+      "keywords": [
+        "quashing",
+        "settlement",
+        "facts",
+        "circumstances"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Criminal Application No.3118/2021 is allowed in terms of prayer clause 'B'.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "restoration",
+    "criminal application",
+    "chargesheet",
+    "high court",
+    "bench",
+    "aurangabad",
+    "maharashtra",
+    "state",
+    "applicant",
+    "respondent",
+    "cost",
+    "bar library",
+    "family law",
+    "marriage",
+    "spouse",
+    "petition",
+    "application",
+    "judgment",
+    "order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing chargesheet response",
+    "seeking restoration of criminal application"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:34:36.309428"
 }

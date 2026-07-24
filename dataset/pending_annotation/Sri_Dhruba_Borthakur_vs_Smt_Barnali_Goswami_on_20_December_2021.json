@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:12:41.447869",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Robin Phukan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.1, Kamrup, Guwahati (F.C.(Civil) 203/2013)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Dhruba Borthakur vs Smt Barnali Goswami on 20 December, 2021",
+  "case_name": "Sri Dhruba Borthakur vs Smt Barnali Goswami",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Dhruba Borthakur, husband",
+    "respondent_defendant": "Smt Barnali Goswami, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner husband had instituted F.C.(Civil) 203/2013 under Section 13(1)(ia) of the Hindu Marriage Act, 1955 before the Court. The proceeding resulted in the judgment dated 12.10.2018 by which the petition for a dissolution of marriage stood dismissed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An application for dissolution of marriage under Section 13(B) of the Hindu Marriage Act, 1955 requires an adjudication and a satisfaction to be arrived at by the Court granting dissolution of the marriage.",
+      "held": "As there is a further requirement of the Court to go into certain questions and arrive at its satisfaction, we are of the view that it would be more appropriate for the parties to file a petition under Section 13(B) of the Act of 1955 before the District Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(B)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "dissolution of marriage",
+        "Section 13(B)",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A petition for dissolution of marriage by a decree of divorce may be presented to the District Court by both parties together, whether such marriage was solemnized before or after the commencement of the Marriage Laws (Amendment) Act, 1976.",
+      "held": "Subject to the provisions of this Act a petition for dissolution of marriage by a decree of divorce may be presented to the district court by both the parties to a marriage together, whether such marriage was solemnized before or after the commencement of the Marriage Laws (Amendment) Act, 1976 (68 of 1976).",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13(B)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition for dissolution",
+        "decree of divorce",
+        "Marriage Laws (Amendment) Act"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The respondent is agreeable to go for dissolution, and what remains to be decided between the parties is for arriving at an appropriate permanent alimony that may be agreed upon.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "matrimonial dispute",
+    "family court",
+    "judgment",
+    "petitioner",
+    "respondent",
+    "marriage dissolution",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "joint family",
+    "separation",
+    "nullity",
+    "voidable marriage",
+    "irretrievable breakdown"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "assisting in property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:56:00.421813"
 }

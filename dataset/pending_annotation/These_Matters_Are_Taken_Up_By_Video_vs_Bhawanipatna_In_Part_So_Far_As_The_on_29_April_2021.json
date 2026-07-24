@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:15:55.068488",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bhawanipatna, C.P. No. 31 of 2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "These Matters Are Taken Up By Video ... vs Bhawanipatna In Part So Far As The ... on 29 April, 2021",
+  "case_name": "These Matters Are Taken Up By Video ... vs Bhawanipatna In Part So Far As The ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant-husband (MATA No. 102 of 2015) and Appellant-wife (MATA No. 182 of 2015)",
+    "respondent_defendant": "Bhawanipatna, Judge, Family Court",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties filed a joint compromise petition for dissolution of their marriage under Section 13-B of the Hindu Marriage Act. The trial court dissolved their marriage on mutual consent without any permanent alimony to the wife as well as cost of the litigation.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,95 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court may award permanent alimony to a wife even if she has not claimed any maintenance.",
+      "held": "The Court below thought it appropriate to award permanent alimony of Rs.8,00,000/- to be paid to the wife towards her maintenance as well as the maintenance and future prospect of her daughter.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "alimony",
+        "maintenance",
+        "wife's rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A husband has a duty to maintain his wife even if she has no financial interest over him.",
+      "held": "The Court below thought it appropriate that the duty of the husband petitioner to maintain his wife although she has no financial interest over him.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "husband's duties",
+        "wife's maintenance"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A court may consider the financial status of a husband when awarding alimony to his wife.",
+      "held": "The Court below observed that the husband being a businessman having status, standard and prosperity in the society who can afford the maintenance of his daughter in the custody of the wife.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "alimony",
+        "husband's financial status"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order modified the direction for payment of Rs.8,00,000/- to the wife towards her maintenance and education.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "maintenance",
+    "education",
+    "alimony",
+    "mutual consent",
+    "divorce",
+    "family court",
+    "C.P. No. 31 of 2014",
+    "MATA Nos. 102 of 2015 & 182 of 2015",
+    "Bhawanipatna",
+    "Judge, Family Court",
+    "Rs.8,00,000/-",
+    "Rs.50,00,000/-",
+    "minor daughter",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:33:09.800613"
 }

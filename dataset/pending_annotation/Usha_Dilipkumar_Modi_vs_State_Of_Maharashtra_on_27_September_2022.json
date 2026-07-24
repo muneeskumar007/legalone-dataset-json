@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:17:06.738296",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Usha Dilipkumar Modi vs State Of Maharashtra on 27 September, 2022",
+  "case_name": "Usha Dilipkumar Modi vs State Of Maharashtra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Usha Dilipkumar Modi, mother (applicant)",
+    "respondent_defendant": "The State of Maharashtra, respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial discord between complainant and her in-laws; parties referred for mediation; terms of settlement agreed upon.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle their disputes through mediation and consent terms.",
+      "held": "The matrimonial discord has been put to an end by stipulating certain conditions, which the parties have agreed to abide by.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mediation",
+        "consent terms",
+        "settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Terms of settlement agreed upon by parties should be acted upon.",
+      "held": "The terms of settlement are taken on record and marked 'X' for identification. The terms of settlement should be acted upon between Dr.Kinjal and Dr.Nishi.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "agreement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Application disposed off as infructuous",
+    "final_order": "Terms of settlement to be acted upon between Dr.Kinjal and Dr.Nishi; parties at liberty to make use of consent terms in proceedings.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial discord",
+    "anticipatory bail",
+    "interim application",
+    "mediation",
+    "settlement agreement",
+    "marital settlement",
+    "conciliation",
+    "family court",
+    "High Court of Judicature at Bombay",
+    "Criminal Appellate Jurisdiction",
+    "anticipatory bail application",
+    "interim application no.2107 of 2022",
+    "ABA-1313-22",
+    "Dr.Abhinav Chandrachud",
+    "Mr.Datta Mane",
+    "Ms.Veera Shinde",
+    "A.P.P.",
+    "Mr.Mubin Solkar",
+    "Vaibhav Shah",
+    "Amir Sopariwala",
+    "Yusuf Mithi"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "anticipatory bail application for domestic violence",
+    "mediation in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:08:00.842708"
 }

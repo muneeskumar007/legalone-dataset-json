@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:17:49.316483",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 2,
     "custody": 1,
@@ -21,13 +21,13 @@
     "Atul Sreedharan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Ist Additional Sessions Judge, Betul in Sessions Trial No. 400180/16",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vimal Kumar Mishra vs The State Of Madhya Pradesh on 8 February, 2018",
+  "case_name": "Vimal Kumar Mishra vs The State Of Madhya Pradesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vimal Kumar Mishra (husband, father-in-law, mother-in-law)",
+    "respondent_defendant": "The State Of Madhya Pradesh",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of the deceased took place with the petitioner No.1 in 2007. She stayed with her parents for seven years and 'gauna' ceremony took place in 2014. The deceased committed suicide on 26-01-2016 by hanging herself. Trial court framed charges against petitioners under Sections 498-A and 306 of IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The marriage between two Hindus is governed by the Hindu Marriage Act, 1955.",
+      "held": "The marriage between two hindus is governed by Hindu Marriage Act,1955. Section 7 of the Hindu Marriage Act, states unequivocally that where between the parties, the practice of saptapadi is followed, the marriage is complete upon the 7 th step being taken.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 7"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "Hindu Marriage Act",
+        "saptapadi"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The date of marriage is the date when the saptapadi is performed.",
+      "held": "Therefore, the learned trial court has rightly arrive at the conclusion that the marriage was performed in the year 2007.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 7"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "saptapadi",
+        "date of marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal preferred",
+    "final_order": "Trial court's order framing charges under Sections 498-A and 306 of IPC was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "IPC",
+    "498-A",
+    "306",
+    "suicide",
+    "marriage",
+    "gauna",
+    "minor",
+    "wife",
+    "husband",
+    "in-laws",
+    "domestic violence",
+    "murder",
+    "Sessions Trial",
+    "Criminal Revision",
+    "Indian Penal Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on domestic violence cases",
+    "representing clients in Sessions Trials"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:00:48.005806"
 }

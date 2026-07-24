@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:17:25.855836",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vasupalli Guru Murthy vs The State Of Andhra Pradesh on 24 July 2021",
+  "case_name": "Vasupalli Guru Murthy v. The State of Andhra Pradesh, Rep. by its Principal Secretary, Department of Home, Secretariat, Velagapudi, Amaravathi, Guntur District and others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vasupalli Guru Murthy, s/o Raju, aged 28 years, Resident of House No.9-43-10A, Appala Swamy Street, Mahantipuram, Vijayawada-520 001.",
+    "respondent_defendant": "The State of Andhra Pradesh, Rep. by its Principal Secretary, Department of Home, Secretariat, Velagapudi, Amaravathi, Guntur District and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner was married to Sai Divya, who is the daughter of respondent Nos.6 and 7. Petitioner's minor daughter, Vasupalli Manjula Satya Sri (aged 4 years), was kidnapped by respondent Nos.5 and 6 while petitioner was in police custody.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A natural guardian has the right to custody of a minor child under Section 6 of the Hindu Minority and Guardianship Act, 1956.",
+      "held": "Under Section 6 of the Hindu Minority and Guardianship Act, 1956, he is the natural guardian of Satya Sri as she is four years of age.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Minority and Guardianship Act — Section 6"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "natural guardian",
+        "minor child",
+        "custody"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "child custody disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may consider the mental and physical harassment faced by a spouse as a factor in determining the best interests of the child.",
+      "held": "The petitioner used to harass Sai Divya physically and mentally suspecting her character and despite trying to settle the issues amicably, the petitioner did not pay any heed.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "mental harassment",
+        "physical harassment",
+        "best interests of child"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "domestic violence cases",
+        "child custody disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "",
+    "final_order": "Petitioner seeks issuance of writ in the nature of habeas corpus, for production of minor daughter, Vasupalli Manjula Satya Sri (aged 4 years).",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Minority and Guardianship Act",
+    "habeas corpus",
+    "custody",
+    "minor daughter",
+    "Vasupalli Manjula Satya Sri",
+    "marital life",
+    "opposition",
+    "separation",
+    "petitioner",
+    "respondent",
+    "writ petition",
+    "judicial custody",
+    "family court",
+    "guardianship",
+    "child custody",
+    "divorce",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for child custody",
+    "advising on Hindu Minority and Guardianship Act",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:34:21.070442"
 }

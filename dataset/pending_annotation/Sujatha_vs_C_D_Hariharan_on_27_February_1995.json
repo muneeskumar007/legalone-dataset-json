@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:14:03.612282",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Family Court, Madras, O.P. No. 425 of 1991",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sujatha vs C.D. Hariharan on 27 February, 1995",
+  "case_name": "Sujatha vs C.D. Hariharan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sujatha, wife",
+    "respondent_defendant": "C.D. Hariharan, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties took place on 10.3.1991 at Madras. Prior to the marriage, the petitioner's parents visited the bride's house to see the girl. The respondent's father cleverly and cunningly stage-managed every minute of their presence in such a way that the actual seeing of the girl was restricted to less than a minute.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A person has the right to know the real state of affairs about their spouse before marriage.",
+      "held": "He would not have married the respondent if the real state of affairs had been informed to him prior to the marriage.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sujatha vs C.D. Hariharan, (1995)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marital life",
+        "spouse",
+        "real state",
+        "informed consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person has the right to know about any physical or mental health issues of their spouse before marriage.",
+      "held": "He took her again to a Psychiatrist, Dr. Saradha Menon, and at that time, she did not give any report as she wanted to talk to the respondent's parents.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sujatha vs C.D. Hariharan, (1995)"
+      ],
+      "keywords": [
+        "physical health",
+        "mental health",
+        "informed consent"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage between the parties is declared null and void.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "null and void",
+    "Section 12(1)(c)",
+    "marriage nullity",
+    "family court",
+    "divorce",
+    "negotiations",
+    "electricity supply",
+    "evil motive",
+    "Latin maxim",
+    "actus reus",
+    "mens rea",
+    "fraudulent concealment",
+    "deception",
+    "stage-managed",
+    "restricted access"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting nullity petitions",
+    "advising on family court procedures",
+    "representing clients in divorce cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:57:15.395586"
 }

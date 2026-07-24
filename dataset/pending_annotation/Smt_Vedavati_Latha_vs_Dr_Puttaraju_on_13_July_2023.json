@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:11.332214",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Anant Ramanath Hegde J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bengaluru, M.C. No.3072/2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Vedavati @ Latha vs Dr.Puttaraju on 13 July, 2023",
+  "case_name": "Smt. Vedavati @ Latha vs Dr.Puttaraju",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Vedavati @ Latha (wife)",
+    "respondent_defendant": "Dr. Puttaraju (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties was solemnized on 30.11.1983. Out of wedlock, a daughter was born to them. Appellant/wife filed petition seeking dissolution of marriage on ground of desertion and cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties who have not resided together since 2009 are deemed to be living separately",
+      "held": "Ordinarily we would have granted the liberty to the appellant to file a petition under Section 13(1)(ia) of the Act, however, in the peculiar facts of the case and on perusal of the material on record, it is clear that the parties are not residing together since, 2009",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13(1)(ia)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "separation",
+        "residency",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking dissolution of marriage to prove the grounds",
+      "held": "It is further held that the appellant / wife failed to prove the ground pleaded by her viz., cruelty and desertion seeking dissolution of marriage",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13(1)(ia)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "proof",
+        "grounds",
+        "dissolution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Decree for judicial separation under Section 10 of the Hindu Marriage Act, 1955 was granted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)",
+    "Family Courts Act",
+    "M.C. No.3072/2011",
+    "MFA No.4024 of 2018",
+    "Section 19(1)",
+    "petition under Section 13(1)",
+    "dismissal of petition",
+    "Hindu Marriage Act, 1955",
+    "divorce grounds",
+    "irretrievable breakdown",
+    "Latin maxim: 'actus curiae memineris'",
+    "family court jurisdiction"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "responding to a dismissal of divorce petition",
+    "advising on family court jurisdiction"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:05:14.599700"
 }

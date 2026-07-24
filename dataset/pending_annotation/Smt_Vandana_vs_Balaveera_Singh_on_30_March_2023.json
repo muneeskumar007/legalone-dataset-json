@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:12:10.534802",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 4,
@@ -24,13 +24,13 @@
   "case_numbers": [
     "sc.No.03/2014"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Hubballi, Crl.Misc.No.3/2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Vandana vs Balaveera Singh on 30 March, 2023",
+  "case_name": "Smt.Vandana vs Balaveera Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt.Vandana, W/O. Balaveera Singh Kapoor",
+    "respondent_defendant": "Sri Balaveera Singh, S/O. Kirpal Singh Kapoor",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife seeks maintenance from the husband who has neglected to maintain her and provide basic necessities. The trial court directed the husband to pay Rs.10,000/- per month as monthly maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking alteration of maintenance to establish a change in circumstances.",
+      "held": "During the interregnum, petitioner-wife has filed Criminal Miscellaneous No.21/2021 under Section 127 Cr.P.C seeking alteration of maintenance as awarded in Crl.Misc.03/2014 stating that the petitioner is entitled for 1/3rd of the respondent's salary from the date of petition with cost.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 127"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "alteration",
+        "change in circumstances"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot revive a petition that has been dismissed by the court.",
+      "held": "The present petition has sought to revive the present petition after dismissal of Crl. Misc. No.21/2021, which is nothing but an abuse of Court process.",
+      "cited_cases": [],
+      "keywords": [
+        "dismissal",
+        "revival",
+        "abuse of Court process"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal partly allowed",
+    "final_order": "The final order enhanced the monthly maintenance from Rs.10,000/- to an amount to be determined by the court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Family Court",
+    "RPFC",
+    "Section 19(4)",
+    "Section 125",
+    "Section 7",
+    "CPC",
+    "CR.P.C.",
+    "Family Court Act",
+    "CRL.MISC.",
+    "PRINCIPAL JUDGE",
+    "HUBBALLI",
+    "FAMILY COURT ACT",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family court procedures",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:02:44.178515"
 }

@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:18:11.305486",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "partition": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "V.Latha vs The Superintendent Of Police on 19 March, 2010",
+  "case_name": "V.Latha vs The Superintendent Of Police",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "V.Latha, Petitioner",
+    "respondent_defendant": "The Superintendent of Police, Thiruvannamalai District; Deputy Inspector General of Police, Vellore Range, Vellore; Inspector General of Police, North Zone, Chennai (Respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner challenged the orders passed by respondents imposing penalties. Petitioner was a Head Constable who married Vijayakumar knowing he had an existing wife and children. A charge was framed against her under Rule 3(b) of Tamil Nadu Police Subordinate Services (Discipline and Appeal) Rules, dated 26.12.2008.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,21 +58,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the person who alleges a fact to prove it.",
+      "held": "The stand of the petitioner that she is not aware of the first marriage of her husband cannot be believed.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "V.Latha vs The Superintendent Of Police, (2010)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "proof",
+        "allegation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A panchayat's advice can be a binding decision.",
+      "held": "On the basis of the advise of Panchayat, they were living separately.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "V.Latha vs The Superintendent Of Police, (2010)"
+      ],
+      "keywords": [
+        "panchayat",
+        "advice",
+        "binding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -82,15 +103,33 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "child",
+    "parent",
+    "family law",
+    "marriage",
+    "separation",
+    "nullity",
+    "voidable marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:14:11.500210"
 }

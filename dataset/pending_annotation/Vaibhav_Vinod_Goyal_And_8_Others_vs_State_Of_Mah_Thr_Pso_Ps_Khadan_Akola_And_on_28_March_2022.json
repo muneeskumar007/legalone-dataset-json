@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:17:08.373339",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "land_acquisition": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vaibhav Vinod Goyal And 8 Others vs State Of Mah. Thr. Pso Ps Khadan Akola And ... on 28 March, 2022",
+  "case_name": "Vaibhav Vinod Goyal And 8 Others vs State Of Mah. Thr. Pso Ps Khadan Akola And ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vaibhav Vinod Goyal, Usha Vinod Goyal, Hina Achal Agrawal, Anchal Agrawal, Shikha Manish Singhal, Manish Singhal, Rekha Govind Singhal, Govind Singhal, Anil Tambi",
+    "respondent_defendant": "State of Maharashtra, Pooja Vaibhav Goyal",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicants are challenging the registration of a first information report filed against them for the offence punishable under Sections 498-A, 504, 506 read with Section 109 IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to prove that the FIR is not maintainable.",
+      "held": "We have carefully considered the allegations in the first information report and we are satisfied that even if the allegations in the first information report along with the material on record are taken on its face value, the same are not sufficient to constitute the essential ingredients of the offences alleged.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "FIR",
+        "burden of proof",
+        "maintainability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A joint petition for mutual divorce filed under Section 13-B of the Hindu Marriage Act can be a ground to quash and set aside an FIR.",
+      "held": "They have filed a joint petition under Section 13-B of the Hindu Marriage Act before the Family Court at Akola. A copy of the said joint petition is placed on record by the applicants at Annexure-A2.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mutual divorce",
+        "FIR quashing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Rule is made returnable forthwith. Heard finally by consent of the parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Indian Penal Code",
+    "1860",
+    "Specific Relief Act",
+    "1963",
+    "maintenance",
+    "alimony",
+    "cruelty",
+    "adultery",
+    "desertion",
+    "separation",
+    "matrimonial",
+    "property",
+    "assets",
+    "joint family",
+    "family law",
+    "marriage",
+    "spouse",
+    "wife",
+    "husband",
+    "children",
+    "custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "representing clients in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:17:45.443455"
 }

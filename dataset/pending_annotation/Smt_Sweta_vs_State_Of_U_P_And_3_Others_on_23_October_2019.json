@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:03.536758",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judicial Magistrate, Firozabad in Case No.248 of 2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sweta vs State Of U.P. And 3 Others on 23 October, 2019",
+  "case_name": "Smt. Sweta vs State Of U.P. And 3 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sweta (wife)",
+    "respondent_defendant": "State Of U.P. And 3 Others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant sought interim maintenance under Section 23 of the Protection of Women from Domestic Violence Act, 2005, but was rejected by the trial court on the ground that she is getting Rs.4,000/- as maintenance under Section 125, Cr.P.C. and Rs.7,500/- as interim maintenance under Section 24 of Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A statutory appeal shall lie against the order impugned.",
+      "held": "Statutory appeal under Section 29 of the Protection of Women from Domestic Violence Act, 2005 shall lie against the order impugned.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from Domestic Violence Act, 2005 — Section 29"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "statutory appeal",
+        "Protection of Women from Domestic Violence Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Maintenance under Section 125, Cr.P.C. and interim maintenance under Section 24 of Hindu Marriage Act does not bar the applicant's right to seek interim maintenance under Section 23 of Protection of Women from Domestic Violence Act.",
+      "held": "The applicant is getting Rs.4,000/- as maintenance under Section 125, Cr.P.C. and Rs.7,500/- as interim maintenance under Section 24 of Hindu Marriage Act, but the ground that the applicant is getting these amounts does not bar the applicant's right to seek interim maintenance under Section 23 of Protection of Women from Domestic Violence Act.",
+      "applicable_acts_sections": [
+        "Cr.P.C. — Section 125",
+        "Hindu Marriage Act — Section 24",
+        "Protection of Women from Domestic Violence Act — Section 23"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "interim maintenance"
+      ],
+      "favours": "applicant",
+      "use_in": [
+        "domestic violence cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The present application stands dismissed on the ground of alternative remedy available to the applicant.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Divorce",
+    "Maintenance",
+    "Domestic Violence Act",
+    "Hindu Marriage Act",
+    "Section 125 CrPC",
+    "Section 23 Protection of Women from Domestic Violence Act",
+    "Interim Maintenance",
+    "Statutory Appeal",
+    "Alternative Remedy",
+    "Protection of Women from DV Act",
+    "CrPC",
+    "Judicial Magistrate",
+    "Magisterial Order",
+    "Domestic Violence",
+    "Family Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "appealing magisterial orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:53:29.798167"
 }

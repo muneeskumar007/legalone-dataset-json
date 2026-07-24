@@ -24,13 +24,13 @@
     "Rakesh Kainthla J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Shimla vide which respondent was awarded maintenance",
   "reserved_on": "15.06.2024",
   "delivered_on": "28.09.2022",
-  "case_name": "Tikka Ram & Another vs Smt. Shanti Verma on 28 June, 2024",
+  "case_name": "Tikka Ram & Another vs Smt. Shanti Verma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tikka Ram & another (husband, non-claimants/respondents)",
+    "respondent_defendant": "Smt. Shanti Verma (wife, claimant before the learned Trial Court)",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -46,7 +46,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Claimant filed an application under Section 125 of Cr.P.C. for seeking maintenance. Claimant is a legally wedded wife of respondent No.1 and mother of respondent No.2. Respondent No.1 instigated respondent No.2 not to keep the petitioner with him.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A composite petition cannot be filed against the husband and the son.",
+      "held": "The husband has primary liability to pay maintenance, and the liability of the son will arise when the husband is unable to pay any maintenance.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 125"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Mehrubhai Mandanbhai Odedaravs",
+        "Rainben Merubhai Odedara AIR 2000 Guj 277",
+        "Raj Kumari Vs Yashodha Devi and Anr. 1978CrLJ600"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "husband",
+        "son",
+        "primary liability"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court exercising revisional jurisdiction cannot reappreciate the facts unless there is some perversity.",
+      "held": "It was observed: '9. So far as Issue 1 is concerned i.e. as to whether ...'",
+      "applicable_acts_sections": [
+        "Family Courts Act — Section 19(4)"
+      ],
+      "cited_cases": [
+        "Manju Ram Kalita v. State of Assam, (2009) 13 SCC 330: (2010) 1 SCC (Cri) 1015: 2009 SCC OnLine SC 1214"
+      ],
+      "keywords": [
+        "revisional jurisdiction",
+        "perversity"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order dated 12.08.2021, passed by learned Principal Judge, Family Court, Shimla was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Section 125 Cr.P.C.",
+    "Family Court",
+    "Shimla",
+    "High Court of Himachal Pradesh",
+    "Criminal Revision",
+    "petition",
+    "respondent",
+    "claimant",
+    "government servant",
+    "retirement",
+    "legally wedded wife",
+    "mother",
+    "child support",
+    "family law",
+    "Indian Penal Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce and child support",
+    "advising on maintenance claims under Section 125 Cr.P.C.",
+    "representing a client in a Family Court case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:37:40.824487"
 }

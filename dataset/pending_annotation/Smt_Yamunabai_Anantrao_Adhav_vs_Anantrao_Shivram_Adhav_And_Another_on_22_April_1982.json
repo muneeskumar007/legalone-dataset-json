@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:12:19.317316",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 4,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Yamunabai Anantrao Adhav vs Anantrao Shivram Adhav And Another on 22 April, 1982",
+  "case_name": "Smt. Yamunabai Anantrao Adhav vs Anantrao Shivram Adhav And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Yamunabai Anantrao Adhav (wife)",
+    "respondent_defendant": "Anantrao Shivram Adhav And Another (husband and another)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The marriage of the petitioner - Yamunabai - with the respondent No. 1 was performed on 16-6-1974 after undergoing necessary rites under the Hindu law, which was the personal law of the parties. The said marriage was also registered as required under the Hindu Marriage Act, 1955. However, at the time when the said marriage was performed, respondent's first wife Lilabai was alive and the said marriage between them was subsisting.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,101 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage is null and void if it contravenes the condition under Section 5(i) of the Hindu Marriage Act, 1955.",
+      "held": "Section 11 of the said Act provides that any marriage after the commencement of the Act shall be null and void if it contravened inter alia the said condition under section 5(i).",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5(i), Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "null and void",
+        "contravention of condition",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A marriage between two parties is rendered nugatory if it is null and void under Section 11 of the Hindu Marriage Act, 1955.",
+      "held": "The consequences of such a marriage being null and void or 'voidipso jure' was that although the marriage was solemnized by performing necessary ceremonies and was registered, the same was in law rendered nugatory as if not having taken place at all.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 11"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "nugatory",
+        "null and void",
+        "Hindu Marriage Act"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A woman cannot be considered a legally wedded wife of the man if their marriage is null and void under Section 11 of the Hindu Marriage Act, 1955.",
+      "held": "Accordingly, in such a case the woman cannot be considered to be a legally wedded wife of the man.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 11"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "legally wedded wife",
+        "null and void",
+        "Hindu Marriage Act"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Section 5(i)",
+    "Section 11",
+    "Section 125",
+    "Null and void marriage",
+    "Maintenance claim",
+    "Divorce",
+    "Criminal Revision Application",
+    "Full Bench",
+    "Division Bench",
+    "Single Judge",
+    "Latin maxim",
+    "Voidable marriage",
+    "Hindu law",
+    "Personal law",
+    "Marriage registration"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "representing clients in criminal revision applications"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:12:34.692098"
 }

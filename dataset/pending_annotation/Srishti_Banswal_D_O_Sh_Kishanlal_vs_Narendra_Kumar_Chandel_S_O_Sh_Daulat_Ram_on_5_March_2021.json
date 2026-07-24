@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:32.930483",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -19,13 +19,13 @@
     "Goverdhan Bardhar Order J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judge Family Court, Bundi (applications No.727/2019 and No.255/2019)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Srishti Banswal D/O Sh. Kishanlal ... vs Narendra Kumar Chandel S/O Sh Daulat Ram ... on 5 March, 2021",
+  "case_name": "Srishti Banswal D/O Sh. Kishanlal vs Narendra Kumar Chandel S/O Sh Daulat Ram",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Srishti Banswal, wife",
+    "respondent_defendant": "Narendra Kumar Chandel, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is a working lady residing with her parents in Alwar, seeking transfer of two applications from Judge Family Court, Bundi to Judge Family Court, Alwar due to distance and difficulty in attending court with minor daughters.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking transfer to establish that the transfer is necessary.",
+      "held": "Learned counsel for the petitioner/non-applicant submits that the distance from Alwar to Bundi is approx. 350 Kms.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "burden",
+        "distance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking transfer must demonstrate that the transfer is necessary.",
+      "held": "Learned counsel further submits that the petitioner/non-applicant has two minor daughters and for attending the Court at Bundi, she requires at least one attendant with her which is quite difficult for her.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "transfer",
+        "necessity",
+        "minor children"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Both the transfer applications are allowed and transferred from Judge Family Court, Bundi to Judge Family Court, Alwar.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "matrimonial dispute",
+    "irretrievable breakdown",
+    "marriage",
+    "separation",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "joint family",
+    "separate property",
+    " Hindu law",
+    "family court",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in joint family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:35:42.514911"
 }

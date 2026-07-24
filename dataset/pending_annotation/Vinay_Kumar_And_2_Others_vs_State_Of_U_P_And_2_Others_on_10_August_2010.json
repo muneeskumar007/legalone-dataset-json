@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:17:50.407466",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vinay Kumar And 2 Others vs State Of U.P. And 2 Others on 10 August, 2010",
+  "case_name": "Vinay Kumar And 2 Others vs State Of U.P. And 2 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vinay Kumar And 2 Others (husband, parents)",
+    "respondent_defendant": "State Of U.P. And 2 Others (wife, father-in-law)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner no. 1 had married with opposite party no. 3 and after the marriage he started living with his wife at her maternal home. Opposite party no. 2 had gone with someone on 25.4.2009 without informing anybody in her house.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,72 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party who seeks to establish a fact.",
+      "held": "The submission of the learned counsel for the petitioners is that no offence is disclosed from the facts and circumstances of the case against the petitioners.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "fact"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's conduct can be relevant in determining the outcome of a case.",
+      "held": "It is also submitted that opposite party no. 2 had gone with someone on 25.4.2009 without informing anybody in her house",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "party",
+        "conduct"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "Till the next date of listing, further proceedings in Complaint Case No. 4614 of 2009 shall remain stayed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "mutual consent",
+    "section 13",
+    "annulment",
+    "matrimonial dispute",
+    "marriage",
+    "wife's absence",
+    "written application",
+    "PS report",
+    "registered post",
+    "family court",
+    "petition by mutual consent",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce by mutual consent",
+    "advising on matrimonial disputes",
+    "preparing a case for annulment of marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:03:40.937671"
 }

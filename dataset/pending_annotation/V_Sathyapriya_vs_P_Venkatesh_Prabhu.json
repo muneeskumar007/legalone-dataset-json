@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T11:18:13.509480",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -28,13 +28,13 @@
     "O.P.No.2864 of 2009",
     "O.P.No.2864 of 2019"
   ],
-  "trial_court": "",
+  "trial_court": "III Additional Family Court, Chennai - O.P.No.2864 of 2009",
   "reserved_on": "",
   "delivered_on": "13.07.2022",
   "case_name": "V.Sathyapriya vs P.Venkatesh Prabhu",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Wife (Appellant)",
+    "respondent_defendant": "Husband (Respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent filed for dissolution of marriage under Section 13(1)(i-a) of the Hindu Marriage Act, 1955, read with Section 7 of the Family Courts Act, 1986. The appellant suffered physical defects and the respondent's parents were depressed due to suppression. The couple did not have a cordial relationship within 10 days of marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The restriction of one year contained in Section 14 of the Hindu Marriage Act is only directory and not mandatory.",
+      "held": "Firstly, the Act did not contain any provision for consequences of non-compliance of time limit prescribed in Section 14. Secondly, as per the proviso to Section 14, the Court has power to permit the petitioner to file petition before expiry of one year on the application of the petitioner claiming exceptional hardship or exceptional depravity on the part of the respondent.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 14"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "V.Sathyapriya vs P.Venkatesh Prabhu",
+        "Indumathi Vs. Krishnamurthy, (1999) 1 CTC 2010",
+        "G.Ganesh Babu Vs. A.P.Arthi, (2013) 2 CTC 320",
+        "S.Gugan Vs. R.Nisha, SCC Online Mad 17063"
+      ],
       "keywords": [
-        "TODO"
+        "directory",
+        "mandatory",
+        "petition for dissolution of marriage",
+        "exceptional hardship",
+        "exceptional depravity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A petition can be filed before lapse of one year of date of marriage by obtaining permission from the Court.",
+      "held": "This permission can be obtained even after filing a petition for dissolution of marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 14"
+      ],
+      "cited_cases": [
+        "Indumathi Vs. Krishnamurthy, (1999) 1 CTC 2010",
+        "G.Ganesh Babu Vs. A.P.Arthi, (2013) 2 CTC 320",
+        "S.Gugan Vs. R.Nisha, SCC Online Mad 17063"
+      ],
+      "keywords": [
+        "petition for dissolution of marriage",
+        "permission from the Court",
+        "exceptional hardship",
+        "exceptional depravity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court decree and judgment dated 17.12.2014 were confirmed, and the appeal was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Family Courts Act",
+    "1984",
+    "Section 19",
+    "Section 13(1)(i-a)",
+    "Section 7",
+    "marriage dissolution",
+    "right hand fracture",
+    "multiple fractures",
+    "wife's rights",
+    "husband's petition",
+    "dissolution of marriage",
+    "family court jurisdiction",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family court jurisdiction",
+    "assisting with Hindu Marriage Act cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:15:09.634722"
 }

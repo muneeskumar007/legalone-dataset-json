@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:11:45.444307",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Shiuli Sharma (Nee Panja) vs Sri Vivek Sharma on 24 February, 2021",
+  "case_name": "Smt Shiuli Sharma (Nee Panja) vs Sri Vivek Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Shiuli Sharma (nee Panja), wife",
+    "respondent_defendant": "Sri Vivek Sharma, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage certificate shows respondent/husband remarried after expiry of time for appeal from impugned judgment and decree. Appeal was filed thereafter.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to establish a fact.",
+      "held": "Mr. Paine submits, his client received certified copy of judgment and decree on 7th December, 2020. Forthwith thereafter steps were taken for filing the appeal and there is no reported delay.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 28"
+      ],
+      "cited_cases": [
+        "Kajal Chowdhury Vs. Dilip Chowdhury, (2004) Cal. 113"
+      ],
+      "keywords": [
+        "appeal",
+        "judgment",
+        "decree",
+        "certified copy"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The law is clear that the time for appeal is ninety days.",
+      "held": "Section 28 provides for time of appeal to be ninety days.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 28"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appeal",
+        "time limit"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Application for stay of impugned judgment and decree is dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "section 15",
+    "section 28",
+    "marriage certificate",
+    "remarriage",
+    "appeal",
+    "time of appeal",
+    "dismissed",
+    "judgment and decree",
+    "stay of operation",
+    "impugned judgment",
+    "decree dated",
+    "September",
+    "2020",
+    "January",
+    "2021",
+    "December",
+    "2020",
+    "social marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on remarriage after divorce",
+    "appealing a divorce judgment"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:21:42.243307"
 }

@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:12:58.948740",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 11,
     "maintenance": 5,
@@ -24,13 +24,13 @@
     "Savitri Ratho J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Berhampur, Criminal Proceeding No. 255 of 2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Santosh Kumar Mishra vs State Of Odisha on 29 April, 2026",
+  "case_name": "Sri Santosh Kumar Mishra vs State Of Odisha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Santosh Kumar Mishra (husband)",
+    "respondent_defendant": "State of Odisha, Smt. Sudeepta Satpathy @ Mishra (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the Petitioner and Opposite Party No.-2 was solemnized on 05.03.2009. Opposite Party-2 was subjected to physical and mental cruelty by the Petitioner and his family in connection with dowry demands.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -79,39 +79,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife is entitled to receive an allowance for maintenance and expenses of proceeding from her husband if she is not living in adultery.",
+      "held": "If a wife is living in adultery, or without sufficient reason refuses to live with her husband, or they are living separately by mutual consent, the Magistrate shall cancel the order.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "expenses",
+        "proceeding",
+        "adultery"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "wife",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A husband's offer to maintain his wife on condition of her living with him is not a valid ground for denying her maintenance.",
+      "held": "If such person offers to maintain his wife on condition of her living with him, and she refuses to live with him, such Magistrate may consider any grounds of refusal stated by her, and may make an order under this section notwithstanding such offer, if he is satisfied that there is just ground for so doing.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "offer",
+        "condition",
+        "living"
+      ],
+      "favours": "wife",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The judgment dated 27.02.2020 passed by the learned Judge, Family Court, Berhampur was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "arrear maintenance",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Section 125 Cr.P.C.",
+    "Family Court",
+    "conditional NBW",
+    "D.W.",
+    "non-payment",
+    "marriage",
+    "solemnized",
+    "Hindu rites and customs",
+    "CRLMC",
+    "Section 482 Cr.P.C.",
+    "judgment",
+    "order",
+    "arrear",
+    "maintenance order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to maintenance application",
+    "appealing family court judgment"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:20:33.217290"
 }

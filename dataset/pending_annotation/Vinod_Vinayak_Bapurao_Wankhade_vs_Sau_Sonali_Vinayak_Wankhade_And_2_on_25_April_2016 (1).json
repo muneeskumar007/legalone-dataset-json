@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:17:52.617075",
   "domain": "maintenance",
-  "sub_domain": "divorce",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 3,
@@ -17,20 +17,20 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "2nd Joint Civil Judge Senior Division, Amravati in H.M.P. No.28 of 2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vinod @ Vinayak Bapurao Wankhade vs Sau. Sonali Vinayak Wankhade And 2 ... on 25 April, 2016",
+  "case_name": "Vinod @ Vinayak Bapurao Wankhade vs Sau. Sonali Vinayak Wankhade And 2",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vinod @ Vinayak Bapurao Wankhade, Businessman",
+    "respondent_defendant": "Sau.Sonali Vinayak Wankhade, Nil; Ome Vinayak Wankhade, Nil; Harsh Vinayak Wankhade, Nil (through natural guardian mother)",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner challenged an order granting interim maintenance to respondents under Section 24 of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -40,39 +40,70 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the petitioner to show that he has neglected to maintain his wife and children.",
+      "held": "At this stage, what is necessary to be looked into is as to whether or not the petitioner though possessed of sufficient means to maintain his wife and children has neglected to so.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "neglect"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's ability to earn income every day can be considered as sufficient means for maintenance.",
+      "held": "The petitioner himself has produced on record a certificate from his employer, Kamal Electronics, Amravati. The certificate shows that the petitioner is working in the said shop on temporary basis and earning such sums as Rs. 150/- to Rs. 200/- per day subject to availability of work.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "income",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order was set aside and the matter was remanded back to the trial court for fresh consideration.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "maintenance",
+    "Hindu Marriage Act",
+    "Section 24",
+    "interim maintenance",
+    "Rs.5000/- per month",
+    "petition",
+    "writ petition",
+    "Nagpur Bench",
+    "Bombay High Court",
+    "judgment",
+    "oral judgment",
+    "consent",
+    "hearing",
+    "returnable forthwith"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for interim maintenance",
+    "seeking consent for hearing in a family court",
+    "obtaining an oral judgment in a high court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:10:37.289180"
 }

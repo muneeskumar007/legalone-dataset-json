@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:44.734702",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2
   },
@@ -20,13 +20,13 @@
   "case_numbers": [
     "M.C.NO.7/2014"
   ],
-  "trial_court": "",
+  "trial_court": "CIVIL JUDGE, & JMFC, ARSIKERE, M.C.NO.7/2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri K Raghu vs Smt S N Shruthi on 13 October, 2017",
+  "case_name": "Sri K Raghu vs Smt S N Shruthi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SRI K.RAGHU, HUSBAND",
+    "respondent_defendant": "SMT.S.N.SHRUTHI, WIFE",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife who sought dissolution of marriage under Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking dissolution of marriage to prove that the respondent has not been living with him for at least three years immediately preceding the petition.",
+      "held": "It is settled law that the burden lies on the party seeking dissolution of marriage to prove that the respondent has not been living with him for at least three years immediately preceding the petition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "dissolution",
+        "marriage",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not interfere with the personal liberty of a party unless there is a clear and compelling reason to do so.",
+      "held": "This Court will not interfere with the personal liberty of a party unless there is a clear and compelling reason to do so.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 28"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "personal liberty",
+        "interference",
+        "compelling reason"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is dismissed as not pressed, and the application for condonation of delay is also dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Section 28(1)",
+    "dissolution of marriage",
+    "marriage dissolution",
+    "family law",
+    "Indian family law",
+    "Karnataka High Court",
+    "Mysore",
+    "Jyothinagar",
+    "Krishnanagara",
+    "Yaraganahalli",
+    "Hassan",
+    "Arasikere",
+    "Senior Civil Judge",
+    "JMFC",
+    "civil judge",
+    "family court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "advising on dissolution of marriage in Karnataka High Court",
+    "preparing appeal against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:01:38.098951"
 }

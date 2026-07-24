@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:59.617003",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -21,20 +21,20 @@
   "case_numbers": [
     "M.C.No.842/2021"
   ],
-  "trial_court": "",
+  "trial_court": "III Additional Principal Judge, Family Court, Mysuru (M.C.No.842/2021)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Supriya L vs Sri Ravi V on 11 September, 2023",
+  "case_name": "Smt Supriya L vs Sri Ravi V",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Supriya L, wife",
+    "respondent_defendant": "Sri Ravi V, husband",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage was solemnized on 30.01.2018. Due to differences, petitioner/wife is staying with her parents at Hospet. Respondent/husband instituted M.C.No.842/2021 seeking dissolution of marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -44,39 +44,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court may transfer a petition to another court in the interest of justice and equity.",
+      "held": "Perused the Civil Petition papers. The petitioner/wife is not working and she has no income of her own. The petitioner/wife is residing with her parents at Hospet and depending on her parents for her livelihood.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "justice",
+        "equity",
+        "petition transfer"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may not transfer a petition to another court if it would cause hardship to the other party.",
+      "held": "Further, it is submitted that respondent/husband has to look after his aged parents and it would be difficult for respondent/husband to travel from Mysuru to Hospet and it would cause great hardship, if the proceedings is transferred to Hospet.",
+      "applicable_acts_sections": [
+        "CPC — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "hardship",
+        "petition transfer"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition transferred from III Additional Principal Judge, Family Court, Mysuru to the Court of Principal Senior Civil Judge, Hospet, Bellary District.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "CPC",
+    "Section 24",
+    "MCP",
+    "Family Court",
+    "Principal Senior Civil Judge",
+    "Hospet",
+    "Bellary District",
+    "Justice",
+    "Equity",
+    "Video Conference",
+    "Admission",
+    "Order",
+    "Petitioner",
+    "Respondent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on court transfer",
+    "assisting with family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:45:12.384409"
 }

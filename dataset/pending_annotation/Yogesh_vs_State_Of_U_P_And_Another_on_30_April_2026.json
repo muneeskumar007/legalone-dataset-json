@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Yogesh vs State Of U.P. And Another on 30 April, 2026",
+  "case_name": "Yogesh vs State Of U.P. And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Yogesh — Appellant",
+    "respondent_defendant": "State of U.P. and Another — Respondents",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The appellant, Yogesh, filed an appeal to quash the order dated 4th April, 2018 in Special Sessions Trial No. 30 of 2018. The case arose out of Case Crime No.163 of 2013, under Sections 363, 366 and 376 I.P.C. and Sections 3 (2) (v) of Scheduled Castes and Scheduled Tribes (Prevention of Atrocities), Act, 1989.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The benefit of doubt always goes in favour of the accused.",
+      "held": "However, the benefit of such difference always goes in favour of the accused.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "benefit",
+        "doubt",
+        "accused"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The prosecution must prove the case beyond reasonable doubt.",
+      "held": "No case for the alleged offence is made out against the appellant.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "prosecution",
+        "reasonable doubt"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "cruelty",
+    "irretrievable breakdown",
+    "matrimonial home",
+    "maintenance",
+    "alimony",
+    "custody",
+    "child support",
+    "domestic violence",
+    "IPC",
+    "363",
+    "366",
+    "376",
+    "Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act",
+    "1989",
+    "Section 3(2)(v)",
+    "quash",
+    "appeal",
+    "Special Sessions Trial"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act, 1955",
+    "advising on maintenance and alimony in a divorce case",
+    "representing a client in a domestic violence case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:38:15.613340"
 }

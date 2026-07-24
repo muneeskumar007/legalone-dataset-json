@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:16:01.580243",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "C.C.No.6634/2011"
   ],
-  "trial_court": "",
+  "trial_court": "XXXIX ACMM, Bengaluru, C.C.No.6634/2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "The State By Kamakshipalya vs A1. Srinath on 23 January, 2023",
+  "case_name": "The State By Kamakshipalya vs A1. Srinath",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "The State by Kamakshipalya (Police Station, Bengaluru)",
+    "respondent_defendant": "A1. Srinath, s/o Ravichandran, and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of complainant with accused on 06.09.2009; demand for dowry and lease amount; prosecution alleges cruelty and harassment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that the demand for dowry was not made.",
+      "held": "It is the specific case of the prosecution that, the marriage of the complainant was took place alongwith the accused on 06.09.2009 as per the Hindu rites and customs.",
       "applicable_acts_sections": [
-        "TODO"
+        "Protection of Women from DV Act, 2005"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "dowry",
+        "marriage",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "domestic violence cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will consider the totality of circumstances to determine whether a demand for dowry was made.",
+      "held": "During the marriage negotiation since the accused No.1 was working in a reputed company, the accused demanded with the CW2 and CW4 to give 60 savaran gold ornaments as dowry.",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act, 2005"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "dowry",
+        "marriage negotiation",
+        "circumstances"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "domestic violence cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Accused found not guilty",
+    "final_order": "No relief granted to the complainant",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Protection of Women from DV Act",
+    "2005",
+    "498(A)",
+    "506",
+    "34",
+    "IPC",
+    "D.P. Act",
+    "Section 3",
+    "Section 4",
+    "DV",
+    "domestic violence",
+    "marital rights",
+    "family law",
+    "Indian Penal Code",
+    "Criminal Procedure Code",
+    "judicial separation",
+    "maintenance",
+    "alimony"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on domestic violence cases",
+    "assisting with maintenance and alimony disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:28:20.685313"
 }

@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:12:46.197469",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -19,20 +19,20 @@
   "bench": "Division Bench",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Addl. Sessions Judge, Sonamura Sepahijala Tripura in connection with case No. ST 20 (WT/S) of 2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Manik Rudra Paul vs The State Of Tripura on 20 January, 2026",
+  "case_name": "Sri Manik Rudra Paul vs The State Of Tripura",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Manik Rudra Paul, son of Sri Jatindra Rudra Paul, resident of Kaliram, Lakhandepa, P.S. Melaghar, District: Sepahijala Tripura.",
+    "respondent_defendant": "The State of Tripura, represented by its Secretary cum Commissioner, Department of Home, Government of Tripura, P.O. Kunjaban, P.S. New Capital Complex, District: West Tripura.",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The prosecution was launched out of a written complaint lodged by Smt. Manju Rudra Paul against her husband Sri Manik Rudra Paul and his parents-in-law. The complainant alleged that she was subjected to mental and physical harassment by the accused persons.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -42,39 +42,55 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that they were not aware of the consequences of their actions.",
+      "held": "Considering all the aspects in the given case I sentenced the convict to suffer rigorous life imprisonment for the commission of offence punishable under Section-302 of the Indian Penal Code.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 302"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "convict",
+        "rigorous life imprisonment",
+        "Section-302"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "murder cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal filed under Section-374 of Cr. P.C. challenging the legality and validity of judgment and order of conviction and sentences dated 13.01.2025 passed by the learned Addl. Sessions Judge, Sonamura Sepahijala Tripura.",
+    "final_order": "The convict appellant was sentenced to suffer rigorous imprisonment for life and also to pay a fine of Rs.20,000/- for the said offence and in default, to undergo further rigorous imprisonment for one year.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "appeal",
+    "Section-374",
+    "Cr. P.C.",
+    "Addl. Sessions Judge",
+    "conviction",
+    "sentences",
+    "Tripura",
+    "Sepahijala",
+    "Sonamura",
+    "ST 20 (WT/"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against conviction",
+    "challenging judgment and order of conviction",
+    "seeking relief from Addl. Sessions Judge"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:05:35.192759"
 }

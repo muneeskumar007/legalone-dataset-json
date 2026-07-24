@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:11:31.717308",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 3,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Gautam Budh Nagar - Case No. 1326 of 2019",
   "reserved_on": "",
   "delivered_on": "02.12.2014",
-  "case_name": "Smt. Shakshi Agrawal vs Sri Ashutosh Agrawal on 4 February, 2022",
+  "case_name": "Smt. Shakshi Agrawal vs Sri Ashutosh Agrawal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shakshi Agrawal (wife)",
+    "respondent_defendant": "Sri Ashutosh Agrawal (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -77,7 +77,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are an estranged couple who were married in 2019. The applicant stayed with the opposite party initially but complaints of cruelty and physical violence appeared early into the marriage. The applicant seeks to transfer a petition for annulment from Gautam Budh Nagar to Allahabad.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -87,39 +87,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "It is in the interests of both parties that all their cases be heard together by the same Court.",
+      "held": "As per the submission of the appellant, two cases are already pending in Family Court, Bhopal, and it will be in the interests of both the parties to try all their cases in Bhopal. Learned counsel for the respondent, however, submits that it will suit to the appellant only, therefore, transfer may not be permitted.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "a Singh Chouhan vs. Vishal Singh Chouhan, 2019 (13) SCC 660"
+      ],
       "keywords": [
-        "TODO"
+        "interests of both parties",
+        "same Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The transfer petition may be allowed if the respondent is already appearing in the same court for other pending cases.",
+      "held": "It is stated that the respondent husband is already appearing in Dungarpur Court, Rajasthan in connection with the aforesaid cases instituted by the petitioner wife and that it may not be difficult for the respondent husband to pursue the divorce petition in Dungarpur Court, Rajasthan.",
+      "applicable_acts_sections": [
+        "Protection of Women from Domestic Violence Act, 2005"
+      ],
+      "cited_cases": [
+        "Smt. Shakshi Agrawal vs Sri Ashutosh Agrawal on 4 February, 2022"
+      ],
+      "keywords": [
+        "transfer petition",
+        "same court",
+        "other pending cases"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application for transfer is allowed and the case is transferred from Principal Judge, Family Court, Gautam Budh Nagar to the Principal Judge, Family Court, Allahabad.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "transfer application",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Protection of Women from DV Act",
+    "cruelty",
+    "physica",
+    "estranged couple",
+    "matrimonial home",
+    "Gautam Budh Nagar",
+    "Allahabad",
+    "Family Court",
+    "Principal Judge",
+    "Section 12",
+    "Section 5",
+    "Section 24 C.P.C.",
+    "Section 1(1)(b)",
+    "Section 1(1)(c)",
+    "Latin maxim: Actus non facit reum nisi mens sit rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing transfer application",
+    "advising on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:08:27.361014"
 }

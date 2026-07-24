@@ -7,7 +7,7 @@
   "total_pages": 15,
   "extracted_at": "2026-07-15T11:12:57.322790",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "partition": 2,
@@ -23,13 +23,13 @@
     "Sudip Ahluwalia J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Ld. Additional District Judge, 3rd Court, Barasat (Matrimonial Suit No. 4 of 2006)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Samir Kumar Sadhukhan vs Smt. Anjana Sadhu Khan on 20 August, 2014",
+  "case_name": "Sri Samir Kumar Sadhukhan vs Smt. Anjana Sadhu Khan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Samir Kumar Sadhukhan (husband)",
+    "respondent_defendant": "Smt. Anjana Sadhu Khan (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband filed a petition under Section 13(1)(a) of the Hindu Marriage Act for dissolution of his marriage with the wife on grounds of alleged physical and mental cruelty. The trial court dismissed the suit.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Cruelty need not be physical, it can be mental cruelty making the life of husband miserable always with quarrel.",
+      "held": "It has been held that cruelty need not be physical. It can be mental cruelty.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "AIR 1994 Andhra Pradesh 92",
+        "AIR 2001 Orissa 84"
+      ],
+      "keywords": [
+        "cruelty",
+        "mental cruelty",
+        "quarrel"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Frequent desertion itself is sufficient to attract the provisions of the Hindu Marriage Act.",
+      "held": "Frequent desertion itself is sufficient to attract the provisions of the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "frequent desertion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed, and the judgment of the trial court was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(a)",
+    "matrimonial suit",
+    "physical and mental cruelty",
+    "consummation",
+    "marriage dissolution",
+    "alleged cruelty",
+    "husband's petition",
+    "wife's response",
+    "family court",
+    "civil revisional jurisdiction",
+    "appellate side",
+    "High Court at Calcutta",
+    "Tapan Kumar Dutt",
+    "Sudip Ahluwalia"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to wife's allegations of cruelty",
+    "appealing family court decision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:19:39.019922"
 }

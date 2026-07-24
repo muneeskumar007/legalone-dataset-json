@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:11:56.903363",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Dehradun (Case No. 56 of 2005)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sunita And Another ... vs State Of Uttarakhand on 18 August, 2019",
+  "case_name": "Smt. Sunita And Another ... vs State Of Uttarakhand",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sunita and another (Revisionists)",
+    "respondent_defendant": "State of Uttarakhand (Respondent No.2) and Sunil Kumar (Respondent No.1)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Smt. Sunita and another got married in 1999 and had a daughter. The parties have been involved in various allegations and counter-allegations. The revisionist initiated proceedings under the Hindu Marriage Act, which was filed before the Family Court. The case was taken ex parte and the marriage was dissolved.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The effect of an interim order can be that an order of restraint is kept in abeyance.",
+      "held": "the judicial effect of it would be that an order of restraint from solemnizing the second marriage, that was kept in abeyance, meaning thereby, the embargo for the respondent to solemnize the second marriage that was eradicated by the interim order dated 11th January, 2008.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "interim order",
+        "restraint",
+        "abeyance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who has attained the age of majority cannot be granted maintenance under Section 125 of the Cr.P.C.",
+      "held": "since she has attained the age of majority, she could not be granted maintenance under Section 125 of the Cr.P.C.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "age of majority",
+        "maintenance",
+        "Section 125"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties were present in person and made an effort to resolve the controversy. The Court considered the backdrop of the case before making a decision.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "Criminal Revision No. 327",
+    "conciliation",
+    "settlement",
+    "unanimous decision",
+    "DV",
+    "domestic violence",
+    "marriage",
+    "spouse",
+    "family law",
+    "Indian Penal Code",
+    "IPC",
+    "Section 498A",
+    "Section 304B",
+    "Section 406"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on domestic violence cases",
+    "preparing settlement agreement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:41:22.048718"
 }

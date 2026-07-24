@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:16:34.063055",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "M.P.No.9500 of 2022",
     "W.A.No.1181 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Vellore (FCOP No.85 of 2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "T.Anitha vs Jothi @Dinesh on 8 December, 2022",
+  "case_name": "T.Anitha vs Jothi @Dinesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "T.Anitha, wife",
+    "respondent_defendant": "Jothi @Dinesh, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent were married in 2020 and have a child together. They are living separately due to misunderstandings. Respondent filed FCOP for restitution of conjugal rights before the Family Court, Vellore.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,118 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The domicile or citizenship of the opposite party is immaterial in a case like this.",
+      "held": "In case the marriage was solemnized under Hindu Law marital relationship is governed by the provisions of the Hindu Marriage Act. Therefore, Section 19 has to be given a purposeful interpretation.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 19"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "domicile",
+        "citizenship",
+        "marital relationship",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The residence of the wife determines the question of jurisdiction.",
+      "held": "It is the residence of the wife, which determines the question of jurisdiction, in case the proceeding was initiated at the instance of the wife.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "residence",
+        "jurisdiction",
+        "wife's residence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The objects and reasons which prompted the parliament to incorporate a provision have to be taken note of.",
+      "held": "While considering a provision like Section 19 (iii-a) of the Hindu Marriage Act, the objects and reasons which prompted the parliament to incorporate such a provision has also to be taken note of.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "objects",
+        "reasons",
+        "parliamentary intent"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The difficulty faced by the wife in traveling or staying at a distant place is a relevant factor.",
+      "held": "Experience is the best teacher. The Government found the difficulties faced by women in the matter of initiation of matrimonial proceedings.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "difficulty",
+        "traveling",
+        "staying at a distant place"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition for transfer is allowed and FCOP No.85 of 2022 is transferred to the file of Sub Court, Arakkonam.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "family court",
+    "transfer petition",
+    "FCOP",
+    "conjugal rights",
+    "restitution",
+    "unemployment",
+    "separation",
+    "marriage",
+    "custody",
+    "child",
+    "Latin maxim: Nemo dat quod non habet",
+    "Section 24 of the Civil Procedure Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition in family court",
+    "advising on divorce and separation matters",
+    "representing clients in restitution of conjugal rights cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:05:49.035423"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:17:56.233377",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vishal Verma And Ors vs State Of Haryana And Anr on 9 December, 2020",
+  "case_name": "Vishal Verma And Ors vs State Of Haryana And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vishal Verma and others (husband, wife, etc.)",
+    "respondent_defendant": "State of Haryana and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute resolved by compromise; parties agreed to settlement terms.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Parties can enter into a compromise voluntarily without pressure, coercion, or undue influence.",
+      "held": "The learned Judicial Magistrate 1st Class, Hisar in his report dated 4.3.2020 has specifically opined that the parties have entered into compromise voluntarily without there being any pressure, coercion or undue influence.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "voluntary",
+        "pressure",
+        "coercion",
+        "undue influence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking to establish that a compromise was not voluntary.",
+      "held": "This Court finds the matter apparently arose out of some misunderstanding and",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "voluntary",
+        "compromise"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR No.665 dated 5.11.2018 quashed, all subsequent proceedings emanating therefrom also quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "matrimonial dispute",
+    "compromise",
+    "quashing FIR",
+    "Indian Penal Code",
+    "Sections 406",
+    "498-A",
+    "34",
+    "323",
+    "377",
+    "506",
+    "written compromise",
+    "maintenance",
+    "settlement",
+    "husband",
+    "wife",
+    "full and final settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs in matrimonial disputes",
+    "negotiating settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:18:44.721511"
 }

@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:17:40.352384",
   "domain": "partition",
-  "sub_domain": "divorce",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 3,
     "partition": 4,
@@ -22,13 +22,13 @@
     "Narendra Kumar Vyas Cav Judgment J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Second Civil Judge, Class-II, Champa District Janjgir Champa in Civil Suit No. 48 A/2008",
   "reserved_on": "03.03.2022",
   "delivered_on": "29.04.2022",
-  "case_name": "Vijay Kumar Pandey vs Chameli Bai And Anr on 29 April, 2022",
+  "case_name": "Vijay Kumar Pandey vs Chameli Bai And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vijay Kumar Pandey, plaintiff/appellant",
+    "respondent_defendant": "Chameli Bai and another, defendants/respondents",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff filed a suit for declaration of title contending that the property as ancestral property. The trial court dismissed the suit.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the plaintiff to substantiate his stand.",
+      "held": "The plaintiff to substantiate his stand has examined Vijay Kumar Pandey (PW-1), Girish Kumar (PW-2), Heeralal (Ex.P-3) and exhibited documents as adoption deed (Ex.P-1) dated 19.12.1986, Panchanama order (Ex.P-2), B-1 Kistbandi (Ex.P-3), B-1 Kistbandi (Ex.P-4), Khasra panchasala (Ex.P-5).",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955",
+        "Hindu Succession Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "plaintiff's stand"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not accept a document as genuine unless it is proved to be so.",
+      "held": "He has also admitted that in adoption deed (Ex.P-1) Kamla Bai and Chameli Bai have put their signatures. He has also admitted that after death of Heeralal, names of Chameli Bai and Kamla Bai have been mutated in the revenue records.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955",
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "document authenticity",
+        "proof of genuineness"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Whether the learned trial Court was justified in dismissing the suit filed by the plaintiff ignoring the well settled legal position that the second wife cannot inherent ancestral property of her husband ignoring the provisions of Hindu Succession Act?",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "Section 100 CPC",
+    "Second Appeal",
+    "Chhattisgarh",
+    "Janjgir Champa",
+    "Bilaspur",
+    "High Court",
+    "family property",
+    "joint family",
+    "coparcenary",
+    "partition suit",
+    "share of property",
+    "maintenance",
+    "alimony",
+    "CPC",
+    "Code of Civil Procedure"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "guidelines for joint family property disputes",
+    "practical tips for maintenance and alimony cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:48:42.920211"
 }

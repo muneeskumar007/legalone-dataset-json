@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:11:48.915574",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sipra Nath vs Sri Subhra Narayan Nath on 25 February, 2025",
+  "case_name": "Smt. Sipra Nath vs Sri Subhra Narayan Nath",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sipra Nath (wife)",
+    "respondent_defendant": "Sri Subhra Narayan Nath (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent-husband, a cancer patient, contracted remarriage despite knowing the consequences of violating Section 15 of the Hindu Marriage Act. The wife filed an application for recall of an order granting injunction against the husband's remarriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A court's hands are tied if a second marriage has already been contracted.",
+      "held": "the court's hands are tied inasmuch as on the date when the injunction order was passed, a second marriage had already been contracted by the respondent, thereby rendering the order of injunction infructuous ab initio.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "second marriage",
+        "injunction order",
+        "infructuous"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A stay order cannot be passed after a divorce decree has been implemented.",
+      "held": "there is no scope of passing any stay order, as the impugned divorce decree has already been implemented by the respondent by contracting a remarriage on the premise that the previous marriage with the appellant was severed.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "stay order",
+        "divorce decree",
+        "implementation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court condoned the delay in filing the recall application and recalled the earlier order restraining the respondent-husband from contracting remarriage.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "condonation of delay",
+    "injunction order",
+    "recall of order",
+    "appeal",
+    "Vakalatnama",
+    "Latin maxim",
+    "filing of application",
+    "delay in filing",
+    "cancer patient",
+    "treatment",
+    "awareness",
+    "appearance",
+    "notice",
+    "deliberate choice",
+    "divorce",
+    "marriage",
+    "family law",
+    "Indian court judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "responding to an injunction order",
+    "condoning delay in filing an application"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:28:43.344815"
 }

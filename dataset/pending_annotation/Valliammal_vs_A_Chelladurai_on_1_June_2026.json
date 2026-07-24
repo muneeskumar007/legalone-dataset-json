@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:17:12.037470",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "partition": 1,
@@ -28,13 +28,13 @@
     "C.C.No.388 of 1998",
     "CMA.No.53 of 2018"
   ],
-  "trial_court": "",
+  "trial_court": "Additional District and Sessions Judge/Fast Track Court, Tenkasi, C.M.A.No.53 of 2018",
   "reserved_on": "05.02.2026",
   "delivered_on": "01.06.2026",
-  "case_name": "Valliammal vs A. Chelladurai on 1 June, 2026",
+  "case_name": "Valliammal vs A. Chelladurai",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Valliammal, wife",
+    "respondent_defendant": "A. Chelladurai, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife. The marriage was solemnized on 30.08.1977. The respondent frequently quarreled with the petitioner upon suspicion of illegal contacts with several women. The case came to appeal against the judgment and decree passed in C.M.A.No.53 of 2018.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,100 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Past incidents which have been condoned cannot be reversed.",
+      "held": "it is clear that past incidents which have been condoned cannot be reversed and that there should not be any improper delay.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 23(1)(b)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "condoned",
+        "delay",
+        "reversed"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The institution of civil suits by both parties will not be termed as cruelty.",
+      "held": "the institution of civil suits by both parties will not be termed as cruelty.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 23(1)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "civil suits",
+        "cruelty"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The trial Courts and the High Courts have no power to grant divorce on the ground of irretrievable break down of marriage.",
+      "held": "the Hon’ble Supreme Court has clearly clarified and held that the trial Courts and the High Courts have no power to grant divorce on the ground of irretrievable break down of marriage",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "(2017) 4 Supreme Court Cases 85 in the case of 'Suman Singh /v/ Sanjay Singh'"
+      ],
+      "keywords": [
+        "irretrievable break down",
+        "marriage",
+        "divorce"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order set aside the decree and judgment passed in CMA.No.53 of 2018 and dismissed HMOP.No.157 of 2014.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 28",
+    "CPC",
+    "Section 100",
+    "decree",
+    "judgment",
+    "HMOP",
+    "Principal Sub Court",
+    "Tenkasi",
+    "Additional District and Sessions Judge",
+    "Fast Track Court",
+    "Tirunelveli District",
+    "Alankulam Taluk",
+    "Sivalarkulam Vilakku Salai",
+    "Tirunelveli Main Road",
+    "Ismail Nagar B Division",
+    "K.T.C Nagar",
+    "Palayamkottai Taluk"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing divorce decrees",
+    "family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:21:33.147998"
 }

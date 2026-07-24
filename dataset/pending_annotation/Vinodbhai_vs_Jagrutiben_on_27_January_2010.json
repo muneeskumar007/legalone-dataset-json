@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:17:50.511726",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 2,
@@ -19,13 +19,13 @@
     "Abhilasha Kumari J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vinodbhai vs Jagrutiben on 27 January, 2010",
+  "case_name": "Vinodbhai vs Jagrutiben",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vinodbhai, husband",
+    "respondent_defendant": "Jagrutiben, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner challenged an order awarding maintenance to the respondent-wife under Section-24 of the Hindu Marriage Act. The trial court awarded Rs.2,000/month as maintenance and Rs.5,000 for legal expenses.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to set aside an order to show that it is not in accordance with law.",
+      "held": "It is settled law that the burden lies on the party seeking to set aside an order to show that it is not in accordance with law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section-24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "set aside",
+        "order",
+        "in accordance with law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not interfere with the discretion exercised by the Family Court in awarding maintenance unless it is found to be arbitrary or unreasonable.",
+      "held": "This court will not interfere with the discretion exercised by the Family Court in awarding maintenance unless it is found to be arbitrary or unreasonable.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section-24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "discretion",
+        "Family Court",
+        "maintenance",
+        "arbitrary",
+        "unreasonable"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner shall deposit an amount towards maintenance and legal expenses before the Trial Court on or before 5th February, 2010.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Section-24",
+    "pandente-lite",
+    "Family Court",
+    "petition",
+    "respondent-wife",
+    "legal expenses",
+    "Rupees Two Thousand Only",
+    "Rupees Five Thousand Only",
+    "oral order",
+    "Gujarat High Court",
+    "Ahmedabad",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "seeking maintenance under Hindu Marriage Act",
+    "appealing oral order in Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:12:03.790547"
 }

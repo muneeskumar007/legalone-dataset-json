@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:11:42.426221",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 7,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Sharanamma W/O Siddaramappa Gouda vs Akkanagamma W/O Late ... on 13 September, 2024",
+  "case_name": "Smt.Sharanamma W/O Siddaramappa Gouda vs Akkanagamma W/O Late ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sharanamma W/O Siddaramappa Gouda",
+    "respondent_defendant": "Akkanagamma W/O Late Chandra Shekharappa Nelogal, Smt. Mallamma, Sharanabasava, Smt. Sumangalamma, Smt. Savitramma, Chandrashekharappa, Shivamurti, Smt. Amaramma",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Smt. Sharanamma W/O Siddaramappa Gouda vs Akkanagamma W/O Late ...",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A sale deed executed by a joint family member without legal necessity is not binding on other members.",
+      "held": "It is contended that, the said sale deeds are sham, tainted with fraud and void ab initio and also not binding on the plaintiffs.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955",
+        "Hindu Succession Act, 1956 — Section 6"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "joint family",
+        "legal necessity",
+        "sale deed",
+        "binding",
+        "fraud"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "partition cases",
+        "family property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A partition suit can be filed even if there is no prior partition in the lifetime of the propositus.",
+      "held": "It is contended that, already there was a partition in the lifetime of Chandrashekarappa and to that effect, mutation entries have been effected in the revenue records. Therefore, the suit is not maintainable.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955",
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "partition suit",
+        "prior partition",
+        "propositus",
+        "mutation entries"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family property disputes",
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "null",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "S.6",
+    "family law",
+    "property division",
+    "joint family",
+    "coparcenary",
+    "marriage settlement",
+    "agriculture",
+    "Karnataka High Court",
+    "first appeal",
+    "regular first appeal",
+    "RFA",
+    "partition suit"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on property division in a joint family",
+    "representing clients in a Hindu Marriage Act case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:16:44.106945"
 }

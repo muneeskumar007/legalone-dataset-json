@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:16:35.033151",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "partition": 8,
     "maintenance": 1,
@@ -27,13 +27,13 @@
     "M.P.No.1 of 2015",
     "O.S.No.150 of 2008"
   ],
-  "trial_court": "",
+  "trial_court": "Principal District Judge, Vellore, O.S.No.150 of 2008",
   "reserved_on": "22.08.2022",
   "delivered_on": "18.10.2022",
-  "case_name": "T.A.Mahadevan (Deceased) vs G.Savithiri Ammal (Deceased) on 18 October, 2022",
+  "case_name": "T.A.Mahadevan (Deceased) vs G.Savithiri Ammal (Deceased)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "T.A.Mahadevan (Deceased), husband, plaintiff",
+    "respondent_defendant": "G.Savithiri Ammal (Deceased), wife, defendant; K.Geetha, H.Deenaranjani, V.N.Malliga, N.Rani, Vedavalli, legal heirs of deceased respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit for partition filed by respondents 1 to 4 against petitioners and 5th respondent; trial court granted preliminary decree for partition; appeal filed by 1st defendant (petitioner) against the judgment and decree.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Daughters are entitled to equal share in the mithakshara coparcenary property.",
+      "held": "Even assuming the suit property is the ancestral property, even then, by virtue of 2005 amendment to the Hindu Succession Act, the daughters are entitled to equal share along with the son.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act — Section X"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Vineeta Sharma versus Rakesh Sharma and others, (2020) 9 SCC 1"
+      ],
       "keywords": [
-        "TODO"
+        "coparcenary",
+        "mithakshara",
+        "equal share",
+        "daughters",
+        "son"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party claiming that the property is ancestral to prove it.",
+      "held": "Even assuming the suit property is the ancestral property, even then, by virtue of 2005 amendment to the Hindu Succession Act, the daughters are entitled to equal share along with the son.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act — Section X"
+      ],
+      "cited_cases": [
+        "Vineeta Sharma versus Rakesh Sharma and others, (2020) 9 SCC 1"
+      ],
+      "keywords": [
+        "burden",
+        "ancestral property",
+        "proof"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal is dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Succession Act",
+    "1956",
+    "Section 6",
+    "family partition",
+    "joint family",
+    "coparceners",
+    "heirship",
+    "devolution of property",
+    " Hindu law",
+    "family settlement",
+    "agreement to partition",
+    "mutual consent",
+    "consent of all coparceners",
+    "partition deed",
+    "family court",
+    "civil procedure code",
+    "Section 96"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a family partition agreement",
+    "advising on Hindu succession law",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:04:50.147659"
 }

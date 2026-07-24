@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:12:16.779847",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "F.A.NO.103839/2017",
     "M.C.No.438/2015"
   ],
-  "trial_court": "",
+  "trial_court": "Judge, Family Court, Belagavi, Matrimonial Case No.438/2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Vinuta W/O Nitin Sambrekar vs Nitin S/O Satish Sambrekar on 11 July, 2018",
+  "case_name": "Smt. Vinuta W/O Nitin Sambrekar vs Nitin S/O Satish Sambrekar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Vinuta W/O Nitin Sambrekar (wife)",
+    "respondent_defendant": "Nitin S/O Satish Sambrekar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are seeking dissolution of their marriage solemnized on 12/12/2013 by mutual consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has broken down irretrievably.",
+      "held": "Efforts to solve the differences between the parties were made by elders and families from both the sides, but all efforts for reconciliation failed and the parties continued to live separately.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irreconcilable differences",
+        "separation",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "matrimonial cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking divorce by mutual consent must demonstrate that the marriage has irretrievably broken down.",
+      "held": "During April 2015 both the parties along with their elders and well-wishers decided to mutually end the marriage and talks were also held to chalk out the separation plan, but the same could not materialize and the appellant and respondent started living separately from 19/11/2015.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "mutual consent",
+        "irretrievable breakdown"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce by mutual consent cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the petition for dissolution of marriage is granted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Court Act",
+    "Section 13(1)(i-a)",
+    "matrimonial case",
+    "petition dismissal",
+    "marriage dissolution",
+    "spousal rights",
+    "property division",
+    "maintenance",
+    "custody",
+    "joint family",
+    "separation",
+    "irreconcilable differences",
+    "mental cruelty",
+    "Hindu law",
+    "family court jurisdiction"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on property division in divorce cases",
+    "representing clients in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:10:46.796625"
 }

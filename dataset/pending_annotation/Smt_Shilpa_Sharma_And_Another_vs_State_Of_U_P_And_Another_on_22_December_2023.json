@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, maintenance Case No.26 of 2018 under Section 125 Cr.P.C.",
   "reserved_on": "22.08.2023",
   "delivered_on": "22.12.2023",
-  "case_name": "Smt. Shilpa Sharma And Another vs State Of U.P. And Another on 22 December, 2023",
+  "case_name": "Smt. Shilpa Sharma And Another vs State Of U.P. And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shilpa Sharma And Another (applicant)",
+    "respondent_defendant": "State of U.P. and Manish Sharma (opposite party)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Applicants Smt. Shilpa Sharma and her minor son instituted a case under Section 125 Cr.P.C. against opposite party-Manish Sharma who has declined to pay maintenance to applicant no.1 and has provided maintenance to the applicant no.2 Ans Sharma the minor son of the applicant no.1.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife's failure to prove grounds for separate living without independent evidence amounts to practising of cruelty by the wife against the husband.",
+      "held": "She failed to prove the grounds of her separate living from her husband by any independent evidence. Keeping into consideration the judgment of Delhi High Court in Smt. Kamini Gupta Vs. Mukesh Kumar Gupta AIR (1995) Delhi 221 and Bhawna N.Shah Vs. Nitin Chiman Lal Shah (2012) 4 Civil Court cases 355 (Bombay) (DB).",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Smt. Kamini Gupta Vs. Mukesh Kumar Gupta AIR (1995) Delhi 221",
+        "Bhawna N.Shah Vs. Nitin Chiman Lal Shah (2012) 4 Civil Court cases 355 (Bombay) (DB)"
+      ],
+      "keywords": [
+        "cruelty",
+        "separate living",
+        "independent evidence"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A wife's denial of regular income without proof does not entitle her to maintenance.",
+      "held": "The learned court below has given the finding that the applicant no.1 Smt. Shilpa Sharma is not having any regular source of income. The learned court below has declined to award maintenance to applicant no.1 on the ground that she is living separately with her husband without proof of any sufficient reason.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "regular income",
+        "maintenance",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's order dated 12.07.2019 awarding maintenance under Section 125 Cr.P.C. against opposite party-Manish Sharma is upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Section 125 Cr.P.C.",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Criminal Revision",
+    "Family Court",
+    "Domestic Violence",
+    "Alimony",
+    "Child Custody",
+    "Matrimonial Dispute",
+    "Marriage Dissolution",
+    "Separation",
+    "Property Division",
+    "Joint Family",
+    "Section 24 HMA",
+    "Section 25 HMA"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:20:12.782735"
 }

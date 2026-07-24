@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:18:01.825519",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4
   },
@@ -17,13 +17,13 @@
     "Raj Mohan Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Addl. District Judge, Amritsar, Civil Revision No.2147 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vivek Sharma vs Vani Sharma on 28 September, 2018",
+  "case_name": "Vivek Sharma vs Vani Sharma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vivek Sharma (husband)",
+    "respondent_defendant": "Vani Sharma (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a petition under Section 13 of the Hindu Marriage Act for grant of divorce on the ground of cruelty before the Addl. District Judge, Amritsar.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The trial Court would be at liberty to appreciate the relevancy, admissibility and genuineness of the evidence on legal parameters.",
+      "held": "If the same is found to be in consonance with the pleadings, the same can be relied. If the evidence led by the petitioner is found to be beyond pleadings, the same can be eschewed by the Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Bipin Shantilal Panchal vs State of Gujarat, (2001) 1 criminal RCR 859"
+      ],
       "keywords": [
-        "TODO"
+        "pleadings",
+        "evidence",
+        "relevancy",
+        "admissibility",
+        "genuineness"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court would test the pleadings made by the petitioner with reference to the affidavit in the form of examination-in-chief.",
+      "held": "On being cross-examined by the respondent, the trial Court would be at liberty to take final call on merits.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [
+        "Bipin Shantilal Panchal vs State of Gujarat, (2001) 1 criminal RCR 859"
+      ],
+      "keywords": [
+        "pleadings",
+        "affidavit",
+        "examination-in-chief",
+        "cross-examination"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order passed by the trial court was set aside and the matter was remanded back to the trial court for fresh consideration.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Order 6 Rule 2 CPC",
+    "Order 18 Rule 4 CPC",
+    "Section 13 Hindu Marriage Act",
+    "pleadings",
+    "affidavit",
+    "examination-in-chief",
+    "striking off",
+    "beyond pleadings",
+    "plaint",
+    "petition",
+    "Amritsar",
+    "Addl. District Judge",
+    "Punjab and Haryana High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act",
+    "responding to application to strike off pleadings",
+    "pleadings in divorce cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:26:16.569229"
 }

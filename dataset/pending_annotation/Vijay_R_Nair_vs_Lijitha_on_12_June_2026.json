@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:17:42.039635",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -25,13 +25,13 @@
     "O.P.NO.381 OF 2021",
     "O.P.No.381 of 2021"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Muvattupuzha, O.P.No.381 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vijay R. Nair vs Lijitha on 12 June, 2026",
+  "case_name": "Vijay R. Nair vs Lijitha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vijay R. Nair, husband",
+    "respondent_defendant": "Lijitha, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent/wife filed a divorce petition under Section 13 (I) (i-a) and (i-b) of the Hindu Marriage Act, 1955 on grounds of cruelty and desertion, and for maintenance under Section 25 of the Hindu Marriage Act. The case was about the wife's allegations of cruelty and desertion by her husband.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove that the marriage has been dissolved.",
+      "held": "Although there was no objection filed by the appellant, the Family Court proceeded to record the oral testimony of the respondent as PW1 and marked Exts.A1 to A7 documents on her side.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot rely on a subsequent remarriage to contend that an appeal against the grant of divorce has become infructuous.",
+      "held": "As regards the award of permanent maintenance to the respondent by the court below, the learned counsel would submit that the award of such a huge amount towards permanent maintenance came about solely because the appellant did not get an effective opportunity to adduce evidence before the court below.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 25(3)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "remarriage",
+        "infructuous appeal"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed. The judgment of the trial court is set aside, and the matter is remitted to the trial court for fresh disposal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Indian Penal Code",
+    "1860",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "separation",
+    "annulment",
+    "nullity",
+    "irretrievable breakdown",
+    "marriage dissolution",
+    "family court",
+    "high court",
+    "appeal",
+    "matrimony",
+    "conjugal rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing appeal against family court order",
+    "advising client on matrimonial dispute resolution"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:51:56.684367"
 }

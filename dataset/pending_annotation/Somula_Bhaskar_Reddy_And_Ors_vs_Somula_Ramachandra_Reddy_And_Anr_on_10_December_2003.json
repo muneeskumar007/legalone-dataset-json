@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:12:25.168392",
   "domain": "will_succession",
-  "sub_domain": "partition",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 1,
     "partition": 5,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Munsif, Allagadda, Cuddapah District (O.S. No. 22 of 1985)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Somula Bhaskar Reddy And Ors. vs Somula Ramachandra Reddy And Anr. on 10 December, 2003",
+  "case_name": "Somula Bhaskar Reddy And Ors. vs Somula Ramachandra Reddy And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Somula Bhaskar Reddy And Ors., Plaintiffs",
+    "respondent_defendant": "Somula Ramachandra Reddy And Anr.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "One Somala China Subba Reddy executed a registered deed relinquishing his right over properties in favour of minor children. Mother and sons lived together until 1969 when oral partition was done. Mother died in 1974 leaving Will in favour of third son Ramachandra Reddy.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,117 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The right of a Hindu widow to maintenance becomes an equitable charge on her husband's property.",
+      "held": "If the husband has property then the right of the widow to maintenance becomes an equitable charge on his property and any person who succeeds to the property carries with it the legal obligation to maintain the widow:",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "equitable charge",
+        "Hindu widow"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A Hindu widow's right to maintenance is a pre-existing right in property.",
+      "held": "The right of maintenance is undoubtedly a pre-existing right which existed in the Hindu Law long before the passing of the Act of 1937 or the Act of 1946, and is, therefore, a pre-existing right.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "pre-existing right",
+        "maintenance",
+        "Hindu widow"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person who succeeds to property is legally bound to provide for a Hindu widow's maintenance.",
+      "held": "Even if the joint property is sold and the purchaser has notice of the widow's right to maintenance, the purchaser is legally bound to provide for her maintenance;",
+      "applicable_acts_sections": [
+        "Hindu Succession Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "Hindu widow",
+        "succession"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A Hindu widow is entitled to retain possession of her husband's property in lieu of her maintenance.",
+      "held": "Where a Hindu widow is in possession of the property of her husband, she is entitled to retain the possession in lieu of her maintenance unless the person who succeeds to property or purchases the same is in a position to make due arrangements for her maintenance.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "Hindu widow",
+        "possession"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The judgment and decree of the Appellate Court reversing the Trial Court's judgment and dismissing the suit were upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Succession Act",
+    "1956",
+    "Indian Evidence Act",
+    "1872",
+    "partition",
+    "registered deed",
+    "minor children",
+    "custody",
+    "oral partition",
+    "maintenance",
+    "mother's rights",
+    "brotherly relationship",
+    "family settlement",
+    "property division",
+    "wills and succession",
+    "heirship",
+    "devolution of property"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "advising on family settlements",
+    "representing in a partition dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:30:59.972260"
 }

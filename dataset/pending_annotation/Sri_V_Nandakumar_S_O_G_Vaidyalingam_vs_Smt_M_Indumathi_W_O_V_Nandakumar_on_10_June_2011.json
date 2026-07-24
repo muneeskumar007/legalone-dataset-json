@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:13:11.261844",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri V Nandakumar S/O G Vaidyalingam vs Smt M Indumathi W/O V Nandakumar on 10 June, 2011",
+  "case_name": "Sri V Nandakumar S/O G Vaidyalingam vs Smt M Indumathi W/O V Nandakumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "V.Nandakumar, husband",
+    "respondent_defendant": "M Indumathi W/O V Nandakumar, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Husband and wife are parties. Husband filed petition for divorce under Hindu Marriage Act. Trial court awarded interim maintenance to wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Court must consider the object with which the Act is enacted and not just the literal words.",
+      "held": "There cannot be any doubt as to the object of a proceeding for maintenance, it is to provide food and shelter to the deserted wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "proceeding",
+        "object",
+        "Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court must consider the socio-economic aspect of a case and not just the legal duty.",
+      "held": "The real object is to provide food and shelter to the deserted wife, and provision enables the Court to see that the spouse is put in a financial hell.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "socio-economic",
+        "legal duty",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Court must consider the financial hardship of a spouse and not just the legal obligation.",
+      "held": "The trial Court must have passed an order in favour of the wife to see that she maintains herself and her child.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "financial hardship",
+        "legal obligation",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Order quashed by writ court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Article 226",
+    "Constitution of India",
+    "quash",
+    "order",
+    "Civil Judge",
+    "Sr.Dn.",
+    "Pri. I.M.F.C.",
+    "M.C.No.31/2010",
+    "Annexure F",
+    "Writ Petition",
+    "petitioner",
+    "respondent",
+    "marriage",
+    "family",
+    "law",
+    "court",
+    "judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "quashing an order in a family court case",
+    "advising on the relevance of Article 226 in a writ petition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:30:21.644517"
 }

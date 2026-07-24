@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:12:01.109272",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Shri Sanjeev Kumar Singh : Administrative Civil Judge (Central) : Delhi - Petition No.: 696/2005",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sushila Devi @ Sheela vs The State & Others on 17 May, 2010",
+  "case_name": "Smt. Sushila Devi @ Sheela vs The State & Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sushila Devi @ Sheela, Baby Sohan (widow and daughter of deceased)",
+    "respondent_defendant": "The State & Others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners filed a succession petition for grant of succession certificate in their favour qua the debts and securities of deceased Sh. Raj Prasad.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A child born out of a void marriage is illegitimate.",
+      "held": "Petitioner No. 2 can at best be termed as illegitimate children.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smt. Sushila Devi @ Sheela vs The State & Others, (2010)"
+      ],
       "keywords": [
-        "TODO"
+        "illegitimate child",
+        "void marriage",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A child born out of a voidable marriage is deemed to be the legitimate child of the parties if at the date of the decree it had been dissolved instead of being annulled.",
+      "held": "Any child begotten or conceived before the decree is made, who would have been the legitimate child of the parties to the marriage if at the date of the decree it had been dissolved instead of being annulled, shall be deemed to be their legitimate child notwithstanding the decree of nullity.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 12"
+      ],
+      "cited_cases": [
+        "Smt. Parayankandiyal Eravath Kanapravan Kalliani Amma and olthers, Appellants v. K. Devi and others, Respondents, AIR 1996 SUPREME COURT 1963=1996 AIR SCW 2337"
+      ],
+      "keywords": [
+        "voidable marriage",
+        "legitimate child",
+        "Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court granted the succession certificate to the petitioners.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "succession certificate",
+    "decedent",
+    "heir",
+    "widow",
+    "natural guardian",
+    "petition",
+    "notice of filing",
+    "publication",
+    "general public",
+    "oppose",
+    "contest",
+    "debts",
+    "securities",
+    "death certificate",
+    "predecease"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for succession certificate",
+    "guidelines for notice of filing in a partition suit",
+    "practical tips for handling a case involving multiple heirs"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:46:50.997953"
 }

@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:14:17.990488",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Suman Choudhary vs State Of Rajasthan & Ors on 10 August, 2017",
+  "case_name": "Suman Choudhary vs State Of Rajasthan & Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Suman Choudhary, divorcee' woman seeking appointment as Teacher Grade-III, Level-I",
+    "respondent_defendant": "State of Rajasthan Through the Secretary, Rural and Panchayati Raj Department, Government of Rajasthan, Secretariat, Jaipur, Director, Elementary Education, Government of Rajasthan, Bikaner, Zila Parishad Jalore Through Its Chief Executive Officer, District Jalore",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner, a divorcee' woman, was rejected for appointment as Teacher Grade-III, Level-I due to lack of decree of divorce at the time of application. She had applied for judicial separation in July 2016 and received a decree of divorce on June 27, 2017.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A candidate having attained widowhood even after the last date of submitting application form should be considered in widow category and should be given benefit of reservation under the said category.",
+      "held": "The Division Bench has held that the candidate having attained widowhood even after the last date of submitting application form should be considered in widow category and should be given benefit of reservation under the said category.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "State of Rajasthan & Ors. Vs. Ms. Jamna Rajpurohit, (2013) DB Civil Special appeal No.82/2013"
+      ],
       "keywords": [
-        "TODO"
+        "widowhood",
+        "reservation",
+        "benefit"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A clarification issued by the Director, Elementary Education cannot be applied retrospectively with respect to an advertisement.",
+      "held": "Mr. Rathore had contended that the clarification which has been issued on 30.6.2017, cannot be applied retrospectively with respect to the advertisement, which had been issued on 6.7.2016;",
+      "applicable_acts_sections": [
+        ""
+      ],
+      "cited_cases": [
+        ""
+      ],
+      "keywords": [
+        "clarification",
+        "retrospective application"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving retrospective application of rules"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Petitioner's candidature for appointment as Teacher Grade-III, Level-I is hereby accepted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorcee",
+    "Teacher Grade-III",
+    "Level-I",
+    "appointment",
+    "candidature",
+    "rejected",
+    "BSTC",
+    "REET",
+    "qualification",
+    "marriage",
+    "spouse",
+    "petitioner",
+    "respondents",
+    "writ petition",
+    "judgment",
+    "reportable"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for divorcee seeking appointment as teacher",
+    "advising on qualification requirements for teaching positions",
+    "assisting in drafting a judgment report"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:06:06.023837"
 }

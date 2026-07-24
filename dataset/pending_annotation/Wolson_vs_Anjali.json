@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:18:14.318686",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -21,13 +21,13 @@
     "Sonia Gokani J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court at Ahmedabad, Family Suit No. 1529 of 2009",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Wolson vs Anjali",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vishvas Harry - Petitioner(s), husband, father",
+    "respondent_defendant": "Anjali, D/O Babubhai Pandav - Respondent(s), wife, mother",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner preferred Family Suit under section 32 of the Indian Divorce Act, 1869 for restitution of conjugal rights. Respondent left home and started living with her step mother. Petitioner filed suit, respondent applied for alimony and expenses. Trial court granted application and directed petitioner to pay Rs 1,500/- per month to respondent and Rs 1,000/- to both children.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,120 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Court can review its own earlier order.",
+      "held": "However, such an action ought to have been put to the notice of both sides.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "review",
+        "earlier order",
+        "notice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A withdrawal of a petition during the pendency of an application for alimony appears to be an attempt to overreach the Court's process.",
+      "held": "It in fact was necessary for the Court to decide an application on merit as withdrawal of petition by the husband possibly was with a view to defeat the right of interim alimony asked for by the respondent wife, and the same cannot be endorsed by the Court by giving such permission without deciding the request of interim alimony.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "withdrawal",
+        "pendency",
+        "alimony",
+        "Court's process"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The Court should decide an application on merit and not permit withdrawal of a petition without deciding the request of interim alimony.",
+      "held": "It in fact was necessary for the Court to decide an application on merit as withdrawal of petition by the husband possibly was with a view to defeat the right of interim alimony asked for by the respondent wife, and the same cannot be endorsed by the Court by giving such permission without deciding the request of interim alimony.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "decide on merit",
+        "withdrawal",
+        "interim alimony"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The Court can grant interim alimony pendentlite under Section 24 of the Hindu Marriage Act.",
+      "held": "Specific question that has been raised by the petitioner is granted as interim alimony pendentlite under section 24 of the Hindu Marriage Act when in fact the petition was preferred under the Indian Divorce Act, 1869.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim alimony",
+        "pendentlite",
+        "Section 24"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal preferred",
+    "final_order": "Petitioner challenged the order of the Family Court passed below Exhibit 9 in Family Suit No. 1529 of 2009 dated 30th July 2011.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "conjugal rights",
+    "restitution",
+    "Family Suit",
+    "Indian Divorce Act",
+    "1869",
+    "Christian Rites",
+    "Rituals",
+    "marriage",
+    "children",
+    "custody",
+    "matrimonial dispute",
+    "family court",
+    "judgment",
+    "order",
+    "petition",
+    "appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on matrimonial disputes",
+    "appealing a family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:28:16.008150"
 }

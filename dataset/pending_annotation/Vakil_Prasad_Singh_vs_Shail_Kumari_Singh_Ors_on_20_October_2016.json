@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:17:10.031486",
   "domain": "maintenance",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Smt. Nilu Agrawal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Patna in Title Suit no. 11 of 2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vakil Prasad Singh vs Shail Kumari Singh & Ors on 20 October, 2016",
+  "case_name": "Vakil Prasad Singh vs Shail Kumari Singh & Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vakil Prasad Singh (husband, father)",
+    "respondent_defendant": "Shail Kumari Singh and her two daughters Ritu Singh and Nitu Singh",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent Shail Kumari Singh and her two daughters filed a suit for maintenance under Section 20(3) of the Hindu Adoption and Maintenance Act, 1956. The claim was for marriage expense of their elder daughter Ritu Singh and reimbursement of marriage expenses of younger daughter Nitu Singh, totalling Rs. 20,00,000.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person who has sufficient means to pay for the marriage of his daughters is under an obligation to do so.",
+      "held": "The defendant-appellant having married the plaintiff no. 1, Shail Kumari Singh and having been blessed with four daughters, then, abandoned her and the daughters to marry again, without any separation from the first wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Adoption and Maintenance Act, 1956"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "marriage expense",
+        "obligation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's property is not a secret and can be discovered through evidence.",
+      "held": "The trial court, upon consideration of the evidence aforesaid, held that the defendant was under obligation to meet the marriage expenses of the daughters, and therefore, ordered and decreed the suit.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "property discovery"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is being disposed of at this stage itself with the consent of parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "maintenance",
+    "Code of Civil Procedure",
+    "1908",
+    "Section 96",
+    "Section 97",
+    "Section 102",
+    "Section 103",
+    "Section 105",
+    "Section 106",
+    "Section 107",
+    "Section 108",
+    "Section 109",
+    "Section 110",
+    "Section 111",
+    "Section 112",
+    "Section 113"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting maintenance petition",
+    "condoning delay in filing appeal",
+    "appealing against order of lower court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:20:37.850086"
 }

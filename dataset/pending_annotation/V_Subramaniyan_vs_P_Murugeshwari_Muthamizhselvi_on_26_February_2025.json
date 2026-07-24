@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:18:14.039335",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "O.P.No.100 of 2020",
     "O.P.No.11 of 2021"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Karur (H.M.O.P.No.11 of 2021 and H.M.O.P.No.100 of 2020)",
   "reserved_on": "31.01.2025",
   "delivered_on": "26.02.2025",
-  "case_name": "V.Subramaniyan vs P.Murugeshwari @ Muthamizhselvi on 26 February, 2025",
+  "case_name": "V.Subramaniyan vs P.Murugeshwari @ Muthamizhselvi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "V.Subramaniyan (husband)",
+    "respondent_defendant": "P.Murugeshwari @ Muthamizhselvi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "V.Subramaniyan got married to P.Murugeshwari @ Muthamizhselvi on 06.02.2011. A male child Vaitheeswaran was born through the wedlock on 08.11.2011. The respondent / wife filed H.M.O.P.No.100 of 2020 for restitution of conjugal rights, while the appellant filed H.M.O.P.No.11 of 2021 for dissolving the marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,107 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The essence of desertion is forsaking and abandonment of one spouse by the other without reasonable cause and without consent or against the wish of the other.",
+      "held": "To prove this ground, one must establish that there was not only a factum of separation but also the intention to bring cohabitation permanently to an end.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "cruelty",
+        "marriage",
+        "abandonment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who wants re-union cannot be said to be guilty of desertion.",
+      "held": "The act of filing a petition under Section 9 of the Hindu Marriage Act itself falsifies the allegations made by the appellant.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 9"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "re-union",
+        "desertion",
+        "petition",
+        "filing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The burden is on the appellant to prove that he had made out a case for dissolving the marriage.",
+      "held": "To do so, the appellant must show that his wife had committed one of the acts of misconduct set out in Section 13 of the Hindu Marriage Act, 1955.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "marriage dissolution",
+        "misconduct"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial Court's judgment and decree dated 21.02.2022 in H.M.O.P.No.100 of 2020 and H.M.O.P.No.11 of 2021 were set aside, and the appeals were allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Section 28",
+    "Family Court",
+    "Karur",
+    "Madras High Court",
+    "C.M.A(MD)",
+    "Civil Miscellaneous Appeal",
+    "Judgment and decree",
+    "Marriage dissolution",
+    "Matrimonial dispute",
+    "Spousal rights",
+    "Maintenance",
+    "Alimony",
+    "Property division",
+    "Joint family property",
+    "Separate property",
+    "Mutual consent divorce",
+    "Uncontested divorce",
+    "Divorce grounds",
+    "Cruelty",
+    "Desertion",
+    "Mental cruelty"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on maintenance and alimony in a divorce case",
+    "assisting with property division in a matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:16:11.415257"
 }

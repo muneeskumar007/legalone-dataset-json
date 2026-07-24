@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:18:35.262815",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "C.C.No.403 of 2018",
     "OP.No.394/2018"
   ],
-  "trial_court": "",
+  "trial_court": "XV Additional Chief Metropolitan Magistrate, Nampally, Hyderabad (C.C.No.403 of 2018)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Y. Komaraiah Daya Shanker vs State Of Telangana And Another on 4 January, 2024",
+  "case_name": "Y. Komaraiah Daya Shanker vs State Of Telangana And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner/Accused (husband)",
+    "respondent_defendant": "State Of Telangana And Another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife alleged husband's cruelty and adultery; police filed charge sheet; petitioner sought to quash proceedings.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "If a marriage is null and void, the question of dissolving it does not arise.",
+      "held": "The Court held that the marriage with the 2nd respondent was in contravention of Section 5(1) of the Hindu Marriage Act and accordingly held that the question of dissolving the marriage does not arise, since marriage itself was void.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 5"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "P.Sivakumar and others v. State, (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "null and void",
+        "contravention of law",
+        "marriage dissolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage that is null and void cannot be sustained under Section 498-A of IPC.",
+      "held": "Honourable Supreme Court held that if the marriage was null and void, the conviction under Section 498-A of IPC cannot be sustained.",
+      "applicable_acts_sections": [
+        "Indian Penal Code — Section 498-A"
+      ],
+      "cited_cases": [
+        "P.Sivakumar and others v. State, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "null and void",
+        "marriage validity",
+        "IPC conviction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Marriage declared null and void; conviction under Section 498-A of IPC cannot be sustained.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Indian Penal Code",
+    "498-A",
+    "406",
+    "420",
+    "506",
+    "Dowry Prohibition Act",
+    "quash proceedings",
+    "criminal petition",
+    "magistrate court",
+    "allegations of domestic violence",
+    "property documents",
+    "illicit affairs",
+    "drunken behavior",
+    "physical abuse",
+    "marital disputes",
+    "family law",
+    "matrimonial issues"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing criminal proceedings in a magistrate court",
+    "advising on matrimonial disputes and domestic violence allegations",
+    "preparing a response to allegations of drunken behavior and physical abuse"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:31:51.973757"
 }

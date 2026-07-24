@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:17:14.780178",
   "domain": "property_dispute",
-  "sub_domain": "partition",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 2,
     "partition": 3,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "City Civil Court, Madras - O.S. No.3116 of 1979",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Valliammal vs Kamalambal And Ors. on 21 July, 1989",
+  "case_name": "Valliammal vs Kamalambal And Ors.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "plaintiffs (wife and children)",
+    "respondent_defendant": "defendants (first defendant, her children, etc.)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife of Raju Mudaliar filed suit for recovery of possession of property and injunction against defendants who are in unlawful possession. Suit was dismissed by trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A child of a marriage which is null and void shall be legitimate if the marriage had been valid.",
+      "held": "Any child of such marriage who had been legitimate if the marriage had been valid, shall be legitimate, whether such child is born before or after the commencement of the Marriage Laws (Amendment) Act, 1976.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legitimacy",
+        "marriage",
+        "null and void"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A child born out of a voidable marriage shall be deemed to be the legitimate child of the parties if at the date of the decree it had been dissolved instead of being annulled.",
+      "held": "Where a decree of nullity is granted in respect of a voidable marriage under Section 12, any child begotten or conceived before the decree is made, who would have been the legitimate child of the parties to the marriage if at the date of the decree it had been dissolved instead of being annulled, shall be deemed to be their legitimate child notwithstanding the decree of nullity.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 12"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "voidable marriage",
+        "legitimacy",
+        "nullity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "bigamy",
+    "illegitimate children",
+    "kept-mistress",
+    "permanent",
+    "marriage",
+    "property rights",
+    "injunction",
+    "rents",
+    "unauthorised collection",
+    "family law",
+    "Indian succession laws",
+    "Madras Act 6 of 1949",
+    "Hindu rites and customs"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a property dispute case",
+    "advising on family law matters",
+    "representing clients in inheritance disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:23:44.167854"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:14:05.961176",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Additional District Judge, Muktsar",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sukhdev Singh vs Chhinder Pal Kaur on 28 September, 2000",
+  "case_name": "Sukhdev Singh vs Chhinder Pal Kaur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sukhdev Singh (husband)",
+    "respondent_defendant": "Chhinder Pal Kaur (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife filed a petition under Section 11 of the Hindu Marriage Act alleging that their marriage was null. The court allowed the petition and declared the marriage null. Later, the wife filed another petition under Section 25 of the Hindu Marriage Act claiming maintenance pendente lite. This application was contested by the husband.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage in contravention of Section 5(1) of the Hindu Marriage Act is null and void.",
+      "held": "Clause (i) of Section 5 lays down, for lawful marriage, the necessary condition that neither party should have a spouse living at the time of the marriage. A marriage in contravention of this condition, therefore, is null and void.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 5"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "AIR 1988 S.C, 644, Smt. Yamunabai Anantrao Adhav v. Anant Rao Shivram Adhav and another"
+      ],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "null and void",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A void marriage cannot be treated as valid by reference to earlier Hindu Law or custom.",
+      "held": "The plea that the marriage should not be treated as void because such a marriage was earlier recognised in law and custom cannot be accepted. By reasons of the overriding effect of the Act as mentioned in Section 4, no aid can be taken of the earlier Hindu Law or any custom, or usage as apart of that Law inconsistent with any provision of the Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 4"
+      ],
+      "cited_cases": [
+        "AIR 1988 S.C, 644, Smt. Yamunabai Anantrao Adhav v. Anant Rao Shivram Adhav and another"
+      ],
+      "keywords": [
+        "void marriage",
+        "earlier Hindu Law",
+        "custom"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's order allowing the wife's application for litigation expenses and maintenance pendente lite was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 11",
+    "Section 24",
+    "Section 25",
+    "maintenance pendents lite",
+    "litigation charges",
+    "nullity of marriage",
+    "ex parte decree",
+    "decree of nullity",
+    "marriage validity",
+    "bigamy",
+    "spouse living",
+    "petition under Section 11",
+    "petition under Section 25",
+    "Civil Revision",
+    "Code of Criminal Procedure"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance pendents lite",
+    "representing clients in nullity of marriage cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:00:52.681034"
 }

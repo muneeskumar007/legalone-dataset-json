@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:14:30.591598",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -20,13 +20,13 @@
     "Rameshwar Vyas J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge No.1, Barmer in Civil Misc. Case No. 94/2015 (07/2014)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sunil vs Kritika Paliwal on 15 March, 2022",
+  "case_name": "Sunil vs Kritika Paliwal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sunil S/o Devi Lal, husband",
+    "respondent_defendant": "Kritika Paliwal W/o Sunil, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife preferred a petition under Section 13 of the Hindu Marriage Act seeking dissolution of marriage against the husband with the averment that she is Paliwal by caste and respondent-husband is by caste Meena.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Custom being in derogation of the general rule is required to be construed strictly.",
+      "held": "Hon'ble Apex Court held that for custom to have the colour of a rule or law, it is necessary for the party claiming it to plead and thereafter prove that such custom is ancient, certain and reasonable.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 29"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Dr. Surajmani Stella Kujur vs. Durga Charan Hansdah & Anr : Appeal (Crl.) No. 186/2001 (SLP (Crl) No. 2436/2000), decided on 14.2.2001"
+      ],
       "keywords": [
-        "TODO"
+        "custom",
+        "rule",
+        "law",
+        "ancient",
+        "certain",
+        "reasonable"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving custom"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The party relying upon a custom is obliged to establish it by clear and unambiguous evidence.",
+      "held": "Hon'ble Apex Court held that the party relying upon a custom is obliged to establish it by clear and unambiguous evidence.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 29"
+      ],
+      "cited_cases": [
+        "Dr. Surajmani Stella Kujur vs. Durga Charan Hansdah & Anr : Appeal (Crl.) No. 186/2001 (SLP (Crl) No. 2436/2000), decided on 14.2.2001"
+      ],
+      "keywords": [
+        "custom",
+        "evidence",
+        "clear",
+        "unambiguous"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases involving custom"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The instant revision petition has been filed by husband being aggrieved by the order dated 15.4.2021 passed by the learned Additional District Judge No.1, Barmer in Civil Misc. Case No. 94/2015 (07/2014), whereby application under Section 2(2) of the Hindu Marriage Act read with Order 7 Rule 11 CPC filed by him during proceedings under Section 13 of Hindu Marriage Act was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Section 2(2)",
+    "Order 7 Rule 11 CPC",
+    "Meena",
+    "Paliwal",
+    "dissolution of marriage",
+    "marriage dissolution",
+    "cultural differences",
+    "caste",
+    "family law",
+    "Indian family law",
+    "Hindu law",
+    "judicial separation",
+    "matrimonial dispute",
+    "spousal rights",
+    "property division"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for dissolution of marriage under Hindu Marriage Act",
+    "advising on spousal rights and property division in a matrimonial dispute",
+    "assisting with a judicial separation case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:23:21.892133"
 }

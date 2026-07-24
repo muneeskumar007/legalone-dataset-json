@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:12:21.211543",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 8,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "XV Additional City Civil & Sessions Judge at Bangalore City (CCH.No.3) OS No.645/2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Yellamma vs N.Purushotham on 26 March, 2016",
+  "case_name": "Smt.Yellamma vs N.Purushotham",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt.Yellamma, Smt.Bhuvaneshwari, Smt.N.Manjula (wife, daughters and plaintiff)",
+    "respondent_defendant": "N.Purushotham, N.Kausal Ram (sons of deceased Narayanaswamy and defendants)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit for partition and separate possession of 3/5th share in the suit property by metes and bounds.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,96 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the defendants to prove that they are the legal heirs of Narayanaswamy and entitled to the suit property.",
+      "held": "After framing of issues, this court proceeds to answer above issues as under: ISSUE No.2 : In the affirmative.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956 — Section 6"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "heirs",
+        "entitlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendants",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The suit property devolves upon the legal heirs of Narayanaswamy after his death.",
+      "held": "After the death of Jayamma, suit property has devolved upon her husband -Narayanaswamy, as he was the only legal heir of deceased Smt.Jayamma.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956 — Section 6"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "devolution",
+        "heirs"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The court will consider the welfare of the children in deciding partition and separate possession.",
+      "held": "To protect the interest of 1st plaintiff, plaintiff No.2 and 3 have approached the defendants and requested them to effect partition in the suit properties and give the share of plaintiffs.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "welfare",
+        "children"
+      ],
+      "favours": "plaintiffs",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court granted the relief claimed by the plaintiffs, ordering a partition and separate possession of the suit property.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "S.6",
+    "family property",
+    "joint family",
+    "coparcenary",
+    " Hindu undivided family",
+    "HUF",
+    "separate possession",
+    "suit for partition",
+    "joint ownership",
+    "co-ownership",
+    "partition suit",
+    "family settlement",
+    "agreement to settle",
+    "family dispute",
+    "property rights",
+    "family property rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for partition and separate possession",
+    "advising on family property disputes",
+    "assisting in a joint family settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:13:32.369869"
 }

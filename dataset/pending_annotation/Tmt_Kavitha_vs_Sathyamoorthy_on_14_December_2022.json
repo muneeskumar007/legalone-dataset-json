@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:16:28.730735",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -25,13 +25,13 @@
     "M.P.No.18660 of 2022",
     "I.A.No.18 of 2022"
   ],
-  "trial_court": "",
+  "trial_court": "Subordinate Court, Ottanchathiram (HMOP No.185 of 2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tmt.Kavitha vs Sathyamoorthy on 14 December, 2022",
+  "case_name": "Tmt.Kavitha vs Sathyamoorthy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tmt.Kavitha (wife)",
+    "respondent_defendant": "Sathyamoorthy (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2022 and have a child. The husband filed for divorce, but the wife is unable to travel to contest due to her responsibilities as a school owner and her daughter's NEET examination. The wife also seeks maintenance for their child.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance is the livelihood for a child, and even in cases where the wife is employed, the father has to contribute his share of maintenance.",
+      "held": "The remedy of interim maintenance is a measure of social justice as envisaged under the Constitution to prevent the children from falling into destitution and vagrancy.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "social justice",
+        "children's welfare"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Interim maintenance is to be granted whenever a child is to be maintained by the parents, considering the status, income, lifestyle and other mitigating factors.",
+      "held": "The Courts cannot keep such maintenance petitions pending for a prolonged period; soon after the filing of the same, interim maintenance is to be granted.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "children's welfare",
+        "social justice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The domicile or citizenship of the opposite party is immaterial in a case like this, and the residence of the wife determines the question of jurisdiction.",
+      "held": "The Hon'ble Division Bench of the High Court of Madras has observed that 'the domicile or citizenship of the opposite party is immaterial in a case like this'.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "W.A.No.1181 of 2009"
+      ],
+      "keywords": [
+        "jurisdiction",
+        "domicile",
+        "citizenship"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "transfer petitions",
+        "matrimonial cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition for transfer was allowed, and the HMOP No.185 of 2022 was transferred from the Subordinate Court, Ottanchathiram to the Subordinate Court, Udumalapet.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "transfer",
+    "HMOP",
+    "Subordinate Court",
+    "Ottanchathiram",
+    "Udumalapet",
+    "marriage",
+    "separation",
+    "misunderstanding",
+    "custody",
+    "child",
+    "18 years",
+    "Hindu Rites and Customs",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on transfer of cases between courts",
+    "assisting with child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:40:30.636520"
 }

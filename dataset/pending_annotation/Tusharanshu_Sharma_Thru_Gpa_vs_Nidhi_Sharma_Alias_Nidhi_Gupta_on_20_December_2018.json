@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:16:32.739618",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -18,13 +18,13 @@
     "Avneesh Jhingan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Panchkula, CR No.14323 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tusharanshu Sharma Thru Gpa vs Nidhi Sharma Alias Nidhi Gupta on 20 December, 2018",
+  "case_name": "Tusharanshu Sharma Thru Gpa v. Nidhi Sharma Alias Nidhi Gupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tusharanshu Sharma (husband)",
+    "respondent_defendant": "Nidhi Sharma (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between petitioner and respondent was solemnized on 14.04.2016 at Delhi and registered on 25.05.2016 at Panchkula. Petitioner filed petition under Section 13 of Hindu Marriage Act, 1955 for dissolution of marriage. Respondent filed application under Section 24 of the Act which was withdrawn. Ex-parte order was passed against respondent on 27.09.2018.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Proceeding ex-parte in a divorce case is not appropriate.",
+      "held": "As the proceedings in present case are with regard to dissolution of marriage, it would not be appropriate that respondent-wife should be proceeded ex-parte.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [
+        "Ramrameshwari Devi and others Vs. Nirmala Devi and others, (2011) 8 SCC 249",
+        "Bharat Rajpur Vs. Amrik Singh Aulakh, (2014) 56 RCR (Civil) 195"
+      ],
+      "keywords": [
+        "divorce",
+        "ex-parte",
+        "marriage dissolution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Intentional delay in litigation is not evident.",
+      "held": "From the perusal of the facts mentioned above, it is evident that the petition was filed in April 2017, respondent was served in August 2017 and replication by the petitioner-husband was filed in May 2018. The respondent-wife while moving the application for setting aside the ex-parte order, stated that she was busy in some other cases.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "litigation delay",
+        "intentional delay"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order dated 03.12.2018 setting aside ex-parte proceedings order dated 27.09.2018 was quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "ex parte proceedings",
+    "quashing",
+    "Article 227",
+    "Constitution of India",
+    "solemnized",
+    "registered",
+    "sour relations",
+    "petition",
+    "dissolution of marriage",
+    "notice issued",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing ex parte proceedings",
+    "seeking dissolution of marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:50:32.740176"
 }

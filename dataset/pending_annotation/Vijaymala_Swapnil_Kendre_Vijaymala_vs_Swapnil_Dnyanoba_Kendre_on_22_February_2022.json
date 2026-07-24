@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:17:37.642899",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vijaymala Swapnil Kendre @ Vijaymala ... vs Swapnil Dnyanoba Kendre on 22 February, 2022",
+  "case_name": "Vijaymala Swapnil Kendre @ Vijaymala ... vs Swapnil Dnyanoba Kendre",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Mrs. Vijaymala S. Kendre @ Vijaymala, Applicant (wife)",
+    "respondent_defendant": "Swapnil D. Kendre, Respondent (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant-wife seeks transfer of proceedings initiated by the respondent-husband under section 13 of the Hindu Marriage Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking transfer of proceedings to establish hardship.",
+      "held": "Issue of hardship is supported by the fact that in case if the Applicant is made to attend the said proceedings at Mumbai, she will be required to travel one way distance of 550 kilometers.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "hardship",
+        "transfer",
+        "proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's hardship can be established by showing the inconvenience or difficulty caused by attending proceedings at a distant location.",
+      "held": "It is further brought to my notice that Applicant-Wife is not getting any maintenance from the Non-Applicant.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "hardship",
+        "inconvenience",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings transferred to Civil Judge Senior Division at Latur.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "section 13",
+    "maintenance",
+    "hardship",
+    "family court",
+    "Mumbai",
+    "non-applicant",
+    "applicant-wife",
+    "distance",
+    "travel",
+    "one way",
+    "550 kilometers",
+    "Latin maxim",
+    "nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "arguing hardship in family court proceedings",
+    "seeking maintenance from non-applicant"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:56:42.336106"
 }

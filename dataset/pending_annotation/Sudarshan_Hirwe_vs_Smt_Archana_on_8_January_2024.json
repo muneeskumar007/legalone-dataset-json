@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:13:53.086587",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sudarshan Hirwe vs Smt. Archana on 8 January, 2024",
+  "case_name": "Sudarshan Hirwe vs Smt. Archana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sudarshan Hirwe, husband",
+    "respondent_defendant": "Smt. Archana, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant/husband seeks to adjust maintenance payments under Section 24 of the Hindu Marriage Act, 1955 with amounts awarded under Section 12 of the Domestic Violence Act, 2005.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance awarded under Section 125 of the CrPC is adjustable against the amount awarded in matrimonial proceedings.",
+      "held": "It is held that the maintenance awarded under Section 125 of the CrPC is adjustable against the amount awarded in matrimonial proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "CrPC — Section 125"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Sudeep Chaudhary Vs. Radha Chaudhary, (1997) 11 SCC 286"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "adjustable",
+        "matrimonial proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Simultaneous proceedings for maintenance under different enactments are permissible, but the wife is under legal obligation to disclose the same in a subsequent proceeding.",
+      "held": "The Apex Court has held that simultaneous proceeding for the maintenance is permissible, but this has also been directed by the Apex Court that if the wife is getting maintenance under previously instituted proceedings she is under legal obligation to disclose the same in a subsequent proceeding.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24",
+        "Protection of Women from DV Act — Section 20"
+      ],
+      "cited_cases": [
+        "Rajnesh Vs. Neha and others, (2021) 2 SCC 324"
+      ],
+      "keywords": [
+        "maintenance",
+        "simultaneous proceedings",
+        "disclosure"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Amounts paid by appellant husband to be adjusted against maintenance payable under Section 24 of the Hindu Marriage Act, 1955.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Protection of Women from DV Act",
+    "Section 24",
+    "Section 25",
+    "Section 12",
+    "Domestic Violence Act",
+    "judicial separation",
+    "alimony",
+    "family law",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "property settlement",
+    "custody battle",
+    "child support",
+    "spousal support"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing maintenance application",
+    "responding to domestic violence allegations"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:47:41.440477"
 }

@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:14:36.666044",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "bail",
   "domain_scores": {
     "divorce": 3,
     "custody": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "High Court of Judicature at Patna, Cr.Misc. No.929 of 2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Surendra Kumar Gupta vs The State Of Bihar on 21 January, 2010",
+  "case_name": "Surendra Kumar Gupta vs The State Of Bihar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Surendra Kumar Gupta, son of Sri Chhatu Lal Gupta",
+    "respondent_defendant": "The State Of Bihar",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks bail in a case instituted for the offence under Sections 420, 341, 323, 387, 498A/34 of the Indian Penal Code and Sections ¾ of Dowry Prohibition Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the petitioner to establish that he is not a flight risk.",
+      "held": "Taking into consideration the statement of the girl given in the Family Court in the Divorce Proceedings under Section 13B of Hindu Marriage Act as also that the petitioner is in custody since 7.9.2009,",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "petitioner",
+        "flight risk"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A bail application can be granted if the petitioner is in custody and there are no grounds to believe that he will not appear before the court.",
+      "held": "Let the petitioner above named, be released on bail on furnishing bail bond of Rs. 5,000/- with two sureties of the like amount each to the satisfaction of Chief Judicial Magistrate, Patna,",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "bail",
+        "custody",
+        "appear before court"
+      ],
+      "favours": "petitioner",
+      "use_in": [
+        "bail applications"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner released on bail on furnishing bail bond of Rs. 5,000/- with two sureties of the like amount each to the satisfaction of Chief Judicial Magistrate, Patna.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "bail",
+    "Indian Penal Code",
+    "Dowry Prohibition Act",
+    "Family Court",
+    "Section 13B",
+    "Section 420",
+    "Section 341",
+    "Section 323",
+    "Section 387",
+    "Section 498A",
+    "34",
+    "9.7.2009",
+    "Phulwarisharif P.S.",
+    "Chief Judicial Magistrate",
+    "Patna",
+    "genealogy",
+    "close relative"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting bail application",
+    "divorce proceedings under Hindu Marriage Act",
+    "Family Court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:41:08.379407"
 }

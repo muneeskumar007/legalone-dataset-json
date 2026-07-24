@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:28.970375",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sou Kanchan Atulaman Mishra @ Kanchan ... vs Shri. Atulaman Shubhsudan Mishra on 18 April, 2022",
+  "case_name": "Sou Kanchan Atulaman Mishra @ Kanchan ... vs Shri. Atulaman Shubhsudan Mishra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SOU KANCHAN ATULAMAN MISHRA @ KANCHAN AMIRITNARAYAN MISHRA (husband)",
+    "respondent_defendant": "SHRI ATULAMAN SHUBHSUDAN MISHRA (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties got married on 17/04/2014 and are blessed with a daughter aged about seven years. Applicant has initiated criminal proceedings against the non-applicant for the offence punishable under Sections 498-A, 406, 323, 504, 506 read with Section 34 of the Indian Penal Code. Wife sought transfer of proceedings being Marriage Petition No. 318 of 2018 initiated under Section 13(1) of the Hindu Marriage Act for divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish hardship.",
+      "held": "Though served, none appears for the non-applicant. As such, contentions raised in the Application under Section 24 of the Civil Procedure Code are not controverted.",
       "applicable_acts_sections": [
-        "TODO"
+        "Civil Procedure Code — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "hardship",
+        "burden",
+        "applicant"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A transfer of proceedings can be granted on the ground of hardship.",
+      "held": "In the aforesaid backdrop, on the ground of hardship, Applicant-wife has sought transfer of proceedings being Marriage Petition No. 318 of 2018 initiated under Section 13(1) of the Hindu Marriage Act for divorce...",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13(1)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "transfer",
+        "hardship",
+        "proceedings"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Application allowed",
+    "final_order": "Marriage Petition No. 318 of 2018 pending before the Hon'ble Civil Judge Senior Division at Vasai to be transferred to the Learned Civil Judge Senior Division, Kalyan.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Specific Relief Act",
+    "498-A IPC",
+    "406 IPC",
+    "323 IPC",
+    "504 IPC",
+    "506 IPC",
+    "34 IPC",
+    "D.V. Act",
+    "Criminal Proceedings",
+    "Family Court",
+    "Marriage",
+    "Divided Property",
+    "Maintenance",
+    "Custody",
+    "Child Support",
+    "Domestic Violence",
+    "Matrimonial Dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:39:05.866307"
 }

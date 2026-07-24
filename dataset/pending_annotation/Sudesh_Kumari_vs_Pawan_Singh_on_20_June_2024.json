@@ -7,7 +7,7 @@
   "total_pages": 21,
   "extracted_at": "2026-07-15T11:13:55.818143",
   "domain": "will_succession",
-  "sub_domain": "property_dispute",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "21.05.2024",
   "delivered_on": "",
-  "case_name": "Sudesh Kumari vs Pawan Singh on 20 June, 2024",
+  "case_name": "Sudesh Kumari vs Pawan Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sudesh Kumari — plaintiff",
+    "respondent_defendant": "Pawan Singh — defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -91,7 +91,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff filed a civil suit seeking a declaration that she has succeeded her mother's share in the suit land based on Hindu Succession Act. She also sought a relief of permanent prohibitory injunction and, in the alternative, a decree for possession to the extent of her share.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -101,39 +101,121 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Unless sufficient and cogent evidence is led showing that the person putting his signature on a document signed it for the purpose of attesting it or certifying that he has received from the executant a personal acknowledgement of his signature, he cannot be regarded as an attesting witness.",
+      "held": "In the absence of any evidence in the case, signatures are appearing on the document only to certify that he is a scribe an identifier or a registering officer, he is not an attesting witness.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "N. Kamalan vs. Ayyaswamy, (2001) 7 SCC 503",
+        "Sudesh Kumari vs Pawan Singh, (2024)"
+      ],
       "keywords": [
-        "TODO"
+        "attesting witness",
+        "signature",
+        "document",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "will disputes",
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "To be regarded as an attesting witness, it must be shown that he had put his signature with the intention and for the purpose of attesting it or certifying of having received from the executant a personal acknowledgement of his signature.",
+      "held": "It was observed: To be regarded as an attesting witness, it must be shown that he had put his signature with the intention and for the purpose of attesting it or certifying of having received from the executant a personal acknowledgement of his signature.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [
+        "N. Kamalan vs. Ayyaswamy, (2001) 7 SCC 503",
+        "Sudesh Kumari vs Pawan Singh, (2024)"
+      ],
+      "keywords": [
+        "attesting witness",
+        "signature",
+        "document",
+        "evidence"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "will disputes",
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Unless sufficient evidence is led to show that the person putting his signatures on the document signed it to attest it, the person cannot be called an attesting witness.",
+      "held": "It was held in Narotam Vs. Laxmi Devi AIR 2016 HP 160 that unless sufficient evidence is led to show that the person putting his signatures on the document signed it to attest it, the person cannot be called an attesting witness.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act, 1872"
+      ],
+      "cited_cases": [
+        "Narotam Vs. Laxmi Devi, AIR 2016 HP 160",
+        "Sudesh Kumari vs Pawan Singh, (2024)"
+      ],
+      "keywords": [
+        "attesting witness",
+        "signature",
+        "document",
+        "evidence"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "will disputes",
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal filed by the plaintiff was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Succession Act",
+    "1956",
+    "Will",
+    "Succession",
+    "Civil Suit",
+    "Plaintiff",
+    "Defendant",
+    "Savitri Devi",
+    "Suit Land",
+    "Entries",
+    "Estate",
+    "Inheritance",
+    "Heir",
+    "Share",
+    "Declaration",
+    "Appeal",
+    "Dismissed",
+    "Trial Court",
+    "First Appellate Court",
+    "Additional District Judge",
+    "Kangra",
+    "Dharamshala"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "filing an appeal in the trial court",
+    "seeking a declaration of inheritance"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:49:47.843178"
 }

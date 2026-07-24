@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:17:37.045573",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1
   },
@@ -18,10 +18,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vidya Dattatrya Gaikwad vs Dattatraya Tukaram Gaikwad on 22 September, 2025",
+  "case_name": "Vidya Dattatrya Gaikwad vs Dattatraya Tukaram Gaikwad",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vidya D. Gaikwad (Appellant, wife)",
+    "respondent_defendant": "Dattatraya T. Gaikwad (Respondent, husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Vidya and Dattatraya Gaikwad, who were married under the Hindu Marriage Act. The Appellant seeks to set aside the impugned order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse seeking divorce must establish grounds for the same.",
+      "held": "The law is clear that a party seeking divorce must establish grounds for the same.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "grounds",
+        "spouse"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking interim relief must establish a prima facie case.",
+      "held": "It is settled law that a party seeking interim relief must establish a prima facie case.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "interim relief",
+        "prima facie"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "interim relief cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Since the Appeal has been filed in time, the question of filing separate application seeking stay of the impugned order does not arise.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 15",
+    "family court",
+    "interim application",
+    "notice",
+    "affidavit of service",
+    "stay of order",
+    "appeal",
+    "civil appellate jurisdiction",
+    "Vasant Anandrao",
+    "IDHOL",
+    "Family Court Appeal No.102 of 2025",
+    "Interim Application No.11729 of 2025"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "preparing family court application",
+    "seeking stay of order in Hindu Marriage Act case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:44:40.186247"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:13:07.953532",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -21,13 +21,13 @@
   "case_numbers": [
     "M.C.No.1785/2013"
   ],
-  "trial_court": "",
+  "trial_court": "1st Addl. Family Judge at Bangalore, M.C.No.1785/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri T Shreedhar vs Smt C Rajeshwari on 27 April, 2017",
+  "case_name": "Sri T Shreedhar vs Smt C Rajeshwari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri T Shreedhar, husband",
+    "respondent_defendant": "Smt. C Rajeshwari, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are residing separately due to disputes in their marital life. The petitioner seeks dissolution of marriage under Section 13(1)(ia) of the Hindu Marriage Act. The respondent sought maintenance and litigation expenses. The trial court directed payment of Rs.5,000/- per month towards maintenance.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Maintenance cannot be refused merely on the ground that the financial condition of the husband is not good.",
+      "held": "It is held therein that the maintenance cannot be refused merely on the ground that the financial condition of the husband is not good.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [
+        "Smt.Padmavathi and others vs. C.Lakshminarayana (AIR 2002 Kar 424)"
+      ],
+      "keywords": [
+        "maintenance",
+        "financial condition",
+        "husband"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the applicant to prove their income and financial condition.",
+      "held": "No materials were produced before the Court below. In fact the Court below itself has arrived at the conclusion that such contention relating to the income is improbable",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "income",
+        "financial condition",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order quashed the trial court's order directing payment of maintenance.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "residency",
+    "separation",
+    "marital life",
+    "dispute",
+    "petition",
+    "IA No.7",
+    "M.C.No.1785/2013",
+    "family court",
+    "order quashing",
+    "quash",
+    "Article 226",
+    "Article 227",
+    "Constitution of India",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing family court order",
+    "petition under Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:27:30.325971"
 }

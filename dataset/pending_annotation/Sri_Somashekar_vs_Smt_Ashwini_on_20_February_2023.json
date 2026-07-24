@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:13:00.484949",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1
@@ -21,13 +21,13 @@
   "case_numbers": [
     "M.C.NO.2308/2013"
   ],
-  "trial_court": "",
+  "trial_court": "IV Additional Principal Judge, Family Court, Bengaluru, M.C.No.2308/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Somashekar vs Smt. Ashwini on 20 February, 2023",
+  "case_name": "Sri Somashekar vs Smt. Ashwini",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri. Somashekar, husband",
+    "respondent_defendant": "Smt. Ashwini, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed petition under Section 13(1)(ia)&(ib) of the Hindu Marriage Act, 1955, which was dismissed by the trial court. The parties have now reached a compromise and the marriage is dissolved by decree of divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A compromise arrived at between the parties can be a valid ground for dismissing a petition.",
+      "held": "They have invited attention of this Court to the memo filed on behalf of the parties, which has been duly signed by them.",
       "applicable_acts_sections": [
-        "TODO"
+        "Family Courts Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "petition",
+        "dismissal"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party seeking to set aside a compromise to prove that it was not voluntary.",
+      "held": "They have invited attention of this Court to the memo filed on behalf of the parties, which has been duly signed by them.",
+      "applicable_acts_sections": [
+        "Family Courts Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "voluntary",
+        "compromise"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal disposed of in terms of the compromise arrived at between the parties",
+    "final_order": "Marriage performed on 23.04.2007 is dissolved by a decree of divorce, and the appellant shall pay a sum of Rs.4,00,000/- to the respondent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)",
+    "Family Courts Act",
+    "Section 19(1)",
+    "MFA No. 8611 of 2016",
+    "M.C.NO.2308/2013",
+    "IV Additional Principal Judge",
+    "C/c. Of I Additional Principal Judge",
+    "Family Court",
+    "Bengaluru",
+    "dismissal",
+    "petition",
+    "judgment",
+    "decree",
+    "appeal",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "responding to dismissal of petition",
+    "preparing for Family Court hearing"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:24:06.037752"
 }

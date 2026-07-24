@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:16:05.139186",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "murder_criminal": 3,
@@ -20,20 +20,20 @@
     "C.C.No.131/2021",
     "C.C.No.19408/2017"
   ],
-  "trial_court": "",
+  "trial_court": "XXXII Addl.C.M.M, Bengaluru. C.C.No.131/2021",
   "reserved_on": "",
   "delivered_on": "01-02-2023",
-  "case_name": "The State Through vs Jayabharath Reddy on 1 February, 2023",
+  "case_name": "The State Through vs Jayabharath Reddy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "The State through Police Inspector, Madiwala Police Station, Bengaluru.",
+    "respondent_defendant": "Jayabharath Reddy, s/o Surendranatha Reddy",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The accused married CW1 on 5/12/2014 and demanded dowry. On 23/7/2018, the accused harassed CW1 for small reasons, abused in filthy language, and assaulted with hands.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -43,39 +43,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the prosecution to prove its case beyond all reasonable doubt.",
+      "held": "On going through the facts and circumstances of the prosecution case, the following points would arise for my consideration:",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "prosecution",
+        "reasonable doubt"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may dispense with the statement of an accused if there are no incriminating circumstances in the evidence of prosecution witnesses.",
+      "held": "The statement of the accused as required Under Sec.313(1)(b) of Cr.P.C was dispensed with as there was no incriminating circumstances in the evidence of prosecution witnesses.",
+      "applicable_acts_sections": [
+        "Cr.P.C"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "accused",
+        "statement",
+        "incriminating circumstances"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Accused is found not guilty",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "498A",
+    "504",
+    "DPA",
+    "DPAct",
+    "Sec498A",
+    "Sec504",
+    "Sec3",
+    "Sec4",
+    "ChargeSheet",
+    "MadiwalaPS",
+    "PoliceInspector",
+    "JayabharathReddy",
+    "Bengaluru",
+    "IndianKanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting chargesheet",
+    "defending IPC cases",
+    "composing police report"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:30:48.699961"
 }

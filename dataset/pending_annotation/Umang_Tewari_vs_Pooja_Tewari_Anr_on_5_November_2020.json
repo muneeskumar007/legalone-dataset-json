@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:16:53.723697",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1
@@ -19,13 +19,13 @@
     "Subramonium Prasad J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, case number MAT.APP.(F.C.) 135/2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Umang Tewari vs Pooja Tewari & Anr on 5 November, 2020",
+  "case_name": "Umang Tewari vs Pooja Tewari & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Umang Tewari (husband)",
+    "respondent_defendant": "Pooja Tewari & Anr (wife and another)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of parties solemnized on 13.12.2006. Two children born from wedlock. Parties resided together till December 2016. Divorce petition filed by husband in 2017. Amendment application moved on 09.11.2018.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish that there is a sufficient change in circumstances.",
+      "held": "Though Ms.Anand, learned counsel for the appellant/husband states that an advance intimation of filing of the appeal was conveyed to the respondent No.1, none is present on her behalf.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "applicant",
+        "circumstances"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A written intimation through whatsapp/email is sufficient for serving notice.",
+      "held": "Learned counsel for the appellant is directed to give a written intimation through whatsapp/email of the appeal.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "notice",
+        "written",
+        "whatsapp",
+        "email"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed, subject to all just exceptions",
+    "final_order": "Parties shall remain virtually present on the next date of hearing. List for admission on 18.01.2021.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce petition",
+    "amendment application",
+    "Section 13(1)",
+    "Section 12",
+    "annulment",
+    "Family Court",
+    "interim order",
+    "video conferencing",
+    "CM.APPL",
+    "MAT.APP.(F.C.)",
+    "delay",
+    "stay",
+    "marriage solemnized",
+    "children born",
+    "residing together",
+    "divorce petition filed",
+    "amendment application moved",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "moving amendment applications",
+    "seeking interim orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:55:52.628151"
 }

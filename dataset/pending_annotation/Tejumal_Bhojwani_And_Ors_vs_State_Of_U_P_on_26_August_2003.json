@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:15:49.850212",
   "domain": "land_acquisition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "land_acquisition",
   "domain_scores": {
     "custody": 1,
     "domestic_violence": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tejumal Bhojwani And Ors vs State Of U.P on 26 August, 2003",
+  "case_name": "Tejumal Bhojwani And Ors vs State Of U.P",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tejumal Bhojwani and Ors.",
+    "respondent_defendant": "State of U.P., through the Collector, [Land Acquisition Officer, Avas Evam Vikas Parishad (hereinafter referred to as 'the Parishad')]",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -43,7 +43,7 @@
   ],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The appellants were owners of large tract of land. The respondent is the State of U.P. Through the Parishad, a notification was issued under Section 28 of the Adhiniyam for acquiring land for construction of houses. The Land Acquisition Officer gave three different Awards and offered compensation to the claimants. The claimants sought compensation before the Civil Court which enhanced the compensation.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,95 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The President may specify the castes, races or tribes which shall be deemed to be Scheduled Castes in relation to a State or Union territory.",
+      "held": "Article 341 reads thus: '341 SCHEDULED CASTES. (1) The President may with respect to any State or Union territory, and where it is a State after consultation with the Governor thereof, by public notification, specify the castes, races or tribes or parts of or groups within castes, races or tribes or parts of or groups within castes, races or tribes which shall for the purposes of this Constitution be deemed to be Scheduled Castes in relation to that State or Union territory, as the case may be.'",
       "applicable_acts_sections": [
-        "TODO"
+        "Constitution of India — Article 341"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Scheduled Castes",
+        "Article 341",
+        "President"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving Scheduled Castes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A notification issued under Article 341(1) of the Constitution shall not be varied by any subsequent notification.",
+      "held": "It is in relation thereto the President has been authorised to limit the notification to parts or groups within the castes. The notification issued in terms of the said provision is exhaustive.",
+      "applicable_acts_sections": [
+        "Constitution of India — Article 341"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Article 341",
+        "notification",
+        "Scheduled Castes"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving Scheduled Castes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The tribe 'Pasi' finds place in the notification whereas 'Kurmi' does not.",
+      "held": "The tribe 'Pasi' admittedly finds place in the said notification whereas 'Kurmi' does not.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "Pasi",
+        "Kurmi",
+        "notification"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving Scheduled Castes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appellants' appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Uttar Pradesh",
+    "Land Acquisition Officer",
+    "Avas Evam Vikas Parishad",
+    "Adhiniyam",
+    "1965",
+    "Section 4",
+    "Section 17",
+    "Section 23",
+    "Section 26",
+    "Section 28",
+    "Section 30",
+    "Section 31",
+    "Section 32",
+    "Section 33",
+    "Section 34"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting land acquisition notices",
+    "advising on land use regulations",
+    "representing clients in land disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:21:34.506156"
 }

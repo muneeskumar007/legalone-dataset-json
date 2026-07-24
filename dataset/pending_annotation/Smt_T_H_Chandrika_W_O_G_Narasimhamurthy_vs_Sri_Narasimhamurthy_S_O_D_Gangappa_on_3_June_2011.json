@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:07.159064",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge (Sr. Division), Tumkur, MC 1/2008",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt T H Chandrika W/O G Narasimhamurthy vs Sri Narasimhamurthy S/O D Gangappa on 3 June, 2011",
+  "case_name": "Smt T H Chandrika W/O G Narasimhamurthy vs Sri Narasimhamurthy S/O D Gangappa",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "T.H.Chandrika w/0 G.Narásimha4_' V Murthy, wife",
+    "respondent_defendant": "Narasimhamurthy s/o D Gangappa, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent are married with two children; petitioner seeks maintenance enhancement from ₹16,500 to ₹35,000 per month.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the respondent to justify the enhancement of maintenance.",
+      "held": "This petition is coming on for preliminary hearing in B~Group this day, the Court makes the following: The petitioner being not satisfied with the maintenance awarded by the previous court, present petition is filed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "enhancement",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may enhance maintenance if the previous award is not satisfactory.",
+      "held": "This Court has awarded a sum of Rs.1SGGf~ as maintenance to the geeitiener and her daughter.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "enhancement",
+        "previous award"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Respondent directed to pay monthly maintenance of ₹17,000 to the petitioner and her daughter.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "maintenance",
+    "alimony",
+    "Section 23",
+    "Section 25",
+    "Section 28",
+    "matrimonial dispute",
+    "family law",
+    "marriage",
+    "children",
+    "custody",
+    "property division",
+    "equitable distribution",
+    "justifiable grounds",
+    "irreconcilable differences"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on maintenance and alimony",
+    "assisting in property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:55:45.768609"
 }

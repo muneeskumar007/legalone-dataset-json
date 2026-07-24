@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:18:01.333655",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -23,17 +23,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vivek Kumar @ Sanju And Anjali @ Afsana vs The State, Govt. Of Nct Of Delhi And Tahir ... on 23 February, 2007",
+  "case_name": "Vivek Kumar @ Sanju And Anjali @ Afsana vs The State, Govt. Of Nct Of Delhi And Tahir ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vivek @ Sanju and Anjali @ Afsana (husband and wife)",
+    "respondent_defendant": "The State, Govt. Of Nct Of Delhi And Tahir (father of petitioner No. 2)",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners Vivek Kumar @ Sanju and Anjali @ Afsana sought quashing of FIR No. 160/2006 alleging kidnapping of petitioner No. 2. Petitioner No. 2 was a Muslim who converted to Hinduism and married petitioner No. 1 without her father's consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -43,39 +43,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the person alleging kidnapping to prove that the minor was taken away without the consent of the lawful guardian.",
+      "held": "A bare perusal of Section 361 IPC would show that in order to constitute kidnapping, it was necessary to prove that the minor was taken away without the consent of the lawful guardian.",
       "applicable_acts_sections": [
-        "TODO"
+        "IPC — Section 361"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "kidnapping",
+        "minor",
+        "lawful guardian",
+        "consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "cases involving allegations of kidnapping"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not send a minor to Nari Niketan without considering the circumstances and ensuring her safety.",
+      "held": "The request by the counsel for the complainant to send the petitioner No. 2 to Nari Niketan was declined by the Court.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "minor",
+        "Nari Niketan",
+        "safety"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases involving minors and allegations of abuse"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "FIR quashed, no useful purpose served if FIR remains on record.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "custody",
+    "kidnapping",
+    "IPC",
+    "Section 363",
+    "marriage",
+    "conversion",
+    "religion",
+    "constitutional right",
+    "minor",
+    "major",
+    "Hindu",
+    "Muslim",
+    "Arya Samaj Mandir",
+    "quashing",
+    "FIR",
+    "petition",
+    "judgment",
+    "kidnapping case",
+    "family law",
+    "personal laws",
+    "marital status"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing FIR",
+    "advising on marriage and conversion rights",
+    "assisting in custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:24:41.679643"
 }

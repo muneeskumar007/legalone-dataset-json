@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:11:30.473221",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Seema vs Ashwani Kumar on 14 February, 2006",
+  "case_name": "Smt. Seema vs Ashwani Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Seema",
+    "respondent_defendant": "Ashwani Kumar",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The case concerns the origin of marriage in India and the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW). The court notes that while India agreed to make registration of marriages compulsory, it expressed reservation due to practical difficulties.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,21 +60,47 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Registration of marriages is compulsory under certain Acts.",
+      "held": "The Bombay Registration of Marriages Act, 1953, the Karnataka Marriages (Registration and Miscellaneous Provisions) Act, 1976, the Himachal Pradesh Registration of Marriages Act, 1996, and the Andhra Pradesh Compulsory Registration of Marriages Act, 2002 provide for compulsory registration of marriages.",
       "applicable_acts_sections": [
-        "TODO"
+        "Bombay Registration of Marriages Act, 1953",
+        "Karnataka Marriages (Registration and Miscellaneous Provisions) Act, 1976",
+        "Himachal Pradesh Registration of Marriages Act, 1996",
+        "Andhra Pradesh Compulsory Registration of Marriages Act, 2002"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compulsory registration",
+        "marriage Acts"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "cited_cases": [],
+      "favours": "neutral"
+    },
+    {
+      "principle": "The validity of a marriage is not affected by the omission to make an entry in the register.",
+      "held": "Under Section 8 of the Hindu Marriage Act, 1955, the validity of the marriage will not be affected by omission to make the entry in the register.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 8"
+      ],
+      "keywords": [
+        "marriage validity",
+        "register omission"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law disputes",
+        "marital status determination"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "cited_cases": [],
+      "favours": "neutral"
     }
   ],
   "outcome": {
@@ -84,15 +110,34 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Registration Act",
+    "marriage institution",
+    "Aryans",
+    "CEDAW",
+    "discrimination against women",
+    "Rigvedic age",
+    "ideal of marriage",
+    "Convention on the Elimination of All Forms of Discrimination Against Women",
+    "United Nations General Assembly",
+    "Indian law",
+    "family court",
+    "Supreme Court",
+    "High Court",
+    "Single Judge",
+    "Division Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:07:26.971417"
 }

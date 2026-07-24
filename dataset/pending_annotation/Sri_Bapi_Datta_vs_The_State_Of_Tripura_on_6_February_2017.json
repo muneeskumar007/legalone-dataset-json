@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:12:35.632348",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "S. Talapatra Counsel For The J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Sessions Judge, Court No.5, West Tripura (S.T. No.13 of 2013)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Bapi Datta vs The State Of Tripura on 6 February, 2017",
+  "case_name": "Sri Bapi Datta vs The State Of Tripura",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Bapi Datta, s/o Sri Dipu Datta alias Dipak Datta",
+    "respondent_defendant": "The State of Tripura",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant took victim to house of neighbour, co-habitated with her as husband and wife; took her to cousin sister's house for registration, co-habitated again; uncle and appellant forcibly threw victim out of auto-rickshaw",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Consent given under misconception of fact is not valid consent.",
+      "held": "The victim offered herself for sexual intercourse when she believed that there was a marriage solemnized. This is not the case that the accused abandoned her on account of circumstances which he could not have foreseen or which were beyond his control and was unable to marry her despite having every intention to do so.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 90"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "misconception",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "rape cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A man is said to commit rape who has committed sexual intercourse with a woman with her consent, when the man knows that he is not her husband and that her consent is given because she believes that he is another man to whom she is or believes herself to be lawfully married.",
+      "held": "In this case, it is evident from the evidence of the victim that she allowed sexually intercourse with her under the belief that accused is her legally married husband whereas from the conduct of the accused Bapi Datta it is clearly established that he from the beginning knew that there was no legal marriage solemnized in between the victim and him knowing that fact, he committed sexual intercourse with the victim.",
+      "applicable_acts_sections": [
+        "Indian Penal Code — Section 375"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "rape",
+        "consent",
+        "marriage"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "rape cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Appellant sentenced to undergo seven years of rigorous imprisonment with a fine of `10,000/- and another one year of rigorous imprisonment for the offence of Section 417 IPC",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "Section 376",
+    "Section 417",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "jail appeal",
+    "Sessions Judge",
+    "rigorous imprisonment",
+    "simple imprisonment",
+    "marriage",
+    "assault",
+    "rape",
+    "conviction",
+    "sentence",
+    "imprisonment",
+    "fine"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a criminal appeal",
+    "advising on sentence and punishment",
+    "representing a client in a rape case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:50:07.687174"
 }

@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:11:29.871601",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Seema@Swati vs Sh Shyam Tandon on 3 March, 2015",
+  "case_name": "Smt Seema@Swati vs Sh Shyam Tandon",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (wife) — Smt Seema@Swati",
+    "respondent_defendant": "Respondent (husband) — Sh Shyam Tandon",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife seeks ad interim maintenance of Rs.35,000/- per month during the pendency of the divorce petition. The husband challenges this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the respondent to prove that his income is genuine and not exaggerated.",
+      "held": "It has also been observed by the court that the respondent is contradicting his own statement with regard to his income and as a matter of fact, he has not been giving his true income so that an appropriate order could be passed.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "income",
+        "genuine",
+        "exaggerated"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not accept a respondent's statement of income without verifying its authenticity.",
+      "held": "It has also been observed by the court that the respondent is contradicting his own statement with regard to his income and as a matter of fact, he has not been giving his true income so that an appropriate order could be passed.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "income",
+        "authenticity"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Ad interim maintenance of Rs.35,000/- per month is granted to the wife.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce petition",
+    "maintenance",
+    "ad interim maintenance",
+    "litigation expenses",
+    "Article 227",
+    "Constitution of India",
+    "Section 125",
+    "Cruelty",
+    "Desertion",
+    "Reconciliation",
+    "Separation",
+    "Matrimonial Dispute",
+    "Family Court",
+    "High Court",
+    "Supreme Court",
+    "Maintenance Petition",
+    "Ad Interim Relief"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "ad interim maintenance application",
+    "litigation expenses claim"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:06:36.268807"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:17:38.116287",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "Vinod Chatterji Koul J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Chief Judicial Magistrate Reasi (CRM(M) 893/2021)",
   "reserved_on": "19.07.2022",
   "delivered_on": "",
-  "case_name": "Vijay Gupta And Others vs Deeksha Sharma And Others on 1 September, 2022",
+  "case_name": "Vijay Gupta And Others vs Deeksha Sharma And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vijay Gupta and others (father, mother, sister)",
+    "respondent_defendant": "Deeksha Sharma and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner No.1 is the father, petitioner No.2 is the mother, and petitioner No.3 is the sister of respondent No.2. Respondent No.1 filed a case under Protection of Women against Domestic Violence Act. Petitioners are respondents in that case.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Trial Court lacks jurisdiction to try an offence if it was not committed within its local limits.",
+      "held": "Section 177 of the Code of Criminal Procedure lays down the jurisdiction of the Court to try an offence in terms that every offence shall ordinarily be enquired into and tried by the Court within local limits of whose jurisdiction the same was committed;",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 177"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "jurisdiction",
+        "local limits",
+        "Code of Criminal Procedure"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "murder cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A spouse cannot be criminally prosecuted for bigamy if the second marriage was not solemnized during the subsistence of a legal and valid first marriage.",
+      "held": "The Section 494 particularly provides that the offence thereunder is committed by either spouse, who remarries during the subsistence of a legal and a valid marriage, whereas, in the present case the cognizance against the petitioners has been taken for commission of the offences under section 494 IPC which is legally not permissible;",
+      "applicable_acts_sections": [
+        "Indian Penal Code — Section 494"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "bigamy",
+        "second marriage",
+        "first marriage"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "bigamy cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned complaint and order dated 05.03.2020 were quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "DV Act",
+    "Protection of Women from DV Act",
+    "Code of Criminal Procedure",
+    "quashing",
+    "complaint",
+    "cognizance",
+    "process",
+    "matrimonial discord",
+    "marriage",
+    "husband",
+    "wife",
+    "family dispute",
+    "domestic violence",
+    "Section 498A",
+    "Section 304B",
+    "IPC",
+    "Criminal Procedure Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting DV Act cases",
+    "quashing complaints under CrPC",
+    "criminal procedure for family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:46:52.017574"
 }

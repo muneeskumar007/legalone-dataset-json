@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:11:34.767504",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "property_dispute": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Shalini Singh And 4 Others vs State Of U.P. And 2 Others on 21 April, 2020",
+  "case_name": "Smt. Shalini Singh And 4 Others vs State Of U.P. And 2 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shalini Singh, Kulveer Singh, Smt. Abha Singh, Raj Pal Singh and Nitin Kumar (husband's family)",
+    "respondent_defendant": "State Of U.P. And 2 Others (wife's side)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of petitioner no.5 with respondent no.3 was solemnized on 28.1.2013. Out of the said wedlock a male child was born. Impugned FIR has been lodged by respondent no.3 roping in the entire family of her husband containing absolutely false, concocted, vague and sweeping allegations against them.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person shall not be arrested in a case unless the police report under Section 173(2) Cr.P.C. is submitted before the competent court.",
+      "held": "After having examined the pleadings made in the writ petition, perusing the impugned First Information Report and considering the averments made in the writ petition, we are of the considered opinion that the petitioners shall not be arrested...",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 173(2)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "arrest",
+        "police report",
+        "competent court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden of proving the allegations lies on the person making them.",
+      "held": "Though the allegations have been levelled against all the petitioners but it appears to be an exaggerated one...",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "allegations"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving false accusations"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Stay of arrest of petitioners and quashing of impugned FIR dated 13.2.2020",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498A IPC",
+    "quashing FIR",
+    "stay of arrest",
+    "marriage nullity",
+    "cruelty",
+    "harassment",
+    "domestic violence",
+    "Section 3/4 D.P. Act",
+    "Indian Penal Code",
+    "IPC sections",
+    "Family Court",
+    "District Court",
+    "High Court",
+    "Supreme Court",
+    "matrimonial disputes",
+    "marital rights"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing FIR for domestic violence",
+    "seeking stay of arrest in matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:11:45.149940"
 }

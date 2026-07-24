@@ -7,7 +7,7 @@
   "total_pages": 38,
   "extracted_at": "2026-07-15T11:13:43.598225",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Virender Kumar Kharta, Additional Sessions Judge (FTC)-02, Central District, Tis Hazari Courts, Delhi",
   "reserved_on": "03.11.2025",
   "delivered_on": "15.11.2025",
-  "case_name": "State vs Sachin on 15 November, 2025",
+  "case_name": "State vs Sachin",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "State",
+    "respondent_defendant": "Sachin, s/o Sh. Ravi Shankar",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The case is about the murder of Suman by her husband Sachin. The prosecution alleges that Sachin subjected Suman to cruelty and harassment for dowry demands, leading to her unnatural death.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that the information received by him was not true.",
+      "held": "He denied the suggestion that no information was received or that he did not go to the spot or that no items as abovementioned were lying at the spot or the same was not taken in possession.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "accused",
+        "information"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "murder cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A postmortem report can be used as evidence to determine the cause of death.",
+      "held": "He opined about cause of death as 'carnio-cerebral damage consequent upon blunt force impact which was sufficient to cause death in ordinary course of nature'.",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "postmortem",
+        "cause of death"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "homicide cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Convicted",
+    "final_order": "Accused Sachin was convicted of the offences punishable under Sec. 498A/34 IPC, 304B IPC & 302 IPC.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "dowry death",
+    "cruelty",
+    "harassment",
+    "IPC",
+    "Sec. 302",
+    "Sec. 304B",
+    "Sec. 498A",
+    "34 IPC",
+    "Sessions case",
+    "FIR No. 173/2019",
+    "Roop Nagar PS",
+    "Suman",
+    "Sachin",
+    "marriage",
+    "unlawful demand of dowry",
+    "unnatural circumstances",
+    "common intention"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a murder case",
+    "drafting a dowry death case",
+    "drafting a cruelty and harassment case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:40:36.040646"
 }

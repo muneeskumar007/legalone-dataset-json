@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:12:40.091610",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -23,13 +23,13 @@
     "Mr. M.S. Ramachandra Rao J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Udaipur, Gomati Tripura, Case No. Title Suit (RCR) 42 of 2022",
   "reserved_on": "18.06.2026",
   "delivered_on": "29.06.2026",
-  "case_name": "Sri Debajuti Kar vs Smt. Depika Dey (Kar) on 29 June, 2026",
+  "case_name": "Sri Debajuti Kar vs Smt. Depika Dey (Kar)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Debajuti Kar, husband",
+    "respondent_defendant": "Smt. Depika Dey (Kar), wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife who got married under the Hindu Marriage Act, 1955. The wife deserted her husband's company after few years of marriage. The husband filed a petition for restitution of conjugal rights against the wife. The trial court dismissed the petition. This appeal is preferred challenging the judgment and decree passed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking restitution of conjugal rights to prove that the other spouse has been unreasonable in their conduct.",
+      "held": "Learned Counsel for the appellant-husband again submitted that the Learned Trial Judge, without considering the evidence on record, simply on the basis of the acquittal of the appellant-husband in the criminal case, and stating that the withdrawal of the respondent-wife from the society of the appellant-husband cannot be termed entirely unreasonable, dismissed the petition for restitution of conjugal rights.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "conjugal rights",
+        "unreasonable conduct",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court must consider the evidence on record before dismissing a petition for restitution of conjugal rights.",
+      "held": "Counsel for the appellant-husband that before the Learned Trial Court, the appellant-husband adduced oral evidence of 4(four) numbers of witnesses and the respondent-wife adduced 2(two) numbers of witnesses, but the Learned Trial Judge did not consider the evidence on record of the appellant-husband and dismissed the petition for which the interference of this Court is required.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "consideration",
+        "dismissal"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order of this Court is to set aside the impugned judgment and decree passed by the trial court and allow the appeal. The parties are directed to settle their disputes amicably.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "matrimonial",
+    "Family Courts' Act",
+    "Section 19(1)",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 28",
+    "restoration of conjugal rights",
+    "alimony",
+    "maintenance",
+    "custody",
+    "child",
+    "parenting",
+    "marriage",
+    "separation",
+    "judgment",
+    "decree",
+    "Family Court",
+    "Udaipur",
+    "Gomati Tripura"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "assisting with child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:54:17.159372"
 }

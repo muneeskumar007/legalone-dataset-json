@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:17:17.549799",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 3,
@@ -27,13 +27,13 @@
     "I.A.No.540 of\n2003",
     "O.P.No.766 of\n2003"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Family Court at Hyderabad, F.C.A.NO.65 of 2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Varada Siva Rama Krishna vs P/.Archana Atchamamba on 11 August, 2022",
+  "case_name": "Varada Siva Rama Krishna vs P/.Archana Atchamamba",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Varada Siva Rama Krishna (husband)",
+    "respondent_defendant": "P/.Archana Atchamamba (divorced wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The divorced wife filed O.P.No.757 of 2005 seeking maintenance and permanent alimony. The trial court partly allowed the petition by granting an amount towards maintenance. The present appeal is against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party claiming maintenance to establish changed circumstances.",
+      "held": "Basing on the above pleadings, the trial court framed the following issues for trial:",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "changed circumstances"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A settlement between parties can be a full and final settlement for future maintenance.",
+      "held": "He further submitted that he is not drawing an amount of Rs.10,000/- per month and that his old aged mother is living with him in a rented house, and that he is working in a private firm, and it is very difficult to meet the day-to-day expenditure.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "future maintenance"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The monthly maintenance was directed to be paid on or before 10th of every month.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "alimony",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 25",
+    "Family Courts Act",
+    "1984",
+    "Section 7",
+    "permanent alimony",
+    "monthly maintenance",
+    "additional family court",
+    "Hyderabad",
+    "family law",
+    "marriage dissolution",
+    "spousal support",
+    "property settlement",
+    "matrimonial disputes",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal maintenance",
+    "representing clients in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:26:51.855667"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:13:00.161207",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -32,10 +32,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Shivalingaiah vs Smt K Bhuwaneshwari on 31 October, 2023",
+  "case_name": "Sri Shivalingaiah vs Smt K Bhuwaneshwari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SRI SHIVALINGAIAH (husband)",
+    "respondent_defendant": "SMT. K. BHUWANESHWARI (wife), SMT. SAVITHA, SMT. RAJESHWARI, SRI HARISH",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife who got married in 1993. The wife filed a private complaint against the husband and others alleging offences punishable under Sections 420, 494 and 506 of IPC. The trial court acquitted all accused, but the Sessions Court convicted the husband for the same offences.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to set aside a compromise to demonstrate that it was not voluntary.",
+      "held": "In view of the above, we thus sum-up and hold that as opposed to Section 320 Cr.P.C. where the Court is squarely guided by the compromise between the parties in respect of offences 'compoundable' within the statutory framework,",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C."
+      ],
+      "cited_cases": [
+        "Ramgopal and another V/s. State of Madhya Pradesh, (2022) Crl. Law Journal 2801"
+      ],
+      "keywords": [
+        "compromise",
+        "voluntary",
+        "burden"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A High Court can modify a judgment and decree to reflect the terms of a compromise between parties.",
+      "held": "In view of the aforesaid compromise arrived at between the parties, the judgment and decree dated 28.10.2017 passed by the Prl. Senior Civil Judge, Mandya in M.C.No.35/2005 is modified to the extent mentioned above.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "judgment",
+        "decree"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Specific Relief Act",
+    "CRL.A",
+    "CR.P.C",
+    "378",
+    "judgment",
+    "order",
+    "family court",
+    "marriage dissolution",
+    "spousal rights",
+    "property division",
+    "maintenance",
+    "custody",
+    "matrimonial disputes",
+    "Indian law",
+    "Karnataka High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on spousal rights and property division",
+    "representing clients in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:22:26.611839"
 }

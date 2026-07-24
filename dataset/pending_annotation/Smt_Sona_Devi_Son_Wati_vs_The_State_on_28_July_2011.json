@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:11:51.276301",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 4,
     "partition": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Shri Sanjeev Kumar Singh: Administrative Civil Judge (Central) : Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sona Devi @ Son Wati vs The State on 28 July, 2011",
+  "case_name": "Smt. Sona Devi @ Son Wati vs The State",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sona Devi @ Son Wati, wife",
+    "respondent_defendant": "The State",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks succession certificate for debts and securities of deceased Prem Singh. Objector Kamlesh Kumari claims to be legally wedded wife, while petitioner is the only one claiming maintenance under Section 125 Cr.P.C.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the person claiming to be the legally wedded wife to prove her claim.",
+      "held": "He has stated that petitioner Smt. Sona Devi @ Sonwati is the legally wedded wife of the deceased Sh. Prem Singh and deceased Prem Singh never taken divorce from the petitioner as per his knowledge.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legally wedded",
+        "wife",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A compromise maintenance order passed by a court is binding on the parties.",
+      "held": "He has stated that petitioner filed a maintenance petition against Prem Singh in the year 1975 and thereafter the said matter was compromised and the Hon'ble Court passed a maintenance order on 21.10.1976",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "compromise",
+        "court order"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Succession certificate granted in favour of the petitioner.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Code of Criminal Procedure",
+    "divorce",
+    "succession certificate",
+    "deceased",
+    "Prem Singh",
+    "Smt. Sona Devi @ Son Wati",
+    "petition",
+    "notice",
+    "publication",
+    "newspaper",
+    "Hindustan",
+    "objector",
+    "Kamlesh Kumari",
+    "clubbed petition",
+    "main petition",
+    "debts",
+    "securities"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "guidelines for filing a succession certificate",
+    "practical tips for handling a clubbed petition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:32:12.544888"
 }

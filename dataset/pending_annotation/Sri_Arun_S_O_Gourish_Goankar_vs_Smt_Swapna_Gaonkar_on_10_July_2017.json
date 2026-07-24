@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:34.070297",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "M.C.No.5/2010",
     "sc.No.7/2013"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge, Kumta, Misc. Case No.7/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri. Arun S/O. Gourish Goankar, vs Smt. Swapna Gaonkar, on 10 July, 2017",
+  "case_name": "Sri. Arun S/O. Gourish Goankar vs Smt. Swapna Gaonkar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri. Arun S/O. Gourish Goankar (husband, father)",
+    "respondent_defendant": "Smt. Swapna Gaonkar (wife), Kumari.Shreya D/O Arun Gaonkar (minor child)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties had a marital dispute and initiated proceedings under Section 13(B) of the Hindu Marriage Act. The trial court accepted their joint petition for dissolution of marriage and allowed respondent No.1 to retain custody of the minor child. The appellant sought modification of the order regarding maintenance payment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking modification of an earlier order to demonstrate a change in circumstances.",
+      "held": "The Court below after taking note of the evidence, which was tendered by the appellant herein as PW.1 and the documents relied on at Exs.P.1 to P.12 and also the oral evidence of respondent No.1 as RW.1 has arrived at a conclusion that, there is no change in circumstances so as to call for modification of the order.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "modification",
+        "change in circumstances"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's agreement to a maintenance order does not necessarily mean they cannot seek modification of that order later.",
+      "held": "The contention that is put forth is that though the parties had agreed in terms of Section 13(B) of the Hindu Marriage Act, the Court below had ultimately included the maintenance in the order portion.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "agreement",
+        "modification"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal was dismissed, and the trial court's judgment and decree were upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 25",
+    "Section 28",
+    "maintenance",
+    "alimony",
+    "custody",
+    "minor",
+    "guardian",
+    "matrimonial dispute",
+    "marriage",
+    "separation",
+    "annulment",
+    "nullity",
+    "judgment",
+    "decree",
+    "appeal",
+    "family court",
+    "high court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance and alimony",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:48:16.300264"
 }

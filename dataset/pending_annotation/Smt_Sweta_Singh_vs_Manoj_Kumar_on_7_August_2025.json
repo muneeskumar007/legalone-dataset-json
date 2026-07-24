@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:03.433840",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Hathras, Case No.626 of 2021",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sweta Singh vs Manoj Kumar on 7 August, 2025",
+  "case_name": "Smt. Sweta Singh vs Manoj Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sweta Singh, wife",
+    "respondent_defendant": "Manoj Kumar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicant is the wife and opposite party is the husband. Proceeding under Section 13 of Hindu Marriage Act has been initiated at the instance of the opposite party/husband in the Family Court, Hathras.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish a prima facie case for transfer of proceedings.",
+      "held": "I have considered the argument advanced by learned counsel for the parties and perused the records.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "proceedings",
+        "burden",
+        "prima facie"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may transfer proceedings under Section 13 of the Hindu Marriage Act if it is difficult for a party to attend court proceedings due to distance.",
+      "held": "There is no dispute about the fact that the proceeding under Section 13 of Hindu Marriage Act is pending before Family Court, Hathras.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "transfer",
+        "proceedings",
+        "distance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The proceeding under Section 13 of Hindu Marriage Act was transferred from the Court of Principal Judge, Family Court, Hathras to Principle Judge, Family Court, Moradabad.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "transfer application",
+    "Family Court",
+    "Moradabad",
+    "Hathras",
+    "prayer",
+    "stay",
+    "proceeding",
+    "applicant",
+    "opposite party",
+    "wife",
+    "husband",
+    "Latin maxim: Nemo judex in causa sua",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting transfer application",
+    "advising on divorce proceedings",
+    "assisting with family court matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:52:41.259781"
 }

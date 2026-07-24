@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:11:49.781349",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 3,
     "partition": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Sohani vs Shambhu Lal on 12 May, 2022",
+  "case_name": "Smt.Sohani vs Shambhu Lal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt.Sohani — wife",
+    "respondent_defendant": "Shambhu Lal — husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner, Smt.Sohani, has preferred a revision petition for the relief of setting aside an order dismissing her application under Section 125 Cr. P.C. and awarding maintenance to her.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,100 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Magistrate is prima facie satisfied with regard to the performance of marriage in proceedings under S.125, Cr.P.C.",
+      "held": "From the evidence which is led if the Magistrate is prima facie satisfied with regard to the performance of marriage in proceedings under S.125, Cr.P.C. which are of summary nature strict proof of performance of essential rites is not required.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 125"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "S.Sethurathinam Pillai vs. Barbara alias Dolly Sethurathinam, (1971) 3 SCC 923"
+      ],
       "keywords": [
-        "TODO"
+        "summary proceedings",
+        "prima facie satisfied"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases under S.125, Cr.P.C."
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Maintenance under section 488 (similar to Section 125, Cr.P.C.) cannot be denied where there was some evidence on which conclusion for grant of maintenance could be reached.",
+      "held": "It was held that order passed under Section 488 is a summary order which does not finally determine the rights and obligations of the parties;",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 488"
+      ],
+      "cited_cases": [
+        "S.Sethurathinam Pillai vs. Barbara alias Dolly Sethurathinam, (1971) 3 SCC 923"
+      ],
+      "keywords": [
+        "summary order",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases under S.125, Cr.P.C."
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The term 'wife' occurring in Section 125, Cr.P.C. is to be given a very wide interpretation.",
+      "held": "This is so stated in the following manner: A broad and expansive interpretation should be given to the term 'wife' to include even those cases where a man and woman have been living together as husband and wife for reasonably long period of time,",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 125"
+      ],
+      "cited_cases": [
+        "Chanmuniya vs. Virendra Kumar Singh Kushwaha & Anr."
+      ],
+      "keywords": [
+        "wide interpretation",
+        "living together"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases under S.125, Cr.P.C."
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Protection of Women from DV Act",
+    "Section 125 Cr. P.C.",
+    "CRLR-814/2013",
+    "S.B. Criminal Revision Petition",
+    "High Court of Judicature for Rajasthan at Jodhpur",
+    "Dr. Justice Pushpendra Singh Bhati",
+    "Order",
+    "Revision Petition",
+    "Petitioner",
+    "Respondent",
+    "Ms. Yogita Mohanani",
+    "None present"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "responding to a revision petition in a divorce case",
+    "seeking maintenance under Section 125 Cr. P.C."
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:30:36.662592"
 }

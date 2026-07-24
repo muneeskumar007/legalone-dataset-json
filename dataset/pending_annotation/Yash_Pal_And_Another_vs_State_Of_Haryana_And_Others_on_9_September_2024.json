@@ -7,7 +7,7 @@
   "total_pages": 36,
   "extracted_at": "2026-07-15T11:18:21.782600",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "16.09.2019",
-  "case_name": "Yash Pal And Another vs State Of Haryana And Others on 9 September, 2024",
+  "case_name": "Yash Pal And Another vs State Of Haryana And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Yash Pal and another (husband, wife, plaintiff)",
+    "respondent_defendant": "State of Haryana and others (wife's family, defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -80,7 +80,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners seek direction to protect their life and liberty. Petitioner No. 1 is already married but wants to marry petitioner No. 2 after obtaining divorce.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -90,39 +90,109 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Privacy is a facilitative tool to achieve dignity and freedom.",
+      "held": "The ability of the individual to protect a zone of privacy enables the realization of the full value of life and liberty.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "dignity",
+        "freedom",
+        "privacy"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The destruction by the state of a sanctified personal space is violative of the guarantee against arbitrary state action.",
+      "held": "The destruction by the state of a sanctified personal space whether of the body or of the mind is violative of the guarantee against arbitrary state action.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "personal space",
+        "arbitrary state action"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil liberties",
+        "human rights"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The autonomy of the individual is the ability to make decisions on vital matters of concern to life.",
+      "held": "Autonomy of the individual is the ability to make decisions on vital matters of concern to life.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "autonomy",
+        "individual"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law",
+        "personal law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The guarantee of equality is a guarantee against arbitrary state action.",
+      "held": "It prevents the state from discriminating between individuals.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "equality",
+        "arbitrary state action"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil liberties",
+        "human rights"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Common verdict made on both petitions and LPA.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "custody",
+    "maintenance",
+    "alimony",
+    "separation",
+    "matrimonial dispute",
+    "family law",
+    "Indian Penal Code",
+    "Hindu Minority and Guardianship Act",
+    "Punjab and Haryana High Court",
+    "Chandigarh",
+    "judicial separation",
+    "irretrievable breakdown",
+    "no fault divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for judicial separation",
+    "advising on maintenance and alimony",
+    "assisting in a matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:34:20.520020"
 }

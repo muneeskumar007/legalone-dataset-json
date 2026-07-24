@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T11:18:00.778297",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "partition": 7,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vitthal Shriram Aghav And Others vs Rakhamabai Shriram Aghav And Another on 10 June, 2022",
+  "case_name": "Vitthal Shriram Aghav And Others vs Rakhamabai Shriram Aghav And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vitthal Shriram Aghav, Subhadrabai Shriram Aghav, Ramesh Shriram Aghav, Nandkishor Vitthal Aghav, Yogesh Vitthal Aghav, Ratnamala D/o Vitthal Aghav, Rekha D/o Vitthal Aghav, Indubai W/o Shriram Aghav, Dnyaneshwar Sonaji Jadhav, Mahadu Mannu Shingane, Kaduji Bhikaji Jadhav",
+    "respondent_defendant": "Rakhamabai Shriram Aghav, Ushabai Pandharinath Nagare",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Deceased Shriram Chandrabhan Aghav married to Rakhamabai Shriram Aghav - Plaintiff No.1 and Subhadrabai Shriram Aghav - Defendant No.2. He was having issues out of these marriages.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A judgment by a Subordinate Judge or a District Judge in exercise of the jurisdiction conferred upon them by the Hindu Marriage Act would surely fall within the purview of Sec. 41 of the Indian Evidence Act.",
+      "held": "Any decision given in the exercise of matrimonial jurisdiction would be conclusive not only against the parties to the proceeding but against the whole world.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section X",
+        "Indian Evidence Act, 1872 — Section 41"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Bhagwan Dayal v. Reoti Devi, (1962) SC 287"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial jurisdiction",
+        "judgment in rem"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance suits"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — applies to all matrimonial jurisdiction cases",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A judgment by a Court exercising matrimonial jurisdiction would operate as judgments in rem.",
+      "held": "Such judgments would operate as judgments in rem.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955",
+        "Indian Evidence Act, 1872 — Section 41"
+      ],
+      "cited_cases": [
+        "Bhagwan Dayal v. Reoti Devi, (1962) SC 287"
+      ],
+      "keywords": [
+        "matrimonial jurisdiction",
+        "judgments in rem"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "maintenance suits"
+      ],
+      "significance": "HIGH — applies to all matrimonial jurisdiction cases",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
     "result": "The appeal is partly allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "Section 24",
+    "Section 25",
+    "Section 26",
+    "Section 27",
+    "Section 28",
+    "Section 29",
+    "Section 30",
+    "Section 31",
+    "Section 32",
+    "Section 33",
+    "Section 34",
+    "Section 35",
+    "Section 36",
+    "Section 37",
+    "Section 38",
+    "Section 39",
+    "Section 40",
+    "Section 41",
+    "Section 42",
+    "Section 43",
+    "Section 44",
+    "Section 45"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "responding to Section 13 notice"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:23:54.459636"
 }

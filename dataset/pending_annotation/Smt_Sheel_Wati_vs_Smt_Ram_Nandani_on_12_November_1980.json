@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:11:43.214742",
   "domain": "partition",
-  "sub_domain": "divorce",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 4,
     "partition": 5,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sheel Wati vs Smt. Ram Nandani on 12 November, 1980",
+  "case_name": "Smt. Sheel Wati vs Smt. Ram Nandani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sheel Wati",
+    "respondent_defendant": "Smt. Ram Nandani",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between plaintiff and Suresh Chandra was solemnised in 1958, after the coming into force of the Hindu Marriage Act, 1955. The question is whether the marriage can be adjudged null and void on the ground that Suresh Chandra had a wife living at the time.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,99 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "If an affirmative statute which is introductive of a new law direct a thing to be done in a certain way, that thing shall not, even if there be no negative words, be done in any other way.",
+      "held": "The rule of interpretation is that",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 11",
+        "Hindu Marriage Act — Section 12"
+      ],
+      "cited_cases": [
+        "Craies on Statute Indian Kanoon - http://indiankanoon.org/doc/62424/"
+      ],
+      "keywords": [
+        "interpretation",
+        "statute",
+        "new law",
+        "direction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH — for understanding the scheme of the Act",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The nullity of a marriage in such circumstances as are prescribed by it is a creature of the Act.",
+      "held": "The truth is that the nullity of a marriage",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "nullity",
+        "marriage",
+        "Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — for understanding the nature of nullity",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The burden lies on either party to a marriage solemnised in contravention of the clauses (i), (iv) and (v) of Section 5 to have it declared a nullity.",
+      "held": "As already observed by me",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 11"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "marriage",
+        "Section 5"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM — for understanding the procedure and forum",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "nullity",
+    "monogamy",
+    "Section 11",
+    "Section 5(i)",
+    "marriage null and void",
+    "adjudged null and void",
+    "contravening rule of monogamy",
+    "solemnised in 1958",
+    "after coming into force of Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on Hindu Marriage Act implications",
+    "assisting with nullity petitions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:17:38.632494"
 }

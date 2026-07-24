@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:48.575883",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Shwetha T vs Sri Manjunath on 23 September, 2023",
+  "case_name": "Smt Shwetha T vs Sri Manjunath",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shwetha T, wife of respondent, assistant teacher",
+    "respondent_defendant": "Sri. Manjunath, husband of petitioner, assistant teacher",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent are teachers at Government Higher Primary School at Hosadurga Taluk. Respondent initiated M.C.No.288/2023 before the Family Court at Hubballi under Section 13(1)(ia) and (ib) of Hindu Marriage Act, 1955, for decree of dissolution of marriage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In a petition under Section 24 of CPC for transfer of proceedings, more particularly in matrimonial cases, the hardship or inconvenience that would be caused to the wife shall have to be looked into.",
+      "held": "Having heard the learned counsels for the parties and on perusal of petition papers, I am of the view that petition deserves to be allowed in the facts and circumstances of the case.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial cases",
+        "Section 24 CPC",
+        "hardship or inconvenience"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The hardship or inconvenience that would be caused to the wife shall have to be looked into.",
+      "held": "In a petition under Section 24 of CPC for transfer of proceedings, more particularly in matrimonial cases, the hardship or inconvenience that would be caused to the wife shall have to be looked into.",
+      "applicable_acts_sections": [
+        "CPC — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "hardship or inconvenience",
+        "matrimonial cases"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner's prayer to transfer M.C.No.288/2023 from Principal Family Court at Hubballi to the Court of Senior Civil Judge & JMFC, Hosadurga was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "transfer of case",
+    "Principal Family Court",
+    "Hubballi",
+    "Senior Judge",
+    "wife's petition",
+    "husband's response",
+    "alimony",
+    "maintenance",
+    "property division",
+    "custody",
+    "minor child",
+    "joint family",
+    "separation",
+    "irretrievable breakdown",
+    "marriage nullity"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act, 1955",
+    "responding to a petition for divorce",
+    "seeking transfer of case from Principal Family Court to Senior Judge"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:27:58.318449"
 }

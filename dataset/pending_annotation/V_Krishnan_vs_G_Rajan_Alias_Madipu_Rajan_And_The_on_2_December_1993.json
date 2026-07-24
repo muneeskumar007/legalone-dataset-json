@@ -7,7 +7,7 @@
   "total_pages": 26,
   "extracted_at": "2026-07-15T11:18:10.516288",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 4,
     "partition": 3,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "V. Krishnan vs G. Rajan Alias Madipu Rajan And The ... on 2 December, 1993",
+  "case_name": "V. Krishnan vs G. Rajan Alias Madipu Rajan And The ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "V. Krishnan (father)",
+    "respondent_defendant": "G. Rajan Alias Madipu Rajan (son-in-law) and the Superintendent, Government Kasthuri Bhai Gandhi Hospital, Triplicane Madras",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's daughter Sasikala was kidnapped by her son-in-law and taken to a hospital. Petitioner sought a writ of habeas corpus to produce Sasikala and set her at liberty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,97 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "Pregnancy complications among adolescents are similar to those for older women, provided they receive adequate care.",
+      "held": "The overall incidence of pregnancy complications among adolescents 16 years and younger is similar to that period for older women.'",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "E. Hopkins, 'Pregnancy Complications Not Higher in Teens, OB GYN News, Vol.15, No. 10, May 1980."
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "adolescent pregnancy",
+        "pregnancy complications"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Abortion to save the mother's life is a true 'therapeutic' abortion.",
+      "held": "If the mother's actual life were threatened, a conscientious doctor would try to save both. In the rare, rare case where such a decision is really needed, the problem would be that of balancing one human life against another",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "pp.87 and 88"
+      ],
+      "keywords": [
+        "abortion",
+        "therapeutic abortion"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "abortion cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Proper ante-natal care can avoid complications arising from teenage pregnancies.",
+      "held": "The complications which may arise due to teenage pregnancies can be avoided by proper ante-natal care, such as examining the pregnant girl at least once in a week in the third trimester",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "V. Krishnan vs G. Rajan Alias Madipu Rajan And The ... on 2 December, 1993"
+      ],
+      "keywords": [
+        "ante-natal care",
+        "teenage pregnancy"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The court directed the Superintendent, Government Kasthuri Bhai Gandhi Hospital, Triplicane Madras, to terminate the pregnancy of Sasikala.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "divorce",
+    "teenage pregnancy",
+    "writ of Habeas Corpus",
+    "direction to terminate",
+    "pregnancy termination",
+    "minors' rights",
+    "parental consent",
+    "Thirukkural",
+    "Latin maxim",
+    "life in the womb",
+    "complications physically",
+    "physiologically",
+    "mentally",
+    "socially"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting for minors' rights cases",
+    "drafting for pregnancy termination cases",
+    "drafting for writ of Habeas Corpus cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:12:27.292546"
 }

@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:12:30.467618",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 3,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Pune (371 of 1989)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sou Ruta Sanjay Karkhanis vs Sanjay Surendra Karkhanis on 21 April, 1993",
+  "case_name": "Sou Ruta Sanjay Karkhanis vs Sanjay Surendra Karkhanis",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife",
+    "respondent_defendant": "husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife challenged the decree passed by the Family Court granting judicial separation in favour of the husband. The parties got married in 1985 and had a male issue in 1987. The wife left her parents' place after police intervention.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,142 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Desertion requires two essential conditions: factum of separation and intention to bring cohabitation permanently to an end.",
+      "held": "For the offence of desertion, so far as the deserting spouse is concerned, two essential conditions must be there, namely, (1) the factum of separation, and (2) the intention to bring cohabitation permanently to an end (animus deserendi).",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [
+        "Bipinchandra Jaisinghbai Shah v Prabhavati"
+      ],
+      "keywords": [
+        "desertion",
+        "intention",
+        "separation"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Desertion comes to an end if the deserted spouse affirms the marriage and is ready and willing to resume married life.",
+      "held": "Hence, it is necessary that during all the period that there has been a desertion, the deserted spouse must affirm the marriage and be ready and willing to resume married life on such conditions as may be reasonable.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [
+        "Bipinchandra Jaisinghbai Shah v Prabhavati"
+      ],
+      "keywords": [
+        "desertion",
+        "affirmation",
+        "resumption"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party claiming divorce on the ground of desertion must prove that it was ready to cohabit throughout the said period.",
+      "held": "Section 13(1)(ib) of the Hindu Marriage Act requires that a party claiming divorce on the ground of desertion should prove that it was ready to cohabit throughout the said period of 2 years prior to the filing of the petition.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "cohabitation",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the party claiming divorce to prove that it was ready to cohabit throughout the said period.",
+      "held": "",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "cohabitation",
+        "petition"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The law relating to desertion is well settled by the Apex Court.",
+      "held": "",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Bipinchandra Jaisinghbai Shah v Prabhavati"
+      ],
+      "keywords": [
+        "desertion",
+        "Apex Court"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_005",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order granted decree for judicial separation in favour of the husband.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "judicial separation",
+    "Hindu Marriage Act",
+    "Section 13-A",
+    "desertion",
+    "ill-treatment",
+    "co-habitation",
+    "matrimonial house",
+    "family court",
+    "Pune",
+    "Advocate",
+    "notice",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on judicial separation",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:41:38.194563"
 }

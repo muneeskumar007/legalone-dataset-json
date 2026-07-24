@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:40.327760",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -26,13 +26,13 @@
     "R.P.NO.5007/2019",
     "SC.NO.124/2018"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Civil Judge and JMFC., Chamarajanagar in Crl.Misc.No.124/2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Dhandapani vs Smt Sudharani on 6 December, 2023",
+  "case_name": "Sri Dhandapani vs Smt Sudharani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SRI. DHANDAPANI, husband and father",
+    "respondent_defendant": "SMT. SUDHARANI, wife and mother; MR. RITHWID, son (minor)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is ex-husband of respondent No.1 and father of respondent No.2. Respondents initiated proceedings for maintenance under Section 125 of the Code of Criminal Procedure, 1973. Trial Court passed an interim order directing petitioner to pay Rs.3,000/- per month from 05.12.2018 till disposal of case.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A decree of dissolution of marriage passed without notice to the other party is not binding.",
+      "held": "The learned counsel for respondent No.1 contends that the decree of dissolution of marriage passed by the Sub-Court at Mettur was without notice to her and that the respondent No.1 has taken steps for setting aside that ex parte decree.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "decree",
+        "notice",
+        "marriage dissolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking maintenance under Section 125 of the Code of Criminal Procedure, 1973 must not have willfully deserted the other party without reasonable cause.",
+      "held": "He therefore, contends that the respondent No.1 is not entitled for any maintenance, as she had willfully deserted the petitioner without any reasonable cause.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "willful desertion",
+        "reasonable cause"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Order dated 07.01.2019 and 18.11.2019 passed by Trial Court and District Court, respectively, set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "CRL.P",
+    "Code of Criminal Procedure",
+    "1973",
+    "Section 482",
+    "quash",
+    "order",
+    "Additional District and Sessions Judge",
+    "Chamarajanagar",
+    "Kollegal",
+    "CRL.R.P",
+    "2019",
+    "family court",
+    "marriage",
+    "spouse",
+    "minor",
+    "guardian",
+    "natural guardian",
+    "High Court of Karnataka",
+    "Bengaluru"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing orders in family courts",
+    "appealing to the High Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:55:06.056806"
 }

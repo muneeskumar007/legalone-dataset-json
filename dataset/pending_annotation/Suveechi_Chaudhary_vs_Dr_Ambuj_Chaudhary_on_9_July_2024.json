@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:15:05.729556",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "partition": 1,
@@ -21,13 +21,13 @@
     "Hirdesh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "3rd Additional Principal Judge, Family Court, Indore (RCSM No.151/2021)",
   "reserved_on": "",
   "delivered_on": "12.02.2019",
-  "case_name": "Suveechi Chaudhary vs Dr. Ambuj Chaudhary on 9 July, 2024",
+  "case_name": "Suveechi Chaudhary vs Dr. Ambuj Chaudhary",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Suveechi Chaudhary, wife",
+    "respondent_defendant": "Dr. Ambuj Chaudhary and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent are husband and wife who got married in 1992. Respondent filed a divorce petition against the petitioner citing cruelty and adultery. Petitioner sought maintenance pendente lite and litigation expenses.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,102 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "At the time of deciding application u/s 24 of the Hindu Marriage Act, merit of the case is not seen.",
+      "held": "The only point for consideration at the time of deciding the interim maintenance application is whether petitioner/wife is having source of earnings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Jasbir Kaur Sehgal vs. District Judge, Dehradun and others - (1997) 7 SCC 7"
+      ],
       "keywords": [
-        "TODO"
+        "interim maintenance",
+        "source of earnings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Where wife is earning some income, it cannot operate as a bar from being awarded maintenance by the husband.",
+      "held": "The Courts have held that if the wife is earning, it cannot operate as a bar from being awarded maintenance by the husband.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [
+        "Rajesh vs. Neha and another -Criminal Appeal No.730 of 2020 (arising out of SLP (Cri.) No.9503 of 2018)"
+      ],
+      "keywords": [
+        "maintenance",
+        "earning income"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The amount of maintenance fixed for the wife should be such as she can live in reasonable comfort considering her status and the mode of life she was used to when she lived with her husband.",
+      "held": "At the same time the amount so fixed cannot be excessive or extortionate.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [
+        "Jasbir Kaur Sehgal vs. District Judge, Dehradun and others - (1997) 7 SCC 7"
+      ],
+      "keywords": [
+        "maintenance",
+        "reasonable comfort"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's order rejecting the application for maintenance pendente lite and litigation expenses was set aside, and the matter was remanded to the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "adultery",
+    "section 13-1(9i-a)",
+    "Article 227",
+    "Constitution of India",
+    "Family Court",
+    "Indian Kanoon",
+    "marriage dissolution",
+    "petition",
+    "respondent",
+    "petitioner",
+    "husband and wife",
+    "daughter",
+    "education",
+    "abroad",
+    "Latin maxim: Actio non procedit contra debitorem"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "representing client in Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:58:40.905549"
 }

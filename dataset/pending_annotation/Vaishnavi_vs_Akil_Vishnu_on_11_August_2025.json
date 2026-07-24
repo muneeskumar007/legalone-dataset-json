@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:17:09.703164",
   "domain": "divorce",
-  "sub_domain": "cheque_bounce",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "cheque_bounce": 1,
@@ -22,13 +22,13 @@
     "M.B. Snehaiatha J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Pala (Mat.A No.495 of 2024)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vaishnavi vs Akil Vishnu on 11 August, 2025",
+  "case_name": "Vaishnavi vs Akil Vishnu",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vaishnavi, wife",
+    "respondent_defendant": "Akil Vishnu, husband & others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife sought divorce under Section 13(1)(i)(ia) of Hindu Marriage Act, 1955; trial court declined relief; parties settled in mediation and filed petition for dissolution of marriage by mutual consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,95 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage between the spouses who are Hindus has been irretrievably broken down and there is no possibility of reunion.",
+      "held": "We are convinced that the marriage between the spouses who are Hindus has been irretrievably broken down and there is no possibility of reunion and divorce is the viable option and all the attempts of reunion have been failed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "irretrievable breakdown",
+        "no possibility of reunion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Consent to divorce must not be obtained through fraud or coercion.",
+      "held": "We are also convinced that the parties have voluntarily filed the petition under Section 138 of the Hindu Marriage Act and there is no collusion between the parties and this Court is satisfied that the consent was not obtained through fraud or coercion.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent",
+        "fraud",
+        "coercion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A court may waive the cooling-off period in a divorce by mutual consent if the marriage is irretrievably broken.",
+      "held": "We are of the view that this is a fit case to grant divorce by mutual consent on the application filed under Section 138 of the Hindu Marriage Act by waiving the cooling off period as the marriage is irretrievably broken.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cooling-off period",
+        "irretrievable breakdown"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Parties' settlement accepted; divorce granted by mutual consent under Section 138 of Hindu Marriage Act, 1955.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Negotiable Instruments Act",
+    "matrimonial appeal",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "joint family",
+    "separation",
+    "irretrievable breakdown",
+    "marriage dissolution",
+    "spousal rights",
+    "family law",
+    "Indian court judgments"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on alimony and maintenance",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:19:51.571233"
 }

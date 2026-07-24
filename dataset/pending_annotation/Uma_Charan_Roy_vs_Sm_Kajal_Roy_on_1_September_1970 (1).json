@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:16:55.279643",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Uma Charan Roy vs Sm. Kajal Roy on 1 September, 1970",
+  "case_name": "Uma Charan Roy vs Sm. Kajal Roy",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Uma Charan Roy, husband",
+    "respondent_defendant": "Sm. Kajal Roy, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant married Durga Bala Roy in 1947 and then Susama in 1959. He filed for divorce from Susama in 1963. Before the divorce was granted, he married Kajal in 1964. Kajal filed a suit claiming her marriage to the appellant was void as his marriage with Susama was continuing.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The term 'spouse' in Clause (a) of Section 4 would apply to a spouse married under the Hindu Marriage Act as well.",
+      "held": "We cannot read into this section something which is not there. Moreover, if we accept this interpretation it would lead to disastrous results.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Clause (a) of Section 4"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "spouse",
+        "marriage",
+        "Hindu Marriage Act",
+        "Special Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party to a marriage cannot re-marry within at least one year since the date of the decree of dissolution of marriage.",
+      "held": "It is clear from this section that at least for a year since the date of the decree of dissolution of marriage, a party to the marriage cannot re-marry, and if he or she remarries such a marriage shall be illegal.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 15"
+      ],
+      "cited_cases": [
+        "Mohanmurari v. Smt. Kusumkumari"
+      ],
+      "keywords": [
+        "dissolution of marriage",
+        "re-marriage",
+        "decree"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's decree of nullity of the marriage between the parties was upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13(1)(v)",
+    "nullity of marriage",
+    "divorce",
+    "venereal disease",
+    "communicable form",
+    "dissolution of marriage",
+    "matrimonial ventures",
+    "bigamy",
+    "marriage nullity",
+    "decree of divorce",
+    "Hindu law",
+    "marital status",
+    "family court",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for nullity of marriage",
+    "advising on bigamy and its consequences",
+    "assisting in a divorce case under Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:52:14.958909"
 }

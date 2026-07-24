@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:43.361429",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "M.C.No.11/2023",
     "sc.No.56/2023"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge and JMFC, Shikaripura (M.C.No.11/2023)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Shilpa @ Ashwini vs Sri. Manjappa S on 27 November, 2023",
+  "case_name": "Smt. Shilpa @ Ashwini vs Sri. Manjappa S",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shilpa @ Ashwini, wife",
+    "respondent_defendant": "Sri. Manjappa S, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner/wife filed a petition under Section 24 of CPC to transfer M.C.No.11/2023 from Senior Civil Judge and JMFC, Shikaripura to Family Court at Shivamogga.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In matrimonial cases, the Court shall have to take note of the inconvenience or hardship that would be caused to the wife.",
+      "held": "The Court shall have to take note of the inconvenience or hardship that would be caused to the wife along with social and economic factors.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial cases",
+        "inconvenience",
+        "hardship",
+        "wife"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Court shall consider the social and economic factors while deciding a petition for transfer of proceedings.",
+      "held": "The Court shall have to take note of the inconvenience or hardship that would be caused to the wife along with social and economic factors.",
+      "applicable_acts_sections": [
+        "CPC — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "social factors",
+        "economic factors",
+        "transfer of proceedings"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition was allowed and the case was transferred to Family Court at Shivamogga.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Protection of Women from DV Act",
+    "Section 24 CPC",
+    "transfer petition",
+    "family court",
+    "Shivamogga",
+    "Karnataka High Court",
+    "wife's rights",
+    "maintenance",
+    "custody",
+    "alimony",
+    "matrimonial disputes",
+    "domestic violence",
+    "DV Act",
+    "HMA",
+    "CPC",
+    "Section 125 CrPC"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition under Section 24 CPC",
+    "advising on maintenance and custody in a divorce case",
+    "assisting with DV Act claims"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:18:24.894946"
 }

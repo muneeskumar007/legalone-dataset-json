@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:17:37.577735",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 3,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vijaybhai Kalubhai Mandora vs Dakshaben W/O Vijaykumar Kalubhai ... on 9 December, 2021",
+  "case_name": "Vijaybhai Kalubhai Mandora vs Dakshaben W/O Vijaykumar Kalubhai",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vijaybhai Kalubhai Mandora (husband)",
+    "respondent_defendant": "Dakshaben W/O Vijaykumar Kalubhai Mandora and D/O Tribhovandas Pitambardas Padhiyar",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner sought to quash an order dated August 14, 2019. He claimed that the respondent gave mental and physical torture during their married life.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to set aside an order to show that the order is contrary to the facts and law.",
+      "held": "However, impugned order was passed which is contrary to the facts and law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "contrary to facts and law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to comply with an order may result in the issuance of an arrest warrant.",
+      "held": "The trial court was pleased to issue an arrest warrant instead of sending the petitioner in Civil prison as per the provision of Order 21 Rule 37 of CPC.",
+      "applicable_acts_sections": [
+        "CPC"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compliance",
+        "arrest warrant"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "enforcement cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned order was set aside in the interest of justice.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "Section 27",
+    "irretrievable breakdown",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "maintenance",
+    "alimony",
+    "matrimonial home",
+    "partition",
+    "joint family",
+    "family court",
+    "interim relief",
+    "stay",
+    "vacating stay"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "seeking interim relief in divorce case",
+    "obtaining stay order in divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:56:02.768060"
 }

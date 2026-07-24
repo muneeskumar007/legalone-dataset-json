@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:17:50.065903",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vinaya Nair vs Corporation Of Cochin on 27 February, 2006",
+  "case_name": "Vinaya Nair vs Corporation Of Cochin",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioners (husband and wife)",
+    "respondent_defendant": "Corporation Of Cochin",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners, a Hindu husband and wife, married in accordance with the Hindu Marriage Act. They submitted an application to register their marriage but it was refused on the ground that the husband has Canadian domicile. Petitioners sought a writ of mandamus.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Legislature would not envisage a situation where persons who are of Hindu religion, professes Hinduism, comes to a place where Hindu Marriage Act is applicable and solemnise their marriage, even then the marriage would not be treated as a valid marriage.",
+      "held": "The Legislature in our view would not envisage a situation where persons who are of Hindu religion, professes Hinduism, comes to a place where Hindu Marriage Act is applicable and solemnise their marriage, even then the marriage would not be treated as a valid marriage even if they satisfied all the conditions laid down in the Hindu Marriage Act and followed all the customs.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 1",
+        "Hindu Marriage Act — Section 2"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Organo Chemical Industries Ltd. v. Union of India, AIR 1979 SC 1803"
+      ],
       "keywords": [
-        "TODO"
+        "Hindu Marriage Act",
+        "domicile",
+        "marriage",
+        "religion",
+        "customs"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "marriage validity cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — to determine the applicability of Hindu Marriage Act",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Legislative intent should not be reduced to futility by a bare mechanical interpretation.",
+      "held": "The Apex Court held that a bare mechanical interpretation of the words and application of a legislative intent devoid of concept of purpose will reduce most of the remedial and beneficent legislation to futility.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 1"
+      ],
+      "cited_cases": [
+        "Organo Chemical Industries Ltd. v. Union of India, AIR 1979 SC 1803"
+      ],
+      "keywords": [
+        "legislative intent",
+        "interpretation",
+        "mechanical interpretation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "statutory interpretation cases",
+        "legislation validity cases"
+      ],
+      "significance": "MEDIUM — to emphasize the importance of considering legislative intent",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court held that the Hindu Marriage Act applies to a Hindu outside India if he is a Hindu domiciled in India, and not just those with permanent residence in India.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "marriage",
+    "Nair community",
+    "Canada",
+    "Kerala",
+    "Indian domicile",
+    "Canadian citizenship",
+    "Hindu religion",
+    "solemnized",
+    "Vinayaka Kalyana Mandapam",
+    "Ernakulam",
+    "Hindu Succession Act",
+    "1956",
+    "permanent residence",
+    "domicile by birth"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions for NRI couples",
+    "advising on Indian domicile and its implications",
+    "assisting with Hindu marriage law applications"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:04:35.244620"
 }

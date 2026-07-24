@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:16:31.829322",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3
   },
@@ -15,13 +15,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Balasore, Case No. 306 of 2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "TRP C  7 2020 on 24 February 2020",
+  "case_name": "TRP(C)/7/2020",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband",
+    "respondent_defendant": "wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-husband filed for transfer of CP case pending in Family Court, Balasore. Respondent-wife is serving at Kolkata and has filed application for dissolution of marriage with petitioner.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking transfer of a proceeding to establish that the court in seisin is not well connected with the place where the opposite party resides.",
+      "held": "Considering the submissions made and on going through the averments taken in the application, it is clear that the opposite party has failed to make out any case for transfer.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "burden",
+        "residence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A court's well connection with a place is not just physical proximity, but also includes connectivity by road and rail.",
+      "held": "Balasore is at a distance of around 25 kms from the place of her service; whereas the petitioner is residing in the district of Jajpur which is at a distance of around 110 kms from the place where the court in seisin of the proceeding which is sought to be transferred situates and that is well communicated with Balasore both by road as well as rail.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "well connection",
+        "physical proximity",
+        "connectivity"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "transfer cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Application stands dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "section 24",
+    "section 13",
+    "dissolution of marriage",
+    "transfer of case",
+    "Family Court",
+    "Balasore",
+    "Odisha",
+    "West Bengal",
+    "Kolkata",
+    "Jajpur",
+    "distance",
+    "jurisdiction",
+    "forum conveniens",
+    "Latin maxim: Forum Conveniens"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for transfer of case",
+    "advising on jurisdictional issues in family law cases",
+    "assisting with forum conveniens arguments"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:47:57.361457"
 }

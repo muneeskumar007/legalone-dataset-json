@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:13:44.238639",
   "domain": "maintenance",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "maintenance": 1,
     "murder_criminal": 1,
@@ -22,17 +22,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Subash vs State Of",
+  "case_name": "Subash Vasudevbhai Meghani & 2 vs State Of Gujarat & 1",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Subash Vasudevbhai Meghani, husband; 2 others (brief role not specified)",
+    "respondent_defendant": "State Of Gujarat, respondent",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife was married to him in 2000. Two children were born. Wife alleged harassment and torture due to dowry demand by petitioners. FIR registered under various IPC sections and Dowry Prohibition Act.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -42,39 +42,70 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Proceedings against accused should be dropped after the death of the complainant.",
+      "held": "After her death, the proceedings against all the accused should be dropped.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "dowry",
+        "proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Proceedings against accused should not be dropped due to the death of the complainant.",
+      "held": "The present petition is liable to be dismissed.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "dowry",
+        "proceedings"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Further proceedings stayed, FIR quashed",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "maintenance",
+    "alimony",
+    "Section 125 CrPC",
+    "Criminal Procedure Code",
+    "family law",
+    "domestic violence",
+    "wife's maintenance",
+    "husband's liability",
+    "joint family",
+    "separation",
+    "divorce",
+    "property settlement",
+    "matrimonial disputes",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting alimony petitions",
+    "advising on domestic violence cases",
+    "negotiating property settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:42:11.192340"
 }

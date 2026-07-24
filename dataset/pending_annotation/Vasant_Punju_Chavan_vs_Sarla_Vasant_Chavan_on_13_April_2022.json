@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:17:22.524048",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "16.03.2022",
   "delivered_on": "13.04.2022",
-  "case_name": "Vasant Punju Chavan vs Sarla Vasant Chavan on 13 April, 2022",
+  "case_name": "Vasant Punju Chavan vs Sarla Vasant Chavan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vasant Punju Chavan, husband, service as Teacher",
+    "respondent_defendant": "Sarla Vasant Chavan, wife, private job",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute between the same couple. Husband filed petition for divorce under Section 13 (1) (i-a) and 13 (1) (i-b) of Hindu Marriage Act, 1955. Trial court allowed his petition but district court quashed and set aside judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Merely initiating multiple proceedings is not sufficient to infer cruelty.",
+      "held": "If the law permitted her and gave right to enforce the rights by filing different proceedings, no inference was deducible on that basis.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Vasant Punju Chavan vs Sarla Vasant Chavan, (2022) X SCC Y"
+      ],
+      "keywords": [
+        "cruelty",
+        "multiple proceedings",
+        "inference"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's behavior during cohabitation is relevant in determining desertion.",
+      "held": "There was also evidence to demonstrate that while she was cohabiting with him her behavior was objectionable.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "behavior",
+        "cohabitation",
+        "desertion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "District court's judgment and order under challenge in Second Appeal was quashed and set aside, and husband's petition for divorce was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "maintenance",
+    "alimony",
+    "joint family",
+    "separation",
+    "matrimonial dispute",
+    "Section 13(1)(ia)",
+    "Section 27",
+    "Section 125",
+    "Cruelty",
+    "Adultery",
+    "Desertion",
+    "Reconciliation",
+    "Restitution of Conjugal Rights",
+    "Divorce by Mutual Consent"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "representing in joint family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:29:49.365166"
 }

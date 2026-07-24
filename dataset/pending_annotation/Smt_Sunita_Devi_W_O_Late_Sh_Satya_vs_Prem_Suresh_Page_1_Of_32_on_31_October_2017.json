@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T11:11:58.478761",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "motor_accidents",
   "domain_scores": {
     "divorce": 2,
     "cheque_bounce": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "MOTOR ACCIDENTS CLAIMS TRIBUNAL: NOTH WEST DISTRICT: ROHINI COURTS: DELHI",
   "reserved_on": "",
   "delivered_on": "05.05.2016",
-  "case_name": "Smt. Sunita Devi W/O Late Sh. Satya ... vs Prem Suresh Page 1 Of 32 on 31 October, 2017",
+  "case_name": "Smt. Sunita Devi W/O Late Sh. Satya ... vs Prem Suresh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sunita Devi W/o Late Sh. Satya Narayan Chaudhary, Master Abhishek Chaudhary, Ms. Neha, Ms. Preeti, Shri Ram Chander Chaudhary (father of deceased)",
+    "respondent_defendant": "Sh. Prem Suresh S/o Sh. Dayal Suresh, Sh. Shailender Chauhan, New India Assurance Company Ltd.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Accident occurred on 26.03.2007. Petitioners claim compensation for the same.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "When a witness is not cross-examined, their testimony shall be deemed to admit the same.",
+      "held": "Nothing has appeared in the cross-examination of PW1 and PW2 to discredit their above said testimonies. PW1 and PW2 were not cross-examined by R1 and R2 and hence, they shall be deemed to admit the above said testimony.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "witness",
+        "testimony",
+        "cross-examination"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In the absence of any evidence to discredit a witness's testimony, it shall be deemed reliable.",
+      "held": "Nothing has appeared in the cross-examination of PW1 and PW2 to discredit their above said testimonies.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "witness",
+        "testimony",
+        "credibility"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Award passed",
+    "final_order": "The Tribunal awarded compensation to the petitioners.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "matrimonial dispute",
+    "Section 13(1)(ia)",
+    "irretrievable breakdown",
+    "cruelty",
+    "mental cruelty",
+    "separation",
+    "joint family",
+    "maintenance",
+    "custody",
+    "minor children",
+    "natural guardian",
+    "property settlement",
+    "alimony",
+    "Section 125 CrPC",
+    "matrimonial relief"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "assisting in property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:42:13.859486"
 }

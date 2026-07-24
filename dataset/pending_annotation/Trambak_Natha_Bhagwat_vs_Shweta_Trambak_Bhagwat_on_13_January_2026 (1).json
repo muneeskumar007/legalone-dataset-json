@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:16:29.733789",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 1,
     "domestic_violence": 2
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Pune, in Petition No. A-914 of 2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Trambak Natha Bhagwat vs Shweta Trambak Bhagwat on 13 January, 2026",
+  "case_name": "Trambak Natha Bhagwat vs Shweta Trambak Bhagwat",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Trambak Natha Bhagwat (husband)",
+    "respondent_defendant": "Shweta Trambak Bhagwat (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petition is dismissed by the Family Court along with the counterclaim filed by the respondent, and hence the present Appeal is filed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the applicant to explain and justify any delay in filing an appeal.",
+      "held": "Apart from the ground that the Applicant's father was seriously ill, the Application also proceed to state that he was appointed on Election Duty by order dated 25.09.2024, and he was assigned the duty at Kothrud Constituency Pune, and this also added to the delay in filing of the Appeal.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "delay",
+        "appeal",
+        "justification"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "appeals",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will condone a delay in filing an appeal if the applicant provides a reasonable explanation for the delay.",
+      "held": "We have heard the learned counsel for the Applicant and perused the Application, which offered an explanation to the delay that is caused.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "delay",
+        "explanation",
+        "condonation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "appeals",
+        "family law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Interim Application No. 2048 of 2025 is made absolute in terms of prayer clause (a). The Family Court Appeal is directed to be listed for hearing on 13.02.2026.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "domestic_violence",
+    "Hindu Marriage Act",
+    "Section 12(1)(ia)",
+    "Section 12(1)(ib)",
+    "Family Court Act",
+    "Section 19",
+    "dissolution of marriage",
+    "marital dispute",
+    "petition for divorce",
+    "counterclaim",
+    "condonation of delay",
+    "family law",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "responding to a counterclaim",
+    "seeking condonation of delay in filing an appeal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:42:57.964214"
 }

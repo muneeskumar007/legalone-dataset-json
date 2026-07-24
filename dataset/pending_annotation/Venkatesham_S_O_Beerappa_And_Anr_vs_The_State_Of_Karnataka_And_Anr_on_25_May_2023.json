@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:17:34.156522",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Venkatesham S/O Beerappa And Anr vs The State Of Karnataka And Anr on 25 May, 2023",
+  "case_name": "Venkatesham S/O Beerappa And Anr vs The State Of Karnataka And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "VENKATESHAM S/O BEERAPPA AND ANR (husband, father-in-law)",
+    "respondent_defendant": "THE STATE OF KARNATAKA AND ANR (wife, complainant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners have been charge sheeted for the offences punishable under Sections 498A, 323, 504, 506 read with Section 34 of IPC. The defacto complainant is legally wedded wife of accused No.1, and accused No.2 is the father-in-law.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the complainant to prove specific allegations of abuse and cruelty.",
+      "held": "Perusal of FIR and the charge sheet material discloses that except omnibus and general allegation, there is no specific allegation as to how and in what manner each of the accused abused her in filthy language and meted out cruelty to the defacto complainant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "specific allegations",
+        "abuse",
+        "cruelty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A dispute arising out of marital discord can have a criminal texture with an ulterior motive to wreak vengeance.",
+      "held": "The dispute between the parties arises out of marital discord, however, given criminal texture with an ulterior motive to wreak vengeance against the petitioners-accused and with revengeful intent.",
+      "applicable_acts_sections": [
+        "Specific Relief Act, 1963"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marital discord",
+        "criminal texture",
+        "vengeance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petitioners' prayer to quash FIR and complaint dated 25.08.2022 registered against them in Crime No.35/2022 was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Specific Relief Act",
+    "CRL.P",
+    "CRIMINAL PETITION",
+    "FIR",
+    "COMPLAINT",
+    "QUASH FIR",
+    "CR.P.C",
+    "482",
+    "Karnataka High Court",
+    "Kalaburagi Bench",
+    "High Court of Karnataka",
+    "Kalaburagi Women Police Station",
+    "Household",
+    "Government Teacher",
+    "Agriculture",
+    "Kalaburagi District"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing FIR in Karnataka High Court",
+    "criminal law in India"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:41:21.685375"
 }

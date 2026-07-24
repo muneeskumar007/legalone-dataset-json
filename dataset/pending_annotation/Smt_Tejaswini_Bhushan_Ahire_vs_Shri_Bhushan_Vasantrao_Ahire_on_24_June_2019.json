@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:03.963179",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -18,13 +18,13 @@
   "case_numbers": [
     "M.P.No.140/2019"
   ],
-  "trial_court": "",
+  "trial_court": "Civil Judge, Senior Division Jalgaon - M.P.No.140/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Tejaswini Bhushan Ahire vs Shri. Bhushan Vasantrao Ahire on 24 June, 2019",
+  "case_name": "Smt. Tejaswini Bhushan Ahire vs Shri. Bhushan Vasantrao Ahire",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Tejaswini Bhushan Ahire (wife)",
+    "respondent_defendant": "Shri. Bhushan Vasantrao Ahire (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Wife filed an application under Section 24 of the Code of Civil Procedure, 1908 for transfer of divorce petition filed by husband to another court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In the interest of justice, a court may transfer a petition to another court.",
+      "held": "Hence, in the interest of justice, this Hon'ble Court be pleased to transfer the marriage petition from Jalgaon to Malshiras, Dist. Solapur.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "justice",
+        "transfer",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may permit service by hand delivery with the help of a bailiff.",
+      "held": "He submits that the Applicant may be permitted to serve the Respondent by hand delivery in the Jalgaon court with the help of Bailiff, if necessary.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "service",
+        "hand delivery",
+        "bailiff"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Notice issued to respondent for final disposal, returnable on 26.07.2019; liberty granted to serve respondent by hand delivery in the trial court with the help of Bailiff, if necessary.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "transfer of petition",
+    "section 24",
+    "section 13(1)(ia)(ib)",
+    "family court",
+    "civil judge",
+    "senior division",
+    "Malshiras",
+    "Solapur",
+    "Jalgaon",
+    "justice",
+    "interest of justice",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for transfer of divorce proceedings",
+    "advising on jurisdictional issues in family law cases",
+    "preparing an application under section 24 of the Code of Civil Procedure"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:56:29.101447"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:17:54.868743",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -19,13 +19,13 @@
     "Ashim Kumar Roy J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Metropolitan Magistrate, 4th Court, Calcutta",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vishal Rai Soni (Jain) & Ors vs The State Of West Bengal & Anr on 24 September, 2014",
+  "case_name": "Vishal Rai Soni (Jain) & Ors vs The State Of West Bengal & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vishal Rai Soni (Jain) & Ors",
+    "respondent_defendant": "The State of West Bengal & Anr",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute between complainant and petitioner No.1 resolved out of court; parties filed application under Section 13B of Hindu Marriage Act and suit decreed on August 12, 2014.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A compromise between the parties can lead to quashing of a charge sheet.",
+      "held": "The learned Counsel appearing on behalf of the State has also not raised any objection against the prayer of the petitioners for quashing of the charge sheet on the ground of compromise.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "quashing",
+        "charge sheet"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's willingness to withdraw a criminal case can be considered in quashing the charge sheet.",
+      "held": "The opposite party No.2/wife is not also desirous to proceed with the criminal case and if the charge sheet is quashed, she has no objection.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "willingness",
+        "withdrawal",
+        "quashing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Charge sheet quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "498A I.P.C.",
+    "Dowry Prohibition Act",
+    "matrimonial dispute",
+    "quashing of charge sheet",
+    "Sections 3 and 4",
+    "Sections 420/406/120B I.P.C.",
+    "Indian Kanoon",
+    "Amherst Street Police Station Case No.65/2010",
+    "G.R. Case No.657/2010",
+    "Metropolitan Magistrate",
+    "Calcutta",
+    "common friends",
+    "relations"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing charge sheets in matrimonial disputes",
+    "advising on Dowry Prohibition Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:17:18.670294"
 }

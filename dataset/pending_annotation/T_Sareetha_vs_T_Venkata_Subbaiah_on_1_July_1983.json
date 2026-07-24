@@ -7,7 +7,7 @@
   "total_pages": 21,
   "extracted_at": "2026-07-15T11:16:50.191799",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "T. Sareetha vs T. Venkata Subbaiah on 1 July, 1983",
+  "case_name": "T. Sareetha vs T. Venkata Subbaiah",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sareetha, film actress (wife)",
+    "respondent_defendant": "Venkata Subbaiah, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -58,7 +58,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Sareetha and Venkata Subbaiah were married in 1975. They separated soon after and have been living apart for five years. Venkata Subbaiah filed a petition under Section 9 of the Hindu Marriage Act for restitution of conjugal rights with Sareetha, which was opposed by her on jurisdictional grounds.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -68,39 +68,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The finding of fact by the lower Court cannot be disturbed by a revisional Court.",
+      "held": "The finding of the lower Court on such a question of fact cannot be disturbed by a revisional Court.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Harris v. Associated Portland Cement Manufacturers Ltd., (1939) AC 71"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "finding of fact",
+        "revisional Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the party to prove that a finding of fact is incorrect.",
+      "held": "She never argued this point before the Court below nor is that plea proved to its satisfaction.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Woods v. Durable Suites Ltd., (1953) 1 WLR 857"
+      ],
+      "keywords": [
+        "burden of proof",
+        "finding of fact"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's order overruling Sareetha's objection to the jurisdiction of the Cuddapah Sub-Court is set aside, and the matter is remanded back to the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 9",
+    "Restitution of conjugal rights",
+    "Divorce",
+    "Marriage",
+    "Separation",
+    "Jurisdiction",
+    "Cuddapah Court",
+    "Subordinate Judge",
+    "Film actress",
+    "South Indian screen",
+    "High school",
+    "Tirupathi",
+    "Madras",
+    "Latin maxim: Nemo judex in causa sua",
+    "Indian Penal Code"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "Drafting a petition for restitution of conjugal rights",
+    "Guidance on jurisdictional issues in family courts",
+    "Use case: filing a divorce petition as a film actress"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:11:17.360232"
 }

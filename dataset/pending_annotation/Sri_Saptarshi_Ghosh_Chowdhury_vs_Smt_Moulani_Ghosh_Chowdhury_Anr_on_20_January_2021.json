@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:12:59.865293",
   "domain": "domestic_violence",
-  "sub_domain": "divorce",
+  "sub_domain": "domestic_violence",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -23,13 +23,13 @@
     "Bibek Chaudhuri J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Learned Additional Sessions Judge, Fast Track, 2nd Court at Alipore in Criminal Appeal No. 109 of 2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Saptarshi Ghosh Chowdhury vs Smt Moulani Ghosh Chowdhury Anr on 20 January 2021",
+  "case_name": "Sri Saptarshi Ghosh Chowdhury v. Smt. Moulani Ghosh Chowdhury & Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Saptarshi Ghosh Chowdhury (husband)",
+    "respondent_defendant": "Smt. Moulani Ghosh Chowdhury (wife) & Anr.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed an application under Section 12 of the Protection of Women from Domestic Violence Act, 2005, alleging domestic violence by her husband. The trial court granted various reliefs, including monetary relief and rent for alternative accommodation. The husband appealed against the order, which was allowed in part.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The amount of maintenance fixed for the wife should be such as she can live in reasonable comfort considering her status and the mode of life she was used to when she lived with her husband.",
+      "held": "The Court has to consider the status of the parties, their respective needs, the capacity of the husband to pay having regard to his reasonable expenses for his own maintenance and of those he is obliged under the law and statutory but involuntary payments or deductions.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Jasbir Kaur Sehgal (Smt.) –Vs.- District Judge, Dehradun & Ors., (1997) 7 SCC 7"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "reasonable comfort",
+        "status of parties"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "An order of maintenance is conditional on the circumstance that the wife or husband who makes a claim has no independent income, sufficient for her or his support.",
+      "held": "It is not necessary to a claim of maintenance that the wife is educated and could support herself. The Court must take into consideration the status of the parties and the capacity of the spouse to pay for her or his support.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [
+        "Manish Jain –Vs.- Akanksha Jain, (2017) 15 SCC 801"
+      ],
+      "keywords": [
+        "maintenance",
+        "independent income",
+        "status of parties"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal filed by the present petitioner was dismissed on contest, and the appeal filed by the opposite party no. 1 was allowed, enhancing the monetary relief to Rs.20,000/- per mensem.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Protection of Women from Domestic Violence Act",
+    "Section 12",
+    "Section 23",
+    "Domestic Violence",
+    "Criminal Revisional Jurisdiction",
+    "Fast Track Court",
+    "Alipore",
+    "Additional Sessions Judge",
+    "Sessions Judge",
+    "Magistrate",
+    "Interim Relief",
+    "Affidavits",
+    "Latin Maxim",
+    "Marital Status",
+    "Legal Separation",
+    "Maintenance",
+    "Residence Order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting domestic violence cases",
+    "guidelines for interim relief",
+    "practical tips for criminal revisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:21:34.364524"
 }

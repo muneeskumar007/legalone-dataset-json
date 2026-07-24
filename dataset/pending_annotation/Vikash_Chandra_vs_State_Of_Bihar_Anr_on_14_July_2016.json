@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:17:46.648135",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -21,17 +21,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vikash Chandra vs State Of Bihar & Anr on 14 July, 2016",
+  "case_name": "Vikash Chandra vs State Of Bihar & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vikash Chandra, son of Sita Sharan Prasad, resident of Asha Sadan, Yamuna Path, Back of Punjab National Bank, New Bye Pass Road, Anisabad, P.S. - Beur, District - Patna",
+    "respondent_defendant": "The State of Bihar and Aparna Sinha, wife of Vikash Chandra, daughter of Kesho Prasad, resident of Adarsh Colony, West Patel Nagar, P.S.- Shastri Nagar, District- Patna",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Vikash Chandra seeks quashing of the order dated 7.6.2014 passed by the Judicial Magistrate, 1st Class, Patna, Distt. Patna, in Shastri Nagar P.S. Case No. 29 of 2013.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -41,39 +41,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to quash a criminal proceeding to demonstrate that the continuation of the same would cause irreparable harm.",
+      "held": "It is settled law that the court will not interfere with the process of law unless there are compelling reasons for doing so. The petitioners have failed to demonstrate any such compelling reason.",
       "applicable_acts_sections": [
-        "TODO"
+        "CrPC — Section 482"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "criminal proceeding",
+        "irreparable harm"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type: quashing of criminal proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A dispute resolved through payment can be considered as finally resolved.",
+      "held": "The dispute has now been finally resolved on payment of Rs.4,00,000/- by Demand Drafts No. 013835, 013714, 013836.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "dispute resolution",
+        "payment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type: dispute resolution"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The dispute has now been finally resolved on payment of Rs.4,00,000/- by Demand Drafts.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Section 125",
+    "Criminal Procedure Code",
+    "CrPC",
+    "Hindu Marriage Act",
+    "HMA",
+    "alimony",
+    "matrimonial dispute",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "joint family",
+    "family law",
+    "property settlement",
+    "custody",
+    "child support"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing maintenance application",
+    "composing reply to domestic violence complaint"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:57:29.085539"
 }

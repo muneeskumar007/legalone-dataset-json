@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:12:26.741842",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -24,8 +24,8 @@
   "delivered_on": "",
   "case_name": "Sondur Gopal vs Sondur Rajini on 15 July, 2013",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Appellant-husband, Sondur Gopal",
+    "respondent_defendant": "Respondent-wife, Sondur Rajini",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the appellant-husband and respondent-wife took place on 25th of June, 1989. They were blessed with two children. The couple moved to Mumbai in June, 1997, and then to Sydney, Australia.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The domicile of a person gets revived when they abandon the domicile of their choice.",
+      "held": "Therefore, keeping the case made out by the respondent in view and our findings in so far as acquisition of Australian domicile is concerned, it is clear that the domicile of India got revived immediately on his abandoning Swedish domicile.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Prem Singh v. Sm.Dulari Bai & Anr., AIR 1973 Cal. 425"
+      ],
+      "keywords": [
+        "domicile",
+        "abandoning",
+        "choice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases involving foreign domicile"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Hindu Marriage Act applies only to Hindus domiciled in India.",
+      "held": "He submits that the Act would apply only to Hindu domiciled in India.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 1"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Hindu Marriage Act",
+        "domicile",
+        "India"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases involving Hindu couples"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order is not specified in the provided judgment excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "irretrievable breakdown",
+    "marriage",
+    "matrimonial",
+    "cohabitation",
+    "separation",
+    "maintenance",
+    "alimony",
+    "property",
+    "assets",
+    "joint family",
+    "partition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:31:47.699384"
 }

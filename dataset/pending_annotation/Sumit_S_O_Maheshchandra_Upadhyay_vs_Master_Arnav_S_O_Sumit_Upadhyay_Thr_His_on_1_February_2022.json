@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:14:21.915408",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sumit S/O Maheshchandra Upadhyay vs Master Arnav S/O Sumit Upadhyay Thr. His ... on 1 February, 2022",
+  "case_name": "Sumit S/O Maheshchandra Upadhyay vs Master Arnav S/O Sumit Upadhyay Thr. His ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sumit S/O Maheshchandra Upadhyay (father)",
+    "respondent_defendant": "Master Arnav S/O Sumit Upadhyay (child)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Father and mother entered into consent terms under Section 13-B of the Hindu Marriage Act, 1955. Permanent alimony for the respondent child has been taken care off as a one-time settlement.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The consent terms filed before the learned Family Court and registered as Petition No.F-782 of 2021 shall be fructified by being converted into a decree of divorce by mutual consent.",
+      "held": "He further submits that the consent terms have been filed before the learned Family Court and have been registered as Petition No.F-782 of 2021 and after the expiry of the statutory period, shall be fructified, by being converted into decree of divorce by mutual consent",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent terms",
+        "decree of divorce",
+        "mutual consent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Proceedings under section 13-B of the Hindu Marriage Act, 1955 should be decided before disposing of other proceedings.",
+      "held": "Mr. Bhishikar, learned counsel for respondent does not dispute the above position and submits that the matter be kept in abeyance till such time the proceedings under section 13-B of the said act are being decided",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13-B"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "proceedings",
+        "section 13-B",
+        "abeyance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal kept in abeyance",
+    "final_order": "Proceedings to be disposed of in terms of the decree passed in Petition No. F-782 of 2021",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Section 13-B",
+    "consent terms",
+    "permanent alimony",
+    "one time settlement",
+    "Family Court",
+    "petition",
+    "decree",
+    "alimony",
+    "child custody",
+    "parental responsibility",
+    "settlement agreement",
+    "judicial separation",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting consent terms for divorce",
+    "negotiating alimony settlements",
+    "representing clients in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:13:14.455199"
 }

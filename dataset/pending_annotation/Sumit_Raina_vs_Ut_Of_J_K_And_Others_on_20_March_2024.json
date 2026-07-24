@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:14:21.522673",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sumit Raina vs Ut Of J&K And Others on 20 March, 2024",
+  "case_name": "Sumit Raina vs Ut Of J&K And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sumit Raina, husband",
+    "respondent_defendant": "Ut Of J&K and others, wife (Respondent No. 5) and Police Station, Women Cell, Jammu (Respondent No. 4)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute between petitioner and his wife regarding which proceedings under Section 13 of Hindu Marriage Act and Section 125 Cr. P.C. are pending before the Family Court, Jammu.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Negotiations between parties should not be stretched too far to give it a colour of harassment.",
+      "held": "It is not open to respondent No. 4 to stretch the negotiations between the petitioner and respondent No. 5 too far so as to give it a colour of harassment to any of the parties.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "negotiations",
+        "harassment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot unilaterally decide the fate of a marriage.",
+      "held": "At this stage there are hardly any chances of settlement between the petitioner and respondent No. 5, because the petitioner has already filed a petition under Section 13 of Hindu Marriage Act against his wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Respondent No. 4 not to harass petitioner by calling him unnecessarily to Police Station.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "matrimonial dispute",
+    "harassment",
+    "unnecessary calls",
+    "Police Station",
+    "Family Court",
+    "Section 125 Cr. P.C.",
+    "proceedings",
+    "petition",
+    "respondent",
+    "petitioner",
+    "wife",
+    "husband",
+    "marriage",
+    "separation",
+    "domestic violence",
+    "complaint",
+    "SHO",
+    "Women Cell"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on matrimonial disputes",
+    "representing clients in Family Court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:12:24.521335"
 }

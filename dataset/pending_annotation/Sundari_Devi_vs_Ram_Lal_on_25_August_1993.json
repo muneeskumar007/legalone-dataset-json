@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:14:22.060678",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Gurgaon",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sundari Devi vs Ram Lal on 25 August, 1993",
+  "case_name": "Sundari Devi vs Ram Lal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ram Lal, husband",
+    "respondent_defendant": "Sundari Devi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnised on April 13, 1976. The wife lived at Palwal with her parents and used to visit the husband only on week ends and during vacations. The husband filed a petition under Section 13 of the Hindu Marriage Act, 1955 seeking a decree of divorce on the ground that he suffered mental cruelty because of the callous attitude of the wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,28 +50,51 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse's wilful withdrawal from the society of the other without reasonable cause can be considered mental cruelty.",
+      "held": "Following the decision of the Full Bench in Kailash Wati v. Ayodhya Parkash (1977)79 P.L.R. 216 (F.B.), issue No. 1 was decided in favour of the husband and against the wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Kailash Wati v. Ayodhya Parkash (1977)79 P.L.R. 216 (F.B.)"
+      ],
+      "keywords": [
+        "mental cruelty",
+        "wilful withdrawal",
+        "reasonable cause"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A spouse's refusal to live in the matrimonial home without reasonable cause can be considered mental cruelty.",
+      "held": "After recording evidence of the parties, the Trial Court found that the appellant had wilfully withdrawn from the society of the husband which caused mental cruelty to him and that she denied the performance of the marital obligations which she was bound to perform while living in the matrimonial home.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial home",
+        "reasonable cause",
+        "mental cruelty"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "A decree for divorce was passed dissolving the marriage between the parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
     "TODO — add 15+ keywords after reading"
@@ -82,7 +105,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:14:55.286014"
 }

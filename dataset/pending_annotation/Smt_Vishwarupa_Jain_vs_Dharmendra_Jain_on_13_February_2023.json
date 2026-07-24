@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:16.959725",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Vishwarupa Jain vs Dharmendra Jain on 13 February, 2023",
+  "case_name": "Smt. Vishwarupa Jain vs Dharmendra Jain",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Vishwarupa Jain, wife",
+    "respondent_defendant": "Dharmendra Jain, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner's application under Order 7 Rule 11 read with Order 2 Rule 2 of CPC was dismissed by the trial court. The respondent had filed a petition for judicial separation and later for divorce without mentioning any cause of action.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for divorce under Section 13(1A) of the Hindu Marriage Act, 1955 is not maintainable if there is no cause of action.",
+      "held": "He further submits that during pendency of the first appeal before the High Court, respondent has filed a suit/petition on 24.09.2020 for divorce under section 13(1A) of the Hindu Marriage Act even without mentioning any cause of action, which cannot be said to have arisen prior to lapse of 7 years and as such the petition for divorce is not maintainable and deserves to be dismissed/rejected.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13(1A)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "cause of action",
+        "Section 13(1A)",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A decree for judicial separation under Section 10 of the Hindu Marriage Act, 1955 can be rescinded if it is considered just and reasonable to do so.",
+      "held": "Where a decree for judicial separation has been passed, it shall no longer be obligatory for the petitioner to cohabit with the respondent, but the court may, on the application by petition of either party and on being satisfied of the truth of the statements made in such petition, rescind the decree if it considers it just and reasonable to do so.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 10"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "judicial separation",
+        "Section 10",
+        "Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "separation cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition for divorce is not maintainable and deserves to be dismissed/rejected.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Order 7 Rule 11",
+    "Section 13(1)(iii)",
+    "irretrievable breakdown",
+    "marital harmony",
+    "separation",
+    "joint family",
+    "matrimonial dispute",
+    "conciliation",
+    "mediation",
+    "amicable settlement",
+    "mutual consent",
+    "counseling",
+    "family counseling"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "negotiating amicable settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:11:35.845519"
 }

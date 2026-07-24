@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:18:25.633630",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "Deepa Sharma J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, CS No.13/2010",
   "reserved_on": "18.07.2016",
   "delivered_on": "27.07.2016",
-  "case_name": "Yogita Dasgupta vs Kaustav Dasgupta on 27 July, 2016",
+  "case_name": "Yogita Dasgupta vs Kaustav Dasgupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Kaustav Dasgupta (husband, plaintiff)",
+    "respondent_defendant": "Yogita Dasgupta (wife, appellant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -71,7 +71,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties solemnized marriage in 1999, had two children. Suit property was purchased in 2006. Parties started living separately in 2010 and eventually got divorced by mutual consent in 2014. Husband claimed to be real owner of suit property.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -81,39 +81,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the husband to prove that property acquired in his wife's name was not for her benefit.",
+      "held": "The expression 'unless the contrary is proved' clearly places the onus of proving that this property was acquired not for the benefit of wife, upon the husband.",
       "applicable_acts_sections": [
-        "TODO"
+        "Benami Transactions Act — Section 3"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Nand Kishore Mehra (supra)"
+      ],
       "keywords": [
-        "TODO"
+        "burden",
+        "onus",
+        "benefit",
+        "wife",
+        "husband"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person permitted to purchase a property in the name of his wife or unmarried daughter cannot enforce their rights arising therefrom unless they prove that the transaction was not benami.",
+      "held": "There can be no valid reason to deny to a person, enforcement of his rights validly acquired even in the case by purchase of property in the name of his wife or unmarried daughter, but he has to make clear that when a suit is filed or defence is taken in respect of such benami transaction...",
+      "applicable_acts_sections": [
+        "Benami Transactions Act — Section 4"
+      ],
+      "cited_cases": [
+        "Nand Kishore Mehra (supra)"
+      ],
+      "keywords": [
+        "benami",
+        "rights",
+        "wife",
+        "unmarried daughter",
+        "transaction"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Suit decreed, husband declared as real and true owner of the suit property.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Indian Evidence Act",
+    "matrimonial dispute",
+    "separation",
+    "divorce",
+    "mutual consent",
+    "Section 13B",
+    "family court",
+    "permanent injunction",
+    "declaration",
+    "suit property",
+    "sale deed",
+    "ownership",
+    "marriage dissolution",
+    "cohabitation",
+    "separate living"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on property rights during separation",
+    "representing in a family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:39:06.190353"
 }

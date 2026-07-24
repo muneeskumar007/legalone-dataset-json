@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T11:16:28.007227",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -20,13 +20,13 @@
     "Anu Malhotra J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Delhi in HMA No. 801/06",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tina Gupta vs Vishal Gupta on 31 October, 2018",
+  "case_name": "Tina Gupta vs Vishal Gupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tina Gupta, Appellant",
+    "respondent_defendant": "Vishal Gupta, Respondent",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married and the respondent filed a divorce petition under Section 28 of the Hindu Marriage Act, 1955. The trial court granted the divorce by mutual consent. The petitioner appeals against this order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party's statement in court must be truthful and not a false plea to extort more money.",
+      "held": "It is clear from the record that there is no force, fraud, threat, pressure, coercion or undue influence exercised against petitioner No.1 and she is coming up with a false plea of the same in order to extort more money from petitioner No. 2.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "false plea",
+        "extortion",
+        "truthfulness"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to substantiate their averments with evidence can lead to the court drawing adverse inferences.",
+      "held": "She is simply enjoying the benefits of Rs.8 lacs which was given to her in cash at the time of recording of the statement in the first motion petition and-has not returned the same to petitioner number as is clear from the order sheet dated 23.07.2007.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "substantiation",
+        "adverse inferences"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the decree of divorce is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "mutual consent",
+    "Section 28",
+    "irretrievable breakdown",
+    "marriage dissolution",
+    "decree of divorce",
+    "Additional District Judge",
+    "Delhi High Court",
+    "family law",
+    "matrimonial disputes",
+    "judicial separation",
+    "custody",
+    "maintenance",
+    "alimony",
+    "property settlement",
+    "joint family",
+    "separation agreement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:38:31.196208"
 }

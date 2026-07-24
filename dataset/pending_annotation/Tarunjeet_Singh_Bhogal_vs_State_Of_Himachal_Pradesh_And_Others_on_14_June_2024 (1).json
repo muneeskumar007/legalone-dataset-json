@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-07-15T11:15:43.206890",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "03.05.2024",
-  "case_name": "Tarunjeet Singh Bhogal vs State Of Himachal Pradesh And Others on 14 June, 2024",
+  "case_name": "Tarunjeet Singh Bhogal vs State Of Himachal Pradesh And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tarunjeet Singh Bhogal, husband",
+    "respondent_defendant": "State Of Himachal Pradesh And Others, wife's family",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -82,7 +82,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of Tarunjeet Singh Bhogal was solemnized with late Jaspreet Kaur. After marriage, they lived together for some time but subsequently separated due to a dispute.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -92,39 +92,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The power to prevent abuse of process of court can be exercised even when the discharge application is pending with the trial court.",
+      "held": "It is settled principle of law that the High court can exercise jurisdiction under Section 482 of Cr.P.C even when the discharge application is pending with the trial court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973 — Section 482"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "G. Sagar Suri and Anr. V. State of U.P. and Others, (2000) 2 SCC 636",
+        "Umesh Kumar v. State of Andhra Pradesh and Anr. (2013) 10 SCC 591"
+      ],
       "keywords": [
-        "TODO"
+        "abuse of process",
+        "miscarriage of justice",
+        "Section 482 Cr.PC"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — to prevent abuse of process",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The inherent jurisdiction of the court can be exercised to give effect to an order under the Code, to prevent the abuse of the process of the court, and to otherwise secure the ends of justice.",
+      "held": "Under Section 482 the inherent jurisdiction of the court can be exercised (i) to give effect to an order under the CrPC; (ii) to prevent the abuse of the process of the court; and (iii) to otherwise secure the ends of justice.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973 — Section 482"
+      ],
+      "cited_cases": [
+        "Inder Mohan Goswami v State of Uttaranchal",
+        "Pramod Suryabhan Pawar v. The State of Maharashtra and Anr, (2019) 9 SCC 608"
+      ],
+      "keywords": [
+        "inherent jurisdiction",
+        "Section 482 CrPC",
+        "ends of justice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases",
+        "family law cases"
+      ],
+      "significance": "HIGH — to secure the ends of justice",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "protection of women from DV Act",
+    "specific relief act",
+    "code of criminal procedure",
+    "Indian penal code",
+    "domestic violence",
+    "DV",
+    "alimony",
+    "maintenance",
+    "custody",
+    "matrimonial dispute",
+    "family court",
+    "high court",
+    "Himachal Pradesh",
+    "judgment",
+    "decree",
+    "residence order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:19:30.632794"
 }

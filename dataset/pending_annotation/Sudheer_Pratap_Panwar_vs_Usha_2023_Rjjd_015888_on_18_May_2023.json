@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:13:56.856957",
   "domain": "divorce",
-  "sub_domain": "",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2
   },
@@ -17,13 +17,13 @@
     "Pushpendra Singh Bhati J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.2, Jodhpur in Civil Original Case No.771/2018 (234/2019) and Civil Original Case No.228/2019 (545/2018)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sudheer Pratap Panwar vs Usha (2023/Rjjd/015888) on 18 May, 2023",
+  "case_name": "Sudheer Pratap Panwar vs Usha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sudheer Pratap Panwar, husband",
+    "respondent_defendant": "Usha, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner preferred writ petitions against the order dated 05.10.2021 passed by learned Judge, Family Court No.2, Jodhpur in Civil Original Case No.771/2018 (234/2019) and Civil Original Case No.228/2019 (545/2018).",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to set aside an order under Order 7 Rule 11 CPC to establish that there has been a material change in circumstances.",
+      "held": "It is not the duty of the court to re-examine the evidence and re-assess the probabilities afresh. The burden lies on the party seeking to set aside an order under Order 7 Rule 11 CPC to establish that there has been a material change in circumstances.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Order 7 Rule 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "Order 7 Rule 11 CPC",
+        "material change",
+        "circumstances"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not re-examine the evidence and re-assess the probabilities afresh in an application under Order 7 Rule 11 CPC.",
+      "held": "It is not the duty of the court to re-examine the evidence and re-assess the probabilities afresh. The impugned order has been passed after considering the entire material on record and it is not open to this Court to re-examine the same.",
+      "applicable_acts_sections": [
+        "CPC — Order 7 Rule 11"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "re-examine",
+        "evidence",
+        "probabilities",
+        "Order 7 Rule 11 CPC"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The impugned order, treating the petitioner to be Scheduled Caste, while giving him liberty to move an application under Section 13 of the Hindu Marriage Act is sustained.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "mental cruelty",
+    "separation",
+    "joint family",
+    "matrimonial home",
+    "custody",
+    "maintenance",
+    "alimony",
+    "property settlement",
+    "equitable distribution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "negotiating property settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:52:44.106378"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:11:45.317031",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1
@@ -22,13 +22,13 @@
     "M.C.No.45/2022",
     "M.C.No.228/2020"
   ],
-  "trial_court": "",
+  "trial_court": "I Additional Family Court, Hubballi - M.C.No.45/2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Shilpa W/O Dr Sachinkumar Kanagali vs Dr Sachinkumar Basavaraj Kanagali on 13 February, 2023",
+  "case_name": "Smt Shilpa W/O Dr Sachinkumar Kanagali vs Dr Sachinkumar Basavaraj Kanagali",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Shilpa W/O Dr Sachinkumar Kanagali (wife)",
+    "respondent_defendant": "Dr Sachinkumar Basavaraj Kanagali (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2018. The husband informed the wife he was not interested in the marriage and she filed a petition under Section 9 of the Hindu Marriage Act. The husband then filed a petition for dissolution of marriage. The wife is seeking to transfer the case to another court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When two petitions are pending in different courts, the court may transfer one of them to another court for efficient disposal.",
+      "held": "Since both the matters are pending consideration within the jurisdiction where the wedding was conducted and where the petitioner/wife is residing, the only question that requires to be considered is whether the petition filed by the respondent/husband should be transferred to the Principal Judge, Family Court, Hubballi.",
       "applicable_acts_sections": [
-        "TODO"
+        "Civil Procedure Code — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "petition transfer",
+        "efficient disposal",
+        "different courts"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases with multiple petitions"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A petition filed as an afterthought to counter another petition may not be given priority.",
+      "held": "Petition in M.C.No.45/2022 filed by the respondent/husband is an after thought only to counter the petition filed by the petitioner/wife.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "afterthought",
+        "petition priority"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases where a party files a petition in response to another's"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition was allowed and the case was transferred to the Principal Judge, Family Court, Hubballi.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "CPC",
+    "1908",
+    "Family Court",
+    "Hubballi",
+    "Justice",
+    "Equity",
+    "Interest of Justice",
+    "Transfer Petition",
+    "MC No. 45/2022",
+    "Additional Family Court",
+    "Principal Judge",
+    "Husband",
+    "Wife",
+    "Marriage",
+    "Separation",
+    "Maintenance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on transfer of family court cases",
+    "assisting with maintenance proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:21:01.483193"
 }

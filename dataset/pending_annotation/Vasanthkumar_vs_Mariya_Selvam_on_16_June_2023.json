@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:17:21.434417",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -26,13 +26,13 @@
     "O.P.No.2 of\n 2012",
     "O.P.No.128 of 2015"
   ],
-  "trial_court": "",
+  "trial_court": "III Additional District Court, Tirunelveli - I.D.O.P.No.42 of 2019",
   "reserved_on": "09.01.2025",
   "delivered_on": "29.01.2025",
-  "case_name": "Vasanthkumar vs Mariya Selvam on 16 June, 2023",
+  "case_name": "Vasanthkumar vs Mariya Selvam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vasanthkumar (husband)",
+    "respondent_defendant": "Mariya Selvam (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2010 and had a child out of wedlock. The wife left the husband's home in 2010 and never returned. The husband filed for restitution of conjugal rights, which was later transferred to I Additional Sub Court, Madurai. The case was eventually decreed in favour of the husband. The wife failed to file her counter statement, leading to an ex parte decree.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party who fails to file a counter statement in time may be set ex parte.",
+      "held": "In spite of several opportunities, the respondent / wife failed to file her counter and therefore, she was set ex parte.",
       "applicable_acts_sections": [
-        "TODO"
+        "Civil Procedure Code, 1908 — Order IX, Rule 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "counter statement",
+        "ex parte decree"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's intention to harass the other party is not a valid reason for setting aside an ex parte decree.",
+      "held": "The act of the respondent / wife in filing the application for setting aside the ex parte decree is only with an intention to harass the petitioner herein.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "intention",
+        "harassment"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Civil Revision Petition is filed against the order passed in I.A.No.4 of 2023 in I.D.O.P.No.42 of 2019, dated 16.06.2023.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "domestic violence",
+    "abuse of process",
+    "Article 227",
+    "Constitution of India",
+    "Civil Revision Petition",
+    "I.D.O.P.No.42",
+    "2019",
+    "I.A.No.4",
+    "2023",
+    "III Additional District Court",
+    "Tirunelveli",
+    "Madurai",
+    "CSI Cathedral Church",
+    "Narimedu",
+    "marriage",
+    "wife",
+    "husband",
+    "residency",
+    "family court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on domestic violence cases",
+    "quashing proceedings in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:32:43.655293"
 }

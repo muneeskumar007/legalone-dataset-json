@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:17:04.437970",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Urmila Devi vs Babu Ram on 3 July, 2025",
+  "case_name": "Urmila Devi vs Babu Ram",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Urmila Devi, plaintiff",
+    "respondent_defendant": "Babu Ram, defendant",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized on 22.1.2012. Two children were born out of the wedlock. The respondent is a Muslim by religion. Petitioner seeks declaration that marriage is null and void with consequential prayer for permanent prohibitory injunction.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "At the preliminary stage, the Court is not called upon to record a finding about truth or otherwise of the allegations made in the plaint.",
+      "held": "The only question relevant for consideration at such a stage is whether on the basis of the averments made in the plaint and the prayers contained therein, the suit is a suit for annulment of marriage within the meaning of the Hindu Marriage Act or for a declaration under the Specific Relief Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 5",
+        "Specific Relief Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "preliminary stage",
+        "plaint",
+        "suit",
+        "annulment",
+        "declaration"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "nullity of marriage cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A plaint filed in the case at hand is not a petition under the Hindu Marriage Act and/or Special Marriage Act if it does not ask for annulment on grounds specified in Sections 11 and 12.",
+      "held": "From the aforementioned, it is evident that the plaint filed in the case at hand is not a petition under the Hindu Marriage Act and/or Special Marriage Act. On the face of the plaint, it really appears to be a suit for declaration as to the status of the parties.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Sections 11-12"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "plaint",
+        "petition",
+        "annulment",
+        "suit",
+        "declaration"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "nullity of marriage cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal rejected",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "null and void",
+    "permanent prohibitory injunction",
+    "Section 12",
+    "civil suit",
+    "declaration",
+    "marriage annulment",
+    "specific remedy",
+    "preliminary stage",
+    "trial Court",
+    "plaint",
+    "petitioner",
+    "respondent",
+    "wife",
+    "house",
+    "injunction",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on the maintainability of a civil suit",
+    "guiding clients on the specific remedies available under Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:05:07.014164"
 }

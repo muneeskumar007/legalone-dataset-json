@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:16:32.380501",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tr P C  66 2021 on 18 August 2022",
+  "case_name": "Gokul Sutradhar -Vs- Anima Sutradhar, Tr.P.(C)./66/2021",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smti. Anima Sutradhar, wife",
+    "respondent_defendant": "Sri Gokul Sutradhar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are married under Hindu rites and customs. The petitioner left her matrimonial house due to harassment by in-laws. She is seeking transfer of the divorce petition filed by the respondent from Goalpara to Barpeta.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "Courts should give more weight and consideration to the convenience of female litigants while deciding transfer applications.",
+      "held": "It is used to be a well established and settled legal position that while going into the merits of a transfer application, Courts are required to give more weight and consideration to the convenience of the female litigants",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Asma Parveen -Vs- Javed Bhati, (2018) 0 Supreme (Raj) 502"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "convenience",
+        "female litigants",
+        "transfer applications"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Courts should not put female litigants under undue hardships while deciding transfer applications.",
+      "held": "It is used to be a well established and settled legal position that Courts should desist from putting female litigants under undue hardships",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Asma Parveen -Vs- Javed Bhati, (2018) 0 Supreme (Raj) 502"
+      ],
+      "keywords": [
+        "undue hardships",
+        "female litigants",
+        "transfer applications"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Family Court, Barpeta, Assam, will hear the case.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "transfer petition",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Section 13",
+    "Section 24",
+    "family court",
+    "Assam",
+    "Nagaland",
+    "Mizoram",
+    "Arunachal Pradesh",
+    "Gauhati High Court",
+    "GAHC",
+    "Tr.P.(C)",
+    "civil procedure",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "petition transfer",
+    "judicial transfer"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "transferring a family court case to the High Court",
+    "handling a matrimonial dispute in Assam"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:42:13.492919"
 }

@@ -7,7 +7,7 @@
   "total_pages": 60,
   "extracted_at": "2026-07-15T11:14:12.479657",
   "domain": "partition",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Suleman & Others vs . Union Of India & Others A/W Connected ... on 9 May, 2024",
+  "case_name": "Suleman & Others vs . Union Of India & Others A/W Connected",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Suleman & others",
+    "respondent_defendant": "Union of India & others a/w connected",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -44,39 +44,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When a land transfer is not granted, appropriate action under the Panchayati Raj Act should be taken.",
+      "held": "These directions will equally apply to the Forest Department as land transfer cases in forest areas are being delayed unnecessarily.",
       "applicable_acts_sections": [
-        "TODO"
+        "Panchayati Raj Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "land transfer",
+        "Panchayati Raj Act",
+        "delayed"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Inert waste can be disposed of while building roads, backfilling in retaining walls or filling up of appropriate areas on hilly areas.",
+      "held": "The inert waste is permitted to be disposed of while building roads, backfilling in retaining walls or filling up of appropriate areas on hilly areas as per Swachh Bharat Mission Municipal Solid Waste Management Manual, MoHUA.",
+      "applicable_acts_sections": [
+        "Swachh Bharat Mission"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "inert waste",
+        "disposal",
+        "roads"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "waste management cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": null,
+    "final_order": "At the outset, we place on record our appreciation for the valuable assistance rendered by Shri Deven Khanna, Advocate.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Suleman",
+    "Union Of India",
+    "CWP No.2369 of 2018",
+    "CWPIL No.269 of 2017",
+    "Central Pollution Control Board",
+    "Advocate General",
+    "Senior Additional Advocate General",
+    "Additional Advocates General",
+    "Deputy Solicitor General of India",
+    "Senior Advocate",
+    "Latin maxim",
+    "partition act",
+    "land acquisition",
+    "property rights",
+    "judicial review",
+    "public interest litigation",
+    "environmental law",
+    "pollution control",
+    "judicial activism"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for partition of property",
+    "advising on environmental laws and regulations",
+    "assisting in public interest litigation cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:04:19.356990"
 }

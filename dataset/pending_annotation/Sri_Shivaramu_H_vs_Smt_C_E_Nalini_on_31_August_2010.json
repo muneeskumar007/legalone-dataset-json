@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:13:00.371035",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "partition": 2,
@@ -21,13 +21,13 @@
   "case_numbers": [
     "M.C.No. 3683/2007"
   ],
-  "trial_court": "",
+  "trial_court": "Sm Additional Family Court, Bangalore, M.C.No. 3683/2007",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Shivaramu H vs Smt C E Nalini on 31 August, 2010",
+  "case_name": "Sri Shivaramu H vs Smt C E Nalini",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Shivaramu H, husband",
+    "respondent_defendant": "Smt. c.e. Nalini, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married and lived together for some time before the husband lost his job. The wife initiated proceedings under Section 9 of the Hindu Marriage Act seeking restitution of conjugal rights. The husband filed a petition under Sections 7 and 25 of the Guardianship and Wards Act, 1890 seeking custody of their son.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the husband to prove that he is unable to pay maintenance.",
+      "held": "The learned counsel appearing for the respondent supports the impugned order. It is the fact that the husband is a qualified engineer and is earning Rs.30,000/-- per month.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "husband's income",
+        "ability to pay"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not interfere with the quantum of maintenance unless it is excessive.",
+      "held": "I am of view that a sum of Rs.15,000/-- per month to the Wife and son cannot be said to be excessive which would warrant interference by this court.",
+      "applicable_acts_sections": [
+        "Constitution — Articles 226 and 227"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "quantum",
+        "excessive"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petitioner is the husband.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "marriage nullity",
+    "voidable marriage",
+    "separation",
+    "matrimonial dispute",
+    "Section 13(1)(ia)",
+    "Section 13(2)",
+    "Section 10A",
+    "Article 226",
+    "Constitution of India",
+    "family court",
+    "additional family court",
+    "Bangalore",
+    "Mandya",
+    "Budanur"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:23:17.061329"
 }

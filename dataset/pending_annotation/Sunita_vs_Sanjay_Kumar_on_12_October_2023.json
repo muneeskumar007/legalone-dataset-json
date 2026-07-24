@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:14:32.537019",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -21,13 +21,13 @@
     "Neena Bansal Krishna J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, North, Rohini Courts, Delhi, Case No. [not mentioned]",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sunita vs Sanjay Kumar on 12 October, 2023",
+  "case_name": "Sunita vs Sanjay Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sunita (wife)",
+    "respondent_defendant": "Sanjay Kumar (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 2009. The wife had earlier gotten married to another man but was granted divorce in 2008. The husband filed a petition under Section 11 of the Hindu Marriage Act, 1955, declaring their marriage as null and void. The trial court allowed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Consent of parties cannot confer validity to a marriage held in violation of the condition specified in Section 5(i) of HMA, 1955.",
+      "held": "Once there is a legal bar to the performance of the second marriage, the consent of the parties cannot confer the validity to a marriage held in violation of the condition specified in Section 5(i) of HMA, 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5(i)",
+        "Hindu Marriage Act, 1955 — Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "Section 5(i) HMA",
+        "consent of parties"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "marriage annulment cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party cannot be allowed to take the benefit of its own wrong.",
+      "held": "It is provided under Section 23 of HMA, 1955 that a party cannot be allowed to take the benefit of its own wrong",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 23"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "benefit of own wrong",
+        "Section 23 HMA"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "marriage annulment cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The delay in filing the appeal was condoned, and the appeal was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "family courts",
+    "limitation act",
+    "condonation of delay",
+    "section 5 limitation act",
+    "section 19 family courts act",
+    "hindu marriage act",
+    "petition under section 11 hma",
+    "judgment and decree",
+    "family court rohini",
+    "delhi high court",
+    "matrimonial disputes",
+    "appeal against judgment",
+    "condonation of delay in filing appeal",
+    "delay in filing appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeals",
+    "guidelines for condoning delays in family courts",
+    "practical tips for matrimonial dispute resolution"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:28:24.307140"
 }

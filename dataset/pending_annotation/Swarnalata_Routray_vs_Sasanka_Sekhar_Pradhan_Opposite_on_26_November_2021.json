@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:15:07.538998",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -20,13 +20,13 @@
     "B.R. Sarangi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judge, Family Court Kendrapara and Judge, Family Court Cuttack",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Swarnalata Routray @ vs Sasanka Sekhar Pradhan ..... Opposite ... on 26 November, 2021",
+  "case_name": "Swarnalata Routray @ vs Sasanka Sekhar Pradhan — TRP (C) No. 92 of 2018",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Swarnalata Routray @, wife",
+    "respondent_defendant": "Sasanka Sekhar Pradhan, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife filed petition for transfer of C.P. No. 680 of 2014 from Judge, Family Court Kendrapara to Judge, Family Court Cuttack due to inconvenience in participating proceedings at Kendrapara.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the opposite party to participate in the proceeding and not cause harassment to the petitioner.",
+      "held": "The opposite party should participate in the said proceeding itself.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "harassment",
+        "participation",
+        "proceeding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may transfer a case to another location if it is inconvenient for the petitioner to participate in the proceeding at the original location.",
+      "held": "It appears that the opposite party should participate in the said proceeding itself.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "convenience",
+        "petitioner",
+        "proceeding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court cases",
+        "judicial separation cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition for transfer is allowed and C.P. No. 860 of 2014 be transferred from the file of Judge, Family Court, Kendrapara to the file of Judge, Family Court, Cuttack.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Family Court",
+    "judicial separation",
+    "decree",
+    "Section 10",
+    "Section 7",
+    "petitioner",
+    "opposite party",
+    "transfer petition",
+    "Cuttack",
+    "Kendrapara",
+    "Judge, Family Court",
+    "Balichandrapur",
+    "jurisdiction",
+    "convenience",
+    "income",
+    "children",
+    "studies"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition in a family court case",
+    "advising on jurisdictional issues in divorce cases",
+    "assisting with a decree of judicial separation"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:02:17.898593"
 }

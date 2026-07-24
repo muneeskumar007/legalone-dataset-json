@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:14:21.254169",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Gwalior, MISC. PETITION No. 6484 of 2023",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sumit Chawla vs Smt Deepika on 27 October, 2023",
+  "case_name": "Sumit Chawla vs Smt Deepika",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sumit Chawla, husband",
+    "respondent_defendant": "Smt Deepika, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between petitioner and respondent was solemnized on 13.10.2019. Matrimonial dispute arose. Petitioner filed application for divorce under Hindu Marriage Act. Notice was issued against respondent, but she did not appear in court and trial proceeded ex-parte. Suit was decreed on 10.01.2023.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Delay in filing an application under Order IX Rule 13 of CPC can be condoned if the delay is sufficiently explained.",
+      "held": "Therefore, there is no error apparent on record caused by the Court below in allowing the application under Section 5 of Limitation Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Order IX Rule 13",
+        "Limitation Act — Section 5"
+      ],
+      "cited_cases": [
+        "M.K.Prasad Vs. P. Arumugam, (2001) 6 SCC 176",
+        "Narmada Club & Anr. Vs. Shri P.K.Tare, 2004 (2) MPJR 315"
+      ],
+      "keywords": [
+        "delay",
+        "condonation",
+        "Order IX Rule 13",
+        "Limitation Act"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Notice under Order XIII of the Hindu Marriage Act must be served on the respondent in individual capacity.",
+      "held": "Therefore, it cannot be assumed that respondent was served with notice. She came to know about the filing of divorce petition and subsequent order passed into it when she moved an application under Section 125 of Cr.P.C.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Order XIII"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "notice",
+        "Order XIII",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Family Court's order dated 07.10.2023 allowing respondent's application under Order IX Rule 13 of CPC is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "matrimonial dispute",
+    "Order IX Rule 13 CPC",
+    "Article 227 Constitution",
+    "Hindu Marriage Act",
+    "Family Court Gwalior",
+    "CPC",
+    "Limitation Act",
+    "Code of Civil Procedure",
+    "High Court Madhya Pradesh",
+    "Gwalior",
+    "Madhya Pradesh",
+    "petition under Article 227",
+    "Order IX Rule 13 CPC allowed",
+    "matrimonial dispute arose"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to Family Court order",
+    "advising on matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:10:50.082566"
 }

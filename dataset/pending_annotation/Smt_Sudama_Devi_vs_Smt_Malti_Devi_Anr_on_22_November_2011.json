@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:52.822507",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sudama Devi vs Smt. Malti Devi & Anr. on 22 November, 2011",
+  "case_name": "Smt. Sudama Devi vs Smt. Malti Devi & Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sudama Devi (wife, widow)",
+    "respondent_defendant": "Smt. Malti Devi & Anr. (first wife and widow of the deceased)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a petition under Section 372 of the Indian Succession Act for grant of Succession Certificate in respect of debts and securities of her deceased husband-Ram Narain. Objections were filed by Malti Devi who claimed herself to be the first wife and widow of the deceased.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The documentary evidence led and appreciated by the two courts below does not suffer from any infirmity.",
+      "held": "Evidence led before the two courts below has been weighed rightly in the scale of balance and both the two fact finding courts in fact have correctly held that it was Malti Devi who was the wife and widow of Ram Narain;",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "documentary evidence",
+        "fact finding courts"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the applicant party to show that in spite of due diligence, the said documents could not be produced.",
+      "held": "there is not a single whisper of this in the present application which has been filed under Section 151 of the Code;",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "due diligence"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "appeal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The order impugned before this court is the order dated 22.04.2004 which had endorsed the finding of the Civil Judge dated 22.10.2001 in proceedings under Section 372 of the Indian Succession Act.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 372",
+    "Indian Succession Act",
+    "Succession Certificate",
+    "gratuity",
+    "pension",
+    "G.P.F.",
+    "insurance",
+    "service benefits",
+    "widow's rights",
+    "deceased husband",
+    "service benefits",
+    "family law",
+    "marriage dissolution",
+    "property division"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on property settlement",
+    "representing clients in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:34:36.528959"
 }

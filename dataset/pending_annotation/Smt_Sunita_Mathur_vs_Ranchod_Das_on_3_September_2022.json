@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:11:59.320651",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sunita Mathur vs Ranchod Das on 3 September, 2022",
+  "case_name": "Smt. Sunita Mathur vs Ranchod Das",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sunita Mathur",
+    "respondent_defendant": "Ranchod Das and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant's original respondent Radheshyam Yadav has died, and the appellant prays to allow the application to implead the names of proposed LRs of expired respondent No.1(a) Radhesyam Yadav.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The limitation period can be extended by the Apex Court in exceptional circumstances.",
+      "held": "Hon'ble Apex Court has passed an order extending the limitation period.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "In Re: Cognizance For Extension Of Limitation",
+        "(2008) 8 SCC, 321"
+      ],
+      "keywords": [
+        "extension of limitation",
+        "exceptional circumstances"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The legal representatives of a deceased person can be incorporated in an appeal if they are entitled to inherit the property.",
+      "held": "Mrs. Neha Yadav, Mrs. Ayushi Yadav, and Mr. Subham Yadav are the legal representatives of deceased Radheshyam.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legal representatives",
+        "inheritance rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property disputes",
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "joint family",
+    "matrimonial home",
+    "maintenance",
+    "alimony",
+    "custody",
+    "minor child",
+    "family court",
+    "Section 7",
+    "Section 10"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:43:43.338881"
 }

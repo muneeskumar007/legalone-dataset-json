@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:11:41.298888",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -26,13 +26,13 @@
   "case_numbers": [
     "M.A.No.1556 of 1999"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Madurai - H.M.O.P. No.96 of 1994",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Shanthi vs V. Vijayaraghavan on 13 March, 2002",
+  "case_name": "Smt. Shanthi vs V. Vijayaraghavan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shanthi (wife)",
+    "respondent_defendant": "V. Vijayaraghavan (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were related. The husband filed a petition under Section 12(1)(b) and (c) of the Hindu Marriage Act, 1955 to declare the marriage as a nullity.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Mental capacity is a condition for marriage, and mental disorder renders the marriage voidable.",
+      "held": "The provision lays down mental capacity as one of the conditions for the marriage and mental disorder renders the marriage voidable.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mental capacity",
+        "marriage",
+        "voidable"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The prime question to be answered in connection with the validity or otherwise of a marriage is whether the particular person is in a position to comprehend or appreciate the significance of the marriage.",
+      "held": "The prime question to be answered in connection with the validity or otherwise of a marriage alleged to have been contracted between persons, either of whom is said to be an idiot or insane person, is the question whether the particular person is in a position to comprehend or appreciate the significance of the marriage and its effects and obligations on his status and condition in society.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage validity",
+        "comprehension",
+        "appreciation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is against the order of the Family Court Judge, Madurai dated 19.6.1996 made in H.M.O.P. No.96 of 1994.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "nullity",
+    "Section 12(1)(b)",
+    "Section 12(1)(c)",
+    "Family Court",
+    "Madurai",
+    "marriage",
+    "petition",
+    "appeal",
+    "judgment",
+    "decree",
+    "nullity of marriage",
+    "related parties",
+    "uncle's son",
+    "wife's father"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "advising on Hindu Marriage Act",
+    "representing wife in nullity petition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:15:50.342103"
 }

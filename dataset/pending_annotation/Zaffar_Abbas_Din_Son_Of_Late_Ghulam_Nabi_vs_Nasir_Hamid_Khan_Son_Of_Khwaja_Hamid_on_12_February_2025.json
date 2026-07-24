@@ -7,7 +7,7 @@
   "total_pages": 43,
   "extracted_at": "2026-07-15T11:18:41.031794",
   "domain": "property_dispute",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -28,10 +28,10 @@
   "trial_court": "",
   "reserved_on": "26.12.2024",
   "delivered_on": "12.02.2025",
-  "case_name": "Zaffar Abbas Din Son Of Late Ghulam Nabi ... vs Nasir Hamid Khan Son Of Khwaja Hamid ... on 12 February, 2025",
+  "case_name": "Zaffar Abbas Din Son Of Late Ghulam Nabi ... vs Nasir Hamid Khan Son Of Khwaja Hamid ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Zaffar Abbas Din son of late Ghulam Nabi Din, owner of a five-storeyed building known as 'Enso Tower'",
+    "respondent_defendant": "Nasir Hamid Khan son of Khwaja Hamid Ullah Khan, respondent who set up a supermarket mall/departmental store",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -75,7 +75,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner owns a five-storeyed building. Respondent set up a supermarket mall/departmental store in the premises offered by the petitioner. Petitioner served notice to terminate the agreement due to unsatisfactory sales.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -85,21 +85,52 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A decision which is perverse or so irrational that no reasonable person would have arrived at the same requires some degree of explanation.",
+      "held": "It is settled law that where: (i) a finding is based on no evidence, or (ii) an arbitral tribunal takes into account something irrelevant to the decision which it arrives at; or (iii) ignores vital evidence in arriving at its decision, such decision would necessarily be perverse.",
       "applicable_acts_sections": [
-        "TODO"
+        "Specific Relief Act, 1963"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "H.B. Gandhi, Excise and Taxation Officer-cum-Assessing Authority v. Gopi Nath & Sons, 1992 Supp (2) SCC 312",
+        "Kuldeep Singh v. Commr. of Police, (1999) 2 SCC 10"
+      ],
       "keywords": [
-        "TODO"
+        "perverse decision",
+        "irrational decision",
+        "reasonable person",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute",
+        "contractual disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court does not sit in appeal over the award of an Arbitral Tribunal by reassessing or reappreciating the evidence.",
+      "held": "An award can be challenged only under the grounds mentioned in Section 34(2) of the Act. The Arbitral Tribunal has examined the facts and held that both the second respondent and the appellant are liable.",
+      "applicable_acts_sections": [
+        "Transfer of Property Act, 1882",
+        "Specific Relief Act, 1963"
+      ],
+      "cited_cases": [
+        "P.R. Shah, Shares & Stock Brokers (P) Ltd. v. B.H.H. Securities (P) Ltd., (2012) 1 SCC 594"
+      ],
+      "keywords": [
+        "Arbitral Tribunal",
+        "award challenge",
+        "Section 34(2)",
+        "evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "arbitration disputes",
+        "contractual disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -109,15 +140,31 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Specific Relief Act",
+    "Transfer of Property Act",
+    "Arbitration and Conciliation Act",
+    "Jammu and Kashmir Arbitration and Conciliation Act",
+    "Enso Tower",
+    "Khanabal",
+    "Anantnag",
+    "Kashmir",
+    "property_dispute",
+    "award",
+    "arbitral tribunal",
+    "petition",
+    "Section 34",
+    "Latin Maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition under Section 34 of the Jammu and Kashmir Arbitration and Conciliation Act",
+    "advising on property disputes in Kashmir",
+    "assisting with arbitration proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:42:47.333694"
 }

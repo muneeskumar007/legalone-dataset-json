@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "WPCRL 117 2019 on 22 January 2020",
+  "case_name": "W.P.(CRL) No. 117 of 2019",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (husband?)",
+    "respondent_defendant": "Opposite party Nos. 6 and 7 (mother and children)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties approached Family Court, Cuttack in Civil Proceeding No. 254 of 2015 for divorce under Hindu Marriage Act, 1955. Children were rescued by police without court order. Petitioner sought habeas corpus to recover children from custody of opposite party Nos. 6 and 7.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the applicant to establish that the custody of children is being denied.",
+      "held": "Since they have appeared in person, Indian Kanoon - http://indiankanoon.org/doc/44484954/",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "habeas corpus",
+        "custody"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A natural guardian has the right to custody of their children.",
+      "held": "Opposite party No.7 is the mother and natural guardian of those two children.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "natural guardian",
+        "custody"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "WPCRL is disposed of",
+    "final_order": "Children are with their natural guardian, application for habeas corpus not maintainable. Petitioner can approach appropriate forum for visiting right/custody of children.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "custody",
+    "children",
+    "habeas corpus",
+    "Section 13(1)",
+    "Family Court",
+    "Cuttack",
+    "decree of dissolution",
+    "marriage",
+    "dissolution",
+    "judgment",
+    "Latin maxim: 'Nemo dat quod non habet'",
+    "rescue",
+    "police",
+    "unconditional apology"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on child custody matters",
+    "representing clients in habeas corpus proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:30:29.452333"
 }

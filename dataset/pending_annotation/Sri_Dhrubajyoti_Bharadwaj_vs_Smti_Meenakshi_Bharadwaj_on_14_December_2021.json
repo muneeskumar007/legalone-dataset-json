@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:12:40.900317",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Robin Phukan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Charaideo at Sonari (T.S (M) Case No. 112/2016)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Dhrubajyoti Bharadwaj vs Smti. Meenakshi Bharadwaj on 14 December, 2021",
+  "case_name": "Sri Dhrubajyoti Bharadwaj vs Smti. Meenakshi Bharadwaj",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Dhrubajyoti Bharadwaj (husband)",
+    "respondent_defendant": "Smti. Meenakshi Bharadwaj (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are husband and wife who got married but the wife started pressurizing the husband to live separately from his parents. The husband refused and the matter went to trial court which decided something. The husband is now appealing that decision.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the respondent to lead evidence to establish cruelty.",
+      "held": "However, in the absence of any evidence being led by the respondent, we have no material before us to arrive at any such conclusion.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The principle of 'living separately from family members' cannot be termed as cruelty.",
+      "held": "The keeping of the respondent in isolation from the family members of the petitioner and the reluctance to get mix up with the family members of the petitioner, in opinion of this court cannot be termed to be cruelty towards the petitioner.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "separation",
+        "family members",
+        "cruelty"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(ia)",
+    "deemed service",
+    "notice",
+    "refusal to accept notice",
+    "absence of respondent",
+    "matrimonial dispute",
+    "T.S (M) Case No. 112/2016",
+    "petitioner",
+    "respondent",
+    "appellant",
+    "family court",
+    "assam"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act, 1955",
+    "guidelines for deemed service of notice in matrimonial disputes",
+    "strategies for proceeding with a case in the absence of the respondent"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:56:46.624346"
 }

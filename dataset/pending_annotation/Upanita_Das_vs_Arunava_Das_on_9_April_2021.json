@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:17:03.733513",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 3,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, Alipore, Misc. Case No. 2 of 2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Upanita Das vs Arunava Das on 9 April 2021",
+  "case_name": "Upanita Das v. Arunava Das",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Upanita Das, wife",
+    "respondent_defendant": "Arunava Das, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed an application under Section 24 of the Hindu Marriage Act for maintenance pendente lite. She prayed for Rs. 30,000/- per month and Rs.75,000/- as litigation cost. The trial court allowed 1/5th of the husband's income (Rs.60,000/- per month) as maintenance pendente lite.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,88 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The object behind granting maintenance is to ensure that the dependent spouse was not reduced to destitution or vagrancy on account of failure of the marriage and not as a punishment to the other spouse.",
+      "held": "So viewed, it is possible to be selective in picking out that interpretation out of two alternatives which advances the cause – the cause of the derelicts.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24",
+        "Hindu Marriage Act — Section 25"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Captain Ramesh Chander Kaushal v. Mrs. Veena Kaushal and ors., (1978) 4 SCC 70"
+      ],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "social justice",
+        "women",
+        "children"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "maintenance pendente lite cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The quantum of maintenance should be determined by considering the status of the parties, reasonable wants of the claimant, independent income and property of the claimant, number of persons the non-applicant has to maintain, amount that aids the applicant to live in a similar lifestyle as he/she enjoyed in the matrimonial home, non-applicant's liabilities, payment capacity of the non-applicant, cost of litigation, and amount awarded under Section 125 Cr.PC.",
+      "held": "Apart from the aforesaid factors enumerated hereinabove, certain additional factors would also be relevant for determining the quantum of maintenance payable.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [
+        "Rajnesh v. Neha and ors., (2020)"
+      ],
+      "keywords": [
+        "maintenance",
+        "quantum",
+        "factors"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "maintenance pendente lite cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order is not specified in this excerpt.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Section 24",
+    "matrimonial suit",
+    "pedente lite",
+    "unemployed",
+    "service",
+    "square meal",
+    "clothings",
+    "conveyance",
+    "communication purpose",
+    "litigation cost",
+    "petitioner",
+    "opposite party",
+    "Additional District Judge",
+    "Alipore",
+    "Matrimonial Suit No. 44 of 2015"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "guidelines for maintenance application",
+    "practical tips for matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:02:31.574684"
 }

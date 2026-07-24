@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:13:09.387906",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_maintenance",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "M.C.NO.5315/2014",
     "W.P.No.5447/2018"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court at Bangalore, M.C.No.5315/2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri. Vinay Kumar @ Krishna Prasad vs Smt. Harshitha B N on 8 March, 2018",
+  "case_name": "Sri. Vinay Kumar @ Krishna Prasad vs Smt. Harshitha B N",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri. Vinay Kumar @ Krishna Prasad (husband)",
+    "respondent_defendant": "Smt. Harshitha B.N. (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-husband seeks to quash an order granting interim maintenance of Rs.5,000/- per month and litigation expenses of Rs.10,000/- to the respondent-wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking interim maintenance to establish a prima facie case.",
+      "held": "Perused the record. The petitioner-Husband has filed this writ petition under Article 227 of the Constitution of India against the Respondent-wife Ms.B.N.Harshitha, aggrieved by the order passed by the learned Family Judge, Bengaluru, on 08.01.2018.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "interim maintenance",
+        "prima facie case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may grant interim maintenance to the applicant-wife under Section 24 of the Hindu Marriage Act, 1955.",
+      "held": "I.A. No.3 filed U/sec.24 of Hindu Marriage Act by the petitioner is allowed in part.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "Section 24"
+      ],
+      "favours": "applicant-wife",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The Court directed the respondent-wife to pay a sum of Rs.5,000/- per month as an interim maintenance to the petitioner-husband from the date of this petition during pendency and also pay a sum of Rs.10,000/- towards litigation expenses.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 10A",
+    "irretrievable breakdown",
+    "marriage",
+    "spouse",
+    "separation",
+    "cohabitation",
+    "living separately",
+    "no reconciliation",
+    "quash",
+    "order",
+    "family court",
+    "Bangalore",
+    "Karnataka",
+    "High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "quashing family court order",
+    "seeking separation from spouse"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:32:09.292159"
 }

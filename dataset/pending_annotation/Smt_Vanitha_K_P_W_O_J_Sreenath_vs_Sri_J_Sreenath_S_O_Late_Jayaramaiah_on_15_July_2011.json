@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:10.643267",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "will_succession": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Family Judge, Bangalore (MC No.3735/10)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Vanitha K P W/O J Sreenath vs Sri J Sreenath S/O Late Jayaramaiah on 15 July, 2011",
+  "case_name": "Smt Vanitha K P W/O J Sreenath vs Sri J Sreenath S/O Late Jayaramaiah",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Vanitha K P W/O J Sreenath (wife)",
+    "respondent_defendant": "Sri J Sreenath S/O Late Jayaramaiah (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married on 12-11-09 and have a female child born on 31-10-10. The petitioner is living with her parents at Bhadravathi due to misunderstandings, while the respondent resides in Bangalore. The respondent has instituted M.C.3735/10 under Section 13(1)(i-a) of the Hindu Marriage Act against the petitioner.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking transfer to establish sufficient reasons for the same.",
+      "held": "However, the fact remains that, the petitioner is residing at Bhadravathi, which is about 270 Kms away from Bangalore. The petitioner with a small kid will not be able to attend",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 24"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "burden of proof",
+        "distance"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court's discretion in granting transfer is guided by the principle that the convenience of the parties should be considered.",
+      "held": "This petition has been filed to transfer the said case to the Court of disposal.",
+      "applicable_acts_sections": [
+        "CPC — Section 24"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "convenience",
+        "parties",
+        "discretion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition is allowed and M.C.3735/10 pending in the Court of Additional Family Judge, Bangalore is transferred to the Court of Principal Civil Judge (SR.DN), Bhadravathi.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "CPC",
+    "MC No.3735/10",
+    "Family Judge",
+    "Principal Civil Judge",
+    "Bhadravathi",
+    "Bangalore",
+    "Marriage",
+    "Divorce Petition",
+    "Withdrawal",
+    "Transfer",
+    "Jurisdiction"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "seeking withdrawal and transfer of divorce petition",
+    "advocacy for jurisdiction disputes in family law cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:03:34.421425"
 }

@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:11:39.783994",
   "domain": "will_succession",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Shamal Mahadeo Tate vs The District Collector, Solapur And Ors on 16 February, 2022",
+  "case_name": "Smt. Shamal Mahadeo Tate vs The District Collector, Solapur And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shamal Mahadeo Tate (second wife)",
+    "respondent_defendant": "The District Collector, Solapur, State of Maharashtra, and Principal Secretary, Department of Finance",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the second wife of Shri. Mahadeo Narayan Tate who was working as a peon in the office of the District Collector, Solapur. The deceased had married Smt. Parvatibai and then married Petitioner. Petitioner claims to be granted family pension along with arrears from 15.12.2005.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage may be solemnized between any two Hindus if the conditions specified in Section 5(i) of the Hindu Marriage Act, 1955 are fulfilled.",
+      "held": "Neither party has a spouse living at the time of the marriage; ...",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "Hindu Marriage Act",
+        "Section 5"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A child of a void and voidable marriage is legitimate, whether born before or after the commencement of the Marriage Laws (Amendment) Act, 1976.",
+      "held": "Notwithstanding that marriage is null and void under section 11, any child of such marriage who would have been legitimate if the marriage had been valid, shall be legitimate...",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "legitimacy",
+        "void and voidable marriages"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "Writ Petition stands\ndismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ Petition stands dismissed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Succession",
+    "Will",
+    "Probate",
+    "Inheritance",
+    "Property",
+    "Family",
+    "Marriage",
+    "Divorce",
+    "Maintenance",
+    "Alimony",
+    "Partition",
+    "Distribution",
+    "Share",
+    "Heir",
+    "Legal Heir",
+    "Intestate",
+    "Testate",
+    "Executor",
+    "Administrator"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "probating a will",
+    "challenging a will",
+    "inheritance disputes",
+    "family property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:15:00.096000"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:14:21.376934",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "land_acquisition": 1,
@@ -20,13 +20,13 @@
     "As Also In The Interest Of Both The J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Metropolitan Magistrate No. 12, Jaipur in Criminal case No. 70/2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sumit Garg And Ors vs State Of Rajasthan And Anr on 9 April, 2012",
+  "case_name": "Sumit Garg And Ors vs State Of Rajasthan And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sumit Garg and others (husband, wife, etc.)",
+    "respondent_defendant": "State of Rajasthan and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute between parties; FIR lodged against petitioners for offences under Section 498A IPC, Section 4 of Dowry Prohibition Act; parties arrived at amicable settlement and compromise submitted before trial court; decree of divorce passed by Family Court No.3, Rohini Courts, Delhi.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "It would be in the interest of justice to not allow criminal proceedings to continue when parties have entered into a compromise.",
+      "held": "After having considered the facts and circumstances of the case as revealed from the material placed on record as well as the submissions made by learned counsel for the parties and in view of the fact that the instant case relates to the matrimonial relations between the parties, who have entered into a compromise, it would be in the interest of justice as also in the interest of both the spouses that the present criminal proceeding should not be allowed to continue.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "B.S. Joshi and Other"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "matrimonial relations",
+        "interest of justice"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Cordial relations between parties may be strained if criminal proceedings are continued despite a compromise.",
+      "held": "In case the criminal proceedings are otherwise continued, despite of the compromise, then the cordial relations between the parties, which have developed because of the amicable settlement, may be strained.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "B.S. Joshi and Other"
+      ],
+      "keywords": [
+        "compromise",
+        "cordial relations",
+        "amicable settlement"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Criminal proceedings quashed; interest of justice served in allowing parties to move forward with cordial relations.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "quashing",
+    "FIR",
+    "Section 498A IPC",
+    "Section 406 IPC",
+    "Section 4 Dowry Prohibition Act",
+    "amicable settlement",
+    "compromise",
+    "Hindu Marriage Act",
+    "Section 13-B Hindu Marriage Act",
+    "IPC",
+    "Dowry Prohibition Act",
+    "Rajasthan",
+    "jaipur",
+    "High Court of Judicature for Rajasthan at Jaipur Bench"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs in Rajasthan",
+    "compromising criminal cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:11:39.724075"
 }

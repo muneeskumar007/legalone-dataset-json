@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:14:31.814567",
   "domain": "will_succession",
-  "sub_domain": "partition",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -23,17 +23,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sunita Shivdasani vs Geeta Gidwani And Anr. on 8 February, 2007",
+  "case_name": "Sunita Shivdasani vs Geeta Gidwani And Anr.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Ms. Sunita Shivdasani, daughter of Late Mr. K.D. Shivdasani",
+    "respondent_defendant": "Ms. Geeta Gidwani and Ms. Pooja Gangaramani, daughters of Late Mr. K.D. Shivdasani",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Late Mr. K.D. Shivdasani's wife predeceased him. Parties are his daughters. Respondent filed suit for partition and perpetual injunction against appellants.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -43,28 +43,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu must make a written Will.",
+      "held": "The existing mandatory provisions that a Hindu must make a written Will were re-enacted in Clauses (a) and (b) of Section 57 of the Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Wills Act, 1870"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "written will",
+        "Hindu law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "All Wills and Codicils made by any Hindu on or after 1st January, 1927 must comply with sections of Part VI specified in Schedule III of the Act.",
+      "held": "With the enactment of Clause (c) all Wills and Codicils made by any Hindu on or after 1st January, 1927 must comply with sections of Part VI specified in Schedule III of the Act.",
+      "applicable_acts_sections": [
+        "Act — Section 57"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "Hindu law",
+        "will and codicil"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Nothing in Part VI shall authorise a testator to bequeath property which he could not have alienated inter vivos, or to deprive any persons of any right of maintenance.",
+      "held": "Nothing therein contained shall authorise a testator to bequeath property which he could not have alienated inter vivos, or to deprive any persons of any right of maintenance of which, but for the application of these sections, he could not deprive them by will.",
+      "applicable_acts_sections": [
+        "Act — Schedule III"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "testator",
+        "alienation",
+        "maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The words 'son', 'sons', 'child', and 'children' shall be deemed to include an adopted child.",
+      "held": "In applying any of the following Sections namely 75, 76, 105, 109, 111, 112, 113, 114, 115 and 116 to such will and codicils the words 'son', 'sons', 'child', and 'children' shall be deemed to include an adopted child : and the word 'grand-children' shall be deemed to include children, whether adopted or natural-born of a child whether adopted or natural-born; and the expression 'daughter-in-law' shall be deemed to include the wife of an adopted son.",
+      "applicable_acts_sections": [
+        "Act — Schedule III"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "adopted child",
+        "natural-born child"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
     "TODO — add 15+ keywords after reading"
@@ -75,7 +131,8 @@
     "TODO"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:26:50.475114"
 }

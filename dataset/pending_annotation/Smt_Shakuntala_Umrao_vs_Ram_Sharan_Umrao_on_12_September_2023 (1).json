@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:11:32.221569",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Rakesh Thapliyal J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Judge, Family Court, Pauri Garhwal in Family Court Case No. 60 of 2018",
   "reserved_on": "14.08.2023",
   "delivered_on": "12.09.2023",
-  "case_name": "Smt. Shakuntala Umrao vs Ram Sharan Umrao on 12 September, 2023",
+  "case_name": "Smt. Shakuntala Umrao vs Ram Sharan Umrao",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shakuntala Umrao (wife, plaintiff)",
+    "respondent_defendant": "Ram Sharan Umrao (husband, defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married on 05.02.2016. The wife filed for divorce under Section 13(1)(ia) and (ib) of Hindu Marriage Act, 1955 due to alleged cruelty by the husband. The trial court dismissed the suit.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,93 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging cruelty to prove it by substantial evidence.",
+      "held": "While arriving at this finding, the Judge, Family Court, Pauri Garhwal took into consideration the statements made by the appellant in her cross-examination, the statement made by Vishambar Dayal-PW-2 in his cross examination, and the statement made by Mayaram-PW-3 in his cross examination.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "substantial evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party seeking divorce on the ground of desertion must prove it by substantial evidence.",
+      "held": "At present, the appellant has not been able to prove the fact of desertion being done by the respondent without any reason by substantial evidence.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "desertion",
+        "substantial evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A party seeking divorce must prove their case by substantial evidence.",
+      "held": "In such a situation, on the basis of desertion under Section 13(1)(i-b) of the Hindu Marriage Act, 1955, the relief of divorce cannot be granted to the appellant.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "substantial evidence"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the judgment and decree dated 18.12.2021 passed by the Judge, Family Court, Pauri Garhwal in Family Court Case No. 60 of 2018 is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Family Court",
+    "Pauri Garhwal",
+    "Uttarkashi",
+    "Vishwanath Temple",
+    "Indian Kanoon",
+    "First Appeal",
+    "Judge, Family Court",
+    "Hindu rites and customs",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu marriage laws",
+    "appealing family court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:09:24.987539"
 }

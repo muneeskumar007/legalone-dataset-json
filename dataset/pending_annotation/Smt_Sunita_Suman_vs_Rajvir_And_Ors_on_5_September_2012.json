@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:11:59.439473",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -19,13 +19,13 @@
     "Alok Sharma J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Kota - C.M. Case No.65/2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Sunita Suman vs Rajvir And Ors on 5 September, 2012",
+  "case_name": "Smt Sunita Suman vs Rajvir And Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sunita Suman (wife)",
+    "respondent_defendant": "Rajveer @ Shafikur Rahman & Others (husband and others)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed a petition under Sections 7, 12, and 21 of the Hindu Marriage Act, 1955 seeking a declaration that her marriage to respondent was void. The trial is proceeding at a slow pace despite attempts for reconciliation having failed.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Once reconciliation has failed, the trial should be fast-tracked.",
+      "held": "It was incumbent for the Family Court to fast track the trial once even reconciliation had failed.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "reconciliation",
+        "fast-tracking",
+        "Family Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Adjournments should only be by way of reasoned orders with the object of a fair trial.",
+      "held": "Adjournments should only be by way of reasoned orders with the object of a fair trial and not an instrument of harassment of the petitioning wife.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "adjournments",
+        "fair trial",
+        "harassment"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Family Court, Kota shall conclude the trial within a period of four months from the next date.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "void marriage",
+    "Section 7",
+    "Section 12",
+    "Section 21",
+    "Family Court",
+    "Kota",
+    "expedited trial",
+    "six months",
+    "notice of petition",
+    "respondent-husband",
+    "petitioner",
+    "divorce",
+    "marriage declaration",
+    "statutory provision",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act, 1955",
+    "guidelines for expedited trial in Family Court",
+    "arguments for void marriage declaration"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:44:25.900729"
 }

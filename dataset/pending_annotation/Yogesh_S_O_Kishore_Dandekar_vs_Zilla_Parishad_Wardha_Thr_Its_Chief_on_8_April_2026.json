@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:18:23.202811",
   "domain": "will_succession",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Yogesh S/O. Kishore Dandekar vs Zilla Parishad, Wardha Thr. Its Chief ... on 8 April, 2026",
+  "case_name": "Yogesh S/O. Kishore Dandekar vs Zilla Parishad, Wardha Thr. Its Chief ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Yogesh S/o Kisohre Dandekar, Aged about 25 years, R/o. Datta Ward, Arvi, Tahsil Arvi, Distt.Wardha.",
+    "respondent_defendant": "Zilla Parishad, Wardha, through its Chief Executive Officer, Wardha.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's father was a permanent employee of the respondent who expired while working. Petitioner applied for appointment on compassionate ground after attaining majority. Respondent insisted on succession certificate which was settled as per terms of compromise.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A child born from a marriage which is null and void under Section 11 of the Hindu Marriage Act, 1955 is legitimate.",
+      "held": "Legitimacy of a child born from a marriage which is null and void, is a matter of public policy so as to protect a child born from such a marriage from suffering the consequences of illegitimacy.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Union of India v. V.R.Tripathi, (2018) SCC OnLine 3097"
+      ],
       "keywords": [
-        "TODO"
+        "legitimacy",
+        "null and void",
+        "public policy"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A child's legitimacy is not affected by the validity or invalidity of their parents' marriage.",
+      "held": "Legitimacy of a child born from such a marriage is a matter of public policy so as to protect a child born from such a marriage from suffering the consequences of illegitimacy.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [
+        "Union of India v. V.R.Tripathi, (2018) SCC OnLine 3097"
+      ],
+      "keywords": [
+        "legitimacy",
+        "public policy"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the petition is\nallowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "the petition is allowed",
+    "final_order": "The present petition is filed for quashing and setting aside the impugned communication dated 16/05/2023 issued by the respondent-Zilla Parishad Wardha.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Succession",
+    "Will",
+    "Inheritance",
+    "Minor",
+    "Majority",
+    "Quashing",
+    "Setting aside",
+    "Impugned communication",
+    "Zilla Parishad",
+    "Wardha",
+    "Chief Executive Officer",
+    "Permanent employee",
+    "Driver",
+    "KHUNTE",
+    "Rule 2",
+    "Rule 3",
+    "Section 5 Hindu Marriage Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing an impugned communication",
+    "advising on inheritance and succession matters",
+    "assisting in a dispute related to a will"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:36:55.291970"
 }

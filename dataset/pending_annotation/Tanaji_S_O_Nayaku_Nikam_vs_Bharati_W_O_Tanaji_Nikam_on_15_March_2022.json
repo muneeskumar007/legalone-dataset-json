@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:15:37.086503",
   "domain": "partition",
-  "sub_domain": "maintenance",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 3,
@@ -28,13 +28,13 @@
     "O.S.NO.91/2013",
     "O.S.No.91/2013"
   ],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge and JMFC, Raibag, O.S.No.91/2013",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tanaji S/O Nayaku Nikam vs Bharati W/O Tanaji Nikam on 15 March, 2022",
+  "case_name": "Tanaji S/O Nayaku Nikam vs Bharati W/O Tanaji Nikam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tanaji S/O Nayaku Nikam, since dead. By L.Rs.",
+    "respondent_defendant": "Bharati W/O Tanaji Nikam, Kumari Varsha D/O Tanaji Nikam",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Suit filed for partition and separate possession. Trial court decreed the suit.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to prove that a property is self-acquired.",
+      "held": "The learned counsel for the appellants would contend that certain properties are self-acquired properties of appellant Nos.2 to 4/defendant Nos.2 to 4 and appellant No.1(b) is the legal heir of deceased defendant No.1.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908 — Order XLI Rule 27"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "self-acquisition",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's share in ancestral joint family properties is determined by their legitimate share and separate possession.",
+      "held": "The trial Court, after hearing the arguments advanced by both the parties and after appreciating the oral and documentary evidence, answered issue Nos.1 and 3 in the affirmative while issue No.2 is answered in the negative and thereby decreed the suit of the plaintiffs by awarding each plaintiff 1/3rd share out of 1/6th share of defendant No.1.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "ancestral joint family properties",
+        "legitimate share",
+        "separate possession"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "family law",
+    "property division",
+    "succession",
+    "heirship",
+    "legal representatives",
+    "minor",
+    "next friend",
+    "natural mother",
+    "household",
+    "agriculture",
+    "land",
+    "real estate",
+    "family settlement",
+    "partition suit",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition agreements",
+    "advising on family settlements",
+    "representing clients in property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:12:59.430982"
 }

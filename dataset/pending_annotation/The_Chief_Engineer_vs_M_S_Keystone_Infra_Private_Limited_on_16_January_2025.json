@@ -7,7 +7,7 @@
   "total_pages": 44,
   "extracted_at": "2026-07-15T11:15:59.757734",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 2,
     "partition": 2,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "The Chief Engineer vs M/S Keystone Infra Private Limited on 16 January, 2025",
+  "case_name": "The Chief Engineer vs M/S Keystone Infra Private Limited",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "The Chief Engineer, Public Works Department (including NH & NEC) Imphal",
+    "respondent_defendant": "M/s Keystone Infra Private Limited",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner awarded contract for improvement of Bishnupur-Nungba Road. Agreement entered into between petitioner and respondent on 12-06-2023. Disputes arose during execution, respondent invoked arbitration clause. Arbitral award passed in favour of respondent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -88,21 +88,41 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The intent and purpose of Section 31(5) of the Act is to make the party aware of the passing of the award.",
+      "held": "It is now the settled principle of law that the intent and purpose of Section 31(5) of the Act is to make the party aware of the passing of the award.",
       "applicable_acts_sections": [
-        "TODO"
+        "Arbitration and Conciliation Act, 1996 — Section 31(5)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "award",
+        "service",
+        "notification"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "arbitration disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The date of effective service is the date on which the parties are put to the knowledge of the award and its content.",
+      "held": "Therefore, the date on which the parties are put to the knowledge of the award and its content, which in the present case is on 20.02.2023 by way of an e-mail, then that would be the date of effective service.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "service",
+        "notification"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "arbitration disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
@@ -112,15 +132,38 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "Code of Civil Procedure",
+    "Specific Relief Act",
+    "Limitation Act",
+    "CRP",
+    "Article 227",
+    "High Court",
+    "Manipur",
+    "Imphal",
+    "Public Works Department",
+    "NH",
+    "NEC",
+    "Khoyathong",
+    "Imphal Manipur",
+    "Panchavati Colony",
+    "Banjara Hills",
+    "Hyderabad Telengana",
+    "Senior Advocate",
+    "Advocate",
+    "Judgment",
+    "Hearing"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for property dispute in Manipur",
+    "guiding principles for advocates on CRP proceedings",
+    "practical tips for handling public works department disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:27:29.781176"
 }

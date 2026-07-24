@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:12:44.357944",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 3,
@@ -28,13 +28,13 @@
     "M.C.NO.3032/2012",
     "M.C.No.3032/2012"
   ],
-  "trial_court": "",
+  "trial_court": "Court of the Principal Judge, Family Court, Bangalore, M.C.No.3032/2012",
   "reserved_on": "22.02.2023",
   "delivered_on": "",
-  "case_name": "Sri.G.Srinivas vs Smt.S. Anuradha on 10 March, 2023",
+  "case_name": "Sri.G.Srinivas vs Smt.S. Anuradha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri.G.Srinivas, husband",
+    "respondent_defendant": "Smt.S. Anuradha, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties was solemnized on 24.06.1991. Out of wedlock they were blessed with a baby girl. Respondent/wife started dominating and quarreling with the appellant/husband.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -75,39 +75,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging cruelty to prove the same.",
+      "held": "We need to examine the case on hand, based on the pleadings, evidence on record by applying the ratio laid down by the Hon'ble Courts.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "K. Srinivas Rao v.D.A. Deepa (AIR 2013 SC 2176);",
+        "Suman Kapur v.Sudhir Kapur (AIR 2009 SC 589);",
+        "Sujata Uday Patil v.Uday Madhukar Patil (2007 AIR SCW 896);"
+      ],
+      "keywords": [
+        "cruelty",
+        "burden of proof"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court will not accept vague allegations and requires specific instances to be proved.",
+      "held": "The allegations are vague. The appellant/husband has not stated any specific instances of cruelty in his evidence.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "vagueness",
+        "specific instances"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Petition filed under Section 13 of Hindu Marriage Act, 1955 seeking dissolution of marriage was dismissed by trial court. Appeal against this decision is also dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Court",
+    "Section 19(1)",
+    "Section 13 (1) (ia) & (ib)",
+    "M.C.No.3032/2012",
+    "MF.A.No.7554 of 2015",
+    "Indian Penal Code",
+    "Latin Maxim: Nemo judex in causa sua",
+    "Appeal",
+    "Judgment and Decree",
+    "Dismissal of Petition",
+    "Residency",
+    "Occupation",
+    "Age"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court judgments",
+    "advising on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:00:09.418124"
 }

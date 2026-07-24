@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:11:55.414412",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 8,
     "partition": 1,
@@ -22,13 +22,13 @@
     "Rajani Dubey J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court Raigarh, Civil Suit No. 137-A/2016",
   "reserved_on": "15.12.2021",
   "delivered_on": "11.02.2022",
-  "case_name": "Smt. Sukanti Chouhan vs Ravidhar Dehari on 11 February, 2022",
+  "case_name": "Smt. Sukanti Chouhan vs Ravidhar Dehari",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sukanti Chouhan (wife)",
+    "respondent_defendant": "Ravidhar Dehari (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Hindu and governed under Mitakshara Law. The marriage was solemnized on 07.07.2010. After 4-5 months, the wife voluntarily left the house and started living with her parents, harassing the husband mentally by filing a maintenance application.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking divorce to prove desertion.",
+      "held": "Appreciating the oral and documentary evidence, learned trial Court vide its order dated 27.01.2018 allowed the suit of plaintiff and dissolved the marriage of the plaintiff and defendant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The principle of natural justice requires considering the reply filed by the party.",
+      "held": "Thus, it is clear case where the learned Family Court did not follow the principle of natural justice, therefore, the order passed by the learned Family Court deserves to be set-aside.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "natural justice",
+        "reply filing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The marriage was dissolved.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Mitakshara Law",
+    "Section 19(1)",
+    "Family Court Act",
+    "divorce",
+    "marriage dissolution",
+    "civil suit",
+    "family court",
+    "judgment and decree",
+    "appellant",
+    "respondent",
+    "wife",
+    "husband",
+    "voluntary leave",
+    "marital status",
+    "Hindu law",
+    "Indian family law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on marital status",
+    "appealing family court judgment"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:38:42.860097"
 }

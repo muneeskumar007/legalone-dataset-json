@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:18:07.409273",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -27,13 +27,13 @@
     "M.A.No.1305 of 2009",
     "M.P.No.1 of 2009"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Chennai in FCOP No.1992 of 2007",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "V.D. Grahalakshmi vs T. Prashanth on 21 November, 2011",
+  "case_name": "V.D. Grahalakshmi vs T. Prashanth",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Wife (Appellant)",
+    "respondent_defendant": "Husband (Respondent)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed an application under Sec.12(1)(c) of The Hindu Marriage Act, 1955 against the husband, claiming that their marriage was null and void due to fraud. The trial court declared the marriage as null and void.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,100 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the respondent to prove the allegations.",
+      "held": "Therefore, the burden is heavily upon the respondent to prove the allegations which he miserably failed to prove.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "allegations",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A public document can be used to prove the fact of a marriage.",
+      "held": "The production of a Marriage Registration certificate dated 30.12.1998, which is a public document, the respondent had proved the suppression of such registration of marriage which is a material fact and suppression of such fact would amount to fraud.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "public document",
+        "marriage proof",
+        "fraud"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Suppression of a material fact can amount to fraud.",
+      "held": "The suppression of such registration of marriage which is a material fact and suppression of such fact would amount to fraud.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "suppression",
+        "material fact",
+        "fraud"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal filed by the wife under Sec.19 of the Family Court Act, 1984 against the order of the family court was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "null and void",
+    "fraud",
+    "suppression of material fact",
+    "prior registration",
+    "Marriage Registrar",
+    "Family Court Act",
+    "Sec.19",
+    "divorce",
+    "marriage nullity",
+    "Indian Evidence Act",
+    "1872",
+    "1955",
+    "Section 13",
+    "Section 16",
+    "Section 17"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on marriage nullity cases",
+    "representing clients in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:11:29.718727"
 }

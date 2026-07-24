@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:17:58.467557",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vishnu Haribhau Tupe And Ors vs Chitrabai Bajirao Shejwal And Anr on 23 November, 2016",
+  "case_name": "Vishnu Haribhau Tupe And Ors vs Chitrabai Bajirao Shejwal And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner No. 1 to 22 (husband, wife, children, relatives)",
+    "respondent_defendant": "Smt. Chitrabai D/o Bajirao Shejwal (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Multiple parties involved in a family dispute; relief claimed not specified",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A divorce petition filed by a spouse does not automatically terminate the criminal proceedings initiated by the other spouse.",
+      "held": "In view of the above, it is clear that the dismissal of the divorce petition would not affect the criminal proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "divorce",
+        "criminal proceedings",
+        "spouse"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases",
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court's decision to grant alimony is not automatically binding on other courts.",
+      "held": "The learned District Judge-5 further directed that petitioner no.1-husband to pay Rs.1,50,000/- as permanent alimony and interest thereon at the rate of 6 percent from the date of order.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "alimony",
+        "court decision",
+        "family law"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "family law cases",
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the matter is remitted to the trial court for fresh disposal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "cruelty",
+    "desertion",
+    "irretrievable breakdown",
+    "marriage",
+    "spouse",
+    "maintenance",
+    "alimony",
+    "property",
+    "assets",
+    "joint family",
+    "separation",
+    "nullity",
+    "voidable marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act provisions",
+    "assisting in property settlement disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:20:18.843753"
 }

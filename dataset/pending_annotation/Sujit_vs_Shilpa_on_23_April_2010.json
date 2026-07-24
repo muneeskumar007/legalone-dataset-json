@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-07-15T11:14:05.210781",
   "domain": "custody",
-  "sub_domain": "divorce",
+  "sub_domain": "custody",
   "domain_scores": {
     "divorce": 4,
     "cheque_bounce": 1,
@@ -29,8 +29,8 @@
   "delivered_on": "",
   "case_name": "Sujit vs Shilpa on 23 April, 2010",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SUJIT J MUNSHI & 1 - Appellant(s) (husband)",
+    "respondent_defendant": "SHILPA R SHINDE & 1 - Respondent(s) (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The couple have a lovely 10 year old daughter named Akshada. The custody of this child is at the centre of controversy and which has given rise to series of legal battles between the husband and wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,111 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The question of custody and visitation rights of the child are already decided by the court, and any breach of such an order can be addressed by approaching the same court.",
+      "held": "Learned Judge was of the opinion that the question of custody and visitation rights of the child were already decided by the learned Civil Judge(SD) in the divorce petition. If there is any breach of such an order, wife has to approach the same Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Order VII Rule 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "custody",
+        "visitation rights",
+        "breach of order"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "guardianship disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may exercise suo motu powers to register a petition and ensure justice is served.",
+      "held": "Learned Single Judge decided to exercise suo motu powers under Article 227 of the Constitution of India against the said proceedings and register the same as Special Civil Application No. 2031/2009.",
+      "cited_cases": [],
+      "keywords": [
+        "suo motu powers",
+        "Article 227"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "cases where justice is not served by existing procedures"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
+    },
+    {
+      "principle": "The court may consider the wishes of a minor child in making decisions about their custody and upbringing.",
+      "held": "Learned Single Judge discarded the wish of the daughter on the ground that minor daughter was suffering from ear-poisoning by the father.",
+      "cited_cases": [],
+      "keywords": [
+        "minor child",
+        "custody",
+        "upbringing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving children's welfare"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "applicable_acts_sections": []
+    },
+    {
+      "principle": "A court may direct a party to admit their child in a particular school or institution.",
+      "held": "Learned Single Judge directed that daughter be admitted in a school at Vadodara.",
+      "cited_cases": [],
+      "keywords": [
+        "child",
+        "school",
+        "institution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving children's education"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed / Appeal dismissed (not specified)",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "custody",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "joint custody",
+    "matrimonial dispute",
+    "child custody",
+    "parental rights",
+    "best interests of the child",
+    "shared parenting",
+    "divorce proceedings",
+    "family law",
+    "Indian Kanoon",
+    "Gujarat High Court",
+    "judgment",
+    "appeal",
+    "patent appeal",
+    "special civil application"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a custody petition",
+    "advising on joint custody arrangements",
+    "representing clients in divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:59:10.287810"
 }

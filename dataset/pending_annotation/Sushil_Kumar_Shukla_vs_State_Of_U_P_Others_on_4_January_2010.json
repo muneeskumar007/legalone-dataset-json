@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sushil Kumar Shukla vs State Of U.P. & Others on 4 January, 2010",
+  "case_name": "Sushil Kumar Shukla vs State Of U.P. & Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sushil Kumar Shukla, practicing lawyer",
+    "respondent_defendant": "State of U.P. and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner, a practicing lawyer, applied for grant of firearm licence but it was rejected by the District Magistrate, Allahabad. Petitioner filed writ petition No.39085 of 2008 before this Court, which asked the Licensing authority to decide the matter within three months.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Something more than a temporary stay is required to give jurisdiction on the ground of 'residence'.",
+      "held": "It must be more or less of a permanent character, and of such a nature that the court in which the respondent is sued, is his natural forum.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section X"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Smt. Jeewanti Pandey v. Kishan Chandra Pandey, (1982) AIR 3"
+      ],
       "keywords": [
-        "TODO"
+        "residence",
+        "jurisdiction",
+        "permanent character"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — applies to determining jurisdiction",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The word 'reside' is capable of being understood in its ordinary sense of having one's own dwelling permanently.",
+      "held": "It means to make an abode for a considerable time: to dwell permanently or for a length of time; to have a seat.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section X"
+      ],
+      "cited_cases": [
+        "Smt. Jeewanti Pandey v. Kishan Chandra Pandey, (1982) AIR 3"
+      ],
+      "keywords": [
+        "residence",
+        "ordinary sense",
+        "permanent character"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM — clarifies the meaning of 'reside'",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The order impugned has been set aside and the application for grant of firearm licence is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "firearm licence",
+    "Domestic Violence",
+    "Section 125 CrPC",
+    "DV Act",
+    "Magistrate's order",
+    "Writ Petition",
+    "Licence rejection",
+    "Income Tax",
+    "Residential properties",
+    "Firearm permit",
+    "Revolver",
+    "High School Certificate",
+    "Certificate of registration",
+    "Advocate registration",
+    "UP Bar Council",
+    "District Magistrate",
+    "Allahabad Development Authority"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition against rejection of firearm licence",
+    "advising on domestic violence cases under DV Act",
+    "assisting in obtaining firearm permit for practicing lawyers"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:50:36.140829"
 }

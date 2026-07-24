@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:08:31.122024",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 2,
@@ -20,13 +20,13 @@
   "bench": "Division Bench",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Agartala, West Tripura, Title Suit (Divorce) No.47 of 2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smti. Atashi Debnath vs Sri Santi Debnath on 16 April, 2025",
+  "case_name": "Smti. Atashi Debnath vs Sri Santi Debnath",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smti. Atashi Debnath (wife)",
+    "respondent_defendant": "Sri Santi Debnath (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties solemnised on 14.12.1979. Husband respondent filed petition for divorce under Section-13(1)(i)(ia)(ib) of Hindu Marriage Act, 1955. Wife appellant denied allegations and contended husband is habitual drunker.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,94 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court's finding of wilful desertion must be based on actual facts and not perverse.",
+      "held": "The Finding of the learned Court below is totally perverse, illegal and not tenable in the eye of law",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "wilful desertion",
+        "pervasive finding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court must appreciate all relevant evidence before passing a judgment.",
+      "held": "The learned Court below failed to appreciate the same",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "appreciation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A court's judgment must be based on actual facts and not speculative or hypothetical.",
+      "held": "The judgment and decree passed by learned Family Court is liable to be quashed",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "facts",
+        "speculative"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Marriage dissolved between the parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section-28",
+    "Family Courts Act",
+    "Section-19(1)",
+    "Divorce",
+    "Marriage Dissolution",
+    "Appellate Jurisdiction",
+    "Matrimonial Dispute",
+    "Custody Battle",
+    "Maintenance Order",
+    "Property Division",
+    "Alimony",
+    "Separation",
+    "Annulment",
+    "Voidable Marriage",
+    "Legal Separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:16:52.608743"
 }

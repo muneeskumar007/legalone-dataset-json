@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:12:16.449883",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 7,
     "partition": 2,
@@ -23,13 +23,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "ACJM, Ranchi (Complaint Case No.10418 of 2021 under DV Act)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Vimla Devi vs State Of Jharkhand on 4 October, 2023",
+  "case_name": "Smt. Vimla Devi vs State Of Jharkhand",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Vimla Devi, Sri Laxmi Das (mother-in-law and father-in-law)",
+    "respondent_defendant": "State of Jharkhand, Sumana Sharan @ Suman Sharan",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Complainant filed complaint against husband and in-laws for domestic violence; she was subjected to cruelty and dowry demand while living in U.S.A.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Divorce granted by a court in USA has no application in view of settled law.",
+      "held": "It is held that divorce granted by the Court in USA between the parties shall have no application.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Y. Narasimha Rao & Ors. vs. V. Venkata Lakshmi and Anr., (1991) 3 SCC 451"
+      ],
       "keywords": [
-        "TODO"
+        "divorce",
+        "USA",
+        "settled law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family court cases",
+        "civil court cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Any relief available under the Domestic Violence Act, 2005 may also be sought in any legal proceeding.",
+      "held": "Any relief available under Sections 18, 19, 20, 21 and 22 may also be sought in any legal proceeding...",
+      "applicable_acts_sections": [
+        "Protection of Women from DV Act, 2005"
+      ],
+      "cited_cases": [
+        "Smt. Vimla Devi vs State Of Jharkhand (2023)"
+      ],
+      "keywords": [
+        "Domestic Violence Act",
+        "relief",
+        "legal proceeding"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "DV cases",
+        "family court cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Instant petition has been filed for quashing of entire criminal proceeding",
+    "final_order": "Order No.16 dated 04.10.2023",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "domestic violence",
+    "Protection of Women from DV Act",
+    "Code of Civil Procedure",
+    "quashing",
+    "complaint case",
+    "DV Act",
+    "matrimonial home",
+    "marriage registration",
+    "Hindu Marriage Act",
+    "family court",
+    "single judge",
+    "division bench",
+    "Supreme Court",
+    "landmark judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing domestic violence complaints",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:09:59.727865"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:09.056826",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 3,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Bareilly - Case No.1123 of 2005",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Usha & Others vs Mahendra Pal Singh & Another on 23 July, 2010",
+  "case_name": "Smt. Usha & Others vs Mahendra Pal Singh & Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Usha & Others (wife, mother)",
+    "respondent_defendant": "Mahendra Pal Singh & Another (husband, father)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Usha filed an application under section 125 Cr.P.C. for maintenance allowance of her children with the allegation that she was married to Mahendra Pal Singh and they had three children. The marriage was dissolved under section 13-B of Hindu Marriage Act. Usha claimed Rs.3000/- per month as maintenance allowance for each child, while Mahendra Pal Singh alleged that he was unemployed and earning only Rs.1200/- per month.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The right of a minor girl for maintenance from parents after attaining majority till her marriage under section 20(3) of Hindu Adoption and Maintenance Act survives.",
+      "held": "The right of a minor girl for maintenance from parents after attaining majority till her marriage under section 20(3) of Hindu Adoption and Maintenance Act survives.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Adoption and Maintenance Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "minor girl",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "An unmarried major daughter is not entitled to get the maintenance allowance under section 125 Cr.P.C. unless she proves further that she is unable to maintain herself and such inability is attributable to physical or mental abnormality or injury.",
+      "held": "She has to prove further that she is unable to maintain herself and such inability to maintain herself is attributable to physical or mental abnormality or injury, if any, she is afflicted with.",
+      "applicable_acts_sections": [
+        "Cr.P.C. — section 125"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "unmarried major daughter",
+        "physical or mental abnormality or injury"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Maintenance allowance of Rs.500/- per month awarded to Umang with effect from the date of the order, while maintenance allowance of Km. Sakshi and Km. Nishtha was dismissed as they were majors.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance allowance",
+    "section 125 Cr.P.C.",
+    "Hindu Marriage Act",
+    "section 13-B",
+    "dissolution of marriage",
+    "alimony",
+    "family court",
+    "Criminal Procedure Code",
+    "Code of Criminal Procedure",
+    "Bareilly",
+    "Principal Judge",
+    "Family Court",
+    "section 2(1) Hindu Marriage Act",
+    "section 5 Hindu Marriage Act",
+    "section 10 Hindu Marriage Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance allowance",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:00:20.126210"
 }

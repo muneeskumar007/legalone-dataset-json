@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:11:56.171112",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1
@@ -22,10 +22,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sunanda Gon Choudhury vs The Child Welfare Committee on 6 January, 2026",
+  "case_name": "Smt. Sunanda Gon Choudhury vs The Child Welfare Committee",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sunanda Gon Choudhury, D/O: Sri Narayan Gon Choudhury",
+    "respondent_defendant": "The Child Welfare Committee, Represented by its Chair Person, Dhalai District, Jawaharnagar, P.O & P.S: Ambassa, Dist: Dhalai, PIN: 799289",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner was married to Sri Narayan Singha according to Hindu rites and customs. Owing to marital discord, the petitioner instituted a divorce suit being T.S. (Div) No. 214 of 2022 before the learned Family Court, West Tripura, Agartala, which was allowed, and the marriage between the parties was dissolved by judgment and decree dated 18.07.2024.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A trial must be held in accordance with the procedure established by law before convicting an individual.",
+      "held": "The impugned order convicting the petitioner guilty of the offence under Section 75 of the Act of 2015 is, on the face of the record, an unsustainable order, having been passed by an authority lacking subject-matter jurisdiction and also for not holding any trial in accordance with the procedure established by law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Juvenile Justice (Care and Protection of Children) Act, 2015 — Section 86"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "trial",
+        "procedure",
+        "conviction"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "An authority lacking subject-matter jurisdiction cannot pass a sustainable order.",
+      "held": "The impugned order passed by the Child Welfare Committee is, on the face of the record, an unsustainable order, having been passed by an authority lacking subject-matter jurisdiction.",
+      "applicable_acts_sections": [
+        "Juvenile Justice (Care and Protection of Children) Act, 2015"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "jurisdiction",
+        "sustainability"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "jurisdictional disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "writ petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "By decision dated 13.09.2024, the Child Welfare Committee, Dhalai District, Ambassa, upon considering the relevant reports, declared Master Kumit Gour, aged about 10 years, to be a child in need of care and protection and placed him in foster care with the petitioner for a period of one year.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Code of Criminal Procedure",
+    "1973",
+    "Child Welfare Committee",
+    "High Court",
+    "Tripura",
+    "WP(CRL.) NO.07 OF 2025",
+    "Sunanda Gon Choudhury",
+    "Prantosh Datta",
+    "Gita Lodh Guha Roy",
+    "Rajib Bhatacharjee",
+    "Madhumita Datta Ghosh",
+    "Rupa Majumder Datta",
+    "Arijit Bhowmik",
+    "P. Bhattacharjee",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to Child Welfare Committee orders",
+    "appealing High Court decisions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:40:31.172732"
 }

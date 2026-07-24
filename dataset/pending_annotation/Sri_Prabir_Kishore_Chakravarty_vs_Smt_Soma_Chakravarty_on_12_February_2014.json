@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:12:49.878127",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "Prasenjit Mandal Sri Prabir Kishore Chakravarty. J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional District Judge, 14th Court, Alipore, Matrimonial Suit No.1565 of 2008 (renumbered as Matrimonial Suit No.78 of 2009)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Prabir Kishore Chakravarty vs Smt. Soma Chakravarty on 12 February, 2014",
+  "case_name": "Sri Prabir Kishore Chakravarty vs Smt. Soma Chakravarty",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Prabir Kishore Chakravarty, husband",
+    "respondent_defendant": "Smt. Soma Chakravarty, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The husband preferred a matrimonial suit for divorce before the learned District Judge, Alipore. The wife did not contest the suit and it was decreed ex parte on June 29, 2009. Thereafter, the wife filed an application under Order 9 Rule 13 of the C.P.C. which was converted into Misc. Case No.16 of 2009.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "No court shall set aside a decree passed ex parte merely on the ground of irregularity in the service of summons.",
+      "held": "It is not the case that no summons was ever served upon her, but she had no knowledge of the date of hearing of the said suit.",
       "applicable_acts_sections": [
-        "TODO"
+        "C.P.C. — Order 9 Rule 13"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Mahabir Singh v. Subhas & Ors, (2008) 1 SCC 358"
+      ],
       "keywords": [
-        "TODO"
+        "ex parte decree",
+        "irregularity in service of summons"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court shall not set aside a decree passed ex parte if the defendant had notice of the date of hearing and had sufficient time to appear and answer the plaintiff's claim.",
+      "held": "No Court shall set aside a decree passed ex parte merely on the ground that there has been an irregularity in the service of summons, if it is satisfied that the defendant had notice of the date of hearing and had sufficient time to appear and answer the plaintiff's claim.",
+      "applicable_acts_sections": [
+        "C.P.C. — Order 9 Rule 13"
+      ],
+      "cited_cases": [
+        "Mahabir Singh v. Subhas & Ors, (2008) 1 SCC 358"
+      ],
+      "keywords": [
+        "ex parte decree",
+        "notice of date of hearing",
+        "sufficient time to appear"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The ex parte decree for divorce passed on June 29, 2009 has been set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Matrimonial Suit",
+    "Order 9 Rule 13",
+    "C.P.C.",
+    "Alipore",
+    "Additional District Judge",
+    "ex parte decree",
+    "Latin maxim",
+    "res judicata",
+    "fraudulent concealment",
+    "matrimonial dispute",
+    "family law",
+    "Indian Penal Code",
+    "Limitation Act",
+    "High Court",
+    "Calcutta",
+    "Civil Revisional Jurisdiction",
+    "Appellate Side"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to opposition in matrimonial suit",
+    "appealing against ex parte decree"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:11:05.747773"
 }

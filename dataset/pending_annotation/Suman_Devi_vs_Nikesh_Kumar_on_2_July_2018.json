@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:14:19.419802",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 3,
@@ -22,13 +22,13 @@
     "Ratnaker Bhengra J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Hazaribagh, M.T.S. No. 121 of 2006",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Suman Devi vs Nikesh Kumar on 2 July, 2018",
+  "case_name": "Suman Devi vs Nikesh Kumar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Nikesh Kumar, husband",
+    "respondent_defendant": "Suman Devi, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties entered into marriage in 2004. The wife refused to celebrate the first night and created tension in the family. She had an ulterior motive and was of indisciplined character. She used to castigate the petitioner and did not give due respect to elders.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the petitioner to prove that the respondent has been treated with cruelty.",
+      "held": "Learned family court proceeded to decide issues nos. 3 and 4 together.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "petitioner",
+        "respondent"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A deserted spouse is entitled to a decree of divorce.",
+      "held": "Whether the petitioner has been deserted by the respondent since more than ten months prior to filing of the suit?",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "desertion",
+        "decree of divorce"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court's judgment allowing the husband's suit for dissolution of marriage was set aside, and the case was remanded back to the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "desertion",
+    "Section 13(1)(i-a)",
+    "Section 13(1)(i-b)",
+    "matrimonial suit",
+    "dissolution of marriage",
+    "marriage annulment",
+    "family court",
+    "principal judge",
+    "Hazaribagh",
+    "Barkakana",
+    "Ramgarh",
+    "ultimatum",
+    "first night",
+    "saddest night",
+    "petitioner-husband",
+    "respondent-wife"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on grounds for divorce",
+    "representing client in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:06:54.171142"
 }

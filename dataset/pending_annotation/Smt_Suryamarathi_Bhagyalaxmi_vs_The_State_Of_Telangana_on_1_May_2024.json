@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:12:00.721214",
   "domain": "land_acquisition",
-  "sub_domain": "divorce",
+  "sub_domain": "land_acquisition",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -29,10 +29,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Suryamarathi Bhagyalaxmi vs The State Of Telangana on 1 May, 2024",
+  "case_name": "Smt. Suryamarathi Bhagyalaxmi vs The State Of Telangana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Suryamarathi Bhagyalaxmi (wife) and Shyam Rao's son",
+    "respondent_defendant": "The State Of Telangana, respondent Nos.2 to 4 (Telangana State Northern Power Distribution Corporation Limited)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner No.1 is the son of late Shyam Rao who died in service. Petitioner No.1 made an application for compassionate appointment but it was kept pending. He made several representations, but only after a lapse of five years, respondent No.4 passed an order rejecting his case.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,21 +72,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A family member of an employee who died in service is entitled to appointment on compassionate grounds, subject to specific conditions.",
+      "held": "The BPMS 119 of the respondent Board dated 10.02.1982 states that a family member of the employee who died in service is entitled for appointment on compassionate grounds, subject to fulfilment of specific conditions.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compassionate appointment",
+        "family members",
+        "employee death"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land acquisition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who contracts another marriage notwithstanding that the subsequent marriage is permissible under personal law is not eligible for compassionate appointment.",
+      "held": "As per clause (xxi) of Reg.(4) of Telangana TRANSCO/TSNPDCL Employees Revised Conduct Regulations, No employee shall contract another marriage notwithstanding that the subsequent marriage is permissible under personal law.",
+      "applicable_acts_sections": [
+        "Telangana TRANSCO/TSNPDCL Employees Revised Conduct Regulations"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compassionate appointment",
+        "marriage",
+        "personal law"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "land acquisition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -96,15 +117,36 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "writ_petition",
+    "mandamus",
+    "compassionate_employment",
+    "natural_justice",
+    "principles_of_natural_justice",
+    "death_benefits",
+    "terminal_benefits",
+    "Hindu_Marriage_Act",
+    "1955",
+    "lis",
+    "inter-connected",
+    "common_order",
+    "writ_of_mandamus",
+    "illegality",
+    "arbitrariness",
+    "jurisdiction",
+    "contrary_to_law",
+    "without_jurisdiction"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for land acquisition",
+    "advising on compassionate employment",
+    "arguing principles of natural justice"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:46:00.964789"
 }

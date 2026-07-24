@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:02.432305",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Swathi Nitin Tulasalkar vs Sri. Nitin Tulasalkar on 14 December, 2023",
+  "case_name": "Smt. Swathi Nitin Tulasalkar vs Sri. Nitin Tulasalkar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Swathi Nitin Tulasalkar, wife",
+    "respondent_defendant": "Sri. Nitin Tulasalkar, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the wife of respondent, seeking to transfer M.C.No.294/2023 from Principal Judge, Family Court, Hubballi to Principal Civil Judge and JMFC, Sagara.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A petition for transfer of a pending proceeding can be allowed if the petitioner has a prima facie case.",
+      "held": "Heard Sri. Rajendra.S., learned counsel for the petitioner and Mahaveer K.Jain, learned counsel for the respondent. Perused the petition papers.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "petition",
+        "proceeding",
+        "prima facie case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may transfer a pending proceeding to another court if it is in the interest of justice.",
+      "held": "This Court made the following: ORDER 1. The petitioner, wife of the respondent is before this Court under Section 24 of the Code of Civil Procedure, 1908 (for short hereinafter referred to as 'CPC'), with a prayer to transfer M.C.No.294/2023 pending on the file of Principal Judge, Family Court, Hubballi at Hubballi, filed by the respondent-husband under Section 13(1)(i-a) & (i-b) of the Hindu Marriage Act, 1955 (for short, '1955 Act') to the Court of Principal Civil Judge and JMFC, Sagara, Shimoga, for disposal.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908",
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "transfer",
+        "proceeding",
+        "interest of justice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition was allowed, transferring the case to the Court of Principal Civil Judge and JMFC, Sagara.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13(1)(IA)",
+    "Section 13(IB)",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "CPC",
+    "Sec.24",
+    "family law",
+    "Indian Kanoon",
+    "judgment and decree",
+    "dissolve marriage",
+    "matrimonial relief",
+    "petition withdrawal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to petition for dissolution of marriage",
+    "seeking judgment and decree in matrimonial dispute"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:49:44.788552"
 }

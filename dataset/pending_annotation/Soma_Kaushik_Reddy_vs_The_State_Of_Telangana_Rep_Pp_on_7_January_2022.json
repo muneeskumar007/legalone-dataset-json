@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:12:23.453426",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Soma Kaushik Reddy vs The State Of Telangana.,Rep.,Pp on 7 January, 2022",
+  "case_name": "Soma Kaushik Reddy vs The State Of Telangana.,Rep.,Pp",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Soma Kaushik Reddy (husband)",
+    "respondent_defendant": "The State Of Telangana, Rep. (state government)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's wife lodged a report against him and his family members under various IPC sections and Dowry Prohibition Act. She alleged harassment for additional dowry, physical abuse, and forced abortion.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to quash a criminal proceeding to establish that the FIR is frivolous and that there are no reasonable grounds for believing that an offence has been committed.",
+      "held": "He further submitted that the petitioner along with A2 to A5 filed Crl.P. No.14209 of 2013 before this Court for quashing of FIR.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quash",
+        "FIR",
+        "frivolous",
+        "reasonable grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "criminal proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A compromise between parties can be a valid ground for quashing a criminal proceeding.",
+      "held": "The petitioner and the 2nd respondent at the intervention of the elders and well-wishers compromised the matter and also filed divorce petition under mutual consent before the Family Court at Dr.GRR,J Hyderabad vide OP No.108 of 2015.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "Ruchi Agarwal v. Amit Kumar Agrawal and others",
+        "Pankaj Kumar Nimayat and others v. State of A.P. and others"
+      ],
+      "keywords": [
+        "compromise",
+        "quash",
+        "criminal proceeding"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "dowry",
+    "domestic violence",
+    "marital life",
+    "divorce",
+    "quash proceedings",
+    "Section 482 Cr.P.C.",
+    "Section 307 IPC",
+    "Section 498-A IPC",
+    "Dowry Prohibition Act",
+    "Sydney Australia",
+    "India",
+    "Cyberabad",
+    "Ranga Reddy District",
+    "Women Police Station",
+    "Saroornagar"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing criminal proceedings",
+    "advising on domestic violence cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:29:08.128019"
 }

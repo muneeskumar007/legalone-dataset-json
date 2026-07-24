@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:37.022867",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "M.C.No.56/2016"
   ],
-  "trial_court": "",
+  "trial_court": "V Additional Principal Judge, Family Court, Bengaluru, M.C. No. 56/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri. Bhaskar. N. D. vs Smt. Anitha Lakshmi. B. H. on 20 September, 2018",
+  "case_name": "Sri. Bhaskar. N. D. vs Smt. Anitha Lakshmi. B. H.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Bhaskar N. D., husband",
+    "respondent_defendant": "Smt. Anitha Lakshmi B. H., wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed M.C.No.56/2016 seeking a decree of nullity under Section 12(1)(a) of the Hindu Marriage Act, 1955. Respondent sought interim maintenance and litigation expenses. Family Court granted Rs.5,000/- per month as interim maintenance and Rs.20,000/- towards litigation expenses.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The quantum of maintenance awarded to the respondent is on the higher side.",
+      "held": "She submitted that petitioner has other financial commitments and the award of Rs.5,000/- per month as interim maintenance to the respondent is exorbitant.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "interim maintenance",
+        "financial commitments"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the respondent to prove her claim for interim maintenance.",
+      "held": "Although, she claimed Rs.20,000/- per month as interim maintenance and Rs.50,000/- as litigation expenses, the Family Court on considering the income and other financial commitments of petitioner has ordered only Rs.5,000/- per month as the interim maintenance and Rs.20,000/- towards litigation expenses.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "claim",
+        "interim maintenance"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "writ petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ dismissed",
+    "final_order": "The impugned order dated 02.02.2018 was not interfered with by the High Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24",
+    "Section 125",
+    "maintenance",
+    "alimony",
+    "custody",
+    "matrimonial dispute",
+    "family court",
+    "petitioner",
+    "respondent",
+    "wife",
+    "husband",
+    "marriage",
+    "separation",
+    "divorce petition",
+    "M.C.No.56/2016",
+    "I.A.No.3"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition",
+    "advising on maintenance and alimony",
+    "representing in a family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:51:44.171989"
 }

@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:12:05.555919",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 5,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "O.S.No.5302/2010"
   ],
-  "trial_court": "",
+  "trial_court": "42nd Addl. City Civil & Sessions Judge at Bengaluru City (CCH.No.43)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Thimmamma vs Smt.Varalakshmi on 26 October, 2016",
+  "case_name": "Smt.Thimmamma vs Smt.Varalakshmi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt.Thimmamma, wife and plaintiff",
+    "respondent_defendant": "Smt.Varalakshmi, daughter-in-law",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The suit was filed by the plaintiff against the defendant for partition and separate possession and costs. The plaintiff's husband acquired the property through 'Ashraya Yojane' and constructed a house with shops and residential units. After her husband's death, the plaintiff permitted the defendant to stay with her in the property.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the plaintiff to prove that she has contributed money for construction of building.",
+      "held": "Whether the plaintiff has also contributed money for construction of building or not is to be proved by the plaintiff.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Smt.Thimmamma vs Smt.Varalakshmi, (2016)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "contribution",
+        "construction",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A testamentary heir succeeds the property as per the Will.",
+      "held": "The defendant is able to prove the Will dated 20.02.2004 - Ex.D2 to the satisfaction of the court, that it is the last and genuine Will left by late Sri.Thimmaiah in respect of the suit schedule property.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Smt.Thimmamma vs Smt.Varalakshmi, (2016)"
+      ],
+      "keywords": [
+        "testamentary heir",
+        "Will",
+        "succession"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "inheritance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court granted partition and separate possession to the plaintiff.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "Ashraya Yojane",
+    "Government of Karnataka",
+    "Tahasildar",
+    "plaintiff",
+    "defendant",
+    "suit schedule property",
+    "costs",
+    "partition and separate possession",
+    "Karnataka",
+    "Bangalore-79",
+    "1st Main Road",
+    "Kamalanagar",
+    "Smt.Thimmamma",
+    "Smt.Varalakshmi",
+    "Thimmaiah",
+    "Munikrishna",
+    "Late Thimmaiah"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits in Karnataka",
+    "advising on property rights under Hindu Marriage Act",
+    "assisting with succession disputes under Hindu Succession Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:57:21.571283"
 }

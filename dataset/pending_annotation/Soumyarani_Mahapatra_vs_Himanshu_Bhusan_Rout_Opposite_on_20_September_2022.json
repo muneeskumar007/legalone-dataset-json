@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:28.872139",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "Savitri Ratho J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Civil Proceeding No.287 of 2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Soumyarani Mahapatra vs Himanshu Bhusan Rout ..... Opposite ... on 20 September, 2022",
+  "case_name": "Soumyarani Mahapatra vs Himanshu Bhusan Rout",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Soumyarani Mahapatra, wife",
+    "respondent_defendant": "Himanshu Bhusan Rout, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife was driven out from the house by her husband and is living with her father in Banpur. She has filed a case under Section-9 of the Hindu Marriage Act, 1955 and another under Section 125 Cr.P.C.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Directions are usually issued regarding mode of filing of objection and dispensing with personal appearance in proceedings under Section-9 of the Hindu Marriage Act.",
+      "held": "Instead of transferring the proceedings, directions are usually issued regarding mode of filing of objection and dispensing with personal appearance filing of the wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mode of filing",
+        "objection",
+        "personal appearance",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In the interest of justice, proceedings can be transferred to a more convenient court.",
+      "held": "It would be expedient in the interest of justice to transfer Civil Proceeding No.287 of 2022 pending in the Court of the learned Judge, Family Court, Bhubaneswar, to the Court of learned Judge, Family Court, Khurda (Camp Court), Banpur.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "interest of justice",
+        "convenient court"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Directions are usually issued regarding mode of filing of objection and dispensing with personal appearance filing of the wife. The two cases will be posted on the same day and Civil Proceeding No.287 of 2022 will be disposed of within a specified time limit.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Section 24",
+    "Section 9",
+    "family court",
+    "transfer application",
+    "ill-treatment",
+    "harassment",
+    "minor children",
+    "dependent on father",
+    "distance",
+    "Bhubaneswar",
+    "Banpur",
+    "Camp Court",
+    "Khurda"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising clients on transfer applications",
+    "preparing for family court hearings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:43:44.534748"
 }

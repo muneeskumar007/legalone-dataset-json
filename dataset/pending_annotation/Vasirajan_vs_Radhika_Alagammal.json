@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:17:25.537557",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "O.P.No.51 of 2012",
     "O.P.No.51\nof 2012"
   ],
-  "trial_court": "",
+  "trial_court": "Subordinate Court, Theni - H.M.O.P.No.51 of 2012",
   "reserved_on": "15.03.2024",
   "delivered_on": "26.04.2024",
   "case_name": "Vasirajan vs Radhika @ Alagammal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner/Respondent/Petitioner (husband)",
+    "respondent_defendant": "Respondent/Petitioner/Respondent (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -61,7 +61,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between petitioner and respondent was solemnised on 03.04.1997. Petitioner filed petition for divorce against respondent under Section 13(1)(ia)(ib) of the Hindu Marriage Act, which was allowed by exparte order dated 22.02.2013. Respondent filed application to condone delay in filing application to set aside exparte order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -71,39 +71,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the respondent to show that she was not well and taking treatment at the relevant point of time.",
+      "held": "Though the respondent in the affidavit has alleged that she was having leg joints issue and his father was also taking treatment, but she has not elaborated anything further. Admittedly, the respondent has not produced any iota of material or evidence to show that the respondent and her father were not well and were taking treatment at the relevant point of time.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's failure to produce evidence to support their claim can lead to the dismissal of the petition.",
+      "held": "The respondent has not shown any valid reason to condone the delay of more than 1300 days and that since the petition is not having any merits, the same is liable to be dismissed.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "evidence",
+        "dismissal"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Civil Revision Petition is dismissed",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "dese",
+    "Section 13(1)(ia)(ib)",
+    "Section 5 of the Limitation Act",
+    "Indian Kanoon",
+    "marriage",
+    "petition",
+    "subordinate court",
+    "Theni",
+    "Madras High Court",
+    "C.R.P.(MD)No.1592 of 2018",
+    "H.M.O.P.No.51 of 2012",
+    "I.A.No.46 of 2017"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to divorce petition",
+    "appealing court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:33:31.122082"
 }

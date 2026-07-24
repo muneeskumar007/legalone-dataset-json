@@ -7,7 +7,7 @@
   "total_pages": 59,
   "extracted_at": "2026-07-15T11:13:07.802076",
   "domain": "land_acquisition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "land_acquisition",
   "domain_scores": {
     "divorce": 1,
     "partition": 2,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri. Tennydard M Marak vs The State Of Meghalaya, on 7 October, 2013",
+  "case_name": "Sri. Tennydard M Marak vs The State Of Meghalaya",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri. Tennydard M Marak, s/o P.N. Sangma",
+    "respondent_defendant": "The State of Meghalaya, represented by the Secretary to the Department of Welfare of Schedule Tribes & Schedule Castes, Govt. of Meghalaya, Shillong; The Secretary, to the Department of Home, Government of Meghalaya, Shillong; The Deputy Commissioner, South West Garo Hills, PO-Ampati, District- South West Garo Hills, Meghalaya; The Deputy Commissioner, West Garo Hills, District-Tura, Meghalaya; Dr. Mukul M Sangma, s/o Sri. Binoy Bhusan Marak",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -76,7 +76,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks to challenge an order passed by the Deputy Commissioner, West Garo Hills, Tura, Meghalaya (respondent No.4) and wants the court to direct respondents to produce a Caste Certificate issued in favour of Dr. Mukul M Sangma (respondent No.5) and cancel it if necessary.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -86,21 +86,43 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A writ petition must have proper pleadings and material to substantiate the averments/allegations contained therein.",
+      "held": "Thus, it was liable to be rejected at the threshold for the reason that the writ petition suffered for want of proper pleadings and material to substantiate the averments/allegations contained therein.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure, 1908"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "writ petition",
+        "pleadings",
+        "material"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "PIL cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Public interest litigation (PIL) means a legal action initiated in a Court of Law for the enforcement of public interest or general interest in which the public or a class of the community have pecuniary interest or some interest by which their legal rights or liabilities are affected.",
+      "held": "Therefore, lexically the expression 'PIL' means a legal action initiated in a Court of Law for the enforcement of public interest or general interest in which the public or a class of the community have pecuniary interest or some interest by which their legal rights or liabilities are affected.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Shrouds Judicial Dictionary, Vol. 4 (IV Edition)",
+        "Black's Law Dictionary (6th edn.)"
+      ],
+      "keywords": [
+        "PIL",
+        "public interest",
+        "general interest"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "PIL cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -110,15 +132,33 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Code of Civil Procedure",
+    "Indian Evidence Act",
+    "Meghalaya",
+    "Schedule Tribes",
+    "Schedule Castes",
+    "Welfare",
+    "Home Department",
+    "Garo Hills",
+    "Chief Minister",
+    "Advocate General",
+    "PIL",
+    "writ petition",
+    "preliminary issue",
+    "judgment",
+    "order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting PILs in Meghalaya",
+    "advising on land acquisition laws",
+    "appealing to the High Court of Meghalaya"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:29:22.123569"
 }

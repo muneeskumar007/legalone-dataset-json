@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:12:42.043642",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Vijaykumar A. Patil J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Davanagere, MC No.109/2012",
   "reserved_on": "06.03.2023",
   "delivered_on": "",
-  "case_name": "Sri Dr Ravikumar S vs Smt Somya S O on 15 March, 2023",
+  "case_name": "Sri Dr Ravikumar S vs Smt Somya S O",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Dr. Ravikumar S., husband",
+    "respondent_defendant": "Smt. Somya S.O., wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant/husband and respondent/wife were married in 2010. They had a daughter born in 2012. The relationship was not cordial. Appellant filed a petition seeking dissolution of marriage on grounds of physical and mental cruelty, desertion, and incurable disease of unsound mind.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -73,39 +73,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties to a matrimonial dispute are required to describe the measure and standard of cruelty and lead cogent evidence to succeed in the plea of dissolution of marriage on the ground of cruelty.",
+      "held": "However, parties to the dispute are required to describe the measure and standard of cruelty and lead cogent evidence to succeed in the plea of dissolution of marriage on the ground of cruelty.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "matrimonial dispute",
+        "dissolution of marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The standard of proof in a case of matrimonial dispute pertaining to cruelty cannot be said to be applicable as is applicable in case of trial in the Code of Criminal Procedure.",
+      "held": "However, parties to the dispute are required to describe the measure and standard of cruelty and lead cogent evidence to succeed in the plea of dissolution of marriage on the ground of cruelty.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "standard of proof",
+        "matrimonial dispute",
+        "cruelty"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's judgment dismissing the petition was upheld. The appeal was filed under Section 19(1) of the Family Courts Act, 1984.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 19(1)",
+    "Section 13(1) (ia) and (ib) (iii)",
+    "MFA No.6981 of 2014",
+    "MC No.109/2012",
+    "Indian Evidence Act",
+    "Code of Criminal Procedure",
+    "Latin maxim: Nemo judex in causa sua",
+    "Appeal under Section 19(1)",
+    "Judgment dated 26.09.2014",
+    "Family Court, Davangere",
+    "Section 13(1) (ia) and (ib) (iii) of Hindu Marriage Act"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court judgments",
+    "advising on Hindu marriage law"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:57:38.893386"
 }

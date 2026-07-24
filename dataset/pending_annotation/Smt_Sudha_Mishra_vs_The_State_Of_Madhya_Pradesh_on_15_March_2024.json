@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:11:53.668463",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "partition": 2,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sudha Mishra vs The State Of Madhya Pradesh on 15 March, 2024",
+  "case_name": "Smt. Sudha Mishra vs The State Of Madhya Pradesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sudha Mishra, wife",
+    "respondent_defendant": "The State Of Madhya Pradesh and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the legally wedded wife of Late Shri Satanand Mishra, seeking family pension after his death. She claims that second wife is not entitled to get family pension.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,117 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person whose name is mentioned in a nomination form submitted by the deceased government employee is entitled to family pension.",
+      "held": "Since the name of respondent no.8 is mentioned in nomination form submitted by deceased Govt. employee, therefore, after his death according to nomination done by him, respondent no.8 is entitled for family pension.",
       "applicable_acts_sections": [
-        "TODO"
+        "Pension Rules — Rule 69(2)(a)(i)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "family pension",
+        "nomination form",
+        "government employee"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person specified in a nomination under Rule 46 is entitled to receive pension.",
+      "held": "Rule 45 also lays down that person on whom right to receive is conferred by means of a nomination under Rule 46 is entitled to receive pension.",
+      "applicable_acts_sections": [
+        "Pension Rules — Rule 45",
+        "Pension Rules — Rule 46"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "nomination",
+        "pension",
+        "Rule 46"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person who has not raised any grievance before the answering respondents during the lifetime of the government servant is not entitled to challenge the nomination made by the deceased government employee.",
+      "held": "Deceased Govt. employee has submitted a nomination under Section 46 of the Pension Rules and has mentioned the name of respondent no.8 in capacity of his wife. Since the name of respondent no.8 is mentioned in nomination form submitted by deceased Govt. employee, therefore, after his death according to nomination done by him, respondent no.8 is entitled for family pension.",
+      "applicable_acts_sections": [
+        "Pension Rules — Section 46"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "grievance",
+        "government servant",
+        "nomination"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A petition involving highly disputed questions and facts is not maintainable and deserves to be dismissed.",
+      "held": "It is submitted that petition involves highly disputed questions and facts. Facts and issues can only be decided by leading oral and documentary evidence before court of competent jurisdiction.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Smt. Koushalya Bai vs. M.P. State Electricity Board and others, 2006 (1) MPHT 257"
+      ],
+      "keywords": [
+        "petition",
+        "disputed questions",
+        "facts"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Court directed respondents to give benefit of family pension to the petitioner and not release it in favour of respondent no.8, who is the second wife of deceased.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "maintenance",
+    "alimony",
+    "custody",
+    "property division",
+    "matrimonial dispute",
+    "separation",
+    "annulment",
+    "nullity",
+    "voidable marriage",
+    "irretrievable breakdown",
+    "no fault divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce under Hindu Marriage Act",
+    "advising on maintenance and alimony in a matrimonial dispute",
+    "assisting with property division in a separation case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:35:40.555763"
 }

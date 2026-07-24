@@ -7,7 +7,7 @@
   "total_pages": 24,
   "extracted_at": "2026-07-15T11:16:38.264650",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 2,
     "partition": 4,
@@ -30,10 +30,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "24.10.2019",
-  "case_name": "T.Hemalatha 13 Others vs T.Krishna Rao 10 Others on 25 October, 2019",
+  "case_name": "T.Hemalatha 13 Others vs T.Krishna Rao 10 Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tayi Hemalatamma, Tayi Venkata Ramana (died) per LRs., Tayi Krishna Rao, Tai Subba Rao, Tayi Rama Mani, Tayi Sriram, Tayi Hema D/o. Venkata Ramana, Tayi Sri Lakshmi",
+    "respondent_defendant": "Tayi Krishna Rao S/o. late Srirama Murthy, Assistant Divisional Engineer, A.P.S.E.B., Vidyut Soudha, Hyderabad.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are the appellants and respondents. The relief claimed is not specified. The trial court decided in favor of the respondents. This case came to appeal because the appellants are dissatisfied with the trial court's decision.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -78,39 +78,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Professional income alone cannot be taken as an indicator of financial strength.",
+      "held": "However, professional income of Sri late Thayi Sreerama Murthy alone cannot be taken in this case as an indicator or criteria as to his financial strength.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "financial strength",
+        "professional income"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party claiming partition to prove their case.",
+      "held": "However, professional income of Sri late Thayi Sreerama Murthy alone cannot be taken in this case as an indicator or criteria as to his financial strength.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "partition",
+        "burden"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "this appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order allows the appeal and sets aside the decree and judgment passed by the trial court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Code of Civil Procedure",
+    "Transfer of Property Act",
+    "1908",
+    "1882",
+    "family property",
+    "joint family",
+    "coparcenary",
+    "Hindu law",
+    "Mitakshara School",
+    "Dayabhaga School",
+    "partition suit",
+    "family settlement",
+    "agreement",
+    "property rights",
+    "share",
+    "interest",
+    "beneficial ownership"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on family property disputes",
+    "negotiating a family settlement agreement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:06:37.788587"
 }

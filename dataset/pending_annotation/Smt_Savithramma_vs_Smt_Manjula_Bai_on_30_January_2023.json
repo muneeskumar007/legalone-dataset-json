@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:11:27.141806",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 3,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "IV Addl. City Civil and Sessions Judge, Bengaluru (CCH−21), OS. No.25640/2017",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Savithramma vs Smt. Manjula Bai on 30 January, 2023",
+  "case_name": "Smt. Savithramma vs Smt. Manjula Bai",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Savithramma, wife",
+    "respondent_defendant": "Smt. Manjula Bai, second wife; Rama Bai and Sri.S.Krishna Rao, children",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Plaintiff seeks partition of joint family properties and separate possession. She is the legally wedded wife of Late.Sri.K.Subba Rao who died in her house. Defendant No.1 is his second wife, and defendants No.2 & 3 are their children.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the plaintiff to prove her case.",
+      "held": "On considering the pleadings, oral and documentary evidence of the parties, at the outset, it is worth to note, it is specific case of the plaintiff that, she is legally wedded wife of Late.Sri.K.Subba Rao.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "plaintiff"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The court will not entertain a claim that is based on false or fabricated evidence.",
+      "held": "Taking undue advantage of said situation, plaintiff might have taken some documents from the house of defendants.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "false",
+        "fabricated"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "property disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Suit decreed",
+    "final_order": "The court granted the plaintiff's prayer for partition and separate possession of half share in the suit schedule properties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "suit",
+    "schedule properties",
+    "separate possession",
+    "half share",
+    "partition suit",
+    "Indian Kanoon",
+    "judgment",
+    "recording evidence",
+    "commencement of recording",
+    "duration",
+    "IV Addl. City Civil and Sessions Judge",
+    "Bengaluru",
+    "Smt. Savithramma",
+    "Smt. Manjula Bai",
+    "Rama Bai",
+    "Sri.S.Krishna Rao"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "guidelines for recording evidence",
+    "practical tips for advocates in Bengaluru"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:05:04.995892"
 }

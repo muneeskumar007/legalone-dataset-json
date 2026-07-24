@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:14:39.258681",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "custody": 1,
@@ -18,20 +18,20 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "JMFC, Ahmednagar (RCC No.641/2023)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Suresh Kacharu Aher And Another vs Dipak Bhaurao Deshmukh on 12 January, 2026",
+  "case_name": "Suresh Kacharu Aher And Another vs Dipak Bhaurao Deshmukh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Suresh Kacharu Aher And Another (husband, wife, plaintiff)",
+    "respondent_defendant": "Dipak Bhaurao Deshmukh (wife, husband, defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute between parties; RCC No.641/2023 pending on file of JMFC, Ahmednagar; other four proceedings pending before Court at Niphad.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -41,39 +41,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Burden lies on the party seeking transfer of a case to establish sufficient reasons for such transfer.",
+      "held": "The fact of pendency of said proceedings at Niphad has not been denied by the non-applicant. The burden lies on the applicants to establish sufficient reasons for transferring the present proceeding from the file of the learned JMFC, Ahmednagar to the file of the learned JMFC, Niphad.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C."
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "burden"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party seeking transfer of a case must establish sufficient reasons for such transfer.",
+      "held": "The applicants prayed for transfer of RCC No.641/2023 pending on the file of the learned JMFC, Ahmednagar to the file of learned JMFC, Niphad on the ground that the RCC No.641/2023 is based on the incident for which the NCR No. 1142/2023 is registered with Topkhana Police Station, Ahmednagar against the present non-applicant.",
+      "applicable_acts_sections": [
+        "Cr.P.C."
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "transfer",
+        "sufficient reasons"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "RCC No.641/2023 transferred to file of learned JMFC, Niphad with immediate effect.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Section 477",
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "Cr.P.C.",
+    "RCC No.641/2023",
+    "NCR No. 1142/2023",
+    "Topkhana Police Station",
+    "Ahmednagar",
+    "JMFC",
+    "IPC",
+    "Section 323",
+    "Section 504",
+    "Section 506",
+    "private complaint",
+    "learned counsel",
+    "Advocate"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "responding to private complaint",
+    "appealing JMFC decision"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:42:45.744729"
 }

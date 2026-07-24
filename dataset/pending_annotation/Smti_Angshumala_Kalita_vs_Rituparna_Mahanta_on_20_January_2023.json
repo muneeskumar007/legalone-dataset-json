@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:08:29.522056",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -23,13 +23,13 @@
     "Devashis Baruah J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned District Judge, Golaghat (Matrimonial Title Suit No. 05/2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smti Angshumala Kalita vs Rituparna Mahanta on 20 January, 2023",
+  "case_name": "Smti Angshumala Kalita vs Rituparna Mahanta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smti Angshumala Kalita, wife",
+    "respondent_defendant": "Rituparna Mahanta, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and Respondent were married in 2017. Petitioner moved to Guwahati with Respondent after marriage. Respondent demanded money from Petitioner, which she provided. Demands increased, and Respondent forced Petitioner to bring money from her parents. Petitioner was physically and mentally tortured.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "A party seeking transfer of a case must demonstrate that it would be difficult for them to travel to the court due to serious threats to their life and safety.",
+      "held": "It is not possible on the part of the Petitioner to travel ten/twelve hours up and down journey from Parbotia in the district of Tinsukia to Golaghat along with her minor daughter and to appear before the Court of learned District Judge, Golaghat.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "threats",
+        "life",
+        "safety"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "domestic violence cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's inability to travel due to serious threats to their life and safety is a valid ground for transfer of a case.",
+      "held": "It would be difficult on her part to travel from Tinsukia to Golaghat as she has no one to accompany her to Golaghat inasmuch as, there is a serious threat of the life of the Petitioner and her minor daughter.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "inability",
+        "travel",
+        "threats",
+        "life",
+        "safety"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "domestic violence cases",
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petition for transfer of Matrimonial Title Suit No. 05/2022 from Court of learned District Judge, Golaghat to Court of learned District Judge, Tinsukia allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Protection of Women from DV Act",
+    "matrimonial title suit",
+    "transfer of case",
+    "Section 24",
+    "Section 151",
+    "marriage solemnized",
+    "Hindu rites and customs",
+    "female child",
+    "family law",
+    "Indian Kanoon",
+    "Golaghat",
+    "Tinsukia"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "preparing transfer application",
+    "advising on family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:16:03.473498"
 }

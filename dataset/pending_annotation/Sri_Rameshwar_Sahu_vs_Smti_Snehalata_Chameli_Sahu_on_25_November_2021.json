@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:12:53.912980",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 7,
     "maintenance": 2,
@@ -22,13 +22,13 @@
     "Arun Dev Choudhury J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Judge, Sivasagar, Assam, Title Suit (M) No. 85/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Rameshwar Sahu vs Smti Snehalata Chameli (Sahu) on 25 November, 2021",
+  "case_name": "Sri Rameshwar Sahu vs Smti Snehalata Chameli (Sahu)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Rameshwar Sahu, husband",
+    "respondent_defendant": "Smti Snehalata Chameli (Sahu), wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married in 1991 but had a quarrel and the wife refused to co-habit with the husband. The husband filed for divorce under Section 13(1)(i-a) and (i-b) of the Hindu Marriage Act, 1955, which was granted by the trial court. The trial court awarded a sum of Rs. 7 lakhs as permanent alimony to the wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,99 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the person who is best placed to do so.",
+      "held": "the burden is on him u/s 106 Evidence Act",
       "applicable_acts_sections": [
-        "TODO"
+        "Evidence Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A person's current liability should be considered when determining permanent alimony.",
+      "held": "Considering the fact that as the petitioner-husband is serving as teacher in a Government school and as there is nothing on record to show that he has any other liability except to maintain himself",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "permanent alimony",
+        "liability"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A person's ability to maintain themselves should be considered when determining permanent alimony.",
+      "held": "I am of the opinion that if an amount of Rs. 7,00,000/- (Rupees Seven Lacs) is granted towards permanent alimony it will be just and proper for the O.P.-wife to maintain herself",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "permanent alimony",
+        "maintenance"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final order modified the quantum of permanent alimony from Rs. 7 lakhs to [amount not specified].",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "matrimonial dispute",
+    "irretrievable breakdown",
+    "marriage nullity",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "joint family",
+    "family law",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Section 23",
+    "matrimonial relief",
+    "alimony",
+    "maintenance"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "assisting in alimony and maintenance matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:16:06.394418"
 }

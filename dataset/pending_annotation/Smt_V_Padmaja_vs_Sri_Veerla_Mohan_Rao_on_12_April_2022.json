@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:12:17.804086",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 3,
@@ -26,13 +26,13 @@
   "case_numbers": [
     "O.P.No.86 of 2011"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Family Court, Hyderabad, O.P.No.86 of 2011",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. V.Padmaja vs Sri Veerla Mohan Rao on 12 April, 2022",
+  "case_name": "Smt. V.Padmaja vs Sri Veerla Mohan Rao",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "appellant/wife",
+    "respondent_defendant": "respondent/husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the appellant/wife and respondent/husband performed on 07.05.1999. Respondent/husband started harassing the appellant/wife mentally and physically, demanding additional dowry. Appellant/wife filed petition under Section 13(1)(ia) of Hindu Marriage Act, 1955 for dissolution of marriage and grant of permanent alimony.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the appellant to substantiate the allegations of cruelty.",
+      "held": "Though the subject O.P. for dissolution of marriage was filed on the ground of cruelty, the appellant/wife could not substantiate the same.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party seeking dissolution of marriage must establish the grounds for such relief.",
+      "held": "The appellant/wife failed to establish cruelty alleged to have been meted out by her in the hands of the respondent/husband.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "grounds for dissolution",
+        "establishment of grounds"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "this appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed. The trial court's order dismissing the petition is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "Section 13(1)(ia)",
+    "Section 19",
+    "permanent alimony",
+    "dowry harassment",
+    "mental cruelty",
+    "physical abuse",
+    "marriage dissolution",
+    "alimony",
+    "family court appeal",
+    "additional dowry",
+    "bare necessities",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on alimony claims",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:01:06.757133"
 }

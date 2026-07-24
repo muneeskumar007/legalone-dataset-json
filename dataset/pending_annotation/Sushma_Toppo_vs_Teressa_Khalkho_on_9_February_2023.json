@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:14:47.435619",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 6,
     "partition": 4,
@@ -24,13 +24,13 @@
     "Sanjay Kumar Dwivedi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Senior Civil Judge-1, Palamau at Daltonganj, Succession Case No. 14 of 2008",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sushma Toppo vs Teressa Khalkho on 9 February, 2023",
+  "case_name": "Sushma Toppo vs Teressa Khalkho",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sushma Toppo, wife of late Nirmal Toppo and Deepak Toppo, son of late Nirmal Toppo",
+    "respondent_defendant": "Teressa Khalkho, wife of late Nirmal Toppo, Atul Kumar Toppo, son of late Nirmal Toppo, Amit Kumar Toppo, son of late Nirmal Toppo and Alka Rani Toppo, daughter of late Nirmal Toppo",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Nirmal Toppo was IIIrd Grade employee of Civil Courts Palamau and member of Scheduled Tribes by Caste Oraon. He was married to Teressa Khalkho but she used to lead vagrant life and habitual to run away from her in-laws place. The appellants prayed for issuing succession certificate, fixation of monthly pension and appointment in service on compensatory ground.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person claiming to be the legal heir of a deceased person must establish their legal right to succeed.",
+      "held": "There is no legal impediment to grant succession certificate in favour of the appellants because no any WILL executed by the deceased for estate left by him and no any application has been made to any Court for Letters of Administration.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Succession Act, 1925"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "succession",
+        "heirship",
+        "decedent's estate"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person claiming to be the spouse of a deceased person must establish their legal marriage through valid documents.",
+      "held": "Appellant No.1 Sushma Toppo is not legally wedded wife of deceased Nirmal Toppo, therefore neither she nor her sons and daughter are entitled to get any share as successor or legal heir of deceased Nirmal Toppo.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "spouse",
+        "valid documents"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The prayer of the appellants was dismissed by the trial court and the same is upheld by this court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "succession certificate",
+    "service benefits",
+    "monthly pension",
+    "compensatory ground",
+    "deceased husband",
+    "Nirmal Toppo",
+    "Teressa Khalkho",
+    "Sushma Toppo",
+    "family court",
+    "judgment",
+    "appeal",
+    "civil judge",
+    "Palamaun",
+    "Daltonganj",
+    "Jharkhand",
+    "High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce appeal",
+    "preparing family court judgment",
+    "composing High Court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:53:52.035523"
 }

@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:16:33.765670",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Chief Judicial Magistrate, Chandauli, Crl. Case No. 136 of 2020",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tushar Singh And 2 Others vs State Of U.P. And Another on 21 July, 2023",
+  "case_name": "Tushar Singh And 2 Others vs State Of U.P. And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tushar Singh and 2 others (husband, wife, plaintiff)",
+    "respondent_defendant": "State of U.P. and another (wife, husband, defendant)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute; parties invoked inherent jurisdiction to quash charge sheet and proceedings in criminal case arising out of crime no. 550 of 2019 under sections 498A, 323, 504, 506 IPC and section 3/4 Dowry Prohibition Act, 1961.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An application under Section 482 Cr.P.C. can be entertained if the settlement between the parties is genuine and there are no allegations of coercion, undue influence, or fraud.",
+      "held": "The Apex Court has summarized the ratio of all the cases decided earlier with respect to quashing of F.I.R./charge-sheet/criminal proceeding on the ground of settlement between the parties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 482"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Parbatbhai Aahir alias Parbatbhai Bhimsinhbhai Karmur and others Vs. State of Gujarat and another, (2017) AIR 4843",
+        "B.S.Joshi & Others Vs. State of Haryana & Others; (2003) 4 SCC 675"
+      ],
       "keywords": [
-        "TODO"
+        "settlement",
+        "genuine",
+        "coercion",
+        "undue influence",
+        "fraud"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "criminal proceedings quashing",
+        "family disputes settlement"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the applicant to establish that the settlement between the parties is genuine and there are no allegations of coercion, undue influence, or fraud.",
+      "held": "The applicants have relied upon the judgments of the Hon'ble Apex Court to support their plea for quashing the criminal proceedings.",
+      "applicable_acts_sections": [
+        "Cr.P.C. — Section 482"
+      ],
+      "cited_cases": [
+        "B.S.Joshi & Others Vs. State of Haryana & Others; (2003) 4 SCC 675",
+        "Nikhil Merchant Vs. Central Bureau of Investigation; (2008) 9 SCC 667"
+      ],
+      "keywords": [
+        "burden",
+        "genuine",
+        "coercion",
+        "undue influence",
+        "fraud"
+      ],
+      "favours": "applicant",
+      "use_in": [
+        "criminal proceedings quashing",
+        "family disputes settlement"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court quashed charge sheet and proceedings in criminal case.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 482 Cr.P.C.",
+    "quashing",
+    "charge sheet",
+    "Crl. Case No. 136 of 2020",
+    "Sections 498A",
+    "323",
+    "504",
+    "506 I.P.C.",
+    "Dowry Prohibition Act",
+    "1961",
+    "summoning/cognizance order",
+    "Chief Judicial Magistrate",
+    "Chandauli",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing charge sheets",
+    "appealing summoning orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:49:38.083940"
 }

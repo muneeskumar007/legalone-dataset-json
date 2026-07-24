@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:12:34.564805",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "land_acquisition": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Bapi Acharjee vs The State Of Tripura on 14 May, 2026",
+  "case_name": "Sri Bapi Acharjee vs The State Of Tripura",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Bapi Acharjee, Sri Satya Ranjan Acharjee, Smt. Anita Acharjee, Sri Nanda Lal Acharjee",
+    "respondent_defendant": "The State of Tripura, Smt. Supriya Acharjee",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -54,7 +54,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners filed for quashing of FIR dated 28.08.2020 and subsequent orders passed in the case.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -64,39 +64,109 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Criminal law should not be used as a tool for harassment or vendetta.",
+      "held": "The allegations in a criminal complaint must be scrutinized with care to ensure that they disclose a prima facie case before subjecting individuals to the rigors of a criminal trial.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code, 1860"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "P.V. Krishnabhat & Anr. v. The State of Karnataka & Ors., (2025) SCC OnLine SC 484"
+      ],
       "keywords": [
-        "TODO"
+        "harassment",
+        "vendetta",
+        "prima facie case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Continuation of criminal proceedings in the absence of a prima facie case would amount to an abuse of the process of law and result in a miscarriage of justice.",
+      "held": "The continuation of criminal proceedings in such circumstances would amount to an abuse of the process of law and result in a miscarriage of justice.",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860"
+      ],
+      "cited_cases": [
+        "P.V. Krishnabhat & Anr. v. The State of Karnataka & Ors., (2025) SCC OnLine SC 484"
+      ],
+      "keywords": [
+        "prima facie case",
+        "miscarriage of justice"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A criminal trial leading to an eventual acquittal also inflicts severe scars upon the accused, and such an exercise must be discouraged.",
+      "held": "It has been highlighted by this Court in varied instances, that a criminal trial leading to an eventual acquittal also inflicts severe scars upon the accused, and such an exercise must, therefore, be discouraged.",
+      "applicable_acts_sections": [
+        "Specific Relief Act, 1963"
+      ],
+      "cited_cases": [
+        "Kahkashan Kausar @Sonam & Ors. v. State of Bihar & Ors., (2022) 6 SCC 599"
+      ],
+      "keywords": [
+        "criminal trial",
+        "acquittal",
+        "scars"
+      ],
+      "favors": "defendant",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The petition was allowed, and the FIR and subsequent orders were quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "alimony",
+    "maintenance",
+    "IPC",
+    "1860",
+    "Specific Relief Act",
+    "1963",
+    "Crl.P.No.42",
+    "2025",
+    "Tripura",
+    "High Court",
+    "Agartala",
+    "West Tripura",
+    "Meghlipara",
+    "Ranir Bazar",
+    "Anita Acharjee",
+    "Nanda Lal Acharjee",
+    "Supriya Acharjee",
+    "Dhananjoy Acharjee",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "appealing against family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:49:15.667727"
 }

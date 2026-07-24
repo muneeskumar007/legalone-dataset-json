@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:11:52.589736",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -21,13 +21,13 @@
   "case_numbers": [
     "M.C.No.224/2022"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge Family Court at Chikmagalur, M.C.No. 224/2022",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Souharda Rudrappa vs Sri Vinay Raj H D on 9 August, 2023",
+  "case_name": "Smt Souharda Rudrappa vs Sri Vinay Raj H D",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Souharda Rudrappa, wife",
+    "respondent_defendant": "Sri Vinay Raj H D, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent were married in 2017. They lived together until December 2022 when the petitioner received a divorce notice and relocated to Bangalore. The respondent instituted a divorce petition under the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The cardinal principle for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.",
+      "held": "The cardinal principle for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure — Section 24"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "N.C.V.AISHWARYA v/s A.S. SARAVANA KARTHIK SHA, (2022) SCC online SC 1199"
+      ],
       "keywords": [
-        "TODO"
+        "ends of justice",
+        "transfer of suit",
+        "appeal or other proceeding"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "matrimonial matters"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "In matrimonial matters, wherever Courts are called upon to consider the plea of transfer, the Courts have to take into consideration the inconvenience that would be caused to the wife along with their standard of life prior to the marriage and subsequent thereto.",
+      "held": "In matrimonial matters, wherever Courts are called upon to consider the plea of transfer, the Courts have to take into consideration the inconvenience that would be caused to the wife along with their standard of life prior to the marriage and subsequent thereto.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure — Section 24"
+      ],
+      "cited_cases": [
+        "N.C.V.AISHWARYA v/s A.S. SARAVANA KARTHIK SHA, (2022) SCC online SC 1199"
+      ],
+      "keywords": [
+        "inconvenience",
+        "wife's standard of life",
+        "prior to the marriage and subsequent thereto"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "matrimonial matters"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court transferred the divorce proceedings from Chikmagalur to Bangalore.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "transfer petition",
+    "family court",
+    "Bengaluru",
+    "Chikmagalur",
+    "Karnataka High Court",
+    "marriage",
+    "wife's rights",
+    "husband's responsibilities",
+    "maintenance",
+    "custody",
+    "property division",
+    "matrimonial disputes",
+    "Section 125 CrPC"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition under Section 24 CPC",
+    "advising on Hindu Marriage Act, 1955",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:33:51.016682"
 }

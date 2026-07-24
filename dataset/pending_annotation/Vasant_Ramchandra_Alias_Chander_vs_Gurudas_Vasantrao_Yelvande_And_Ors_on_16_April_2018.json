@@ -65,21 +65,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A child born out of a void marriage is legitimate and can claim a share in the property of their parents.",
+      "held": "Notwithstanding that marriage is null and void, any child of such marriage who would have been legitimate if the marriage had been valid, shall be legitimate.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legitimacy",
+        "void marriage",
+        "property rights"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A child born out of a voidable marriage can claim a share in the property of their parents, but only through succession.",
+      "held": "Where a decree of nullity is granted in respect of a voidable marriage under section 12, any child begotten or conceived before the decree is made, who would have been the legitimate child of the parties to the marriage if at the date of the decree it had been dissolved instead of being annulled, shall be deemed to be their legitimate child notwithstanding the decree of nullity.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "voidable marriage",
+        "succession",
+        "property rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A child born out of a void or voidable marriage cannot claim a share in the joint family property.",
+      "held": "In our opinion, therefore, it will be incorrect to say that, the son of a void marriage, though legitimate by virtue of the provisions contained in Section 16 of the Hindu Marriage Act, can claim a share in the property, which belongs to a coparcenary, of which his father is a Member.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16",
+        "Hindu Succession Act, 1956 — Schedule"
+      ],
+      "cited_cases": [
+        "Shantaram Tukaram Patil and Anr. Vs. Smt. Dagubai Tukaram Patil and Ors., (1987) Bom.C.R. 714"
+      ],
+      "keywords": [
+        "joint family property",
+        "coparcenary",
+        "property rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A child born out of a void or voidable marriage can only claim their share in the property during the lifetime of their father.",
+      "held": "Whether such children claim their share in the property during the lifetime of their father?",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "property rights",
+        "lifetime of father"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
@@ -89,15 +150,33 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "family property",
+    "joint family",
+    "coparcenary",
+    "co-parcener",
+    "share",
+    "partition suit",
+    "family settlement",
+    "agriculturists",
+    "residing",
+    "Pune",
+    "Khed",
+    "Taluka",
+    "District"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on family property disputes",
+    "assisting in joint family settlement negotiations"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:31:12.785506"
 }

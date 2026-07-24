@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:14:42.268251",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Surya Vetrikondan vs The State Of Tamilnadu on 7 September, 2018",
+  "case_name": "Surya Vetrikondan vs The State Of Tamilnadu",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Surya Vetrikondan, lawyer",
+    "respondent_defendant": "The State Of Tamilnadu, represented by its Chief Secretary, and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -72,7 +72,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is a lawyer who gave a representation to the Chief Secretary, Government of Tamil Nadu, seeking a scheme for registering all marriages conducted so far and hereinafter.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -82,39 +82,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The solemnization of a marriage must be certified by the officiating priest in the form contained in Schedule II.",
+      "held": "Every marriage contracted under this Act shall, immediately on the solemnization thereof, be certified by the officiating priest in the form contained in Schedule II.",
       "applicable_acts_sections": [
-        "TODO"
+        "Parsi Marriage and Divorce Act, 1936 — Section 6"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage registration",
+        "Parsi Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage can be registered under the Special Marriage Act, 1954, if certain conditions are fulfilled.",
+      "held": "Any marriage celebrated, whether before or after the commencement of this Act, other than a marriage solemnized under the Special Marriage Act, 1872 (3 of 1872), or under this Act, may be registered under this Chapter by a Marriage Officer in the territories to which this Act extends if the following conditions are fulfilled, namely:",
+      "applicable_acts_sections": [
+        "Special Marriage Act, 1954 — Sections 15 and 16"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage registration",
+        "Special Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "writ petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ petition dismissed",
+    "final_order": "The present writ petition is dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "mandamus",
+    "writ petition",
+    "Article 226",
+    "Constitution of India",
+    "marriage registration",
+    "medical certificate",
+    "fitness",
+    "compulsory",
+    "prospective registrations",
+    "scheme",
+    "petitioner",
+    "respondents",
+    "Chief Secretary",
+    "Department of Registration",
+    "Government of Tamilnadu",
+    "Union of India"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a writ petition for mandamus",
+    "seeking registration of marriages in Hindu Marriage Act cases",
+    "obtaining medical certificate for prospective registrations"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:47:29.500587"
 }

@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:17:29.034164",
   "domain": "will_succession",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 1,
     "will_succession": 2
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Veena D/O Prabhakr Ozarkar Alias Veena ... vs Shri. Deepak Madhukar Ozarkar And Anr on 27 February, 2023",
+  "case_name": "Veena D/O Prabhakr Ozarkar Alias Veena ... vs Shri. Deepak Madhukar Ozarkar And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Veena D/O Prabhakr Ozarkar Alias Veena, Plaintiff",
+    "respondent_defendant": "Shri. Deepak Madhukar Ozarkar And Anr, Defendants",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the daughter of one Prabhakar and Bindarkaur. She claims to be an illegitimate child born out of void marriage. The Petitioner's mother was working with said Prabhakar and there was a love affair between them. The Petitioner is challenging the legality and validity of orders passed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person cannot claim properties of their biological father as a legal heir solely on the basis of physical relationship between their mother and the father.",
+      "held": "The Appellate Court held that performance of marriage, whether void or voidable is a condition precedent for a person to establish claim on the property left by his/her biological father.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Parayankandiyal Eravath Kanapravan Kalliani Amma (Smt) & Ors Vs. K. Devi & Ors, (Year) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "legitimacy",
+        "children",
+        "voidable marriages"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The DNA report is a prima facie evidence that can be relied upon to establish the biological relationship between a person and their alleged father.",
+      "held": "The Appellate Court accepted the said DNA reports at prima facie stage and held that the Petitioner is the daughter of Prabhakar.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Veena D/O Prabhakr Ozarkar Alias Veena ... vs Shri. Deepak Madhukar Ozarkar And Anr, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "DNA report",
+        "biological relationship",
+        "prima facie evidence"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "paternity cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": null,
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Article 227",
+    "Constitution of India",
+    "Regular Civil Suit",
+    "MCA No. 51",
+    "Prabhakar",
+    "Bindarkaur",
+    "Succession",
+    "Will",
+    "Inheritance",
+    "Family Court",
+    "District Judge",
+    "Joint Civil Judge",
+    "Nasik Road",
+    "Nasik"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "challenging an order in family court",
+    "succession disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:37:17.974449"
 }

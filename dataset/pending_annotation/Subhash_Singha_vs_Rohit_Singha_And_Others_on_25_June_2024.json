@@ -7,7 +7,7 @@
   "total_pages": 22,
   "extracted_at": "2026-07-15T11:13:48.392837",
   "domain": "partition",
-  "sub_domain": "will_succession",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 7,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "21.05.2024",
   "delivered_on": "",
-  "case_name": "Subhash Singha vs Rohit Singha And Others on 25 June, 2024",
+  "case_name": "Subhash Singha vs Rohit Singha And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Subhash Singha (Appellant)",
+    "respondent_defendant": "Rohit Singha and others (Respondents)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -92,7 +92,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The plaintiff filed a civil suit seeking a declaration that the Will bearing Registration No.27/2003 is void ab initio because of fraud practised by defendants upon testator Budh Ram. A consequential relief of permanent prohibitory injunction was also sought.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -102,39 +102,101 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A male Hindu governed by Mitakshara Law is not debarred from making a Will in respect of coparcenary/ancestral property.",
+      "held": "It was laid down by this Court that a male Hindu governed by Mitakshara Law is not debarred from making a Will in respect of the coparcenary/ancestral property.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Succession Act, 1956 — Section X"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Raksha Kumari v. Chain Singh, (2019) SCC OnLine HP 2014",
+        "Kartari Devi and others versus Tota Ram, (1992) 1 ShimLC 402",
+        "Tek Chand versus Mool Raj,1997 2 Hindu LR 306"
+      ],
       "keywords": [
-        "TODO"
+        "Mitakshara Law",
+        "coparcenary",
+        "ancestral property",
+        "Will",
+        "Hindu Succession Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases",
+        "succession disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Even assuming that the suit land is ancestral, there is no prohibition to execute the Will regarding ancestral property.",
+      "held": "It was observed that even assuming that the suit land is ancestral, there is no prohibition to execute the Will regarding ancestral property.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956 — Section X"
+      ],
+      "cited_cases": [
+        "Raksha Kumari v. Chain Singh, (2019) SCC OnLine HP 2014",
+        "Kartari Devi and others versus Tota Ram, (1992) 1 ShimLC 402",
+        "Tek Chand versus Mool Raj,1997 2 Hindu LR 306"
+      ],
+      "keywords": [
+        "ancestral property",
+        "Will",
+        "Hindu Succession Act"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "partition cases",
+        "succession disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The appeal filed by the appellant (plaintiff before the learned trial Court) was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Succession Act",
+    "1956",
+    "Code of Civil Procedure",
+    "1908",
+    "Indian Evidence Act",
+    "1872",
+    "Transfer of Property Act",
+    "1882",
+    "will",
+    "registration",
+    "civil suit",
+    "declaration",
+    "judgment",
+    "decree",
+    "appeal",
+    "dismissed",
+    "plaintiff",
+    "defendant",
+    "trial court",
+    "first appellate court",
+    "additional district judge",
+    "kinnaur",
+    "rampur bushahr",
+    "himachal pradesh"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on Hindu Succession Act implications",
+    "preparing an appeal against a civil suit judgment"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:45:09.591553"
 }

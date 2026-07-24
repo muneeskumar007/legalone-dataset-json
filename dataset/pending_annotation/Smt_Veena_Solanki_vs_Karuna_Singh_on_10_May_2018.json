@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:12:12.899828",
   "domain": "will_succession",
-  "sub_domain": "divorce",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 1,
     "partition": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Ld. Administrative Civil Judge cum Addl. Rent Controller (Central), Delhi",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Veena Solanki vs Karuna Singh on 10 May, 2018",
+  "case_name": "Smt. Veena Solanki vs Karuna Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Veena Solanki, wife and Eti Solanki, daughter",
+    "respondent_defendant": "Karuna Singh, widow; Master Surya Pratap Singh, son; Master Sridev Singh, son; Commissioner of Customs (Import & General); Pay and Accounts officers",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Karuna Singh claimed herself to be the widow of Sh. S. P. S. Solanki, seeking succession certificate. Appellants filed a separate petition for grant of succession certificate in their favour. The trial court decided in favour of Karuna Singh.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court cannot rely on averments made in an application U/o 1 Rule 10 CPC for coming to a conclusion.",
+      "held": "The findings based on this document is an irregularity committed by ld. Trial court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act, 1872 — Section 114"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Challamma V. Tilaga and Ors (2009) 9 Supreme Court Cases 299"
+      ],
       "keywords": [
-        "TODO"
+        "irregularity",
+        "application U/o 1 Rule 10 CPC",
+        "Indian Evidence Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "succession cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage is presumed to be valid unless proven otherwise.",
+      "held": "Section 114 of the Indian Evidence Act clearly raises presumption in favour of validity of a marriage.",
+      "cited_cases": [
+        "Challamma V. Tilaga and Ors (2009) 9 Supreme Court Cases 299"
+      ],
+      "keywords": [
+        "marriage",
+        "presumption",
+        "validity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "the order of\nLd Trial court is upheld",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The order of Ld Trial court is upheld",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Indian Evidence Act",
+    "Succession Certificate",
+    "Will",
+    "Inheritance",
+    "Intestate",
+    "Testate",
+    "Probate",
+    "Letters Testamentary",
+    "Heir",
+    "Legal Heir",
+    "Family Settlement",
+    "Partition",
+    "Distribution",
+    "Property Rights",
+    "Joint Family",
+    "Mitakshara Coparcenary"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a will",
+    "obtaining succession certificate",
+    "resolving family disputes over property"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:06:42.463843"
 }

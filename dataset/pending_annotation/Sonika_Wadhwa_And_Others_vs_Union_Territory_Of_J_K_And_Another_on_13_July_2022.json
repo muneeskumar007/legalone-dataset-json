@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:27.158222",
   "domain": "divorce",
-  "sub_domain": "domestic_violence",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "domestic_violence": 1,
@@ -19,13 +19,13 @@
     "Vinod Chatterji Koul J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of learned Special Municipal Mobile Magistrate, Jammu (case number: 45/2017)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sonika Wadhwa And Others vs Union Territory Of J&K And Another on 13 July, 2022",
+  "case_name": "Sonika Wadhwa And Others vs Union Territory Of J&K And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sonika Wadhwa and others (wife, husband, etc.)",
+    "respondent_defendant": "Union Territory of J&K and another (government, etc.)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner No. 1 and petitioner No. 2 were married on 20.01.2014. Due to matrimonial discord, Petitioner No. 1 filed a petition under the J&K Protection of Women from Domestic Violence Act, 2010. FIR No. 30/2017 was registered against the petitioners, which culminated into a final report.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party seeking to quash a petition to demonstrate that all issues have been amicably settled.",
+      "held": "Learned counsel for the petitioner submits that the disputes and differences have been amicably settled between the parties and memo of compromise also executed thereof, as such, prays for disposal of the instant petition and consequently, quashment of",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "quashment"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A compromise deed executed by the parties can be a valid basis for quashing a petition.",
+      "held": "Compromise deed has also been filed.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "compromise deed",
+        "quashment"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The proceedings were put to an end and the charge sheet No. 45/2017 dated 26.12.2017 was quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "domestic violence",
+    "Protection of Women from DV Act",
+    "2005",
+    "498/109/406 Cr.P.C",
+    "J&K Protection of Women from Domestic Violence Act",
+    "2010",
+    "matrimonial discord",
+    "compromise",
+    "quashment",
+    "FIR",
+    "charge sheet",
+    "final report",
+    "domestic violence act",
+    "DV Act",
+    "Section 498A",
+    "Section 109 Cr.P.C"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting DV Act petitions",
+    "quashing FIRs under Section 498A",
+    "compromise agreements in domestic violence cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:34:09.311084"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:17:14.924362",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -19,13 +19,13 @@
     "Madan Gopal Vyas J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.1, Jodhpur (Case No.402/2022)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vandana Ghavri vs Ajay Kalyana (2023:Rj-Jd:31668) on 26 September, 2023",
+  "case_name": "Vandana Ghavri vs Ajay Kalyana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vandana Ghavri, wife",
+    "respondent_defendant": "Ajay Kalyana, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife preferred a transfer petition under Section 24 of CPC for transferring the case from Family Court, Udaipur to Family Court No.1, Jodhpur.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In matrimonial proceedings, the convenience of the wife has to be considered for contesting the suit.",
+      "held": "The Hon'ble Supreme Court in the case of Vinisha Jitesh Tolani @ Manmeet Laghmani vs Jitesh Kishore Tolani 2010(1) WLC (SC) 705 has observed that",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13A"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Vinisha Jitesh Tolani @ Manmeet Laghmani vs Jitesh Kishore Tolani, 2010(1) WLC (SC) 705"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial proceedings",
+        "wife's convenience",
+        "suit contesting"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Matrimonial proceedings ought to be transferred where the wife is residing.",
+      "held": "Accordingly, the matrimonial proceedings ought to be transferred where the wife is residing.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13A"
+      ],
+      "cited_cases": [
+        "Vinisha Jitesh Tolani @ Manmeet Laghmani vs Jitesh Kishore Tolani, 2010(1) WLC (SC) 705"
+      ],
+      "keywords": [
+        "matrimonial proceedings",
+        "wife's residence",
+        "transfer"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The civil case was transferred to Family Court No.1, Jodhpur, and both parties were directed to appear before the court on 16.10.2023.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13A",
+    "Family Court",
+    "transfer petition",
+    "Domestic Violence Act",
+    "Section 12",
+    "Metropolitan Magistrate",
+    "Jodhpur",
+    "Udaipur",
+    "CPC",
+    "Section 24",
+    "petitioner-wife",
+    "respondent",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition under Section 13A of the Hindu Marriage Act",
+    "advising on jurisdictional issues between Family Courts",
+    "assisting with divorce proceedings involving domestic violence"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:24:31.908776"
 }

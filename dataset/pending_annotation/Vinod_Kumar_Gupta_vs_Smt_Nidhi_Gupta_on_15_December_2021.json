@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:17:51.570403",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "2nd Additional District Judge, Ramanujganj, Civil Suit No.9-A/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vinod Kumar Gupta vs Smt. Nidhi Gupta on 15 December, 2021",
+  "case_name": "Vinod Kumar Gupta vs Smt. Nidhi Gupta",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vinod Kumar Gupta, husband",
+    "respondent_defendant": "Smt. Nidhi Gupta, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner filed an application under Section 13 of the Hindu Marriage Act, 1955 for grant of decree of divorce on the ground of cruelty. Respondent filed an application to set aside the ex parte proceeding drawn against Petitioner.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "In family matters, particularly in matrimonial disputes, the approach is radically different from that adopted in ordinary civil proceedings.",
+      "held": "In view of the aforesaid material, in the family matters particularly, in matrimonial matters, the object of setting up of Family Court changed the approach radically different from that adopted in ordinary civil proceedings.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "family matters",
+        "matrimonial disputes",
+        "ordinary civil proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The functioning of the Court may be restricted due to pandemic, and proceedings may be adjourned till further orders.",
+      "held": "So the proceedings were adjourned till further orders.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "pandemic",
+        "Court functioning"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases affected by pandemic",
+        " Court adjournment cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
     "result": "Writ Petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "final_order": "Impugned order set aside, cost of Rs.200/- imposed on Respondent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "ex parte decree",
+    "Order 9 Rule 7 CPC",
+    "Section 13 Hindu Marriage Act",
+    "decree of divorce",
+    "imposition of cost",
+    "set aside ex parte proceeding",
+    "application under Section 13",
+    "grant of decree of divorce",
+    "ground of cruelty",
+    "Non-Applicant/wife",
+    "ex parte decree set aside",
+    "cost of Rs.200/-",
+    "Single Bench",
+    "High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce on grounds of cruelty",
+    "responding to an application to set aside ex parte decree",
+    "guidelines for imposition of cost in divorce cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:07:19.514232"
 }

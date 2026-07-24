@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:17:35.158393",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vicky Chhabra & Ors vs State Of Delhi & Anr on 11 September, 2020",
+  "case_name": "Vicky Chhabra & Ors vs State Of Delhi & Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vicky Chhabra, Tek Chand Chhabra, Urmil Chhabra (husband, father, mother)",
+    "respondent_defendant": "State of Delhi, Meenakshi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between Vicky and Meenakshi was solemnized on April 21, 2014. Irreconcilable differences arose since August 09, 2014. FIR No.786/2014 was registered against the petitioners under Section 498A/406/34 IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,111 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Parties can settle their differences through mediation.",
+      "held": "It is noted, pursuant thereof, the parties were referred to the mediation process under the aegis of Delhi Mediation Centre, Tis Hazari Courts",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mediation",
+        "conciliation"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Parties can agree to settle their disputes through a settlement agreement.",
+      "held": "It is agreed between the parties that they will not interfere in the lives of each other and shall part ways amicably",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "agreement"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Parties can agree to waive their rights and interests in each other's properties.",
+      "held": "It is agreed between the parties that after this settlement, both the parties shall be left with no right, title or interest in the movable or immovable properties of each other or their family members",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "waiver",
+        "properties"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Parties can agree to pay a penalty or compensation for defaulting on settlement terms.",
+      "held": "It is agreed between the parties that in case of default from either side in carrying out the terms of this settlement, He / she shall be liable to pay a sum of Rs.20,000/- by way of penalty / compensation to the other side",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "penalty",
+        "compensation"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties settled their differences by agreeing to pay a settlement amount in installments, and the FIR No.786/2014 was quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "498A",
+    "406",
+    "34",
+    "IPC",
+    "FIR",
+    "quash",
+    "proceedings",
+    "justice",
+    "irreconcilable differences",
+    "marriage",
+    "solemnized",
+    "April",
+    "2014",
+    "petition",
+    "affidavit",
+    "investigating officer",
+    "identification",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing FIR under Section 498A/406/34 IPC",
+    "advising on divorce proceedings",
+    "assisting with identification of parties in a case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:43:09.139261"
 }

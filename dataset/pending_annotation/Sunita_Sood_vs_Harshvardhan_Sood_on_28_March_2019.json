@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:14:31.906554",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -22,17 +22,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sunita Sood vs Harshvardhan Sood on 28 March, 2019",
+  "case_name": "Sunita Sood vs Harshvardhan Sood",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sunita Sood — wife",
+    "respondent_defendant": "Dr. Harshvardhan Sood — husband",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties agreed that the husband would pay Rs.17,000/- per month as maintenance to the wife and withdraw divorce petition filed under Section 13 of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -42,39 +42,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Parties can agree to settle disputes and withdraw pending cases.",
+      "held": "Both Dr. Harshvardhan Sood and his wife Sunita Sood have agreed that the husband would be paying a sum of Rs.17,000/- per month as maintenance to the wife which would be paid in her bank account.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "marital settlements"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "Parties can agree to settle their differences and not institute further cases.",
+      "held": "The couple has further undertaken that they will not institute any other civil or criminal case against each other or lay any other claim arising out of this matter.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "agreement"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family disputes",
+        "marital settlements"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The parties agreed to abide by this arrangement and not institute any other civil or criminal case against each other.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "maintenance",
+    "Hindu Marriage Act",
+    "Section 13",
+    "marriage",
+    "spouse",
+    "wife",
+    "husband",
+    "alimony",
+    "family law",
+    "Indian court",
+    "Punjab and Haryana High Court",
+    "Chandigarh",
+    "judgment",
+    "oral",
+    "agreement",
+    "bank account",
+    "English calendar month"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce agreements",
+    "negotiating spousal maintenance",
+    "representing clients in family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:27:32.261982"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:17:07.871789",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -19,20 +19,20 @@
     "T.V.Thamilselvi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "VI Additional Principal Judge, VI Additional Family Court, Chennai (F.C.O.P No.727 of 2016)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "U.Saravanan @ Jagadeeshwaran vs Priya @ Uma on 12 October, 2022",
+  "case_name": "U.Saravanan @ Jagadeeshwaran vs Priya @ Uma",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "husband, U.Saravanan @ Jagadeeshwaran",
+    "respondent_defendant": "wife, Priya @ Uma",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Husband filed for divorce and to declare marriage null and void; wife contested; husband sought medical examination to prove wife's fitness for matrimonial life; trial court dismissed application.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -42,39 +42,70 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The court will not order a medical examination of the wife unless there is evidence to support the husband's claim that she is unfit for normal matrimonial life.",
+      "held": "In view of the above, it reveals that the husband/petitioner herein filed I.A No. 175 of 2017 in F.C.O.P No. 727 of 2016 for medical examination of his wife/respondent herein by a Government Doctor to prove that the respondent is not fit for matrimonial life and she is not having capacity to give birth to child.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "medical examination",
+        "matrimonial life"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not order a medical examination of the wife if there is no evidence to support the husband's claim that she is unfit for normal matrimonial life.",
+      "held": "The Trial Court rightly appreciated this fact and dismissed the application which needs no interference.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "medical examination",
+        "matrimonial life"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The docket order dated 23.03.2017 made in I.A No. 175 of 2017 is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 12 (1) (C)",
+    "null and void",
+    "marriage nullity",
+    "family court",
+    "civil revision petition",
+    "docket order",
+    "I.A No. 175 of 2017",
+    "F.C.O.P No.727 of 2016",
+    "VI Additional Principal Judge",
+    "VI Additional Family Court",
+    "Chennai",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court orders",
+    "understanding Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:51:21.623945"
 }

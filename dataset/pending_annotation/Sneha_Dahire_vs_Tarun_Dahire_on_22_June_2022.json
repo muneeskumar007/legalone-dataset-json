@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:12:21.953625",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -23,13 +23,13 @@
     "Rajani Dubey J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Raipur, Civil Suit No.664/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sneha Dahire vs Tarun Dahire on 22 June, 2022",
+  "case_name": "Sneha Dahire vs Tarun Dahire",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sneha Dahire, wife",
+    "respondent_defendant": "Tarun Dahire, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -50,7 +50,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2011 and had a child in 2013. They lived separately for 6 years due to compatibility issues. The wife filed an application under Section 13(B) of the Hindu Marriage Act, 1955 seeking divorce by mutual consent.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -60,39 +60,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The consent of parties recorded on a previous date may not necessarily mean that the decree can be passed subsequently.",
+      "held": "However, it would be against the spirit of Section 9 of the Family Courts Act, 1984 and no decree can be passed subsequently.",
       "applicable_acts_sections": [
-        "TODO"
+        "Family Courts Act, 1984 — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "previous date",
+        "subsequent decree"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The Family Court is not bound to record the statement or consent of parties once having recorded it.",
+      "held": "It was a mere formality on the subsequent date and the Court was not bound to record statement or consent of the parties once having recorded.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Arjun Singh vs Mohindra Kumar and others, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "Family Court",
+        "record statement",
+        "consent"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "the appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13B",
+    "matrimonial dispute",
+    "family court",
+    "civil suit",
+    "Raipur",
+    "Chhattisgarh",
+    "Balodabazar",
+    "Tarun Dahire",
+    "Sneha Dahire",
+    "maintenance",
+    "alimony",
+    "custody",
+    "joint family",
+    "separation",
+    "nullity",
+    "voidable marriage"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on maintenance and alimony",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:25:10.759677"
 }

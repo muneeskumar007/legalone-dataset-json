@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:18:17.738359",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Osmanabad, Petition A No. 79 of 2021 (Old H.M.P. No. 134 of 2018)",
   "reserved_on": "",
   "delivered_on": "09.06.2023",
-  "case_name": "Yashwant Waman Ubale vs Shubhangi Yashwant Ubale And Anr on 7 March, 2026",
+  "case_name": "Yashwant Waman Ubale vs Shubhangi Yashwant Ubale And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Yashwant Waman Ubale, husband",
+    "respondent_defendant": "Shubhangi Yashwant Ubale and Meghraj Nivruti Sable, wife and another",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner and respondent got married in 2012, had a daughter in 2013. Respondent filed petition under Section 13(1)(i)(ia)(ib) of Hindu Marriage Act on ground of cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person who has been deserted by their spouse for two consecutive years can file a petition for divorce.",
+      "held": "The petitioner failed to prove that respondent No. 1 had deserted him for a period of two consecutive years before filing the petition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "divorce",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who has been harassed by their spouse can file a petition for divorce.",
+      "held": "The petitioner was harassed by respondent No. 1, but failed to prove the extent of harassment.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "harassment",
+        "divorce",
+        "Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed and the judgment and decree passed by the trial court are set aside. The matter is remitted back to the trial court for fresh disposal.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "cruelty",
+    "Section 13(1)(i)(ia)(ib)",
+    "Protection of Women from DV Act",
+    "Indian Penal Code",
+    "Family Court",
+    "Appeal",
+    "Marriage",
+    "Domestic Violence",
+    "DV",
+    "Matrimonial Dispute",
+    "Divorce Petition",
+    "Custody",
+    "Maintenance",
+    "Alimony",
+    "Property Settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act",
+    "advising on domestic violence cases",
+    "assisting in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:35:11.175696"
 }

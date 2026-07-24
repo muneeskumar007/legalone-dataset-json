@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:17:58.800889",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -24,13 +24,13 @@
     "I.A.No.304 of 2020",
     "O.P.No.84 of 2020"
   ],
-  "trial_court": "",
+  "trial_court": "Court of Principal District Judge, Krishna at Machilipatnam (D.O.P.No.84 of 2020)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Viswanathapalle Tanuja Lanka Tanuja, vs Nil on 22 February, 2021",
+  "case_name": "Viswanathapalle Tanuja Lanka Tanuja vs Nil",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioner (wife and husband)",
+    "respondent_defendant": "Nil",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Both petitioners are wife and husband who filed O.P. under Section 10-A of the Indian Divorce Act,1869 seeking divorce by mutual consent. They also filed I.A.No.304 of 2020 to waive off statutory period of six months.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Where the Court dealing with a matter is satisfied that a case is made out to waive the statutory period, it can do so after considering certain guidelines.",
+      "held": "Applying the above to the present situation, we are of the view that where the Court dealing with a matter is satisfied that a case is made out to waive the statutory period under Section 13-B, it can do so after considering the following:",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 13-B"
+      ],
+      "cited_cases": [
+        "Amardeep Singh Vs. Harveen Kaur, (2017) (8) SCC 746"
+      ],
+      "keywords": [
+        "waive statutory period",
+        "guidelines for waiver",
+        "Section 13-B"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH — in situations where parties have genuinely settled their differences",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The waiver application can be filed one week after the first motion giving reasons for the prayer for waiver.",
+      "held": "The waiver application can be filed one week after the first motion giving reasons for the prayer for waiver.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "waiver application",
+        "first motion",
+        "reasons for waiver"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM — in situations where parties have genuine reasons to waive the statutory period",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court waived off statutory period of six months for granting divorce by way of mutual consent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Section 10-A",
+    "Indian Divorce Act",
+    "1869",
+    "Nikhil Kumar Vs. Rupali Kumar",
+    "Article 142",
+    "Constitution of India",
+    "Principal District Judge",
+    "waive off statutory period",
+    "six months",
+    "statutory period",
+    "judgment",
+    "apex court",
+    "Section 13-B",
+    "Latin maxim",
+    "res judicata"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on mutual consent divorces",
+    "appealing against trial court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:22:55.020652"
 }

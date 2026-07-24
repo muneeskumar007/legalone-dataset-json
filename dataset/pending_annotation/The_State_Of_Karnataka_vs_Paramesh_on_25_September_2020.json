@@ -7,7 +7,7 @@
   "total_pages": 14,
   "extracted_at": "2026-07-15T11:16:04.756277",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "K.Natarajan J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "City Fast Track (Sessions) Judge, FTC-VI, Bangalore City",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "The State Of Karnataka vs Paramesh on 25 September, 2020",
+  "case_name": "The State Of Karnataka vs Paramesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "The State Of Karnataka, Through J.C. Nagar Police Station",
+    "respondent_defendant": "Paramesh, S/O Late B. Siddappa",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage of accused with N.V. Bharathi was performed on 1.11.2006. After marriage, accused made an attempt to commit murder of PW.5 - Nagaraj by assaulting with knife and caused grievous bleeding injuries. The jurisdictional Police registered a case in Crime No.228/2006 against the accused for the offence punishable under Section 324 of IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The finding recorded by the Family Court that the accused was suffering from mental disorder or mental illness is confirmed and binding on the criminal side.",
+      "held": "this Court on the civil side and the same is binding on the criminal side.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mental disorder",
+        "mental illness",
+        "Family Court"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "appeal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "At the time of commission of crime, the accused was incapable of knowing the nature of the act by reason of unsoundness of mind and therefore, he is entitled to the benefit of Section 84 of IPC.",
+      "held": "he is entitled to the benefit of Section 84 of IPC",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "unsoundness of mind",
+        "Section 84 of IPC"
+      ],
+      "favours": "accused",
+      "use_in": [
+        "murder cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The judgment and order of acquittal dated 20.09.2014 passed by the Presiding Officer, Fast Track Court-VI, Bangalore is set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "appeal",
+    "acquittal",
+    "Indian Penal Code",
+    "IPC",
+    "Section 307",
+    "Code of Criminal Procedure",
+    "Criminal Procedure Code",
+    "CrPC",
+    "Hindu Marriage Act",
+    "1955",
+    "Fast Track Court",
+    "Sessions Judge",
+    "Bangalore",
+    "Karnataka",
+    "High Court",
+    "Judgment",
+    "Order",
+    "Acquittal",
+    "Appeal",
+    "Prosecution",
+    "Defence"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting appeal against acquittal",
+    "preparing prosecution case for murder trial",
+    "defending client in criminal appeal"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:30:02.081794"
 }

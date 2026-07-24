@@ -7,7 +7,7 @@
   "total_pages": 17,
   "extracted_at": "2026-07-15T11:11:34.511490",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 4,
@@ -27,10 +27,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Shakunthala W/O.Late Lokanath ... vs Smt Sampangi on 15 February, 2024",
+  "case_name": "Smt Shakunthala W/O.Late Lokanath ... vs Smt Sampangi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shakunthala, D/O Late Govindaswamy, W/O Late Lokanath Mudaliar",
+    "respondent_defendant": "Smt. Sampangi, W/O Late Ponnuswamy, and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Smt. Shakunthala and Smt. Sampangi, along with several others. The case is about partition of property.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party claiming a right to prove that right.",
+      "held": "It was held by the trial Court that defendant No.1- Shakuntala is not the legally wedded wife of Lokanatha Mudaliar, since she had married him during the subsistence of marriage of Ponniyammal.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "right",
+        "prove"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party claiming a right must prove that right.",
+      "held": "The plaintiffs prove that they are the daughters of late Shri Lokanatha Mudlaiyar and late Smt. Ponniyammal?",
+      "applicable_acts_sections": [
+        "Hindu Succession Act, 1956"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "right",
+        "prove"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order granted the relief claimed by the appellants.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "family property",
+    "joint family",
+    "coparcenary",
+    "partition suit",
+    "share of property",
+    "devolution of property",
+    " Hindu law",
+    "family settlement",
+    "agreement to partition",
+    "mutual consent",
+    "consent of parties",
+    "partition deed",
+    "register of deeds",
+    "recording of documents"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on family property disputes",
+    "negotiating a family settlement"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:10:58.063677"
 }

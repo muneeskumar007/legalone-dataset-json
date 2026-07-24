@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:30.905571",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "custody": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge Senior Division, Satara - HMP No.650 of 2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sou. Shital Jitendra Dalavi vs Shri. Jitendra Mahadev Dalavi on 27 January, 2022",
+  "case_name": "Sou. Shital Jitendra Dalavi vs Shri. Jitendra Mahadev Dalavi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sou. Shital Jitendra Dalavi (wife)",
+    "respondent_defendant": "Shri. Jitendra Mahadev Dalavi (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent/husband initiated proceedings under Section 9 of Hindu Marriage Act for restoration and in alternate divorce under Section 13. The applicant/wife seeks transfer to the learned Civil Judge Senior Division, Khed at Rajgurunagar, District Pune.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish that transfer of proceedings would be just and convenient.",
+      "held": "Considering the distance, travel time, the applicant will suffer grave hardship.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "transfer",
+        "proceedings",
+        "grave hardship"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "applicant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court may transfer proceedings to a more convenient forum.",
+      "held": "The proceeding being HMP No.650 of 2018 pending on the file of learned Civil Judge Senior Division, Satara is sought to be transferred to the learned Civil Judge Senior Division, Khed at Rajgurunagar, District Pune.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 9"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "transfer",
+        "proceedings",
+        "convenient forum"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application stands allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 9",
+    "Section 13",
+    "restoration",
+    "alternate divorce",
+    "transfer of proceedings",
+    "custodian of minor daughter",
+    "distance",
+    "travel time",
+    "grave hardship",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting for divorce cases",
+    "advising on transfer of proceedings",
+    "assisting with Hindu Marriage Act applications"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:42:58.653546"
 }

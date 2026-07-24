@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:11:55.800851",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 4,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt. Sumanbai Wd/O Trymbakrao & 4 Ors vs Smt. Gangabai Tryambakrao Katre & 2 Ors on 4 January, 2020",
+  "case_name": "Smt. Sumanbai Wd/O Trymbakrao & 4 Ors vs Smt. Gangabai Tryambakrao Katre & 2 Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sumanbai wd/o Trymbakrao Katre, Vijay s/o Trymbakrao Katre, Ku. Reena d/o Trymbakrao Katre, Sau. Jaishree Ganeshrao Nawalkar, Sau. Neeta Nandkishor Kharate",
+    "respondent_defendant": "Smt. Gangabai Tryambakrao Katre, Ku. Kirti Tryambakrao Katre, Ku. Kanchan Tryambakrao Katre",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are referred as per their status before the trial Court. This is a suit for partition and separate possession which came to be decreed in favour of plaintiff Nos. 2 and 3 by judgment and decree dated 04/08/2005.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Legitimate children of a void marriage are entitled to have their shares in the properties left by their parents.",
+      "held": "Plaintiff Nos. 2 and 3, being legitimate children of deceased Tryambakrao as per Section 16 of the Hindu Marriage Act, 1955, are entitled to have their shares in the properties left by deceased Tryambakrao.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 16"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legitimate children",
+        "void marriage",
+        "shares in properties"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The property rights of legitimate children out of void marriage are conferred by Section 16(3) of the Hindu Marriage Act, 1955.",
+      "held": "",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 16(3)"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "property rights",
+        "legitimate children",
+        "void marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "succession cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The concurrent judgments and decree of both the Courts below are upheld.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "family property",
+    "joint family",
+    "coparcenary",
+    "co-parcener",
+    "share",
+    "partition suit",
+    "family settlement",
+    "agriculturist",
+    "household work",
+    "education",
+    "labourer",
+    "property division",
+    "family dispute",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting partition suits",
+    "advising on family property disputes",
+    "negotiating family settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:39:34.182273"
 }

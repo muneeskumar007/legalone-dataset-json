@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:14:37.136513",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 3,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Surendra S/O Manoharrao Bhele vs Latika W/O Surendra Bhele And Others on 3 July, 2017",
+  "case_name": "Surendra S/O Manoharrao Bhele vs Latika W/O Surendra Bhele And Others",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Shri Surendra s/o Manoharrao Bhele, husband",
+    "respondent_defendant": "Latika w/o Surendra Bhele, wife, and minor sons Arpit @ Bikin and Sanket",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner is challenging a judgment allowing an application under Section 127 of the Code of Criminal Procedure. The marriage was solemnized in 1997, but the husband developed a drinking habit and started pressurizing his wife to bring Rs.50,000/- from her father. She refused and was subjected to cruelty.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -67,39 +67,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse who is able to maintain their family but willfully neglects them may be ordered to pay maintenance.",
+      "held": "It was also a finding of fact, which was recorded by learned Magistrate, that husband has willfully neglected wife and sons and is willfully not maintaining them in spite of the fact that he is able to maintain them.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 125"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "neglect",
+        "ability to maintain"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "wife",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where one spouse is not supporting the other"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may consider a spouse's previous maintenance arrangements when determining their current maintenance needs.",
+      "held": "It was stated in the application that while considering application under Section 125 of the Code of Criminal Procedure, learned Magistrate also considered maintenance, which wife used to get in Hindu marriage petition under Section 24 of the Hindu Marriage Act, 1955.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24",
+        "Code of Criminal Procedure — Section 125"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "previous maintenance arrangements",
+        "current maintenance needs"
+      ],
+      "favours": "wife",
+      "use_in": [
+        "cases where a spouse's previous maintenance arrangements are relevant to their current situation"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "writ petition is dismissed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ dismissed",
+    "final_order": "The writ petition is finally heard by consent of the parties and is dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "matrimonial dispute",
+    "cruelty",
+    "desertion",
+    "separation",
+    "maintenance",
+    "alimony",
+    "custody",
+    "minor",
+    "family court",
+    "judicial separation",
+    "divorce petition",
+    "petitioner",
+    "respondent",
+    "marriage",
+    "spouse",
+    "family law"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on matrimonial disputes",
+    "representing clients in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:41:59.463778"
 }

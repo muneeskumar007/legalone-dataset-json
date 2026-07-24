@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:14:33.994735",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -21,13 +21,13 @@
     "N.K. Chandravanshi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bemetara, District Bemetara in Civil Suit No.29-A/2016",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Surabhi Singh Rajput vs Rupendra Singh Gautam on 15 February, 2023",
+  "case_name": "Surabhi Singh Rajput vs Rupendra Singh Gautam",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Surabhi Singh Rajput (wife)",
+    "respondent_defendant": "Rupendra Singh Gautam (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant filed an application to declare the marriage as a nullity, alleging abduction and forced signature on documents. Respondent claimed that the marriage was performed voluntarily. Trial court dismissed the application.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,81 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "To declare a marriage null and void, it must contravene any one of the conditions specified in clauses (i), (iv) and (v) of section 5.",
+      "held": "Section 11 of 'the Act of 1955' describes 'Void marriages' which reads as follows:— Any marriage solemnised after the commencement of this Act shall be null and void and may, on a petition presented by either party thereto [against the other party], be so declared by a decree of nullity if it contravenes any one of the conditions specified in clauses (i), (iv) and (v) of section 5.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "nullity",
+        "void marriage",
+        "conditions for a Hindu marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A marriage may be solemnized between any two Hindus if the following conditions are fulfilled.",
+      "held": "5. Conditions for a Hindu marriage.--A marriage may be solemnized between any two Hindus, if the following conditions are fulfilled, namely:—",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 5"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "conditions for a Hindu marriage",
+        "marriage solemnization"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order declared the marriage as a nullity.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "nullity",
+    "Section 11",
+    "divorce",
+    "marriage",
+    "null and void",
+    "voidable marriage",
+    "family court",
+    "civil suit",
+    "examination hall",
+    "college",
+    "car",
+    "allegation",
+    "defamation",
+    "mental cruelty",
+    "cruelty",
+    "irretrievable breakdown",
+    "separation",
+    "maintenance",
+    "custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for nullity of marriage",
+    "advising on grounds for divorce",
+    "preparing a case for maintenance and custody"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:32:11.304511"
 }

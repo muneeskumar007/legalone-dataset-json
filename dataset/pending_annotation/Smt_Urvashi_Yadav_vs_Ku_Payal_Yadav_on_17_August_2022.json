@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Janjgir, District Janjgir-Champa (CMJC No.9/2015)",
   "reserved_on": "27.07.2022",
   "delivered_on": "17.08.2022",
-  "case_name": "Smt. Urvashi Yadav vs Ku. Payal Yadav on 17 August, 2022",
+  "case_name": "Smt. Urvashi Yadav vs Ku. Payal Yadav",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Urvashi Yadav, wife",
+    "respondent_defendant": "Ku. Payal Yadav, minor through mother Smt. Dropati Yadav",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Rajendra Prasad was the husband of the appellant. He died in a road accident. The respondent is his minor daughter born to his second wife. The appellant stopped maintaining the respondent after her father's death.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,116 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A dependant shall be entitled to maintenance from those who take the estate, if they have not obtained a share in the estate by testamentary or intestate succession.",
+      "held": "The dependant shall be entitled, subject to the provisions of this Act, to maintenance from those who take the estate.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Adoptions and Maintenance Act, 1956 — Section 22"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "dependants",
+        "estate"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The liability of each person who takes the estate shall be in proportion to the value of the share or part of the estate taken by him or her.",
+      "held": "The liability of each of the persons who take the estate shall be in proportion to the value of the share or part of the estate taken by him or her.",
+      "applicable_acts_sections": [
+        "Hindu Adoptions and Maintenance Act, 1956 — Section 22"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "liability",
+        "estate",
+        "proportion"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person who is himself or herself a dependant shall not be liable to contribute to the maintenance of others, if they have obtained a share or part that would become less than what would be awarded to them by way of maintenance.",
+      "held": "No person who is himself or herself a dependant shall be liable to contribute to the maintenance of others, if he or she has obtained a share or part, the value of which is, or would, if the liability to contribute were enforced, become less than what would be awarded to him or her by way of maintenance under this Act.",
+      "applicable_acts_sections": [
+        "Hindu Adoptions and Maintenance Act, 1956 — Section 22"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "maintenance",
+        "dependants",
+        "contribute"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "An illegitimate son of a deceased Government servant is entitled to be considered for compassionate appointment.",
+      "held": "It was held that illegitimate son of the deceased Government servant is also entitled to be considered for compassionate appointment.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Piyush Kumar Anchal v. State of C.G., 2022 SCC OnLine Chh 513"
+      ],
+      "keywords": [
+        "compassionate appointment",
+        "illegitimate son"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "government job cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court directed the appellant to pay Rs.2,000/- to the respondent towards monthly maintenance. The appeal was partly allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "divorce",
+    "maintenance",
+    "monthly maintenance",
+    "Family Court",
+    "Janjgir-Champa",
+    "Chhattisgarh",
+    "road accident",
+    "primary education",
+    "Shiksha Karmi",
+    "Class-III",
+    "wife's rights",
+    "minor child",
+    "guardianship",
+    "custody",
+    "Latin maxim: Nemo dat quod non habet"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on maintenance claims",
+    "representing minors in custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:58:32.828930"
 }

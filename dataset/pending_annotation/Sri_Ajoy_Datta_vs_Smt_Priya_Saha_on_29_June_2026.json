@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:12:33.864936",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2,
@@ -21,20 +21,20 @@
     "Biswajit Palit Cav J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Agartala, West Tripura District, case No.T.S. (DIV) 424/2023",
   "reserved_on": "17.06.2026",
   "delivered_on": "29.06.2026",
-  "case_name": "Sri Ajoy Datta vs Smt. Priya Saha on 29 June, 2026",
+  "case_name": "Sri Ajoy Datta vs Smt. Priya Saha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Ajoy Datta, husband",
+    "respondent_defendant": "Smt. Priya Saha, wife",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between parties was solemnized on 13.03.2020. Appellant-husband instituted a divorce petition before the Learned Trial Court on the ground of cruelty. Suit proceeded ex-parte against respondent-wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -44,39 +44,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A party's failure to appear before the court does not necessarily mean that the suit is dismissed.",
+      "held": "Despite service of notice through paper publication dated 05.05.2024, the respondent did not appear before the Court.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sri Ajoy Datta vs Smt. Priya Saha on 29 June, 2026"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "service of notice",
+        "failure to appear",
+        "suit dismissal"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to respond to a notice does not necessarily mean that the other party has failed in their efforts.",
+      "held": "The appellant further stated that despite his efforts to restore the conjugal life, the respondent-wife did not return to the matrimonial home.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sri Ajoy Datta vs Smt. Priya Saha on 29 June, 2026"
+      ],
+      "keywords": [
+        "notice",
+        "response",
+        "efforts"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Decree in favour of the appellant-husband.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Family Courts' Act",
+    "Section 19(1)",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 28",
+    "matrimonial dispute",
+    "marriage dissolution",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property division",
+    "family law",
+    "Indian judiciary",
+    "judicial separation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in family court proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:47:28.455120"
 }

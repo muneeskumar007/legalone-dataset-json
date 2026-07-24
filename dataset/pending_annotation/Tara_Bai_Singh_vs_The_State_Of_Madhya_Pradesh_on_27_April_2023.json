@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:15:37.742280",
   "domain": "divorce",
-  "sub_domain": "will_succession",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tara Bai Singh vs The State Of Madhya Pradesh on 27 April, 2023",
+  "case_name": "Tara Bai Singh vs The State Of Madhya Pradesh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tara Bai Singh, widow of Late Shri Madan Chand Singh",
+    "respondent_defendant": "The State Of Madhya Pradesh and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the widow of Late Shri Madan Chand Singh. She claims family pension on his death. Impugned orders denying her claim are challenged.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -53,39 +53,86 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage is valid only when it is solemnized in accordance with the provisions of the Hindu Marriage Act, 1955.",
+      "held": "Reading exhaustively from this judgment, specifically paragraphs 19, 20, 21, 22 and 23, it is submitted that amongst the Hindus, a marriage is a valid marriage only when it is solemnized in accordance with the provisions under section 5 and section 7 of the Act of 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 5",
+        "Hindu Marriage Act, 1955 — Section 7"
+      ],
+      "cited_cases": [
+        "Union of India and others Vs. Padmini Dehuri, (2019) (3) MPLJ 215"
+      ],
+      "keywords": [
+        "marriage solemnization",
+        "Hindu Marriage Act",
+        "valid marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family law disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party claiming a valid remarriage to prove that it was solemnized in accordance with the provisions of the Hindu Marriage Act, 1955.",
+      "held": "Thus, there being evidence of solemnization of remarriage, pension should be allowed and the impugned orders be quashed.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "remarriage",
+        "burden of proof",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "petitioner",
       "use_in": [
-        "TODO — case types"
+        "pension cases",
+        "family law disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The writ petition is filed by the widow of Late Shri Madan Chand Singh being aggrieved of impugned orders denying her claim towards family pension on death of her husband.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "child support",
+    "property settlement",
+    "joint family",
+    "separation",
+    "nullity",
+    "voidable marriage",
+    "dissolution of marriage",
+    "marital rights",
+    "family law",
+    "Indian court judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for divorce",
+    "advising on alimony and maintenance",
+    "assisting with child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:14:36.839602"
 }

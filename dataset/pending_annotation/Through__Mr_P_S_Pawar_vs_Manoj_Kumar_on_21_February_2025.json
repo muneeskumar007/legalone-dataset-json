@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:16:23.073667",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -23,10 +23,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Through:- Mr. P.S. Pawar vs Manoj Kumar on 21 February, 2025",
+  "case_name": "Manoj Kumar Vs. Anu Bhav",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Anu Bhav, husband",
+    "respondent_defendant": "Manoj Kumar, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner seeks transfer of petition filed by respondent under Section 9 of Hindu Marriage Act from Court of learned Additional District Judge, Doda to the Court of learned Principal/Additional Principal Judge, Family Court, Jammu. Petitioner has already filed complaint under Domestic Violence Act which is pending disposal before the Court of learned JMIC Munsiff, Jammu.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,58 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party cannot be allowed to forum shop by filing a petition in a different court when the same issue is already pending before another court.",
+      "held": "It is stated by learned counsel for the petitioner that the respondent has already filed a complaint under Domestic Violence Act which is pending disposal before the Court of learned JMIC Munsiff, Jammu since 22.12.2021.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 9"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "forum shopping",
+        "pendent proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings in the case titled Manoj Kumar Vs. Anu Bhav pending before the Court of learned Additional District Judge, Doda shall remain stayed till next date of hearing.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 9",
+    "Domestic Violence Act",
+    "interim maintenance",
+    "Family Court",
+    "JMIC Munsiff",
+    "Additional District Judge",
+    "Doda",
+    "transfer petition",
+    "petition under Section 9",
+    "complaint",
+    "maintenance",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on transfer of cases between courts",
+    "assisting with maintenance applications"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:35:53.336175"
 }

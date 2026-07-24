@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:17:47.576356",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -24,10 +24,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vikramjeet Singh Chib vs The Union Of India And 2 Ors on 14 December, 2023",
+  "case_name": "Vikramjeet Singh Chib vs The Union Of India And 2 Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "VIKRAMJEET SINGH CHIB, Constable (General duty)",
+    "respondent_defendant": "THE UNION OF INDIA and 2 ORS, REP. BY THE SECY. TO THE GOVT. OF INDIA, MINISTRY OF DEFENCE, NEW DELHI",
     "other_parties": []
   },
   "acts_cited_auto": [],
@@ -38,7 +38,7 @@
   ],
   "outcome_detected": "writ petition stands allowed",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner was a Constable (General duty) in SSB, Rangia. He had matrimonial problems and was facing cases filed by his wife at Jammu. He was required to go on leave due to these issues, but was subsequently denied as he didn't report for duties.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The imposition of two punishments on a person is violative of the principle against double jeopardy.",
+      "held": "It is submitted that the authorities has imposed two punishments, namely, punishment of pack drill for 28 days as well as the dismissal from service by the impugned discharge order 28.02.2011, consequently, such action of the respondent authorities as the effect of exposing the petitioner to double jeopardy.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Union of India and others -Vs- Mahammad Ramzan Khan reported in (1991) 1 SCC 588"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "double jeopardy",
+        "punishment",
+        "imposition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A person who has already been awarded punishment earlier cannot be subjected to a harsher penalty without just cause.",
+      "held": "Alternatively, the learned counsel for the petitioner submits that since the petitioner has already been awarded punishment earlier, the imposition of penalty of dismissal from service is too harsh to be imposed on the petitioner and as such, the punishment imposed is disproportionate and therefore, should be interfered with and appropriate orders thereon be passed by this court.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Vijay Singh -Vs- Union of India and others reported in (2007) 9 SCC 63"
+      ],
+      "keywords": [
+        "punishment",
+        "harsher penalty",
+        "disproportionate"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "disciplinary actions"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "writ petition stands allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The writ petition stands allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "marriage",
+    "matrimonial",
+    "alimony",
+    "maintenance",
+    "Section 125",
+    "CPC",
+    "Code of Civil Procedure",
+    "Family Courts Act",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Section 10A",
+    "Section 23",
+    "Section 24",
+    "Section 25",
+    "Section 26"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "guidelines for alimony claims",
+    "practical tips for family court cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:59:07.896749"
 }

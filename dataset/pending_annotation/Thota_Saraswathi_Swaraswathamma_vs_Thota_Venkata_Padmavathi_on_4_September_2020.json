@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:16:22.981609",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 2,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "C.C.No.216 of 2013"
   ],
-  "trial_court": "",
+  "trial_court": "Additional Judicial Magistrate of First Class, Chirala, Prakasam District (C.C.No.216 of 2013)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Thota Saraswathi Swaraswathamma vs Thota Venkata Padmavathi on 4 September, 2020",
+  "case_name": "Thota Saraswathi Swaraswathamma vs Thota Venkata Padmavathi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Petitioners/accused Nos.2 to 8",
+    "respondent_defendant": "Respondent No.1/de facto complainant, Respondent No.2/State",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between respondent No.1 and A-1; L.W.1 gave birth to a baby girl who died within few days; accused harassed L.W.1 mentally and physically; petitioners seek to quash proceedings in C.C.No.216 of 2013",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,120 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "If the FIR does not disclose specific allegations against the accused, it would be an abuse of the legal and judicial process to mechanically send the named accused to undergo trial.",
+      "held": "It would be clear abuse of the legal and judicial process to mechanically send the named accused in the FIR to undergo the trial unless of course the FIR discloses specific allegations which would persuade the Court to take cognizance of the offence.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "(1) SCC (Cri) 120"
+      ],
+      "keywords": [
+        "FIR",
+        "specific allegations",
+        "abuse of process"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "If the FIR does not disclose the commission of an offence, the court would be justified in quashing the proceedings to prevent abuse of the process of law.",
+      "held": "The Court would be justified in quashing the proceedings preventing the abuse of the process of law.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "FIR",
+        "commission of an offence",
+        "quashing"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "matrimonial disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A complaint must show the particulars of the offence committed by each and every accused, including their role in committing the offence.",
+      "held": "The complaint is sadly vague. It does not show as to which accused has committed what offence and what is the exact role played by these appellants in the commission of offence.",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860"
+      ],
+      "cited_cases": [
+        "(10) SCC 184"
+      ],
+      "keywords": [
+        "complaint",
+        "particulars of the offence",
+        "role of accused"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A vague and general complaint is not sufficient to allow prosecution to continue against the accused.",
+      "held": "It would be an abuse of process of law to allow the prosecution to continue against the aged parents of Rajesh, the present appellants herein on the basis of vague and general complaint which is silent about the precise acts of the appellants.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "(10) SCC 184"
+      ],
+      "keywords": [
+        "vague complaint",
+        "abuse of process"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings in C.C.No.216 of 2013 are quashed",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Criminal Procedure Code",
+    "Section 482",
+    "charge sheet",
+    "Sections 498-A",
+    "509",
+    "323",
+    "read with 34 I.P.C.",
+    "marriage",
+    "Hindu caste custom",
+    "pedakakani",
+    "Guntur District",
+    "Prakasam District",
+    "Additional Judicial Magistrate of First Class",
+    "Chirala"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing criminal proceedings",
+    "family law disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:35:13.924232"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:14:33.262529",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 3,
     "land_acquisition": 2,
@@ -20,13 +20,13 @@
     "S.K. Panigrahi J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "J.M.F.C., Motu in GR Case No. 93 of 2012",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Suparna Mandal& Others vs State Of Odisha ....Opposite Party on 7 January, 2022",
+  "case_name": "Suparna Mandal& Others v. State Of Odisha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Suparna Mandal & others (Petitioners)",
+    "respondent_defendant": "State of Odisha (Opposite Party)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -62,7 +62,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioners prayed for quashing the order of cognizance dated 04.12.2012. The informant/opposite party No.2 has filed an affidavit stating that the dispute has been amicably settled between the parties.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -72,39 +72,122 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The High Court should not quash criminal cases involving heinous and serious offences like murder, rape, dacoity, etc.",
+      "held": "Such offences are not private in nature and have a serious impact on society.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Penal Code — Section 307"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "heinous",
+        "serious",
+        "offences",
+        "murder",
+        "rape",
+        "dacoity"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "case type: murder, rape, dacoity"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The High Court should examine whether the possibility of conviction is remote and bleak before quashing criminal cases.",
+      "held": "While exercising its powers, the High Court is to examine as to whether the possibility of conviction is remote and bleak and continuation of criminal cases would put the accused to great oppression and prejudice and extreme injustice would be caused to him by not quashing the criminal cases.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 482"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "conviction",
+        "remote",
+        "bleak",
+        "oppression",
+        "prejudice",
+        "injustice"
+      ],
+      "favours": "accused",
+      "use_in": [
+        "case type: quashing criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The High Court should not accept a settlement to quash criminal proceedings where the prosecution has collected sufficient evidence.",
+      "held": "However, the High Court would not rest its decision merely because there is a mention of Section 307 Indian Penal Code in the FIR or the charge is framed under this provision. It would be open to the High Court to examine as to whether incorporation of Section 307 Indian Penal Code is there for the sake of it or the prosecution has collected sufficient evidence, which if proved, would lead to proving the charge under Section 307 Indian Penal Code.",
+      "applicable_acts_sections": [
+        "Indian Penal Code — Section 307"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "settlement",
+        "sufficient",
+        "evidence",
+        "prosecution"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type: quashing criminal proceedings"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "The High Court should consider the timing of settlement when deciding whether to exercise its power under Section 482 of the Code.",
+      "held": "While deciding whether to exercise its power under Section 482 of the Code or not, timings of settlement play a crucial role. Those cases where the settlement is arrived at immediately after the alleged commission of offence and the matter is still under investigation, the High Court may be liberal in accepting the settlement to quash the criminal proceedings/investigation.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure — Section 482"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "timing",
+        "settlement",
+        "investigation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "case type: quashing criminal proceedings"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The High Court accepted the settlement and quashed the proceedings.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Indian Penal Code",
+    "quashing",
+    "cognizance",
+    "Section 482 CrPC",
+    "amicable settlement",
+    "mutual consent",
+    "dissolution of marriage",
+    "Section 13B Hindu Marriage Act",
+    "Section 320 CrPC",
+    "High Court powers",
+    "Order 18 Rule-4 CPC"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing criminal proceedings",
+    "advising on the implications of an amicable settlement in a criminal case",
+    "assisting with the dissolution of marriage under Hindu law"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:30:37.024826"
 }

@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:17:54.695262",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "land_acquisition": 1,
@@ -20,10 +20,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vishal Laxmanrao Gadewar And 3 Others vs State Of Maharashtra Thr. Pso Ps ... on 24 August, 2022",
+  "case_name": "Vishal Laxmanrao Gadewar And 3 Others vs State Of Maharashtra Thr. Pso Ps ...",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vishal Laxmanrao Gadewar & Ors.",
+    "respondent_defendant": "State of Maharashtra, through P.S.O. Police Station Yavatmal City, Yavatmal & Anr.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Matrimonial dispute between applicant No.1 and non-applicant No.2; FIR registered for offence under Section 498-A read with Section 34 of the Indian Penal Code; parties settled their mutual dispute and decided to put an end to all litigations.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,63 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "FIRs of such nature arising from matrimonial disputes can be quashed by the High Court if parties mutually settle their disputes.",
+      "held": "The Hon'ble Supreme Court in the case of Gian Singh Vs. State of Punjab and another reported in 2012(10) SC 303, has held that FIRs of such nature arising from matrimonial disputes can be quashed by the High Court by exercising power under Section 482 of the Cr.P.C.,",
       "applicable_acts_sections": [
-        "TODO"
+        "Cr.P.C. — Section 482"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Gian Singh Vs. State of Punjab and another, (2012) 10 SCC 303"
+      ],
       "keywords": [
-        "TODO"
+        "matrimonial disputes",
+        "quashing FIRs",
+        "High Court power",
+        "Section 482 Cr.P.C."
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "matrimonial dispute resolution"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH — in cases where parties settle their disputes",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The investigation may go on, but the charge-sheet shall not be filed without the leave of this Court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Indian Penal Code",
+    "Section 498-A",
+    "Section 34",
+    "matrimony",
+    "divorce",
+    "quashing",
+    "First Information Report",
+    "FIR",
+    "written report",
+    "grievance",
+    "offence",
+    "criminal application",
+    "High Court of Judicature at Bombay",
+    "Nagpur Bench",
+    "Criminal Application No.854/2020"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a quashing petition for a criminal case",
+    "advising on the applicability of Section 498-A IPC",
+    "assisting in a divorce matter involving allegations of domestic violence"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:16:37.214850"
 }

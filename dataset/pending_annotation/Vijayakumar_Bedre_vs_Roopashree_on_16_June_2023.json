@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:17:37.274125",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "custody": 2,
@@ -24,13 +24,13 @@
     "M.C.NO. 182 OF 2015",
     "M.C.No.182/2015"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Shivamogga, M.C.No. 182 of 2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vijayakumar Bedre vs Roopashree on 16 June, 2023",
+  "case_name": "Vijayakumar Bedre vs Roopashree",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vijayakumar Bedre, husband",
+    "respondent_defendant": "Roopashree, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 1998 and have been living separately since 2007. The husband filed a petition under Section 13(1)(ia) and (ib) of the Hindu Marriage Act, 1955 seeking dissolution of marriage, which was dismissed by the trial court. This appeal has been filed against that judgment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,91 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "Parties can amicably resolve disputes through mediation.",
+      "held": "Learned counsels have invited the attention of this Court to the report submitted by Shivamogga Mediation Centre.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "mediation",
+        "amicable resolution"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Parties can agree to a peaceful separation through mutual consent.",
+      "held": "That both of us have understood the consequences rising therefrom and have conceded for a peaceful separation by the way of mutual consent for divorce.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "peaceful separation",
+        "mutual consent"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "Parties can agree to a settlement that includes alimony and other terms.",
+      "held": "That we both are mature enough to understand its implications and have fully understood the contents, effects, consequences, terms and conditions, and have now appeared before the Mediation Proceedings on our own from will",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "alimony",
+        "settlement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties have amicably resolved their dispute and the appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 19(1)",
+    "Family Courts Act",
+    "1984",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "M.C.No.182 of 2015",
+    "MFA No.4048 of 2017",
+    "High Court of Karnataka",
+    "Bengaluru",
+    "Shivamogga City",
+    "Hosamange Extension Main Road",
+    "Vittal",
+    "Belur Layout",
+    "Davanagere",
+    "Family Court Act",
+    "Section 19(1)",
+    "Latin Maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court decisions",
+    "advising on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:55:19.217793"
 }

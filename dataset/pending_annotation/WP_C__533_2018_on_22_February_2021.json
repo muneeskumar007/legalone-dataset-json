@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:18:16.888563",
   "domain": "maintenance",
-  "sub_domain": "divorce",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 3,
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "WP C  533 2018 on 22 February 2021",
+  "case_name": "Sabita Kalita v. Assam Power Distribution Company Limited and others — full case name",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sabita Kalita, wife of Late Parbananda Kalita",
+    "respondent_defendant": "Assam Power Distribution Company Limited and others (1-7)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's husband retired as Vehicle Driver under Barpeta Road Electrical Sub-Division. He expired in 2016. Petitioner claims maintenance from respondents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A party seeking relief must be given a reasonable opportunity to present their case.",
+      "held": "The petitioner was not granted the opportunity of either viewing the documents of respondent No. 7, neither any reasonable opportunity was granted for hearing the claim of the petitioner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "reasonable opportunity",
+        "present their case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "maintenance cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's concealment of facts can be used against them in a legal proceeding.",
+      "held": "The writ petitioner obtained the order of maintenance by misrepresentation of facts and concealing the marriage of respondent No. 7 with the said Parbananda Kalita.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "concealment",
+        "misrepresentation"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "cases involving fraud or misrepresentation"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "Writ petition stands allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "The writ petition stands allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "maintenance",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Assam Power Distribution Company Limited",
+    "APDCL",
+    "LAR",
+    "Barpeta Electrical Division",
+    "electricity",
+    "grid",
+    "corporation",
+    "limited",
+    "company",
+    "power",
+    "distribution",
+    "management",
+    "director",
+    "chairman",
+    "chief general manager",
+    "deputy personnel manager",
+    "assistant general manager",
+    "pension",
+    "Indian Kanoon"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting maintenance petitions",
+    "assisting in electricity-related disputes",
+    "advising on corporate governance"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:29:49.920524"
 }

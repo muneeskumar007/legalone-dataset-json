@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:18:15.818929",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "WP C  1405 2018 on 11 February 2021",
+  "case_name": "Smti Pranati Roy v. State of Assam, etc.",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smti Pranati Roy, wife",
+    "respondent_defendant": "State of Assam, Commissioner & Secretary to the Government, etc.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the legally married wife of Late Subhash Roy. They lived together till his death. After his death, she had withdrawn retirement benefits but respondent No. 7 got succession certificate by misleading the Court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,21 +65,61 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A person's entitlement to pensionary benefits is governed by the rules of the Assam Services Pension Rules, 1969.",
+      "held": "Considering Smt Jaya Biswas as first wife of Late Subhash Roy, for availing pension benefits.",
       "applicable_acts_sections": [
-        "TODO"
+        "Assam Services Pension Rules, 1969"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "pensionary benefits",
+        "entitlement",
+        "rules"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "pension cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person's marital status is a relevant factor in determining their entitlement to pensionary benefits.",
+      "held": "Since yet Subhash Roy married Pranati Roy, only on 05.08.2000, which is quite later than nominating Jaya Biswas, in Form No. 7 as his wife.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marital status",
+        "entitlement",
+        "pensionary benefits"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person's criminal record can affect their entitlement to pensionary benefits.",
+      "held": "The writ petitioner was an accused in a case under Section 302 IPC, and convicted to suffer Life Imprisonment by the learned Sessions Judge, Cachar, Silchar, which was also affirmed by this Court.",
+      "applicable_acts_sections": [
+        "Indian Penal Code, 1860"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "criminal record",
+        "entitlement",
+        "pensionary benefits"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
     }
   ],
   "outcome": {
@@ -89,15 +129,33 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "Indian Penal Code",
+    "assault",
+    "intentional harm",
+    "culpable homicide",
+    "manslaughter",
+    "punishment",
+    "sentence",
+    "judicial discretion",
+    "prosecution",
+    "defence",
+    "evidence",
+    "burden of proof",
+    "onus of proof"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a murder case",
+    "assisting in a criminal trial",
+    "advising on punishment and sentence"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:29:06.875526"
 }

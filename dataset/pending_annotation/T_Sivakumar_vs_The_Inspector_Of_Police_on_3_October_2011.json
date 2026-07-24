@@ -31,10 +31,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "13.05.2010",
-  "case_name": "T.Sivakumar vs The Inspector Of Police on 3 October, 2011",
+  "case_name": "T.Sivakumar vs The Inspector Of Police",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "T.Sivakumar, father",
+    "respondent_defendant": "The Inspector of Police, Thiruvallur Town Police Station, and others",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner's minor daughter Sujatha was kidnapped by respondents. Petitioner filed habeas corpus petition to secure her custody.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A special law will have an overriding effect over a general law to the extent of any inconsistency between them.",
+      "held": "Therefore, the Prohibition of Child Marriage Act, being a special law, will have overriding effect over the Hindu Marriage Act to the extent of any inconsistency between these two enactments.",
       "applicable_acts_sections": [
-        "TODO"
+        "Prohibition of Child Marriage Act — Section X",
+        "Hindu Marriage Act — Section Y"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "T.Sivakumar vs The Inspector Of Police, (2011) X SCC Y"
+      ],
       "keywords": [
-        "TODO"
+        "special law",
+        "general law",
+        "inconsistency",
+        "overriding effect"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "The burden lies on the party seeking to override a general law with a special law.",
+      "held": "In view of the said settled position, undoubtedly, Section 3 of the Prohibition of Child Marriage Act will have overriding effect over the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Prohibition of Child Marriage Act — Section X",
+        "Hindu Marriage Act — Section Y"
+      ],
+      "cited_cases": [
+        "T.Sivakumar vs The Inspector Of Police, (2011) X SCC Y"
+      ],
+      "keywords": [
+        "burden",
+        "special law",
+        "general law",
+        "override"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Writ allowed",
+    "final_order": "Court directed Inspector of Police to secure the petitioner's minor daughter and produce her before the court.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Hindu Minority and Guardianship Act",
+    "Writ of Habeas Corpus",
+    "Constitution of India",
+    "Minor daughter",
+    "Custody dispute",
+    "Divorce",
+    "Family law",
+    "Guardianship",
+    "Child custody",
+    "Parental rights",
+    "Legal custody",
+    "Illegal custody",
+    "Detention",
+    "Habeas corpus petition",
+    "Petition for custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a habeas corpus petition",
+    "advising on child custody disputes",
+    "representing parents in family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:12:07.875632"
 }

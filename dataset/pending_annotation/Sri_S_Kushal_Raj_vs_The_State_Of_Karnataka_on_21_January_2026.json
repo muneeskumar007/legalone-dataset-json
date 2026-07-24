@@ -76,21 +76,42 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle their disputes amicably and file a compromise petition.",
+      "held": "The parties have agreed to settle all the lis between them. Accordingly, they have settled their differences and have filed this Compromise Petition.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "amicable settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "marriage annulment cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Courts can consider the terms of a compromise petition and pass appropriate orders.",
+      "held": "The said term in the settlement reads as follows: 'COMPROMISE PETITION FILED UNDER ORDER XXIII RULE 3 READ WITH SECTION 151 OF THE CODE OF CIVIL PROCEDURE.'",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compromise petition",
+        "court orders"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family disputes",
+        "marriage annulment cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
@@ -100,15 +121,40 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "Indian Penal Code",
+    "1860",
+    "Specific Relief Act",
+    "1963",
+    "marriage",
+    "spouse",
+    "alimony",
+    "maintenance",
+    "property",
+    "assets",
+    "separation",
+    "dissolution",
+    "matrimonial",
+    "dispute",
+    "conciliation",
+    "mediation",
+    "family court",
+    "high court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:18:51.717081"
 }

@@ -7,7 +7,7 @@
   "total_pages": 8,
   "extracted_at": "2026-07-15T11:13:12.199481",
   "domain": "partition",
-  "sub_domain": "property_dispute",
+  "sub_domain": "partition",
   "domain_scores": {
     "divorce": 1,
     "partition": 7,
@@ -23,13 +23,13 @@
   "case_numbers": [
     "OS.NO.\n1315/2025"
   ],
-  "trial_court": "",
+  "trial_court": "I Addl.City Civil & Sessions Judge, Bengaluru (CCH NO.2) in OS No.1315/2025",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri.Yathievendra Naik vs Sri.T.M.Yathindra on 24 July, 2025",
+  "case_name": "Sri.Yathievendra Naik vs Sri.T.M.Yathindra",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "SRI. YATHIEVENDRA NAIK @ YATHISH S/O LATE SRI. M.N. NARASIMHAMURTHY NAIK @ M.N. MURTHY NAIK",
+    "respondent_defendant": "SRI. T.M. YATHINDRA, SMT. B. MANJULA, MASTER T.M. LOHITH, SRI. CHANDRASHEKAR NAIK, SMT. ASHA RANI",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are family members seeking partition of property. The trial court allowed an application for temporary injunction. This appeal challenges that order.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A temporary injunction is not granted as a matter of right but, rather a discretionary equitable relief to preserve the subject matter of suit when there is arguable case on merits and when non-intervention would lead irreparable harm or multiplicity of proceedings.",
+      "held": "",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Revanasiddappa and another v. Mallikarjun and others, (2023) 10 SCC 1"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "temporary injunction",
+        "equitable relief",
+        "arguable case",
+        "irreparable harm",
+        "multiplicity of proceedings"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "partition cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A plaintiff must make out a sufficient prima facie case and equitable ground to justify the grant of injunction.",
+      "held": "",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Revanasiddappa and another v. Mallikarjun and others, (2023) 10 SCC 1"
+      ],
+      "keywords": [
+        "prima facie case",
+        "equitable ground",
+        "injunction"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "partition cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order allows the appeal and sets aside the trial court's order granting temporary injunction.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "partition",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "1956",
+    "family property",
+    "joint family",
+    "coparcenary",
+    "partition suit",
+    "share",
+    "interest",
+    "property rights",
+    "family settlement",
+    "agreement",
+    "mutual consent",
+    "consent decree",
+    "judgment",
+    "appeal",
+    "first appeal"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a partition suit",
+    "advising on family property disputes",
+    "preparing a consent decree"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:34:14.908926"
 }

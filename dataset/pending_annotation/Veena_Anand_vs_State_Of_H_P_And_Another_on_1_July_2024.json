@@ -7,7 +7,7 @@
   "total_pages": 13,
   "extracted_at": "2026-07-15T11:17:28.679682",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -24,13 +24,13 @@
     "Rakesh Kainthla J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Chief Judicial Magistrate, Kullu in a case titled State of H.P. Vs. Aman Anand and others",
   "reserved_on": "11.06.2024",
   "delivered_on": "",
-  "case_name": "Veena Anand vs State Of H.P. And Another on 1 July, 2024",
+  "case_name": "Veena Anand vs State Of H.P. And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Veena Anand — wife",
+    "respondent_defendant": "State of H.P. and another — husband and his family members",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -74,7 +74,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Informant Dr. Priyanka Lakhanpal filed a complaint against her husband and his family members for dowry harassment.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -84,39 +84,130 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A complaint can be quashed where the allegations made in the complaint, even if they are taken at their face value and accepted in their entirety, do not prima facie constitute any offence or make out the case alleged against the accused.",
+      "held": "For this purpose, the complaint has to be examined as a whole, but without examining the merits of the allegations. Neither a detailed inquiry nor a meticulous analysis of the material nor an assessment of the reliability or genuineness of the allegations in the complaint is warranted while examining prayer for quashing a complaint.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "State of Bihar v. Rajendra Agrawalla [(1996) 8 SCC 164: 1996 SCC (Cri) 628]"
+      ],
       "keywords": [
-        "TODO"
+        "quash",
+        "complaint",
+        "allegations",
+        "offence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A complaint may also be quashed where it is a clear abuse of the process of the court, as when the criminal proceeding is found to have been initiated with mala fides/malice for wreaking vengeance or to cause harm, or where the allegations are absurd and inherently improbable.",
+      "held": "The power to quash shall not, however, be used to stifle or scuttle a legitimate prosecution. The power should be used sparingly and with abundant caution.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "State of Bihar v. Rajendra Agrawalla [(1996) 8 SCC 164: 1996 SCC (Cri) 628]"
+      ],
+      "keywords": [
+        "abuse",
+        "process",
+        "court",
+        "mala fides",
+        "malice"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "The complaint is not required to verbatim reproduce the legal ingredients of the offence alleged. If the necessary factual foundation is laid in the complaint, merely on the ground that a few ingredients have not been stated in detail, the proceedings should not be quashed.",
+      "held": "Quashing of the complaint is warranted only where the complaint is so bereft of even the basic facts which are necessary for making out the offence.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "State of Bihar v. Rajendra Agrawalla [(1996) 8 SCC 164: 1996 SCC (Cri) 628]"
+      ],
+      "keywords": [
+        "complaint",
+        "offence",
+        "factual foundation"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A given set of facts may make out: (a) purely a civil wrong; (b) purely a criminal offence; or (c) a civil wrong as also a criminal offence.",
+      "held": "A commercial transaction or a contractual dispute, apart from furnishing a cause of action for seeking remedy in civil law, may also involve a criminal offence. As the nature and scope of a civil proceeding are different from a criminal proceeding, the mere fact that the complaint relates to a commercial transaction or breach of contract, for which a civil remedy is available or has been availed, is not by itself a ground to quash the criminal proceedings.",
+      "applicable_acts_sections": [
+        "Code of Criminal Procedure, 1973"
+      ],
+      "cited_cases": [
+        "State of Bihar v. Rajendra Agrawalla [(1996) 8 SCC 164: 1996 SCC (Cri) 628]"
+      ],
+      "keywords": [
+        "civil wrong",
+        "criminal offence",
+        "commercial transaction",
+        "contractual dispute"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The summoning order dated 18.9.2020 was quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "quashing",
+    "summoning order",
+    "Criminal Procedure Code",
+    "IPC",
+    "Hindu rites and customs",
+    "marriage",
+    "complaint",
+    "SHO",
+    "Women Police Station",
+    "Kullu",
+    "Chief Judicial Magistrate",
+    "Trial Court",
+    "Indian Penal Code",
+    "Code of Criminal Procedure",
+    "High Court",
+    "Family Court",
+    "District Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for quashing a summoning order",
+    "advising on divorce proceedings in the High Court",
+    "assisting with a complaint filed under IPC"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:36:27.260650"
 }

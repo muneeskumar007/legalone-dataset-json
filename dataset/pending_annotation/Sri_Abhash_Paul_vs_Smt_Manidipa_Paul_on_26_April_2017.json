@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:12:33.535384",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 3,
@@ -24,13 +24,13 @@
     "S. Talapatra For J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "District Judge, North Tripura, Kailashahar, T.S.(Div)03/2010",
   "reserved_on": "",
   "delivered_on": "12.09.2008",
-  "case_name": "Sri Abhash Paul vs Smt. Manidipa Paul on 26 April, 2017",
+  "case_name": "Sri Abhash Paul vs Smt. Manidipa Paul",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Abhash Paul, husband",
+    "respondent_defendant": "Smt. Manidipa Paul, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -60,7 +60,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2005. The respondent left the matrimonial home in 2006 and did not return. The petitioner filed a petition for divorce under Section 13(1)(ia) & (ib) of the Hindu Marriage Act, 1955.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -70,39 +70,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Desertion is not without any ground or without any cause.",
+      "held": "There was sufficient cause which compelled the respondent to leave her husband's house. So this is not a desertion at all.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "cause",
+        "ground"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Cruelty by one spouse can be a ground for dissolution of marriage.",
+      "held": "According to the trial court, there is material on record that there was no congenial atmosphere in the matrimonial home inasmuch as the respondent was afflicted with physical and mental torture for realizing a sum of Rs.50,000/- unlawfully.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "dissolution of marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "desertion",
+    "cruelty",
+    "divorce",
+    "dissolution of marriage",
+    "decree of divorce",
+    "abnormal behavior",
+    "pregnancy",
+    "household",
+    "marriage rites and customs",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for dissolution of marriage under Hindu Marriage Act",
+    "advising on grounds for divorce",
+    "preparing a case for desertion and cruelty"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:46:44.082206"
 }

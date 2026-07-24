@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:17:34.918064",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 9,
     "maintenance": 3,
@@ -23,13 +23,13 @@
     "Ratnaker Bhengra J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Ranchi, Original Suit No. 30 of 2003",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vibha Singh @ Bebi Kumari Singh vs Dilip Kumar Singh on 12 October, 2022",
+  "case_name": "Vibha Singh @ Bebi Kumari Singh vs Dilip Kumar Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Vibha Singh @ Bebi Kumari Singh (wife)",
+    "respondent_defendant": "Dilip Kumar Singh (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -52,7 +52,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a divorce suit against her husband citing cruelty and seeking a decree for dissolution of marriage. The trial court decreed the suit in 2006. The husband failed to pay maintenance as directed. The wife then filed an execution case. The husband later applied under section 25(2) & (3) of the Hindu Marriage Act, 1955, claiming that his wife had been living an adulterous life.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -62,39 +62,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A spouse is entitled to permanent alimony if they have no source of income and are unable to maintain themselves.",
+      "held": "The respondent has claimed that he is unemployed and has got no source of income. He is bound to maintain the Plaintiff.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 25"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "alimony",
+        "maintenance",
+        "income"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases where one spouse has no income"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A court may vary, modify or rescind any order if the wife has not remained chaste or remarried.",
+      "held": "Sub-section (2) to section 25 of the HM Act provides that the Court may vary, modify or rescind any order and, more particularly, under sub-section (3) if the Court is satisfied that the wife has not remained chaste or remarried.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 25"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "alimony",
+        "maintenance",
+        "remarriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "cases involving alimony and remarriage"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application under section 25(2) & (3) of the Hindu Marriage Act, 1955 was allowed. The husband's claim that his wife had been living an adulterous life was accepted.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Civil Procedure",
+    "1908",
+    "divorce",
+    "matrimonial title suit",
+    "judgment",
+    "decree",
+    "maintenance",
+    "alimony",
+    "marriage dissolution",
+    "property settlement",
+    "family court",
+    "civil appeal",
+    "execution case",
+    "miscellaneous execution case",
+    "original suit",
+    "matrimonial dispute"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "preparing for family court hearings",
+    "executing decrees in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:42:12.024947"
 }

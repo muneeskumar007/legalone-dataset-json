@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:12:25.270838",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -19,13 +19,13 @@
     "Vikas Suri J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Kurukshetra (TA-1533-2023)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Som Raj vs Seema Rani on 12 February, 2024",
+  "case_name": "Som Raj vs Seema Rani",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Som Raj — husband",
+    "respondent_defendant": "Seema Rani — wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are Som Raj and Seema Rani. The respondent-wife filed a petition under Section 13 of the Hindu Marriage Act, 1955, which was prayed to be transferred from the trial court to another jurisdiction.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle their disputes amicably and file a joint petition for divorce.",
+      "held": "The parties have settled their dispute out of Court and have amicably decided to file a joint petition under Section 13-B of the Hindu Marriage Act, 1955.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13-B"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "joint petition",
+        "divorce"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Respondent can withdraw a pending petition to enable parties to file a joint petition.",
+      "held": "The respondent-wife undertakes not to press the above noticed petition under Section 13 of the Hindu Marriage Act, 1955, registered as HMA/724/2023 titled as Seema Rani vs. Somraj, pending in the Court of Principal Judge, Family Court, Kurukshetra and further to withdraw the same.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "petition withdrawal",
+        "joint petition"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal rendered infructuous",
+    "final_order": "The parties have settled their dispute out of Court and will file a joint petition under Section 13-B of the Hindu Marriage Act, 1955, for dissolution of marriage by a decree of divorce by mutual consent.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13",
+    "Section 13-B",
+    "mutual consent",
+    "Family Court",
+    "Chandigarh",
+    "Kurukshetra",
+    "PHHC",
+    "Punjab and Haryana High Court",
+    "transfer petition",
+    "petition under Section 13",
+    "amicable settlement",
+    "joint petition",
+    "dissolution of marriage",
+    "decree of divorce"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a transfer petition for a divorce case",
+    "advising on amicable settlements in family disputes",
+    "preparing a joint petition under Section 13-B"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:28:20.063138"
 }

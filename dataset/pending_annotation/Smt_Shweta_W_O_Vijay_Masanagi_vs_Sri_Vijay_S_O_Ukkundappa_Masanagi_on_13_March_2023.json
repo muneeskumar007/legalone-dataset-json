@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:47.905028",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 2
@@ -25,10 +25,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Shweta W/O Vijay Masanagi vs Sri Vijay S/O Ukkundappa Masanagi on 13 March, 2023",
+  "case_name": "Smt Shweta W/O Vijay Masanagi vs Sri Vijay S/O Ukkundappa Masanagi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt Shweta W/O Vijay Masanagi (wife)",
+    "respondent_defendant": "Sri Vijay S/O Ukkundappa Masanagi (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife seeks to withdraw M.C.No.49/2022 pending on the file of the Senior Civil Judge and JMFC, Ranebennur, and transfer to the Principal Family Court, Hubballi along with Crl.Misc.No.236/2022.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The ends of justice should demand the transfer of the suit, appeal or other proceeding.",
+      "held": "The cardinal principle for exercise of power under Section 24 of the Code of Civil Procedure is that the ends of justice should demand the transfer of the suit, appeal or other proceeding.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure"
       ],
+      "cited_cases": [
+        "N.C.V. AISHWARYA VS. A.S.SARAVANA KARTHIK SHA, (2022) X SCC Y"
+      ],
+      "keywords": [
+        "matrimonial matters",
+        "ends of justice",
+        "transfer of suit"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "In matrimonial matters, the convenience of the wife needs to be considered.",
+      "held": "",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "matrimonial matters",
+        "wife's convenience"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Petitioner-wife's request to withdraw M.C.No.49/2022 and transfer it to the Principal Family Court, Hubballi is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 24 CPC",
+    "CPC",
+    "Family Court",
+    "High Court",
+    "Karnataka",
+    "Hubballi",
+    "Ranenbennur",
+    "Private Job",
+    "Household Work",
+    "Annulment",
+    "Marriage Voidable",
+    "Voidable Marriage",
+    "Separation",
+    "Maintenance",
+    "Alimony"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on Hindu Marriage Act",
+    "representing in Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:26:23.071602"
 }

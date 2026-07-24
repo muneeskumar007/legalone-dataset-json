@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:17:51.652134",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -19,13 +19,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Ghazipur - Matrimonial Case No. 120/2018",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vinod Kumar Singh vs Poonam Chauhan on 28 November, 2019",
+  "case_name": "Vinod Kumar Singh vs Poonam Chauhan",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vinod Kumar Singh (husband)",
+    "respondent_defendant": "Poonam Chauhan (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent wife left the company of the appellant husband voluntarily and the husband is unemployed. The wife filed an application under Section 24 of the Hindu Marriage Act, 1955, seeking interim maintenance and litigation expenses.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -51,39 +51,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish a prima facie case for interim maintenance.",
+      "held": "Having heard learned counsel for the appellant and perused the impugned order as well as other material brought on record, we do not find that the impugned order suffers from any error, illegality or legal infirmity requiring any interference by this Court.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "interim maintenance",
+        "prima facie case"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The award of interim maintenance cannot be termed arbitrary or excessive.",
+      "held": "Award of Rs. 3,000/- per month as interim maintenance by no stretch of imagination can be termed arbitrary or excessive.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "interim maintenance",
+        "arbitrary",
+        "excessive"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's order directing the husband to pay Rs. 3,000/- per month as interim maintenance and Rs. 10,000/- towards litigation expenses was upheld. The court also directed the Principal Judge, Family Court, Ghazipur to decide the matrimonial case expeditiously.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "interim maintenance",
+    "matrimonial case",
+    "unemployment",
+    "voluntary separation",
+    "litigation expenses",
+    "Family Court",
+    "Principal Judge",
+    "Section 24",
+    "Indian Kanoon",
+    "Vinod Kumar Singh",
+    "Poonam Chauhan",
+    "Allahabad High Court",
+    "First Appeal",
+    "Matrimonial Case No. 120/2018"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on interim maintenance",
+    "appealing Family Court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:08:03.261364"
 }

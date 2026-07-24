@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:12:24.057641",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -26,10 +26,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Somisetty Dhanasai Pravallika, vs Somisetty Venkatasathyanarayana, on 27 June, 2025",
+  "case_name": "Somisetty Dhanasai Pravallika vs Somisetty Venkatasathyanarayana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Somisetty Dhanasai Pravallika, wife and housewife",
+    "respondent_defendant": "Somisetty Venkatasathyanarayana, private employee",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner is the legally wedded wife of respondent. They were married on 12/08/2021. Due to matrimonial disputes, petitioner has been residing separately.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to withdraw a petition to establish sufficient grounds for withdrawal.",
+      "held": "The material on record prima facie goes to show that, due to the matrimonial disputes between both the spouses, the petitioner/wife has been residing separately along with her child aged about five (5) years at her parents' house at Tenali, Guntur District.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Civil Procedure"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "withdrawal",
+        "petition"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's ability to travel and attend court proceedings is a relevant factor in considering the transfer of a petition.",
+      "held": "it is very difficult for her to travel which is situated at a distance of more than 180Kms from Tenali to Kandukur to attend the divorce case proceedings on each and every adjournment without any male assistance",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "travel",
+        "attendance",
+        "petition transfer"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The High Court may be pleased to withdraw O.P No 82 of 2024 and transfer the same to the Senior Civil Judge Tenali, Guntur District, for trial and disposal of the case.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "Indian Penal Code",
+    "Section 24 CPC",
+    "Section 151 CPC",
+    "petition under section 24",
+    "petition under section 151",
+    "withdrawal of proceedings",
+    "transfer of case",
+    "family court",
+    "high court",
+    "civil judge",
+    "trial and disposal",
+    "marriage dissolution",
+    "matrimonial dispute",
+    "spousal rights",
+    "property division",
+    "maintenance",
+    "custody"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T10:29:57.009665"
 }

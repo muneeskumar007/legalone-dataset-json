@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:17:40.938049",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 8,
     "maintenance": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Vijay Kumar Ramachandra Bhate vs Neela Vijay Kumar Bhate on 16 April, 2003",
+  "case_name": "Vijay Kumar Ramachandra Bhate vs Neela Vijay Kumar Bhate",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "VIJAY KUMAR RAMACHANDRA BHATE (husband)",
+    "respondent_defendant": "NEELA VIJAY KUMAR BHATE (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The wife filed a petition for dissolution of marriage under Section 13(1)(i-a) of the Hindu Marriage Act, 1955. The husband lost before both courts below and appealed to challenge the orders.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,90 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the petitioner to establish his or her plea that the respondent had meted out cruelty.",
+      "held": "normally the burden lies on the petitioner to establish his or her plea that the respondent had meted out cruelty and that the standard of proof required in matrimonial cases under the Act is not to establish the charge of cruelty beyond reasonable doubt but merely one of weighing the various probabilities to find out whether the preponderance is in favour of the existence of the said fact alleged.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "Dr. N.G. Dastane v. Mrs. S. Dastane, AIR (1975) SC 1534"
+      ],
       "keywords": [
-        "TODO"
+        "burden",
+        "petitioner",
+        "cruelty",
+        "matrimonial cases",
+        "proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Mental cruelty can broadly be defined as that conduct which inflicts upon the other party such mental pain and suffering as would make it not possible for that party to live with the other.",
+      "held": "mental cruelty in Section 13(1) (i-a) can broadly be defined as that conduct which inflicts upon the other party such mental pain and suffering as would make it not possible for that party to live with the other and the parties cannot reasonably also be expected to live together or that the wronged party cannot reasonably be asked to put up with such conduct and continue to live with the other party.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [
+        "V. Bhagat v. D. Bhagat (Mrs.), [1994] 1 SCC 337"
+      ],
+      "keywords": [
+        "mental cruelty",
+        "conduct",
+        "pain",
+        "suffering",
+        "living together"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The final court order granted dissolution of marriage and divorce on the ground of cruelty.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "Section 28",
+    "irretrievable breakdown",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "living separately",
+    "no reconciliation",
+    "matrimonial home",
+    "joint family",
+    "family court",
+    "maintenance",
+    "alimony",
+    "property settlement",
+    "equitable distribution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on property settlement",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:49:38.275381"
 }

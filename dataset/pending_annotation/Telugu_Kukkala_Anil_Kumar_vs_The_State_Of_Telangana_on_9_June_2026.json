@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:15:54.143325",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 4,
     "maintenance": 1,
@@ -28,13 +28,13 @@
     "O.P.No.902 of 2019",
     "I.A.No.446 of 2023"
   ],
-  "trial_court": "",
+  "trial_court": "III Additional Judicial First Class Magistrate at Hanamkonda, C.C.No.1569 of 2024",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Telugu Kukkala Anil Kumar vs The State Of Telangana on 9 June, 2026",
+  "case_name": "Telugu Kukkala Anil Kumar vs The State Of Telangana",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Telugu Kukkala Anil Kumar, accused/petitioner",
+    "respondent_defendant": "The State of Telangana, Rep. by Public Prosecutor",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Accused/petitioner filed a complaint under Section 494 of IPC against respondent No.2, alleging harassment and bigamy.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -83,39 +83,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The fact that accused/petitioner got married on 28.03.2023 is permissible under law.",
+      "held": "The fact that accused/petitioner married one Kota Sri Laxmi after two years of decree of divorce is permissible under law.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "divorce",
+        "permissible"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who contracts a marriage during the life of a former husband or wife, if such husband or wife, at the time of the subsequent marriage, shall have been continually absent from such person for the space of seven years, and shall not have been heard of by such person as being alive within that time.",
+      "held": "Exception.-- This section does not extend to any person whose marriage with such husband or wife has been declared void by a Court of competent jurisdiction, nor to any person who contracts a marriage during the life of a former husband or wife, if such husband or wife, at the time of the subsequent marriage, shall have been continually absent from such person for the space of seven years, and shall not have been heard of by such person as being alive within that time",
+      "applicable_acts_sections": [
+        "IPC — Section 494"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "absence",
+        "seven years"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "bigamy cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings in C.C.No.1569 of 2024 quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Bharatiya Nagarik Suraksha Sanhita",
+    "2023",
+    "Limitation Act",
+    "1963",
+    "IPC",
+    "Section 494",
+    "Criminal Petition",
+    "quash proceedings",
+    "FIR",
+    "Indian Penal Code",
+    "1860",
+    "complaint",
+    "petitioner",
+    "respondent",
+    "magistrate",
+    "judicial first class magistrate",
+    "Hanamkonda"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing criminal proceedings",
+    "representing respondents in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:25:14.673901"
 }

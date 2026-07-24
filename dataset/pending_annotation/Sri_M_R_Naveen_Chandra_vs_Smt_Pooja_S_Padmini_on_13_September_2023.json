@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:47.920104",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "cheque_bounce": 1,
@@ -24,13 +24,13 @@
   "case_numbers": [
     "M.C.No.876/2019"
   ],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Mysuru, MC No.876/2019",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri M R Naveen Chandra vs Smt Pooja S Padmini on 13 September, 2023",
+  "case_name": "Sri M R Naveen Chandra vs Smt Pooja S Padmini",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri. M.R. Naveen Chandra, husband",
+    "respondent_defendant": "Smt. Pooja S. Padmini, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner-husband filed a petition under Section 13(1)(ia) & (ib) of the Hindu Marriage Act, 1955 seeking dissolution of marriage on the ground of cruelty. The trial court dismissed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -63,39 +63,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties can settle disputes through compromise and the court will give effect to such settlements.",
+      "held": "The parties have arrived at an amicable settlement of the dispute and accordingly they have filed a compromise petition under Order XXIII Rule 3 of Civil Procedure Code, 1908.",
       "applicable_acts_sections": [
-        "TODO"
+        "Civil Procedure Code — Order XXIII Rule 3"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "compromise",
+        "settlement",
+        "amicable settlement"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A compromise agreement can be a full and final settlement of disputes, precluding further claims.",
+      "held": "The respondent/wife accepted to receive Rs.10,00,000/- towards her permanent alimony and it is final settlement amount, there will be no further claim by the respondent/wife against the appellant/husband in any manner whatsoever.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "compromise",
+        "agreement",
+        "final settlement"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The parties arrived at an amicable settlement and the appeal was allowed with a compromise petition under Order XXIII Rule 3 of Civil Procedure Code, 1908.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(ia)(ib)",
+    "Family Courts Act",
+    "Section 19(1)",
+    "MFA No.2079 of 2022",
+    "MC No.876/2019",
+    "PRL. JUDGE, FAMILY COURT",
+    "MYSURU",
+    "Karnataka High Court",
+    "Justice G.Narendar",
+    "Justice Vijaykumar A. Patil",
+    "Latin Maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court decisions",
+    "advising on Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:04:04.052264"
 }

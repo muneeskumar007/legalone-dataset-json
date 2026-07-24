@@ -7,7 +7,7 @@
   "total_pages": 22,
   "extracted_at": "2026-07-15T11:15:40.335208",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 11,
     "partition": 4,
@@ -25,13 +25,13 @@
     "Venkateswarlu Nimmagadda J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Visakhapatnam, F.C.O.P. No. 1265 of 2011 & batch",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tarivitla Jagannadham vs U.Ramakrishna Raju on 5 August, 2022",
+  "case_name": "Tarivitla Jagannadham vs U.Ramakrishna Raju",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tarivitla Jagannadham, husband",
+    "respondent_defendant": "U.Ramakrishna Raju, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -64,7 +64,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are in a marriage dispute over two properties. The husband sought declaration of title and consequential relief. The trial court allowed the petition declaring the husband as absolute owner and set aside the sale deed executed by the wife.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -74,39 +74,84 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Family Court has jurisdiction to decide property disputes between spouses, but cannot cancel a sale deed executed in the name of a third party.",
+      "held": "The Family Court has jurisdiction to decide the dispute between spouses including property disputes, but cannot cancel the sale deed executed in the name of the third party, who is not within the purview of the Family Court or within the meaning of the parties.",
       "applicable_acts_sections": [
-        "TODO"
+        "Family Courts Act — Section 7"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "family court",
+        "property disputes",
+        "third party",
+        "sale deed"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "property disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A third party who purchases a property from one of the spouses has no right to challenge the document standing in the name of that spouse.",
+      "held": "The First Respondent-Husband has no right to challenge the document standing in the name of his wife, since she is the absolute owner of the property.",
+      "applicable_acts_sections": [
+        "Hindu Succession Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "third party",
+        "property ownership",
+        "spouse's rights"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property disputes",
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal is disposed of by this common judgment, allowing the appeals filed by both parties.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Hindu Succession Act",
+    "Code of Criminal Procedure",
+    "1973",
+    "family court",
+    "common order",
+    "sale deed",
+    "permanent injunction",
+    "consequential relief",
+    "setting aside",
+    "title declaration",
+    "Schedule Properties",
+    "petition",
+    "Family Court Appeal",
+    "F.C.A.",
+    "F.C.O.P.",
+    "Additional Family Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family court appeals",
+    "representing clients in property disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:15:30.531564"
 }

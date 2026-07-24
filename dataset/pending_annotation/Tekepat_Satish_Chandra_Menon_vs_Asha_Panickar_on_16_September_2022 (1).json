@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T11:15:51.276285",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -30,13 +30,13 @@
     "R.C.No.1274 of 2022",
     "M.C.No.90\nof 2012"
   ],
-  "trial_court": "",
+  "trial_court": "First Additional Family Court, Chennai (M.C.No.90 of 2012)",
   "reserved_on": "01.09.2022",
   "delivered_on": "16.09.2022",
-  "case_name": "Tekepat Satish Chandra Menon vs Asha Panickar on 16 September, 2022",
+  "case_name": "Tekepat Satish Chandra Menon vs Asha Panickar",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tekepat Satish Chandra Menon, former husband and father",
+    "respondent_defendant": "Asha Panickar, mother and natural guardian of Uday Krishnan Menon",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -71,7 +71,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The petitioner is the former husband and father who filed a criminal revision case to set aside an order denying his relief claims.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -81,39 +81,76 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A wife who has agreed not to claim maintenance in future is not entitled to maintenance under Section 125 of the Code of Criminal Procedure.",
+      "held": "According to the learned Counsel for the petitioner, he would submit that this is a case where the wife is living separately on account of the dissolution of marriage by mutual consent between the parties. Once the wife is living separately on mutual consent and it has been specifically agreed by her in the mutual consent petition that she will not claim any maintenance in future, she is not entitled to maintenance under Section 125 of the Code of Criminal Procedure.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure — Section 125"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "mutual consent",
+        "Section 125"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A father has a duty to maintain his child, especially if the child is special.",
+      "held": "The learned Counsel would further submit that as far as the maintenance of the child is concerned, since the child is a special child, it is the duty of the father to maintain.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "child",
+        "maintenance",
+        "special child"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court allowed the appeal and set aside the trial court's order.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Criminal Revision Case",
+    "Section 397 Cr.P.C.",
+    "Section 401 Cr.P.C.",
+    "M.C.No.90 of 2012",
+    "First Additional Family Court Chennai",
+    "Tekepat Satish Chandra Menon",
+    "Asha Panickar",
+    "Uday Krishnan Menon",
+    "Crl.R.C.Nos.743 and 1273 and 1274 of 2022",
+    "Indian Penal Code",
+    "Code of Criminal Procedure",
+    "Family Court",
+    "Chennai",
+    "Madras High Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on family court procedures",
+    "appealing criminal revision cases"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:22:29.476300"
 }

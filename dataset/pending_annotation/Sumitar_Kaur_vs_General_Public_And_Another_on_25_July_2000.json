@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:14:21.046227",
   "domain": "property_dispute",
-  "sub_domain": "divorce",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 2,
     "partition": 2,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge Sr. Division, Kaithal (case number not mentioned)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sumitar Kaur vs General Public And Another on 25 July, 2000",
+  "case_name": "Sumitar Kaur vs General Public And Another",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sumi-tar Kaur, widow and legal heir",
+    "respondent_defendant": "Amar Kaur, widow and only legal heir",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Smt. Amar Kaur filed application for grant of succession certificate to her in respect of the estate of late Waryam Singh. Smt. Sumitar Kaur contested the grant of succession certificate exclusively to Smt. Amar Kaur, praying that succession certificates be granted to her and Amar Kaur in equal shares.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A Hindu cannot take another wife during the subsistence of his previous marriage.",
+      "held": "After the coming in force of the Hindu Marriage Act, 1955 during the subsistence of his previous marriage, a Hindu cannot take another wife.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "monogamy",
+        "polygamy",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The status of wife can only be conferred on a person if they are found to be legally wedded wives.",
+      "held": "The status of wife could be conferred on Sumitar Kaur if she is found to be legally wedded wife.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "wife",
+        "legally wedded"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law",
+        "property dispute"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court set aside the order of Additional District Judge, Kaithal dated 4.6.1999 and directed that grant of succession certificate to Amar Kaur and Sumitar Kaur respecting the estate of Waryam Singh in equal shares.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Hindu Succession Act",
+    "succession certificate",
+    "Section 372",
+    "Indian Succession Act",
+    "Waryam Singh",
+    "Amar Kaur",
+    "Sumitar Kaur",
+    "property dispute",
+    "estate",
+    "inheritance",
+    "widow's rights",
+    "joint property",
+    "partition",
+    "family law",
+    "civil revision",
+    "judicial discretion"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for succession certificate",
+    "advising on inheritance disputes",
+    "assisting in family property settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:14:03.122310"
 }

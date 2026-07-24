@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:11:58.704965",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 2,
@@ -18,13 +18,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Sessions Court",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt.Sunita Jain vs Pawan Kumar Jain on 3 April, 2024",
+  "case_name": "Smt.Sunita Jain vs Pawan Kumar Jain",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt.Sunita Jain (wife)",
+    "respondent_defendant": "Pawan Kumar Jain (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties are in a domestic violence case. The wife filed an appeal against the trial court's decision. The husband did not file a reply to the wife's affidavit. The court is considering whether the filing of an affidavit of disclosure can be directed at the appellate stage.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -50,39 +50,83 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "At the appellate stage, new material cannot be introduced without testing on the touchstone of evidence.",
+      "held": "The filing of the affidavit of assets and liabilities would amount to bringing in new material which will have to be tested on the touchstone of evidence which will not be permissible at the appellate stage after final adjudication.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Rajnesh v. Neha"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance proceedings",
+        "appellate stage",
+        "new material",
+        "evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the court to ensure that mandatory provisions of law are complied with.",
+      "held": "After having gone through the decision of learned Single Judge of Bombay High Court (supra) having tested the same on the anvil of Section 24 of Hindu Marriage Act, we prima-facie feel that the said judgment appears to be rendered per incurium the mandatory provisions of Section 24 of Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 24"
+      ],
+      "cited_cases": [
+        "Rajnesh v. Neha"
+      ],
+      "keywords": [
+        "mandatory provisions",
+        "Section 24",
+        "Hindu Marriage Act"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The impugned orders are quashed and set aside. The Sessions Court is directed to decide the appeals on their own merits in accordance with law.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 24",
+    "affidavit of Disclosure",
+    "assets and liabilities",
+    "Protection of Women from Domestic Violence Act",
+    "DV Act",
+    "maintenance proceedings",
+    "Sessions Court",
+    "Apex Court",
+    "Rajnesh V. Neha",
+    "Bombay High Court",
+    "Single Bench Decision",
+    "WP (ST) Nos.",
+    "judgment of trial Court",
+    "appellate state",
+    "final judgment",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to affidavits of disclosure",
+    "appealing maintenance proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:43:00.469023"
 }

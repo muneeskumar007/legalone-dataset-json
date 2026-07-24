@@ -7,7 +7,7 @@
   "total_pages": 6,
   "extracted_at": "2026-07-15T11:16:29.599995",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court No.5, Bandra, Mumbai, Petition No.B-32 of 2010",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Tony Marcel Fernandes vs Zulekha Tony Fernandes on 1 February, 2018",
+  "case_name": "Tony Marcel Fernandes vs Zulekha Tony Fernandes",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Tony Marcel Fernandes, husband",
+    "respondent_defendant": "Zulekha Tony Fernandes, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties got married according to Hindu Vedic rites and registered their marriage under the Hindu Marriage Act, 1955. They have a daughter who was about 13 years old at the time of filing the petition. The Appellant's petition for divorce and custody of the child Michelle was dismissed by the trial court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -59,39 +59,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The principle of res judicata applies when the cause of action is the same and all averments are one and the same.",
+      "held": "It was observed that all the averments in the earlier petition and the petition filed before him were one and the same, and therefore, the cause of action was also the same.",
       "applicable_acts_sections": [
-        "TODO"
+        "CPC — Section 11"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "res judicata",
+        "cause of action",
+        "averments"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A Family Court has exclusive jurisdiction to decide on the validity of a marriage and matrimonial status.",
+      "held": "Under Section 7(1) Explanation (b) of the Family Courts Act, 1984, a suit or a proceeding for a declaration as to the validity of both marriage and matrimonial status of a person is within the exclusive jurisdiction of the Family Court.",
+      "applicable_acts_sections": [
+        "Family Courts Act — Section 7(1) Explanation (b)",
+        "Family Courts Act — Section 8"
+      ],
+      "cited_cases": [
+        "Balram Yadav Vs. Fulmaniya Yadav, (Year) X SCC Y"
+      ],
+      "keywords": [
+        "exclusive jurisdiction",
+        "matrimonial status",
+        "marriage validity"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "The Appeal is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The Appeal is allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Specific Relief Act",
+    "Family Court",
+    "custody",
+    "Christian",
+    "petition",
+    "dismissed",
+    "judgment",
+    "order",
+    "appeal",
+    "marriage",
+    "business",
+    "occupation",
+    "residing",
+    "Mumbai",
+    "Andheri",
+    "Marol",
+    "Bhavani Nagar",
+    "Mount View Society"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing family court order",
+    "seeking custody of child"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:41:22.410932"
 }

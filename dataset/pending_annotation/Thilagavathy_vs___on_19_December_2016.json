@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:16:22.372811",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "divorce": 4,
     "partition": 2,
@@ -26,13 +26,13 @@
     "A.S.No.17 of 1994",
     "O.S.No.8994 of 1991"
   ],
-  "trial_court": "",
+  "trial_court": "8th Additional Judge, City Civil Court, Madras, A.S.No.17 of 1994",
   "reserved_on": "08.12.2016",
   "delivered_on": "",
   "case_name": "Thilagavathy vs / on 19 December, 2016",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Thilagavathy and M.Mahalakshmi (wife and daughter)",
+    "respondent_defendant": "Kuppammal @ Mahamaimary (mother of deceased), State Bank of Tiruvancore, Raja, Stella Nagalingam (legal representatives of the deceased)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -66,7 +66,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The case is about terminal benefits of a deceased employee Mariaselvam. The plaintiffs claimed as wife and daughter sought for declaration that they alone are the legal heirs and entitled to the death benefit. The first defendant made a rival claim. The trial court declared both parties as legal heirs, but the lower appellate court reversed this decision.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -76,39 +76,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A document may be admissible, but its probative value may still require examination in the facts and circumstances of a particular case.",
+      "held": "Therefore, a document may be admissible, but as to whether the entry contained therein has any probative value may still be required to be examined in the facts and circumstances of a particular case.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "State of Bihar & Ors. v. Radha Krishna Singh & Ors., AIR 1983 SC 684",
+        "Ram Prasad Sharma v. State of Bihar, Air 1970 SC 326"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "admissibility",
+        "probative value",
+        "documentary evidence"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "civil cases",
+        "criminal cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The probative value of a document may be nil if it does not disclose the sources of its information or has not achieved sufficient notoriety.",
+      "held": "The probative value of documents which, however ancient they may be, do not disclose sources of their information or have not achieved sufficient notoriety is precious little.",
+      "cited_cases": [
+        "State of Bihar & Ors. v. Radha Krishna Singh & Ors., AIR 1983 SC 684"
+      ],
+      "keywords": [
+        "documentary evidence",
+        "probative value",
+        "notoriety"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "civil cases",
+        "criminal cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The final court order directed the second defendant to give employment to the first plaintiff if there is any chance for it.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "cruelty",
+    "desertion",
+    "adultery",
+    "separation",
+    "matrimonial",
+    "alimony",
+    "maintenance",
+    "property",
+    "partition",
+    "succession",
+    "family law",
+    "marriage",
+    "dissolution"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "assisting in property partition"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:34:07.326860"
 }

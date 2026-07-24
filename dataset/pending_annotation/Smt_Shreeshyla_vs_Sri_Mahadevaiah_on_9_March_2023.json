@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:11:47.282357",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 1,
@@ -20,13 +20,13 @@
     "Vijaykumar A. Patil J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bangalore, M.C No.2340/2008",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Smt Shreeshyla vs Sri Mahadevaiah on 9 March, 2023",
+  "case_name": "Smt Shreeshyla vs Sri Mahadevaiah",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shreeshyla (wife)",
+    "respondent_defendant": "Sri. Mahadevaiah (husband) - deceased, represented by LRs.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties got married in 1988. Two children were born. Husband filed petition for divorce under Section 13 of Hindu Marriage Act, 1955 on ground of cruelty. Trial court allowed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,73 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "In a case for divorce on the ground of cruelty, the conduct charged as cruelty is to be of such a character so as to cause in the mind of the petitioner a reasonable apprehension that it will be harmful or injurious for the petitioner to live with the respondent.",
+      "held": "The Supreme Court while dealing with cruelty as a ground for divorce has held",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Dr.N.G.DASTANE VS. S.DASTANE, (Year)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "cruelty",
+        "divorce",
+        "reasonable apprehension"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Special instances of cruelty have to be pleaded in a petition seeking decree of divorce on the ground of cruelty.",
+      "held": "It is well settled in law that",
+      "cited_cases": [
+        "NEELAM KUMAR VS. DAYA RANI"
+      ],
+      "keywords": [
+        "cruelty",
+        "divorce",
+        "petition"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002",
+      "applicable_acts_sections": []
     }
   ],
   "outcome": {
-    "result": "the appeal is partly allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal partly allowed",
+    "final_order": "The appeal is partly allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i)(ia)& (ib)",
+    "M.C No.2340/2008",
+    "MFA No.2347 of 2013",
+    "Family Court",
+    "Bangalore",
+    "Karnataka",
+    "High Court",
+    "Justice Alok Aradhe",
+    "Latin Maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions under Hindu Marriage Act",
+    "appealing family court judgments to High Court",
+    "guidelines for advocates on Section 13(1)(i)(ia)& (ib) of Hindu Marriage Act"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:24:10.365956"
 }

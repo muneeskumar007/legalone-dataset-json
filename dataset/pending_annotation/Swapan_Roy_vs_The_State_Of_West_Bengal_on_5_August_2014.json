@@ -7,7 +7,7 @@
   "total_pages": 1,
   "extracted_at": "2026-07-15T11:15:05.874150",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 1,
     "land_acquisition": 1
@@ -19,10 +19,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Swapan Roy vs The State Of West Bengal on 5 August, 2014",
+  "case_name": "Swapan Roy vs The State Of West Bengal",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Swapan Roy",
+    "respondent_defendant": "The State Of West Bengal",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Application by Swapan Roy against the State of West Bengal; application stands adjourned for a period of fortnight.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,61 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party seeking to set aside an order.",
+      "held": "In spite of repeated calls, none appears on behalf of the petitioner.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure, 1973"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden",
+        "petitioner",
+        "order"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "Application is totally misconceived and not maintainable and accordingly stands dismissed and disposed of.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Code of Criminal Procedure",
+    "Hindu Marriage Act",
+    "Mat. Suit",
+    "section 24",
+    "section 401",
+    "section 482",
+    "Criminal Revisional Jurisdiction",
+    "Appellate Side",
+    "C.R.A.",
+    "C.R.R.",
+    "High Court at Calcutta",
+    "Criminal Appellate Jurisdiction",
+    "Indian Kanoon",
+    "Mat.Suit No.349 of 2011",
+    "Additional District Judge",
+    "Hooghly"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "appealing criminal conviction",
+    "challenging family court order"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:00:00.790608"
 }

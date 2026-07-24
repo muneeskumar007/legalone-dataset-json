@@ -7,7 +7,7 @@
   "total_pages": 16,
   "extracted_at": "2026-07-15T11:13:14.461644",
   "domain": "murder_criminal",
-  "sub_domain": "custody",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 1,
     "maintenance": 1,
@@ -22,13 +22,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "LIII Addl. City Civil & Sessions Special Judge, Bengaluru (Spl CC No. 260 /2013)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "State Of Karnataka vs Sayabanna on 4 January, 2020",
+  "case_name": "State Of Karnataka vs Sayabanna",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "State of Karnataka, by Yelahanka New Town Police Station",
+    "respondent_defendant": "Sayabanna, s/o Late Ninganna",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Accused Sayabanna kidnapped a minor girl and took her to his native place Gulbarga. He wrongfully confined her and had sexual intercourse with her repeatedly. The case was registered against him in Crime No. 191/2013 for the offence punishable under Section 363 IPC.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the accused to prove that the consent was obtained through fear, coercion, or fraud.",
+      "held": "Though she has stated about Music Class joined by her on 18/8/2013, no documents produced before the Court.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "State Of Karnataka vs Sayabanna, (2020)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "consent",
+        "fear",
+        "coercion",
+        "fraud"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "rape cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not accept a false complaint given to break legal marriage.",
+      "held": "However, she has disclosed the Register marriage of her with the Accused to here parents. She has denied that she herself voluntarily married the Accused, thereafter their marriage was Registered in the office of the Sub- Registrar at Yelahanka.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "State Of Karnataka vs Sayabanna, (2020)"
+      ],
+      "keywords": [
+        "false complaint",
+        "legal marriage"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "marriage cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court framed charges against the accused under Sections 366, 342, 376 IPC and 5(1) R/w 6 of POCSO Act, 2012.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "Hindu Marriage Act",
+    "POCSO Act",
+    "IPC",
+    "Sections 366",
+    "342",
+    "376",
+    "Special Public Prosecutor",
+    "Yelahanka New Town Police Station",
+    "Bangalore",
+    "Bengaluru",
+    "LIII Addl. City Civil & Sessions Special Judge",
+    "Spl CC No. 260 /2013",
+    "Sayabanna",
+    "Ninganna",
+    "Raghavendra Swamy Temple",
+    "8th Cross Road",
+    "'A' Sector",
+    "Yelahanka New Town"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting criminal cases",
+    "use case for POCSO Act",
+    "advocacy in murder trials"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:37:31.158290"
 }

@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:14:40.514483",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "land_acquisition": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "learned Additional Judicial Magistrate No.8, Jaipur Metropolitan in Criminal Case No.54/2002",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Suresh Kumar S/O Late Hardas Mal, By ... vs State Of Rajasthan Through P.P on 26 February, 2020",
+  "case_name": "Suresh Kumar S/O Late Hardas Mal, By ... v. State Of Rajasthan Through P.P",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Suresh Kumar S/o Late Hardas Mal, By Caste Sindhi, Aged About 48 Years, R/o 116/147, Agarwal Farm Mansarovar, Jaipur — husband",
+    "respondent_defendant": "1. State Of Rajasthan Through P.p., Rajasthan; 2. Smt. Mohini Devi @ Meena W/o Suresh D/o Moolchand By Caste Sindhi, Aged About 46 Years, R/o At Present Of 11/264, Malviya Nagar Jaipur (Rajasthan) — wife and State",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Parties have amicably settled their dispute. They have obtained divorce under Section 13-B of the Hindu Marriage Act and have re-married.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Parties' amicable settlement of disputes can lead to quashing of proceedings.",
+      "held": "In view of the fact that parties have amicably settled their dispute, I have considered the contentions.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act",
+        "Indian Penal Code"
       ],
-      "cited_cases": [],
+      "cited_cases": [
+        "B.S. Joshi & Ors. vs. State of Haryana & Anr., 2003 Cri.L.J. 2028"
+      ],
       "keywords": [
-        "TODO"
+        "amicable settlement",
+        "quashing of proceedings",
+        "matrimonial dispute"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Compounding of offence under Section 498-A IPC is possible in matrimonial disputes.",
+      "held": "Apex Court in a matrimonial dispute had compounded the offence under Section 498-A IPC.",
+      "applicable_acts_sections": [
+        "Indian Penal Code"
+      ],
+      "cited_cases": [
+        "B.S. Joshi & Ors. vs. State of Haryana & Anr., 2003 Cri.L.J. 2028"
+      ],
+      "keywords": [
+        "compounding",
+        "offence",
+        "matrimonial disputes"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "criminal cases",
+        "family law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Proceedings pending before learned Additional Judicial Magistrate No.8, Jaipur Metropolitan in Criminal Case No.54/2002 stand quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "quashing",
+    "Criminal Miscellaneous Petition",
+    "Section 13-B",
+    "amicable settlement",
+    "re-marriage",
+    "Indian Penal Code",
+    "criminal case",
+    "judicial magistrate",
+    "complaint",
+    "petitioner",
+    "respondent",
+    "Jaipur Metropolitan",
+    "Additional Judicial Magistrate",
+    "Criminal Case No.54/2002"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing criminal proceedings",
+    "amicable settlement agreements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:44:21.199113"
 }

@@ -7,7 +7,7 @@
   "total_pages": 12,
   "extracted_at": "2026-07-15T11:14:30.167043",
   "domain": "property_dispute",
-  "sub_domain": "maintenance",
+  "sub_domain": "property_dispute",
   "domain_scores": {
     "cheque_bounce": 1,
     "maintenance": 2,
@@ -23,17 +23,17 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sunil Pandurang Mantri vs Maharashtra Savings And Anr on 1 June, 2022",
+  "case_name": "Sunil Pandurang Mantri vs Maharashtra Savings And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sunil Pandurang Mantri, Businessman",
+    "respondent_defendant": "Maharashtra Savings and Mantri Realty Limited",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Sunil Pandurang Mantri is the applicant. Maharashtra Savings and Mantri Realty Limited are the respondents.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -43,21 +43,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "A dignified citizen respectful to the orders of this Court should not travel abroad without permission.",
+      "held": "Although no passport is required to visit Nepal, however, as a dignified citizen respectful to the orders of this Court, this Application has been preferred.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sunil Pandurang Mantri vs Maharashtra Savings And Anr (2022)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "passport",
+        "travel",
+        "court order",
+        "respect"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "property dispute",
+        "family law"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A person who is restrained from leaving the country by a court order should not travel abroad without permission.",
+      "held": "Therefore, all the Directors of the Company and Shri Sunil Mantri are hereby restrained from leaving the country until further orders.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sunil Pandurang Mantri vs Maharashtra Savings And Anr (2022)"
+      ],
+      "keywords": [
+        "court order",
+        "restraint",
+        "travel"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute",
+        "family law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
+    },
+    {
+      "principle": "A person who owes money to others should not be allowed to travel abroad without providing sufficient security.",
+      "held": "He submits that his client is willing to give any security for his return to India.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sunil Pandurang Mantri vs Maharashtra Savings And Anr (2022)"
+      ],
+      "keywords": [
+        "security",
+        "travel",
+        "debt"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute",
+        "family law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_003"
+    },
+    {
+      "principle": "A person who is willing to provide sufficient security for their return should be allowed to travel abroad.",
+      "held": "He submits that the Applicant is willing to deposit the passport of his aged parents as a security for his return to India.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Sunil Pandurang Mantri vs Maharashtra Savings And Anr (2022)"
+      ],
+      "keywords": [
+        "security",
+        "travel",
+        "return"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property dispute",
+        "family law"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_004"
     }
   ],
   "outcome": {
@@ -67,15 +131,38 @@
     "costs": "TODO"
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "property_dispute",
+    "interim_application",
+    "company_petition",
+    "Indian_Companies_Act_1956",
+    "Official_Liquidator",
+    "High_Court_Bombay",
+    "Bombay_High_Court",
+    "Maharashtra_Savings",
+    "Mantri_Realty_Limited",
+    "liquidation",
+    "court_chambers",
+    "Mumbai",
+    "New_Marine_Line",
+    "Fort",
+    "Bank_of_India_Building",
+    "M_G_Road",
+    "Kalbadevi",
+    "Dabholkarwadi",
+    "Jaipuria_Building",
+    "Cuffe_Parade",
+    "Maker_Arcade"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting property dispute cases",
+    "preparing interim applications",
+    "composing company petitions"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:22:24.413108"
 }

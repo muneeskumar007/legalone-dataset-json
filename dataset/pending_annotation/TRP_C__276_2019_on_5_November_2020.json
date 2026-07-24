@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:16:31.397220",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1,
@@ -17,13 +17,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Cuttack (C.P. No.458 of 2019)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "TRP C  276 2019 on 5 November 2020",
+  "case_name": "TRP(C)/276/2019",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "wife-petitioner",
+    "respondent_defendant": "husband-opposite party",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner-wife sought transfer of C.P. No.458 of 2019 from Family Court, Cuttack to Family Court, Sambalpur due to distance and childcare responsibilities.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -49,39 +49,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The convenience of the wife is the paramount consideration.",
+      "held": "the law is well settled that the convenience of wife is the paramount consideration which is to be given precedence for consideration of application of transfer of the case.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "convenience",
+        "wife",
+        "paramount",
+        "consideration"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The plight and attending circumstances of the wife should be considered.",
+      "held": "dutta that the case of the petitioner be considered taking into consideration her plight and attending circumstances.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "plight",
+        "circumstances",
+        "wife"
+      ],
+      "favours": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "C.P. No.458 of 2019 transferred from Family Court, Cuttack to Family Court, Sambalpur.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Family Courts Act",
+    "section 13(i)(a)",
+    "section 7",
+    "transfer of case",
+    "convenience of wife",
+    "paramount consideration",
+    "minor son",
+    "education",
+    "study",
+    "Class-I",
+    "St. Joseph Convent School",
+    "Sakhipara",
+    "Sambalpur",
+    "Cuttack",
+    "distance",
+    "attendance",
+    "court proceedings"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a petition for transfer of case in divorce matters",
+    "advising clients on the convenience principle in family law cases",
+    "preparing a memo for court on the importance of considering the wife's convenience in divorce proceedings"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:46:26.283209"
 }

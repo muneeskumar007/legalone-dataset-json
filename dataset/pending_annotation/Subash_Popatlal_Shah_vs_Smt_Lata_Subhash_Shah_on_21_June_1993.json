@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:13:44.017483",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "maintenance": 2,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Bombay, M.J. Petition No. 799 of 1989 and Petition No. 500 of 1989",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Subash Popatlal Shah vs Smt. Lata Subhash Shah on 21 June, 1993",
+  "case_name": "Subash Popatlal Shah vs Smt. Lata Subhash Shah",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Subhash Popatlal Shah (husband)",
+    "respondent_defendant": "Smt. Lata Subhash Shah (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The respondent-wife filed for dissolution of marriage under Hindu Marriage Act, 1955 and separate maintenance for herself and son Anand under Section 125 of the Criminal Procedure Code. The trial court passed a decree on June 28, 1991.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
+      "principle": "The burden lies on the party seeking to set aside a finding of fact to show that the finding is unreasonable.",
+      "held": "Not even a suggestion was made to him in the cross-examination that the appellant was not his father.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Subash Popatlal Shah vs Smt. Lata Subhash Shah, (1993)"
       ],
-      "cited_cases": [],
       "keywords": [
-        "TODO"
+        "burden of proof",
+        "finding of fact"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court will not accept evidence that is a figment of imagination and totally false.",
+      "held": "We are, therefore, more than satisfied that his evidence was a figment of imagination and totally false.",
+      "applicable_acts_sections": [],
+      "cited_cases": [
+        "Subash Popatlal Shah vs Smt. Lata Subhash Shah, (1993)"
+      ],
+      "keywords": [
+        "false evidence",
+        "imagination"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeals are being disposed by this common judgment as they arise from the same impugned judgment and decree passed by the learned Principal Judge of the Family Court, Bombay.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 13(1)(i)",
+    "Section 13(1)(ib)",
+    "Section 13(2)(i)",
+    "separate maintenance",
+    "Section 125",
+    "Criminal Procedure Code",
+    "Family Court",
+    "marriage dissolution",
+    "spousal rights",
+    "matrimonial disputes",
+    "Indian law",
+    "family law",
+    "judicial separation",
+    "maintenance for spouse",
+    "maintenance for child"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on spousal maintenance",
+    "representing in family court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:41:28.702579"
 }

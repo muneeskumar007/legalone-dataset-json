@@ -7,7 +7,7 @@
   "total_pages": 9,
   "extracted_at": "2026-07-15T11:18:03.367999",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 6,
     "partition": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Second Additional Principal Judge, Family Court, Durg, in civil suit No.119-A/2014",
   "reserved_on": "14.12.2020",
   "delivered_on": "27.07.2021",
-  "case_name": "Vivek Singh vs Yogendra Singh Thakur on 27 July, 2021",
+  "case_name": "Vivek Singh vs Yogendra Singh Thakur",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Vivek Singh (husband)",
+    "respondent_defendant": "Yogendra Singh Thakur (father-in-law)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -56,7 +56,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Appellant and late wife were married on 23-6-2007. Late wife committed suicide on 3-1-2009. Respondent claimed return of properties gifted to his daughter at the time of marriage. Appellant objected to jurisdiction of Family Court.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -66,39 +66,89 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The Family Court can only assume jurisdiction if there is a dispute between the parties to a marriage with respect to their marital status, divorce, restitution of conjugal rights, judicial separation, child custody, maintenance, or property sharing.",
+      "held": "But, in no event, the Family Court can have jurisdiction if the above dispute is absent. By no stretch of imagination, can the Family Court assume jurisdiction, if there is a dispute between the brothers, sisters, mothers, fathers etc. concerning property and the case on hand being one such, the Family Court had clearly no jurisdiction.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 7"
+      ],
+      "cited_cases": [
+        "P. Srihari (supra)"
+      ],
+      "keywords": [
+        "Family Court",
+        "marital status",
+        "divorce",
+        "property sharing"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases",
+        "family disputes"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The Family Court's jurisdiction is limited to suits and proceedings between the parties to a marriage with respect to their property or of either of them.",
+      "held": "A plain reading of the provisions would manifest that for maintaining a suit or proceeding of the nature mentioned in Explanation (c) sub-section (1) of Section 7 of the Act, 1984, the suit or proceeding has to be between the parties to a marriage with respect to the property of the parties or of either of them.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 7"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Family Court",
+        "marriage",
+        "property"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "family disputes",
+        "property cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal preferred by husband challenging judgment and decree of trial court allowing suit for return of properties",
+    "final_order": "Court allowed appeal, set aside judgment and decree of trial court, and remanded matter back to trial court for fresh decision.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Family Courts Act",
+    "1984",
+    "Section 19",
+    "Section 7",
+    "Section 10",
+    "Section 13",
+    "Section 14",
+    "Section 17",
+    "Section 18",
+    "Section 20",
+    "matrimonial dispute",
+    "alimony",
+    "maintenance",
+    "custody",
+    "property settlement",
+    "joint family",
+    "separation",
+    "marriage",
+    "divorce proceedings"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on alimony and maintenance",
+    "representing in matrimonial disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:27:10.820609"
 }

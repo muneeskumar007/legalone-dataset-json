@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:15:07.342883",
   "domain": "divorce",
-  "sub_domain": "land_acquisition",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "land_acquisition": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Civil Judge Junior Division, JMFC Court at Mahad, Raigad (R.C.C. No.09 of 2017)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Swapnil Dnyandev More And Ors vs State Of Maharashtra And Anr on 11 November, 2022",
+  "case_name": "Swapnil Dnyandev More And Ors vs State Of Maharashtra And Anr",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Swapnil Dnyandev More, husband; Dnyandev Ragho More, in-laws; Kamal @Geeta Dnyandev More, sister-in-law; Sraika Dnyandev More, sister-in-law",
+    "respondent_defendant": "State of Maharashtra, respondent No.1; Sonali Swapnil More, respondent No.2",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The applicants seek quashing of the FIR bearing C.R. No.82 of 2016 registered with the Mahad Police Station, Raigad, for alleged offences punishable under Sections 498A, 406, 504, 506 r/w 34 of the Indian Penal Code. The parties have amicably settled their dispute.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -58,39 +58,79 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the applicant to establish that the FIR is frivolous and that there are no reasonable grounds for proceeding with the case.",
+      "held": "Perused the papers. The applicants seek quashing of the FIR... Quashing is sought on the premise, that the parties have amicably settled their dispute.",
       "applicable_acts_sections": [
-        "TODO"
+        "Code of Criminal Procedure"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "quashing",
+        "FIR",
+        "frivolous",
+        "reasonable grounds"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "applicant",
       "use_in": [
-        "TODO — case types"
+        "quashment proceedings"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "Consent terms executed by the parties can be a basis for quashing of the FIR.",
+      "held": "During the pendency of the aforesaid proceeding, the parties amicably settled their dispute. Accordingly, the divorce petition filed by the applicant No.1 before the learned Judge, Family Court, Thane, was converted into a petition under Section 13-B of the Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "consent terms",
+        "quashing",
+        "FIR"
+      ],
+      "favours": "applicant",
+      "use_in": [
+        "divorce proceedings"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The FIR bearing C.R. No.82 of 2016 is quashed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Criminal Procedure",
+    "Section 482",
+    "quashing FIR",
+    "Criminal Application No.265",
+    "Swapnil Dnyandev More",
+    "State Of Maharashtra",
+    "FIR bearing C.R. No.82",
+    "2016",
+    "criminal procedure",
+    "judicial discretion",
+    "anticipatory bail",
+    "family law",
+    "marriage dissolution",
+    "matrimonial disputes"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "quashing FIRs in matrimonial cases",
+    "seeking anticipatory bail in family disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:01:32.929820"
 }

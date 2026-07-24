@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:12:46.746369",
   "domain": "maintenance",
-  "sub_domain": "divorce",
+  "sub_domain": "maintenance",
   "domain_scores": {
     "divorce": 2,
     "partition": 2,
@@ -24,20 +24,20 @@
     "S. Datta Purkayastha J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Kailasahar, Unakoti, in connection with case No. Civil Misc. 14 of 2023",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri Manindra Das vs Smt. Riya Harijan (Das) on 13 May, 2026",
+  "case_name": "Sri Manindra Das vs Smt. Riya Harijan (Das)",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri Manindra Das, son of late Thakurmani Das, resident of Industric, Kumarghat",
+    "respondent_defendant": "Smt. Riya Harijan (Das), daughter of Smt. Gita Harijan, wife of late Amit Das, C/o Rita Shil, of Ratikroy",
     "other_parties": []
   },
   "acts_cited_auto": [],
   "case_citations": [],
   "outcome_detected": "",
   "acts_cited": [],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Respondent no.1 eloped with one Amit Das and got married. She was tortured by the appellant and his wife on monetary demand. She started living in a rented house of her mother at Fatikroy.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -47,39 +47,77 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A widowed daughter-in-law can claim maintenance from her father-in-law if she is unable to maintain herself out of her own earnings or out of the estate of her husband or her father or mother.",
+      "held": "As per the provisions enumerated under Section 19 of the Hindu Adoptions and Maintenance Act, 1956, a widowed daughter-in-law can claim maintenance from her father-in-law if she is unable to maintain herself out of her own earnings or out of the estate of her husband or her father or mother.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Adoptions and Maintenance Act, 1956 — Section 19"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "widowed daughter-in-law",
+        "father-in-law"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "family law cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the respondent to prove that she does not have any source of income.",
+      "held": "He has further submitted that to get the maintenance from the father-in-law, the daughter-in-law is required to prove that she does not have any source of income which she failed to prove by placing reliable and cogent evidence.",
+      "applicable_acts_sections": [
+        "Hindu Adoptions and Maintenance Act, 1956 — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "source of income",
+        "maintenance"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "family law cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The trial court directed the appellant to pay Rs.700/- per month to respondent no.1 and Rs.500/- per month to respondent no.2 as maintenance.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "maintenance",
+    "alimony",
+    "Section 125 CrPC",
+    "Custody",
+    "minor children",
+    "family law",
+    "matrimonial dispute",
+    "divorce",
+    "child support",
+    "parental rights",
+    "property settlement",
+    "joint family",
+    " Hindu Marriage Act",
+    "Family Court",
+    "judgment and order"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting maintenance petition",
+    "preparing alimony application",
+    "guidelines for child custody disputes"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:06:27.123286"
 }

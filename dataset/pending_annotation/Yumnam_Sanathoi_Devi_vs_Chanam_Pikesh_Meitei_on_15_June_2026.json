@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:18:26.215804",
   "domain": "divorce",
-  "sub_domain": "custody",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 5,
     "maintenance": 1,
@@ -22,13 +22,13 @@
     "Ahanthem Bimol Singh J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court, Manipur at Lamphelpat, Imphal (Matrimonial Suit No. 57 of 2024)",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Yumnam Sanathoi Devi vs Chanam Pikesh Meitei on 15 June, 2026",
+  "case_name": "Yumnam Sanathoi Devi vs Chanam Pikesh Meitei",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Yumnam Sanathoi Devi, wife",
+    "respondent_defendant": "Chanam Pikesh Meitei, husband",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner wife seeks divorce and visitation rights for minor child; trial court dismissed petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -54,39 +54,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "An appeal under Section 28 of the Hindu Marriage Act, 1955 must be heard by a Division Bench.",
+      "held": "Rule 10(a) of General Rules of Chapter-II of High Court of Manipur Rules, 2019 mandates that such appeals are to be heard by a Division Bench.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 28"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "appeal",
+        "Division Bench",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A statutory appeal under Section 19 of the Family Courts Act, 1984 must be heard by a Bench consisting of two or more judges.",
+      "held": "Sub-section (6) of section 19 of FCA mandates that such appeal shall be heard by a Bench consisting of 2(two) or more judges.",
+      "applicable_acts_sections": [
+        "Family Courts Act, 1984 — Section 19"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "statutory appeal",
+        "Family Courts Act",
+        "Bench"
+      ],
+      "favors": "neutral",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "Court allows appeal, sets aside impugned decree, and grants visitation rights to petitioner.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "matrimonial appeal",
+    "MC(Matrimonial Appeal)",
+    "Matrimonial Appeal No.",
+    "Section 13(1)(i) Hindu Marriage Act",
+    "cruelty",
+    "irretrievable breakdown",
+    "marriage",
+    "separation",
+    "cohabitation",
+    "illegality",
+    "voidable marriage",
+    "Latin maxim: 'actus curiae memineris'",
+    "imputations",
+    "allegation",
+    "defamation"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a divorce petition under Hindu Marriage Act, 1955",
+    "responding to allegations of cruelty in a matrimonial appeal",
+    "arguing irretrievable breakdown of marriage"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T15:39:57.396494"
 }

@@ -7,7 +7,7 @@
   "total_pages": 5,
   "extracted_at": "2026-07-15T11:12:49.447239",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "partition": 1,
@@ -26,13 +26,13 @@
     "M.C.NO.974/2012",
     "M.C.No.974/2012"
   ],
-  "trial_court": "",
+  "trial_court": "III Additional Principal Judge, Family Court at Bengaluru, M.C.No.974/2012",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri N Ramesh Rao Mane vs Smt Sumathi Bai Sindhe B on 7 August, 2023",
+  "case_name": "Sri N Ramesh Rao Mane vs Smt Sumathi Bai Sindhe B",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri N. Ramesh Rao Mane, husband",
+    "respondent_defendant": "Smt. Sumathi Bai Sindhe B., wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized on 16.02.2006. The husband filed a petition under Section 13(1)(ia)(ib) of the Hindu Marriage Act, 1955 seeking dissolution of marriage on the ground of cruelty and desertion. The trial court allowed the petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The court's discretion in awarding maintenance is not unfettered and must be guided by the principles of justice, equity and good conscience.",
+      "held": "It is submitted that the Family Court has failed to consider the evidence on record in its proper perspective...",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "maintenance",
+        "justice",
+        "equity",
+        "good conscience"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court must consider the financial capacity of both parties before awarding maintenance.",
+      "held": "It is submitted that the cross objector-husband has a responsibility to take care of his ailing mother, step mother, and the entire earning of the cross objector-husband is being spent on maintaining the dependants in the joint family.",
+      "applicable_acts_sections": [
+        "Code of Civil Procedure, 1908"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "financial capacity",
+        "maintenance"
+      ],
+      "favours": "defendant",
+      "use_in": [
+        "maintenance cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The cross objection is filed to set aside the judgment and decree dated 09.11.2016 passed in M.C.No.974/2012 by which the petition filed by the petitioner-husband was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Code of Civil Procedure",
+    "maintenance",
+    "minor son",
+    "family court",
+    "judgment and decree",
+    "set aside",
+    "monthly maintenance",
+    "CPC Rule 22",
+    "CPC Rule 41",
+    "Family Court at Bangalore",
+    "III Additional Principal Judge"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to cross-objections in family court cases",
+    "appealing judgments and decrees in family courts"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:09:19.734227"
 }

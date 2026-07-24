@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:17:06.566129",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -21,10 +21,10 @@
   "trial_court": "",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Usha Devi & Anr vs Most.Parwati Devi & Ors on 22 August, 2008",
+  "case_name": "Usha Devi & Anr vs Most.Parwati Devi & Ors",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Usha Devi & Anr",
+    "respondent_defendant": "Most.Parwati Devi & Ors",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner no. 1's marriage to Late Nawal Kishore Singh was held void, and the main issue was adjudicated without leading evidence. The respondent sought a declaration that the alleged second marriage of the petitioner with Nand Kishore Singh during subsistence of the first marriage be declared as void.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -57,39 +57,74 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnized during the lifetime of a spouse is void.",
+      "held": "Besides this, a marriage solemnized during the life time of a spouse is a void marriage in accordance with the provisions of Sec. 5 of the Hindu Marriage Act.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act — Section 5"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "solemnized during lifetime"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A suit for a declaration as to the validity of marriage or as to matrimonial status can be instituted in a family court.",
+      "held": "a suit or proceeding for a declaration as to the validity of marriage or as to matrimonial status of any person and u/s 7 E a suit for proceeding for a declaration as to the legitimacy of any person can be instituted in a family court",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act — Section 7"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "family court",
+        "suit for declaration"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "matrimonial cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "Limitation Act",
+    "void marriage",
+    "matrimonial case",
+    "Order-VII Rule-11(d)",
+    "C.P.C.",
+    "Article 58",
+    "divorce",
+    "marriage",
+    "judgment",
+    "jurisdictional error",
+    "matrimony",
+    "family law",
+    "Indian court judgment"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on jurisdictional issues in family courts",
+    "preparing for a matrimonial case"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T14:07:16.276515"
 }

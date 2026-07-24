@@ -7,7 +7,7 @@
   "total_pages": 3,
   "extracted_at": "2026-07-15T11:12:50.494294",
   "domain": "land_acquisition",
-  "sub_domain": "divorce",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 1,
     "custody": 1,
@@ -20,13 +20,13 @@
     "Mohammad Nawaz J."
   ],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Senior Civil Judge at Kolar, MC No.21/2015",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "Sri. Raghupathi vs Smt. Anitha on 5 June, 2018",
+  "case_name": "Sri. Raghupathi vs Smt. Anitha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri. Raghupathi, husband",
+    "respondent_defendant": "Smt. Anitha, wife and Master Babu, minor son",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "The parties were married in 2003. The respondent filed a petition under Sections 11 and 16(3) of the Hindu Marriage Act, 1955, seeking dissolution of marriage. The trial court partly allowed the petition, declaring the marriage null and void.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -52,39 +52,96 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A marriage solemnized after the commencement of this Act shall be null and void if it contravenes any one of the conditions specified in Section 5(i) of the Hindu Marriage Act, 1955.",
+      "held": "In view of the above, the dissolution of the marriage ordered by the trial Court is in accordance with Section 11 read with Section 5(i) of the Hindu Marriage Act, 1955 ('the Act').",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 11",
+        "Hindu Marriage Act, 1955 — Section 5(i)"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "marriage",
+        "null and void",
+        "contravene",
+        "conditions",
+        "Hindu Marriage Act"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favourites": "neutral",
       "use_in": [
-        "TODO — case types"
+        "land acquisition",
+        "family disputes"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A party's first marriage must be dissolved before marrying another person.",
+      "held": "The appellant's first marriage with one Smt. Radhamma was not dissolved when the appellant married the respondent.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 11"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "marriage",
+        "dissolution",
+        "first marriage",
+        "second marriage"
+      ],
+      "favourites": "neutral",
+      "use_in": [
+        "family disputes",
+        "succession cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The trial court's order was upheld, and the marriage was declared null and void.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "land_acquisition",
+    "Hindu Marriage Act",
+    "Section 28(1)",
+    "MFA No.2348/2017",
+    "MC No.21/2015",
+    "Principal Senior Civil Judge",
+    "Kolar District",
+    "Andhra Pradesh",
+    "Chittoor District",
+    "Thambalapalli Taluk",
+    "Mulakalacheruvu Mandalam",
+    "Yaramreddigaripallai",
+    "Avaganapalli Village",
+    "Rayalpad Hobli",
+    "Srinivasapur Taluk",
+    "Kolar",
+    "Section 25(1)",
+    "Section 28(2)",
+    "Section 29(1)",
+    "Section 30(1)",
+    "Section 31(1)",
+    "Section 32(1)",
+    "Section 33(1)",
+    "Section 34(1)",
+    "Section 35(1)",
+    "Section 36(1)"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "land acquisition disputes",
+    "Hindu Marriage Act applications",
+    "family law matters"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:13:21.085689"
 }

@@ -7,7 +7,7 @@
   "total_pages": 28,
   "extracted_at": "2026-07-15T11:13:17.491591",
   "domain": "murder_criminal",
-  "sub_domain": "divorce",
+  "sub_domain": "murder_criminal",
   "domain_scores": {
     "divorce": 2,
     "maintenance": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Sh. Kumar Rajat, Addl. Sessions Judge-07, Shahdara District, Karkardooma Courts, Delhi",
   "reserved_on": "",
   "delivered_on": "28.05.2025",
-  "case_name": "State vs Amit on 28 May, 2025",
+  "case_name": "State vs Amit",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "State",
+    "respondent_defendant": "Amit, S/o Sh. Vishnu",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -72,7 +72,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Manju, w/o Amit Kumar committed suicide on 05.02.2019. Accused pleaded not guilty and claimed trial.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -82,39 +82,82 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the accused to prove that the identification was not correct.",
+      "held": "PW14 correctly identified two pieces of dupatta/chunni, Ex.P1 as being the same pieces of dupatta/chunni, which was seized by him vide seizure memo, Ex.PW14/A.",
       "applicable_acts_sections": [
-        "TODO"
+        "Indian Evidence Act"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "identification",
+        "burden",
+        "accused"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "murder cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The court relies on the testimony of a witness who correctly identifies an object.",
+      "held": "PW14 correctly identified scissors with yellow grip, Ex.P2 as being the same scissors, which was seized by him vide seizure memo, Ex.PW14/A.",
+      "applicable_acts_sections": [
+        "Indian Evidence Act"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "witness testimony",
+        "identification",
+        "object"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "property cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Acquitted",
+    "final_order": "",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "murder",
+    "criminal",
+    "IPC",
+    "498A",
+    "304B",
+    "suicide",
+    "hanging",
+    "ceiling fan",
+    "chunni",
+    "GTB Hospital",
+    "pregnancy",
+    "alleged hanging",
+    "SDM",
+    "crime team",
+    "Executive Magistrate",
+    "statement of father",
+    "residency",
+    "marriage",
+    "articles",
+    "Latin maxim: Actus non facit reum nisi mens sit rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting a murder case",
+    "drafting a criminal case",
+    "drafting a case involving suicide"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:38:22.858828"
 }

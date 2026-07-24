@@ -7,7 +7,7 @@
   "total_pages": 2,
   "extracted_at": "2026-07-15T11:15:53.074855",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "maintenance": 1
@@ -16,13 +16,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Family Court Imphal East at Lamphelpat (Mat. (Div.) Suit No. 72 of 2025)",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Telen Kom vs Date: 2025.12 on 1 December, 2025",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "TELEN KOM (husband and wife)",
+    "respondent_defendant": "Tongbram Romojit Singh & 3 ors.",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -38,7 +38,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Husband and wife filed a petition seeking divorce by mutual consent under 'Section 13B of the Hindu Marriage Act, 1955'; impugned order allowed the petition; wife filed a civil revision petition.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -48,39 +48,75 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
-      "applicable_acts_sections": [
-        "TODO"
-      ],
+      "principle": "The burden lies on the party seeking revision to establish that the impugned order is contrary to law or grossly erroneous.",
+      "held": "Without issuing notice to the respondents, this Court deems it appropriate to requisition a report along with entire records from the said Family Court as regards whether the revision petitioner (Tongbram Ongbi Rashirani Devi) deposed before the learned District Judge and the supporting records in this regard.",
+      "applicable_acts_sections": [],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "revision",
+        "impugned order"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A report shall be sent by the learned Judicial Officer of said Family Court to the Registrar (Judl.) of this Court in a sealed envelope who in turn shall place the sealed envelope before this Court.",
+      "held": "",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "report",
+        "sealed envelope"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "family court cases"
+      ],
+      "significance": "LOW",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal pending",
+    "final_order": "Court deems it appropriate to requisition a report along with entire records from the said Family Court as regards whether the revision petitioner (wife) deposed before the learned District Judge and the supporting records in this regard.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "mutual consent",
+    "Hindu Marriage Act",
+    "Section 13B",
+    "Family Court",
+    "Imphal East",
+    "Lamphelpat",
+    "Civil Revision Petition",
+    "CRP",
+    "Mat. (Div.) Suit No. 72 of 2025",
+    "Judgment & Order",
+    "impugned order",
+    "petition",
+    "wife",
+    "husband",
+    "joint petition",
+    "Section 13B Hindu Marriage Act",
+    "Family Court Imphal East",
+    "Lamphelpat Family Court"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on joint petitions",
+    "appealing family court orders"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:24:15.833297"
 }

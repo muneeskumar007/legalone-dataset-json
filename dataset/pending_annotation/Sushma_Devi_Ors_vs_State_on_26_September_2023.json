@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:14:46.172528",
   "domain": "divorce",
-  "sub_domain": "property_dispute",
+  "sub_domain": "will_succession",
   "domain_scores": {
     "divorce": 2,
     "partition": 1,
@@ -20,13 +20,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Court of Swati Gupta-I, ACJ-Cum-ARC-Cum-CCJ, New Delhi District, Patiala House Courts, New Delhi, Succession Case No. 41/2016 (old no. 2/13)",
   "reserved_on": "",
   "delivered_on": "",
   "case_name": "Sushma Devi Ors vs State on 26 September, 2023",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Sushma W/o Sh. Naresh Kumar, Sh. Vinay Kumar @ Rohit S/o Sh. Naresh Kumar, Ms. Nisha D/o Sh. Naresh Kumar",
+    "respondent_defendant": "State, through its Director L.H.M.C. & S.K. Hospital New Delhi-1 under Govt. of India, Ministry of Health & Family Welfare, Director General of Health Service, Smt. Bimlesh",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioners are the legal heirs of deceased Late Sh. Naresh Kumar and have applied for succession certificate under Section 372 of the Indian Succession Act, 1925 in respect of debts/securities of the deceased.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -55,39 +55,87 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party claiming to be a legally wedded wife/widow to prove their claim.",
+      "held": "In this regard, it is relevant to note that petitioner no. 1 has proved certified copy of decree of divorce between the deceased late Sh. Naresh Kumar and respondent no.2 as Ex. PW1/14.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "legally wedded wife",
+        "widow",
+        "burden of proof"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A decree of divorce is conclusive evidence of the dissolution of marriage.",
+      "held": "As per the same, the marriage between the parties thereto was dissolved u/s. 13 (1)(ia) of Hindu Marriage Act.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "decree of divorce",
+        "conclusive evidence",
+        "dissolution of marriage"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Allowed in favour of petitioner No. 3",
+    "final_order": "Petitioner No. 3's petition for grant of succession certificate was allowed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Section 13",
+    "Section 23",
+    "Section 25",
+    "Section 27",
+    "Section 28",
+    "Section 29",
+    "Section 30",
+    "Section 31",
+    "Section 32",
+    "Section 33",
+    "Section 34",
+    "Section 35",
+    "Section 36",
+    "Section 37",
+    "Section 38",
+    "Section 39",
+    "Section 40",
+    "Section 41",
+    "Section 42",
+    "Section 43",
+    "Section 44",
+    "Section 45"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition under Hindu Marriage Act, 1955",
+    "advising on grounds for divorce under Section 13",
+    "assisting in obtaining succession certificate under Section 372"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:52:16.458271"
 }

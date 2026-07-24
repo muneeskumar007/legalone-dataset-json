@@ -7,7 +7,7 @@
   "total_pages": 7,
   "extracted_at": "2026-07-15T11:16:38.900322",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 3,
     "partition": 1,
@@ -27,13 +27,13 @@
     "O.P.No.480/2014",
     "Mat.Appeal.No. 322 of 2016"
   ],
-  "trial_court": "",
+  "trial_court": "Family Court, Kozhikode - OP 480/2014",
   "reserved_on": "",
   "delivered_on": "",
-  "case_name": "T.Janaki Amma vs Balamani C.T on 18 February, 2016",
+  "case_name": "T.Janaki Amma vs Balamani C.T",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Balamani C.T, wife of late Madhavan Nair",
+    "respondent_defendant": "T.Janaki Amma, aged 78 years",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Petitioner sought a declaration that she is the legally wedded wife of late K.Madhavan Nair. The marriage was solemnised on 20.03.1965 and they lived together till Madhavan Nair's death on 28.8.2009. After his death, petitioner applied for family pension as his heir but it was rejected stating that Janaki Amma is the next of kin.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -61,39 +61,78 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "A second marriage contracted during the subsistence of the first marriage would be void in law.",
+      "held": "The claim of the daughter of the petitioner for any share in the family pension was also disputed by the 2nd respondent. It was further stated that the 1st respondent herein was the nominee of Sri.Madhavan Nair in all his service records.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "void marriage",
+        "family pension",
+        "nominee"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "defendant",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The burden lies on the party claiming to be the legally wedded wife to prove the same.",
+      "held": "It was further stated that the 1st respondent herein was the nominee of Sri.Madhavan Nair in all his service records.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "burden",
+        "legally wedded wife"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The court declared that the petitioner is the legally wedded wife of late K.Madhavan Nair and entitled to family pension as his heir.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "matrimonial dispute",
+    "irretrievable breakdown",
+    "cruelty",
+    "desertion",
+    "separation",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "Section 10A",
+    "Section 23(1)(a)",
+    "Section 25",
+    "matrimonial relief",
+    "alimony",
+    "maintenance",
+    "property settlement"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petition",
+    "advising on matrimonial disputes",
+    "assisting with property settlements"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T13:07:27.310664"
 }

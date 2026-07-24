@@ -7,7 +7,7 @@
   "total_pages": 11,
   "extracted_at": "2026-07-15T11:11:36.220416",
   "domain": "divorce",
-  "sub_domain": "maintenance",
+  "sub_domain": "divorce_desertion",
   "domain_scores": {
     "divorce": 9,
     "partition": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Principal Judge, Family Court, Azamgarh - Case No. 50 of 2014",
   "reserved_on": "16.10.2019",
   "delivered_on": "",
-  "case_name": "Smt. Shalini Singh vs Alok Kumar Singh on 17 January, 2020",
+  "case_name": "Smt. Shalini Singh vs Alok Kumar Singh",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Smt. Shalini Singh (wife)",
+    "respondent_defendant": "Alok Kumar Singh (husband)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized in 2006. The husband alleged that the wife deserted him about a month prior to filing the divorce case. The trial court decreed the divorce on the ground of desertion.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -69,39 +69,85 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "Desertion of the petitioner by the other party to the marriage without reasonable cause and without consent or against the wish of such party is a ground for divorce.",
+      "held": "The expression 'desertion' means the desertion of the petitioner by the other party to the marriage without reasonable cause and without the consent or against the wish of such party, and includes the wilful neglect of the petitioner by the other party to the marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 13"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "desertion",
+        "divorce",
+        "marriage",
+        "petitioner",
+        "other party"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favors": "plaintiff",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_001",
+      "favours": "neutral"
+    },
+    {
+      "principle": "A petition for divorce on the ground of desertion is maintainable only if the statutory period of two years' desertion by the other party has not expired.",
+      "held": "The issue which arises for consideration in this appeal is whether a suit for divorce filed by respondent on the ground of 'desertion' was not maintainable, as statutory period of two years' desertion by other party had not expired on the date of institution of suit.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955 — Section 13"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "divorce",
+        "desertion",
+        "statutory period",
+        "petitioner",
+        "other party"
+      ],
+      "favors": "plaintiff",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "HIGH",
+      "principle_id": "LP_002",
+      "favours": "neutral"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The appeal was allowed and the decree of divorce passed by the trial court was set aside.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "1955",
+    "Code of Criminal Procedure",
+    "1973",
+    "Family Courts Act",
+    "1984",
+    "Section 19",
+    "desertion",
+    "judgment and decree",
+    "Principal Judge",
+    "Family Court",
+    "Azamgarh",
+    "Indian Kanoon",
+    "Latin maxim",
+    "actus reus",
+    "mens rea"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "appealing family court decisions",
+    "advising on desertion grounds"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T09:12:37.217666"
 }

@@ -7,7 +7,7 @@
   "total_pages": 10,
   "extracted_at": "2026-07-15T11:14:23.608621",
   "domain": "divorce",
-  "sub_domain": "murder_criminal",
+  "sub_domain": "divorce",
   "domain_scores": {
     "divorce": 4,
     "partition": 1,
@@ -21,13 +21,13 @@
   "bench": "Single Judge",
   "judges": [],
   "case_numbers": [],
-  "trial_court": "",
+  "trial_court": "Additional Principal Judge, Family Court, Court No. 1, Azamgarh - Case No. 1138 of 2024",
   "reserved_on": "21.08.2025",
   "delivered_on": "26.08.2025",
-  "case_name": "Sunil Dubey vs Minakshi on 26 August, 2025",
+  "case_name": "Sunil Dubey vs Minakshi",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sunil Dubey (husband)",
+    "respondent_defendant": "Minakshi (wife)",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -55,7 +55,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Husband and wife filed an application under Section 13(B) of the Hindu Marriage Act, 1955 for divorce by mutual consent. The trial court fixed a date for filing of marriage certificate, but the petitioner sought exemption from filing the registration certificate.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -65,39 +65,80 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "When a Hindu marriage is solemnized in accordance with the provisions of Hindu Marriage Act, 1955, the State Governments are empowered to make rules for registration of such marriage.",
+      "held": "In order to facilitate proof of such marriage by Section 8(1) of the Act, 1955, the State Governments are empowered to make rules for registration of such marriage.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955 — Section 8"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "Hindu Marriage Act",
+        "registration",
+        "proof",
+        "marriage"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "The State Governments are empowered to make rules for registration of Hindu marriages solemnized in accordance with the provisions of Hindu Marriage Act, 1955.",
+      "held": "Such Rules may provide for keeping over Hindu Marriage Register wherein parties may record the particulars of their marriage.",
+      "applicable_acts_sections": [
+        "Hindu Marriage Act, 1955"
+      ],
+      "cited_cases": [],
+      "keywords": [
+        "registration",
+        "rules",
+        "marriage register"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "the petition is allowed",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal allowed",
+    "final_order": "The application filed by the petitioner was exempted from filing the registration certificate of the marriage.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "Hindu Marriage Act",
+    "divorce by mutual consent",
+    "Section 13(B)",
+    "marriage registration certificate",
+    "waiving off filing",
+    "Family Court",
+    "Additional Principal Judge",
+    "Article 227",
+    "Code of Civil Procedure",
+    "petition for divorce",
+    "mutual consent",
+    "unregistered marriage",
+    "Hindu Marriage Act, 1955",
+    "marriage certificate",
+    "filing application",
+    "petition under Section 13(B)",
+    "divorce petition"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "advising on Hindu Marriage Act",
+    "representing clients in Family Court"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T12:16:47.116027"
 }

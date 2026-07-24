@@ -7,7 +7,7 @@
   "total_pages": 4,
   "extracted_at": "2026-07-15T11:12:44.662662",
   "domain": "divorce",
-  "sub_domain": "partition",
+  "sub_domain": "divorce_cruelty",
   "domain_scores": {
     "divorce": 5,
     "partition": 1
@@ -21,13 +21,13 @@
   "case_numbers": [
     "M.C.No.22/2011"
   ],
-  "trial_court": "",
+  "trial_court": "Addl. Senior Civil Judge & JMFC, Sagar, MC No.22/2011",
   "reserved_on": "23.03.2023",
   "delivered_on": "",
-  "case_name": "Sri.K.N.Vijendra vs Smt. Asha on 27 March, 2023",
+  "case_name": "Sri.K.N.Vijendra vs Smt. Asha",
   "parties": {
-    "petitioner_plaintiff": "TODO — fill manually",
-    "respondent_defendant": "TODO — fill manually",
+    "petitioner_plaintiff": "Sri K.N.Vijendra, husband",
+    "respondent_defendant": "Smt. Asha, wife",
     "other_parties": []
   },
   "acts_cited_auto": [
@@ -46,7 +46,7 @@
       ]
     }
   ],
-  "facts_of_case": "TODO — 3-5 sentence summary",
+  "facts_of_case": "Marriage between the parties was solemnized on 21.05.2009. The respondent was quarrelsome and doubtful by nature, causing mental harassment to the petitioner. The respondent left the matrimonial home abruptly, deserting the petitioner.",
   "issues_decided": [
     {
       "issue_no": 1,
@@ -56,39 +56,72 @@
   ],
   "legal_principles": [
     {
-      "principle_id": "LP_001",
-      "principle": "TODO — one line reusable rule",
-      "held": "TODO — what court actually said (2-4 sentences)",
+      "principle": "The burden lies on the party alleging cruelty to prove specific instances of such conduct.",
+      "held": "On meticulous appreciation of pleading and evidence on record it is evident that the appellant has made only vague allegations, without pointing out any specific instances of cruelty.",
+      "applicable_acts_sections": [],
+      "cited_cases": [],
+      "keywords": [
+        "cruelty",
+        "specific instances"
+      ],
+      "favours": "neutral",
+      "use_in": [
+        "divorce cases"
+      ],
+      "significance": "MEDIUM",
+      "principle_id": "LP_001"
+    },
+    {
+      "principle": "A party's failure to prove the grounds of cruelty and desertion will result in dismissal of the petition.",
+      "held": "The Family Court has recorded the evidence. The appellant examined himself as PW.1 and marked Exs.P1 to P28. The respondent examined herself as RW.1. The Family Court based on the evidence inter alia held that the appellant has failed to prove the grounds of cruelty and desertion, hence dismissed the petition vide judgment dated 17.12.2016.",
       "applicable_acts_sections": [
-        "TODO"
+        "Hindu Marriage Act, 1955"
       ],
       "cited_cases": [],
       "keywords": [
-        "TODO"
+        "dismissal",
+        "grounds of cruelty and desertion"
       ],
-      "favours": "plaintiff / defendant / neutral",
+      "favours": "neutral",
       "use_in": [
-        "TODO — case types"
+        "divorce cases"
       ],
-      "significance": "HIGH / MEDIUM / LOW — one reason"
+      "significance": "HIGH",
+      "principle_id": "LP_002"
     }
   ],
   "outcome": {
-    "result": "TODO",
-    "final_order": "TODO — 2-3 sentence summary",
-    "relief_granted": "TODO",
-    "costs": "TODO"
+    "result": "Appeal dismissed",
+    "final_order": "The petition filed by the appellant seeking dissolution of marriage was dismissed.",
+    "relief_granted": "",
+    "costs": ""
   },
   "keywords": [
-    "TODO — add 15+ keywords after reading"
+    "divorce",
+    "Hindu Marriage Act",
+    "Section 28",
+    "Section 13(1)(ia)",
+    "Section 13(1)(ib)",
+    "M.C No.22/2011",
+    "MFA No.1722 of 2017",
+    "Indian Kanoon",
+    "judgment and decree",
+    "petition filed",
+    "dismissed petition",
+    "reserved judgment",
+    "pronouncement of judgment",
+    "Latin maxim: Nemo judex in causa sua"
   ],
-  "relevance_score": 0,
+  "relevance_score": 3,
   "precedent_value": "TODO",
   "use_for_drafting": [
-    "TODO"
+    "drafting divorce petitions",
+    "responding to dismissed petitions",
+    "appealing judgments and decrees"
   ],
   "annotation_verified": false,
-  "annotation_status": "pending",
-  "annotated_by": null,
-  "dataset_version": "1.0"
+  "annotation_status": "auto_llm",
+  "annotated_by": "ollama_llama3",
+  "dataset_version": "1.0",
+  "updated_at": "2026-07-24T11:00:55.371417"
 }
